@@ -1,26 +1,13 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { parse } from 'csv-parse/sync'
 import { stringify } from 'yaml'
+import generateID from './generate-id.js'
 
 const headers = {
   n: '5d20',
   m: 'Masculine Name',
   f: 'Feminine Name',
   s: 'Surname'
-}
-
-const randomAlphanumeric = () => {
-  const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  const lower = upper.toLowerCase()
-  const digits = '0123456789'
-  const chars = upper + lower + digits
-  return chars.charAt(Math.floor(Math.random() * chars.length))
-}
-
-const generateID = () => {
-  let id = ''
-  for (let i = 0; i < 16; i++) id += randomAlphanumeric()
-  return id
 }
 
 const getRange = (min, max) => {
