@@ -1,0 +1,776 @@
+_id: 2uRlTQ7a2dthSDJ1
+_key: "!tables!2uRlTQ7a2dthSDJ1"
+name: Dutch Masculine Names
+description: A selection of popular 18th century Dutch masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 9rwFymtGWUVRXdlC
+results:
+  - _id: mJmrAOdPVH3KSU0U
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.mJmrAOdPVH3KSU0U"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Petrus
+  - _id: 0qmcz9D8eSl7AVyg
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.0qmcz9D8eSl7AVyg"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Obrecht
+  - _id: ISSUp7HaAmSkElYu
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.ISSUp7HaAmSkElYu"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: David
+  - _id: dKtConxHCJBciC6X
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.dKtConxHCJBciC6X"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Zacharias
+  - _id: F6rGFB1lnLEKP3pn
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.F6rGFB1lnLEKP3pn"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Tobias
+  - _id: mjAmzaK7pRMnF9JS
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.mjAmzaK7pRMnF9JS"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Caspar
+  - _id: crlKuhUZbvlICPeQ
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.crlKuhUZbvlICPeQ"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Nathan
+  - _id: Vf3vo16k81wgzqA9
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.Vf3vo16k81wgzqA9"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Samuel
+  - _id: 4WwJDgnWaXT2lGHq
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.4WwJDgnWaXT2lGHq"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Maximiliaan
+  - _id: sF3IOI313Vce6ImR
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.sF3IOI313Vce6ImR"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Gregorius
+  - _id: mTlbqeCn8gbM81Ik
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.mTlbqeCn8gbM81Ik"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Salomon
+  - _id: XRXWZR4x27Npu9Uy
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.XRXWZR4x27Npu9Uy"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Heiman
+  - _id: 9vX0nS4Y8raEF6m8
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.9vX0nS4Y8raEF6m8"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Ignatius
+  - _id: xEWS0rm3vbUq1HAO
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.xEWS0rm3vbUq1HAO"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Julius
+  - _id: jLMx0HD1BwbhZOvk
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.jLMx0HD1BwbhZOvk"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Benjamin
+  - _id: eAZu69plppcb1JRx
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.eAZu69plppcb1JRx"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Marcus
+  - _id: kiKEJlXXK1U6kZ9w
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.kiKEJlXXK1U6kZ9w"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Gillis
+  - _id: Hq1Fiy3nYPsJotW6
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.Hq1Fiy3nYPsJotW6"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Severijn
+  - _id: 5wGtUSdidr0AI7Nz
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.5wGtUSdidr0AI7Nz"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Jasper
+  - _id: B9AO6FERhsnBF0Fd
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.B9AO6FERhsnBF0Fd"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Albert
+  - _id: tJQpmFuJLm2vkYnY
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.tJQpmFuJLm2vkYnY"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Bastiaen
+  - _id: iRrLbBoKBkErOS6Y
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.iRrLbBoKBkErOS6Y"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Abraham
+  - _id: hBZU8cIIOBmJeMas
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.hBZU8cIIOBmJeMas"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Melchoir
+  - _id: coZHr0TxZ3fNKTfp
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.coZHr0TxZ3fNKTfp"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Laurens
+  - _id: ZxF72UOHXDOpg95O
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.ZxF72UOHXDOpg95O"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Hendrick
+  - _id: jcl649NvbBKSXKwh
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.jcl649NvbBKSXKwh"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Philips
+  - _id: oR5Kq5MNCi0bghuS
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.oR5Kq5MNCi0bghuS"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Diederik
+  - _id: lMg9h6budx3fYihz
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.lMg9h6budx3fYihz"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Frans
+  - _id: WdMpbPA9DGyUAi3g
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.WdMpbPA9DGyUAi3g"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Lukas
+  - _id: jbrk9UbQQJVnTCgK
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.jbrk9UbQQJVnTCgK"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Matthijs
+  - _id: kxk3sQuM1pUD4o9l
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.kxk3sQuM1pUD4o9l"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Koenraad
+  - _id: pxKMJiQbYsNHvNKF
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.pxKMJiQbYsNHvNKF"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Floris
+  - _id: PgALVkeHwhcvqCU5
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.PgALVkeHwhcvqCU5"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Nicolaes
+  - _id: hbvWe3xeup8V2WpM
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.hbvWe3xeup8V2WpM"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Reinier
+  - _id: XGBZlTLzPKYP6iVN
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.XGBZlTLzPKYP6iVN"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Joost
+  - _id: zF9pvadHPy1i2xR8
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.zF9pvadHPy1i2xR8"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Dirk
+  - _id: d9NUsLtFDRrhg1JL
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.d9NUsLtFDRrhg1JL"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Andries
+  - _id: U7136xYHr9UuY0I3
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.U7136xYHr9UuY0I3"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Gerrit
+  - _id: 1CpMG7ggQKPLd6ua
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.1CpMG7ggQKPLd6ua"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Harmen
+  - _id: VTtZCD1FA9WdrBoG
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.VTtZCD1FA9WdrBoG"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Adriaan
+  - _id: wMbXJIJXZE6gbQ9y
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.wMbXJIJXZE6gbQ9y"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Antonius
+  - _id: 2ljii3VCCSiKzsi5
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.2ljii3VCCSiKzsi5"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Arent
+  - _id: 0O4WOv8ZmZrr7wdq
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.0O4WOv8ZmZrr7wdq"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Hendrik
+  - _id: 5QLDoXsW1SMZqSol
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.5QLDoXsW1SMZqSol"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Cornelis
+  - _id: vXASxrGQTm0CY779
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.vXASxrGQTm0CY779"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Willem
+  - _id: OhcBkwf784OZkGx8
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.OhcBkwf784OZkGx8"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Pieter
+  - _id: LEWPGPPJz2tCKuGV
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.LEWPGPPJz2tCKuGV"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Hans
+  - _id: coxPnZYwA7xOGytN
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.coxPnZYwA7xOGytN"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Jan
+  - _id: GX7P9MqkLTpQc69y
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.GX7P9MqkLTpQc69y"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Johannes
+  - _id: k4E48G9t60sfaKky
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.k4E48G9t60sfaKky"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Johan
+  - _id: e7dxVhElSSxrQ0Ut
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.e7dxVhElSSxrQ0Ut"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Piet
+  - _id: WpArHogZjX1GNmYV
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.WpArHogZjX1GNmYV"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Wim
+  - _id: eQC7dvGdNjkML8fE
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.eQC7dvGdNjkML8fE"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Cor
+  - _id: owwcj1LrKi88INzV
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.owwcj1LrKi88INzV"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Henk
+  - _id: DvLBA0mIP5CHXjQb
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.DvLBA0mIP5CHXjQb"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Jacob
+  - _id: JoiPYB0Y4xhJDtSq
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.JoiPYB0Y4xhJDtSq"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Maarten
+  - _id: M09dKoJgi4V8NXix
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.M09dKoJgi4V8NXix"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Isaac
+  - _id: NxTa480FuBGyd2hx
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.NxTa480FuBGyd2hx"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Evert
+  - _id: iqHne7gs7lFbbAUC
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.iqHne7gs7lFbbAUC"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Claes
+  - _id: cwvsm5A4EzJ0Tr8U
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.cwvsm5A4EzJ0Tr8U"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Barent
+  - _id: aE5lk35esBm5WNhn
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.aE5lk35esBm5WNhn"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Christoffel
+  - _id: XCLFDaAjeECgUupf
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.XCLFDaAjeECgUupf"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Thomas
+  - _id: Vlfh94IR6akLaThs
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.Vlfh94IR6akLaThs"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Govert
+  - _id: dmxXdGYz5LAa3p9B
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.dmxXdGYz5LAa3p9B"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Rutger
+  - _id: Z3WC5cYytQt6nmkk
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.Z3WC5cYytQt6nmkk"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Roelof
+  - _id: BjhMHG1dtQsdWKmS
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.BjhMHG1dtQsdWKmS"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Wolter
+  - _id: OxJpGU4iJw5Fkf3V
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.OxJpGU4iJw5Fkf3V"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Lodewijk
+  - _id: BXAxgUJJAXpCuCbx
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.BXAxgUJJAXpCuCbx"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Egbert
+  - _id: pImyC0OyBRnBZ3nA
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.pImyC0OyBRnBZ3nA"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Simon
+  - _id: mZgkssoQfC6DcMTU
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.mZgkssoQfC6DcMTU"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Leendert
+  - _id: CAwONmFv09TJU4Kn
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.CAwONmFv09TJU4Kn"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Michiel
+  - _id: VTomgIpRr8yrUmck
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.VTomgIpRr8yrUmck"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Otto
+  - _id: LlpK3XQglp2U3zG4
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.LlpK3XQglp2U3zG4"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Gijsbert
+  - _id: WbfELUEwiZvb7ETJ
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.WbfELUEwiZvb7ETJ"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Jurriaen
+  - _id: nJ0s4DM2Ncer5mEY
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.nJ0s4DM2Ncer5mEY"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Paulus
+  - _id: sqKLTQ5LsYRLUW3Q
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.sqKLTQ5LsYRLUW3Q"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Huibert
+  - _id: 4Z6meeYjr348AgGG
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.4Z6meeYjr348AgGG"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Jonas
+  - _id: 2GQc0EbYmRc35M9O
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.2GQc0EbYmRc35M9O"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Victor
+  - _id: eDokCjBFVFlcY2LV
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.eDokCjBFVFlcY2LV"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Raphael
+  - _id: 9HFHYEQn8tCwCJKk
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.9HFHYEQn8tCwCJKk"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Stephanus
+  - _id: MYCPJbtqxx3KV1JA
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.MYCPJbtqxx3KV1JA"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Geerhard
+  - _id: J28UWubhCxsdEc4m
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.J28UWubhCxsdEc4m"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Mattheus
+  - _id: ia8WtR0YHS7ZIvuY
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.ia8WtR0YHS7ZIvuY"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Elias
+  - _id: zgIN96sO9RcZXZt3
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.zgIN96sO9RcZXZt3"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Daniël
+  - _id: Z6WiofhWLqst755c
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.Z6WiofhWLqst755c"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Josephus
+  - _id: MyZT7SjcrSjrr8Hl
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.MyZT7SjcrSjrr8Hl"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Theodorus
+  - _id: rMEbxSmMVjoyo4Sr
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.rMEbxSmMVjoyo4Sr"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Hieronymus
+  - _id: 7mkEGQoTgVXMk9U9
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.7mkEGQoTgVXMk9U9"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Olivier
+  - _id: j9sX61m2j3jLYOTg
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.j9sX61m2j3jLYOTg"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Aris
+  - _id: 4B3h2srpkovFmuG0
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.4B3h2srpkovFmuG0"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Job
+  - _id: 3ZnYOAgaQ6INPMdW
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.3ZnYOAgaQ6INPMdW"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Bartel
+  - _id: ifnurpbyIP8VH9Uo
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.ifnurpbyIP8VH9Uo"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Fredericus
+  - _id: lOUO1rVMkSc1Io5D
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.lOUO1rVMkSc1Io5D"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Bernhard
+  - _id: VyL2h49FVfEnlYKs
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.VyL2h49FVfEnlYKs"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Teunis
+  - _id: M64bYUZJrks0wjfU
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.M64bYUZJrks0wjfU"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Valentijn
+  - _id: QGo27ZlrdPBQ8XpX
+    _key: "!tables.results!2uRlTQ7a2dthSDJ1.QGo27ZlrdPBQ8XpX"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Emanuel
