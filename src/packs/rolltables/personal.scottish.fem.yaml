@@ -1,0 +1,776 @@
+_id: GDuEJy7cl7KpUddS
+_key: "!tables!GDuEJy7cl7KpUddS"
+name: Scottish Feminine Names
+description: A selection of popular 18th century Scottish feminine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 5HAo7kUCb8cgEDd2
+results:
+  - _id: 29VdzjhEDqdd3Msq
+    _key: "!tables.results!GDuEJy7cl7KpUddS.29VdzjhEDqdd3Msq"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Lydia
+  - _id: RXgi9lEmg306ymQF
+    _key: "!tables.results!GDuEJy7cl7KpUddS.RXgi9lEmg306ymQF"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Lilly
+  - _id: 4iMC0QY1eFhPZBnU
+    _key: "!tables.results!GDuEJy7cl7KpUddS.4iMC0QY1eFhPZBnU"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Alexina
+  - _id: ej9dn8aAyN8pYv6N
+    _key: "!tables.results!GDuEJy7cl7KpUddS.ej9dn8aAyN8pYv6N"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Bethia
+  - _id: 7xu0Wz7wtRBMGdpH
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7xu0Wz7wtRBMGdpH"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Florence
+  - _id: gOC6kGDMmND2pYX8
+    _key: "!tables.results!GDuEJy7cl7KpUddS.gOC6kGDMmND2pYX8"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Isobel
+  - _id: dPrEF5yY8PK00hEi
+    _key: "!tables.results!GDuEJy7cl7KpUddS.dPrEF5yY8PK00hEi"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Lucy
+  - _id: CfH8xiKQjqLnRQJx
+    _key: "!tables.results!GDuEJy7cl7KpUddS.CfH8xiKQjqLnRQJx"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Rosanna
+  - _id: Xr9NDm8PPY5QAuuo
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Xr9NDm8PPY5QAuuo"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Peggy
+  - _id: bZIHW4z1DwcYbi3f
+    _key: "!tables.results!GDuEJy7cl7KpUddS.bZIHW4z1DwcYbi3f"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Nancy
+  - _id: upaXUDOJiIdJU3Lz
+    _key: "!tables.results!GDuEJy7cl7KpUddS.upaXUDOJiIdJU3Lz"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Violet
+  - _id: dqLWY4cKSdiJ2Kcz
+    _key: "!tables.results!GDuEJy7cl7KpUddS.dqLWY4cKSdiJ2Kcz"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Eleanor
+  - _id: TMIBOmVvAcdqaBBr
+    _key: "!tables.results!GDuEJy7cl7KpUddS.TMIBOmVvAcdqaBBr"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Isabel
+  - _id: BzXXWhRUJKOTpFHJ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.BzXXWhRUJKOTpFHJ"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Elsie
+  - _id: C5L1rYqVXkT3S3oQ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.C5L1rYqVXkT3S3oQ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Johanna
+  - _id: b2eHH5cU1GIhML4c
+    _key: "!tables.results!GDuEJy7cl7KpUddS.b2eHH5cU1GIhML4c"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Emma
+  - _id: MYaxPyZ4mlDuOx5w
+    _key: "!tables.results!GDuEJy7cl7KpUddS.MYaxPyZ4mlDuOx5w"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Joanna
+  - _id: Fd6PWGPyWfe46fti
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Fd6PWGPyWfe46fti"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Esther
+  - _id: NAzAJHyPUHRKN9pw
+    _key: "!tables.results!GDuEJy7cl7KpUddS.NAzAJHyPUHRKN9pw"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Alexandrina
+  - _id: CjcAWeOqnOx9knPp
+    _key: "!tables.results!GDuEJy7cl7KpUddS.CjcAWeOqnOx9knPp"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Lillias
+  - _id: XsHcSL76oIetP9cg
+    _key: "!tables.results!GDuEJy7cl7KpUddS.XsHcSL76oIetP9cg"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Fanny
+  - _id: TnrYsJzduHJG9Igg
+    _key: "!tables.results!GDuEJy7cl7KpUddS.TnrYsJzduHJG9Igg"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Louisa
+  - _id: NazTyBQwGxku2voW
+    _key: "!tables.results!GDuEJy7cl7KpUddS.NazTyBQwGxku2voW"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Amelia
+  - _id: Neskp4zjOEBBHMpn
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Neskp4zjOEBBHMpn"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Matilda
+  - _id: YdCSZ5xR2ClRBaoH
+    _key: "!tables.results!GDuEJy7cl7KpUddS.YdCSZ5xR2ClRBaoH"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Frances
+  - _id: KhcucjO0B7j0OUZt
+    _key: "!tables.results!GDuEJy7cl7KpUddS.KhcucjO0B7j0OUZt"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Alison
+  - _id: WJOGPFWtr9R37eyz
+    _key: "!tables.results!GDuEJy7cl7KpUddS.WJOGPFWtr9R37eyz"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Rebecca
+  - _id: MQMLZ7seVCGqDcpf
+    _key: "!tables.results!GDuEJy7cl7KpUddS.MQMLZ7seVCGqDcpf"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Maggie
+  - _id: npJIPq4886YolHL6
+    _key: "!tables.results!GDuEJy7cl7KpUddS.npJIPq4886YolHL6"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Elspet
+  - _id: 4QMxJb4cTb0ndlRF
+    _key: "!tables.results!GDuEJy7cl7KpUddS.4QMxJb4cTb0ndlRF"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Joan
+  - _id: 7zMm7Bi7JeZp2yST
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7zMm7Bi7JeZp2yST"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Flora
+  - _id: sMBmG8nv23PbPo6k
+    _key: "!tables.results!GDuEJy7cl7KpUddS.sMBmG8nv23PbPo6k"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Robina
+  - _id: 7zf0AzkYBqrynT18
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7zf0AzkYBqrynT18"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Alice
+  - _id: GDRsA0guMb1qq9dB
+    _key: "!tables.results!GDuEJy7cl7KpUddS.GDRsA0guMb1qq9dB"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Catharine
+  - _id: 1iusFxUsoUU0WP2I
+    _key: "!tables.results!GDuEJy7cl7KpUddS.1iusFxUsoUU0WP2I"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Bridget
+  - _id: tTXD2gSasYMvOMdO
+    _key: "!tables.results!GDuEJy7cl7KpUddS.tTXD2gSasYMvOMdO"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Jeanie
+  - _id: 8oju2NOoSaPjVcy0
+    _key: "!tables.results!GDuEJy7cl7KpUddS.8oju2NOoSaPjVcy0"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Euphemia
+  - _id: BDV9ylHjXeaeiFBO
+    _key: "!tables.results!GDuEJy7cl7KpUddS.BDV9ylHjXeaeiFBO"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Susan
+  - _id: I168oC60nKm1HqUB
+    _key: "!tables.results!GDuEJy7cl7KpUddS.I168oC60nKm1HqUB"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Grace
+  - _id: uTJigqbHzD1LQ7fh
+    _key: "!tables.results!GDuEJy7cl7KpUddS.uTJigqbHzD1LQ7fh"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Jean
+  - _id: Uc2R9O9Cjm2Qmkqj
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Uc2R9O9Cjm2Qmkqj"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Annie
+  - _id: ieoriTgxsiHFbJat
+    _key: "!tables.results!GDuEJy7cl7KpUddS.ieoriTgxsiHFbJat"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Sarah
+  - _id: r7D6iFh65hnC2lQ7
+    _key: "!tables.results!GDuEJy7cl7KpUddS.r7D6iFh65hnC2lQ7"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Jessie
+  - _id: 7CnSr5Cub6OowpKz
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7CnSr5Cub6OowpKz"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Catherine
+  - _id: DW9dw9yz5DgelhI6
+    _key: "!tables.results!GDuEJy7cl7KpUddS.DW9dw9yz5DgelhI6"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Ann
+  - _id: vaSIFZPGlbU5qOhq
+    _key: "!tables.results!GDuEJy7cl7KpUddS.vaSIFZPGlbU5qOhq"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Isabella
+  - _id: 4bD8gmU4yQ8GqyvF
+    _key: "!tables.results!GDuEJy7cl7KpUddS.4bD8gmU4yQ8GqyvF"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Jane
+  - _id: Vr3p7AdvQKIaqE9F
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Vr3p7AdvQKIaqE9F"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Mary
+  - _id: FCclS0wtLxIebDzs
+    _key: "!tables.results!GDuEJy7cl7KpUddS.FCclS0wtLxIebDzs"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Margaret
+  - _id: 0CTWqgY2GJwoWmZw
+    _key: "!tables.results!GDuEJy7cl7KpUddS.0CTWqgY2GJwoWmZw"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Elizabeth
+  - _id: CDQtigo0Y7cQU7q9
+    _key: "!tables.results!GDuEJy7cl7KpUddS.CDQtigo0Y7cQU7q9"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Janet
+  - _id: ZbEVgBeletVWW8EK
+    _key: "!tables.results!GDuEJy7cl7KpUddS.ZbEVgBeletVWW8EK"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Agnes
+  - _id: S9fh2s5CtLrmAAVQ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.S9fh2s5CtLrmAAVQ"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Helen
+  - _id: 5kBZLDTZLJMeyluT
+    _key: "!tables.results!GDuEJy7cl7KpUddS.5kBZLDTZLJMeyluT"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Christina
+  - _id: 3hjetfiSoAkAvbcY
+    _key: "!tables.results!GDuEJy7cl7KpUddS.3hjetfiSoAkAvbcY"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Marion
+  - _id: TdiM7DDDaXDGNCw7
+    _key: "!tables.results!GDuEJy7cl7KpUddS.TdiM7DDDaXDGNCw7"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Barbara
+  - _id: MC6yQcNvcMFmNzKt
+    _key: "!tables.results!GDuEJy7cl7KpUddS.MC6yQcNvcMFmNzKt"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Eliza
+  - _id: 7wdFynFLWTzpgwHP
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7wdFynFLWTzpgwHP"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Martha
+  - _id: dOCEapsZRA0PNJU4
+    _key: "!tables.results!GDuEJy7cl7KpUddS.dOCEapsZRA0PNJU4"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Anne
+  - _id: 0wvMKydVfgqIsRdr
+    _key: "!tables.results!GDuEJy7cl7KpUddS.0wvMKydVfgqIsRdr"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Jemima
+  - _id: m4FBkiSWYTyokXmh
+    _key: "!tables.results!GDuEJy7cl7KpUddS.m4FBkiSWYTyokXmh"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Georgina
+  - _id: NeumkB0YbU9cVVRx
+    _key: "!tables.results!GDuEJy7cl7KpUddS.NeumkB0YbU9cVVRx"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Betsy
+  - _id: CcUJKfEiyNNtxMVF
+    _key: "!tables.results!GDuEJy7cl7KpUddS.CcUJKfEiyNNtxMVF"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Ellen
+  - _id: X0eVjqCnhxnOzBea
+    _key: "!tables.results!GDuEJy7cl7KpUddS.X0eVjqCnhxnOzBea"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Charlotte
+  - _id: RU3NUfwYrb6EWi36
+    _key: "!tables.results!GDuEJy7cl7KpUddS.RU3NUfwYrb6EWi36"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Williamina
+  - _id: V9eva9GRh0nIaXS6
+    _key: "!tables.results!GDuEJy7cl7KpUddS.V9eva9GRh0nIaXS6"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Hannah
+  - _id: nlQ9RUNtQtWWEX9b
+    _key: "!tables.results!GDuEJy7cl7KpUddS.nlQ9RUNtQtWWEX9b"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Rachel
+  - _id: gKZ0ZCmXK9AlQJdC
+    _key: "!tables.results!GDuEJy7cl7KpUddS.gKZ0ZCmXK9AlQJdC"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Maria
+  - _id: hPQbtULLckv7gBhl
+    _key: "!tables.results!GDuEJy7cl7KpUddS.hPQbtULLckv7gBhl"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Rose
+  - _id: KkpWoekdMmIYBjpg
+    _key: "!tables.results!GDuEJy7cl7KpUddS.KkpWoekdMmIYBjpg"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Marjory
+  - _id: Au81ayJ5saJAMpCJ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.Au81ayJ5saJAMpCJ"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Henrietta
+  - _id: m5FD3IaaJkwPyUub
+    _key: "!tables.results!GDuEJy7cl7KpUddS.m5FD3IaaJkwPyUub"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Wilhelmina
+  - _id: 9R1ODuiNctECkmT6
+    _key: "!tables.results!GDuEJy7cl7KpUddS.9R1ODuiNctECkmT6"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Harriet
+  - _id: 88JJwnB6gJkYsGCk
+    _key: "!tables.results!GDuEJy7cl7KpUddS.88JJwnB6gJkYsGCk"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Sophia
+  - _id: IuVpTF3P5IStWNJ1
+    _key: "!tables.results!GDuEJy7cl7KpUddS.IuVpTF3P5IStWNJ1"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Annabella
+  - _id: vOAKWBTfjhUbdmus
+    _key: "!tables.results!GDuEJy7cl7KpUddS.vOAKWBTfjhUbdmus"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Emily
+  - _id: 7UDqX9PAplrz911t
+    _key: "!tables.results!GDuEJy7cl7KpUddS.7UDqX9PAplrz911t"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Cecilia
+  - _id: yU8rJ8AKiwdNXR8t
+    _key: "!tables.results!GDuEJy7cl7KpUddS.yU8rJ8AKiwdNXR8t"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Elisabeth
+  - _id: duZ2U5Gsjz1YYuT8
+    _key: "!tables.results!GDuEJy7cl7KpUddS.duZ2U5Gsjz1YYuT8"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Caroline
+  - _id: GbMiQq1L3xKn2tOb
+    _key: "!tables.results!GDuEJy7cl7KpUddS.GbMiQq1L3xKn2tOb"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Julia
+  - _id: TBGt0xI8LRTNNO0z
+    _key: "!tables.results!GDuEJy7cl7KpUddS.TBGt0xI8LRTNNO0z"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Anna
+  - _id: XO7sc9GdMds2tOgh
+    _key: "!tables.results!GDuEJy7cl7KpUddS.XO7sc9GdMds2tOgh"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: May
+  - _id: idxQzsIpma7VnptR
+    _key: "!tables.results!GDuEJy7cl7KpUddS.idxQzsIpma7VnptR"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Elspeth
+  - _id: 2LGWZH4NVKbsHWr4
+    _key: "!tables.results!GDuEJy7cl7KpUddS.2LGWZH4NVKbsHWr4"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Edith
+  - _id: 0QiyRNIAv95HO3sZ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.0QiyRNIAv95HO3sZ"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Susannah
+  - _id: tHFRIDsCqo7Qut3A
+    _key: "!tables.results!GDuEJy7cl7KpUddS.tHFRIDsCqo7Qut3A"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Beatrice
+  - _id: 3kxTgqVT2eFnmuXl
+    _key: "!tables.results!GDuEJy7cl7KpUddS.3kxTgqVT2eFnmuXl"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Christy
+  - _id: cS1bcEG9VdIM64Un
+    _key: "!tables.results!GDuEJy7cl7KpUddS.cS1bcEG9VdIM64Un"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Magdalene
+  - _id: 9NJzFeEtlELvILKg
+    _key: "!tables.results!GDuEJy7cl7KpUddS.9NJzFeEtlELvILKg"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Thomasina
+  - _id: qBD5APzxK2UpUQrS
+    _key: "!tables.results!GDuEJy7cl7KpUddS.qBD5APzxK2UpUQrS"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Davina
+  - _id: nPf4kMZzEJHILBO3
+    _key: "!tables.results!GDuEJy7cl7KpUddS.nPf4kMZzEJHILBO3"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Rosina
+  - _id: z2JFjr6pXUkokE1x
+    _key: "!tables.results!GDuEJy7cl7KpUddS.z2JFjr6pXUkokE1x"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Jamesina
+  - _id: ROhEdaJ7k6yvxjmZ
+    _key: "!tables.results!GDuEJy7cl7KpUddS.ROhEdaJ7k6yvxjmZ"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Letitia
+  - _id: CJJDp480b9HOqYMe
+    _key: "!tables.results!GDuEJy7cl7KpUddS.CJJDp480b9HOqYMe"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Clara
+  - _id: IKNpCiFWOQXeGa3s
+    _key: "!tables.results!GDuEJy7cl7KpUddS.IKNpCiFWOQXeGa3s"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Kate
+  - _id: K689p0zZQKwb6Zvq
+    _key: "!tables.results!GDuEJy7cl7KpUddS.K689p0zZQKwb6Zvq"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Bella
