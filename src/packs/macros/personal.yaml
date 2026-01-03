@@ -1,0 +1,8 @@
+_id: UKo8oHiN0CWOUCfv
+_key: "!macros!UKo8oHiN0CWOUCfv"
+name: Generate Personal Name
+type: script
+scope: global
+img: icons/svg/d20-grey.svg
+command: |
+  await game.modules.get('revolutionary-piratenames').api.openGeneratePersonalNameDialog()

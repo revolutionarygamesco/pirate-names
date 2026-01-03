@@ -1,0 +1,8 @@
+_id: Kp5GDUrUTXMyNlR4
+_key: "!macros!Kp5GDUrUTXMyNlR4"
+name: Generate Ship Name
+type: script
+scope: global
+img: icons/svg/d20-grey.svg
+command: |
+  await game.modules.get('revolutionary-piratenames').api.openGenerateShipNameDialog()
