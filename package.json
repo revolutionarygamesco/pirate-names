@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json && vite build && npm run pack",
     "pack": "node ./scripts/pack.js",
+    "yamlify-personal": "node ./scripts/yamlify-personal.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
