@@ -1,0 +1,776 @@
+_id: WPdAj2c6hKX2a4v3
+_key: "!tables!WPdAj2c6hKX2a4v3"
+name: French Feminine Names
+description: A selection of popular 18th century French feminine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: JLbQO5fZh8SyqYon
+results:
+  - _id: loWvuCJBQiwgNRDR
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.loWvuCJBQiwgNRDR"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Scholastique
+  - _id: dmqQc7KHG1lXqeLU
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.dmqQc7KHG1lXqeLU"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Bernardine
+  - _id: 1YI9u4kiPHk5qfqM
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.1YI9u4kiPHk5qfqM"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Anastasie
+  - _id: bl437jR9thfcdxFH
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.bl437jR9thfcdxFH"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Aliya
+  - _id: CSvYfQD2poH0EQIQ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.CSvYfQD2poH0EQIQ"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Hanna
+  - _id: rEqp2paFaIKeFRpH
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.rEqp2paFaIKeFRpH"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Joséphine
+  - _id: VGVLAV3nkyrfttOk
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.VGVLAV3nkyrfttOk"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Lena
+  - _id: lNKSnbOuNOVihdWm
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.lNKSnbOuNOVihdWm"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nora
+  - _id: ELtSCAVp0GWrBOXa
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.ELtSCAVp0GWrBOXa"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Maïssa
+  - _id: yU0LCZyrC3hqZdo5
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.yU0LCZyrC3hqZdo5"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Elina
+  - _id: 7xh0qfMvNTuxyDxv
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.7xh0qfMvNTuxyDxv"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Amélia
+  - _id: jhyVpF5e3KnGtPdR
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.jhyVpF5e3KnGtPdR"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Laura
+  - _id: DMUgT4DIIfDdHlWi
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.DMUgT4DIIfDdHlWi"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Maryam
+  - _id: SnR69GKjNxVGtH9l
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.SnR69GKjNxVGtH9l"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Alya
+  - _id: mKHg6BD65X42ha0Y
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.mKHg6BD65X42ha0Y"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Zélie
+  - _id: DaqRkTO52CPbYxAw
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.DaqRkTO52CPbYxAw"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Livia
+  - _id: SDIw3c4hyTClLBXg
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.SDIw3c4hyTClLBXg"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Constance
+  - _id: HsD9H5qy3JrXEq32
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.HsD9H5qy3JrXEq32"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Maria
+  - _id: El68QzKozb0ymcP9
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.El68QzKozb0ymcP9"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Faustine
+  - _id: wNZTZe6nm7IrAKyZ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.wNZTZe6nm7IrAKyZ"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Germaine
+  - _id: eiqezhkEByv2FGjL
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.eiqezhkEByv2FGjL"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Delphine
+  - _id: n50ddVcMJR9mSH20
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.n50ddVcMJR9mSH20"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Céleste
+  - _id: kkmAY2Zf9aggFuB1
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.kkmAY2Zf9aggFuB1"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Justine
+  - _id: FD0wrX7Ej9kdawAD
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.FD0wrX7Ej9kdawAD"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Blanche
+  - _id: dT37ztIQNn1FwttK
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.dT37ztIQNn1FwttK"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Émilie
+  - _id: sE9JoxURMSfyL4aN
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.sE9JoxURMSfyL4aN"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Agathe
+  - _id: NFNI2nAGJj6u6In6
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.NFNI2nAGJj6u6In6"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Christine
+  - _id: hM9t5ONUQQVJfI9q
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.hM9t5ONUQQVJfI9q"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Julienne
+  - _id: zeza0h3cw1nTpb5k
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.zeza0h3cw1nTpb5k"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Lucile
+  - _id: u3Gg7D3bMhpb4Wdd
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.u3Gg7D3bMhpb4Wdd"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Philippa
+  - _id: nMOwnTTM5Z9jGLp8
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.nMOwnTTM5Z9jGLp8"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Guillemette
+  - _id: htFP3JYGIaP84pvf
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.htFP3JYGIaP84pvf"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Angélique
+  - _id: yAiySlMprUp1TEQj
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.yAiySlMprUp1TEQj"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Cécile
+  - _id: dVeftoF6WWAjWppf
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.dVeftoF6WWAjWppf"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Hélène
+  - _id: DYt9NuZt6ocDVl9I
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.DYt9NuZt6ocDVl9I"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Monique
+  - _id: OvXugyzaffHGqTLO
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.OvXugyzaffHGqTLO"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Gabrielle
+  - _id: GIrC00DQVOHJQo3i
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.GIrC00DQVOHJQo3i"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Michèle
+  - _id: M2SLmnN3w9bWV14T
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.M2SLmnN3w9bWV14T"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Denise
+  - _id: WUjoQYlYjagJGqRU
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.WUjoQYlYjagJGqRU"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Agnès
+  - _id: 9mtPySBOy6jx0nlF
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.9mtPySBOy6jx0nlF"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Jacqueline
+  - _id: v4xUQ8IsfRYMAZYU
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.v4xUQ8IsfRYMAZYU"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Charlotte
+  - _id: JbW04EZfRRQ60zfG
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.JbW04EZfRRQ60zfG"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Thérèse
+  - _id: r71IM5BDCDxiOKmP
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.r71IM5BDCDxiOKmP"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Geneviève
+  - _id: ohfG5eRZTlkikoCY
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.ohfG5eRZTlkikoCY"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Madeleine
+  - _id: KQi2LkpYN128XvLE
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.KQi2LkpYN128XvLE"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Louise
+  - _id: my535GyXI6G1E8fB
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.my535GyXI6G1E8fB"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Catherine
+  - _id: kyXS9XbL11Zh17ag
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.kyXS9XbL11Zh17ag"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Jeanne
+  - _id: 7EBZD8RqsWkx4W04
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.7EBZD8RqsWkx4W04"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Marie
+  - _id: wkqoHdoX6bSVgo13
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.wkqoHdoX6bSVgo13"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Anne
+  - _id: AJWTY4Km7xoe6aYf
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.AJWTY4Km7xoe6aYf"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Marguerite
+  - _id: ltUbhRQjdZQGNdn7
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.ltUbhRQjdZQGNdn7"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Françoise
+  - _id: zPnsZz2tVSApYqc3
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.zPnsZz2tVSApYqc3"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Élisabeth
+  - _id: TF0ysllWVSLZmgRs
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.TF0ysllWVSLZmgRs"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Nicole
+  - _id: 3apzykEcb4ypep8X
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.3apzykEcb4ypep8X"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Claudine
+  - _id: BuYGpVFAXd7YXsMr
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.BuYGpVFAXd7YXsMr"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Antoinette
+  - _id: jM6XHiGoRkyR7AHi
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.jM6XHiGoRkyR7AHi"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Suzanne
+  - _id: roz4DFQs8WqB1MTO
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.roz4DFQs8WqB1MTO"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Barbe
+  - _id: lmSQa9MVRIMsdO8t
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.lmSQa9MVRIMsdO8t"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Andrée
+  - _id: nbArKguF78FbSLTi
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.nbArKguF78FbSLTi"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Marthe
+  - _id: d3Tk7ytMrDGDm1NP
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.d3Tk7ytMrDGDm1NP"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Simone
+  - _id: OqUKygV5nU02rZdC
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.OqUKygV5nU02rZdC"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Claire
+  - _id: 6AZF66CzCWb0J4cC
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.6AZF66CzCWb0J4cC"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Isabelle
+  - _id: nW0kH9tr1OMDa6dJ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.nW0kH9tr1OMDa6dJ"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Perrine
+  - _id: jvPOEDr9q818olxs
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.jvPOEDr9q818olxs"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Renée
+  - _id: rW9yghQoVBlPW3ER
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.rW9yghQoVBlPW3ER"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Colette
+  - _id: DzlhjWscgpg5vBRO
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.DzlhjWscgpg5vBRO"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Rosalie
+  - _id: VNe33NLkMvaK8lod
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.VNe33NLkMvaK8lod"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Ursule
+  - _id: 4Az4sqW7aCQDQbpF
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.4Az4sqW7aCQDQbpF"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Pauline
+  - _id: GfAf3guMmm3v3Zel
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.GfAf3guMmm3v3Zel"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Amélie
+  - _id: XpxxIEx2oENYxSJz
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.XpxxIEx2oENYxSJz"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Véronique
+  - _id: 09hRnVXbEoiclMjG
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.09hRnVXbEoiclMjG"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Adrienne
+  - _id: sJv3YgJvCYFpgAuQ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.sJv3YgJvCYFpgAuQ"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Caroline
+  - _id: mTbIvgCx8Lwunj6m
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.mTbIvgCx8Lwunj6m"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Héloïse
+  - _id: 4zAAHBCFQJd0ekQ5
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.4zAAHBCFQJd0ekQ5"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Océane
+  - _id: 1rTEaYPJtwAulv5J
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.1rTEaYPJtwAulv5J"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Ines
+  - _id: UzKeBYnOGTKuASQ7
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.UzKeBYnOGTKuASQ7"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Mélina
+  - _id: T84bqulze5IEt71O
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.T84bqulze5IEt71O"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Maya
+  - _id: Z5y2UzNpXCaoyz7j
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.Z5y2UzNpXCaoyz7j"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Salomé
+  - _id: JlBNYQlnasccmqrK
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.JlBNYQlnasccmqrK"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Lila
+  - _id: nXBNBPFHmX0BDFIS
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.nXBNBPFHmX0BDFIS"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Célia
+  - _id: 3lvWv2BnwpZm8HEv
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.3lvWv2BnwpZm8HEv"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Sara
+  - _id: CqgO1u3V8k5ne0Q9
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.CqgO1u3V8k5ne0Q9"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Lyana
+  - _id: TJ0BFWk0mlcKxh9z
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.TJ0BFWk0mlcKxh9z"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Elisa
+  - _id: Q1JVpByu3W0HrkoM
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.Q1JVpByu3W0HrkoM"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Eloïse
+  - _id: 4rEwuJxL2yr83GiU
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.4rEwuJxL2yr83GiU"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Myla
+  - _id: tfpCbZvFw7TzpBHQ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.tfpCbZvFw7TzpBHQ"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Maëlle
+  - _id: avcnMlpEQGDvkXVR
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.avcnMlpEQGDvkXVR"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Louisa
+  - _id: 7egRlDvr3IOtocSg
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.7egRlDvr3IOtocSg"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Selma
+  - _id: go1fFUaWphT3MflC
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.go1fFUaWphT3MflC"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Léane
+  - _id: 4xgGoBdfbA5cuQo1
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.4xgGoBdfbA5cuQo1"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Amina
+  - _id: u5L5gGU37xasobgQ
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.u5L5gGU37xasobgQ"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Méline
+  - _id: 4KL32DZUGvloA5vs
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.4KL32DZUGvloA5vs"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Sophia
+  - _id: KyR58iAvqI3DkNCp
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.KyR58iAvqI3DkNCp"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ava
+  - _id: YtNriZo3u8hRD7Dq
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.YtNriZo3u8hRD7Dq"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Stella
+  - _id: 3GfMdOtfa6ahOJPH
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.3GfMdOtfa6ahOJPH"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Étiennette
+  - _id: FTSa72aJq5jk9LGn
+    _key: "!tables.results!WPdAj2c6hKX2a4v3.FTSa72aJq5jk9LGn"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Victoire

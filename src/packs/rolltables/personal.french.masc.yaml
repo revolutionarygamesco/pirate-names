@@ -1,0 +1,776 @@
+_id: ZI93VXQaPHxeW5c7
+_key: "!tables!ZI93VXQaPHxeW5c7"
+name: French Masculine Names
+description: A selection of popular 18th century French masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: JLbQO5fZh8SyqYon
+results:
+  - _id: 5o4ceQiAVe0Bb4vD
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.5o4ceQiAVe0Bb4vD"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: David
+  - _id: XfFvzg6ceChny42d
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.XfFvzg6ceChny42d"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Abel
+  - _id: o2QwvnDgrRAMGDxV
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.o2QwvnDgrRAMGDxV"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Isaac
+  - _id: Bj5BhlvJvsNhmNs4
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.Bj5BhlvJvsNhmNs4"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Gilbert
+  - _id: z0HD5G2MRkrS1BBn
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.z0HD5G2MRkrS1BBn"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Jules
+  - _id: KjHMOKhmOHM0y5IN
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.KjHMOKhmOHM0y5IN"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Rémi
+  - _id: 9d2zRDZsCDmliCFU
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.9d2zRDZsCDmliCFU"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Émile
+  - _id: 0i5rqUVvpA9aufUz
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.0i5rqUVvpA9aufUz"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Damien
+  - _id: JfWrhC6vcM5eLd7I
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.JfWrhC6vcM5eLd7I"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Fabien
+  - _id: leJUKJ3v71DYrxLf
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.leJUKJ3v71DYrxLf"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Justin
+  - _id: EAg2VoUDaEwa1ohf
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.EAg2VoUDaEwa1ohf"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Lucien
+  - _id: 5k7uOlYOAnQCNluL
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.5k7uOlYOAnQCNluL"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Armand
+  - _id: YexdAuTUiec4wfet
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.YexdAuTUiec4wfet"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Sylvain
+  - _id: UYRXba5R72wctqH8
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.UYRXba5R72wctqH8"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Théodore
+  - _id: 30WVr2hDsHG0bfxx
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.30WVr2hDsHG0bfxx"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Honoré
+  - _id: ujRMT4eeNprkiUta
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ujRMT4eeNprkiUta"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Édouard
+  - _id: ieNR2tnnee1rE8pL
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ieNR2tnnee1rE8pL"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Arnaud
+  - _id: JXZFvFIoGWc4AWjQ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.JXZFvFIoGWc4AWjQ"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Raoul
+  - _id: ney3lemQtTXe3O1Y
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ney3lemQtTXe3O1Y"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Jérôme
+  - _id: KNqKOmKzsCOSSX3J
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.KNqKOmKzsCOSSX3J"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Augustin
+  - _id: l0OvPo3EXp3uzpZU
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.l0OvPo3EXp3uzpZU"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Olivier
+  - _id: FmE3k3R3DqM2WIKr
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.FmE3k3R3DqM2WIKr"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Léonard
+  - _id: ZGjKyLTeayK9FxJ5
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ZGjKyLTeayK9FxJ5"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Hubert
+  - _id: 3CyhYip36JS4yq2R
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.3CyhYip36JS4yq2R"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Gilles
+  - _id: vER9oEssALPouphb
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.vER9oEssALPouphb"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Barthélemy
+  - _id: JBZN2fXLZjTo7ak9
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.JBZN2fXLZjTo7ak9"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Lazare
+  - _id: limt1jMxTX25QrFw
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.limt1jMxTX25QrFw"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Urbain
+  - _id: lizMxgdDtWGsJCLa
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.lizMxgdDtWGsJCLa"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Baptiste
+  - _id: u33KNvW9SHByUSc0
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.u33KNvW9SHByUSc0"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Toussaint
+  - _id: BAjvMwzYev4miqA4
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.BAjvMwzYev4miqA4"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Alexis
+  - _id: oV0RcNKOutLA8aBE
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.oV0RcNKOutLA8aBE"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Yves
+  - _id: 4QWzasLKvWzy6pAw
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.4QWzasLKvWzy6pAw"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Gabriel
+  - _id: mqDfnDPZjuLM35e4
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.mqDfnDPZjuLM35e4"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Blaise
+  - _id: lnQOifKGHUEl2Pkr
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.lnQOifKGHUEl2Pkr"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Julien
+  - _id: gC24fcxokYdPZUMn
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.gC24fcxokYdPZUMn"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Christophe
+  - _id: vpf6PczdoQr0hyuf
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.vpf6PczdoQr0hyuf"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Vincent
+  - _id: 2rzNjz4TMVoErSqk
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.2rzNjz4TMVoErSqk"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Bertrand
+  - _id: ShZrg3xU6dZDq0rO
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ShZrg3xU6dZDq0rO"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Mathieu
+  - _id: AUDVx1BVuCqDuoCh
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.AUDVx1BVuCqDuoCh"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Henri
+  - _id: Mq4HJW5VueWGrdIr
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.Mq4HJW5VueWGrdIr"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Thomas
+  - _id: ij4hyLycAJmpFF0n
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ij4hyLycAJmpFF0n"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Étienne
+  - _id: txGSBrLa75Gm9v9i
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.txGSBrLa75Gm9v9i"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Claude
+  - _id: 21MjNjRFmQ6fgDoy
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.21MjNjRFmQ6fgDoy"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Michel
+  - _id: L76x60uRptyYVXK3
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.L76x60uRptyYVXK3"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Charles
+  - _id: OtwFIZvN5bVi3YMU
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.OtwFIZvN5bVi3YMU"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Antoine
+  - _id: BOfSNUUGxx3p5RLk
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.BOfSNUUGxx3p5RLk"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Jacques
+  - _id: n9t9IQ81qsPIplKV
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.n9t9IQ81qsPIplKV"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: François
+  - _id: SQkvLkw7iESKig4E
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.SQkvLkw7iESKig4E"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Jean
+  - _id: NSMeO0wyuRXlPws6
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.NSMeO0wyuRXlPws6"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Pierre
+  - _id: XxArO5oj23AmYPbF
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.XxArO5oj23AmYPbF"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Louis
+  - _id: O42V4A2UUb2rIY2e
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.O42V4A2UUb2rIY2e"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Nicolas
+  - _id: GbShN9qVV6kdiGRv
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.GbShN9qVV6kdiGRv"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Guillaume
+  - _id: ZJxqQGZMACynKl5r
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ZJxqQGZMACynKl5r"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Joseph
+  - _id: U31UAZ1Ri8JkqYEc
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.U31UAZ1Ri8JkqYEc"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: André
+  - _id: xXO8oGsEgMk6032l
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.xXO8oGsEgMk6032l"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Philippe
+  - _id: OWu8Wd2DURRAThKg
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.OWu8Wd2DURRAThKg"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Martin
+  - _id: 59LGMNBjbB6iul7J
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.59LGMNBjbB6iul7J"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: René
+  - _id: RnNnAGUCAh6ynPsT
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.RnNnAGUCAh6ynPsT"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Denis
+  - _id: xULBbWWMNDFm7JxE
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.xULBbWWMNDFm7JxE"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Simon
+  - _id: 7FxlAqCdDDX0CbJQ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.7FxlAqCdDDX0CbJQ"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Sébastien
+  - _id: VXOmL3dsgTuM7Gdw
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.VXOmL3dsgTuM7Gdw"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Laurent
+  - _id: o0tHsre5oSRFrDo8
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.o0tHsre5oSRFrDo8"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Dominique
+  - _id: DfhnewUp3QwzpZEd
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.DfhnewUp3QwzpZEd"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Georges
+  - _id: pcnfgD2yZkgApCeS
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.pcnfgD2yZkgApCeS"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Robert
+  - _id: rjZujIx1TJ9AYOJZ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.rjZujIx1TJ9AYOJZ"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Benoît
+  - _id: h0aAYA529pAS6ddd
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.h0aAYA529pAS6ddd"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Paul
+  - _id: 4YPW5ObQewPhyZDl
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.4YPW5ObQewPhyZDl"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Alexandre
+  - _id: pLttWbCbEbSOQ76t
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.pLttWbCbEbSOQ76t"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Germain
+  - _id: UuvRMwSwbcgelgO7
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.UuvRMwSwbcgelgO7"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Noël
+  - _id: B5viJS8ADff6GDOX
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.B5viJS8ADff6GDOX"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Hilaire
+  - _id: jLbVemJPjHZCvlDV
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.jLbVemJPjHZCvlDV"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Marc
+  - _id: ko8Gy4XREkXle7dZ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ko8Gy4XREkXle7dZ"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Luc
+  - _id: t4uA1XeQhpiEnvc1
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.t4uA1XeQhpiEnvc1"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Matthias
+  - _id: WOBDvfgXknaagSFO
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.WOBDvfgXknaagSFO"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Pascal
+  - _id: eg8tavC7S5WUp32z
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.eg8tavC7S5WUp32z"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Valentin
+  - _id: tMWsAWcSHuzHidZP
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.tMWsAWcSHuzHidZP"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Bernard
+  - _id: RhaEaNvU1T16PJiJ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.RhaEaNvU1T16PJiJ"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Romain
+  - _id: FJNE75uj5kOAbhg2
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.FJNE75uj5kOAbhg2"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Maurice
+  - _id: vZgK3gMZDjPuk1wL
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.vZgK3gMZDjPuk1wL"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Roland
+  - _id: c8ZsiGIAi40yumbf
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.c8ZsiGIAi40yumbf"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Gaston
+  - _id: NchvFqhk0odF1MUP
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.NchvFqhk0odF1MUP"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Albert
+  - _id: vV3ytD1RYC8Q75Sk
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.vV3ytD1RYC8Q75Sk"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Clément
+  - _id: As6d4ij4vgdM7aqH
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.As6d4ij4vgdM7aqH"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Anselme
+  - _id: Gg0nWED0dZeyJPlj
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.Gg0nWED0dZeyJPlj"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Prosper
+  - _id: dMUhrLBeCDjtpOj5
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.dMUhrLBeCDjtpOj5"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Constant
+  - _id: IwQhVhID771RgG8G
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.IwQhVhID771RgG8G"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Firmin
+  - _id: ozndyUZ2mNT7c9gG
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ozndyUZ2mNT7c9gG"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Maxime
+  - _id: 7UhkQcpmc5LWxlSQ
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.7UhkQcpmc5LWxlSQ"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Victor
+  - _id: fn2YP9ZdtUIooUIy
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.fn2YP9ZdtUIooUIy"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Adrien
+  - _id: xOfdNGI6RnalDncG
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.xOfdNGI6RnalDncG"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Cyprien
+  - _id: M7vEYJFpTjQKCy4n
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.M7vEYJFpTjQKCy4n"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Ambroise
+  - _id: aXaqKJbqavvDQXxe
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.aXaqKJbqavvDQXxe"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Léon
+  - _id: jdxaUVRR1DP0Vlx2
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.jdxaUVRR1DP0Vlx2"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Joachim
+  - _id: Vy5ZQB15Iyy8jndS
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.Vy5ZQB15Iyy8jndS"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Samuel
+  - _id: muS2rQZgfONaFXDk
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.muS2rQZgfONaFXDk"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Adam
+  - _id: ZvrnNx4lM0jxa8zr
+    _key: "!tables.results!ZI93VXQaPHxeW5c7.ZvrnNx4lM0jxa8zr"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Émilien
