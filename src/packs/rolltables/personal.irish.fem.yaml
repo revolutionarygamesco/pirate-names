@@ -1,0 +1,776 @@
+_id: FfWfEmYaVbJCx5i0
+_key: "!tables!FfWfEmYaVbJCx5i0"
+name: Irish Feminine Names
+description: A selection of popular 18th century Irish feminine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 5HAo7kUCb8cgEDd2
+results:
+  - _id: UH2mq7MURmczuwSx
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.UH2mq7MURmczuwSx"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Gormlaith (Gormley)
+  - _id: JqG23opAHWvrSJmC
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.JqG23opAHWvrSJmC"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Taileflaith (Talulla)
+  - _id: SrMj7vnWH2kSWZGt
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.SrMj7vnWH2kSWZGt"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Derbfhorgaill (Dervorgilla)
+  - _id: 6pViKopObC6REjPV
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.6pViKopObC6REjPV"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Attracta (Attracta)
+  - _id: lQbjV4z2mEIKRdr4
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.lQbjV4z2mEIKRdr4"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Étaín (Etain)
+  - _id: Pj8C9z7KmrV5QPHF
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Pj8C9z7KmrV5QPHF"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Proinnséas (Frances)
+  - _id: dsCIvKqELkMsda2N
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.dsCIvKqELkMsda2N"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Raghnailt (Rachel)
+  - _id: xxUdaC3U2PZn2Do5
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.xxUdaC3U2PZn2Do5"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Mór (Moira)
+  - _id: 5XheNf3jfuwnqJcu
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.5XheNf3jfuwnqJcu"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Saraid (Sara)
+  - _id: 36RGKGeiylIqTbfi
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.36RGKGeiylIqTbfi"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Onóra (Honora)
+  - _id: Vo7cgPJpQ5HgAN5a
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Vo7cgPJpQ5HgAN5a"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Clíodhna (Clara)
+  - _id: wXGyZDco6AiRU5DW
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.wXGyZDco6AiRU5DW"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Caoilfhionn (Kaylin)
+  - _id: wPNROyIm7sj9QjNr
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.wPNROyIm7sj9QjNr"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Nóirín (Noreen)
+  - _id: 79t2yTMrSoPWqdB4
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.79t2yTMrSoPWqdB4"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Siún (Sue)
+  - _id: IU3VgBiT79GRLwuu
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.IU3VgBiT79GRLwuu"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Éadaoin (Aideen)
+  - _id: K4FXSBzi0nzDc22Q
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.K4FXSBzi0nzDc22Q"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Fionnuala (Finola)
+  - _id: vBWsz29UpYAWdoVQ
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.vBWsz29UpYAWdoVQ"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Gráinne (Grace)
+  - _id: 82kcoDCnRiUGPobc
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.82kcoDCnRiUGPobc"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Úna (Una)
+  - _id: cG0upP3BaCrzkR9T
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.cG0upP3BaCrzkR9T"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Órla
+  - _id: qOnrH7HbpZTK5rvS
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.qOnrH7HbpZTK5rvS"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Muireann (Marian)
+  - _id: XAAsR7IquUssXAS7
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.XAAsR7IquUssXAS7"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Deirdre
+  - _id: Go0BZsEjV9FhAeFG
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Go0BZsEjV9FhAeFG"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Cadhla (Kayla)
+  - _id: inqLY9VxqehBtzQP
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.inqLY9VxqehBtzQP"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Ríonach (Riona)
+  - _id: u2wKvJOBgNpN96t7
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.u2wKvJOBgNpN96t7"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Gráinne (Granny)
+  - _id: 3LtxXKNdGohhOkQ7
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.3LtxXKNdGohhOkQ7"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Brígh (Bree)
+  - _id: CgSYG8lLfWzRUxkF
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.CgSYG8lLfWzRUxkF"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Muiríol (Muriel)
+  - _id: cVOWaujd2ONjfDDb
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.cVOWaujd2ONjfDDb"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Gobnait (Abigail)
+  - _id: XpD5nWpxKQzXDyHb
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.XpD5nWpxKQzXDyHb"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Éimear (Emer)
+  - _id: Lw5n5LD5N4deihkN
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Lw5n5LD5N4deihkN"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Dearbhla (Darla)
+  - _id: Zwkr1vttyWmvEZau
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Zwkr1vttyWmvEZau"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Doireann (Doreen)
+  - _id: aiAlkX9VQwdZ36yS
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.aiAlkX9VQwdZ36yS"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Niamh (Neve)
+  - _id: NbW05c2oRkOmPxQh
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.NbW05c2oRkOmPxQh"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Ailbhe (Alva)
+  - _id: BQMwigv8W2TyStQn
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.BQMwigv8W2TyStQn"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Sionainn (Shannon)
+  - _id: jO6jyCihd3dQEI6L
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.jO6jyCihd3dQEI6L"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Neilli (Nellie)
+  - _id: wXUqbnZsAC47U7aT
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.wXUqbnZsAC47U7aT"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Cristíona (Christina)
+  - _id: QOmkAuIsqjktzBYI
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.QOmkAuIsqjktzBYI"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Muire Sinéad (Mary Jane)
+  - _id: cInOxiMtAwTWW4kM
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.cInOxiMtAwTWW4kM"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Sósanna (Susan)
+  - _id: Qbt1FhNmZMBogbUK
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Qbt1FhNmZMBogbUK"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Muire Eibhlín (Mary Ellen)
+  - _id: K3Byc0cAuFWb6Zyb
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.K3Byc0cAuFWb6Zyb"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Róisín (Rose)
+  - _id: DUAlVjkekRPzB0pb
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.DUAlVjkekRPzB0pb"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Ailís (Alice)
+  - _id: 1HU2uoVnuGSi471Q
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.1HU2uoVnuGSi471Q"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Siobhán (Johanna)
+  - _id: 7JMYBlcD0KZx2c0E
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.7JMYBlcD0KZx2c0E"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Muire Ánna (Mary Anne)
+  - _id: Dt9J40ipYG5l4Uo7
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Dt9J40ipYG5l4Uo7"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Sorcha (Sarah)
+  - _id: HcDVcsBQrHalTeHo
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.HcDVcsBQrHalTeHo"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Eilís (Elizabeth)
+  - _id: oi3KzWoraBLKcGPT
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.oi3KzWoraBLKcGPT"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Ánna (Anne)
+  - _id: pMne4zNMQsJlIyM2
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.pMne4zNMQsJlIyM2"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Caitríona (Catherine)
+  - _id: 4EhsE1dqwGrBm7al
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.4EhsE1dqwGrBm7al"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Máiréad (Margaret)
+  - _id: IFGpj2nG4xY9EexL
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.IFGpj2nG4xY9EexL"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Muire (Mary)
+  - _id: xDVmmK4vKillLFHm
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.xDVmmK4vKillLFHm"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Bríd (Bridget)
+  - _id: cGA6FUl5BLJ5x2CK
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.cGA6FUl5BLJ5x2CK"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Eibhlín (Ellen)
+  - _id: oCFFgmOMUZs2O2se
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.oCFFgmOMUZs2O2se"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Cáit (Kate)
+  - _id: BNIx9VDl5Cw1hONf
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.BNIx9VDl5Cw1hONf"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Peig (Maggie)
+  - _id: W55HuARq7kZWqUob
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.W55HuARq7kZWqUob"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Sinéad (Jane)
+  - _id: ZGxTdHZmrQR7ls0q
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.ZGxTdHZmrQR7ls0q"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Caitlín (Kathleen)
+  - _id: iylRUJZ48qKmVamT
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.iylRUJZ48qKmVamT"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Nóra (Norah)
+  - _id: GNhfHLyZ1U4zJdQa
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.GNhfHLyZ1U4zJdQa"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Máire (Maria)
+  - _id: nKnsLFJ7fjqZwz3c
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.nKnsLFJ7fjqZwz3c"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Eilí (Ellie)
+  - _id: ZjuIjyx8yhYBKe83
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.ZjuIjyx8yhYBKe83"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Aignéis (Agnes)
+  - _id: KQG01ozf9E2L7SgN
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.KQG01ozf9E2L7SgN"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Toiréasa (Teresa)
+  - _id: yVQqC8015zJS98L2
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.yVQqC8015zJS98L2"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Muire Cáit (Mary Kate)
+  - _id: 9EMJYyF37WvLxi5D
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.9EMJYyF37WvLxi5D"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Seosaimhín (Josephine)
+  - _id: Ac4JTbgJGZcu5AyQ
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Ac4JTbgJGZcu5AyQ"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Fiadh (Faith)
+  - _id: F6Sy0x4Md6PL2HGB
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.F6Sy0x4Md6PL2HGB"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Éabha (Ava)
+  - _id: NnBYi1A9E6TCywiu
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.NnBYi1A9E6TCywiu"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Aoife (Eva)
+  - _id: 7c2JPBpbYpuPMzGF
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.7c2JPBpbYpuPMzGF"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Sadhbh (Sally)
+  - _id: dIIL93nHKGdILzFL
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.dIIL93nHKGdILzFL"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Méabh (Maeve)
+  - _id: sEygMY4mr1b3pvPM
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.sEygMY4mr1b3pvPM"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Ciara (Clara)
+  - _id: H8mgFP9EULcTspA1
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.H8mgFP9EULcTspA1"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Aoibhín (Aveen)
+  - _id: Cb1tcApK7ClGEx1v
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Cb1tcApK7ClGEx1v"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Áine (Anna)
+  - _id: Flv9PxB6okXargYK
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Flv9PxB6okXargYK"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Nuala (Nuala)
+  - _id: mjYQATFETO4XAmt3
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.mjYQATFETO4XAmt3"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Bláithín (Blanchefleur)
+  - _id: exF11LpUbEEqGgLC
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.exF11LpUbEEqGgLC"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Síle (Sheila)
+  - _id: FTmjzaZ5WeqIRdWE
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.FTmjzaZ5WeqIRdWE"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Laoise (Louisa)
+  - _id: jRE2jWUBROiBDMd1
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.jRE2jWUBROiBDMd1"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Síofra (Sheila)
+  - _id: qHQFbySYPiXXrdkR
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.qHQFbySYPiXXrdkR"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Saorfhlaith (Sara)
+  - _id: CydHzWzxYrarqqi2
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.CydHzWzxYrarqqi2"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Caoilainn (Caitlyn)
+  - _id: toq5K7iHqA4hQ4JX
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.toq5K7iHqA4hQ4JX"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Doireann (Dorothy)
+  - _id: xY3fpVjKuUWT8e0p
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.xY3fpVjKuUWT8e0p"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Eithne (Enya)
+  - _id: K128BTRWV9iDfmvy
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.K128BTRWV9iDfmvy"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Líadan (Liadan)
+  - _id: lbBG5KRJaYfqvhlY
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.lbBG5KRJaYfqvhlY"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Caoimhe (Eva)
+  - _id: jKz8w528aEjhPBmo
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.jKz8w528aEjhPBmo"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Aoibheann (Eva)
+  - _id: P3CvT90PeYm05ocX
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.P3CvT90PeYm05ocX"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Íde (Ida)
+  - _id: qkUbEmHWQKvuW0Xx
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.qkUbEmHWQKvuW0Xx"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Damhnait (Dymphna)
+  - _id: 1cT53BRKbE30t4bK
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.1cT53BRKbE30t4bK"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Dearbháil (Dervilia)
+  - _id: tifajynNoFeBa0Sg
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.tifajynNoFeBa0Sg"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Sláine (Slane)
+  - _id: S10e2kTXHcCqPjfv
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.S10e2kTXHcCqPjfv"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Bébhinn (Bevin)
+  - _id: bWXeExK2KN7YnPKv
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.bWXeExK2KN7YnPKv"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Gobnait (Deborah)
+  - _id: Oc26SWmxhBULvfU9
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.Oc26SWmxhBULvfU9"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Lasairfhíona (Lassarina)
+  - _id: ZaRfVAB4obqwU4y4
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.ZaRfVAB4obqwU4y4"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Eithne (Edna)
+  - _id: UwhA3aNv5aACmrAu
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.UwhA3aNv5aACmrAu"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Alanna
+  - _id: j0eWFD8MWLp5EOMv
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.j0eWFD8MWLp5EOMv"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Neasa (Nessa)
+  - _id: EjLIt6a44wAtSjE1
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.EjLIt6a44wAtSjE1"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Fiona
+  - _id: LMKD7VlPDM4nABP0
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.LMKD7VlPDM4nABP0"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Muirgheal (Muriel)
+  - _id: hHOYSkxPzkZDa7MW
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.hHOYSkxPzkZDa7MW"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Brighid (Bridget)
+  - _id: FlWYXkfE162ONREB
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.FlWYXkfE162ONREB"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Uallach (Lucy)
+  - _id: UiXsKsv17s51bt28
+    _key: "!tables.results!FfWfEmYaVbJCx5i0.UiXsKsv17s51bt28"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Peigí (Peggy)

@@ -1,0 +1,776 @@
+_id: QAewP1wCxn8LhvlP
+_key: "!tables!QAewP1wCxn8LhvlP"
+name: Irish Masculine Names
+description: A selection of popular 18th century Irish masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 5HAo7kUCb8cgEDd2
+results:
+  - _id: CPI2V8T6UtK4XiCV
+    _key: "!tables.results!QAewP1wCxn8LhvlP.CPI2V8T6UtK4XiCV"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Tuathal (Tully)
+  - _id: 12fsiqkTkH6xECXg
+    _key: "!tables.results!QAewP1wCxn8LhvlP.12fsiqkTkH6xECXg"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Seachnall (Neil)
+  - _id: Nu3gMRO4Wdb0JeGx
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Nu3gMRO4Wdb0JeGx"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Blaine
+  - _id: iKBf3Qk0KFxKOa8k
+    _key: "!tables.results!QAewP1wCxn8LhvlP.iKBf3Qk0KFxKOa8k"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Art (Art)
+  - _id: OaBkyCBsIp03BvXL
+    _key: "!tables.results!QAewP1wCxn8LhvlP.OaBkyCBsIp03BvXL"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Ailbe (Alban)
+  - _id: ji8lMgHz42gWO82O
+    _key: "!tables.results!QAewP1wCxn8LhvlP.ji8lMgHz42gWO82O"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Fiachna (Francis)
+  - _id: fKAssXMaE5HN04Bp
+    _key: "!tables.results!QAewP1wCxn8LhvlP.fKAssXMaE5HN04Bp"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Maolmórdha (Miles)
+  - _id: tGAiY7671BTj2SdS
+    _key: "!tables.results!QAewP1wCxn8LhvlP.tGAiY7671BTj2SdS"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Guaire (Gary)
+  - _id: 8K7dimiseTtQnXfG
+    _key: "!tables.results!QAewP1wCxn8LhvlP.8K7dimiseTtQnXfG"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Iarfhlaith (Jarlath)
+  - _id: 3tFXPofJ6hBzLwm2
+    _key: "!tables.results!QAewP1wCxn8LhvlP.3tFXPofJ6hBzLwm2"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Diarmuid (Dermot)
+  - _id: F8pWNl0cYvGeQ14J
+    _key: "!tables.results!QAewP1wCxn8LhvlP.F8pWNl0cYvGeQ14J"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Fionntán (Fintan)
+  - _id: 2rovm6InKVzpEDTi
+    _key: "!tables.results!QAewP1wCxn8LhvlP.2rovm6InKVzpEDTi"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Éanna (Ian)
+  - _id: 3PHnblz909bcP11d
+    _key: "!tables.results!QAewP1wCxn8LhvlP.3PHnblz909bcP11d"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Declan (Declan)
+  - _id: DmYhgWIlqjgiCtCi
+    _key: "!tables.results!QAewP1wCxn8LhvlP.DmYhgWIlqjgiCtCi"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Coileán (Colin)
+  - _id: UCJGlFuUnesA3PkZ
+    _key: "!tables.results!QAewP1wCxn8LhvlP.UCJGlFuUnesA3PkZ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Nechtan (Nectan)
+  - _id: Hac7RR4sBRDFkDJ6
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Hac7RR4sBRDFkDJ6"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Áilín (Alan)
+  - _id: Tb14A3PKfR4ZfCQE
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Tb14A3PKfR4ZfCQE"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Oscar
+  - _id: s3lV093ZRJ541JvK
+    _key: "!tables.results!QAewP1wCxn8LhvlP.s3lV093ZRJ541JvK"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Fiachra (Francis)
+  - _id: pmIPORhS7C8WpmWA
+    _key: "!tables.results!QAewP1wCxn8LhvlP.pmIPORhS7C8WpmWA"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Dáire (David)
+  - _id: ux8VkyyN4c3Sgunb
+    _key: "!tables.results!QAewP1wCxn8LhvlP.ux8VkyyN4c3Sgunb"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Aodhán (Adam)
+  - _id: HBYaKfeX6pNb0bdU
+    _key: "!tables.results!QAewP1wCxn8LhvlP.HBYaKfeX6pNb0bdU"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Uilliam (William)
+  - _id: SYZglzESe7yWlaY3
+    _key: "!tables.results!QAewP1wCxn8LhvlP.SYZglzESe7yWlaY3"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Ultán (Walter)
+  - _id: eKRg4WPodTpvp4so
+    _key: "!tables.results!QAewP1wCxn8LhvlP.eKRg4WPodTpvp4so"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Colmán (Coleman)
+  - _id: 3VkJ968EK3lhaJ2u
+    _key: "!tables.results!QAewP1wCxn8LhvlP.3VkJ968EK3lhaJ2u"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Faolán (Phelan)
+  - _id: RleHP750aVxz1kvD
+    _key: "!tables.results!QAewP1wCxn8LhvlP.RleHP750aVxz1kvD"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Conan
+  - _id: IxSVfl8pEgYsm2uI
+    _key: "!tables.results!QAewP1wCxn8LhvlP.IxSVfl8pEgYsm2uI"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Conn
+  - _id: 4J18RiWeHdguddKD
+    _key: "!tables.results!QAewP1wCxn8LhvlP.4J18RiWeHdguddKD"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Donnacha (Duncan)
+  - _id: j82IEsfZcf7JeLVy
+    _key: "!tables.results!QAewP1wCxn8LhvlP.j82IEsfZcf7JeLVy"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Darragh (Darren)
+  - _id: S4iYNtzLpGJwQg0Y
+    _key: "!tables.results!QAewP1wCxn8LhvlP.S4iYNtzLpGJwQg0Y"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Finn
+  - _id: n6cSYDiCJOV0jDIu
+    _key: "!tables.results!QAewP1wCxn8LhvlP.n6cSYDiCJOV0jDIu"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Oisín (Ossian)
+  - _id: iOIiFEDNM7bRcEcq
+    _key: "!tables.results!QAewP1wCxn8LhvlP.iOIiFEDNM7bRcEcq"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Nioclás (Nicholas)
+  - _id: 6veM4JKbe3Gf7BMR
+    _key: "!tables.results!QAewP1wCxn8LhvlP.6veM4JKbe3Gf7BMR"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Labhrás (Lawrence)
+  - _id: bU0mOvN5jzd4Id9J
+    _key: "!tables.results!QAewP1wCxn8LhvlP.bU0mOvN5jzd4Id9J"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Stiofán (Stephen)
+  - _id: sBwsalrVmp7Z1Dcm
+    _key: "!tables.results!QAewP1wCxn8LhvlP.sBwsalrVmp7Z1Dcm"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Pilib (Phillip)
+  - _id: YweWjp8dyWvBgS4u
+    _key: "!tables.results!QAewP1wCxn8LhvlP.YweWjp8dyWvBgS4u"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Conchobhar (Cornelius)
+  - _id: ThcwsdCrmri6bIh4
+    _key: "!tables.results!QAewP1wCxn8LhvlP.ThcwsdCrmri6bIh4"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Dáithí (David)
+  - _id: L48JkW0J6lgwE9vf
+    _key: "!tables.results!QAewP1wCxn8LhvlP.L48JkW0J6lgwE9vf"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Anraí (Henry)
+  - _id: iGj0ymTM80PVLiKe
+    _key: "!tables.results!QAewP1wCxn8LhvlP.iGj0ymTM80PVLiKe"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Aodh (Hugh)
+  - _id: Jt4K6IM5Mch8toBQ
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Jt4K6IM5Mch8toBQ"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Diarmaid (Jeremiah)
+  - _id: e2SB1OVoO5NubmmP
+    _key: "!tables.results!QAewP1wCxn8LhvlP.e2SB1OVoO5NubmmP"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Seoirse (George)
+  - _id: opGYCnnWKqlNaIsy
+    _key: "!tables.results!QAewP1wCxn8LhvlP.opGYCnnWKqlNaIsy"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Proinsias (Francis)
+  - _id: 9qY9Gv7WBFdmohLV
+    _key: "!tables.results!QAewP1wCxn8LhvlP.9qY9Gv7WBFdmohLV"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Risteárd (Richard)
+  - _id: jaETOQofEcr233Vk
+    _key: "!tables.results!QAewP1wCxn8LhvlP.jaETOQofEcr233Vk"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Máirtín (Martin)
+  - _id: NNPd9GVnV9d9GxrU
+    _key: "!tables.results!QAewP1wCxn8LhvlP.NNPd9GVnV9d9GxrU"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Dónall (Daniel)
+  - _id: S05twNpGotsKQGF1
+    _key: "!tables.results!QAewP1wCxn8LhvlP.S05twNpGotsKQGF1"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Éamonn (Edward)
+  - _id: cUvUAfrf7j07scxC
+    _key: "!tables.results!QAewP1wCxn8LhvlP.cUvUAfrf7j07scxC"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Liam (William)
+  - _id: rU14lLTowfLCz2iE
+    _key: "!tables.results!QAewP1wCxn8LhvlP.rU14lLTowfLCz2iE"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Mícheál (Michael)
+  - _id: hIP8xAy9Sn2J3eXk
+    _key: "!tables.results!QAewP1wCxn8LhvlP.hIP8xAy9Sn2J3eXk"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Seán (John)
+  - _id: L6nyS8lB6UWviqUH
+    _key: "!tables.results!QAewP1wCxn8LhvlP.L6nyS8lB6UWviqUH"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Pádraig (Patrick)
+  - _id: XlvzZ687vdBJM4m2
+    _key: "!tables.results!QAewP1wCxn8LhvlP.XlvzZ687vdBJM4m2"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Séamus (James)
+  - _id: po6RpwUgvxrMc5ro
+    _key: "!tables.results!QAewP1wCxn8LhvlP.po6RpwUgvxrMc5ro"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Tomás (Thomas)
+  - _id: NK32Tk66fD8EwS1S
+    _key: "!tables.results!QAewP1wCxn8LhvlP.NK32Tk66fD8EwS1S"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Iósaf (Joseph)
+  - _id: 2YYbgSjNIjo7xSfI
+    _key: "!tables.results!QAewP1wCxn8LhvlP.2YYbgSjNIjo7xSfI"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Peadar (Peter)
+  - _id: JFH248jP64M6UY0s
+    _key: "!tables.results!QAewP1wCxn8LhvlP.JFH248jP64M6UY0s"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Donnchadh (Denis)
+  - _id: rNlQyjqkC3MsXXrk
+    _key: "!tables.results!QAewP1wCxn8LhvlP.rNlQyjqkC3MsXXrk"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Tadhg (Timothy)
+  - _id: hMiz72aP4eUNSTWD
+    _key: "!tables.results!QAewP1wCxn8LhvlP.hMiz72aP4eUNSTWD"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Roibeárd (Robert)
+  - _id: xVhzVuz7aGbWztHY
+    _key: "!tables.results!QAewP1wCxn8LhvlP.xVhzVuz7aGbWztHY"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Cormac (Charles)
+  - _id: UemvFNmoNcRDH2FU
+    _key: "!tables.results!QAewP1wCxn8LhvlP.UemvFNmoNcRDH2FU"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Brian (Bernard)
+  - _id: 59zer6OQHPio5JMJ
+    _key: "!tables.results!QAewP1wCxn8LhvlP.59zer6OQHPio5JMJ"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Aindréas (Andrew)
+  - _id: XQ7hR4Y4flPw1O0c
+    _key: "!tables.results!QAewP1wCxn8LhvlP.XQ7hR4Y4flPw1O0c"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Críostóir (Christopher)
+  - _id: hnVUUKhcQ9pybDQk
+    _key: "!tables.results!QAewP1wCxn8LhvlP.hnVUUKhcQ9pybDQk"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Eoghan (Owen)
+  - _id: dDLDXCyLpJFwknCS
+    _key: "!tables.results!QAewP1wCxn8LhvlP.dDLDXCyLpJFwknCS"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Muiris (Maurice)
+  - _id: lNXsIBQ1ZEcUJPtE
+    _key: "!tables.results!QAewP1wCxn8LhvlP.lNXsIBQ1ZEcUJPtE"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Maitiú (Matthew)
+  - _id: UW0qoNHECdgN32Kc
+    _key: "!tables.results!QAewP1wCxn8LhvlP.UW0qoNHECdgN32Kc"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Antóin (Anthony)
+  - _id: GXFS4q1DU6mriW3L
+    _key: "!tables.results!QAewP1wCxn8LhvlP.GXFS4q1DU6mriW3L"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Somhairle (Samuel)
+  - _id: JxBEB9dZZdzAOTgd
+    _key: "!tables.results!QAewP1wCxn8LhvlP.JxBEB9dZZdzAOTgd"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Rían (Ryan)
+  - _id: Notx9z804ROfzeHX
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Notx9z804ROfzeHX"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Cillian (Killian)
+  - _id: R4GC3WyDxqwPxXp0
+    _key: "!tables.results!QAewP1wCxn8LhvlP.R4GC3WyDxqwPxXp0"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Conor (Cornelius)
+  - _id: PIkbsQZNgEzzympX
+    _key: "!tables.results!QAewP1wCxn8LhvlP.PIkbsQZNgEzzympX"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Odhrán (Oran)
+  - _id: US3LeipGYDXoXC1b
+    _key: "!tables.results!QAewP1wCxn8LhvlP.US3LeipGYDXoXC1b"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Cian (Keen)
+  - _id: dBpDke2jXsaEIy8h
+    _key: "!tables.results!QAewP1wCxn8LhvlP.dBpDke2jXsaEIy8h"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Senán (Senan)
+  - _id: 4G3rPfmrcXo5uXdn
+    _key: "!tables.results!QAewP1wCxn8LhvlP.4G3rPfmrcXo5uXdn"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Cathal (Charles)
+  - _id: ZWAKTqXLtulp24yP
+    _key: "!tables.results!QAewP1wCxn8LhvlP.ZWAKTqXLtulp24yP"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Lorcán
+  - _id: 4Yqn0wLszdTSok2Q
+    _key: "!tables.results!QAewP1wCxn8LhvlP.4Yqn0wLszdTSok2Q"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Breandán (Brendan)
+  - _id: liGeKBnFaZZLZ8LA
+    _key: "!tables.results!QAewP1wCxn8LhvlP.liGeKBnFaZZLZ8LA"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Fergal
+  - _id: CpkHuYITZRHaXvrW
+    _key: "!tables.results!QAewP1wCxn8LhvlP.CpkHuYITZRHaXvrW"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Niall (Neal)
+  - _id: AJyRnvlh9luSNRAg
+    _key: "!tables.results!QAewP1wCxn8LhvlP.AJyRnvlh9luSNRAg"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Ruairí (Rory)
+  - _id: BRWldwXDy59gKmEH
+    _key: "!tables.results!QAewP1wCxn8LhvlP.BRWldwXDy59gKmEH"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Colm (Columba)
+  - _id: Hvqg0lQWPGKYVSat
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Hvqg0lQWPGKYVSat"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Eoin (John)
+  - _id: so3oj6kKS4wT9pcu
+    _key: "!tables.results!QAewP1wCxn8LhvlP.so3oj6kKS4wT9pcu"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Ciarán (Kieran)
+  - _id: tVobXJMdJut31L6m
+    _key: "!tables.results!QAewP1wCxn8LhvlP.tVobXJMdJut31L6m"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Tighearnán (Tiernan)
+  - _id: X53TjZ81s4H7iY1g
+    _key: "!tables.results!QAewP1wCxn8LhvlP.X53TjZ81s4H7iY1g"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Rónán
+  - _id: MGxEeYNfjDWMZaDw
+    _key: "!tables.results!QAewP1wCxn8LhvlP.MGxEeYNfjDWMZaDw"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Fionnbharr (Finbar)
+  - _id: vmios4Bxq0M2BLIt
+    _key: "!tables.results!QAewP1wCxn8LhvlP.vmios4Bxq0M2BLIt"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Caoimhín (Kevin)
+  - _id: 8H31W60mVMyFl5cg
+    _key: "!tables.results!QAewP1wCxn8LhvlP.8H31W60mVMyFl5cg"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Cearbhall (Carroll)
+  - _id: TMjuDM4NXgF3afH6
+    _key: "!tables.results!QAewP1wCxn8LhvlP.TMjuDM4NXgF3afH6"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Fearghus (Fergus)
+  - _id: kNq3zZdlRfIxPXXu
+    _key: "!tables.results!QAewP1wCxn8LhvlP.kNq3zZdlRfIxPXXu"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Fearghas (Fergus)
+  - _id: FHNssyzNz27XN0Xj
+    _key: "!tables.results!QAewP1wCxn8LhvlP.FHNssyzNz27XN0Xj"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Flann (Flann)
+  - _id: LEZ5mqs9A856sjzU
+    _key: "!tables.results!QAewP1wCxn8LhvlP.LEZ5mqs9A856sjzU"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Toirdhealbhach (Thomas)
+  - _id: fAzVpNm2pXLxsyOv
+    _key: "!tables.results!QAewP1wCxn8LhvlP.fAzVpNm2pXLxsyOv"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Lochlann (Loughlin)
+  - _id: Dz7W6GEeyjVA6Izq
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Dz7W6GEeyjVA6Izq"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Ailill (Ally)
+  - _id: A2dIWVpBCjIHTsel
+    _key: "!tables.results!QAewP1wCxn8LhvlP.A2dIWVpBCjIHTsel"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Gearóid (Gerold)
+  - _id: GcKjNhz4PrvWONDS
+    _key: "!tables.results!QAewP1wCxn8LhvlP.GcKjNhz4PrvWONDS"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Conall (Connell)
+  - _id: Al3m5ysKenEUIWZP
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Al3m5ysKenEUIWZP"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Naoise (Nancy)
+  - _id: Ta330FiPNs0SVOrg
+    _key: "!tables.results!QAewP1wCxn8LhvlP.Ta330FiPNs0SVOrg"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Eochaid (Haughey)
+  - _id: EfF0MGl9P94naJy5
+    _key: "!tables.results!QAewP1wCxn8LhvlP.EfF0MGl9P94naJy5"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Murchadh (Murray)

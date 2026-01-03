@@ -1,0 +1,776 @@
+_id: FIDGyWGEFEw1I5iW
+_key: "!tables!FIDGyWGEFEw1I5iW"
+name: Irish Surnames
+description: A selection of popular 18th century Irish surnames.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 5HAo7kUCb8cgEDd2
+results:
+  - _id: dLyTVP7zQySCS2oP
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.dLyTVP7zQySCS2oP"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ó Faoláin (Phelan)
+  - _id: zXejNc87Uyla3Wyu
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.zXejNc87Uyla3Wyu"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Ó Maoldomhnaigh (Moloney)
+  - _id: eYYR98nFl5q3OVXY
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.eYYR98nFl5q3OVXY"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ó Tuathail (O'Toole)
+  - _id: N3etPyIb2BpLdIT0
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.N3etPyIb2BpLdIT0"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ó Ruairc (O'Rourke)
+  - _id: fD7T3VeHcG4Z9Yws
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.fD7T3VeHcG4Z9Yws"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Ó Flannagáin (Flanagan)
+  - _id: Ua81CefseId0l1TK
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.Ua81CefseId0l1TK"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Bairéad (Barrett)
+  - _id: ph5tcHU5n1ewV00C
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ph5tcHU5n1ewV00C"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Ó Corráin (Curran)
+  - _id: 7KS1pNy0oKALl9o1
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.7KS1pNy0oKALl9o1"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Ó hUiginn (Higgins)
+  - _id: FDAleMXnkzaDzpCg
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.FDAleMXnkzaDzpCg"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Ó Síodháin (Sheehan)
+  - _id: 5dPx5xH8qxBBQ7mC
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.5dPx5xH8qxBBQ7mC"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ó Cróinín (Cronin)
+  - _id: NzQJUSyp4otbX2eL
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.NzQJUSyp4otbX2eL"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Mac Domhnaill (McDonnell)
+  - _id: Z1AJ0xXcELzvaTAF
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.Z1AJ0xXcELzvaTAF"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Ó Laigheanáin (Lyons)
+  - _id: ODHCyTccRgAKE4Y6
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ODHCyTccRgAKE4Y6"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Ó Ceallacháin (O'Callaghan)
+  - _id: s6GQxODGMYHA53nm
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.s6GQxODGMYHA53nm"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ó Mathghamhna (O'Mahony)
+  - _id: 6xjK5xLVIK4pTR44
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.6xjK5xLVIK4pTR44"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Ó hÍceadha (Hickey)
+  - _id: x6ajRcup2R88Lvsq
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.x6ajRcup2R88Lvsq"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Ó Donnabháin (O'Donovan)
+  - _id: xbR36HWx2WmikBGG
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.xbR36HWx2WmikBGG"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Mac Aodhagáin (Egan)
+  - _id: 77ifAKf8qEelvekO
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.77ifAKf8qEelvekO"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Ó hÓgáin (Hogan)
+  - _id: xqoXVeRZGdEoNQ41
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.xqoXVeRZGdEoNQ41"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Mac Mathghamhna (MacMahon)
+  - _id: nuAT1GnKJFlywut6
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.nuAT1GnKJFlywut6"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: de Brún (Browne)
+  - _id: iWI82rm1cVZb492l
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.iWI82rm1cVZb492l"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: de Róiste (Roche)
+  - _id: xm9rMSfJck7e5Hbv
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.xm9rMSfJck7e5Hbv"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Ó Cathasaigh (Casey)
+  - _id: d3bSKLpgBLUfcAIM
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.d3bSKLpgBLUfcAIM"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Ó Meachair (Maher)
+  - _id: UF7LHdG5a72Xao6M
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.UF7LHdG5a72Xao6M"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Ó hAodha (Hayes)
+  - _id: ZHahS6WQMhMKbOxD
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ZHahS6WQMhMKbOxD"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Mac Craith (MacGrath)
+  - _id: EEj23CAyoWlseTbo
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.EEj23CAyoWlseTbo"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Ó Raghallaigh (Reilly)
+  - _id: HLlWKyJTpbGXK4sf
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.HLlWKyJTpbGXK4sf"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Ó Catháin (Keane)
+  - _id: 0YCLpfdArgDxhA1C
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.0YCLpfdArgDxhA1C"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Ó Mórdha (Moore)
+  - _id: vkjdzeXadyuhX6hp
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.vkjdzeXadyuhX6hp"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Ó Séaghdha (O'Shea)
+  - _id: DBMXKN7Fb2HEOs1e
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.DBMXKN7Fb2HEOs1e"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Ó Faoláin (Whelan)
+  - _id: 1n7yrtwYyBZazHJD
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.1n7yrtwYyBZazHJD"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Ó Dubhthaigh (Duffy)
+  - _id: Mp29fhdYU9ikE1FT
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.Mp29fhdYU9ikE1FT"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Ó Cléirigh (Clarke)
+  - _id: iyi14MG06kB2ecyQ
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.iyi14MG06kB2ecyQ"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Ó Conghaile (Connolly)
+  - _id: weWhUXAfiYafD0ui
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.weWhUXAfiYafD0ui"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Caomhánach (Kavanagh)
+  - _id: GbBKQBKlUpwIGGnY
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.GbBKQBKlUpwIGGnY"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Ó Cuinn (Quinn)
+  - _id: pEvZfyByoFCmltdL
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.pEvZfyByoFCmltdL"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Ó Coileáin (Collins)
+  - _id: zqoGTzPNpGHfqV5x
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.zqoGTzPNpGHfqV5x"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Ó Conaill (O'Connell)
+  - _id: GgQRRUVpqe1cn0xS
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.GgQRRUVpqe1cn0xS"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Mac Gearailt (Fitzgerald)
+  - _id: WcIL1XbG2A8KVVSR
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.WcIL1XbG2A8KVVSR"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Ó Raghallaigh (O'Reilly)
+  - _id: 4z0Oc5gKmIQWdEfR
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.4z0Oc5gKmIQWdEfR"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Ó Nualláin (Nolan)
+  - _id: lkQ4FWUEwE1JKVtS
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.lkQ4FWUEwE1JKVtS"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: de Búrca (Burke)
+  - _id: RzCNjBNPg1HVyhx7
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.RzCNjBNPg1HVyhx7"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Ó Braonáin (Brennan)
+  - _id: pfl00bEZAqgbrYv5
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.pfl00bEZAqgbrYv5"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Ó Loingsigh (Lynch)
+  - _id: 0BpVLMJvh1f8VdMB
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.0BpVLMJvh1f8VdMB"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Ó Dubhghaill (Doyle)
+  - _id: HoP9vOSQWpXfUToR
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.HoP9vOSQWpXfUToR"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Ó Conchobhair (O'Connor)
+  - _id: D9BvQfJhbYKadish
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.D9BvQfJhbYKadish"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Ó Riain (Ryan)
+  - _id: ZrirmV9na5ETIe6S
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ZrirmV9na5ETIe6S"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Ó Broin (Byrne)
+  - _id: b1JlRTqnK5gHGltY
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.b1JlRTqnK5gHGltY"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Ó Murchadha (Murphy)
+  - _id: x0hqscj0AnDQcbTX
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.x0hqscj0AnDQcbTX"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Ó Ceallaigh (Kelly)
+  - _id: NSgHLGCxt2By01Ng
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.NSgHLGCxt2By01Ng"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Breathnach (Walsh)
+  - _id: 93nMInEXwkrOi9xA
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.93nMInEXwkrOi9xA"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Ó Briain (O'Brien)
+  - _id: tG49wKnO1GVaT4TG
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.tG49wKnO1GVaT4TG"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Ó Súilleabháin (O'Sullivan)
+  - _id: icJ7ubFmxUpJdTik
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.icJ7ubFmxUpJdTik"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Ó Néill (O'Neill)
+  - _id: 693np2EcTgCobfzA
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.693np2EcTgCobfzA"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Mac Cárthaigh (MacCarthy)
+  - _id: 5O02bFK89BJerPu1
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.5O02bFK89BJerPu1"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Ó Duinn (Dunne)
+  - _id: PRYQwTTvs8MtkuTg
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.PRYQwTTvs8MtkuTg"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Ó Muireadhaigh (Murray)
+  - _id: b7r39e1mdmNdn1JZ
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.b7r39e1mdmNdn1JZ"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Ó Dálaigh (Daly)
+  - _id: 1XEKAsW4PvCAALRp
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.1XEKAsW4PvCAALRp"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Ó Ceannéidigh (Kennedy)
+  - _id: isITiQXRbCKinTen
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.isITiQXRbCKinTen"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Ó Gallchobhair (Gallagher)
+  - _id: CZ69IKR47SNgPGxG
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.CZ69IKR47SNgPGxG"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Ó Floinn (Flynn)
+  - _id: FDaQeusEnkfOHCjO
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.FDaQeusEnkfOHCjO"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: de Paor (Power)
+  - _id: hq6ocSFewbanlc1O
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.hq6ocSFewbanlc1O"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Ó Fearghail (Farrell)
+  - _id: V9yQtbeyFk4X4Vit
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.V9yQtbeyFk4X4Vit"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Ó Cearbhaill (Carroll)
+  - _id: 59nFj0zrG3q0w8kp
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.59nFj0zrG3q0w8kp"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Ó Domhnaill (O'Donnell)
+  - _id: Fz6bOPfd50hCnDQk
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.Fz6bOPfd50hCnDQk"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Ó hÉalaighthe (Healy)
+  - _id: x7s4DGho1yuBAqxf
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.x7s4DGho1yuBAqxf"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Ó Dochartaigh (Doherty)
+  - _id: TXKcwU4vd8IWTeKj
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.TXKcwU4vd8IWTeKj"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Ó Brádaigh (Brady)
+  - _id: WAUuH45udmiyH4qt
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.WAUuH45udmiyH4qt"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Ó Cionnaith (Kenny)
+  - _id: yaQEhx3eNhxDji8V
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.yaQEhx3eNhxDji8V"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Mac Giolla Phádraig (Fitzpatrick)
+  - _id: KxSdsnuGDzvKOClc
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.KxSdsnuGDzvKOClc"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Ó Laoghaire (O'Leary)
+  - _id: DOgM4aIdcTTkljg8
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.DOgM4aIdcTTkljg8"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Ó Móráin (Moran)
+  - _id: RBs1ZvukJtYYEZHy
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.RBs1ZvukJtYYEZHy"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Ó Beargha (Barry)
+  - _id: ov8RUbRiyHObtwzl
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ov8RUbRiyHObtwzl"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Ó Foghlú (Foley)
+  - _id: McY7mbGOHnIdndqA
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.McY7mbGOHnIdndqA"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Ó Buachalla (Buckley)
+  - _id: 9x4gGrZ0KOQtidhe
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.9x4gGrZ0KOQtidhe"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Mac Giolla Mhártain (Martin)
+  - _id: ycL99aCK0exWbo2t
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.ycL99aCK0exWbo2t"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Ó hAodha (Hughes)
+  - _id: QqSfiHexBjXyoyh6
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.QqSfiHexBjXyoyh6"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Mac an Ghabhann (Smith)
+  - _id: VBLXSPOgOgoo4SR7
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.VBLXSPOgOgoo4SR7"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: de Buitléir (Butler)
+  - _id: KWzxDQ7gFw68tmK0
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.KWzxDQ7gFw68tmK0"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Ó Gríobhtha (Griffin)
+  - _id: OdpWXwhxCJ312dA9
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.OdpWXwhxCJ312dA9"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Ó Caoimh (O'Keeffe)
+  - _id: 1dNjW5MIaxShqtR8
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.1dNjW5MIaxShqtR8"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Mac Suibhne (Sweeney)
+  - _id: 9wkDlBm3W9cxyqPW
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.9wkDlBm3W9cxyqPW"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Ó Coileáin (Cullen)
+  - _id: xa1p2AT9xJTf1SS9
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.xa1p2AT9xJTf1SS9"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Mac an Bhaird (Ward)
+  - _id: yZa6Pe3VMGYSQNYO
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.yZa6Pe3VMGYSQNYO"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ó Cuinneagáin (Cunningham)
+  - _id: rdHclJIMBnQ31W1F
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.rdHclJIMBnQ31W1F"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Mag Uidhir (Maguire)
+  - _id: m7YJbmlmy8CvJfZN
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.m7YJbmlmy8CvJfZN"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Ó Donnchadha (O'Donoghue)
+  - _id: K1mRRMqGBtbUoqtg
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.K1mRRMqGBtbUoqtg"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Ó Dubhshláine (Delaney)
+  - _id: WLK76vA99vroFfki
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.WLK76vA99vroFfki"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Mac Eochaidh (Keogh)
+  - _id: h7V9b4sOOVAD3nV1
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.h7V9b4sOOVAD3nV1"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Mac Cormaic (MacCormack)
+  - _id: EYW99ChyqaJbblc2
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.EYW99ChyqaJbblc2"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Ó Cathail (Cahill)
+  - _id: aUoij813OP108iXQ
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.aUoij813OP108iXQ"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Mac Lochlainn (McLoughlin)
+  - _id: P17DlU3rvrZipNM9
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.P17DlU3rvrZipNM9"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Ó Baoighill (Boyle)
+  - _id: AqpveTbayV4Iz8Js
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.AqpveTbayV4Iz8Js"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ó Cruadhlaoich (Crowley)
+  - _id: CtUw16g30m5kdoE3
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.CtUw16g30m5kdoE3"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Mac Cionaoith (MacKenna)
+  - _id: 14BCKOZPu9tyG5fj
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.14BCKOZPu9tyG5fj"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Ó Sirideáin (Sheridan)
+  - _id: NIIOlmLQWrhkF9bL
+    _key: "!tables.results!FIDGyWGEFEw1I5iW.NIIOlmLQWrhkF9bL"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Ó Maolmhuaidh (Molloy)
