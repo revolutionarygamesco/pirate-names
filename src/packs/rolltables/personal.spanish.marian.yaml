@@ -1,0 +1,128 @@
+_id: D0RanquUix9hFhZs
+_key: "!tables!D0RanquUix9hFhZs"
+name: Spanish Marian Names
+description: A selection of feminine Spanish names after various names for Mary.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: kBlKowgo21StNGZC
+results:
+  - _id: 2Tvp1CSmoyGlxp71
+    _key: "!tables.results!D0RanquUix9hFhZs.2Tvp1CSmoyGlxp71"
+    range: [ 1, 1 ]
+    weight: 1
+    type: text
+    description: María de los Ángeles
+  - _id: 9KlXqTjhCMJHciJr
+    _key: "!tables.results!D0RanquUix9hFhZs.9KlXqTjhCMJHciJr"
+    range: [ 2, 2 ]
+    weight: 1
+    type: text
+    description: María del Pila
+  - _id: TSkiUbBJ1MPaVnXl
+    _key: "!tables.results!D0RanquUix9hFhZs.TSkiUbBJ1MPaVnXl"
+    range: [ 3, 3 ]
+    weight: 1
+    type: text
+    description: María de la Luz
+  - _id: tdcSmvZ5eWFHYBZ5
+    _key: "!tables.results!D0RanquUix9hFhZs.tdcSmvZ5eWFHYBZ5"
+    range: [ 4, 4 ]
+    weight: 1
+    type: text
+    description: María del Carmen
+  - _id: CjiOty1lpL5xTVRj
+    _key: "!tables.results!D0RanquUix9hFhZs.CjiOty1lpL5xTVRj"
+    range: [ 5, 5 ]
+    weight: 1
+    type: text
+    description: María de la Soledad
+  - _id: hxKihIqXDmbly2kf
+    _key: "!tables.results!D0RanquUix9hFhZs.hxKihIqXDmbly2kf"
+    range: [ 6, 6 ]
+    weight: 1
+    type: text
+    description: María de los Dolores
+  - _id: LOZYrHAzwsBts5ed
+    _key: "!tables.results!D0RanquUix9hFhZs.LOZYrHAzwsBts5ed"
+    range: [ 7, 7 ]
+    weight: 1
+    type: text
+    description: María de las Mercedes
+  - _id: m5hoNDb94nu206mW
+    _key: "!tables.results!D0RanquUix9hFhZs.m5hoNDb94nu206mW"
+    range: [ 8, 8 ]
+    weight: 1
+    type: text
+    description: María de la Consolación
+  - _id: LWI4OxNFHSNL3pww
+    _key: "!tables.results!D0RanquUix9hFhZs.LWI4OxNFHSNL3pww"
+    range: [ 9, 9 ]
+    weight: 1
+    type: text
+    description: María de la Concepción
+  - _id: zxbHuajbXHdFiU4p
+    _key: "!tables.results!D0RanquUix9hFhZs.zxbHuajbXHdFiU4p"
+    range: [ 10, 10 ]
+    weight: 1
+    type: text
+    description: María de la Asunción
+  - _id: ekbLveLKN3f7Pfmb
+    _key: "!tables.results!D0RanquUix9hFhZs.ekbLveLKN3f7Pfmb"
+    range: [ 11, 11 ]
+    weight: 1
+    type: text
+    description: María de los Remedios
+  - _id: QPFQD8Wcb0SDHmCC
+    _key: "!tables.results!D0RanquUix9hFhZs.QPFQD8Wcb0SDHmCC"
+    range: [ 12, 12 ]
+    weight: 1
+    type: text
+    description: María de la Paz
+  - _id: lvQa9XJk1UtDoiOJ
+    _key: "!tables.results!D0RanquUix9hFhZs.lvQa9XJk1UtDoiOJ"
+    range: [ 13, 13 ]
+    weight: 1
+    type: text
+    description: María de la Esperanza
+  - _id: wYBaVylWPn1YsFBr
+    _key: "!tables.results!D0RanquUix9hFhZs.wYBaVylWPn1YsFBr"
+    range: [ 14, 14 ]
+    weight: 1
+    type: text
+    description: María de las Nieves
+  - _id: mUFtJwiE4dnzkBdl
+    _key: "!tables.results!D0RanquUix9hFhZs.mUFtJwiE4dnzkBdl"
+    range: [ 15, 15 ]
+    weight: 1
+    type: text
+    description: María del Rosario
+  - _id: NdOaAbQF2nVW3RLI
+    _key: "!tables.results!D0RanquUix9hFhZs.NdOaAbQF2nVW3RLI"
+    range: [ 16, 16 ]
+    weight: 1
+    type: text
+    description: María de los Milagros
+  - _id: E4sMuUEfaFideD7a
+    _key: "!tables.results!D0RanquUix9hFhZs.E4sMuUEfaFideD7a"
+    range: [ 17, 17 ]
+    weight: 1
+    type: text
+    description: María de los Desamparados
+  - _id: 3a8KrsopB34UesWU
+    _key: "!tables.results!D0RanquUix9hFhZs.3a8KrsopB34UesWU"
+    range: [ 18, 18 ]
+    weight: 1
+    type: text
+    description: María de la Victoria
+  - _id: VoUzZWZWkXEq0bgK
+    _key: "!tables.results!D0RanquUix9hFhZs.VoUzZWZWkXEq0bgK"
+    range: [ 19, 19 ]
+    weight: 1
+    type: text
+    description: María de la Natividad
+  - _id: YvHv2vCw1Pk29J47
+    _key: "!tables.results!D0RanquUix9hFhZs.YvHv2vCw1Pk29J47"
+    range: [ 20, 20 ]
+    weight: 1
+    type: text
+    description: María de la Visitación

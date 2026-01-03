@@ -1,0 +1,776 @@
+_id: zWWy0a2DiYQ9bdqe
+_key: "!tables!zWWy0a2DiYQ9bdqe"
+name: Spanish Surnames
+description: A selection of common 18th century Spanish surnames.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: kBlKowgo21StNGZC
+results:
+  - _id: EWz1z2LJK2Dmnct8
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.EWz1z2LJK2Dmnct8"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Moya
+  - _id: G9To4xO4MwCansFg
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.G9To4xO4MwCansFg"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Saez
+  - _id: yk8dslQBUbiDbXJK
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.yk8dslQBUbiDbXJK"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Roman
+  - _id: FK2hnHjVc6Pfwclf
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.FK2hnHjVc6Pfwclf"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Soto
+  - _id: MfI0IlrM2zOUcilG
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.MfI0IlrM2zOUcilG"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Carmona
+  - _id: 9i6YFXhwqFNI2d7J
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.9i6YFXhwqFNI2d7J"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Benitez
+  - _id: zzWd4V9ESa6L9AXd
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.zzWd4V9ESa6L9AXd"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Vargas
+  - _id: dr5kjtfwAYPhUNBq
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.dr5kjtfwAYPhUNBq"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Mora
+  - _id: 3RbowLY0bcuAPEZd
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.3RbowLY0bcuAPEZd"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Ibañez
+  - _id: VF62Fco4MOPmxoj9
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.VF62Fco4MOPmxoj9"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Montero
+  - _id: OzFOGMmZj2TGLqYU
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.OzFOGMmZj2TGLqYU"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Lorenzo
+  - _id: OMzLE3gJZbF239yU
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.OMzLE3gJZbF239yU"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Ferrer
+  - _id: Ym0dHbH9dKmazKNl
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Ym0dHbH9dKmazKNl"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Santana
+  - _id: G6YTicst9O9L4yS3
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.G6YTicst9O9L4yS3"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Nieto
+  - _id: 27dQjdy4PExvvAV7
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.27dQjdy4PExvvAV7"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Reyes
+  - _id: I9LVVCWgFrijHiPG
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.I9LVVCWgFrijHiPG"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Carrasco
+  - _id: 2jKbqV9KrBWAtmjY
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.2jKbqV9KrBWAtmjY"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Fuentes
+  - _id: LF7dLqfHLSxh2hnr
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.LF7dLqfHLSxh2hnr"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Marquez
+  - _id: zcIMXZbpfx29KTX3
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.zcIMXZbpfx29KTX3"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Leon
+  - _id: AmQVUQe5UWLnBqiz
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.AmQVUQe5UWLnBqiz"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Cabrera
+  - _id: m4Kf2a3Azs2pYJzA
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.m4Kf2a3Azs2pYJzA"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Herrera
+  - _id: zFoXn6EAl9XzWRTX
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.zFoXn6EAl9XzWRTX"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Vidal
+  - _id: fTvEzPEzcqixZnYV
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.fTvEzPEzcqixZnYV"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Cruz
+  - _id: QL5QC3r0vStNfbG7
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.QL5QC3r0vStNfbG7"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Prieto
+  - _id: 2tqeP9ftMt1UZOQU
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.2tqeP9ftMt1UZOQU"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Santos
+  - _id: dYqx6fWXxRzxAFBg
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.dYqx6fWXxRzxAFBg"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Lozano
+  - _id: ZaxavS2b5M8av5Ko
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.ZaxavS2b5M8av5Ko"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Castillo
+  - _id: gDQcuzoLSpO9VoTn
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.gDQcuzoLSpO9VoTn"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Medina
+  - _id: qgpWg7JWcQS07Zyw
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.qgpWg7JWcQS07Zyw"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Sans
+  - _id: nB7uWOI7xNwBg36t
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.nB7uWOI7xNwBg36t"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Rubio
+  - _id: YQQNlu7TgoA4wadd
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.YQQNlu7TgoA4wadd"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Castro
+  - _id: s6pEr34Q1W8lweIc
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.s6pEr34Q1W8lweIc"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Ortega
+  - _id: Hl7rK9DPl1fW911f
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Hl7rK9DPl1fW911f"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Suarez
+  - _id: BY8ypMCPzu2Aplrq
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.BY8ypMCPzu2Aplrq"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Blanco
+  - _id: wilxsX65rWcSPKhr
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.wilxsX65rWcSPKhr"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Serrano
+  - _id: iTRXv1TQeIlIdQxF
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.iTRXv1TQeIlIdQxF"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Vazquez
+  - _id: zzoCFGMBNCTDadlC
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.zzoCFGMBNCTDadlC"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Ramos
+  - _id: sAbHTHPmd1F3S4g2
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.sAbHTHPmd1F3S4g2"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Navarro
+  - _id: FN8GkqMtK4C6m30B
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.FN8GkqMtK4C6m30B"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Gutierrez
+  - _id: Tc7gFTDdWncC0Vjh
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Tc7gFTDdWncC0Vjh"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Alvarez
+  - _id: nWZOq7IjxaOPkNXJ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.nWZOq7IjxaOPkNXJ"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Moreno
+  - _id: ZKQXSNQZbi0DFtYZ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.ZKQXSNQZbi0DFtYZ"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Diaz
+  - _id: SMgep2p5Taa16YgE
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.SMgep2p5Taa16YgE"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Jimenez
+  - _id: 29OQ0SVAJCJcuwFL
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.29OQ0SVAJCJcuwFL"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Martin
+  - _id: jl1P38mqmewWY68z
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.jl1P38mqmewWY68z"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Sanchez
+  - _id: nzIwpndEveV9byRp
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.nzIwpndEveV9byRp"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Lopez
+  - _id: m6BQTTIiVSfNihX5
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.m6BQTTIiVSfNihX5"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Gonzalez
+  - _id: YTdYLwOJvh6KLJFJ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.YTdYLwOJvh6KLJFJ"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Rodriguez
+  - _id: LmIX4oyeeDhTCIKU
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.LmIX4oyeeDhTCIKU"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Garcia
+  - _id: uWAfwnK2YfCoNqjt
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.uWAfwnK2YfCoNqjt"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Fernandez
+  - _id: s3pcxOQBMZRGFRJs
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.s3pcxOQBMZRGFRJs"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Martinez
+  - _id: eHkKho1jFPMxB5mP
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.eHkKho1jFPMxB5mP"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Perez
+  - _id: 6lwiLt1fdhhnSr58
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.6lwiLt1fdhhnSr58"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Gomez
+  - _id: cLbgPixEgTVB2Tes
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.cLbgPixEgTVB2Tes"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Ruiz
+  - _id: RQD7FJuOcRt7c4xQ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.RQD7FJuOcRt7c4xQ"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Hernandez
+  - _id: G4dH7Zwm11MHZkxs
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.G4dH7Zwm11MHZkxs"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Muñoz
+  - _id: eDi7xzsrNcKd0XVN
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.eDi7xzsrNcKd0XVN"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Romero
+  - _id: slZqR57xd7cf5aio
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.slZqR57xd7cf5aio"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Alonso
+  - _id: D1QynBbryoido2IJ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.D1QynBbryoido2IJ"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Torres
+  - _id: AB618SSOT3ccSBZy
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.AB618SSOT3ccSBZy"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Dominguez
+  - _id: ZlC6Q91tGVp2Zbk0
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.ZlC6Q91tGVp2Zbk0"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Gil
+  - _id: gJ18y9gZlm3whGEr
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.gJ18y9gZlm3whGEr"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Ramirez
+  - _id: oGDBOoopUxuC6nX4
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.oGDBOoopUxuC6nX4"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Molina
+  - _id: 80nAx0eyle8mOJKV
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.80nAx0eyle8mOJKV"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Morales
+  - _id: j3tZX2LGjCODMjnY
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.j3tZX2LGjCODMjnY"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Delgado
+  - _id: nxB3OrBaVLYcg0bf
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.nxB3OrBaVLYcg0bf"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Ortiz
+  - _id: hSXn2PbvZ7rBIe5A
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.hSXn2PbvZ7rBIe5A"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Marin
+  - _id: fNkzFdIvn8kzBcBz
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.fNkzFdIvn8kzBcBz"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Iglesias
+  - _id: WQ3bu7QaWBlqmjoM
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.WQ3bu7QaWBlqmjoM"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Nuñez
+  - _id: eb8RmPlyxqtKesd0
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.eb8RmPlyxqtKesd0"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Garrido
+  - _id: eofM1RD3cgmNmW5A
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.eofM1RD3cgmNmW5A"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Cortes
+  - _id: i5uq6nF8SugQTw8j
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.i5uq6nF8SugQTw8j"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Guerrero
+  - _id: Unad37Mge2MAryS2
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Unad37Mge2MAryS2"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Cano
+  - _id: fEa6Fm4SkGKFMMEr
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.fEa6Fm4SkGKFMMEr"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Mendez
+  - _id: 1HNfriFCprW2MV1p
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.1HNfriFCprW2MV1p"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Calvo
+  - _id: 1kdxRlIa3M5FvHOU
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.1kdxRlIa3M5FvHOU"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Gallego
+  - _id: uamExym3IRjr7VpK
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.uamExym3IRjr7VpK"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Flores
+  - _id: xTFdY1acHZxSwpqK
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.xTFdY1acHZxSwpqK"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Peña
+  - _id: gaeGRhlpOUe1AX5h
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.gaeGRhlpOUe1AX5h"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Campos
+  - _id: bGlqJMKfbGfOz7rl
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.bGlqJMKfbGfOz7rl"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Vega
+  - _id: 0SxLRFkxSYbpasfx
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.0SxLRFkxSYbpasfx"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Diez
+  - _id: uJOSRX8SyaFTaV8u
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.uJOSRX8SyaFTaV8u"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Caballero
+  - _id: lwpBYyx1ofuNHVGE
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.lwpBYyx1ofuNHVGE"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Pascual
+  - _id: sCJEsnus86eCqk4K
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.sCJEsnus86eCqk4K"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Aguilar
+  - _id: ItcV4xxHaWkE23VX
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.ItcV4xxHaWkE23VX"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Herrero
+  - _id: 4FY3MKWTkojQvpzy
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.4FY3MKWTkojQvpzy"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Gimenez
+  - _id: krCbPLFRYVuVoUuD
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.krCbPLFRYVuVoUuD"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Hidalgo
+  - _id: Gx0NVfwvHyZJ2KNG
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Gx0NVfwvHyZJ2KNG"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Santiago
+  - _id: rJ7OAvgLGhkQuuZI
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.rJ7OAvgLGhkQuuZI"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Vicente
+  - _id: rDPAYhwaduOWoV08
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.rDPAYhwaduOWoV08"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Arias
+  - _id: IuaXVgOUjrUCCALZ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.IuaXVgOUjrUCCALZ"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Duran
+  - _id: PXuftJrtFdWvOlyR
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.PXuftJrtFdWvOlyR"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Crespo
+  - _id: 4l6u6ZEuYuoD65TQ
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.4l6u6ZEuYuoD65TQ"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Pastor
+  - _id: Qtj20NK26G0DP40j
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.Qtj20NK26G0DP40j"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Soler
+  - _id: CjCj07XBoydyQmvg
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.CjCj07XBoydyQmvg"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Velasco
+  - _id: p93J1Isxk3bbrBvN
+    _key: "!tables.results!zWWy0a2DiYQ9bdqe.p93J1Isxk3bbrBvN"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Parra

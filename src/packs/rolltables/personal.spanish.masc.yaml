@@ -1,0 +1,776 @@
+_id: 2nlXu7X2BWOsp7oi
+_key: "!tables!2nlXu7X2BWOsp7oi"
+name: Spanish Masculine Names
+description: A selection of popular 18th century Spanish masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: kBlKowgo21StNGZC
+results:
+  - _id: 5hF74odu8u7KysaS
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.5hF74odu8u7KysaS"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Jonás
+  - _id: iDFJzcC9nK09jk8X
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.iDFJzcC9nK09jk8X"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Israel
+  - _id: YpmusZvDBjQ3DcMb
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.YpmusZvDBjQ3DcMb"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Benedicto
+  - _id: AxT9vSdXwzD84Xua
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.AxT9vSdXwzD84Xua"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Claudio
+  - _id: vJeTBciwcmVGUhW5
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.vJeTBciwcmVGUhW5"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Adrián
+  - _id: gEqAeHk6e3rwjqKE
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.gEqAeHk6e3rwjqKE"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Damián
+  - _id: LhZhPblr4gWL23Az
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.LhZhPblr4gWL23Az"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Cipriano
+  - _id: 9ymb7quqNYTzU3vt
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.9ymb7quqNYTzU3vt"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Bermudo
+  - _id: 4XE6mSQmObREizml
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.4XE6mSQmObREizml"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Pelayo
+  - _id: YRQ34h5h1vdrXzaQ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.YRQ34h5h1vdrXzaQ"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Jimén
+  - _id: 3oaB2D9nHtqdBVn2
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.3oaB2D9nHtqdBVn2"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Elías
+  - _id: aSY1d1bStIi37PgL
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.aSY1d1bStIi37PgL"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Suero
+  - _id: Pgim8FtWUHZzHd7G
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.Pgim8FtWUHZzHd7G"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Vasco
+  - _id: W23vTqBloRGEM1Z6
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.W23vTqBloRGEM1Z6"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Nuño
+  - _id: LxNCS7rwo9LJEAMA
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.LxNCS7rwo9LJEAMA"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Ruy
+  - _id: NP9eh48qMcOHJTDR
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.NP9eh48qMcOHJTDR"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Aureliano
+  - _id: gyFNcbtsCKC6QfhN
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.gyFNcbtsCKC6QfhN"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Tomé
+  - _id: arU5c08WGvsf7IU4
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.arU5c08WGvsf7IU4"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Pablo
+  - _id: rQJjMtULYvgNSfv0
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.rQJjMtULYvgNSfv0"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Mergildo
+  - _id: SbJbDRSGf8hFA5XH
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.SbJbDRSGf8hFA5XH"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Jorge
+  - _id: sFeJdAyVbUzMAXgz
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.sFeJdAyVbUzMAXgz"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Hector
+  - _id: 1TL4KcmoD03OZcRQ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.1TL4KcmoD03OZcRQ"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Garci
+  - _id: b1L1jo5mbR7L3DiT
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.b1L1jo5mbR7L3DiT"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Frutos
+  - _id: tJPgx7aCNWoUSjqU
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.tJPgx7aCNWoUSjqU"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Bautista
+  - _id: 2ZbxRJqi2QIzhvmM
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.2ZbxRJqi2QIzhvmM"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Bastía
+  - _id: m9aRMR1Zoy1wEt9F
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.m9aRMR1Zoy1wEt9F"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Sancho
+  - _id: WC7BPchAbPzeKaj5
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.WC7BPchAbPzeKaj5"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Matias
+  - _id: 6YAteZ5phXOLBHKh
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.6YAteZ5phXOLBHKh"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Gregorio
+  - _id: aU6pXrTnwsynVwgM
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.aU6pXrTnwsynVwgM"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Cosme
+  - _id: mccsXaeFb24jRb9y
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.mccsXaeFb24jRb9y"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Tomás
+  - _id: RJHRY2Rr19BNUhDk
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.RJHRY2Rr19BNUhDk"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Lucas
+  - _id: 8l5vILELMdbDZjp3
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.8l5vILELMdbDZjp3"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Felipe
+  - _id: Zz5zKgjie4A6cztw
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.Zz5zKgjie4A6cztw"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Bernardino
+  - _id: zn9U4C3HTy7pPij8
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.zn9U4C3HTy7pPij8"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Marcos
+  - _id: 7GXu9uSZdmR0d02b
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.7GXu9uSZdmR0d02b"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Benito
+  - _id: 6SkaFJUrpOaDk6AC
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.6SkaFJUrpOaDk6AC"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Alvaro
+  - _id: oirMmM5EyuMRhy42
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.oirMmM5EyuMRhy42"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Jerónimo
+  - _id: FVCAzvp2VDfJ2SQc
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.FVCAzvp2VDfJ2SQc"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Sebastian
+  - _id: ZdQGfyuQW5emvK0y
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.ZdQGfyuQW5emvK0y"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Gabriel
+  - _id: RCSa8oY94vdqeRXf
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.RCSa8oY94vdqeRXf"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Antón
+  - _id: hL0OQ1BVYTAz9YPH
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.hL0OQ1BVYTAz9YPH"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Miguel
+  - _id: 8DxD7AUdAb4izHtK
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.8DxD7AUdAb4izHtK"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Bartolomé
+  - _id: hkYsSPHmFWxTDNBY
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.hkYsSPHmFWxTDNBY"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Hernán
+  - _id: neHG8acVP5Tnmngw
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.neHG8acVP5Tnmngw"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Andrés
+  - _id: u0Moozhl1E1dARYo
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.u0Moozhl1E1dARYo"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Antonio
+  - _id: 2VPeX0oaM9uGH4xv
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.2VPeX0oaM9uGH4xv"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Alonso
+  - _id: oBpn0rG57wcnprx3
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.oBpn0rG57wcnprx3"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Diego
+  - _id: b5VugGuRXoF6mDCx
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.b5VugGuRXoF6mDCx"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Juan
+  - _id: PR6rwCSw5gQGO2TW
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.PR6rwCSw5gQGO2TW"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Francisco
+  - _id: XtDcgrJeyRM5h9k7
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.XtDcgrJeyRM5h9k7"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Pedro
+  - _id: aHSCcLrVgq9VbOLX
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.aHSCcLrVgq9VbOLX"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Hernando
+  - _id: KCmV1At0yfsJObbJ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.KCmV1At0yfsJObbJ"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Cristóbal
+  - _id: jJqQTS0XLpAp8N16
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.jJqQTS0XLpAp8N16"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Gonzalo
+  - _id: R4lGvSkj42b4oIBL
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.R4lGvSkj42b4oIBL"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Luis
+  - _id: MB5WHMMtqtcPUhI1
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.MB5WHMMtqtcPUhI1"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Martín
+  - _id: JkQ4vq1AKE2nFKQ1
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.JkQ4vq1AKE2nFKQ1"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Rodrigo
+  - _id: jvbFxBca8MNQTkww
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.jvbFxBca8MNQTkww"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Gaspar
+  - _id: 9QZb35hWmCowWvqL
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.9QZb35hWmCowWvqL"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Lorenzo
+  - _id: W0MMHY5kMUyHgL5V
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.W0MMHY5kMUyHgL5V"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Jaime
+  - _id: yxlPX2WWpVXpniPj
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.yxlPX2WWpVXpniPj"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Lope
+  - _id: NZJMxDlPmqm2HIDj
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.NZJMxDlPmqm2HIDj"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Baltasar
+  - _id: xbqvTaKbgaOW5ElF
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.xbqvTaKbgaOW5ElF"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Manuel
+  - _id: Zdad7DFVpCcZnKnp
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.Zdad7DFVpCcZnKnp"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Agustín
+  - _id: 5nvXJ8Zcyvjl4BKl
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.5nvXJ8Zcyvjl4BKl"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Domingo
+  - _id: UfUG6CH4cItstXtB
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.UfUG6CH4cItstXtB"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Esteban
+  - _id: xk1M3PE3qPPsqvSx
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.xk1M3PE3qPPsqvSx"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Simón
+  - _id: PRBGDsBVEyxwNxYy
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.PRBGDsBVEyxwNxYy"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Carlos
+  - _id: UkVLKSFWNvSv7LpN
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.UkVLKSFWNvSv7LpN"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Gines
+  - _id: LrMiBROzxp42sElf
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.LrMiBROzxp42sElf"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Mateo
+  - _id: KI0qWX4JDH5veOjc
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.KI0qWX4JDH5veOjc"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Nicolas
+  - _id: 9Gxda3X5uQofvPk5
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.9Gxda3X5uQofvPk5"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Santiago
+  - _id: BZNfGBLzeKedAg0Z
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.BZNfGBLzeKedAg0Z"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Barros
+  - _id: 5u3wnvr6CQZOTvcI
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.5u3wnvr6CQZOTvcI"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Blas
+  - _id: Rs0HFW7C7Fb8cRrG
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.Rs0HFW7C7Fb8cRrG"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Eyague
+  - _id: MKNsFq6QXLfDpnx1
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.MKNsFq6QXLfDpnx1"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Giraldo
+  - _id: VIqw39zyH3KzNh33
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.VIqw39zyH3KzNh33"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Guillen
+  - _id: hgFSsn4MCdnoWUHa
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.hgFSsn4MCdnoWUHa"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Jose
+  - _id: ad2TrxoS5YEc7YPk
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.ad2TrxoS5YEc7YPk"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Melchor
+  - _id: orniOtuusewCqmCX
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.orniOtuusewCqmCX"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Pascual
+  - _id: 1SeGp5evemZYNZgy
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.1SeGp5evemZYNZgy"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Salvador
+  - _id: v0Dw05iCVzH7798z
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.v0Dw05iCVzH7798z"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Truylos
+  - _id: it81fDy4l4Ox5GYM
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.it81fDy4l4Ox5GYM"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Íñigo
+  - _id: O8uyf5GiQocr0cE1
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.O8uyf5GiQocr0cE1"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Gutierre
+  - _id: ySvZuT4lQN1oaHAW
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.ySvZuT4lQN1oaHAW"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ramiro
+  - _id: cadssTD92ClVVXIY
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.cadssTD92ClVVXIY"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Rafael
+  - _id: cvjAsWlM8D3Jga4K
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.cvjAsWlM8D3Jga4K"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Joaquín
+  - _id: 5OWykV18Y9ybjpQJ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.5OWykV18Y9ybjpQJ"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Fortún
+  - _id: 5THN7bVyLjHlGqWW
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.5THN7bVyLjHlGqWW"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Ordoño
+  - _id: P4kC7ZzuHak3DujJ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.P4kC7ZzuHak3DujJ"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Ramón
+  - _id: yl65BHuUnrNhDqOD
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.yl65BHuUnrNhDqOD"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Valentín
+  - _id: KxDcUnxxWSRGnJgy
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.KxDcUnxxWSRGnJgy"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Fabián
+  - _id: 4Vrkabfb8A0WjFxh
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.4Vrkabfb8A0WjFxh"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Julián
+  - _id: mpkp2QNFgvEHJGjE
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.mpkp2QNFgvEHJGjE"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ignacio
+  - _id: iU55tuzibnxCoiLk
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.iU55tuzibnxCoiLk"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Javier
+  - _id: RKd6Jt9WIUPRNxcQ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.RKd6Jt9WIUPRNxcQ"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Bonifacio
+  - _id: VK9w4QiyKETscnRZ
+    _key: "!tables.results!2nlXu7X2BWOsp7oi.VK9w4QiyKETscnRZ"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Mauricio
