@@ -1,0 +1,776 @@
+_id: HsshgplTIrOwI4xH
+_key: "!tables!HsshgplTIrOwI4xH"
+name: Welsh Surnames
+description: A selection of popular 18th century Welsh surnames.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 5HAo7kUCb8cgEDd2
+results:
+  - _id: Sn47HiDiLR3HdmdG
+    _key: "!tables.results!HsshgplTIrOwI4xH.Sn47HiDiLR3HdmdG"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Powys
+  - _id: aGxq11AvhsRJspuJ
+    _key: "!tables.results!HsshgplTIrOwI4xH.aGxq11AvhsRJspuJ"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Gething
+  - _id: PCkb8HuFzcrS3p75
+    _key: "!tables.results!HsshgplTIrOwI4xH.PCkb8HuFzcrS3p75"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Jarrett
+  - _id: aIVdBHfxfhpPzapy
+    _key: "!tables.results!HsshgplTIrOwI4xH.aIVdBHfxfhpPzapy"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Cadwalidwr
+  - _id: 3sNmFFw5lUy3jZsF
+    _key: "!tables.results!HsshgplTIrOwI4xH.3sNmFFw5lUy3jZsF"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Paul
+  - _id: rSZRv3kv4gDeL3b7
+    _key: "!tables.results!HsshgplTIrOwI4xH.rSZRv3kv4gDeL3b7"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Havard
+  - _id: Qc5qIePGOevJlQQS
+    _key: "!tables.results!HsshgplTIrOwI4xH.Qc5qIePGOevJlQQS"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Elias
+  - _id: eIMC5BPb84q2NP6e
+    _key: "!tables.results!HsshgplTIrOwI4xH.eIMC5BPb84q2NP6e"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Trehaerne
+  - _id: SZqKdEDO6uEK2vTF
+    _key: "!tables.results!HsshgplTIrOwI4xH.SZqKdEDO6uEK2vTF"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Rice
+  - _id: mZ2UWSAOPBh1XaSw
+    _key: "!tables.results!HsshgplTIrOwI4xH.mZ2UWSAOPBh1XaSw"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Meyrick
+  - _id: BiKs01e2LBIsv8an
+    _key: "!tables.results!HsshgplTIrOwI4xH.BiKs01e2LBIsv8an"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Gwynne
+  - _id: bYNMLlfPQELTqzvF
+    _key: "!tables.results!HsshgplTIrOwI4xH.bYNMLlfPQELTqzvF"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Phelps
+  - _id: Fl23bjDklyxwsdId
+    _key: "!tables.results!HsshgplTIrOwI4xH.Fl23bjDklyxwsdId"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Rickard
+  - _id: P15jRzXgw63oVBKH
+    _key: "!tables.results!HsshgplTIrOwI4xH.P15jRzXgw63oVBKH"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Anthony
+  - _id: XqLdayZHJ4vzJhZ6
+    _key: "!tables.results!HsshgplTIrOwI4xH.XqLdayZHJ4vzJhZ6"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Probert
+  - _id: GyeMbAeKPyQhcjvV
+    _key: "!tables.results!HsshgplTIrOwI4xH.GyeMbAeKPyQhcjvV"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Griffin
+  - _id: d8cF9ogIjyaM4UIj
+    _key: "!tables.results!HsshgplTIrOwI4xH.d8cF9ogIjyaM4UIj"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Charles
+  - _id: nhbdZFg580FSoxyc
+    _key: "!tables.results!HsshgplTIrOwI4xH.nhbdZFg580FSoxyc"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Beynon
+  - _id: 981iRx3aHicyBB03
+    _key: "!tables.results!HsshgplTIrOwI4xH.981iRx3aHicyBB03"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: David
+  - _id: K1ituVCbkeg54cf1
+    _key: "!tables.results!HsshgplTIrOwI4xH.K1ituVCbkeg54cf1"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Wynne
+  - _id: mkw50Sm8xE4VNla4
+    _key: "!tables.results!HsshgplTIrOwI4xH.mkw50Sm8xE4VNla4"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Prosser
+  - _id: QnqMEZeceExHe5pQ
+    _key: "!tables.results!HsshgplTIrOwI4xH.QnqMEZeceExHe5pQ"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Nicholas
+  - _id: lItGfewrligD9GAf
+    _key: "!tables.results!HsshgplTIrOwI4xH.lItGfewrligD9GAf"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Daniels
+  - _id: MvRwhP7jJ4z6NhH7
+    _key: "!tables.results!HsshgplTIrOwI4xH.MvRwhP7jJ4z6NhH7"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Meredith
+  - _id: R2FsY3gArvlVSxaR
+    _key: "!tables.results!HsshgplTIrOwI4xH.R2FsY3gArvlVSxaR"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Davis
+  - _id: QN0RtsuZoTQzNsoA
+    _key: "!tables.results!HsshgplTIrOwI4xH.QN0RtsuZoTQzNsoA"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Vaughan
+  - _id: MdMGrEGIL4Jjiv78
+    _key: "!tables.results!HsshgplTIrOwI4xH.MdMGrEGIL4Jjiv78"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Simons
+  - _id: 6mQeKfLYLHIMouLP
+    _key: "!tables.results!HsshgplTIrOwI4xH.6mQeKfLYLHIMouLP"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Walters
+  - _id: cAcZPJgYxUfVrw0P
+    _key: "!tables.results!HsshgplTIrOwI4xH.cAcZPJgYxUfVrw0P"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Adams
+  - _id: tMqgPWARganwasBO
+    _key: "!tables.results!HsshgplTIrOwI4xH.tMqgPWARganwasBO"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Bennett
+  - _id: tyN2AUZw3zE8odkc
+    _key: "!tables.results!HsshgplTIrOwI4xH.tyN2AUZw3zE8odkc"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Martin
+  - _id: jcAy6ExS2uCmit3W
+    _key: "!tables.results!HsshgplTIrOwI4xH.jcAy6ExS2uCmit3W"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Ellis
+  - _id: vDDnPFNxOwSq1ZyL
+    _key: "!tables.results!HsshgplTIrOwI4xH.vDDnPFNxOwSq1ZyL"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Pugh
+  - _id: 3FW18MCHiVeduT1A
+    _key: "!tables.results!HsshgplTIrOwI4xH.3FW18MCHiVeduT1A"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Rowlands
+  - _id: mt6jeizG3ilUPx1I
+    _key: "!tables.results!HsshgplTIrOwI4xH.mt6jeizG3ilUPx1I"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Pritchard
+  - _id: dpGLRpMnaejHjwhl
+    _key: "!tables.results!HsshgplTIrOwI4xH.dpGLRpMnaejHjwhl"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Howells
+  - _id: uyzPfZ52fPVci05q
+    _key: "!tables.results!HsshgplTIrOwI4xH.uyzPfZ52fPVci05q"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Parry
+  - _id: AHPF987Tbl2EwdfH
+    _key: "!tables.results!HsshgplTIrOwI4xH.AHPF987Tbl2EwdfH"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Richards
+  - _id: cABtWL3w1UUNj2Hp
+    _key: "!tables.results!HsshgplTIrOwI4xH.cABtWL3w1UUNj2Hp"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Harris
+  - _id: XCtoEiEPRp9Rx7nw
+    _key: "!tables.results!HsshgplTIrOwI4xH.XCtoEiEPRp9Rx7nw"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Phillips
+  - _id: FsxvpNdExE1orvPk
+    _key: "!tables.results!HsshgplTIrOwI4xH.FsxvpNdExE1orvPk"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Rees
+  - _id: vpOcHlHqIDCm0zU3
+    _key: "!tables.results!HsshgplTIrOwI4xH.vpOcHlHqIDCm0zU3"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: James
+  - _id: UlMhfZopYaOj0moR
+    _key: "!tables.results!HsshgplTIrOwI4xH.UlMhfZopYaOj0moR"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Edwards
+  - _id: hhDGlYPLsSVwHC9R
+    _key: "!tables.results!HsshgplTIrOwI4xH.hhDGlYPLsSVwHC9R"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Griffiths
+  - _id: DLxHXDnUyKPeoW3z
+    _key: "!tables.results!HsshgplTIrOwI4xH.DLxHXDnUyKPeoW3z"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Hughes
+  - _id: 0AqfhtHMIHIAnKId
+    _key: "!tables.results!HsshgplTIrOwI4xH.0AqfhtHMIHIAnKId"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Thomas
+  - _id: Mkr4GfXvVjnqCXSQ
+    _key: "!tables.results!HsshgplTIrOwI4xH.Mkr4GfXvVjnqCXSQ"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Evans
+  - _id: zjH8QkmC6Zmhg5hA
+    _key: "!tables.results!HsshgplTIrOwI4xH.zjH8QkmC6Zmhg5hA"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Jones
+  - _id: cggf1ogOdh2GIXJf
+    _key: "!tables.results!HsshgplTIrOwI4xH.cggf1ogOdh2GIXJf"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Williams
+  - _id: cSdQrj8bxzFTYsO3
+    _key: "!tables.results!HsshgplTIrOwI4xH.cSdQrj8bxzFTYsO3"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Davies
+  - _id: MDMC2eh8ResbYpCS
+    _key: "!tables.results!HsshgplTIrOwI4xH.MDMC2eh8ResbYpCS"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Roberts
+  - _id: wOaJHSJrSierC3W5
+    _key: "!tables.results!HsshgplTIrOwI4xH.wOaJHSJrSierC3W5"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Lewis
+  - _id: ItE7BumVV1yUTqri
+    _key: "!tables.results!HsshgplTIrOwI4xH.ItE7BumVV1yUTqri"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Morgan
+  - _id: FlamPXyr01NwpNVr
+    _key: "!tables.results!HsshgplTIrOwI4xH.FlamPXyr01NwpNVr"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Owen
+  - _id: W5JdLGwGzFnn9bQ3
+    _key: "!tables.results!HsshgplTIrOwI4xH.W5JdLGwGzFnn9bQ3"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Morris
+  - _id: DaLXNFiFgXMDNBfy
+    _key: "!tables.results!HsshgplTIrOwI4xH.DaLXNFiFgXMDNBfy"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Price
+  - _id: A91vrpfAYaCpaTeT
+    _key: "!tables.results!HsshgplTIrOwI4xH.A91vrpfAYaCpaTeT"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Jenkins
+  - _id: g8ibXtOhy1DlbqOU
+    _key: "!tables.results!HsshgplTIrOwI4xH.g8ibXtOhy1DlbqOU"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Lloyd
+  - _id: 3v0DpajFAI1LgzHR
+    _key: "!tables.results!HsshgplTIrOwI4xH.3v0DpajFAI1LgzHR"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Powell
+  - _id: sviMBbkpJVrEgvty
+    _key: "!tables.results!HsshgplTIrOwI4xH.sviMBbkpJVrEgvty"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: John
+  - _id: mrNQKAHa3u22c918
+    _key: "!tables.results!HsshgplTIrOwI4xH.mrNQKAHa3u22c918"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Watkins
+  - _id: 2nksTXCDtTCL258A
+    _key: "!tables.results!HsshgplTIrOwI4xH.2nksTXCDtTCL258A"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Rogers
+  - _id: T5Hp4yT7t0pHrykH
+    _key: "!tables.results!HsshgplTIrOwI4xH.T5Hp4yT7t0pHrykH"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Matthews
+  - _id: alc3s8zisQCORGb3
+    _key: "!tables.results!HsshgplTIrOwI4xH.alc3s8zisQCORGb3"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Humphreys
+  - _id: RiKamXFRRM8zigcf
+    _key: "!tables.results!HsshgplTIrOwI4xH.RiKamXFRRM8zigcf"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Bowen
+  - _id: 9r7Oq9OsoIkOcew5
+    _key: "!tables.results!HsshgplTIrOwI4xH.9r7Oq9OsoIkOcew5"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Hopkins
+  - _id: zCqy3RprWxlJUVjD
+    _key: "!tables.results!HsshgplTIrOwI4xH.zCqy3RprWxlJUVjD"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Bevan
+  - _id: gWc4P9CdLrGwHUcG
+    _key: "!tables.results!HsshgplTIrOwI4xH.gWc4P9CdLrGwHUcG"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Pearse
+  - _id: T6r8IK9crqJHvyQl
+    _key: "!tables.results!HsshgplTIrOwI4xH.T6r8IK9crqJHvyQl"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Llewellyn
+  - _id: GduO8xlghUD2XG4v
+    _key: "!tables.results!HsshgplTIrOwI4xH.GduO8xlghUD2XG4v"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: George
+  - _id: AZjP1e7fpmrgQaQ1
+    _key: "!tables.results!HsshgplTIrOwI4xH.AZjP1e7fpmrgQaQ1"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Reynolds
+  - _id: a7Pr3SlJxyCfMcI7
+    _key: "!tables.results!HsshgplTIrOwI4xH.a7Pr3SlJxyCfMcI7"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Andrews
+  - _id: Bd5kjYJt3t8ZQ8IM
+    _key: "!tables.results!HsshgplTIrOwI4xH.Bd5kjYJt3t8ZQ8IM"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Lawrence
+  - _id: B8DDOAAsycNLK6eA
+    _key: "!tables.results!HsshgplTIrOwI4xH.B8DDOAAsycNLK6eA"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Nicholls
+  - _id: yahg40NwhynW0n1D
+    _key: "!tables.results!HsshgplTIrOwI4xH.yahg40NwhynW0n1D"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Preece
+  - _id: jtnHxMkc69BD8zAb
+    _key: "!tables.results!HsshgplTIrOwI4xH.jtnHxMkc69BD8zAb"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Edmunds
+  - _id: 8Fx8gT8VVuKcaRDX
+    _key: "!tables.results!HsshgplTIrOwI4xH.8Fx8gT8VVuKcaRDX"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Goff
+  - _id: 5N4hsbvLBk2pFgoh
+    _key: "!tables.results!HsshgplTIrOwI4xH.5N4hsbvLBk2pFgoh"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Herbert
+  - _id: bUS3k9iueAFyi2v5
+    _key: "!tables.results!HsshgplTIrOwI4xH.bUS3k9iueAFyi2v5"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Arnold
+  - _id: 4jUTbXj5Fxsk99Wc
+    _key: "!tables.results!HsshgplTIrOwI4xH.4jUTbXj5Fxsk99Wc"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Gittins
+  - _id: s4sTuybPJSr5Qs8V
+    _key: "!tables.results!HsshgplTIrOwI4xH.s4sTuybPJSr5Qs8V"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Rosser
+  - _id: PFPkJ5Pen9OV0nNh
+    _key: "!tables.results!HsshgplTIrOwI4xH.PFPkJ5Pen9OV0nNh"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Mathias
+  - _id: Lq9PZ78Ke7jlGeeF
+    _key: "!tables.results!HsshgplTIrOwI4xH.Lq9PZ78Ke7jlGeeF"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Gwilliam
+  - _id: esjfMJoxe4ETuycu
+    _key: "!tables.results!HsshgplTIrOwI4xH.esjfMJoxe4ETuycu"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Giles
+  - _id: 1RpaCPwjDrOQPfSY
+    _key: "!tables.results!HsshgplTIrOwI4xH.1RpaCPwjDrOQPfSY"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Protheroe
+  - _id: 3Nym60Ma71Am8us9
+    _key: "!tables.results!HsshgplTIrOwI4xH.3Nym60Ma71Am8us9"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Roderick
+  - _id: JQ2xxWZZY1Vy0crd
+    _key: "!tables.results!HsshgplTIrOwI4xH.JQ2xxWZZY1Vy0crd"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Bellis
+  - _id: fPJjpmZoySB6DlP2
+    _key: "!tables.results!HsshgplTIrOwI4xH.fPJjpmZoySB6DlP2"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Mansel
+  - _id: jQyidpWPLJ3AduuU
+    _key: "!tables.results!HsshgplTIrOwI4xH.jQyidpWPLJ3AduuU"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Eynion
+  - _id: sSw3DERaBS7mfJp2
+    _key: "!tables.results!HsshgplTIrOwI4xH.sSw3DERaBS7mfJp2"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Michael
+  - _id: l48P2beMBQVMPuOL
+    _key: "!tables.results!HsshgplTIrOwI4xH.l48P2beMBQVMPuOL"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Pullin
+  - _id: zX3xvSnug6EKwvJ5
+    _key: "!tables.results!HsshgplTIrOwI4xH.zX3xvSnug6EKwvJ5"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Abraham
+  - _id: 4lzRaNnPWNzjgR4H
+    _key: "!tables.results!HsshgplTIrOwI4xH.4lzRaNnPWNzjgR4H"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Leyshon
+  - _id: fVf5pzDejndSGhhK
+    _key: "!tables.results!HsshgplTIrOwI4xH.fVf5pzDejndSGhhK"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Picton
+  - _id: 7DCzKroRlGlyJWsO
+    _key: "!tables.results!HsshgplTIrOwI4xH.7DCzKroRlGlyJWsO"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Gronow
+  - _id: eNl9LGajiKRFriPJ
+    _key: "!tables.results!HsshgplTIrOwI4xH.eNl9LGajiKRFriPJ"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Craddock
