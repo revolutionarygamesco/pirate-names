@@ -1,0 +1,105 @@
+_id: rJ12rI218UZpW6Ua
+_key: "!tables!.rJ12rI218UZpW6Ua"
+name: Names for French Men-of-War after Creatures of Medieval Myth and Legend
+description: Appropriate names for French men-of-war derived from creatures
+  found in medieval myth, legend, bestiaries, and heraldry.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: fKuiPV0cxcIzcClz
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.fKuiPV0cxcIzcClz"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Licorne
+  - _id: FSzgEqSJj6R9kf7Y
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.FSzgEqSJj6R9kf7Y"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Sirène
+  - _id: i6DrHjRGEFQdg9Ms
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.i6DrHjRGEFQdg9Ms"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Salamandre
+  - _id: Qnu9cAWFDgF34PyE
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.Qnu9cAWFDgF34PyE"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Griffon de Mer
+  - _id: Yae79sG8kVirv2Yb
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.Yae79sG8kVirv2Yb"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Yale
+  - _id: pjvVf5s9AjuIKBo7
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.pjvVf5s9AjuIKBo7"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Lion Ailé
+  - _id: xJ2sT9nKFeddzefm
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.xJ2sT9nKFeddzefm"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Caladre
+  - _id: NSYxISA7JJyfa4Aw
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.NSYxISA7JJyfa4Aw"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Escarboucle
+  - _id: DKbCvk4qqWuXypa8
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.DKbCvk4qqWuXypa8"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Faune
+  - _id: PgluF5iu4m8AEEXU
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.PgluF5iu4m8AEEXU"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Moine de Mer
+  - _id: xoyIAIAhzzBYcTRQ
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.xoyIAIAhzzBYcTRQ"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Mélusine
+  - _id: zP5yWhtJovjnixkD
+    _key: "!tables.results!.rJ12rI218UZpW6Ua.zP5yWhtJovjnixkD"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Feu Follet

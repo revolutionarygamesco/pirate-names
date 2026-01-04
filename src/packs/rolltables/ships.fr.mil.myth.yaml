@@ -1,0 +1,35 @@
+_id: yfjLRY5NSXHtHk63
+_key: "!tables!.yfjLRY5NSXHtHk63"
+name: Names for French Men-of-War from Mythology
+description: Appropriate names for French men-of-war derived from mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: stZbdsj7mB5NWnk2
+results:
+  - _id: sh2gy63nstTO132C
+    _key: "!tables.results!.yfjLRY5NSXHtHk63.sh2gy63nstTO132C"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.joWjp1K4hCEGCy09
+    name: Names for French Men-of-War from Greek Mythology
+  - _id: NY5d3CyvY5Ul180o
+    _key: "!tables.results!.yfjLRY5NSXHtHk63.NY5d3CyvY5Ul180o"
+    range:
+      - 12
+      - 17
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.sHwkp3f80AgXw6FN
+    name: Names for French Men-of-War from Roman Mythology
+  - _id: l2jrVQ3o1sWM0mJh
+    _key: "!tables.results!.yfjLRY5NSXHtHk63.l2jrVQ3o1sWM0mJh"
+    range:
+      - 18
+      - 20
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.57Mtmpdj6eHXLOwl
+    name: Names for French Men-of-War after Creatures of Medieval Myth and Legend
