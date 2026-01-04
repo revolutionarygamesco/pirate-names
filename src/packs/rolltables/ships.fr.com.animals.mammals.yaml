@@ -1,0 +1,168 @@
+_id: Umms7e9pNsX0jMLR
+_key: "!tables!.Umms7e9pNsX0jMLR"
+name: Names for French Merchantmen from Mammals
+description: Appropriate names for French merchantmen derived from mammals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: a07UjUNNxFrt5R0N
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.a07UjUNNxFrt5R0N"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Renard
+  - _id: fRDsnnO1By2JWHuf
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.fRDsnnO1By2JWHuf"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Lévrier
+  - _id: 74GaKMCXR7DEVwTc
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.74GaKMCXR7DEVwTc"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Lynx
+  - _id: tGFsjrhJLqST0J76
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.tGFsjrhJLqST0J76"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Cerf
+  - _id: NJwxdsieru3n6gip
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.NJwxdsieru3n6gip"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Biche
+  - _id: AkCrWsiGpNSJS55L
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.AkCrWsiGpNSJS55L"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Étalon
+  - _id: 1Bs7Q0RiPpF1Vzud
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.1Bs7Q0RiPpF1Vzud"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Jument
+  - _id: nh0LR1oDX2pvJBad
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.nh0LR1oDX2pvJBad"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Chienne
+  - _id: 4mIgnXTLBvJmdplQ
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.4mIgnXTLBvJmdplQ"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Taureau
+  - _id: qZyXdJG4eoz8KZG6
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.qZyXdJG4eoz8KZG6"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Hérissonne
+  - _id: M38seCf6eTCPLMyd
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.M38seCf6eTCPLMyd"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Antilope
+  - _id: t6o3qD9gLX8HseXJ
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.t6o3qD9gLX8HseXJ"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Blaireau
+  - _id: U2fQeZRf7Rp9U21b
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.U2fQeZRf7Rp9U21b"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Castor
+  - _id: uppCgUfa9FyuzhW7
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.uppCgUfa9FyuzhW7"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Chat Noir
+  - _id: 8cSWXtTZRmAMmPeg
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.8cSWXtTZRmAMmPeg"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Éléphant
+  - _id: U30x13B7L7QwOp9Q
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.U30x13B7L7QwOp9Q"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Furet
+  - _id: Dy88ZEohfNft6DB1
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.Dy88ZEohfNft6DB1"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Onagre
+  - _id: JMgwUoqd6ef6oNad
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.JMgwUoqd6ef6oNad"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Lièvre
+  - _id: 6HtzylU7Zoqv7fSO
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.6HtzylU7Zoqv7fSO"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Chameau
+  - _id: kgWlLMwq9XSHYwQd
+    _key: "!tables.results!.Umms7e9pNsX0jMLR.kgWlLMwq9XSHYwQd"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Agneau

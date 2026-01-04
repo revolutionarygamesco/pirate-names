@@ -1,0 +1,168 @@
+_id: jEffspe5rOvQsUK6
+_key: "!tables!.jEffspe5rOvQsUK6"
+name: Names for French Men-of-War from Marine Life
+description: Appropriate names for French men-of-war derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: stZbdsj7mB5NWnk2
+results:
+  - _id: sxQgIXEBQ2M9unVB
+    _key: "!tables.results!.jEffspe5rOvQsUK6.sxQgIXEBQ2M9unVB"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Dauphin
+  - _id: DZ15pwZ0CtyupGeF
+    _key: "!tables.results!.jEffspe5rOvQsUK6.DZ15pwZ0CtyupGeF"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Marsouin
+  - _id: PwCzEa9pwyMR6Rtr
+    _key: "!tables.results!.jEffspe5rOvQsUK6.PwCzEa9pwyMR6Rtr"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Hippocampe
+  - _id: YRXLMSu9qNLzs2Ij
+    _key: "!tables.results!.jEffspe5rOvQsUK6.YRXLMSu9qNLzs2Ij"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Calmar
+  - _id: KMpgcEcbrkY8vPCV
+    _key: "!tables.results!.jEffspe5rOvQsUK6.KMpgcEcbrkY8vPCV"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Marlin
+  - _id: Emrik1D9X4nV5tVi
+    _key: "!tables.results!.jEffspe5rOvQsUK6.Emrik1D9X4nV5tVi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Bélouga
+  - _id: t58lDQhxoOLpVekj
+    _key: "!tables.results!.jEffspe5rOvQsUK6.t58lDQhxoOLpVekj"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narval
+  - _id: Djo4VJrc00fVAXz3
+    _key: "!tables.results!.jEffspe5rOvQsUK6.Djo4VJrc00fVAXz3"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Voilier
+  - _id: kqrZV8XfDfTM8bgK
+    _key: "!tables.results!.jEffspe5rOvQsUK6.kqrZV8XfDfTM8bgK"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Morse
+  - _id: OWfCXYc46rJaXZct
+    _key: "!tables.results!.jEffspe5rOvQsUK6.OWfCXYc46rJaXZct"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Bar
+  - _id: Su3mraHfEsJmQE4J
+    _key: "!tables.results!.jEffspe5rOvQsUK6.Su3mraHfEsJmQE4J"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Requin
+  - _id: AcVCOcvGMVUWeALR
+    _key: "!tables.results!.jEffspe5rOvQsUK6.AcVCOcvGMVUWeALR"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nautile
+  - _id: zZOEomspkxXzY2Nb
+    _key: "!tables.results!.jEffspe5rOvQsUK6.zZOEomspkxXzY2Nb"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Orque
+  - _id: ZK7GwJLBjRgdqVdb
+    _key: "!tables.results!.jEffspe5rOvQsUK6.ZK7GwJLBjRgdqVdb"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Barracuda
+  - _id: wjFivdQyVa8ejSwc
+    _key: "!tables.results!.jEffspe5rOvQsUK6.wjFivdQyVa8ejSwc"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Crabe
+  - _id: njWgDZljX6ZkrmNs
+    _key: "!tables.results!.jEffspe5rOvQsUK6.njWgDZljX6ZkrmNs"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Espadon
+  - _id: HGp14GkWlPmD7Mm4
+    _key: "!tables.results!.jEffspe5rOvQsUK6.HGp14GkWlPmD7Mm4"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Raie
+  - _id: a4oOyOfXLV4hRZKD
+    _key: "!tables.results!.jEffspe5rOvQsUK6.a4oOyOfXLV4hRZKD"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Alligator
+  - _id: nWP9BHTV4SZtrF2l
+    _key: "!tables.results!.jEffspe5rOvQsUK6.nWP9BHTV4SZtrF2l"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Otarie
+  - _id: bKuLNZz9tYhA2b3Q
+    _key: "!tables.results!.jEffspe5rOvQsUK6.bKuLNZz9tYhA2b3Q"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Phoque

@@ -1,0 +1,35 @@
+_id: fdxKxFMZkEl4zkH3
+_key: "!tables!.fdxKxFMZkEl4zkH3"
+name: Names for French Men-of-War from Animals
+description: Appropriate names for French men-of-war derived from animals.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: stZbdsj7mB5NWnk2
+results:
+  - _id: Ltx9LECvyUndDpvM
+    _key: "!tables.results!.fdxKxFMZkEl4zkH3.Ltx9LECvyUndDpvM"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.aJL9ANMHyakweDXu
+    name: Names for French Men-of-War from Birds
+  - _id: RTpjJTX89J8sQv1o
+    _key: "!tables.results!.fdxKxFMZkEl4zkH3.RTpjJTX89J8sQv1o"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.wom0psr8zvWwZz3k
+    name: Names for French Men-of-War from Mammals
+  - _id: cw18kSzr8CcdRFyo
+    _key: "!tables.results!.fdxKxFMZkEl4zkH3.cw18kSzr8CcdRFyo"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.jEffspe5rOvQsUK6
+    name: Names for French Men-of-War from Marine Life
