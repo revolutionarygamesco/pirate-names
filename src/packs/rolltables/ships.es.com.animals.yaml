@@ -1,0 +1,35 @@
+_id: J2Jb0Sv0v2eIxAiR
+_key: "!tables!.J2Jb0Sv0v2eIxAiR"
+name: Names for Spanish Merchantmen from Animals
+description: Appropriate names for Spanish merchantmen derived from animals.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: Yla9tUZ9BUrr1ch2
+results:
+  - _id: U068BYwjBEZV8Ygq
+    _key: "!tables.results!.J2Jb0Sv0v2eIxAiR.U068BYwjBEZV8Ygq"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.THGiYR2Z08mG3f1I
+    name: Names for Spanish Merchantmen from Birds
+  - _id: L6i0WZyrPZS1FrVO
+    _key: "!tables.results!.J2Jb0Sv0v2eIxAiR.L6i0WZyrPZS1FrVO"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.M1QpFISfQCMkUnf0
+    name: Names for Spanish Merchantmen from Mammals
+  - _id: PusL0MarUYk0rXDL
+    _key: "!tables.results!.J2Jb0Sv0v2eIxAiR.PusL0MarUYk0rXDL"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.yA4M6tYTPJqV4Txs
+    name: Names for Spanish Merchantmen from Marine Life

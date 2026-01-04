@@ -1,0 +1,168 @@
+_id: yA4M6tYTPJqV4Txs
+_key: "!tables!.yA4M6tYTPJqV4Txs"
+name: Names for Spanish Merchantmen from Marine Life
+description: Appropriate names for Spanish merchantmen derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Yla9tUZ9BUrr1ch2
+results:
+  - _id: cdbgMYXPM7IbtfIn
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.cdbgMYXPM7IbtfIn"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Delfín
+  - _id: gPLzMZMQRWzow8mD
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.gPLzMZMQRWzow8mD"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Marsopa
+  - _id: nM1aj8WV1aHpxkPT
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.nM1aj8WV1aHpxkPT"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Caballito de Mar
+  - _id: dmkAnb2S29s8hB9r
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.dmkAnb2S29s8hB9r"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Calamar
+  - _id: G1tDpZwax7SGbFYs
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.G1tDpZwax7SGbFYs"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Aguja
+  - _id: 47fRW3LUrhg6SvWV
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.47fRW3LUrhg6SvWV"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Beluga
+  - _id: OEN8OUsYRzaQVuvE
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.OEN8OUsYRzaQVuvE"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narval
+  - _id: uTJ2Uo6zjwqoZ7AJ
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.uTJ2Uo6zjwqoZ7AJ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Pez Vela
+  - _id: AWK3aHfL6I8tS2Wu
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.AWK3aHfL6I8tS2Wu"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Morsa
+  - _id: bLvPlV13athL9GNQ
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.bLvPlV13athL9GNQ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Lubina
+  - _id: pPWQX3V4tJ5rOJ3a
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.pPWQX3V4tJ5rOJ3a"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Pez Volador
+  - _id: oSIcD6utPkBu48rA
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.oSIcD6utPkBu48rA"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Salmón
+  - _id: ZOEBBqLdu76Q8Ej0
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.ZOEBBqLdu76Q8Ej0"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Atún Blanco
+  - _id: ge5gZ6GFN6Ux9yJ6
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.ge5gZ6GFN6Ux9yJ6"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ostra
+  - _id: dFIo9Sgnop6jABct
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.dFIo9Sgnop6jABct"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Angelote
+  - _id: G8csFAeh6ZHVAoHZ
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.G8csFAeh6ZHVAoHZ"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Concha
+  - _id: 9sUPB9grmqwDWVVe
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.9sUPB9grmqwDWVVe"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Anguila
+  - _id: yOxAa2CnwSdJhO6H
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.yOxAa2CnwSdJhO6H"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Mero
+  - _id: Fw2svlj8aE9zCQea
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.Fw2svlj8aE9zCQea"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Anémona
+  - _id: l4yE10Zeg6KNDbUI
+    _key: "!tables.results!.yA4M6tYTPJqV4Txs.l4yE10Zeg6KNDbUI"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Estrella de Mar

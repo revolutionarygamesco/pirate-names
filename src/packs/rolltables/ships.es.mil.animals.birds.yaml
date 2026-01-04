@@ -1,0 +1,168 @@
+_id: KOKGYwkz71RaN2Sg
+_key: "!tables!.KOKGYwkz71RaN2Sg"
+name: Names for Spanish Men-of-War from Birds
+description: Appropriate names for Spanish men-of-war derived from birds.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: 0mW436kJ3xS7daeZ
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.0mW436kJ3xS7daeZ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Grulla
+  - _id: cBBLyJLS4tD81iEr
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.cBBLyJLS4tD81iEr"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Garza
+  - _id: yjS0TCksmT3syXvH
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.yjS0TCksmT3syXvH"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ruiseñor
+  - _id: rBnW4DBtBrQfg9ZA
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.rBnW4DBtBrQfg9ZA"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Cuervo
+  - _id: X43txce8PCMpaPhz
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.X43txce8PCMpaPhz"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Grajo
+  - _id: ccxBuEBNZJpg4nGv
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.ccxBuEBNZJpg4nGv"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Piñonero
+  - _id: yTVcJ6bFFw5KbjxJ
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.yTVcJ6bFFw5KbjxJ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Cormorán
+  - _id: JXWMT3NZET1VwI12
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.JXWMT3NZET1VwI12"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Martín Pescador
+  - _id: rxmvAHWZ1W4dXb3X
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.rxmvAHWZ1W4dXb3X"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pelícano
+  - _id: nBMEz2LlOiQcPyc1
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.nBMEz2LlOiQcPyc1"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Albatros
+  - _id: o0OE0GrF9PrzGubY
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.o0OE0GrF9PrzGubY"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Águila
+  - _id: 8mxNF3lmM6f2mN4x
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.8mxNF3lmM6f2mN4x"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Halcón
+  - _id: TWYni6n1FzucRUsP
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.TWYni6n1FzucRUsP"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Águila Pescadora
+  - _id: 3PjxVVckXYxU5Sko
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.3PjxVVckXYxU5Sko"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cernícalo
+  - _id: GjDlgXzrOL84I0dw
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.GjDlgXzrOL84I0dw"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Aguilucho
+  - _id: xE6PA4d5EQiS2NvR
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.xE6PA4d5EQiS2NvR"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Zopilote
+  - _id: AKEVhE2kGwdPfb8g
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.AKEVhE2kGwdPfb8g"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Cóndor
+  - _id: NYkl6Wgpn073Pfl6
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.NYkl6Wgpn073Pfl6"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Buitre
+  - _id: k3HTgsSUCUnB7B0h
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.k3HTgsSUCUnB7B0h"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Búho
+  - _id: pePP41JZqdnGwugh
+    _key: "!tables.results!.KOKGYwkz71RaN2Sg.pePP41JZqdnGwugh"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Águila Pescadora
