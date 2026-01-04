@@ -1,9 +1,8 @@
-d8 Economic French Merchant Ship Names
-Diamant
-Entreprenant
-Guillot
-Oriflamme
-Prompt
-Prudent
-Rubis
-Sérieux
+  - description: Diamant
+  - description: Entreprenant
+  - description: Guillot
+  - description: Oriflamme
+  - description: Prompt
+  - description: Prudent
+  - description: Rubis
+  - description: Sérieux
