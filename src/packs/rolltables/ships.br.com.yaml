@@ -6,11 +6,20 @@ img: icons/svg/d20-grey.svg
 formula: 1d20
 folder: KEvzzH6j5QBiEIim
 results:
-  - _id: R4srBUFeLhUNaYwm
-    _key: "!tables.results!.9cBmsorkKhOHGYGQ.R4srBUFeLhUNaYwm"
+  - _id: gyc1OPImjz6PnvxM
+    _key: "!tables.results!.9cBmsorkKhOHGYGQ.gyc1OPImjz6PnvxM"
     range:
       - 1
       - 5
+    weight: 5
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3FurO9qJF79bb11f
+    name: English Feminine Names
+  - _id: R4srBUFeLhUNaYwm
+    _key: "!tables.results!.9cBmsorkKhOHGYGQ.R4srBUFeLhUNaYwm"
+    range:
+      - 6
+      - 10
     weight: 5
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xlzyioPfs5DgBxk8
@@ -18,26 +27,26 @@ results:
   - _id: Ln8SVEF3PQioRCIb
     _key: "!tables.results!.9cBmsorkKhOHGYGQ.Ln8SVEF3PQioRCIb"
     range:
-      - 6
-      - 8
-    weight: 3
+      - 11
+      - 12
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.byP0Xa7TSpQoecu3
     name: Names for British Ships from Astronomy
   - _id: bKwzJelb3dBoAcdM
     _key: "!tables.results!.9cBmsorkKhOHGYGQ.bKwzJelb3dBoAcdM"
     range:
-      - 9
-      - 14
-    weight: 6
+      - 13
+      - 16
+    weight: 4
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.P0UbQvaUanywE18S
     name: Names for British Merchantmen from Mythology
   - _id: nIvvx2CKkWP9VQJY
     _key: "!tables.results!.9cBmsorkKhOHGYGQ.nIvvx2CKkWP9VQJY"
     range:
-      - 15
-      - 16
+      - 17
+      - 18
     weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.YacjrTSZ3KUpBCCZ
@@ -45,18 +54,18 @@ results:
   - _id: 7PmA94o94PfF1Brj
     _key: "!tables.results!.9cBmsorkKhOHGYGQ.7PmA94o94PfF1Brj"
     range:
-      - 17
-      - 18
-    weight: 2
+      - 19
+      - 19
+    weight: 1
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.V0rAhBRUB1Tb5hx3
     name: Aspirational Names for British Merchantmen
   - _id: oi6ivVOjKMB2dmAy
     _key: "!tables.results!.9cBmsorkKhOHGYGQ.oi6ivVOjKMB2dmAy"
     range:
-      - 19
       - 20
-    weight: 2
+      - 20
+    weight: 1
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.YDV7dj2oats4WMQF
     name: Economic Names for British Merchantmen
