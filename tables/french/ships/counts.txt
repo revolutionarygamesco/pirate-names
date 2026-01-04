@@ -1,20 +1,19 @@
-d20 French Count Names
-Comte de Toulouse
-Comte de Clermont
-Comte de Beaumont
-Comte de Soissons
-Comte d'Armagnac
-Comte de Foix
-Comte de Boulainvilliers
-Comte de La Marche
-Comte de Grignan
-Comte de Guiche
-Comte de Vexin
-Comte de Mortain
-Comte de Dreux
-Comte de Mantes
-Comte de Lassay
-Comte de Charolais
-Comte de Vermandois
-Comte d'Auvergne
-Comte de Provence
+  - description: Comte de Toulouse
+  - description: Comte de Clermont
+  - description: Comte de Beaumont
+  - description: Comte de Soissons
+  - description: Comte d'Armagnac
+  - description: Comte de Foix
+  - description: Comte de Boulainvilliers
+  - description: Comte de La Marche
+  - description: Comte de Grignan
+  - description: Comte de Guiche
+  - description: Comte de Vexin
+  - description: Comte de Mortain
+  - description: Comte de Dreux
+  - description: Comte de Mantes
+  - description: Comte de Lassay
+  - description: Comte de Charolais
+  - description: Comte de Vermandois
+  - description: Comte d'Auvergne
+  - description: Comte de Provence

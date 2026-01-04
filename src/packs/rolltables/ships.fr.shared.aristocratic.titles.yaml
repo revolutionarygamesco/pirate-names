@@ -1,0 +1,169 @@
+_id: cMEUN9M5XqHLIBVe
+_key: "!tables!.cMEUN9M5XqHLIBVe"
+name: Names for French Ships from Aristocratic Titles
+description: Appropriate names for French ships derived from aristocratic titles
+  of the Kingdom of France.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: R9RAfMPYDZd5IkIP
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.R9RAfMPYDZd5IkIP"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Roi
+  - _id: Uv0JzWapiooY2AvV
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.Uv0JzWapiooY2AvV"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Reine
+  - _id: 65KifDTf7kCzGQ2G
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.65KifDTf7kCzGQ2G"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Prince
+  - _id: yMQdoRwPxIxTFp57
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.yMQdoRwPxIxTFp57"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Princesse
+  - _id: xq0AcpMamQaAuEcx
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.xq0AcpMamQaAuEcx"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Duc
+  - _id: xfnw7OMn0GVKZrq2
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.xfnw7OMn0GVKZrq2"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Duchesse
+  - _id: gnAka2iurU6b3Bkf
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.gnAka2iurU6b3Bkf"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Marquis
+  - _id: wnJh4pKWPG0PxEyc
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.wnJh4pKWPG0PxEyc"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Comte
+  - _id: 3pTdvAf46D6ZzSxz
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.3pTdvAf46D6ZzSxz"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Comtesse
+  - _id: Z2YBbeRw7E2hm1YQ
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.Z2YBbeRw7E2hm1YQ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Vicomte
+  - _id: Z10pkiKxOkrrjjW5
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.Z10pkiKxOkrrjjW5"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Vicomtesse
+  - _id: 7sMpIYGjBJu1VNL0
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.7sMpIYGjBJu1VNL0"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Vidame
+  - _id: EfudHVcPjHDws4FI
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.EfudHVcPjHDws4FI"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Baron
+  - _id: w5Era065nbJmllms
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.w5Era065nbJmllms"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Baronne
+  - _id: kqAI0cHCRN3QAMZ6
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.kqAI0cHCRN3QAMZ6"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Chevalier
+  - _id: 82Ax7dSzOND5Yz6N
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.82Ax7dSzOND5Yz6N"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Écuyer
+  - _id: mJVwFsEyYrGka1Ab
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.mJVwFsEyYrGka1Ab"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Seigneur
+  - _id: nKP0wdFjrLNfTGLm
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.nKP0wdFjrLNfTGLm"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Souverain
+  - _id: VDvndIrh7JioMZ9j
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.VDvndIrh7JioMZ9j"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Majestueux
+  - _id: c8RCqA1iicXZ6qce
+    _key: "!tables.results!.cMEUN9M5XqHLIBVe.c8RCqA1iicXZ6qce"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Monarque

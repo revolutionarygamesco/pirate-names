@@ -1,0 +1,169 @@
+_id: GdNBFCkG5Q3IbJmm
+_key: "!tables!.GdNBFCkG5Q3IbJmm"
+name: Names for French Ships from Count Titles
+description: Appropriate names for French ships derived from the titles of the
+  counts of the Kingdom of France.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: BdVRa4chbj0iJ2mP
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.BdVRa4chbj0iJ2mP"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Comte de Toulouse
+  - _id: gPtZVsMMFjGZiREY
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.gPtZVsMMFjGZiREY"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Comte de Clermont
+  - _id: PUlv9RkVyVOXswKM
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.PUlv9RkVyVOXswKM"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Comte de Beaumont
+  - _id: hYJU7c26CNOuznIT
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.hYJU7c26CNOuznIT"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Comte de Soissons
+  - _id: ywoP7KDoOvxU8SaO
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.ywoP7KDoOvxU8SaO"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Comte d'Armagnac
+  - _id: gFqHuysUXNKpnZ4K
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.gFqHuysUXNKpnZ4K"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Comte de Foix
+  - _id: 2T4xT1sxp6fnVZpF
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.2T4xT1sxp6fnVZpF"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Comte de Boulainvilliers
+  - _id: nCq3VGpBoXYY4WDG
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.nCq3VGpBoXYY4WDG"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Comte de La Marche
+  - _id: CNrAg4ZEKpvMTmTs
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.CNrAg4ZEKpvMTmTs"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Comte de Grignan
+  - _id: iBIi7RrAxQHiAj8H
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.iBIi7RrAxQHiAj8H"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Comte de Guiche
+  - _id: JEovmzZgHruTSDUH
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.JEovmzZgHruTSDUH"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Comte de Vexin
+  - _id: 4FvWKV4e1HYhFAVU
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.4FvWKV4e1HYhFAVU"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Comte de Mortain
+  - _id: ZF1t7B3DBI2DhpLp
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.ZF1t7B3DBI2DhpLp"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Comte de Dreux
+  - _id: 65UmgeS5RBSom1Dt
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.65UmgeS5RBSom1Dt"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Comte de Mantes
+  - _id: 1C0uFPy0DZQGySqX
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.1C0uFPy0DZQGySqX"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Comte de Lassay
+  - _id: mMkzkHzeZsHfThEr
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.mMkzkHzeZsHfThEr"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Comte de Charolais
+  - _id: yDWf8p7HDN7c9TDf
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.yDWf8p7HDN7c9TDf"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Comte de Vermandois
+  - _id: yPYPwWmWiqMIW4ds
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.yPYPwWmWiqMIW4ds"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Comte d'Auvergne
+  - _id: Qhfkzx9q8IfoCDBO
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.Qhfkzx9q8IfoCDBO"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Comte de Provence
+  - _id: fYFh1cx9FKCIumqw
+    _key: "!tables.results!.GdNBFCkG5Q3IbJmm.fYFh1cx9FKCIumqw"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Comte de Châlons

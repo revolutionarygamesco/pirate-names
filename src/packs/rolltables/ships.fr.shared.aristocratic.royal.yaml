@@ -1,0 +1,121 @@
+_id: JIG3N6TEyR0Ubvqn
+_key: "!tables!.JIG3N6TEyR0Ubvqn"
+name: Names for French Ships from the Royal Family
+description: Appropriate names for French ships derived from royal titles, the
+  royal family, and its members.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: 9xpV2Ss1Zgc0UHs9
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.9xpV2Ss1Zgc0UHs9"
+    range:
+      - 1
+      - 3
+    weight: 3
+    type: text
+    description: Royale
+  - _id: 8mBO2oQnEYjAeHXY
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.8mBO2oQnEYjAeHXY"
+    range:
+      - 4
+      - 5
+    weight: 2
+    type: text
+    description: Bourbon
+  - _id: C5wq9fX3QojBkSnU
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.C5wq9fX3QojBkSnU"
+    range:
+      - 6
+      - 8
+    weight: 3
+    type: text
+    description: Royal Louis
+  - _id: 10cKZviaFqBru8Hy
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.10cKZviaFqBru8Hy"
+    range:
+      - 9
+      - 10
+    weight: 2
+    type: text
+    description: Soleil-Royal
+  - _id: T4a4iDIIqClGKcpt
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.T4a4iDIIqClGKcpt"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Royale Marie-Thérèse
+  - _id: HoP8TpRdPKYs2lIR
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.HoP8TpRdPKYs2lIR"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Grand Dauphin
+  - _id: FtRSHl562nERZLR2
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.FtRSHl562nERZLR2"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Duc d’Orléans
+  - _id: qFDySwUwPuek96tq
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.qFDySwUwPuek96tq"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Duc de Bourbon
+  - _id: D8jynWKCBEh3NvTN
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.D8jynWKCBEh3NvTN"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Duc de Berry
+  - _id: giL2OBXdEGCjYi9x
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.giL2OBXdEGCjYi9x"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Duc d’Anjou
+  - _id: cpBDRGCtyLdxR3UU
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.cpBDRGCtyLdxR3UU"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Duc de Chartres
+  - _id: DrydDE0XOqqH7Qxs
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.DrydDE0XOqqH7Qxs"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Dauphin-Royal
+  - _id: eMNQYVtbPzO0A6ur
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.eMNQYVtbPzO0A6ur"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Prince Régent
+  - _id: MTb4XlhMRR4kzWNM
+    _key: "!tables.results!.JIG3N6TEyR0Ubvqn.MTb4XlhMRR4kzWNM"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Prince du Sang

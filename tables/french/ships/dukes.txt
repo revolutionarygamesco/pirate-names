@@ -1,21 +1,20 @@
-d20 French Duke Names
-Duc d’Uzès
-Duc de Ventadour
-Duc de Sully
-Duc de Luynes
-Duc de Brissac
-Duc de Villars
-Duc de La Force
-Duc de Gramont
-Duc de Rohan
-Duc de Noailles
-Duc d’Aumont
-Duc de Saint-Aignan
-Duc de Coislin
-Duc de Châtillon
-Duc de La Rochefoucauld
-Duc de Richelieu
-Duc de Fronsac
-Duc de Villeroy
-Duc de Humières
-Duc de Tallard
+  - description: Duc d’Uzès
+  - description: Duc de Ventadour
+  - description: Duc de Sully
+  - description: Duc de Luynes
+  - description: Duc de Brissac
+  - description: Duc de Villars
+  - description: Duc de La Force
+  - description: Duc de Gramont
+  - description: Duc de Rohan
+  - description: Duc de Noailles
+  - description: Duc d’Aumont
+  - description: Duc de Saint-Aignan
+  - description: Duc de Coislin
+  - description: Duc de Châtillon
+  - description: Duc de La Rochefoucauld
+  - description: Duc de Richelieu
+  - description: Duc de Fronsac
+  - description: Duc de Villeroy
+  - description: Duc de Humières
+  - description: Duc de Tallard

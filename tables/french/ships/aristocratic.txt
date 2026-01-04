@@ -1,21 +1,20 @@
-d20 French Ship Names for Aristocratic Titles
-Roi
-Reine
-Prince
-Princesse
-Duc
-Duchesse
-Marquis
-Comte
-Comtesse
-Vicomte
-Vicomtesse
-Vidame
-Baron
-Baronne
-Chevalier
-Écuyer
-Seigneur
-Souverain
-Majestueux
-Monarque
+  - description: Roi
+  - description: Reine
+  - description: Prince
+  - description: Princesse
+  - description: Duc
+  - description: Duchesse
+  - description: Marquis
+  - description: Comte
+  - description: Comtesse
+  - description: Vicomte
+  - description: Vicomtesse
+  - description: Vidame
+  - description: Baron
+  - description: Baronne
+  - description: Chevalier
+  - description: Écuyer
+  - description: Seigneur
+  - description: Souverain
+  - description: Majestueux
+  - description: Monarque

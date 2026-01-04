@@ -1,0 +1,169 @@
+_id: 39I27fydr2ZEL4UX
+_key: "!tables!.39I27fydr2ZEL4UX"
+name: Names for French Ships from Ducal Titles
+description: Appropriate names for French ships derived from the titles of the
+  dukes of the Kingdom of France.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: 9zQk0vlQXIXRuwQ9
+    _key: "!tables.results!.39I27fydr2ZEL4UX.9zQk0vlQXIXRuwQ9"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Duc d’Uzès
+  - _id: GvVlaFXwjDIqzwTT
+    _key: "!tables.results!.39I27fydr2ZEL4UX.GvVlaFXwjDIqzwTT"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Duc de Ventadour
+  - _id: JUIrjzjJzBudpwAD
+    _key: "!tables.results!.39I27fydr2ZEL4UX.JUIrjzjJzBudpwAD"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Duc de Sully
+  - _id: O344fTF0xMLo1bcE
+    _key: "!tables.results!.39I27fydr2ZEL4UX.O344fTF0xMLo1bcE"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Duc de Luynes
+  - _id: ZMFdZZW2r2USHGKH
+    _key: "!tables.results!.39I27fydr2ZEL4UX.ZMFdZZW2r2USHGKH"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Duc de Brissac
+  - _id: FMAvkGQA90XFpan5
+    _key: "!tables.results!.39I27fydr2ZEL4UX.FMAvkGQA90XFpan5"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Duc de Villars
+  - _id: NvR7d5JJAsm5mF7b
+    _key: "!tables.results!.39I27fydr2ZEL4UX.NvR7d5JJAsm5mF7b"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Duc de La Force
+  - _id: iQB8ERkBKrTDAQPF
+    _key: "!tables.results!.39I27fydr2ZEL4UX.iQB8ERkBKrTDAQPF"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Duc de Gramont
+  - _id: ae5QzlEwyfrdYrdC
+    _key: "!tables.results!.39I27fydr2ZEL4UX.ae5QzlEwyfrdYrdC"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Duc de Rohan
+  - _id: izWwqDVGxNb3q9ow
+    _key: "!tables.results!.39I27fydr2ZEL4UX.izWwqDVGxNb3q9ow"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Duc de Noailles
+  - _id: OhBaFVPZhbnFQRLK
+    _key: "!tables.results!.39I27fydr2ZEL4UX.OhBaFVPZhbnFQRLK"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Duc d’Aumont
+  - _id: Wrek9L3h866iG8u6
+    _key: "!tables.results!.39I27fydr2ZEL4UX.Wrek9L3h866iG8u6"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Duc de Saint-Aignan
+  - _id: xMiLLb6aMfPmz7rT
+    _key: "!tables.results!.39I27fydr2ZEL4UX.xMiLLb6aMfPmz7rT"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Duc de Coislin
+  - _id: uD0b7gmd5BtVi2I6
+    _key: "!tables.results!.39I27fydr2ZEL4UX.uD0b7gmd5BtVi2I6"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Duc de Châtillon
+  - _id: jt0bnE4UNgsqCZTH
+    _key: "!tables.results!.39I27fydr2ZEL4UX.jt0bnE4UNgsqCZTH"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Duc de La Rochefoucauld
+  - _id: e3qhZ3oKwAU8q7Tj
+    _key: "!tables.results!.39I27fydr2ZEL4UX.e3qhZ3oKwAU8q7Tj"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Duc de Richelieu
+  - _id: JienkSM6jSiPqKPr
+    _key: "!tables.results!.39I27fydr2ZEL4UX.JienkSM6jSiPqKPr"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Duc de Fronsac
+  - _id: gnuyadCEJlRnNF6G
+    _key: "!tables.results!.39I27fydr2ZEL4UX.gnuyadCEJlRnNF6G"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Duc de Villeroy
+  - _id: DgSzYyTTQkpGzVju
+    _key: "!tables.results!.39I27fydr2ZEL4UX.DgSzYyTTQkpGzVju"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Duc de Humières
+  - _id: MuOr21cqbwcfbz5Y
+    _key: "!tables.results!.39I27fydr2ZEL4UX.MuOr21cqbwcfbz5Y"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Duc de Tallard
