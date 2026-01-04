@@ -1,0 +1,169 @@
+_id: uYa7SJdqQFLaNM0O
+_key: "!tables!.uYa7SJdqQFLaNM0O"
+name: Names for Spanish Ships from Aristocratic Titles
+description: Appropriate names for Spanish ships derived from aristocratic
+  titles of the Spanish Empire.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: lAMrMYcWbC5XqzEI
+results:
+  - _id: ksK7QMUqbRon7CIK
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.ksK7QMUqbRon7CIK"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Doña
+  - _id: PNzn4Q212syitoZO
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.PNzn4Q212syitoZO"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Don
+  - _id: 2t1TlgMiXdobtzeE
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.2t1TlgMiXdobtzeE"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Señora
+  - _id: xmrqX6z0A0cfzuvV
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.xmrqX6z0A0cfzuvV"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Señor
+  - _id: pp6NJMjn6tEBLH8b
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.pp6NJMjn6tEBLH8b"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Baronesa
+  - _id: yJXbmmybDftkYA8T
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.yJXbmmybDftkYA8T"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Barón
+  - _id: mVSdS7lfH5jbsLA6
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.mVSdS7lfH5jbsLA6"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Vizcondesa
+  - _id: QGHoDFi3buZ7H2n8
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.QGHoDFi3buZ7H2n8"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Vizconde
+  - _id: plBK70OulMu0Bibw
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.plBK70OulMu0Bibw"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Condesa
+  - _id: xZZbMzwyWyLqoM87
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.xZZbMzwyWyLqoM87"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Conde
+  - _id: rqzuzIjZAnvUZ6gK
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.rqzuzIjZAnvUZ6gK"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Marquesa
+  - _id: hPpWiBJYic4pwI5Y
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.hPpWiBJYic4pwI5Y"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Marqués
+  - _id: InCGaXRd4wcOLQZv
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.InCGaXRd4wcOLQZv"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Duquesa
+  - _id: gTMLYF1zpYlqUVBf
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.gTMLYF1zpYlqUVBf"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Duque
+  - _id: ROsT59a2BJZMPESz
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.ROsT59a2BJZMPESz"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Infante
+  - _id: 0AfT7G0K5wz59phU
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.0AfT7G0K5wz59phU"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Infanta
+  - _id: 0Xgq1dp74kdhMwCA
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.0Xgq1dp74kdhMwCA"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Princesa
+  - _id: cWbW64FULS3Vkoqs
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.cWbW64FULS3Vkoqs"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Principe
+  - _id: XoPkg0hXCKdKeG3Z
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.XoPkg0hXCKdKeG3Z"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Reina
+  - _id: s39AByuscuoI3isD
+    _key: "!tables.results!.uYa7SJdqQFLaNM0O.s39AByuscuoI3isD"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Rey

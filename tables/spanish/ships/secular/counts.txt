@@ -1,21 +1,20 @@
-d20 Spanish Count Names
-Conde de Álava
-Conde de Alba de Liste
-Conde de Barcelona
-Conde de Benavente
-Conde de Chican
-Conde de Chinchón
-Conde de Coruña
-Conde de Elda
-Conde de Empúries
-Conde de Galve
-Conde de Gondomar
-Conde de Lemos
-Conde de Liébana
-Conde de Mayalde
-Conde de Mora
-Conde de Osorno
-Conde de Regla
-Conde de Tolosa
-Conde de Treviño
-Conde de Villada
+  - description: Conde de Álava
+  - description: Conde de Alba de Liste
+  - description: Conde de Barcelona
+  - description: Conde de Benavente
+  - description: Conde de Chican
+  - description: Conde de Chinchón
+  - description: Conde de Coruña
+  - description: Conde de Elda
+  - description: Conde de Empúries
+  - description: Conde de Galve
+  - description: Conde de Gondomar
+  - description: Conde de Lemos
+  - description: Conde de Liébana
+  - description: Conde de Mayalde
+  - description: Conde de Mora
+  - description: Conde de Osorno
+  - description: Conde de Regla
+  - description: Conde de Tolosa
+  - description: Conde de Treviño
+  - description: Conde de Villada

@@ -1,0 +1,113 @@
+_id: dbYeSWNQI6SJSKz6
+_key: "!tables!.dbYeSWNQI6SJSKz6"
+name: Names for Spanish Ships from the Royal Family
+description: Appropriate names for Spanish ships derived from royal titles, the
+  royal family, and its members.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: lAMrMYcWbC5XqzEI
+results:
+  - _id: jk6mq1p6AzsFryRl
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.jk6mq1p6AzsFryRl"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    description: Real
+  - _id: gLmByrqhFunjc2PX
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.gLmByrqhFunjc2PX"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Real Borbon
+  - _id: EIUFgwZ7Y9HTYKRp
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.EIUFgwZ7Y9HTYKRp"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Real Carlos
+  - _id: 3cjJEh9u1D2B45iM
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.3cjJEh9u1D2B45iM"
+    range:
+      - 5
+      - 6
+    weight: 2
+    type: text
+    description: Real Familia
+  - _id: yY24ewhIs4m0oyir
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.yY24ewhIs4m0oyir"
+    range:
+      - 7
+      - 9
+    weight: 3
+    type: text
+    description: Real Felipe
+  - _id: bSKVUgFsswLSUBsw
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.bSKVUgFsswLSUBsw"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Real Jorge
+  - _id: 69sBAKoJqjc30N9S
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.69sBAKoJqjc30N9S"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Real San Felipe
+  - _id: rQAi5A1BIH9BWU38
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.rQAi5A1BIH9BWU38"
+    range:
+      - 12
+      - 13
+    weight: 2
+    type: text
+    description: Real Maria
+  - _id: qDTCGkkbMsDq6RfZ
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.qDTCGkkbMsDq6RfZ"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Real Maria Luisa
+  - _id: QdyiLP7ZMXe1Gw2L
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.QdyiLP7ZMXe1Gw2L"
+    range:
+      - 15
+      - 16
+    weight: 2
+    type: text
+    description: Real Isabel
+  - _id: 91HirVmHyxQgM89V
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.91HirVmHyxQgM89V"
+    range:
+      - 17
+      - 18
+    weight: 2
+    type: text
+    description: Real Ferdinand
+  - _id: R8rQbjE1DJpra1Qd
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.R8rQbjE1DJpra1Qd"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Real Luis
+  - _id: yBJWkYF8tyGR1kL4
+    _key: "!tables.results!.dbYeSWNQI6SJSKz6.yBJWkYF8tyGR1kL4"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Real Maria Antonia
