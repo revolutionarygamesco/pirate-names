@@ -1,101 +1,100 @@
-d100 Spanish Ship Names for Places
-Africa
-Albacete
-Álava
-Algeciras
-Alicante
-Almería
-Americana
-Andalucia
-Andalucia la Baja
-Andalucía la Alta
-Asia
-Asturias
-Atocha de Verano
-Ávila
-Badajoz
-Bahama
-Bajío
-Barcelona
-Burgos
-Cáceres
-Cádiz
-Calatrava la Vieja
-Cantabria
-Castellón
-Castilla
-Catalan
-Cayman
-Ciudad de México
-Ciudad Real
-Córdoba
-Cuba
-Cuéllar
-Cuenca
-Sevillana
-España
-Europa
-Extremeña
-Ferrolana
-Filipino
-Galicia
-Genovesa
-Gitano
-Gipuzkoa
-Girona
-Granada
-Griega
-Guadalajara
-Guatemala
-Guipuzcoa
-Guipuzcoana
-Havana
-Huelva
-Huesca
-Iberia
-Ibicenco
-Jaén
-La Coruña
-La Rioja
-Las Palmas de Gran Canaria
-León
-Lérida
-Lugo
-Madrid
-Málaga
-Mallorquín
-Mejicano
-Menorquin
-México
-Montañes
-Murciana
-Navarra
-Nueva España
-Nueva Galicia
-Numancia
-Orense
-Oriente
-Palencia
-Panama
-Peruano
-Pontevedra
-Potosi
-Puebla
-Puertorriqueño
-Puerto Rico
-Salamanca
-Santiago de Compostela
-Segovia
-Sevilla
-Soria
-Tarragona
-Teruel
-Toledo
-Valenciano
-Valladolid
-Veracruz
-Villa de Bilbao
-Vizcaya
-Yucatán
-Zamora
+  - description: Africa
+  - description: Albacete
+  - description: Álava
+  - description: Algeciras
+  - description: Alicante
+  - description: Almería
+  - description: Americana
+  - description: Andalucia
+  - description: Andalucia la Baja
+  - description: Andalucía la Alta
+  - description: Asia
+  - description: Asturias
+  - description: Atocha de Verano
+  - description: Ávila
+  - description: Badajoz
+  - description: Bahama
+  - description: Bajío
+  - description: Barcelona
+  - description: Burgos
+  - description: Cáceres
+  - description: Cádiz
+  - description: Calatrava la Vieja
+  - description: Cantabria
+  - description: Castellón
+  - description: Castilla
+  - description: Catalan
+  - description: Cayman
+  - description: Ciudad de México
+  - description: Ciudad Real
+  - description: Córdoba
+  - description: Cuba
+  - description: Cuéllar
+  - description: Cuenca
+  - description: Sevillana
+  - description: España
+  - description: Europa
+  - description: Extremeña
+  - description: Ferrolana
+  - description: Filipino
+  - description: Galicia
+  - description: Genovesa
+  - description: Gitano
+  - description: Gipuzkoa
+  - description: Girona
+  - description: Granada
+  - description: Griega
+  - description: Guadalajara
+  - description: Guatemala
+  - description: Guipuzcoa
+  - description: Guipuzcoana
+  - description: Havana
+  - description: Huelva
+  - description: Huesca
+  - description: Iberia
+  - description: Ibicenco
+  - description: Jaén
+  - description: La Coruña
+  - description: La Rioja
+  - description: Las Palmas de Gran Canaria
+  - description: León
+  - description: Lérida
+  - description: Lugo
+  - description: Madrid
+  - description: Málaga
+  - description: Mallorquín
+  - description: Mejicano
+  - description: Menorquin
+  - description: México
+  - description: Montañes
+  - description: Murciana
+  - description: Navarra
+  - description: Nueva España
+  - description: Nueva Galicia
+  - description: Numancia
+  - description: Orense
+  - description: Oriente
+  - description: Palencia
+  - description: Panama
+  - description: Peruano
+  - description: Pontevedra
+  - description: Potosi
+  - description: Puebla
+  - description: Puertorriqueño
+  - description: Puerto Rico
+  - description: Salamanca
+  - description: Santiago de Compostela
+  - description: Segovia
+  - description: Sevilla
+  - description: Soria
+  - description: Tarragona
+  - description: Teruel
+  - description: Toledo
+  - description: Valenciano
+  - description: Valladolid
+  - description: Veracruz
+  - description: Villa de Bilbao
+  - description: Vizcaya
+  - description: Yucatán
+  - description: Zamora
 Zaragoza
