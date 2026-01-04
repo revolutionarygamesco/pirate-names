@@ -1,0 +1,104 @@
+_id: EIiAdZob12RkZRjy
+_key: "!tables!.EIiAdZob12RkZRjy"
+name: Threatening Names for French Men-of-War
+description: Names for French men-of-war that attempt to strike fear in their enemies.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: stZbdsj7mB5NWnk2
+results:
+  - _id: mMny8ReQdVIwv0Pc
+    _key: "!tables.results!.EIiAdZob12RkZRjy.mMny8ReQdVIwv0Pc"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Conquérant
+  - _id: 51EVyoA1EtTM0IIF
+    _key: "!tables.results!.EIiAdZob12RkZRjy.51EVyoA1EtTM0IIF"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Ferme
+  - _id: 3Vl7FhhhGybJVudM
+    _key: "!tables.results!.EIiAdZob12RkZRjy.3Vl7FhhhGybJVudM"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Fier
+  - _id: 8pQCyDNd1LOVhRgI
+    _key: "!tables.results!.EIiAdZob12RkZRjy.8pQCyDNd1LOVhRgI"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Formidable
+  - _id: OhQREmyl8HdYx9fY
+    _key: "!tables.results!.EIiAdZob12RkZRjy.OhQREmyl8HdYx9fY"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Foudroyant
+  - _id: onEPVVMDEWdNAQP4
+    _key: "!tables.results!.EIiAdZob12RkZRjy.onEPVVMDEWdNAQP4"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Furieux
+  - _id: jmCklMz8HFxcTEDh
+    _key: "!tables.results!.EIiAdZob12RkZRjy.jmCklMz8HFxcTEDh"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Invincible
+  - _id: RrLwD7y64xdnOXf2
+    _key: "!tables.results!.EIiAdZob12RkZRjy.RrLwD7y64xdnOXf2"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sauvage
+  - _id: iPT2U3RfQhScUvpK
+    _key: "!tables.results!.EIiAdZob12RkZRjy.iPT2U3RfQhScUvpK"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Téméraire
+  - _id: svwp2rewHtGapEHG
+    _key: "!tables.results!.EIiAdZob12RkZRjy.svwp2rewHtGapEHG"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Terrible
+  - _id: WcXoMa8066KUYdGD
+    _key: "!tables.results!.EIiAdZob12RkZRjy.WcXoMa8066KUYdGD"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Tonnant
+  - _id: 0GUMOjs6w9oe8tAa
+    _key: "!tables.results!.EIiAdZob12RkZRjy.0GUMOjs6w9oe8tAa"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Vigilant

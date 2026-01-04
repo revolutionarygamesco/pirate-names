@@ -1,13 +1,12 @@
-d12 Threatening French Naval Ship Names
-Conquérant
-Ferme
-Fier
-Formidable
-Foudroyant
-Furieux
-Invincible
-Sauvage
-Téméraire
-Terrible
-Tonnant
-Vigilant
+  - description: Conquérant
+  - description: Ferme
+  - description: Fier
+  - description: Formidable
+  - description: Foudroyant
+  - description: Furieux
+  - description: Invincible
+  - description: Sauvage
+  - description: Téméraire
+  - description: Terrible
+  - description: Tonnant
+  - description: Vigilant
