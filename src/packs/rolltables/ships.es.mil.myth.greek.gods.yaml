@@ -1,0 +1,168 @@
+_id: ZbLBEzP8apMFlJtd
+_key: "!tables!.ZbLBEzP8apMFlJtd"
+name: Names for Spanish Men-of-War from Greek Mythology (Gods)
+description: Appropriate names for Spanish men-of-war derived from Greek gods.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: 8k4rMuNBnVFukWvG
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.8k4rMuNBnVFukWvG"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Zeus
+  - _id: 76R3WPBJCa3VzCDT
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.76R3WPBJCa3VzCDT"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Hera
+  - _id: jJv1Avx9dJ3UFULF
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.jJv1Avx9dJ3UFULF"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Posidón
+  - _id: AGBLaDJ8hxSnobLJ
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.AGBLaDJ8hxSnobLJ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Apolo
+  - _id: 2o7eyj6XSzOiSvYI
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.2o7eyj6XSzOiSvYI"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Perséfone
+  - _id: UUhLvGY9kDc8mmTG
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.UUhLvGY9kDc8mmTG"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Océano
+  - _id: WhZPgBlhJnJ1IJL3
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.WhZPgBlhJnJ1IJL3"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Nereo
+  - _id: XAau2ewstCSX03wu
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.XAau2ewstCSX03wu"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ponto
+  - _id: uw4WXQ3DeStlElgR
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.uw4WXQ3DeStlElgR"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Thalassa
+  - _id: oYOuKwdTFElhmX12
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.oYOuKwdTFElhmX12"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Tetis
+  - _id: C2KJRCFeAW4124xZ
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.C2KJRCFeAW4124xZ"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Artemisa
+  - _id: yHHW02tVD0zZJ0Yk
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.yHHW02tVD0zZJ0Yk"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Ares
+  - _id: oH4bpbZfLa5iuYje
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.oH4bpbZfLa5iuYje"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Atenea
+  - _id: QqCdvCB3LeihgECd
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.QqCdvCB3LeihgECd"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Némesis
+  - _id: WGxvbyBlHHGBw9ua
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.WGxvbyBlHHGBw9ua"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Helios
+  - _id: 8Rl57sJHN8rW1pdK
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.8Rl57sJHN8rW1pdK"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Tritón
+  - _id: A0ZQXYLofXyVatHx
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.A0ZQXYLofXyVatHx"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Kratos
+  - _id: ooXwDvDLtMUZ1SqK
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.ooXwDvDLtMUZ1SqK"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Nike
+  - _id: nd1hiypT9eB6zEVW
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.nd1hiypT9eB6zEVW"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Alka
+  - _id: yeXHsJIjO77kQTpD
+    _key: "!tables.results!.ZbLBEzP8apMFlJtd.yeXHsJIjO77kQTpD"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Palas

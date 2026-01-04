@@ -1,0 +1,169 @@
+_id: 945Xvzgj6dSlrW54
+_key: "!tables!.945Xvzgj6dSlrW54"
+name: Names for Spanish Merchantment from Greek Mythology (Creatures)
+description: Appropriate names for Spanish merchantmen derived from creatures in
+  Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: s8Z1CnbgCjlA01M2
+    _key: "!tables.results!.945Xvzgj6dSlrW54.s8Z1CnbgCjlA01M2"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Nereida
+  - _id: FHSCdaJG0t5uBGSw
+    _key: "!tables.results!.945Xvzgj6dSlrW54.FHSCdaJG0t5uBGSw"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Quimera
+  - _id: R6dMcHScxGgfkp3x
+    _key: "!tables.results!.945Xvzgj6dSlrW54.R6dMcHScxGgfkp3x"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cíclope
+  - _id: uF4RludTRaA8GAZB
+    _key: "!tables.results!.945Xvzgj6dSlrW54.uF4RludTRaA8GAZB"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Tifón
+  - _id: xYNtYo3vUvCYsA5W
+    _key: "!tables.results!.945Xvzgj6dSlrW54.xYNtYo3vUvCYsA5W"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Grifón
+  - _id: 9h1gXYkHrCiU5Mo6
+    _key: "!tables.results!.945Xvzgj6dSlrW54.9h1gXYkHrCiU5Mo6"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Centauro
+  - _id: 7vOkSGeMRtY1Nz5X
+    _key: "!tables.results!.945Xvzgj6dSlrW54.7vOkSGeMRtY1Nz5X"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Arpía
+  - _id: kB4IDbdxONX347wj
+    _key: "!tables.results!.945Xvzgj6dSlrW54.kB4IDbdxONX347wj"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hipocampo
+  - _id: tIFZYLh7wdAMcczD
+    _key: "!tables.results!.945Xvzgj6dSlrW54.tIFZYLh7wdAMcczD"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pegaso
+  - _id: kbssi5zEiEV96BhV
+    _key: "!tables.results!.945Xvzgj6dSlrW54.kbssi5zEiEV96BhV"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sirena
+  - _id: KgL5iYhCyiw3K7Yx
+    _key: "!tables.results!.945Xvzgj6dSlrW54.KgL5iYhCyiw3K7Yx"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Talos
+  - _id: wTlt0XnMn3Mez7oj
+    _key: "!tables.results!.945Xvzgj6dSlrW54.wTlt0XnMn3Mez7oj"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Sátiro
+  - _id: mRrHU5bvE79vVgld
+    _key: "!tables.results!.945Xvzgj6dSlrW54.mRrHU5bvE79vVgld"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Ninfa del Mar
+  - _id: HGoqUHzlFTLIwVjd
+    _key: "!tables.results!.945Xvzgj6dSlrW54.HGoqUHzlFTLIwVjd"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cinocefalo
+  - _id: e20XWXTtsjhGZ2qN
+    _key: "!tables.results!.945Xvzgj6dSlrW54.e20XWXTtsjhGZ2qN"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Esciápodo
+  - _id: 0IEp5DWhC5TvWdGl
+    _key: "!tables.results!.945Xvzgj6dSlrW54.0IEp5DWhC5TvWdGl"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Esfinge
+  - _id: rJcPHOCDsSKuEvAQ
+    _key: "!tables.results!.945Xvzgj6dSlrW54.rJcPHOCDsSKuEvAQ"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Mantícora
+  - _id: GKWMgmRnRYZ2UbQv
+    _key: "!tables.results!.945Xvzgj6dSlrW54.GKWMgmRnRYZ2UbQv"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ouroboros
+  - _id: JUZ2JLXm4gp3Zy6j
+    _key: "!tables.results!.945Xvzgj6dSlrW54.JUZ2JLXm4gp3Zy6j"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Fénix
+  - _id: nVDwGovc5dfeId7w
+    _key: "!tables.results!.945Xvzgj6dSlrW54.nVDwGovc5dfeId7w"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Cabra Marina

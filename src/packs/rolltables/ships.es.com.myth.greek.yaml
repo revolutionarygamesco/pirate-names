@@ -1,0 +1,35 @@
+_id: X6Xd0LPY4mfvqZsd
+_key: "!tables!.X6Xd0LPY4mfvqZsd"
+name: Names for Spanish Merchantmen from Greek Mythology
+description: Appropriate names for Spanish merchantmen derived from Greek heroes.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: fQunfBU2tIV48APR
+    _key: "!tables.results!.X6Xd0LPY4mfvqZsd.fQunfBU2tIV48APR"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: text
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Hq76veMOnb3OMb83
+    name: Names for Spanish Merchantmen from Greek Mythology (Gods)
+  - _id: v8kG5CWgxAEZMEGW
+    _key: "!tables.results!.X6Xd0LPY4mfvqZsd.v8kG5CWgxAEZMEGW"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: text
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.DKflyrn0avtzoDoM
+    name: Names for Spanish Merchantmen from Greek Mythology (Heroes)
+  - _id: vPu49UtRBVh3GJiJ
+    _key: "!tables.results!.X6Xd0LPY4mfvqZsd.vPu49UtRBVh3GJiJ"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: text
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.945Xvzgj6dSlrW54
+    name: Names for Spanish Merchantmen from Greek Mythology (Creatures)

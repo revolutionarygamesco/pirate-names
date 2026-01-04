@@ -1,0 +1,169 @@
+_id: kio5SnglRPE1g0a9
+_key: "!tables!.kio5SnglRPE1g0a9"
+name: Names for Spanish Men-of-War from Greek Mythology (Creatures)
+description: Appropriate names for Spanish men-of-war derived from creatures in
+  Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: Y8F1NWi4hbY3BHbN
+    _key: "!tables.results!.kio5SnglRPE1g0a9.Y8F1NWi4hbY3BHbN"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Nereida
+  - _id: l1dfPY6vxDT1i1k9
+    _key: "!tables.results!.kio5SnglRPE1g0a9.l1dfPY6vxDT1i1k9"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Quimera
+  - _id: xQfyDBm6Y3v1E2QF
+    _key: "!tables.results!.kio5SnglRPE1g0a9.xQfyDBm6Y3v1E2QF"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cíclope
+  - _id: pAHpq8i6Ufh6L5Cr
+    _key: "!tables.results!.kio5SnglRPE1g0a9.pAHpq8i6Ufh6L5Cr"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Tifón
+  - _id: 0twzOqiAdQPshfw1
+    _key: "!tables.results!.kio5SnglRPE1g0a9.0twzOqiAdQPshfw1"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Grifón
+  - _id: T9deP93twXb0IqmM
+    _key: "!tables.results!.kio5SnglRPE1g0a9.T9deP93twXb0IqmM"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Centauro
+  - _id: ZHS0E36Wg8fMG7nj
+    _key: "!tables.results!.kio5SnglRPE1g0a9.ZHS0E36Wg8fMG7nj"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Arpía
+  - _id: ytayltDICVxiAhhg
+    _key: "!tables.results!.kio5SnglRPE1g0a9.ytayltDICVxiAhhg"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hipocampo
+  - _id: rD3phJZqii2m1gLA
+    _key: "!tables.results!.kio5SnglRPE1g0a9.rD3phJZqii2m1gLA"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pegaso
+  - _id: r4tsoMsf2q65rcsf
+    _key: "!tables.results!.kio5SnglRPE1g0a9.r4tsoMsf2q65rcsf"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sirena
+  - _id: pgIXZ5pbRFsYgKlb
+    _key: "!tables.results!.kio5SnglRPE1g0a9.pgIXZ5pbRFsYgKlb"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Minotauro
+  - _id: 4QkeuYgiF1NGui0p
+    _key: "!tables.results!.kio5SnglRPE1g0a9.4QkeuYgiF1NGui0p"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hidra
+  - _id: CyqvO2ZBNoD51xzu
+    _key: "!tables.results!.kio5SnglRPE1g0a9.CyqvO2ZBNoD51xzu"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Aloadai
+  - _id: 9yaviwJ6YyU9QBy1
+    _key: "!tables.results!.kio5SnglRPE1g0a9.9yaviwJ6YyU9QBy1"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Anteo
+  - _id: EqdCDXlNphmeqGYP
+    _key: "!tables.results!.kio5SnglRPE1g0a9.EqdCDXlNphmeqGYP"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Gerión
+  - _id: UTDfpfx6t1CMRe0A
+    _key: "!tables.results!.kio5SnglRPE1g0a9.UTDfpfx6t1CMRe0A"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Gorgona
+  - _id: m4Lxn66WMJb6pmoe
+    _key: "!tables.results!.kio5SnglRPE1g0a9.m4Lxn66WMJb6pmoe"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Medusa
+  - _id: NmudwfSGMhMpNvFW
+    _key: "!tables.results!.kio5SnglRPE1g0a9.NmudwfSGMhMpNvFW"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Porfirión
+  - _id: b1vbcDlCp7nSg40P
+    _key: "!tables.results!.kio5SnglRPE1g0a9.b1vbcDlCp7nSg40P"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Cerbero
+  - _id: aY9biKqml3jAga1b
+    _key: "!tables.results!.kio5SnglRPE1g0a9.aY9biKqml3jAga1b"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Cetea

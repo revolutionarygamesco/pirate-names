@@ -1,0 +1,168 @@
+_id: hcagYKUomTcYVfyv
+_key: "!tables!.hcagYKUomTcYVfyv"
+name: Names for Spanish Men-of-War from Greek Mythology (Heroes)
+description: Appropriate names for Spanish men-of-war derived from Greek heroes.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: e8OeV02ZeTSyCjRx
+    _key: "!tables.results!.hcagYKUomTcYVfyv.e8OeV02ZeTSyCjRx"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Cástor y Pólux
+  - _id: SKqmQEGwRcWvHic4
+    _key: "!tables.results!.hcagYKUomTcYVfyv.SKqmQEGwRcWvHic4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Orfeo
+  - _id: 7IinjsiVEbEgP4oA
+    _key: "!tables.results!.hcagYKUomTcYVfyv.7IinjsiVEbEgP4oA"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Eurídice
+  - _id: 4d1asIlldBOUZ8Vd
+    _key: "!tables.results!.hcagYKUomTcYVfyv.4d1asIlldBOUZ8Vd"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Quirón
+  - _id: AtWaPFjped8HG9ZT
+    _key: "!tables.results!.hcagYKUomTcYVfyv.AtWaPFjped8HG9ZT"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Atreo
+  - _id: 3JWodAnekaBH8d5C
+    _key: "!tables.results!.hcagYKUomTcYVfyv.3JWodAnekaBH8d5C"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Atalanta
+  - _id: qSJMbzICb1Rbu0rC
+    _key: "!tables.results!.hcagYKUomTcYVfyv.qSJMbzICb1Rbu0rC"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ganímedes
+  - _id: xhd7USat7HK0Wyfy
+    _key: "!tables.results!.hcagYKUomTcYVfyv.xhd7USat7HK0Wyfy"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Jason
+  - _id: 3TGqAvVfucoHSX0k
+    _key: "!tables.results!.hcagYKUomTcYVfyv.3TGqAvVfucoHSX0k"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Meleagro
+  - _id: qeuWpMqXJS1We7oj
+    _key: "!tables.results!.hcagYKUomTcYVfyv.qeuWpMqXJS1We7oj"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Odiseo
+  - _id: fQm46wnVLVyRi0FF
+    _key: "!tables.results!.hcagYKUomTcYVfyv.fQm46wnVLVyRi0FF"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Aquiles
+  - _id: Ae8aWs05jkb1gAKn
+    _key: "!tables.results!.hcagYKUomTcYVfyv.Ae8aWs05jkb1gAKn"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hércules
+  - _id: mQ5QMZj1EKSiM3pX
+    _key: "!tables.results!.hcagYKUomTcYVfyv.mQ5QMZj1EKSiM3pX"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Cadmo
+  - _id: QscthyUxkgaaKqes
+    _key: "!tables.results!.hcagYKUomTcYVfyv.QscthyUxkgaaKqes"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Belerofonte
+  - _id: znMGq1Sxz1nb6h2E
+    _key: "!tables.results!.hcagYKUomTcYVfyv.znMGq1Sxz1nb6h2E"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Perseo
+  - _id: JsCXvDGeAACaDz2P
+    _key: "!tables.results!.hcagYKUomTcYVfyv.JsCXvDGeAACaDz2P"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Teseo
+  - _id: qrXL0JVloXThJcH4
+    _key: "!tables.results!.hcagYKUomTcYVfyv.qrXL0JVloXThJcH4"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Acteón
+  - _id: NqOBfhkOLbpufnCf
+    _key: "!tables.results!.hcagYKUomTcYVfyv.NqOBfhkOLbpufnCf"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Agamenón
+  - _id: tQ4ScXvwQbgIV2cf
+    _key: "!tables.results!.hcagYKUomTcYVfyv.tQ4ScXvwQbgIV2cf"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Áyax
+  - _id: f7qZlqfpGwDrA3ef
+    _key: "!tables.results!.hcagYKUomTcYVfyv.f7qZlqfpGwDrA3ef"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Héctor
