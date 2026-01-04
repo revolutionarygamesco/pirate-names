@@ -1,0 +1,169 @@
+_id: TWrJS39PTxt5C4C4
+_key: "!tables!.TWrJS39PTxt5C4C4"
+name: Economic Names for Spanish Merchantmen
+description: Names for Spanish merchantmen that refer to the economy or material
+  aspirations.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Yla9tUZ9BUrr1ch2
+results:
+  - _id: tiEbwEXxLm1Md0UB
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.tiEbwEXxLm1Md0UB"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Aduana
+  - _id: Kf3ZsGdCATYLRQOm
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.Kf3ZsGdCATYLRQOm"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Cambi
+  - _id: JZ2SZE9sD5mQY74w
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.JZ2SZE9sD5mQY74w"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Emprendedor
+  - _id: mmdzs8jW8GEsccxE
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.mmdzs8jW8GEsccxE"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Empresa
+  - _id: DDb5wKYXRRSPVLE7
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.DDb5wKYXRRSPVLE7"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Esmeralda
+  - _id: d6l3HKthMxdm9Dpi
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.d6l3HKthMxdm9Dpi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Diligente
+  - _id: NyicwpmI7HgDNRta
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.NyicwpmI7HgDNRta"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Espaciosa
+  - _id: jrlDUEKXG0PmujUd
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.jrlDUEKXG0PmujUd"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Industria
+  - _id: kQy8xZR412YWMMnH
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.kQy8xZR412YWMMnH"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Patrona
+  - _id: GTPaqugMuaTtp8SP
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.GTPaqugMuaTtp8SP"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Perla
+  - _id: gqHDDGCE0MlbtSmd
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.gqHDDGCE0MlbtSmd"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Perla de España
+  - _id: 8gIXQX3VQOhGuvUb
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.8gIXQX3VQOhGuvUb"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Rubi
+  - _id: nZjMADbTbeHca0rq
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.nZjMADbTbeHca0rq"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Serio
+  - _id: AD7OGZ5EcetF3aqN
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.AD7OGZ5EcetF3aqN"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ventura
+  - _id: PgpGmXQHDwCTagnw
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.PgpGmXQHDwCTagnw"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Joya
+  - _id: 6lDrEBDx0Zvw0neE
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.6lDrEBDx0Zvw0neE"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Acuñar
+  - _id: lWi6AMM6PCRT8mj8
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.lWi6AMM6PCRT8mj8"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Prima
+  - _id: pH0o4q8IP4QuvrG5
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.pH0o4q8IP4QuvrG5"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Zafiro
+  - _id: JUbBBC3MYnRjvCiA
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.JUbBBC3MYnRjvCiA"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Diamante
+  - _id: mqskweHKSb08y5yx
+    _key: "!tables.results!.TWrJS39PTxt5C4C4.mqskweHKSb08y5yx"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Prosperidad

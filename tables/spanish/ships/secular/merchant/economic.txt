@@ -1,21 +1,20 @@
-d20 Economic Spanish Merchant Ship Names
-Aduana
-Cambi
-Emprendedor
-Empresa
-Esmeralda
-Diligente
-Espaciosa
-Industria
-Patrona
-Perla
-Perla de España
-Rubi
-Serio
-Ventura
-Joya
-Acuñar
-Prima
-Zafiro
-Diamante
-Prosperidad
+  - description: Aduana
+  - description: Cambi
+  - description: Emprendedor
+  - description: Empresa
+  - description: Esmeralda
+  - description: Diligente
+  - description: Espaciosa
+  - description: Industria
+  - description: Patrona
+  - description: Perla
+  - description: Perla de España
+  - description: Rubi
+  - description: Serio
+  - description: Ventura
+  - description: Joya
+  - description: Acuñar
+  - description: Prima
+  - description: Zafiro
+  - description: Diamante
+  - description: Prosperidad
