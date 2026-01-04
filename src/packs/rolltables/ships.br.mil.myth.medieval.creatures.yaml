@@ -1,0 +1,104 @@
+_id: mKKDDpxIBnKzpOeH
+_key: "!tables!.mKKDDpxIBnKzpOeH"
+name: Names for British Men-of-War after Creatures of Medieval Myth and Legend
+description: Appropriate names for British men-of-war derived from creatures
+  found in medieval myth, legend, bestiaries, and heraldry.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+results:
+  - _id: r985hqyloKlfG6XG
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.r985hqyloKlfG6XG"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Unicorn
+  - _id: AZv403IrRsTMcjM4
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.AZv403IrRsTMcjM4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Mermaid
+  - _id: MSQZRG8AeUvnQbX0
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.MSQZRG8AeUvnQbX0"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Salamander
+  - _id: xgV0Dr402AOnLI2X
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.xgV0Dr402AOnLI2X"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sea Griffin
+  - _id: VVI6m8XDTAZED6r1
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.VVI6m8XDTAZED6r1"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Yale
+  - _id: mofOeHLbBcANfRvB
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.mofOeHLbBcANfRvB"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Winged Lion
+  - _id: LZImE9CNTs9Kzt9h
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.LZImE9CNTs9Kzt9h"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Dragon
+  - _id: APFD4kZREd71IwxW
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.APFD4kZREd71IwxW"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Drake
+  - _id: EcSKy6V7yqtQzyWi
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.EcSKy6V7yqtQzyWi"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Kraken
+  - _id: Pk2kcHtABuRcDh4B
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.Pk2kcHtABuRcDh4B"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Leviathan
+  - _id: Fvjitr3g5m4wOoJR
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.Fvjitr3g5m4wOoJR"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Basilisk
+  - _id: sfTbIswT4c0P00ji
+    _key: "!tables.results!.mKKDDpxIBnKzpOeH.sfTbIswT4c0P00ji"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Wyvern
