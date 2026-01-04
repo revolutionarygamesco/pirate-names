@@ -1,0 +1,169 @@
+_id: thL5fEzKba5UvUXJ
+_key: "!tables!.thL5fEzKba5UvUXJ"
+name: Names for French Merchantmen from Roman Mythology (Gods)
+description: Appropriate names for French merchantmen derived from figures in
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: bqzfOqKRugkvfUK3
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.bqzfOqKRugkvfUK3"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Hercule
+  - _id: sTeBBW17c6rQRpzK
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.sTeBBW17c6rQRpzK"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Gémeaux
+  - _id: MhzOuqVney7datfa
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.MhzOuqVney7datfa"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Énée
+  - _id: 6uKTUYaO5yQ8s5fz
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.6uKTUYaO5yQ8s5fz"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sibylle
+  - _id: VhHj4Z1ZlrmOdXKW
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.VhHj4Z1ZlrmOdXKW"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Larunda
+  - _id: MYIaVwRQrksY1WMV
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.MYIaVwRQrksY1WMV"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Palinure
+  - _id: iuXtKgH37pZGA2O9
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.iuXtKgH37pZGA2O9"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Évandre
+  - _id: 2PvBkja8vmyesrVI
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.2PvBkja8vmyesrVI"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Tutula
+  - _id: LmoRxMChMmT51kI5
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.LmoRxMChMmT51kI5"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Anchise
+  - _id: IM6DkSg2y8UggmHJ
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.IM6DkSg2y8UggmHJ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Camille
+  - _id: Fo1gUW0NKeDnuV0O
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.Fo1gUW0NKeDnuV0O"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Rémus
+  - _id: qNdxumIN416G0pSJ
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.qNdxumIN416G0pSJ"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Cassandre
+  - _id: 7RB9UEYME3UWxYwE
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.7RB9UEYME3UWxYwE"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Priam
+  - _id: EyP1S7wrHit4NZb3
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.EyP1S7wrHit4NZb3"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cybèle
+  - _id: KavKP6acFMHGGeko
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.KavKP6acFMHGGeko"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Didon
+  - _id: fpmJzzaDeszSFIfv
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.fpmJzzaDeszSFIfv"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Lucrèce
+  - _id: Lo78qSQ3fSTJMZcp
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.Lo78qSQ3fSTJMZcp"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Cicéron
+  - _id: WBSw1nnfWId9grP0
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.WBSw1nnfWId9grP0"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Caton
+  - _id: r8pzksxRAPVaTfwM
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.r8pzksxRAPVaTfwM"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Crassus
+  - _id: k2SA4SMvndYXqIeX
+    _key: "!tables.results!.thL5fEzKba5UvUXJ.k2SA4SMvndYXqIeX"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Arachné

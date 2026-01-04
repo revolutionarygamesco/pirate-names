@@ -1,0 +1,27 @@
+_id: 8LgINLdInZlOuOGb
+_key: "!tables!.8LgINLdInZlOuOGb"
+name: Names for French Merchantmen from Roman Mythology
+description: Appropriate names for French merchantmen derived from figures in
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: q6qjU13L8Kz20sDp
+    _key: "!tables.results!.8LgINLdInZlOuOGb.q6qjU13L8Kz20sDp"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Hv3OhGkQSSnGg0Xo
+    name: Names for French Merchantmen from Roman Mythology (Gods)
+  - _id: KOO2lvIO43jgMDqs
+    _key: "!tables.results!.8LgINLdInZlOuOGb.KOO2lvIO43jgMDqs"
+    range:
+      - 11
+      - 20
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.thL5fEzKba5UvUXJ
+    name: Names for French Merchantmen from Roman Mythology (Heroes)
