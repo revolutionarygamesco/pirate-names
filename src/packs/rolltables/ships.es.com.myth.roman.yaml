@@ -1,0 +1,27 @@
+_id: Ocmyms4tpui0VSND
+_key: "!tables!.Ocmyms4tpui0VSND"
+name: Names for Spanish Merchantmen from Roman Mythology
+description: Appropriate names for Spanish merchantmen derived from figures in
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: k3aXrcZZJWHYWCoT
+    _key: "!tables.results!.Ocmyms4tpui0VSND.k3aXrcZZJWHYWCoT"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2M1JM2p7jAzije5Q
+    name: Names for Spanish Merchantmen from Roman Mythology (Gods)
+  - _id: 1GqKMJaOZdhH7NCs
+    _key: "!tables.results!.Ocmyms4tpui0VSND.1GqKMJaOZdhH7NCs"
+    range:
+      - 11
+      - 20
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ZKjV58w88UumDdxw
+    name: Names for Spanish Merchantmen from Roman Mythology (Heroes)
