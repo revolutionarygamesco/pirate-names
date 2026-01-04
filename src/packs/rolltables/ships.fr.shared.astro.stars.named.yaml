@@ -1,0 +1,168 @@
+_id: wsMqz1IW056xzlV6
+_key: "!tables!.wsMqz1IW056xzlV6"
+name: Names for French Ships from Star Names
+description: Appropriate names for French ships named after stars.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: xOUJlBQJgcFFWM1F
+    _key: "!tables.results!.wsMqz1IW056xzlV6.xOUJlBQJgcFFWM1F"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Sirius
+  - _id: 6b8WHOIfULjBdD7O
+    _key: "!tables.results!.wsMqz1IW056xzlV6.6b8WHOIfULjBdD7O"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Véga
+  - _id: P8yecaDluiAaP9YZ
+    _key: "!tables.results!.wsMqz1IW056xzlV6.P8yecaDluiAaP9YZ"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Arcturus
+  - _id: pS7kkiTM3aqrWGML
+    _key: "!tables.results!.wsMqz1IW056xzlV6.pS7kkiTM3aqrWGML"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Achernar
+  - _id: FolaYfQAmI1RVDO5
+    _key: "!tables.results!.wsMqz1IW056xzlV6.FolaYfQAmI1RVDO5"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Albireo
+  - _id: KPtqBAKJMvEM7zqn
+    _key: "!tables.results!.wsMqz1IW056xzlV6.KPtqBAKJMvEM7zqn"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Alcor
+  - _id: RWkOG9tQsTE0HrGG
+    _key: "!tables.results!.wsMqz1IW056xzlV6.RWkOG9tQsTE0HrGG"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Aldébaran
+  - _id: IzAj3735pVddydVI
+    _key: "!tables.results!.wsMqz1IW056xzlV6.IzAj3735pVddydVI"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Altaïr
+  - _id: aUCm2dJKbtWrZ03k
+    _key: "!tables.results!.wsMqz1IW056xzlV6.aUCm2dJKbtWrZ03k"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Bellatrix
+  - _id: Raeljj9seZUAof7O
+    _key: "!tables.results!.wsMqz1IW056xzlV6.Raeljj9seZUAof7O"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Bételgeuse
+  - _id: 0ufBMmQ3YrvIeNos
+    _key: "!tables.results!.wsMqz1IW056xzlV6.0ufBMmQ3YrvIeNos"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Canopus
+  - _id: UruNgT4NWCeBkj24
+    _key: "!tables.results!.wsMqz1IW056xzlV6.UruNgT4NWCeBkj24"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Cor Caroli
+  - _id: OB3lTtDYDppJszRb
+    _key: "!tables.results!.wsMqz1IW056xzlV6.OB3lTtDYDppJszRb"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Déneb
+  - _id: rQiGkHNgQV7NxNcO
+    _key: "!tables.results!.wsMqz1IW056xzlV6.rQiGkHNgQV7NxNcO"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Elnath
+  - _id: x43dewr85SqmHimw
+    _key: "!tables.results!.wsMqz1IW056xzlV6.x43dewr85SqmHimw"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Mizar
+  - _id: ED260PMHYbFy2v5B
+    _key: "!tables.results!.wsMqz1IW056xzlV6.ED260PMHYbFy2v5B"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Polaris
+  - _id: Tz5nfwovF5bwH5V5
+    _key: "!tables.results!.wsMqz1IW056xzlV6.Tz5nfwovF5bwH5V5"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Procyon
+  - _id: 2JLhtgRG9p8TNkR6
+    _key: "!tables.results!.wsMqz1IW056xzlV6.2JLhtgRG9p8TNkR6"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Rigel
+  - _id: 3xLVZKtvgZzTtcNU
+    _key: "!tables.results!.wsMqz1IW056xzlV6.3xLVZKtvgZzTtcNU"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Spica
+  - _id: VsOXrzbkp2BPqExc
+    _key: "!tables.results!.wsMqz1IW056xzlV6.VsOXrzbkp2BPqExc"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Antarès

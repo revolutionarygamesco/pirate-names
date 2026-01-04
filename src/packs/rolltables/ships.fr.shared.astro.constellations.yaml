@@ -1,0 +1,89 @@
+_id: SuoaWAar3tIJ5c81
+_key: "!tables!.SuoaWAar3tIJ5c81"
+name: Names for French Ships from Other Constellations
+description: Appropriate names for French ships derived from the names of
+  constellations besides the zodiac.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: ETxVlm8WlOq3CqJF
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.ETxVlm8WlOq3CqJF"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Andromède
+  - _id: Uiq0Vp1bkcCZEosT
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.Uiq0Vp1bkcCZEosT"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Aigle
+  - _id: qBSVDOfZpM3dUvd0
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.qBSVDOfZpM3dUvd0"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cassiopée
+  - _id: xpkRQDK4RWDpeGRN
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.xpkRQDK4RWDpeGRN"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Croix du Sud
+  - _id: sGaahitUkl9km2us
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.sGaahitUkl9km2us"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Cygne
+  - _id: Sb0B9Mg9TzV0EsU4
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.Sb0B9Mg9TzV0EsU4"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Lyre
+  - _id: 80gKvfjegMjT0BwS
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.80gKvfjegMjT0BwS"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Orion
+  - _id: 1dNBwcP0FYa3gVk0
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.1dNBwcP0FYa3gVk0"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Petit Chariot
+  - _id: Z0FswfDzLnJzlYKb
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.Z0FswfDzLnJzlYKb"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Grand Chariot
+  - _id: dMY4K6BCpymqzOxe
+    _key: "!tables.results!.SuoaWAar3tIJ5c81.dMY4K6BCpymqzOxe"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Petit Ours
