@@ -1,0 +1,103 @@
+_id: lmJCyr3u9eLAAXqG
+_key: "!tables!.lmJCyr3u9eLAAXqG"
+name: Names for British Merchantmen after Occupations
+description: Appropriate names for British merchantmen that refer to occupations.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+results:
+  - _id: hIaDdOKa40pwSsAz
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.hIaDdOKa40pwSsAz"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Courier
+  - _id: vWH9JhRyMoQTtyB5
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.vWH9JhRyMoQTtyB5"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Dispatch
+  - _id: 5KWrM2HKdS21oZxE
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.5KWrM2HKdS21oZxE"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Draper
+  - _id: m5PLcUyVTgromH8F
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.m5PLcUyVTgromH8F"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Duke
+  - _id: ELe6DgMovruaPTZA
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.ELe6DgMovruaPTZA"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Gleaner
+  - _id: arS4tksENhpNVAqx
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.arS4tksENhpNVAqx"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Herald
+  - _id: jqSgx9hytQlUvC1C
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.jqSgx9hytQlUvC1C"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Mentor
+  - _id: Bzxg8EwJNzUGaUHj
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.Bzxg8EwJNzUGaUHj"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Merchant
+  - _id: UX4yYOYmdsmGg7Pv
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.UX4yYOYmdsmGg7Pv"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Planter
+  - _id: uXRu2YAmTior45Fg
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.uXRu2YAmTior45Fg"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Racer
+  - _id: T62AW0JRtiXvQCts
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.T62AW0JRtiXvQCts"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Retriever
+  - _id: H5nmG0JLhWGE3ExY
+    _key: "!tables.results!.lmJCyr3u9eLAAXqG.H5nmG0JLhWGE3ExY"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Traveller
