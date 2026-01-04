@@ -1,0 +1,168 @@
+_id: 6lX52hlEFCNcc9Mb
+_key: "!tables!.6lX52hlEFCNcc9Mb"
+name: Aspirational Names for Spanish Merchantmen
+description: Aspirational names for Spanish merchantmen.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Yla9tUZ9BUrr1ch2
+results:
+  - _id: VThUcyiIgpAKkuNy
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.VThUcyiIgpAKkuNy"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Astuto
+  - _id: wAnbwmZDCaY5ofa4
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.wAnbwmZDCaY5ofa4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Aventurero
+  - _id: hstVAJoqy5804bin
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.hstVAJoqy5804bin"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Brillante
+  - _id: MQDJEIC1hYaDJ0oY
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.MQDJEIC1hYaDJ0oY"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Buen Consejo
+  - _id: J60CvwsrawkMjl0d
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.J60CvwsrawkMjl0d"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Constanza
+  - _id: 4OXtjlC9COmMoqoG
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.4OXtjlC9COmMoqoG"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Dichoso
+  - _id: KN79vWwBboYOgjii
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.KN79vWwBboYOgjii"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Esperanza
+  - _id: 8lAkFCMpmPGVbWZc
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.8lAkFCMpmPGVbWZc"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Fama Volante
+  - _id: sJ5J6Ou6xyXh1SeL
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.sJ5J6Ou6xyXh1SeL"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Feliz
+  - _id: PILfi83DDVkQE31f
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.PILfi83DDVkQE31f"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Ligera
+  - _id: HDxZr9n34SDDpBal
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.HDxZr9n34SDDpBal"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Magnanimo
+  - _id: uAB7tBzFIoQWDIi2
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.uAB7tBzFIoQWDIi2"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nueva
+  - _id: dAdJtAGDgKpvtRGa
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.dAdJtAGDgKpvtRGa"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Pingue Volante
+  - _id: RC31hlSuOVh31nNy
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.RC31hlSuOVh31nNy"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Preciosa
+  - _id: XaCVOQtM6rRXQOPB
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.XaCVOQtM6rRXQOPB"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Sagrario
+  - _id: lSxtoXdGRF775cCO
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.lSxtoXdGRF775cCO"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Soberbio
+  - _id: r3xcWlKKOZxA7MIL
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.r3xcWlKKOZxA7MIL"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Viva
+  - _id: wrpTa5L6H5rdhfdu
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.wrpTa5L6H5rdhfdu"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Volador
+  - _id: 2vGNR4QDbRyF5b3U
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.2vGNR4QDbRyF5b3U"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Fortuna
+  - _id: H1WoVUtRObceKLph
+    _key: "!tables.results!.6lX52hlEFCNcc9Mb.H1WoVUtRObceKLph"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Rapidez

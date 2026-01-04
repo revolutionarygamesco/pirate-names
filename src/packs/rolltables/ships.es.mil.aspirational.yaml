@@ -1,0 +1,160 @@
+_id: 8ikqtiQcev0TXkPg
+_key: "!tables!.8ikqtiQcev0TXkPg"
+name: Aspirational Names for Spanish Men-of-War
+description: Aspirational names for Spanish men-of-war.
+img: icons/svg/d20-grey.svg
+formula: 1d19
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: JPjJOaw66mkaGbYW
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.JPjJOaw66mkaGbYW"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Alerta
+  - _id: bS2HFD1AKDt4O4nH
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.bS2HFD1AKDt4O4nH"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Audaz
+  - _id: bIX7Nc07be21oR1d
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.bIX7Nc07be21oR1d"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Aventurero
+  - _id: Kcx2JMhcJ6z9zkTt
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.Kcx2JMhcJ6z9zkTt"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Campeon
+  - _id: ToghrrDnbwNEN8rM
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.ToghrrDnbwNEN8rM"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Caballo Blanco
+  - _id: IUeYSxGefYYVWAqQ
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.IUeYSxGefYYVWAqQ"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Constanza
+  - _id: 9IVYZJKHyVqPeqtB
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.9IVYZJKHyVqPeqtB"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Firmeza
+  - _id: qeywT9lCkNClQEzz
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.qeywT9lCkNClQEzz"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Fuerte
+  - _id: riGjoWlKLUN9meRb
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.riGjoWlKLUN9meRb"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Gallardo
+  - _id: HEd8ZgTRxGtO9Wj1
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.HEd8ZgTRxGtO9Wj1"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Glorioso
+  - _id: hvslH6raJggiVjwM
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.hvslH6raJggiVjwM"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Lealtad
+  - _id: hfVDkusINl28AHZA
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.hfVDkusINl28AHZA"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Bizarra
+  - _id: rXJ254wE0Ppvf2T3
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.rXJ254wE0Ppvf2T3"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Guerrero
+  - _id: qs3MWZf9iN7A8VSo
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.qs3MWZf9iN7A8VSo"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Soberbio
+  - _id: 3ZfmIsMCNY2xU6cU
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.3ZfmIsMCNY2xU6cU"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Intrépido
+  - _id: dxtizHEF2vKWTYSK
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.dxtizHEF2vKWTYSK"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Conquistador
+  - _id: vO9wNOOMVezFiEXt
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.vO9wNOOMVezFiEXt"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Poderoso
+  - _id: bFeQV0dWS5qP5VNE
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.bFeQV0dWS5qP5VNE"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Victoria
+  - _id: FfWUHoqzTkgb4pLm
+    _key: "!tables.results!.8ikqtiQcev0TXkPg.FfWUHoqzTkgb4pLm"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Valiente
