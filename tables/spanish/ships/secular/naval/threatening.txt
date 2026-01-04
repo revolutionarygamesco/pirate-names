@@ -1,21 +1,20 @@
-d20 Threatening Spanish Naval Ship Names
-Atrevida
-Brava
-Cazadora
-Colérica
-Destructora
-Furia
-Incendio
-Invencible
-Poderoso
-Potencia
-Sanguinolento
-Temerario
-Tenaz
-Terrible
-Triunfante
-Vencedor
-Vengador
-Venganza
-Victorioso
-Vigilante
+  - description: Atrevida
+  - description: Brava
+  - description: Cazadora
+  - description: Colérica
+  - description: Destructora
+  - description: Furia
+  - description: Incendio
+  - description: Invencible
+  - description: Poderoso
+  - description: Potencia
+  - description: Sanguinolento
+  - description: Temerario
+  - description: Tenaz
+  - description: Terrible
+  - description: Triunfante
+  - description: Vencedor
+  - description: Vengador
+  - description: Venganza
+  - description: Victorioso
+  - description: Vigilante
