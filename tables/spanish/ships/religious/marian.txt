@@ -1,21 +1,20 @@
-d20 Spanish Marian Ship Names
-Estella de Mar
-Nuestra Señora de Belen
-Nuestra Señora de Gracia
-Nuestra Señora de Guadalupe
-Nuestra Señora de Loreto
-Nuestra Señora de la Anunciación
-Nuestra Señora de la Asuncion
-Nuestra Señora de la Concepcion y las Animas
-Nuestra Señora de la Esperanza
-Nuestra Señora de la Guia
-Nuestra Señora de la Paz
-Nuestra Señora de la Presentación
-Nuestra Señora de la Soledad
-Nuestra Señora del Buen Consejo
-Nuestra Señora del Carmen
-Nuestra Señora del Coro
-Nuestra Señora del Pilar
-Nuestra Señora del Populo
-Nuestra Señora del Rosario
+  - description: Estella de Mar
+  - description: Nuestra Señora de Belen
+  - description: Nuestra Señora de Gracia
+  - description: Nuestra Señora de Guadalupe
+  - description: Nuestra Señora de Loreto
+  - description: Nuestra Señora de la Anunciación
+  - description: Nuestra Señora de la Asuncion
+  - description: Nuestra Señora de la Concepcion y las Animas
+  - description: Nuestra Señora de la Esperanza
+  - description: Nuestra Señora de la Guia
+  - description: Nuestra Señora de la Paz
+  - description: Nuestra Señora de la Presentación
+  - description: Nuestra Señora de la Soledad
+  - description: Nuestra Señora del Buen Consejo
+  - description: Nuestra Señora del Carmen
+  - description: Nuestra Señora del Coro
+  - description: Nuestra Señora del Pilar
+  - description: Nuestra Señora del Populo
+  - description: Nuestra Señora del Rosario
 Virgen de Gracia

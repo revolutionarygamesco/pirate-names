@@ -1,0 +1,170 @@
+_id: qz8vAzz2wfWC0xPj
+_key: "!tables!.qz8vAzz2wfWC0xPj"
+name: Religious Names for Spanish Ships from Marian Titles
+description: Every Spanish ship officially had a name referring to some sort of
+  religious theme. These are titles for the Virgin Mary that could have been
+  used.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: aNVsEtOnMyTSWL8U
+results:
+  - _id: UQDm0lmNGY61lal4
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.UQDm0lmNGY61lal4"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Estella de Mar
+  - _id: wjNdn3igvoryvmNV
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.wjNdn3igvoryvmNV"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Nuestra Señora de Belen
+  - _id: m2hspur3BXufeFJr
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.m2hspur3BXufeFJr"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nuestra Señora de Gracia
+  - _id: 26OJKkYHFynR0aQZ
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.26OJKkYHFynR0aQZ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Nuestra Señora de Guadalupe
+  - _id: pnbo1bcQWf96Ylt8
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.pnbo1bcQWf96Ylt8"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Nuestra Señora de Loreto
+  - _id: 8MEx4UZy9ElKk1Qq
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.8MEx4UZy9ElKk1Qq"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Anunciación
+  - _id: OMnjGMqGvpoH2xLB
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.OMnjGMqGvpoH2xLB"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Asuncion
+  - _id: rxTJ0roBtl3JJ0wW
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.rxTJ0roBtl3JJ0wW"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Concepcion y las Animas
+  - _id: EhO93QRNDIBwWoXY
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.EhO93QRNDIBwWoXY"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Esperanza
+  - _id: dfHyHyekQBIcYyy4
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.dfHyHyekQBIcYyy4"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Guia
+  - _id: YvWqTmdvIb0g0S80
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.YvWqTmdvIb0g0S80"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Paz
+  - _id: N0I0kh8BCou5bs4s
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.N0I0kh8BCou5bs4s"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Presentación
+  - _id: qBpN7xtep3RT3DIq
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.qBpN7xtep3RT3DIq"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Nuestra Señora de la Soledad
+  - _id: cMcUfT69jJl6FRGo
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.cMcUfT69jJl6FRGo"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Nuestra Señora del Buen Consejo
+  - _id: piIOl6qMg0Do6Mrp
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.piIOl6qMg0Do6Mrp"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Nuestra Señora del Carmen
+  - _id: 3dwhAv2zC2tRZkJk
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.3dwhAv2zC2tRZkJk"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Nuestra Señora del Coro
+  - _id: VqSbtwQTb76jIcAZ
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.VqSbtwQTb76jIcAZ"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Nuestra Señora del Pilar
+  - _id: K5QuF9eo1sRfuHIE
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.K5QuF9eo1sRfuHIE"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Nuestra Señora del Populo
+  - _id: nkd7KUBQfNdPwVsr
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.nkd7KUBQfNdPwVsr"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Nuestra Señora del Rosario
+  - _id: bCQD1RQcDBn4a4y3
+    _key: "!tables.results!.qz8vAzz2wfWC0xPj.bCQD1RQcDBn4a4y3"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Virgen de Gracia
