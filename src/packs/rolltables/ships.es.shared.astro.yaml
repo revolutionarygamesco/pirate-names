@@ -1,0 +1,45 @@
+_id: TtMq9nJDa1Wf70ls
+_key: "!tables!.TtMq9nJDa1Wf70ls"
+name: Names for Spanish Ships from Astronomy
+description: Appropriate names for Spanish ships derived from astronomy and
+  celestial bodies.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: lAMrMYcWbC5XqzEI
+results:
+  - _id: aon3TIWMp89eP2CX
+    _key: "!tables.results!.TtMq9nJDa1Wf70ls.aon3TIWMp89eP2CX"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.bzhienQMaX2ZTEaS
+    name: Names for Spanish Ships from Astronomical Terms
+  - _id: bspB8aisuxZVRWVy
+    _key: "!tables.results!.TtMq9nJDa1Wf70ls.bspB8aisuxZVRWVy"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.KH3NDFJHLIwH1BtJ
+    name: Names for Spanish Ships from Stars
+  - _id: 3BNXaXjtEiWJDnps
+    _key: "!tables.results!.TtMq9nJDa1Wf70ls.3BNXaXjtEiWJDnps"
+    range:
+      - 9
+      - 14
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Uvq0zWdPNoHLYU5u
+    name: Names for Spanish Ships from the Zodiac
+  - _id: P2uraOU2ueUPARhR
+    _key: "!tables.results!.TtMq9nJDa1Wf70ls.P2uraOU2ueUPARhR"
+    range:
+      - 15
+      - 20
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mQZspG8J9hPwjfGl
+    name: Names for Spanish Ships from Other Constellations

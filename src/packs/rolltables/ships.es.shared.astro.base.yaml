@@ -1,0 +1,88 @@
+_id: bzhienQMaX2ZTEaS
+_key: "!tables!.bzhienQMaX2ZTEaS"
+name: Names for Spanish Ships from Astronomical Terms
+description: Appropriate names for Spanish ships derived from astronomy or celestial bodies.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: lAMrMYcWbC5XqzEI
+results:
+  - _id: KxQI0fMjJCMGVPF9
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.KxQI0fMjJCMGVPF9"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Aurora
+  - _id: EuQoH7CSGj2u71Av
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.EuQoH7CSGj2u71Av"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Cometa
+  - _id: dSFFwZ86FXKE9bgl
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.dSFFwZ86FXKE9bgl"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Constelación
+  - _id: I4ySsPARlCOH4VKi
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.I4ySsPARlCOH4VKi"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Eclipse
+  - _id: c0xXsn92qwa1sYBR
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.c0xXsn92qwa1sYBR"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Héspero
+  - _id: Tm2QXHthamIv2xug
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.Tm2QXHthamIv2xug"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Zodíaco
+  - _id: x4f6h5Ao5YBZDgDj
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.x4f6h5Ao5YBZDgDj"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Vía Láctea
+  - _id: 1jgKTEXBLLoceYCR
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.1jgKTEXBLLoceYCR"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Meteorito
+  - _id: MfVuHSF4xNMVd5rx
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.MfVuHSF4xNMVd5rx"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Estrella Nueva
+  - _id: OjA0cA7eGheFuSRt
+    _key: "!tables.results!.bzhienQMaX2ZTEaS.OjA0cA7eGheFuSRt"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Nebulosa
