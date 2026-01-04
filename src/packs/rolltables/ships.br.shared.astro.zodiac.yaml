@@ -1,0 +1,103 @@
+_id: q3AHebOkXqnjvAnO
+_key: "!tables!.q3AHebOkXqnjvAnO"
+name: Names for British Ships from the Zodiac
+description: Appropriate names for British ships derived from the signs of the zodiac.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+results:
+  - _id: viU5nZQj30UfySkJ
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.viU5nZQj30UfySkJ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Aries
+  - _id: zYooo3mwONkLOHIA
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.zYooo3mwONkLOHIA"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Taurus
+  - _id: fcs7vVGhQMU1DEF9
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.fcs7vVGhQMU1DEF9"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Gemini
+  - _id: grtsGmNcqqX9bxmD
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.grtsGmNcqqX9bxmD"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Cancer
+  - _id: tVNC5y2J2UfCF6m9
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.tVNC5y2J2UfCF6m9"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Leo
+  - _id: 7vjl5LpaPBhcWKfS
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.7vjl5LpaPBhcWKfS"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Virgo
+  - _id: asy7KnuSffmtvpA2
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.asy7KnuSffmtvpA2"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Libra
+  - _id: e4bDQIJ0EbYdZXPh
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.e4bDQIJ0EbYdZXPh"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Scorpio
+  - _id: X03K06e8jNRWuM68
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.X03K06e8jNRWuM68"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Sagittarius
+  - _id: tlInNJAaEMyHlS3m
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.tlInNJAaEMyHlS3m"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Capricorn
+  - _id: QNxllyil74AWDDSX
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.QNxllyil74AWDDSX"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Aquarius
+  - _id: bKI6voRJp5TQ1ra1
+    _key: "!tables.results!.q3AHebOkXqnjvAnO.bKI6voRJp5TQ1ra1"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Pisces

@@ -1,0 +1,167 @@
+_id: t4ESJA42QjUdS0UL
+_key: "!tables!.t4ESJA42QjUdS0UL"
+name: Names for British Ships from Star Names
+description: Appropriate names for British ships named after stars.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: 7b9154Ap7ftALchi
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.7b9154Ap7ftALchi"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Sirius
+  - _id: qqkmrBUVJolHImsK
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.qqkmrBUVJolHImsK"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Vega
+  - _id: bnEFjzOJ6kFIrMeN
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.bnEFjzOJ6kFIrMeN"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Arcturus
+  - _id: smzsVt0MD3DeUOrf
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.smzsVt0MD3DeUOrf"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Achemar
+  - _id: t8bmvsVSO4YtMotF
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.t8bmvsVSO4YtMotF"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Albireo
+  - _id: EiEwD1DGEc30uTsG
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.EiEwD1DGEc30uTsG"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Alcor
+  - _id: 7HKfzetYu0UM25rK
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.7HKfzetYu0UM25rK"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Aldebaran
+  - _id: kDZ291WaaY3rFVN6
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.kDZ291WaaY3rFVN6"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Altair
+  - _id: cWYkgyViPpy4jJyy
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.cWYkgyViPpy4jJyy"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Bellatrix
+  - _id: llZQQJKKIyYfNIfk
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.llZQQJKKIyYfNIfk"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Betelgeuse
+  - _id: elYOtyYD6pfuoXJj
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.elYOtyYD6pfuoXJj"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Canopus
+  - _id: e9SPgnsFgYWEqoR9
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.e9SPgnsFgYWEqoR9"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Cor Caroli
+  - _id: 2XsxNecylmadr690
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.2XsxNecylmadr690"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Deneb
+  - _id: 0K4R3W678OxB3IIb
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.0K4R3W678OxB3IIb"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Elnath
+  - _id: lJMBVmpnpknu7qaD
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.lJMBVmpnpknu7qaD"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Mizar
+  - _id: EBzFiUx11rXfnxLY
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.EBzFiUx11rXfnxLY"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Polaris
+  - _id: di095snwPbLw9N8K
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.di095snwPbLw9N8K"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Procyon
+  - _id: PaHbKp7kD0MLXlzH
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.PaHbKp7kD0MLXlzH"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Rigel
+  - _id: UZOLtRZZr9y20wWc
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.UZOLtRZZr9y20wWc"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Spica
+  - _id: QhUhgOWdL1Pqyglg
+    _key: "!tables.results!.t4ESJA42QjUdS0UL.QhUhgOWdL1Pqyglg"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Antares

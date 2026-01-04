@@ -1,0 +1,72 @@
+_id: nSOwdP2blF0XXl9W
+_key: "!tables!.nSOwdP2blF0XXl9W"
+name: Names for British Ships from Stars
+description: Appropriate names for British ships named for stars.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+results:
+  - _id: DYIZrlu7ofL94fVV
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.DYIZrlu7ofL94fVV"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Star
+  - _id: ePwLLtxJA8SblWar
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.ePwLLtxJA8SblWar"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: North Star
+  - _id: zUcErzUJDzhIDYb4
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.zUcErzUJDzhIDYb4"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Southern Star
+  - _id: DlhPCLWhGm9UT9w5
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.DlhPCLWhGm9UT9w5"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Eastern Star
+  - _id: ePAIyGPS9NDdXU1V
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.ePAIyGPS9NDdXU1V"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Western Star
+  - _id: Ouv0FrvNMNxRTfTh
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.Ouv0FrvNMNxRTfTh"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Morning Star
+  - _id: A2Jlf0cN9rtYRTIY
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.A2Jlf0cN9rtYRTIY"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Evening Star
+  - _id: EjRjWUEoQtsi1u5l
+    _key: "!tables.results!.nSOwdP2blF0XXl9W.EjRjWUEoQtsi1u5l"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.t4ESJA42QjUdS0UL
+    name: Names for British Ships from Star Names
