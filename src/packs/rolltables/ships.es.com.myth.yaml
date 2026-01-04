@@ -1,0 +1,35 @@
+_id: pgiFHxkHriHhh5QU
+_key: "!tables!.pgiFHxkHriHhh5QU"
+name: Names for Spanish Merchantmen from Mythology
+description: Appropriate names for Spanish merchantmen derived from mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: zti71XSb5K0fvYhu
+    _key: "!tables.results!.pgiFHxkHriHhh5QU.zti71XSb5K0fvYhu"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.X6Xd0LPY4mfvqZsd
+    name: Names for Spanish Merchantmen from Greek Mythology
+  - _id: xWZBKcBft8854HYp
+    _key: "!tables.results!.pgiFHxkHriHhh5QU.xWZBKcBft8854HYp"
+    range:
+      - 12
+      - 17
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Ocmyms4tpui0VSND
+    name: Names for Spanish Merchantmen from Roman Mythology
+  - _id: Z42WyGvTyy9YD0XJ
+    _key: "!tables.results!.pgiFHxkHriHhh5QU.Z42WyGvTyy9YD0XJ"
+    range:
+      - 18
+      - 20
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3C1RWLRvkP8o2CVe
+    name: Names for Spanish Merchantmen after Creatures of Medieval Myth and Legend

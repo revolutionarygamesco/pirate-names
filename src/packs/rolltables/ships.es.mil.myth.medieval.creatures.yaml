@@ -1,0 +1,105 @@
+_id: Nv4c1qVzs6aDlRvE
+_key: "!tables!.Nv4c1qVzs6aDlRvE"
+name: Names for Spanish Men-of-War after Creatures of Medieval Myth and Legend
+description: Appropriate names for Spanish men-of-war derived from creatures
+  found in medieval myth, legend, bestiaries, and heraldry.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: FcQYrHqUz2KgcsJH
+results:
+  - _id: r0LuasYFKg3w7iFA
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.r0LuasYFKg3w7iFA"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Unicornio
+  - _id: fyztN0ng1R5mfB2s
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.fyztN0ng1R5mfB2s"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Sirena
+  - _id: foPq2D5a4rbIvDOa
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.foPq2D5a4rbIvDOa"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Salamandra
+  - _id: GujNBZbA6nVMhEhZ
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.GujNBZbA6nVMhEhZ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Grifo Marino
+  - _id: RFudc2OhgMoaqpMY
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.RFudc2OhgMoaqpMY"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Eale
+  - _id: c2xA1B0dU2ew43bB
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.c2xA1B0dU2ew43bB"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: León Alado
+  - _id: cys4aW4UL8JZixxd
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.cys4aW4UL8JZixxd"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Dragón
+  - _id: KuPdZSEKwzK4mShP
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.KuPdZSEKwzK4mShP"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Cuélebre
+  - _id: Px6sFhPMdCuCYHF4
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.Px6sFhPMdCuCYHF4"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Kraken
+  - _id: bLFZrb2vSb1PuTgM
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.bLFZrb2vSb1PuTgM"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Leviatán
+  - _id: MpiLUsuD4pawE0l0
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.MpiLUsuD4pawE0l0"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Basilisco
+  - _id: KXtTosLJRQMmBUs2
+    _key: "!tables.results!.Nv4c1qVzs6aDlRvE.KXtTosLJRQMmBUs2"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Guiverno
