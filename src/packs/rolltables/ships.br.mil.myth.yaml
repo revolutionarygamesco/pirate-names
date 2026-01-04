@@ -4,6 +4,7 @@ name: Names for British Men-of-War from Mythology
 description: Appropriate names for British men-of-war derived from mythology.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: J0bBNHIgA2XVqvab
     _key: "!tables.results!.rszItzSl7cwBMjme.J0bBNHIgA2XVqvab"

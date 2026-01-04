@@ -4,6 +4,7 @@ name: Names for British Merchantmen after Occupations
 description: Appropriate names for British merchantmen that refer to occupations.
 img: icons/svg/d20-grey.svg
 formula: 1d12
+folder: oFvm03QYpinUqEnL
 results:
   - _id: hIaDdOKa40pwSsAz
     _key: "!tables.results!.lmJCyr3u9eLAAXqG.hIaDdOKa40pwSsAz"

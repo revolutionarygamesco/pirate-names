@@ -4,6 +4,7 @@ name: Names for British Merchantmen from Birds
 description: Appropriate names for British merchantmen derived from birds.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: oFvm03QYpinUqEnL
 results:
   - _id: pYU941RgVJ7w4aOE
     _key: "!tables.results!.E8fRKmva9RJ8TA1p.pYU941RgVJ7w4aOE"

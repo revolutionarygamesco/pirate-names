@@ -4,6 +4,7 @@ name: Names for British Ships from Star Names
 description: Appropriate names for British ships named after stars.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: 7b9154Ap7ftALchi
     _key: "!tables.results!.t4ESJA42QjUdS0UL.7b9154Ap7ftALchi"

@@ -4,6 +4,7 @@ name: Names for British Merchantmen from Roman Mythology (Gods)
 description: Appropriate names for British merchantmen derived from Roman gods.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: oFvm03QYpinUqEnL
 results:
   - _id: DvsVeFrc9bSCeMgd
     _key: "!tables.results!.dk5XIlLPowNPRxMb.DvsVeFrc9bSCeMgd"

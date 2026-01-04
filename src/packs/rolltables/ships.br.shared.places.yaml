@@ -4,6 +4,7 @@ name: Names for British Ships from Places
 description: Appropriate names for British ships taken from locations or regions.
 img: icons/svg/d20-grey.svg
 formula: 1d100
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: 383I0uC4i0TMqEkJ
     _key: "!tables.results!.xlzyioPfs5DgBxk8.383I0uC4i0TMqEkJ"

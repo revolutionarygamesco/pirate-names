@@ -4,6 +4,7 @@ name: Names for British Merchantmen from Marine Life
 description: Appropriate names for British merchantmen derived from marine animals.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: oFvm03QYpinUqEnL
 results:
   - _id: Hp520SHdWVVjvSQf
     _key: "!tables.results!.HKxIOnBndrgu5rYS.Hp520SHdWVVjvSQf"

@@ -4,6 +4,7 @@ name: Names for British Men-of-War from Marine Life
 description: Appropriate names for British men-of-war derived from marine animals.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: fKIN1tPZL0ishuf7
     _key: "!tables.results!.5LJ91pQbjHPjPTOZ.fKIN1tPZL0ishuf7"

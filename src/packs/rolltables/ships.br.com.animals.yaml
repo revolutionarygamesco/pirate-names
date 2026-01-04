@@ -4,6 +4,7 @@ name: Names for British Merchantmen from Animals
 description: Appropriate names for British merchantmen derived from animals.
 img: icons/svg/d20-grey.svg
 formula: 1d12
+folder: oFvm03QYpinUqEnL
 results:
   - _id: jGpznQdoJSlclRJ8
     _key: "!tables.results!.YacjrTSZ3KUpBCCZ.jGpznQdoJSlclRJ8"

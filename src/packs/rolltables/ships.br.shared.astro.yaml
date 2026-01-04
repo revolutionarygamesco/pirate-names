@@ -4,6 +4,7 @@ name: Names for British Ships from Astronomy
 description: Appropriate names for British ships derived from the signs of the zodiac.
 img: icons/svg/d20-grey.svg
 formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: 0GhNlRAgWI7ISEs8
     _key: "!tables.results!.byP0Xa7TSpQoecu3.0GhNlRAgWI7ISEs8"

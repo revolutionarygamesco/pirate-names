@@ -4,6 +4,7 @@ name: Names for British Men-of-War after Occupations
 description: Appropriate names for British men-of-war that refer to occupations.
 img: icons/svg/d20-grey.svg
 formula: 1d12
+folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: dhv9yLcxBdrcEKZA
     _key: "!tables.results!.hNDZuh6pAnrXOcgO.dhv9yLcxBdrcEKZA"
