@@ -1,0 +1,169 @@
+_id: kYgAv0vpaeUQ9FWr
+_key: "!tables!.kYgAv0vpaeUQ9FWr"
+name: Names for French Merchantmen from Greek Mythology (Heroes)
+description: Appropriate names for French merchantmen derived from creatures in
+  Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: NpPrjPHBOAuyBa8z
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.NpPrjPHBOAuyBa8z"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Néréide
+  - _id: 87oKEN5ybqYJB5a7
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.87oKEN5ybqYJB5a7"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Chimère
+  - _id: TxUOhMOJta7rJS7d
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.TxUOhMOJta7rJS7d"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cyclope
+  - _id: m9GWHBx15guyQW5x
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.m9GWHBx15guyQW5x"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Typhon
+  - _id: UgzOLWwjuLbz6iHN
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.UgzOLWwjuLbz6iHN"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Griffon
+  - _id: QMaAo0EwNKzTetZd
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.QMaAo0EwNKzTetZd"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Centaur
+  - _id: 4NjBEpHAoDtaAKb0
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.4NjBEpHAoDtaAKb0"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Harpie
+  - _id: buxrQZO4VRMJslt6
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.buxrQZO4VRMJslt6"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hippocampe
+  - _id: 2buiApgi0nd5WfZe
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.2buiApgi0nd5WfZe"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pégase
+  - _id: RlN7nlEBOJp1PzQv
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.RlN7nlEBOJp1PzQv"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sirène
+  - _id: LauFGQLSCthmQqnQ
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.LauFGQLSCthmQqnQ"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Talos
+  - _id: b7wHJPw3O3lYyvG2
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.b7wHJPw3O3lYyvG2"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Satyre
+  - _id: PRfwzaR0aBFqjb4Z
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.PRfwzaR0aBFqjb4Z"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Nymphe de la Mer
+  - _id: aFFqycGhMgpcvT3t
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.aFFqycGhMgpcvT3t"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cynocéphale
+  - _id: fbPwrxq7bZRbrbKO
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.fbPwrxq7bZRbrbKO"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Sciapod
+  - _id: aUlW14G8zTLKfqif
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.aUlW14G8zTLKfqif"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Sphinx
+  - _id: dHuvItbUJEuzlGHV
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.dHuvItbUJEuzlGHV"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Manticore
+  - _id: 09t38ZHiHFQ4CK2N
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.09t38ZHiHFQ4CK2N"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ouroboros
+  - _id: ArM8iudNFGMGoaWW
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.ArM8iudNFGMGoaWW"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Phénix
+  - _id: KQ0wyErIMmx7ko7r
+    _key: "!tables.results!.kYgAv0vpaeUQ9FWr.KQ0wyErIMmx7ko7r"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Chèvre de Mer

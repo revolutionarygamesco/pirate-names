@@ -1,0 +1,35 @@
+_id: EOuAQUcKMpEvHi8f
+_key: "!tables!.EOuAQUcKMpEvHi8f"
+name: Names for French Merchantmen from Greek Mythology
+description: Appropriate names for French merchantmen derived from Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: CxerMJRkNeWDRepp
+    _key: "!tables.results!.EOuAQUcKMpEvHi8f.CxerMJRkNeWDRepp"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.IKTZ6j5O0sRQEbeb
+    name: Names for French Merchantmen from Greek Mythology (Gods)
+  - _id: YXLNhX2kOYjEo7F3
+    _key: "!tables.results!.EOuAQUcKMpEvHi8f.YXLNhX2kOYjEo7F3"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.IKTZ6j5O0sRQEbeb
+    name: Names for French Merchantmen from Greek Mythology (Heroes)
+  - _id: D9Nx4eoGxsorab8D
+    _key: "!tables.results!.EOuAQUcKMpEvHi8f.D9Nx4eoGxsorab8D"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.kYgAv0vpaeUQ9FWr
+    name: Names for French Merchantmen from Greek Mythology (Creatures)

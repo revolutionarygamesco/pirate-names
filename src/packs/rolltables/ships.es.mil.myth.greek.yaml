@@ -1,7 +1,7 @@
 _id: zUaE6cQzIKxUzIFl
 _key: "!tables!.zUaE6cQzIKxUzIFl"
 name: Names for Spanish Men-of-War from Greek Mythology
-description: Appropriate names for Spanish men-of-war derived from Greek heroes.
+description: Appropriate names for Spanish men-of-war derived from Greek mythology.
 img: icons/svg/d20-grey.svg
 formula: 1d12
 folder: FcQYrHqUz2KgcsJH
@@ -12,7 +12,7 @@ results:
       - 1
       - 4
     weight: 4
-    type: text
+    type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ZbLBEzP8apMFlJtd
     name: Names for Spanish Men-of-War from Greek Mythology (Gods)
   - _id: n1wEe2IlFfbDZ5B2
@@ -21,15 +21,15 @@ results:
       - 5
       - 8
     weight: 4
-    type: text
+    type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.hcagYKUomTcYVfyv
     name: Names for Spanish Men-of-War from Greek Mythology (Heroes)
   - _id: OrapxOCeUe9oTulT
     _key: "!tables.results!.zUaE6cQzIKxUzIFl.OrapxOCeUe9oTulT"
     range:
-      - 1
-      - 4
+      - 9
+      - 12
     weight: 4
-    type: text
+    type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.kio5SnglRPE1g0a9
     name: Names for Spanish Men-of-War from Greek Mythology (Creatures)

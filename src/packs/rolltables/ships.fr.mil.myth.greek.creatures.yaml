@@ -1,0 +1,169 @@
+_id: H4sNn4AzA434lQ1a
+_key: "!tables!.H4sNn4AzA434lQ1a"
+name: Names for French Men-of-War from Greek Mythology (Heroes)
+description: Appropriate names for French men-of-war derived from creatures in
+  Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: stZbdsj7mB5NWnk2
+results:
+  - _id: a48m4xnvHOM9sfaL
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.a48m4xnvHOM9sfaL"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Néréide
+  - _id: ogJWmi1MQuRGpmGW
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.ogJWmi1MQuRGpmGW"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Chimère
+  - _id: 7F8MKbUW7hGbaJYr
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.7F8MKbUW7hGbaJYr"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cyclope
+  - _id: 1TBK9ca0yh8C6CiC
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.1TBK9ca0yh8C6CiC"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Typhon
+  - _id: jDs5N3uSNzi646OA
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.jDs5N3uSNzi646OA"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Griffon
+  - _id: 0rDQmLWs3kT1Su3s
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.0rDQmLWs3kT1Su3s"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Centaur
+  - _id: 5UnCLG3filXp9FdX
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.5UnCLG3filXp9FdX"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Harpie
+  - _id: xd42HNZ6gwXmpxbA
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.xd42HNZ6gwXmpxbA"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hippocampe
+  - _id: Rj63Dnvry47uUw56
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.Rj63Dnvry47uUw56"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pégase
+  - _id: poOL4nS7tB2sq89f
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.poOL4nS7tB2sq89f"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sirène
+  - _id: c08ZgOjDRjOZT9Wd
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.c08ZgOjDRjOZT9Wd"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Minotaure
+  - _id: nXkchQwLhxdw7OKc
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.nXkchQwLhxdw7OKc"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hydre
+  - _id: BVYdtFg7zeRzRbLl
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.BVYdtFg7zeRzRbLl"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Aloadai
+  - _id: gKNfDkRmqfofrxkR
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.gKNfDkRmqfofrxkR"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Antée
+  - _id: R03j9Xi4rzYL9fct
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.R03j9Xi4rzYL9fct"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Géryon
+  - _id: EkNaDEKdvu7VwXem
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.EkNaDEKdvu7VwXem"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Gorgone
+  - _id: JYNBqnyafw43zkUw
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.JYNBqnyafw43zkUw"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Méduse
+  - _id: NThSiPZ9VWhuopjk
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.NThSiPZ9VWhuopjk"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Porphyrion
+  - _id: WkBJncPrdXvrf3pR
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.WkBJncPrdXvrf3pR"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Cerbère
+  - _id: L7TnJkaWQ94fOz6n
+    _key: "!tables.results!.H4sNn4AzA434lQ1a.L7TnJkaWQ94fOz6n"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Cetea

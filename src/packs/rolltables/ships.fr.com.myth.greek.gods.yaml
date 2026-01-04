@@ -1,0 +1,168 @@
+_id: IKTZ6j5O0sRQEbeb
+_key: "!tables!.IKTZ6j5O0sRQEbeb"
+name: Names for French Merchantmen from Greek Mythology (Gods)
+description: Appropriate names for French merchantmen derived from Greek gods.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: UnF57V3UrteAFAcD
+results:
+  - _id: J8WcMpUJijlC79EQ
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.J8WcMpUJijlC79EQ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Zeus
+  - _id: kNtwNCTOWcMpY7by
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.kNtwNCTOWcMpY7by"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Héra
+  - _id: 1Ol7HBLgPgfnPFk5
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.1Ol7HBLgPgfnPFk5"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Poséidon
+  - _id: oKQopIPPrJVZYcpw
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.oKQopIPPrJVZYcpw"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Apollon
+  - _id: VKelMd8pR6Dl70e7
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.VKelMd8pR6Dl70e7"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Perséphone
+  - _id: 37lhsSqf4dPnS2sY
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.37lhsSqf4dPnS2sY"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Océan
+  - _id: 8P8jbelYSvT3J2M7
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.8P8jbelYSvT3J2M7"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Nérée
+  - _id: 1V0GrkcTd4uHpoo9
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.1V0GrkcTd4uHpoo9"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Pontus
+  - _id: AFlmhO1XZKgAEKye
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.AFlmhO1XZKgAEKye"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Thalassa
+  - _id: Th9BHwPLo18Pmjq7
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.Th9BHwPLo18Pmjq7"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Téthys
+  - _id: DtX8copB3CbQ9xpN
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.DtX8copB3CbQ9xpN"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Déméter
+  - _id: Tm5uwloOK376meB6
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.Tm5uwloOK376meB6"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Héphaïstos
+  - _id: MXlkbxEPhJzN845x
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.MXlkbxEPhJzN845x"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Aphrodite
+  - _id: BCdkVaeZdZgZTWZQ
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.BCdkVaeZdZgZTWZQ"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Hermès
+  - _id: w8tB5KHrObyeprIx
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.w8tB5KHrObyeprIx"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Hestia
+  - _id: yIARAzVonop3GGI4
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.yIARAzVonop3GGI4"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Dionysos
+  - _id: i6xWsBnIRvBgJ76A
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.i6xWsBnIRvBgJ76A"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Galatée
+  - _id: NhRBK9DskNPiA4dW
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.NhRBK9DskNPiA4dW"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Asclépios
+  - _id: 5mIZbJ322Yp4oQ3u
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.5mIZbJ322Yp4oQ3u"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Leucothée
+  - _id: 9tH8imqyI3doPV5G
+    _key: "!tables.results!.IKTZ6j5O0sRQEbeb.9tH8imqyI3doPV5G"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Adonis
