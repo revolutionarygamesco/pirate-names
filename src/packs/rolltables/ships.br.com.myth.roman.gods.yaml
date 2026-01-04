@@ -1,0 +1,167 @@
+_id: dk5XIlLPowNPRxMb
+_key: "!tables!.dk5XIlLPowNPRxMb"
+name: Names for British Merchantmen from Roman Mythology (Gods)
+description: Appropriate names for British merchantmen derived from Roman gods.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: DvsVeFrc9bSCeMgd
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.DvsVeFrc9bSCeMgd"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Jupiter
+  - _id: a5JZmP0rzB3isvXj
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.a5JZmP0rzB3isvXj"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Juno
+  - _id: 0tXqK62757rSNywT
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.0tXqK62757rSNywT"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Neptune
+  - _id: CcBtczv8T09Fz1ms
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.CcBtczv8T09Fz1ms"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Janus
+  - _id: AwLo2fcsQ0EheLLK
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.AwLo2fcsQ0EheLLK"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Fortuna
+  - _id: ZabuhKM7wROswIRV
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.ZabuhKM7wROswIRV"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Fides
+  - _id: jkaaFZINzOebgJGY
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.jkaaFZINzOebgJGY"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Luna
+  - _id: awLAekz4hT3Ubbbq
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.awLAekz4hT3Ubbbq"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Salacia
+  - _id: ulCQcnlosQB02HgS
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.ulCQcnlosQB02HgS"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Venilia
+  - _id: cYrGTGHMDVWpejNT
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.cYrGTGHMDVWpejNT"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Aurora
+  - _id: c0CTtD8Guqwj76e8
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.c0CTtD8Guqwj76e8"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Vulcan
+  - _id: b8EbYnW7qT2uVpis
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.b8EbYnW7qT2uVpis"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Venus
+  - _id: PGqGZox6gHLtLOEg
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.PGqGZox6gHLtLOEg"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Mercury
+  - _id: eNxO7k7MfjNYYiCY
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.eNxO7k7MfjNYYiCY"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Vesta
+  - _id: lQMg5kpCCphkczb8
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.lQMg5kpCCphkczb8"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Ceres
+  - _id: GBxFFvVw8kiVGFy6
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.GBxFFvVw8kiVGFy6"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Liber
+  - _id: d6877XXzg6mzecuk
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.d6877XXzg6mzecuk"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Proserpina
+  - _id: R7UUHhzrV0julEsf
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.R7UUHhzrV0julEsf"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Carmentis
+  - _id: IBebLtxuIlrTKTDZ
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.IBebLtxuIlrTKTDZ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Pomona
+  - _id: CwSBfORlhdffOMp9
+    _key: "!tables.results!.dk5XIlLPowNPRxMb.CwSBfORlhdffOMp9"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Saturn

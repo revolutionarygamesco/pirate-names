@@ -1,0 +1,168 @@
+_id: yYWSoPlaSchJKCom
+_key: "!tables!.yYWSoPlaSchJKCom"
+name: Names for British Men-of-War from Roman Mythology (Heroes)
+description: Appropriate names for British men-of-war derived from figures from
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: UesoIaAVsSk5qB2L
+    _key: "!tables.results!.yYWSoPlaSchJKCom.UesoIaAVsSk5qB2L"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Hercules
+  - _id: u4nNZZeXz2wU6b8K
+    _key: "!tables.results!.yYWSoPlaSchJKCom.u4nNZZeXz2wU6b8K"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Gemini
+  - _id: aPueY7gEt3yB0oku
+    _key: "!tables.results!.yYWSoPlaSchJKCom.aPueY7gEt3yB0oku"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Aeneas
+  - _id: JfodYysfoRRoSuhN
+    _key: "!tables.results!.yYWSoPlaSchJKCom.JfodYysfoRRoSuhN"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sibyl
+  - _id: C4cl9jEh6ps6ef4z
+    _key: "!tables.results!.yYWSoPlaSchJKCom.C4cl9jEh6ps6ef4z"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Larunda
+  - _id: SedudxnnyTQ7G1sa
+    _key: "!tables.results!.yYWSoPlaSchJKCom.SedudxnnyTQ7G1sa"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Palinurus
+  - _id: DZR44CjoX9UfpWGA
+    _key: "!tables.results!.yYWSoPlaSchJKCom.DZR44CjoX9UfpWGA"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Evander
+  - _id: 6xb7bwPy9I2lNU6P
+    _key: "!tables.results!.yYWSoPlaSchJKCom.6xb7bwPy9I2lNU6P"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Tutula
+  - _id: 2EscgjeiKgXQbdZk
+    _key: "!tables.results!.yYWSoPlaSchJKCom.2EscgjeiKgXQbdZk"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Anchises
+  - _id: MIsvNmHTVPibcRMN
+    _key: "!tables.results!.yYWSoPlaSchJKCom.MIsvNmHTVPibcRMN"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Camillus
+  - _id: aNqbLu9x2ArrJ7IH
+    _key: "!tables.results!.yYWSoPlaSchJKCom.aNqbLu9x2ArrJ7IH"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Romulus
+  - _id: 7Ob3kqii5iwR50oq
+    _key: "!tables.results!.yYWSoPlaSchJKCom.7Ob3kqii5iwR50oq"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Horatius
+  - _id: wEVMiqXszNqFrqg0
+    _key: "!tables.results!.yYWSoPlaSchJKCom.wEVMiqXszNqFrqg0"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Cincinnatus
+  - _id: QPUsa7fOcDYCufuN
+    _key: "!tables.results!.yYWSoPlaSchJKCom.QPUsa7fOcDYCufuN"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Scaevola
+  - _id: cqgml2vG9AIvSd5D
+    _key: "!tables.results!.yYWSoPlaSchJKCom.cqgml2vG9AIvSd5D"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Scipio
+  - _id: KkTpg6Vl8rZEuAra
+    _key: "!tables.results!.yYWSoPlaSchJKCom.KkTpg6Vl8rZEuAra"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Coriolanus
+  - _id: 86hw0u69lYGngAGE
+    _key: "!tables.results!.yYWSoPlaSchJKCom.86hw0u69lYGngAGE"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Hostilius
+  - _id: JMJnK2YdGYFQ9iFe
+    _key: "!tables.results!.yYWSoPlaSchJKCom.JMJnK2YdGYFQ9iFe"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Agrippa
+  - _id: hs967NoCG7yzzupf
+    _key: "!tables.results!.yYWSoPlaSchJKCom.hs967NoCG7yzzupf"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Pompey
+  - _id: kaJdrqfpyvu8TaA6
+    _key: "!tables.results!.yYWSoPlaSchJKCom.kaJdrqfpyvu8TaA6"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Severus

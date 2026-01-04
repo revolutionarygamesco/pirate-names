@@ -1,0 +1,168 @@
+_id: Bpshco2nnxyFRQkq
+_key: "!tables!.Bpshco2nnxyFRQkq"
+name: Names for British Merchantmen from Roman Mythology (Heroes)
+description: Appropriate names for British merchantmen derived from figures from
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: jKyrcaor48bpU8Ci
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.jKyrcaor48bpU8Ci"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Hercules
+  - _id: YdjUbKaKYMjWY5DB
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.YdjUbKaKYMjWY5DB"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Gemini
+  - _id: 3usrRzuy0SzaDuIv
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.3usrRzuy0SzaDuIv"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Aeneas
+  - _id: a17d0k8mqbu8X1ya
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.a17d0k8mqbu8X1ya"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sibyl
+  - _id: DMqqZoEyu1E94Fp9
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.DMqqZoEyu1E94Fp9"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Larunda
+  - _id: eizAvcp0PhvQ8RLk
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.eizAvcp0PhvQ8RLk"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Palinurus
+  - _id: TxMuAXBUhFXPuth1
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.TxMuAXBUhFXPuth1"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Evander
+  - _id: zR59htPyqhdJ6ON2
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.zR59htPyqhdJ6ON2"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Tutula
+  - _id: d1zS0aBx9moeGoWI
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.d1zS0aBx9moeGoWI"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Anchises
+  - _id: CIFhW12BHQzl711X
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.CIFhW12BHQzl711X"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Camillus
+  - _id: pqaracnAGyif2y9b
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.pqaracnAGyif2y9b"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Remus
+  - _id: ezVRBaCLQB1uUUDf
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.ezVRBaCLQB1uUUDf"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Cassandra
+  - _id: iVR6W00oNtBcrU0u
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.iVR6W00oNtBcrU0u"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Priam
+  - _id: BgygmGeiDPlDmwN7
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.BgygmGeiDPlDmwN7"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cybele
+  - _id: vfoavWVcYzftu98x
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.vfoavWVcYzftu98x"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Dido
+  - _id: W2eESHBLp9amhPjJ
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.W2eESHBLp9amhPjJ"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Lucretia
+  - _id: 4qxnzLKZsNQhJgtt
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.4qxnzLKZsNQhJgtt"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Cicero
+  - _id: nZl9lRueIfdpaQ7D
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.nZl9lRueIfdpaQ7D"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Cato
+  - _id: TCagdCKOdPRIoeNo
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.TCagdCKOdPRIoeNo"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Crassus
+  - _id: VBA0PqqGg5gP7oCJ
+    _key: "!tables.results!.Bpshco2nnxyFRQkq.VBA0PqqGg5gP7oCJ"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Arachne

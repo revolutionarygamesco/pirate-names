@@ -1,0 +1,26 @@
+_id: TMeAk3yQEYOQLRES
+_key: "!tables!.TMeAk3yQEYOQLRES"
+name: Names for British Merchantmen from Roman Mythology
+description: Appropriate names for British merchantmen derived from Roman
+  mythology, legend, or history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: uVPbHcAwEc4Ojti9
+    _key: "!tables.results!.TMeAk3yQEYOQLRES.uVPbHcAwEc4Ojti9"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.dk5XIlLPowNPRxMb
+    name: Names for British Merchantmen from Roman Mythology (Gods)
+  - _id: uBGMkKHWQmFZ3n47
+    _key: "!tables.results!.TMeAk3yQEYOQLRES.uBGMkKHWQmFZ3n47"
+    range:
+      - 11
+      - 20
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Bpshco2nnxyFRQkq
+    name: Names for British Merchantmen from Roman Mythology (Heroes)
