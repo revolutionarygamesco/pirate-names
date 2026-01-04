@@ -1,0 +1,167 @@
+_id: E8fRKmva9RJ8TA1p
+_key: "!tables!.E8fRKmva9RJ8TA1p"
+name: Names for British Merchantmen from Birds
+description: Appropriate names for British merchantmen derived from birds.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: pYU941RgVJ7w4aOE
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.pYU941RgVJ7w4aOE"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Crane
+  - _id: rK05mp2UttJExZbN
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.rK05mp2UttJExZbN"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Heron
+  - _id: LKxi1i6fTnpTMVfV
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.LKxi1i6fTnpTMVfV"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nightingale
+  - _id: t7I1ZFS8MeakmpAX
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.t7I1ZFS8MeakmpAX"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Raven
+  - _id: fG28tfJgWQQLtWZ0
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.fG28tfJgWQQLtWZ0"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Jackdaw
+  - _id: MnkbIJdHZrh8wI7E
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.MnkbIJdHZrh8wI7E"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Bullfinch
+  - _id: yEOikkQ6Gm1srNqw
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.yEOikkQ6Gm1srNqw"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Cormorant
+  - _id: heiRoD6QkamxpIiU
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.heiRoD6QkamxpIiU"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kingfisher
+  - _id: 9S2Vd6uqBpmRUMMJ
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.9S2Vd6uqBpmRUMMJ"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pelican
+  - _id: agdyNrWUaHXpAudk
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.agdyNrWUaHXpAudk"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Albatross
+  - _id: 2wHb4qZnMSJhoyor
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.2wHb4qZnMSJhoyor"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Dove
+  - _id: bEZlhQX2m6qxmk2y
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.bEZlhQX2m6qxmk2y"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Duck
+  - _id: SZtqnqoSKPGYxlqn
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.SZtqnqoSKPGYxlqn"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Gannet
+  - _id: KeEfO01IN19zNwVL
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.KeEfO01IN19zNwVL"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Hummingbird
+  - _id: hISQChRFWB7e7O5f
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.hISQChRFWB7e7O5f"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Lark
+  - _id: EWWM3X9Q4L3udSTt
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.EWWM3X9Q4L3udSTt"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Magpie
+  - _id: jR2JZh7yvaPqpa6M
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.jR2JZh7yvaPqpa6M"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Swan
+  - _id: RZc7ana6vRLU5lXr
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.RZc7ana6vRLU5lXr"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Starling
+  - _id: oZeM2C4fYwmhzRyA
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.oZeM2C4fYwmhzRyA"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Goose
+  - _id: 2mClzcSnrAVG9rRO
+    _key: "!tables.results!.E8fRKmva9RJ8TA1p.2mClzcSnrAVG9rRO"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Peacock

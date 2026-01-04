@@ -1,0 +1,34 @@
+_id: YacjrTSZ3KUpBCCZ
+_key: "!tables!.YacjrTSZ3KUpBCCZ"
+name: Names for British Merchantmen from Animals
+description: Appropriate names for British merchantmen derived from animals.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+results:
+  - _id: jGpznQdoJSlclRJ8
+    _key: "!tables.results!.YacjrTSZ3KUpBCCZ.jGpznQdoJSlclRJ8"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.E8fRKmva9RJ8TA1p
+    name: Names for British Merchantmen from Birds
+  - _id: XX0zvLy8iqFre6s3
+    _key: "!tables.results!.YacjrTSZ3KUpBCCZ.XX0zvLy8iqFre6s3"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.tHqU5dv00Obi5y2o
+    name: Names for British Merchantmen from Mammals
+  - _id: tTpDgmQ08RKkIDXb
+    _key: "!tables.results!.YacjrTSZ3KUpBCCZ.tTpDgmQ08RKkIDXb"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.HKxIOnBndrgu5rYS
+    name: Names for British Merchantmen from Marine Life

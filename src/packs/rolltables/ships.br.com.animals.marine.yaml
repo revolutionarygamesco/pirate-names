@@ -1,0 +1,167 @@
+_id: HKxIOnBndrgu5rYS
+_key: "!tables!.HKxIOnBndrgu5rYS"
+name: Names for British Merchantmen from Marine Life
+description: Appropriate names for British merchantmen derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: Hp520SHdWVVjvSQf
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.Hp520SHdWVVjvSQf"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Dolphin
+  - _id: MDjEKDsZJtOPzvhg
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.MDjEKDsZJtOPzvhg"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Porpoise
+  - _id: 0M4USaWn7iu1NRzc
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.0M4USaWn7iu1NRzc"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Seahorse
+  - _id: dCImzhOKCfMgVC0i
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.dCImzhOKCfMgVC0i"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Squid
+  - _id: 7JdI5o7zCuViPMDC
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.7JdI5o7zCuViPMDC"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Marlin
+  - _id: sPCWP9XiyxoMsQqo
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.sPCWP9XiyxoMsQqo"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Beluga
+  - _id: 2ndEp15ogu5EvS7a
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.2ndEp15ogu5EvS7a"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narwhal
+  - _id: Mo8YOVr1fdKRImxA
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.Mo8YOVr1fdKRImxA"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sailfish
+  - _id: ObYPJdEFZ1BJBi4e
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.ObYPJdEFZ1BJBi4e"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Walrus
+  - _id: 22tXQcm3CCZAOY7P
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.22tXQcm3CCZAOY7P"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sea Bass
+  - _id: CmVYmbPuo4alFg5K
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.CmVYmbPuo4alFg5K"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Flyingfish
+  - _id: lJG0HKdNnNV0I8IW
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.lJG0HKdNnNV0I8IW"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Salmon
+  - _id: Ebc2DfdyVNfGitMB
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.Ebc2DfdyVNfGitMB"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Albacore
+  - _id: 1DpkEOkLUC54MKq2
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.1DpkEOkLUC54MKq2"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Oyster
+  - _id: TWG7B73bFOXhxacP
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.TWG7B73bFOXhxacP"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Angelfish
+  - _id: MIBFHO7b3UKX9Qnp
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.MIBFHO7b3UKX9Qnp"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Conch
+  - _id: nEZuigvgefx8GosW
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.nEZuigvgefx8GosW"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Eel
+  - _id: zZRkgOPPrscylLTr
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.zZRkgOPPrscylLTr"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Grouper
+  - _id: VVZeJzJeqfh3wamZ
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.VVZeJzJeqfh3wamZ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Anemone
+  - _id: foqtzSPuPdKPU4l8
+    _key: "!tables.results!.HKxIOnBndrgu5rYS.foqtzSPuPdKPU4l8"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Starfish

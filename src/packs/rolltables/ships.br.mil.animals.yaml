@@ -1,0 +1,34 @@
+_id: UW8t9bOaXAL98Kcc
+_key: "!tables!.UW8t9bOaXAL98Kcc"
+name: Names for British Men-of-War from Animals
+description: Appropriate names for British men-of-war derived from animals.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+results:
+  - _id: n9N5L8urBeGqqW1O
+    _key: "!tables.results!.UW8t9bOaXAL98Kcc.n9N5L8urBeGqqW1O"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.to0SOEP8tc707uzp
+    name: Names for British Men-of-War from Birds
+  - _id: t84sVbLHzy7GUSZM
+    _key: "!tables.results!.UW8t9bOaXAL98Kcc.t84sVbLHzy7GUSZM"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.OmQ2GyxDwYfIQ3WA
+    name: Names for British Men-of-War from Mammals
+  - _id: FXqsG2s724XUsc0O
+    _key: "!tables.results!.UW8t9bOaXAL98Kcc.FXqsG2s724XUsc0O"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.5LJ91pQbjHPjPTOZ
+    name: Names for British Men-of-War from Marine Life

@@ -1,0 +1,167 @@
+_id: to0SOEP8tc707uzp
+_key: "!tables!.to0SOEP8tc707uzp"
+name: Names for British Men-of-War from Birds
+description: Appropriate names for British men-of-war derived from birds.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: DD1aoRQe6GYpBQy3
+    _key: "!tables.results!.to0SOEP8tc707uzp.DD1aoRQe6GYpBQy3"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Crane
+  - _id: 0KJrtfeETM9uBcaZ
+    _key: "!tables.results!.to0SOEP8tc707uzp.0KJrtfeETM9uBcaZ"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Heron
+  - _id: xL1Rozm11sUdj7hB
+    _key: "!tables.results!.to0SOEP8tc707uzp.xL1Rozm11sUdj7hB"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nightingale
+  - _id: 6v4HOzJqPBJ56z6N
+    _key: "!tables.results!.to0SOEP8tc707uzp.6v4HOzJqPBJ56z6N"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Raven
+  - _id: 7Sj1wtgcI2NDDXx3
+    _key: "!tables.results!.to0SOEP8tc707uzp.7Sj1wtgcI2NDDXx3"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Jackdaw
+  - _id: KSpU9NtjwwtSIIqJ
+    _key: "!tables.results!.to0SOEP8tc707uzp.KSpU9NtjwwtSIIqJ"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Bullfinch
+  - _id: mMyOPO0EWZA0O0IK
+    _key: "!tables.results!.to0SOEP8tc707uzp.mMyOPO0EWZA0O0IK"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Cormorant
+  - _id: ZmuUSttKlw8Ytx7a
+    _key: "!tables.results!.to0SOEP8tc707uzp.ZmuUSttKlw8Ytx7a"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kingfisher
+  - _id: NhxEQMSiKKrxhCUZ
+    _key: "!tables.results!.to0SOEP8tc707uzp.NhxEQMSiKKrxhCUZ"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pelican
+  - _id: mCStX5BmV7YDelGg
+    _key: "!tables.results!.to0SOEP8tc707uzp.mCStX5BmV7YDelGg"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Albatross
+  - _id: tO9Y8F5xax4F3Law
+    _key: "!tables.results!.to0SOEP8tc707uzp.tO9Y8F5xax4F3Law"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Eagle
+  - _id: 8ikJvUvAo3yd9uqk
+    _key: "!tables.results!.to0SOEP8tc707uzp.8ikJvUvAo3yd9uqk"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Falcon
+  - _id: Foi0zKQPLpac312U
+    _key: "!tables.results!.to0SOEP8tc707uzp.Foi0zKQPLpac312U"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Osprey
+  - _id: SRLH2kHjeqY6jQ7X
+    _key: "!tables.results!.to0SOEP8tc707uzp.SRLH2kHjeqY6jQ7X"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Kestrel
+  - _id: Qnrh3W3T1QOOfhUF
+    _key: "!tables.results!.to0SOEP8tc707uzp.Qnrh3W3T1QOOfhUF"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Harrier
+  - _id: 6auoyKqI6FV0gXIr
+    _key: "!tables.results!.to0SOEP8tc707uzp.6auoyKqI6FV0gXIr"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Buzzard
+  - _id: gYPOlMpqvGUYnzcE
+    _key: "!tables.results!.to0SOEP8tc707uzp.gYPOlMpqvGUYnzcE"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Condor
+  - _id: hCXHP7e69ZW5r2Dq
+    _key: "!tables.results!.to0SOEP8tc707uzp.hCXHP7e69ZW5r2Dq"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Vulture
+  - _id: Zi5CZkSIRg9yi4jK
+    _key: "!tables.results!.to0SOEP8tc707uzp.Zi5CZkSIRg9yi4jK"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Owl
+  - _id: Q8LoXUyqYcPo8Bn7
+    _key: "!tables.results!.to0SOEP8tc707uzp.Q8LoXUyqYcPo8Bn7"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Seahawk

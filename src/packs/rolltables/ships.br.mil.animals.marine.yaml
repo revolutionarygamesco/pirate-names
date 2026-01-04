@@ -1,0 +1,167 @@
+_id: 5LJ91pQbjHPjPTOZ
+_key: "!tables!.5LJ91pQbjHPjPTOZ"
+name: Names for British Men-of-War from Marine Life
+description: Appropriate names for British men-of-war derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: fKIN1tPZL0ishuf7
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.fKIN1tPZL0ishuf7"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Dolphin
+  - _id: RBzkKJbyVG7IJBPK
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.RBzkKJbyVG7IJBPK"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Porpoise
+  - _id: j3OUPS07k0YpMGOK
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.j3OUPS07k0YpMGOK"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Seahorse
+  - _id: 7V3C2DIWL2AS5xkx
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.7V3C2DIWL2AS5xkx"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Squid
+  - _id: 8EubpaJITYNcLgiU
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.8EubpaJITYNcLgiU"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Marlin
+  - _id: Ycww9bZriGsTujSN
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.Ycww9bZriGsTujSN"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Beluga
+  - _id: pPW0hD86BoVmlovQ
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.pPW0hD86BoVmlovQ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narwhal
+  - _id: kxFRnUMOW1fbreBe
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.kxFRnUMOW1fbreBe"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sailfish
+  - _id: SbjbcOGQB7e1DoTA
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.SbjbcOGQB7e1DoTA"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Walrus
+  - _id: lAhaWf2C7Sv0HCH7
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.lAhaWf2C7Sv0HCH7"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sea Bass
+  - _id: 2Xfmzz8ydpTBVWw9
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.2Xfmzz8ydpTBVWw9"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Shark
+  - _id: RYlSlw1S0cnkxpYI
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.RYlSlw1S0cnkxpYI"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nautilus
+  - _id: 5Cim7tXwJoGpRuHt
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.5Cim7tXwJoGpRuHt"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Orca
+  - _id: NKUhUgyZCq9uPYJf
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.NKUhUgyZCq9uPYJf"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Barracuda
+  - _id: oOGDZNQvmZ4bGjzi
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.oOGDZNQvmZ4bGjzi"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Crab
+  - _id: KXuyERFVim1VCXdT
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.KXuyERFVim1VCXdT"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Swordfish
+  - _id: 465thcXZq0f4FGKN
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.465thcXZq0f4FGKN"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Stingray
+  - _id: 43E11airlrEXCNUe
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.43E11airlrEXCNUe"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Alligator
+  - _id: B7RrIeeBzPaYiDH6
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.B7RrIeeBzPaYiDH6"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Sea Lion
+  - _id: Ou4NG17NoZ68JmWQ
+    _key: "!tables.results!.5LJ91pQbjHPjPTOZ.Ou4NG17NoZ68JmWQ"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Seal
