@@ -1,0 +1,808 @@
+_id: clnG5w9iWoJiOoja
+_key: "!tables!.clnG5w9iWoJiOoja"
+name: Names for French Ships from Places
+description: Appropriate names for French ships taken from locations or regions.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: DQlYv6FOGEeUyk06
+results:
+  - _id: DVkKChZY6Wp05OvR
+    _key: "!tables.results!.clnG5w9iWoJiOoja.DVkKChZY6Wp05OvR"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Somme
+  - _id: iZGZb8daMdDZNzoo
+    _key: "!tables.results!.clnG5w9iWoJiOoja.iZGZb8daMdDZNzoo"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Fréjus
+  - _id: SNC6h3qIlKza0SEz
+    _key: "!tables.results!.clnG5w9iWoJiOoja.SNC6h3qIlKza0SEz"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Vermandois
+  - _id: QmfOeuQHIvHTd6I2
+    _key: "!tables.results!.clnG5w9iWoJiOoja.QmfOeuQHIvHTd6I2"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Riez
+  - _id: jByujLD5o35NKxnk
+    _key: "!tables.results!.clnG5w9iWoJiOoja.jByujLD5o35NKxnk"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Sisteron
+  - _id: GWdgNIAbImyQ9zy4
+    _key: "!tables.results!.clnG5w9iWoJiOoja.GWdgNIAbImyQ9zy4"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Arles
+  - _id: 4W5NREdmvsbkyRMW
+    _key: "!tables.results!.clnG5w9iWoJiOoja.4W5NREdmvsbkyRMW"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Marseille
+  - _id: IO0A5dHftEkgl3aJ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.IO0A5dHftEkgl3aJ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Toulon
+  - _id: u0bpN00sZB2cxjVF
+    _key: "!tables.results!.clnG5w9iWoJiOoja.u0bpN00sZB2cxjVF"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Avignon
+  - _id: kf8BOz0jTt5Jfbbv
+    _key: "!tables.results!.clnG5w9iWoJiOoja.kf8BOz0jTt5Jfbbv"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Carpentras
+  - _id: EMbXV3Dm5sOJC0VX
+    _key: "!tables.results!.clnG5w9iWoJiOoja.EMbXV3Dm5sOJC0VX"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Cavaillon
+  - _id: VwfLI91Ywj2tyLQi
+    _key: "!tables.results!.clnG5w9iWoJiOoja.VwfLI91Ywj2tyLQi"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Vaison
+  - _id: RTyDcHVt7pXlRze1
+    _key: "!tables.results!.clnG5w9iWoJiOoja.RTyDcHVt7pXlRze1"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Bazas
+  - _id: nSgxPDmrQrTfIzOW
+    _key: "!tables.results!.clnG5w9iWoJiOoja.nSgxPDmrQrTfIzOW"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Bayonne
+  - _id: FbVCKQpAMRwmOx3Y
+    _key: "!tables.results!.clnG5w9iWoJiOoja.FbVCKQpAMRwmOx3Y"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Lectoure
+  - _id: 8YzdoAfxQZDCttyv
+    _key: "!tables.results!.clnG5w9iWoJiOoja.8YzdoAfxQZDCttyv"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Lescar
+  - _id: wdX78fL9znCpBHPv
+    _key: "!tables.results!.clnG5w9iWoJiOoja.wdX78fL9znCpBHPv"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Oloron
+  - _id: j4HLQGgThntZ5DWZ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.j4HLQGgThntZ5DWZ"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Tarbes
+  - _id: iJS2HyuZbO8HLnB5
+    _key: "!tables.results!.clnG5w9iWoJiOoja.iJS2HyuZbO8HLnB5"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Besançon
+  - _id: KHYmoHjcipzdbSie
+    _key: "!tables.results!.clnG5w9iWoJiOoja.KHYmoHjcipzdbSie"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Basel
+  - _id: k1RRRx3e8hEExlV8
+    _key: "!tables.results!.clnG5w9iWoJiOoja.k1RRRx3e8hEExlV8"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Belley
+  - _id: h0MTyvxte3FaX3Zm
+    _key: "!tables.results!.clnG5w9iWoJiOoja.h0MTyvxte3FaX3Zm"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Lausanne
+  - _id: DtyBK6NstjorRthe
+    _key: "!tables.results!.clnG5w9iWoJiOoja.DtyBK6NstjorRthe"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Bordeaux
+  - _id: lmEO0lgDnDbrNnpB
+    _key: "!tables.results!.clnG5w9iWoJiOoja.lmEO0lgDnDbrNnpB"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Agen
+  - _id: oqqhE4WdbqjPHOMv
+    _key: "!tables.results!.clnG5w9iWoJiOoja.oqqhE4WdbqjPHOMv"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Seine
+  - _id: zkJsFWsBbwotqYfH
+    _key: "!tables.results!.clnG5w9iWoJiOoja.zkJsFWsBbwotqYfH"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Angoulême
+  - _id: 7oYLAHkmFTTmE450
+    _key: "!tables.results!.clnG5w9iWoJiOoja.7oYLAHkmFTTmE450"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Périgueux
+  - _id: Nlrstwgw5uBVQ9ix
+    _key: "!tables.results!.clnG5w9iWoJiOoja.Nlrstwgw5uBVQ9ix"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Sarlat
+  - _id: gXNRAxS5ZpwbUVEw
+    _key: "!tables.results!.clnG5w9iWoJiOoja.gXNRAxS5ZpwbUVEw"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Poitiers
+  - _id: h8V0WztcgLMsBCXV
+    _key: "!tables.results!.clnG5w9iWoJiOoja.h8V0WztcgLMsBCXV"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Luçon
+  - _id: aWoC0goX5BVUrbFi
+    _key: "!tables.results!.clnG5w9iWoJiOoja.aWoC0goX5BVUrbFi"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: La Rochelle
+  - _id: 52BSXTzO5fB4O81F
+    _key: "!tables.results!.clnG5w9iWoJiOoja.52BSXTzO5fB4O81F"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Lys
+  - _id: DpUbwJZi5jibnyU8
+    _key: "!tables.results!.clnG5w9iWoJiOoja.DpUbwJZi5jibnyU8"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Bourges
+  - _id: 6lr190OVxGvIBQmQ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.6lr190OVxGvIBQmQ"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Clermont
+  - _id: djX3obKhEXSRRtXd
+    _key: "!tables.results!.clnG5w9iWoJiOoja.djX3obKhEXSRRtXd"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Limoges
+  - _id: NckCr6IUKLdEInud
+    _key: "!tables.results!.clnG5w9iWoJiOoja.NckCr6IUKLdEInud"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Tulle
+  - _id: O73PjElZMy5NFASx
+    _key: "!tables.results!.clnG5w9iWoJiOoja.O73PjElZMy5NFASx"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Le Puy
+  - _id: uVUvWDtLemwe2Zne
+    _key: "!tables.results!.clnG5w9iWoJiOoja.uVUvWDtLemwe2Zne"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Albi
+  - _id: QCV9OT9twS0Go7Lu
+    _key: "!tables.results!.clnG5w9iWoJiOoja.QCV9OT9twS0Go7Lu"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Castres
+  - _id: AqgzwRFapM8DkkMt
+    _key: "!tables.results!.clnG5w9iWoJiOoja.AqgzwRFapM8DkkMt"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Cahors
+  - _id: FYhZdF5QHDx3LL2m
+    _key: "!tables.results!.clnG5w9iWoJiOoja.FYhZdF5QHDx3LL2m"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Mende
+  - _id: wgirMQJr8EG9OVqC
+    _key: "!tables.results!.clnG5w9iWoJiOoja.wgirMQJr8EG9OVqC"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Rodez
+  - _id: 0i7Ax0foE5xe4E8J
+    _key: "!tables.results!.clnG5w9iWoJiOoja.0i7Ax0foE5xe4E8J"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Vabres
+  - _id: vi1DETKSXbRdv4lx
+    _key: "!tables.results!.clnG5w9iWoJiOoja.vi1DETKSXbRdv4lx"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Embrun
+  - _id: K45qYdH2TNYoPeIm
+    _key: "!tables.results!.clnG5w9iWoJiOoja.K45qYdH2TNYoPeIm"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Digne
+  - _id: 1F3iqeaucPTJQiqr
+    _key: "!tables.results!.clnG5w9iWoJiOoja.1F3iqeaucPTJQiqr"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Entrevaux
+  - _id: AtysuCCXgfzSC6LQ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.AtysuCCXgfzSC6LQ"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Grasse
+  - _id: BLq5hxR86tqNMWSl
+    _key: "!tables.results!.clnG5w9iWoJiOoja.BLq5hxR86tqNMWSl"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Nice
+  - _id: mzkWUB5CEv6I1aWc
+    _key: "!tables.results!.clnG5w9iWoJiOoja.mzkWUB5CEv6I1aWc"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Senez
+  - _id: 7CSKns3zKbM3UeiI
+    _key: "!tables.results!.clnG5w9iWoJiOoja.7CSKns3zKbM3UeiI"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Vence
+  - _id: VYcy8faCQ7NEBubX
+    _key: "!tables.results!.clnG5w9iWoJiOoja.VYcy8faCQ7NEBubX"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Lyon
+  - _id: 24sgKfg8n27TLzsa
+    _key: "!tables.results!.clnG5w9iWoJiOoja.24sgKfg8n27TLzsa"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Autun
+  - _id: 005Y8zc4txwaJhON
+    _key: "!tables.results!.clnG5w9iWoJiOoja.005Y8zc4txwaJhON"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Langres
+  - _id: KK4lAgPmTISpEqWC
+    _key: "!tables.results!.clnG5w9iWoJiOoja.KK4lAgPmTISpEqWC"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Dijon
+  - _id: kHkioqucosjuHtFo
+    _key: "!tables.results!.clnG5w9iWoJiOoja.kHkioqucosjuHtFo"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Chalon-sur-Saône
+  - _id: FUGwzAElFxaxAznb
+    _key: "!tables.results!.clnG5w9iWoJiOoja.FUGwzAElFxaxAznb"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Mâcon
+  - _id: fyTJdipymhOLtx9v
+    _key: "!tables.results!.clnG5w9iWoJiOoja.fyTJdipymhOLtx9v"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Narbonne
+  - _id: c2bQyIfE8kZbTYKL
+    _key: "!tables.results!.clnG5w9iWoJiOoja.c2bQyIfE8kZbTYKL"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Alet
+  - _id: JiFVwKgFHjNWDYBL
+    _key: "!tables.results!.clnG5w9iWoJiOoja.JiFVwKgFHjNWDYBL"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Carcassonne
+  - _id: r1L3L7ZGQFP3E3vH
+    _key: "!tables.results!.clnG5w9iWoJiOoja.r1L3L7ZGQFP3E3vH"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Montpellier
+  - _id: OsMf208eT5PZgAf5
+    _key: "!tables.results!.clnG5w9iWoJiOoja.OsMf208eT5PZgAf5"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Perpignan
+  - _id: XbBrWuHLEpYBF1CI
+    _key: "!tables.results!.clnG5w9iWoJiOoja.XbBrWuHLEpYBF1CI"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Agde
+  - _id: U2s6oFctk2aNTBwc
+    _key: "!tables.results!.clnG5w9iWoJiOoja.U2s6oFctk2aNTBwc"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Béziers
+  - _id: DtgyDKFOONs9vJir
+    _key: "!tables.results!.clnG5w9iWoJiOoja.DtgyDKFOONs9vJir"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Lodève
+  - _id: RG3dR1pwC3nUAGsZ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.RG3dR1pwC3nUAGsZ"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Nîmes
+  - _id: bkl5ETZXDsqt1z6a
+    _key: "!tables.results!.clnG5w9iWoJiOoja.bkl5ETZXDsqt1z6a"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Alès
+  - _id: JVAhOd70FAk4xqqo
+    _key: "!tables.results!.clnG5w9iWoJiOoja.JVAhOd70FAk4xqqo"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Uzès
+  - _id: p1sz19FvCQxNlQoQ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.p1sz19FvCQxNlQoQ"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Toulouse
+  - _id: uuUVN54YRTGwj0C3
+    _key: "!tables.results!.clnG5w9iWoJiOoja.uuUVN54YRTGwj0C3"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Lavaur
+  - _id: QRH8cGuLCgZxX0x8
+    _key: "!tables.results!.clnG5w9iWoJiOoja.QRH8cGuLCgZxX0x8"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Lombez
+  - _id: 39eeWWzMkA0C0FCp
+    _key: "!tables.results!.clnG5w9iWoJiOoja.39eeWWzMkA0C0FCp"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Montauban
+  - _id: mccKqqWVLjNSA6qQ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.mccKqqWVLjNSA6qQ"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Pamiers
+  - _id: obzvlB9XDo112iDp
+    _key: "!tables.results!.clnG5w9iWoJiOoja.obzvlB9XDo112iDp"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Mirepoix
+  - _id: 3dGIlMmX9SGeJoX4
+    _key: "!tables.results!.clnG5w9iWoJiOoja.3dGIlMmX9SGeJoX4"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Rieux
+  - _id: YqZbVSPZDHMckpYk
+    _key: "!tables.results!.clnG5w9iWoJiOoja.YqZbVSPZDHMckpYk"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Rouen
+  - _id: TDYwtk4XVCPhDdHP
+    _key: "!tables.results!.clnG5w9iWoJiOoja.TDYwtk4XVCPhDdHP"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Avranches
+  - _id: E7CRCLOZ4eACGoYZ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.E7CRCLOZ4eACGoYZ"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Bayeux
+  - _id: ZaOOxjZgKbNhDdwc
+    _key: "!tables.results!.clnG5w9iWoJiOoja.ZaOOxjZgKbNhDdwc"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Coutances
+  - _id: 6gMQw9VzHAyKySVZ
+    _key: "!tables.results!.clnG5w9iWoJiOoja.6gMQw9VzHAyKySVZ"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Évreux
+  - _id: kLvmTXhGQ4cxH0sz
+    _key: "!tables.results!.clnG5w9iWoJiOoja.kLvmTXhGQ4cxH0sz"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Lisieux
+  - _id: MXxz1okgsz1HTHO8
+    _key: "!tables.results!.clnG5w9iWoJiOoja.MXxz1okgsz1HTHO8"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Loire
+  - _id: g60IjHri2btayYZy
+    _key: "!tables.results!.clnG5w9iWoJiOoja.g60IjHri2btayYZy"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Tours
+  - _id: 6DuVyVYAaLoVexrn
+    _key: "!tables.results!.clnG5w9iWoJiOoja.6DuVyVYAaLoVexrn"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Angers
+  - _id: hNdxHYXyHySsYRDn
+    _key: "!tables.results!.clnG5w9iWoJiOoja.hNdxHYXyHySsYRDn"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Le Mans
+  - _id: PS1rEqzJcUPt4S57
+    _key: "!tables.results!.clnG5w9iWoJiOoja.PS1rEqzJcUPt4S57"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Nantes
+  - _id: jWICZoFthztUFNLX
+    _key: "!tables.results!.clnG5w9iWoJiOoja.jWICZoFthztUFNLX"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Isle-de-France
+  - _id: gYECSIwj8OSatq25
+    _key: "!tables.results!.clnG5w9iWoJiOoja.gYECSIwj8OSatq25"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Auxerre
+  - _id: LxH9e2YgYtynthTt
+    _key: "!tables.results!.clnG5w9iWoJiOoja.LxH9e2YgYtynthTt"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Nevers
+  - _id: wPNoeDoAuuumFup9
+    _key: "!tables.results!.clnG5w9iWoJiOoja.wPNoeDoAuuumFup9"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Troyes
+  - _id: Z40B9C3q3i32jL8l
+    _key: "!tables.results!.clnG5w9iWoJiOoja.Z40B9C3q3i32jL8l"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Paris
+  - _id: KeBksno8b0NCbvJj
+    _key: "!tables.results!.clnG5w9iWoJiOoja.KeBksno8b0NCbvJj"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Chartres
+  - _id: Wdu3NXsdIHxbqMaw
+    _key: "!tables.results!.clnG5w9iWoJiOoja.Wdu3NXsdIHxbqMaw"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Blois
+  - _id: 9n1tJcyVgc8okB9g
+    _key: "!tables.results!.clnG5w9iWoJiOoja.9n1tJcyVgc8okB9g"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Meaux
+  - _id: dNSVedwRjFqzYOsx
+    _key: "!tables.results!.clnG5w9iWoJiOoja.dNSVedwRjFqzYOsx"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Orléans
+  - _id: vR3NaPdbHUORtniY
+    _key: "!tables.results!.clnG5w9iWoJiOoja.vR3NaPdbHUORtniY"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Belle-Île
+  - _id: 0GbCA3h4qSCQehul
+    _key: "!tables.results!.clnG5w9iWoJiOoja.0GbCA3h4qSCQehul"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Malte
+  - _id: F9AhBG2k1jfyO1N7
+    _key: "!tables.results!.clnG5w9iWoJiOoja.F9AhBG2k1jfyO1N7"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Rhodes
+  - _id: WpfN1fEH7dAY67KT
+    _key: "!tables.results!.clnG5w9iWoJiOoja.WpfN1fEH7dAY67KT"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Jérusalem
+  - _id: GRZizIS0rMJMlzvK
+    _key: "!tables.results!.clnG5w9iWoJiOoja.GRZizIS0rMJMlzvK"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Acre
+  - _id: a1YOGk5aYZDlJp9H
+    _key: "!tables.results!.clnG5w9iWoJiOoja.a1YOGk5aYZDlJp9H"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Kolossi
