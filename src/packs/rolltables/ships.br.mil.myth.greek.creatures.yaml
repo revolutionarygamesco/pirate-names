@@ -1,0 +1,168 @@
+_id: 55RitmPKip4386fz
+_key: "!tables!.55RitmPKip4386fz"
+name: Names for British Men-of-War from Greek Mythology (Creatures)
+description: Appropriate names for British men-of-war derived from creatures in Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
+results:
+  - _id: YXsZxoiiIoa8ycsb
+    _key: "!tables.results!.55RitmPKip4386fz.YXsZxoiiIoa8ycsb"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Nereid
+  - _id: mXN0AnyyyRlBOtlb
+    _key: "!tables.results!.55RitmPKip4386fz.mXN0AnyyyRlBOtlb"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Chimera
+  - _id: 3FMsY6KMYm0hzPF3
+    _key: "!tables.results!.55RitmPKip4386fz.3FMsY6KMYm0hzPF3"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Cyclops
+  - _id: BDidwP5ELPZLiiD7
+    _key: "!tables.results!.55RitmPKip4386fz.BDidwP5ELPZLiiD7"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Typhon
+  - _id: HFl6wSTXl3MeBjNS
+    _key: "!tables.results!.55RitmPKip4386fz.HFl6wSTXl3MeBjNS"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Griffon
+  - _id: gBurTuPUxMfVE845
+    _key: "!tables.results!.55RitmPKip4386fz.gBurTuPUxMfVE845"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Centaur
+  - _id: eBGJw6rTe0thd4Ym
+    _key: "!tables.results!.55RitmPKip4386fz.eBGJw6rTe0thd4Ym"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Harpy
+  - _id: XvXMpOxdI3mhaTuJ
+    _key: "!tables.results!.55RitmPKip4386fz.XvXMpOxdI3mhaTuJ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hippocamp
+  - _id: nI6ftbMA0FgO5los
+    _key: "!tables.results!.55RitmPKip4386fz.nI6ftbMA0FgO5los"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pegasus
+  - _id: xQQI7QU1tPFzHkbC
+    _key: "!tables.results!.55RitmPKip4386fz.xQQI7QU1tPFzHkbC"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Siren
+  - _id: gh1bKGwn5pDVWhSJ
+    _key: "!tables.results!.55RitmPKip4386fz.gh1bKGwn5pDVWhSJ"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Minotaur
+  - _id: yrPr3PPdo472DAyv
+    _key: "!tables.results!.55RitmPKip4386fz.yrPr3PPdo472DAyv"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hydra
+  - _id: akMhtlRt7LvUPBSy
+    _key: "!tables.results!.55RitmPKip4386fz.akMhtlRt7LvUPBSy"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Aloadai
+  - _id: eGOWpdd83TQUYOoE
+    _key: "!tables.results!.55RitmPKip4386fz.eGOWpdd83TQUYOoE"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Antaeus
+  - _id: DQIGcjxuQf9BJ4OX
+    _key: "!tables.results!.55RitmPKip4386fz.DQIGcjxuQf9BJ4OX"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Geryon
+  - _id: 8MA2Zc8tHx4h0AC8
+    _key: "!tables.results!.55RitmPKip4386fz.8MA2Zc8tHx4h0AC8"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Gorgon
+  - _id: EuJEx8XwA1oxvGHW
+    _key: "!tables.results!.55RitmPKip4386fz.EuJEx8XwA1oxvGHW"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Medusa
+  - _id: Xa3KyYkWud64mwD8
+    _key: "!tables.results!.55RitmPKip4386fz.Xa3KyYkWud64mwD8"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Porphyrion
+  - _id: gaVFgwoymU038upC
+    _key: "!tables.results!.55RitmPKip4386fz.gaVFgwoymU038upC"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Cerberus
+  - _id: U5CDHzxayzWpqDSg
+    _key: "!tables.results!.55RitmPKip4386fz.U5CDHzxayzWpqDSg"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Cetea

@@ -1,0 +1,35 @@
+_id: 4pBJfaaeZLhvhorT
+_key: "!tables!.4pBJfaaeZLhvhorT"
+name: Names for British Men-of-War from Greek Mythology
+description: Appropriate names for British men-of-war derived from Greek mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: 6VHLcs5xCriMBVXQ
+results:
+  - _id: KzaX7yvVRRPZbfDV
+    _key: "!tables.results!.4pBJfaaeZLhvhorT.KzaX7yvVRRPZbfDV"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.48TwLhiRnt5N5ysO
+    name: Names for British Men-of-War from Greek Mythology (Gods)
+  - _id: g6gED3SNgdsVMXf7
+    _key: "!tables.results!.4pBJfaaeZLhvhorT.g6gED3SNgdsVMXf7"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.dgakvtacpil22CTv
+    name: Names for British Men-of-War from Greek Mythology (Heroes)
+  - _id: g7gMBTJL3o6F39uV
+    _key: "!tables.results!.4pBJfaaeZLhvhorT.g7gMBTJL3o6F39uV"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.55RitmPKip4386fz
+    name: Names for British Men-of-War from Greek Mythology (Creatures)

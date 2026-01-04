@@ -1,0 +1,168 @@
+_id: dgakvtacpil22CTv
+_key: "!tables!.dgakvtacpil22CTv"
+name: Names for British Men-of-War from Greek Mythology (Heroes)
+description: Appropriate names for British men-of-war derived from Greek heroes.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
+results:
+  - _id: 2b35bFB93BBaLbs2
+    _key: "!tables.results!.dgakvtacpil22CTv.2b35bFB93BBaLbs2"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Castor and Pollux
+  - _id: hRold4gXXgXIs5V4
+    _key: "!tables.results!.dgakvtacpil22CTv.hRold4gXXgXIs5V4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Orpheus
+  - _id: VYwtzItHQQWaK6fP
+    _key: "!tables.results!.dgakvtacpil22CTv.VYwtzItHQQWaK6fP"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Eurydice
+  - _id: iEeD08WZTdZq0h4T
+    _key: "!tables.results!.dgakvtacpil22CTv.iEeD08WZTdZq0h4T"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Chiron
+  - _id: 7cn8yWRdSNYXx89g
+    _key: "!tables.results!.dgakvtacpil22CTv.7cn8yWRdSNYXx89g"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Atreus
+  - _id: 1HKCaXPlqXCelA3n
+    _key: "!tables.results!.dgakvtacpil22CTv.1HKCaXPlqXCelA3n"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Atalanta
+  - _id: 2PIBWJZnHAnEcblZ
+    _key: "!tables.results!.dgakvtacpil22CTv.2PIBWJZnHAnEcblZ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ganymede
+  - _id: dUzbZ5hx5GK0fNnF
+    _key: "!tables.results!.dgakvtacpil22CTv.dUzbZ5hx5GK0fNnF"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Jason
+  - _id: q23aIp9G7GfsfA85
+    _key: "!tables.results!.dgakvtacpil22CTv.q23aIp9G7GfsfA85"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Meleager
+  - _id: Yoj2vsietm3ULtcT
+    _key: "!tables.results!.dgakvtacpil22CTv.Yoj2vsietm3ULtcT"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Odysseus
+  - _id: 9sgOj8YRfJsPNTCh
+    _key: "!tables.results!.dgakvtacpil22CTv.9sgOj8YRfJsPNTCh"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Achilles
+  - _id: BsJEAMYbDNkl4lpe
+    _key: "!tables.results!.dgakvtacpil22CTv.BsJEAMYbDNkl4lpe"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Heracles
+  - _id: sDCALzwH7dQ44fQF
+    _key: "!tables.results!.dgakvtacpil22CTv.sDCALzwH7dQ44fQF"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Cadmus
+  - _id: wKJcBysVP29t5Bs4
+    _key: "!tables.results!.dgakvtacpil22CTv.wKJcBysVP29t5Bs4"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Bellerophon
+  - _id: pQNmHP6C508eB4FE
+    _key: "!tables.results!.dgakvtacpil22CTv.pQNmHP6C508eB4FE"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Perseus
+  - _id: lp7sdBKTNkcxJGk5
+    _key: "!tables.results!.dgakvtacpil22CTv.lp7sdBKTNkcxJGk5"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Theseus
+  - _id: 52HqKQXd7UmHDPIf
+    _key: "!tables.results!.dgakvtacpil22CTv.52HqKQXd7UmHDPIf"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Actaeon
+  - _id: jwQBdtNvsxLMj5Oc
+    _key: "!tables.results!.dgakvtacpil22CTv.jwQBdtNvsxLMj5Oc"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Agamemnon
+  - _id: EQbPwKgdVGg5SJHx
+    _key: "!tables.results!.dgakvtacpil22CTv.EQbPwKgdVGg5SJHx"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Ajax
+  - _id: uxCxBlgiVjJKk4Yy
+    _key: "!tables.results!.dgakvtacpil22CTv.uxCxBlgiVjJKk4Yy"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Hector

@@ -1,0 +1,168 @@
+_id: 48TwLhiRnt5N5ysO
+_key: "!tables!.48TwLhiRnt5N5ysO"
+name: Names for British Men-of-War from Greek Mythology (Gods)
+description: Appropriate names for British men-of-war derived from Greek gods.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 6VHLcs5xCriMBVXQ
+results:
+  - _id: DTXAinTkTAGzfM52
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.DTXAinTkTAGzfM52"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Zeus
+  - _id: DeOaBP1kcE2fzDJ1
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.DeOaBP1kcE2fzDJ1"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Hera
+  - _id: PT1Zhe0xLJ4nB1xr
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.PT1Zhe0xLJ4nB1xr"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Poseidon
+  - _id: sDWTN0sRTKpF6Cgb
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.sDWTN0sRTKpF6Cgb"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Apollo
+  - _id: iODfxY2N00S4QQtE
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.iODfxY2N00S4QQtE"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Persephone
+  - _id: zD6mvdi9PnyN8ACa
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.zD6mvdi9PnyN8ACa"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Oceanus
+  - _id: 9NeWi6dy0B6X3Z3l
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.9NeWi6dy0B6X3Z3l"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Nereus
+  - _id: Qa9sYSoSmhXenJqq
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.Qa9sYSoSmhXenJqq"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Pontus
+  - _id: 7A2oud40Isvj9Vvt
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.7A2oud40Isvj9Vvt"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Thalassa
+  - _id: 3LDDkNBpFazaJWdP
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.3LDDkNBpFazaJWdP"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Tethys
+  - _id: bx4UMW3BMS9R6GmB
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.bx4UMW3BMS9R6GmB"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Artemis
+  - _id: kfeIr85cYoGTjpgA
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.kfeIr85cYoGTjpgA"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Ares
+  - _id: ZkzKFszoSyxIXKvt
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.ZkzKFszoSyxIXKvt"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Athena
+  - _id: 7GmemOafYExWLho6
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.7GmemOafYExWLho6"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Nemesis
+  - _id: CC8lxa4qnxfzl5Zl
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.CC8lxa4qnxfzl5Zl"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Helios
+  - _id: ivoZiV5gUtWoe4w4
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.ivoZiV5gUtWoe4w4"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Triton
+  - _id: xLrD939IjJ1gj6Jb
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.xLrD939IjJ1gj6Jb"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Kratos
+  - _id: h3BZdrrL86TlYX7E
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.h3BZdrrL86TlYX7E"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Nike
+  - _id: SLAPzfupdnLlAsk5
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.SLAPzfupdnLlAsk5"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Alke
+  - _id: mqOsE5NkkbwdDmbj
+    _key: "!tables.results!.48TwLhiRnt5N5ysO.mqOsE5NkkbwdDmbj"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Pallas
