@@ -1,21 +1,20 @@
-d20 Aspirational French Naval Ship Names
-Adroit
-Ardente
-Brave
-Courageux
-Flambeau
-Fougueux
-Galante
-Glorieux
-Hardi
-Héros
-Intrépide
-Juste
-Justice
-Opiniâtre
-Puissant
-Renomée
-Superbe
-Triomphe
-Valeur
-Victorieux
+  - description: Adroit
+  - description: Ardente
+  - description: Brave
+  - description: Courageux
+  - description: Flambeau
+  - description: Fougueux
+  - description: Galante
+  - description: Glorieux
+  - description: Hardi
+  - description: Héros
+  - description: Intrépide
+  - description: Juste
+  - description: Justice
+  - description: Opiniâtre
+  - description: Puissant
+  - description: Renomée
+  - description: Superbe
+  - description: Triomphe
+  - description: Valeur
+  - description: Victorieux

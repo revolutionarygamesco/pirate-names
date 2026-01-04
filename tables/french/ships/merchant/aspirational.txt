@@ -1,21 +1,20 @@
-d20 Aspirational French Merchant Ship Names
-Admirable
-Adroit
-Ardente
-Bon
-Brillant
-Capable
-Content
-Éclatant
-Espérance
-Excellent
-Fougueux
-Grand
-Magnanime
-Magnifique
-Merveilleux
-Profond
-Puissant
-Redoubtable
-Renomée
-Superbe
+  - description: Admirable
+  - description: Adroit
+  - description: Ardente
+  - description: Bon
+  - description: Brillant
+  - description: Capable
+  - description: Content
+  - description: Éclatant
+  - description: Espérance
+  - description: Excellent
+  - description: Fougueux
+  - description: Grand
+  - description: Magnanime
+  - description: Magnifique
+  - description: Merveilleux
+  - description: Profond
+  - description: Puissant
+  - description: Redoubtable
+  - description: Renomée
+  - description: Superbe
