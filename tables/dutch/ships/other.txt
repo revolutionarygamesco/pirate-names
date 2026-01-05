@@ -1,13 +1,12 @@
-d12 Miscellaneous Dutch Ship Names
-Bierkan
-Bijl
-Dageraad
-Diamant
-Handboog
-Meiboom
-Nijptang
-Pijlswaart
-Regenboog
-Rommelpot
-Vuur
-Noordenwind
+  - description: Bierkan
+  - description: Bijl
+  - description: Dageraad
+  - description: Diamant
+  - description: Handboog
+  - description: Meiboom
+  - description: Nijptang
+  - description: Pijlswaart
+  - description: Regenboog
+  - description: Rommelpot
+  - description: Vuur
+  - description: Noordenwind
