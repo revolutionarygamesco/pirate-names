@@ -1,0 +1,168 @@
+_id: XLh5bAn5fOsylewe
+_key: "!tables!.XLh5bAn5fOsylewe"
+name: Names for Dutch Men-of-War from Mammals
+description: Appropriate names for Dutch men-of-war derived from mammals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: eEmFBXUAaDWQvGyX
+    _key: "!tables.results!.XLh5bAn5fOsylewe.eEmFBXUAaDWQvGyX"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Vos
+  - _id: IaNEE76JgDtdJlGr
+    _key: "!tables.results!.XLh5bAn5fOsylewe.IaNEE76JgDtdJlGr"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Windhond
+  - _id: DRTHyMewotrqnlOK
+    _key: "!tables.results!.XLh5bAn5fOsylewe.DRTHyMewotrqnlOK"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Lynx
+  - _id: AZWp4h7ZV9cyDw0V
+    _key: "!tables.results!.XLh5bAn5fOsylewe.AZWp4h7ZV9cyDw0V"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Hert
+  - _id: 7fTOz8nM3KStddCN
+    _key: "!tables.results!.XLh5bAn5fOsylewe.7fTOz8nM3KStddCN"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Hinde
+  - _id: tMYOIdMNeM2KLgSv
+    _key: "!tables.results!.XLh5bAn5fOsylewe.tMYOIdMNeM2KLgSv"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Hengst
+  - _id: THSE6dE2kmtZiw96
+    _key: "!tables.results!.XLh5bAn5fOsylewe.THSE6dE2kmtZiw96"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Merrie
+  - _id: XlFiqVmByNBoJIcK
+    _key: "!tables.results!.XLh5bAn5fOsylewe.XlFiqVmByNBoJIcK"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Hond
+  - _id: XlC417IMfwmkG4nW
+    _key: "!tables.results!.XLh5bAn5fOsylewe.XlC417IMfwmkG4nW"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Stier
+  - _id: LEbTB1nebAp95RDL
+    _key: "!tables.results!.XLh5bAn5fOsylewe.LEbTB1nebAp95RDL"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Egel
+  - _id: polBrA7imsVieLvc
+    _key: "!tables.results!.XLh5bAn5fOsylewe.polBrA7imsVieLvc"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Beer
+  - _id: 5YrO2JeSXc4mpYy9
+    _key: "!tables.results!.XLh5bAn5fOsylewe.5YrO2JeSXc4mpYy9"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Everzwijn
+  - _id: oiELRrlWyra0AKPg
+    _key: "!tables.results!.XLh5bAn5fOsylewe.oiELRrlWyra0AKPg"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Luipaard
+  - _id: ZRQp9YyR9cBprJxb
+    _key: "!tables.results!.XLh5bAn5fOsylewe.ZRQp9YyR9cBprJxb"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Leeuw
+  - _id: kwyaWLQt6We0h4fF
+    _key: "!tables.results!.XLh5bAn5fOsylewe.kwyaWLQt6We0h4fF"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Panter
+  - _id: k3JF8n29Fab3jxHQ
+    _key: "!tables.results!.XLh5bAn5fOsylewe.k3JF8n29Fab3jxHQ"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Tijger
+  - _id: ruAxltesVfYiSGRG
+    _key: "!tables.results!.XLh5bAn5fOsylewe.ruAxltesVfYiSGRG"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Wolf
+  - _id: 5fIXB6LtNxJxIIB6
+    _key: "!tables.results!.XLh5bAn5fOsylewe.5fIXB6LtNxJxIIB6"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ocelot
+  - _id: 4AD59RWIfvDrV29R
+    _key: "!tables.results!.XLh5bAn5fOsylewe.4AD59RWIfvDrV29R"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Jakhals
+  - _id: 1gkSFZAQ2CO63X6O
+    _key: "!tables.results!.XLh5bAn5fOsylewe.1gkSFZAQ2CO63X6O"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Bullenbeisser

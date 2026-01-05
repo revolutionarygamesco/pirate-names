@@ -1,0 +1,168 @@
+_id: JnF4Bbxq3FVG0Uym
+_key: "!tables!.JnF4Bbxq3FVG0Uym"
+name: Names for Dutch Men-of-War from Birds
+description: Appropriate names for Dutch men-of-war derived from birds.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: bKd6wQEuUzCDkV5O
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.bKd6wQEuUzCDkV5O"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kraanvogel
+  - _id: Y6oImu2UZFX8DGUd
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.Y6oImu2UZFX8DGUd"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Reiger
+  - _id: bIxvhzu8OPMgNEGT
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.bIxvhzu8OPMgNEGT"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nachtegaal
+  - _id: E1RZO8sp1rsdyXp2
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.E1RZO8sp1rsdyXp2"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Raaf
+  - _id: Kcu6fDoOnnn3nxgt
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.Kcu6fDoOnnn3nxgt"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Kauw
+  - _id: I0i6MRmoBSQZ0ZFc
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.I0i6MRmoBSQZ0ZFc"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Goudvink
+  - _id: B4mH6IBT7k7Z9ABP
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.B4mH6IBT7k7Z9ABP"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Aalscholver
+  - _id: 5PY7mXoSyJZKqFbC
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.5PY7mXoSyJZKqFbC"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ijsvogel
+  - _id: MdbtCw80HJQ7rTw2
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.MdbtCw80HJQ7rTw2"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Pelikaan
+  - _id: vKYHMDHY5kfiiy95
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.vKYHMDHY5kfiiy95"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Albatros
+  - _id: rSlogZPypjAiQU0f
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.rSlogZPypjAiQU0f"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Arend
+  - _id: Sw61u7oeqPaJLaAU
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.Sw61u7oeqPaJLaAU"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Valk
+  - _id: PQqZARnZj9SDBiXA
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.PQqZARnZj9SDBiXA"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Visarend
+  - _id: ACFl8tGVUIeaQf5Z
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.ACFl8tGVUIeaQf5Z"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Torenvalk
+  - _id: UQRw3muhqzzy8iCn
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.UQRw3muhqzzy8iCn"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Kiekendief
+  - _id: 4BMrbcCHW6XQrsbu
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.4BMrbcCHW6XQrsbu"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Buizerd
+  - _id: V1itkB6KnSZNFTNH
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.V1itkB6KnSZNFTNH"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Condor
+  - _id: jWONKK85zinoMZG2
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.jWONKK85zinoMZG2"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Gier
+  - _id: PtobkbeN8VZGSnhL
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.PtobkbeN8VZGSnhL"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Uil
+  - _id: wYa9lMpsO68aajs3
+    _key: "!tables.results!.JnF4Bbxq3FVG0Uym.wYa9lMpsO68aajs3"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Zeearend

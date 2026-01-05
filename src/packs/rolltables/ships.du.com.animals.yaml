@@ -1,0 +1,35 @@
+_id: IrSWs6B57vYGE7nB
+_key: "!tables!.IrSWs6B57vYGE7nB"
+name: Names for Dutch Merchantmen from Animals
+description: Appropriate names for Dutch merchantmen derived from animals.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: rp4TaTTcCXGAdmSQ
+    _key: "!tables.results!.IrSWs6B57vYGE7nB.rp4TaTTcCXGAdmSQ"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.kmArvR0AZgDKDUGW
+    name: Names for Dutch Merchantmen from Birds
+  - _id: QjEwIV5zo5tD2r6M
+    _key: "!tables.results!.IrSWs6B57vYGE7nB.QjEwIV5zo5tD2r6M"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.7nNLVYzmJYUZyQjs
+    name: Names for Dutch Merchantmen from Mammals
+  - _id: JWDQOHsNBn4Xo1CW
+    _key: "!tables.results!.IrSWs6B57vYGE7nB.JWDQOHsNBn4Xo1CW"
+    range:
+      - 9
+      - 12
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ADACM1uiivZ5Ldk9
+    name: Names for Dutch Merchantmen from Marine Life

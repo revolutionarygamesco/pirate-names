@@ -1,0 +1,168 @@
+_id: ADACM1uiivZ5Ldk9
+_key: "!tables!.ADACM1uiivZ5Ldk9"
+name: Names for Dutch Merchantmen from Marine Life
+description: Appropriate names for Dutch Merchantmen derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: UkGT1V6tPJYwECog
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.UkGT1V6tPJYwECog"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Dolfijn
+  - _id: trOFbMgSZ8ShAoFj
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.trOFbMgSZ8ShAoFj"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Bruinvis
+  - _id: xYAg4ZseM7wplB2v
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.xYAg4ZseM7wplB2v"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Zeepaardje
+  - _id: Gi40WWeoIzYsCffb
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.Gi40WWeoIzYsCffb"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Inktvis
+  - _id: CGKJYZo7OBnsbYYm
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.CGKJYZo7OBnsbYYm"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Marlijn
+  - _id: zodiPpcfIgYM4U4O
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.zodiPpcfIgYM4U4O"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Witte Walvis
+  - _id: UuJpwLxdBPht7NoX
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.UuJpwLxdBPht7NoX"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narwal
+  - _id: cjnrGR5SBk5TTE5d
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.cjnrGR5SBk5TTE5d"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Zeilvis
+  - _id: oEo8mSEcNSeoflt1
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.oEo8mSEcNSeoflt1"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Walrus
+  - _id: cf09TlJtdQB31sHW
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.cf09TlJtdQB31sHW"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Zeebaars
+  - _id: 2zjcunuNLkFNC7aY
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.2zjcunuNLkFNC7aY"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Vliegende Vis
+  - _id: btVNRns8ouE3OOin
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.btVNRns8ouE3OOin"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Zalm
+  - _id: INCqLptyLKB84YsQ
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.INCqLptyLKB84YsQ"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Albacore
+  - _id: 8fW5AQGVJKpjF7An
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.8fW5AQGVJKpjF7An"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Oester
+  - _id: yfTtKHGdw1M5TFTe
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.yfTtKHGdw1M5TFTe"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Engelvis
+  - _id: 1RsC1tUijt7TEmVC
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.1RsC1tUijt7TEmVC"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Schelp
+  - _id: H4jjZHVo9qdEEVeg
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.H4jjZHVo9qdEEVeg"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Aal
+  - _id: 2V0dgGrAhDNbbMMt
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.2V0dgGrAhDNbbMMt"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Tandbaars
+  - _id: L2DNirtPva7v694S
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.L2DNirtPva7v694S"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Anemoon
+  - _id: KkWxEFg7ipG46gM8
+    _key: "!tables.results!.ADACM1uiivZ5Ldk9.KkWxEFg7ipG46gM8"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Zeester

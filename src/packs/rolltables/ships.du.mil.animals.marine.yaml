@@ -1,0 +1,168 @@
+_id: nN06yuzEC8wI1FXS
+_key: "!tables!.nN06yuzEC8wI1FXS"
+name: Names for Dutch Men-of-War from Marine Life
+description: Appropriate names for Dutch men-of-war derived from marine animals.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: lviwl9bqDuBber7r
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.lviwl9bqDuBber7r"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Dolfijn
+  - _id: 00t02RD0tjVpWx6Z
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.00t02RD0tjVpWx6Z"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Bruinvis
+  - _id: qwxUU3wVwR71ptRu
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.qwxUU3wVwR71ptRu"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Zeepaardje
+  - _id: vsMChjexrh1cm5LB
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.vsMChjexrh1cm5LB"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Inktvis
+  - _id: yyASERLzngfzcteC
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.yyASERLzngfzcteC"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Marlijn
+  - _id: K4tgyyFuSKZIwgcc
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.K4tgyyFuSKZIwgcc"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Witte Walvis
+  - _id: H46340LisyNghn5k
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.H46340LisyNghn5k"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Narwal
+  - _id: vKBnAnZfqcDzWbwH
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.vKBnAnZfqcDzWbwH"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Zeilvis
+  - _id: tLjoDKRVTJYOWMCB
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.tLjoDKRVTJYOWMCB"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Walrus
+  - _id: MlOy1EJaKb5u4Fuk
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.MlOy1EJaKb5u4Fuk"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Zeebaars
+  - _id: DJL1SJX50bbpTcKj
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.DJL1SJX50bbpTcKj"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Haai
+  - _id: DL6FrkfOx1oO7LB0
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.DL6FrkfOx1oO7LB0"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nautilus
+  - _id: dCd7ZwqMxAJG9hlX
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.dCd7ZwqMxAJG9hlX"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Orka
+  - _id: msQGPZCyTv18W8Rm
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.msQGPZCyTv18W8Rm"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Barracuda
+  - _id: 2v3x79zsgI5PFtt7
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.2v3x79zsgI5PFtt7"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Krab
+  - _id: g8tEa9uqjhJrbhsR
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.g8tEa9uqjhJrbhsR"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Zwaardvis
+  - _id: xrLLsEs0QQDLPuBb
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.xrLLsEs0QQDLPuBb"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Pijlstaartrog
+  - _id: HTEXCbM63uoGluMc
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.HTEXCbM63uoGluMc"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Alligator
+  - _id: weNXjX3Q8qXEQvC1
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.weNXjX3Q8qXEQvC1"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Zeeleeuw
+  - _id: JGMLXqbZWyVFsPY2
+    _key: "!tables.results!.nN06yuzEC8wI1FXS.JGMLXqbZWyVFsPY2"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Zegel
