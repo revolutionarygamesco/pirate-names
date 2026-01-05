@@ -1,11 +1,10 @@
-d10 Dutch Ship Names from Activities
-Aventurier
-Beschermer
-Experiment
-Kruiser
-Lacher
-Negotie
-Snauw
-Snuffelaar
-Zeevaart
-Zijdeteelt
+  - description: Aventurier
+  - description: Beschermer
+  - description: Experiment
+  - description: Kruiser
+  - description: Lacher
+  - description: Negotie
+  - description: Snauw
+  - description: Snuffelaar
+  - description: Zeevaart
+  - description: Zijdeteelt
