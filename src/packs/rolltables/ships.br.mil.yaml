@@ -15,20 +15,29 @@ results:
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3FurO9qJF79bb11f
     name: English Feminine Names
+  - _id: 8l7xXGQHC1u6tg4D
+    _key: "!tables.results!dFEX3BCDJboj1FDj.8l7xXGQHC1u6tg4D"
+    range:
+      - 6
+      - 8
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2rhDoCqCuwAmKABv
+    name: English Masculine Names
   - _id: C7khk5HYYUQoBhuz
     _key: "!tables.results!dFEX3BCDJboj1FDj.C7khk5HYYUQoBhuz"
     range:
-      - 6
-      - 10
-    weight: 5
+      - 9
+      - 11
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xlzyioPfs5DgBxk8
     name: Names for British Ships from Places
   - _id: jaLrpDn9AaKqxWfe
     _key: "!tables.results!dFEX3BCDJboj1FDj.jaLrpDn9AaKqxWfe"
     range:
-      - 11
       - 12
+      - 13
     weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.byP0Xa7TSpQoecu3
@@ -36,9 +45,9 @@ results:
   - _id: IZxVzmKUPvV9PBkE
     _key: "!tables.results!dFEX3BCDJboj1FDj.IZxVzmKUPvV9PBkE"
     range:
-      - 13
+      - 14
       - 16
-    weight: 4
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.rszItzSl7cwBMjme
     name: Names for British Men-of-War from Mythology

@@ -10,35 +10,44 @@ results:
     _key: "!tables.results!1sTaZb3ssDQrBoDp.zobXQellca8d5OXi"
     range:
       - 1
-      - 4
-    weight: 4
+      - 5
+    weight: 5
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.WPdAj2c6hKX2a4v3
     name: French Feminine Names
+  - _id: WC3Gqvi5JpujWMan
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.WC3Gqvi5JpujWMan"
+    range:
+      - 6
+      - 7
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ZI93VXQaPHxeW5c7
+    name: French Masculine Names
   - _id: 21KUiDlhZMOKlI8a
     _key: "!tables.results!1sTaZb3ssDQrBoDp.21KUiDlhZMOKlI8a"
     range:
-      - 5
       - 8
-    weight: 4
+      - 10
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.clnG5w9iWoJiOoja
     name: Names for French Ships from Places
-  - _id: ary06MwGtxVaDMur
-    _key: "!tables.results!1sTaZb3ssDQrBoDp.ary06MwGtxVaDMur"
+  - _id: lpTbmF0cBXVFcf5B
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.lpTbmF0cBXVFcf5B"
     range:
-      - 9
-      - 10
+      - 11
+      - 12
     weight: 2
     type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.niIVQhH7NczGO3Nr
-    name: Names for French Ships from Aristocracy
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mR7QVIGuiOKnVqtJ
+    name: Names for French Ships from Astronomy
   - _id: moSKoXXvdEHV0ZNM
     _key: "!tables.results!1sTaZb3ssDQrBoDp.moSKoXXvdEHV0ZNM"
     range:
-      - 11
+      - 13
       - 14
-    weight: 4
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xF9B6kRCDIqB9G4n
     name: Names for French Merchantmen from Mythology
@@ -51,24 +60,24 @@ results:
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.lG76HDiwzD3CfLC4
     name: Names for French Merchantmen from Animals
-  - _id: lpTbmF0cBXVFcf5B
-    _key: "!tables.results!1sTaZb3ssDQrBoDp.lpTbmF0cBXVFcf5B"
-    range:
-      - 17
-      - 18
-    weight: 2
-    type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mR7QVIGuiOKnVqtJ
-    name: Names for French Ships from Astronomy
   - _id: GcIX9l1dxTKDTvft
     _key: "!tables.results!1sTaZb3ssDQrBoDp.GcIX9l1dxTKDTvft"
     range:
-      - 19
-      - 19
+      - 17
+      - 17
     weight: 1
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.NfRsdgoM1K5emTHo
     name: Aspirational Names for French Merchantmen
+  - _id: ary06MwGtxVaDMur
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.ary06MwGtxVaDMur"
+    range:
+      - 18
+      - 19
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.niIVQhH7NczGO3Nr
+    name: Names for French Ships from Aristocracy
   - _id: yhXYP4in3m5dcdFT
     _key: "!tables.results!1sTaZb3ssDQrBoDp.yhXYP4in3m5dcdFT"
     range:

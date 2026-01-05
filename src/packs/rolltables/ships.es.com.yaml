@@ -15,30 +15,39 @@ results:
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.7RbOJKmELYZF6aX7
     name: Spanish Feminine Names
+  - _id: hFlnqPXO1kunglxw
+    _key: "!tables.results!8ZfbVJJv0HQRHcZX.hFlnqPXO1kunglxw"
+    range:
+      - 6
+      - 7
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2nlXu7X2BWOsp7oi
+    name: Spanish Masculine Names
   - _id: ulDYp24qsvX15iAv
     _key: "!tables.results!8ZfbVJJv0HQRHcZX.ulDYp24qsvX15iAv"
     range:
-      - 6
+      - 8
       - 10
-    weight: 5
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pWXaOZJPUIW9MTRD
     name: Names for Spanish Ships from Places
-  - _id: ygLlIbdfxIIgxRAF
-    _key: "!tables.results!8ZfbVJJv0HQRHcZX.ygLlIbdfxIIgxRAF"
+  - _id: bJMzaMwusxvpczoQ
+    _key: "!tables.results!8ZfbVJJv0HQRHcZX.bJMzaMwusxvpczoQ"
     range:
       - 11
-      - 11
-    weight: 1
+      - 12
+    weight: 2
     type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.MFbDFJbPecTwyVwA
-    name: Names for Spanish Ships from Aristocracy
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TtMq9nJDa1Wf70ls
+    name: Names for Spanish Ships from Astronomy
   - _id: 7uZLnoMRuJhyXE0r
     _key: "!tables.results!8ZfbVJJv0HQRHcZX.7uZLnoMRuJhyXE0r"
     range:
-      - 12
+      - 13
       - 14
-    weight: 3
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pgiFHxkHriHhh5QU
     name: Names for Spanish Merchantmen from Mythology
@@ -51,24 +60,24 @@ results:
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.J2Jb0Sv0v2eIxAiR
     name: Names for Spanish Merchantmen from Animals
-  - _id: bJMzaMwusxvpczoQ
-    _key: "!tables.results!8ZfbVJJv0HQRHcZX.bJMzaMwusxvpczoQ"
-    range:
-      - 17
-      - 18
-    weight: 2
-    type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TtMq9nJDa1Wf70ls
-    name: Names for Spanish Ships from Astronomy
   - _id: gUgHKHcBP0hGvRwP
     _key: "!tables.results!8ZfbVJJv0HQRHcZX.gUgHKHcBP0hGvRwP"
     range:
-      - 19
-      - 19
+      - 17
+      - 17
     weight: 1
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.6lX52hlEFCNcc9Mb
     name: Aspirational Names for Spanish Merchantmen
+  - _id: ygLlIbdfxIIgxRAF
+    _key: "!tables.results!8ZfbVJJv0HQRHcZX.ygLlIbdfxIIgxRAF"
+    range:
+      - 18
+      - 19
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.MFbDFJbPecTwyVwA
+    name: Names for Spanish Ships from Aristocracy
   - _id: ZTkvV8sGOrKpD8H7
     _key: "!tables.results!8ZfbVJJv0HQRHcZX.ZTkvV8sGOrKpD8H7"
     range:

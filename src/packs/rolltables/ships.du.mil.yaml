@@ -10,56 +10,56 @@ results:
     _key: "!tables.results!3PDJNlg6fXA0KK06.rAOxkjK5tzzAwqUg"
     range:
       - 1
-      - 4
-    weight: 4
+      - 5
+    weight: 5
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.71DRh4LK1omoYTNV
     name: Dutch Feminine Names
   - _id: XIJ81sBcU7EVm3v0
     _key: "!tables.results!3PDJNlg6fXA0KK06.XIJ81sBcU7EVm3v0"
     range:
-      - 5
       - 6
-    weight: 2
+      - 8
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2uRlTQ7a2dthSDJ1
     name: Dutch Masculine Names
   - _id: zSdydSS3qZDaLFUu
     _key: "!tables.results!3PDJNlg6fXA0KK06.zSdydSS3qZDaLFUu"
     range:
-      - 7
-      - 10
-    weight: 4
+      - 9
+      - 11
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.WW2BhJyREzjc8OK5
     name: Names for Dutch Ships from Places
+  - _id: vM4vAyQJEnl7iwM8
+    _key: "!tables.results!3PDJNlg6fXA0KK06.vM4vAyQJEnl7iwM8"
+    range:
+      - 12
+      - 13
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.1As4fIMwgnEZwFFP
+    name: Names for Dutch Ships from Astronomy
   - _id: xWu6Jdl37jw8iuwQ
     _key: "!tables.results!3PDJNlg6fXA0KK06.xWu6Jdl37jw8iuwQ"
     range:
-      - 11
       - 14
-    weight: 4
+      - 15
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.XY0y9gYN9iio1dbs
     name: Names for Dutch Men-of-War from Mythology
   - _id: J0LzGPHt8ZavBJ58
     _key: "!tables.results!3PDJNlg6fXA0KK06.J0LzGPHt8ZavBJ58"
     range:
-      - 15
       - 16
+      - 17
     weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.SCIn8zwL14D9oJjL
     name: Names for Dutch Men-of-War from Animals
-  - _id: vM4vAyQJEnl7iwM8
-    _key: "!tables.results!3PDJNlg6fXA0KK06.vM4vAyQJEnl7iwM8"
-    range:
-      - 17
-      - 17
-    weight: 1
-    type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.1As4fIMwgnEZwFFP
-    name: Names for Dutch Ships from Astronomy
   - _id: I61lajAYvFCI4aMl
     _key: "!tables.results!3PDJNlg6fXA0KK06.I61lajAYvFCI4aMl"
     range:

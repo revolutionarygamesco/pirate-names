@@ -15,60 +15,69 @@ results:
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.7RbOJKmELYZF6aX7
     name: Spanish Feminine Names
+  - _id: lhgaN864gCQtIuO3
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.lhgaN864gCQtIuO3"
+    range:
+      - 5
+      - 6
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2nlXu7X2BWOsp7oi
+    name: Spanish Masculine Names
   - _id: huh9jdtw9oLBztaf
     _key: "!tables.results!TXi8XiIIjwVG3pXS.huh9jdtw9oLBztaf"
     range:
-      - 5
-      - 8
-    weight: 4
+      - 7
+      - 9
+    weight: 3
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pWXaOZJPUIW9MTRD
     name: Names for Spanish Ships from Places
-  - _id: D3vlTigw8BFeeVER
-    _key: "!tables.results!TXi8XiIIjwVG3pXS.D3vlTigw8BFeeVER"
+  - _id: AhKcSpcTbGSBBtQ1
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.AhKcSpcTbGSBBtQ1"
     range:
-      - 9
+      - 10
       - 11
-    weight: 3
+    weight: 2
     type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.MFbDFJbPecTwyVwA
-    name: Names for Spanish Ships from Aristocracy
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TtMq9nJDa1Wf70ls
+    name: Names for Spanish Ships from Astronomy
   - _id: AqMIJoJqfKncL07y
     _key: "!tables.results!TXi8XiIIjwVG3pXS.AqMIJoJqfKncL07y"
     range:
       - 12
-      - 14
-    weight: 3
+      - 13
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.PJZnSr8Tdw0cZzo4
     name: Names for Spanish Men-of-War from Mythology
   - _id: KwFQ2vIhPZiC1SnW
     _key: "!tables.results!TXi8XiIIjwVG3pXS.KwFQ2vIhPZiC1SnW"
     range:
+      - 14
       - 15
-      - 16
     weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xo35LqA9WRuZG4xL
     name: Names for Spanish Men-of-War from Animals
-  - _id: AhKcSpcTbGSBBtQ1
-    _key: "!tables.results!TXi8XiIIjwVG3pXS.AhKcSpcTbGSBBtQ1"
-    range:
-      - 17
-      - 18
-    weight: 2
-    type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TtMq9nJDa1Wf70ls
-    name: Names for Spanish Ships from Astronomy
   - _id: XaSgC2OBVpl898Vq
     _key: "!tables.results!TXi8XiIIjwVG3pXS.XaSgC2OBVpl898Vq"
     range:
-      - 19
-      - 19
+      - 16
+      - 16
     weight: 1
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.8ikqtiQcev0TXkPg
     name: Aspirational Names for Spanish Men-of-War
+  - _id: D3vlTigw8BFeeVER
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.D3vlTigw8BFeeVER"
+    range:
+      - 17
+      - 19
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.MFbDFJbPecTwyVwA
+    name: Names for Spanish Ships from Aristocracy
   - _id: x2YQLinw0OYmJgrY
     _key: "!tables.results!TXi8XiIIjwVG3pXS.x2YQLinw0OYmJgrY"
     range:
