@@ -1,9 +1,0 @@
-{
-  "name": "Pirate Ship Names: Deer",
-  "formula": "1d10",
-  "description": "Pirate ship names centering on deer.",
-  "results": [
-    { "range": [1, 6], "text": "Stags" },
-    { "range": [7, 10], "text": "Hinds" }
-  ]
-}
