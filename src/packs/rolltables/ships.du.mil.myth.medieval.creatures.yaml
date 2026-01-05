@@ -1,0 +1,105 @@
+_id: TILYhPM34tqkmBaN
+_key: "!tables!.TILYhPM34tqkmBaN"
+name: Names for Dutch Men-of-War after Creatures of Medieval Myth and Legend
+description: Appropriate names for Dutch men-of-war derived from creatures found
+  in medieval myth, legend, bestiaries, and heraldry.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: RkdNemvm8F3GDz8m
+    _key: "!tables.results!.TILYhPM34tqkmBaN.RkdNemvm8F3GDz8m"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Eenhoorn
+  - _id: Cmfhhtvw6WJPbB9k
+    _key: "!tables.results!.TILYhPM34tqkmBaN.Cmfhhtvw6WJPbB9k"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Zeemeermin
+  - _id: PWyXXSxfudJeLZax
+    _key: "!tables.results!.TILYhPM34tqkmBaN.PWyXXSxfudJeLZax"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Salamander
+  - _id: bZme5GHfoWX8GGja
+    _key: "!tables.results!.TILYhPM34tqkmBaN.bZme5GHfoWX8GGja"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Zeegrijp
+  - _id: Fry5k9LCfqSJtPGs
+    _key: "!tables.results!.TILYhPM34tqkmBaN.Fry5k9LCfqSJtPGs"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Yale
+  - _id: zNIqWdTnr9Zz7zGD
+    _key: "!tables.results!.TILYhPM34tqkmBaN.zNIqWdTnr9Zz7zGD"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Gevleugelde Leeuw
+  - _id: VfU0X09MDxJDEyWd
+    _key: "!tables.results!.TILYhPM34tqkmBaN.VfU0X09MDxJDEyWd"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Draak
+  - _id: tWMzxaFxxeR24hFt
+    _key: "!tables.results!.TILYhPM34tqkmBaN.tWMzxaFxxeR24hFt"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Bullebak
+  - _id: bE7wVxMmcJqUhcEh
+    _key: "!tables.results!.TILYhPM34tqkmBaN.bE7wVxMmcJqUhcEh"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Kraken
+  - _id: bdUr7eAQxGGRSdTq
+    _key: "!tables.results!.TILYhPM34tqkmBaN.bdUr7eAQxGGRSdTq"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Leviathan
+  - _id: MGgGmWQGB8ZGDD4c
+    _key: "!tables.results!.TILYhPM34tqkmBaN.MGgGmWQGB8ZGDD4c"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Basilisk
+  - _id: KJYBlOb8ScdHAg8f
+    _key: "!tables.results!.TILYhPM34tqkmBaN.KJYBlOb8ScdHAg8f"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Wyvern

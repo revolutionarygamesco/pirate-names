@@ -1,0 +1,35 @@
+_id: XY0y9gYN9iio1dbs
+_key: "!tables!.XY0y9gYN9iio1dbs"
+name: Names for Dutch Men-of-War from Mythology
+description: Appropriate names for Dutch men-of-war derived from mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: ypAlcjVokfIU1eWZ
+    _key: "!tables.results!.XY0y9gYN9iio1dbs.ypAlcjVokfIU1eWZ"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.aLM0JV4R5WUvzSCX
+    name: Names for Dutch Men-of-War from Greek Mythology
+  - _id: YjGLznIVHOqDTW3S
+    _key: "!tables.results!.XY0y9gYN9iio1dbs.YjGLznIVHOqDTW3S"
+    range:
+      - 11
+      - 17
+    weight: 7
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.W96nv4hPQ33u8KAX
+    name: Names for Dutch Men-of-War from Roman Mythology
+  - _id: cjWS1BvIaejEj8a5
+    _key: "!tables.results!.XY0y9gYN9iio1dbs.cjWS1BvIaejEj8a5"
+    range:
+      - 18
+      - 20
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TILYhPM34tqkmBaN
+    name: Names for Dutch Men-of-War after Creatures of Medieval Myth and Legend

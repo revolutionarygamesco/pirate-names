@@ -1,0 +1,35 @@
+_id: BgGkNYBzaNLDgB1L
+_key: "!tables!.BgGkNYBzaNLDgB1L"
+name: Names for Dutch Merchantmen from Mythology
+description: Appropriate names for Dutch Merchantmen derived from mythology.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: kweecOIoVQvjwnpL
+    _key: "!tables.results!.BgGkNYBzaNLDgB1L.kweecOIoVQvjwnpL"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.InHTFzQSFWWbJi6Y
+    name: Names for Dutch Merchantmen from Greek Mythology
+  - _id: duK28nsGNTI3w0ej
+    _key: "!tables.results!.BgGkNYBzaNLDgB1L.duK28nsGNTI3w0ej"
+    range:
+      - 11
+      - 17
+    weight: 7
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.kQcn7FNZppOF3TSI
+    name: Names for Dutch Merchantmen from Roman Mythology
+  - _id: 9N1xw9O9PSkkqonV
+    _key: "!tables.results!.BgGkNYBzaNLDgB1L.9N1xw9O9PSkkqonV"
+    range:
+      - 18
+      - 20
+    weight: 3
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Yo8qFJv4t48xdITJ
+    name: Names for Dutch Merchantmen after Creatures of Medieval Myth and Legend

@@ -1,0 +1,105 @@
+_id: Yo8qFJv4t48xdITJ
+_key: "!tables!.Yo8qFJv4t48xdITJ"
+name: Names for Dutch Merchantmen after Creatures of Medieval Myth and Legend
+description: Appropriate names for Dutch merchantmen derived from creatures
+  found in medieval myth, legend, bestiaries, and heraldry.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: XTWqarPYliHCaz8n
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.XTWqarPYliHCaz8n"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Eenhoorn
+  - _id: 26XUsAD7no4cZRmI
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.26XUsAD7no4cZRmI"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Zeemeermin
+  - _id: 98kF0EVhptH4NjFC
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.98kF0EVhptH4NjFC"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Salamander
+  - _id: BDFQzc2GN4bPmNJd
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.BDFQzc2GN4bPmNJd"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Zeegrijp
+  - _id: 23OuLGNaEOdmMeWy
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.23OuLGNaEOdmMeWy"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Yale
+  - _id: 5lMdZdOypX3drsM6
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.5lMdZdOypX3drsM6"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Gevleugelde Leeuw
+  - _id: mR4OAGWZZJtmaTnr
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.mR4OAGWZZJtmaTnr"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Caladrius
+  - _id: xbrcUyd7bUvcYrIG
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.xbrcUyd7bUvcYrIG"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Karbonkel
+  - _id: YBDMwSpkRvXA4Q6H
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.YBDMwSpkRvXA4Q6H"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Faun
+  - _id: 0SOk51XjAX6Nb9u6
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.0SOk51XjAX6Nb9u6"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Zeemonnik
+  - _id: ZCI7FkqmRDoVm4qY
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.ZCI7FkqmRDoVm4qY"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Nixe
+  - _id: zflSaafVZo5SvmSE
+    _key: "!tables.results!.Yo8qFJv4t48xdITJ.zflSaafVZo5SvmSE"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Dwaallicht
