@@ -1,0 +1,168 @@
+_id: nHqCRrBBV8DshHWL
+_key: "!tables!.nHqCRrBBV8DshHWL"
+name: Names for Dutch Merchantmen from Greek Mythology (Gods)
+description: Appropriate names for Dutch merchantmen derived from Greek gods.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: 03SIwCKMdNLbgTeE
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.03SIwCKMdNLbgTeE"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Castor en Pollux
+  - _id: qdPZbtV090lpFYlb
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.qdPZbtV090lpFYlb"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Orpheus
+  - _id: MUm3WVlTZqnHdyZU
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.MUm3WVlTZqnHdyZU"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Eurydice
+  - _id: ipwXU6qrecnaURNZ
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.ipwXU6qrecnaURNZ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Chiron
+  - _id: 6rc4Ur44g3TH5Vx0
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.6rc4Ur44g3TH5Vx0"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Atreus
+  - _id: UTZC09AxWw2JOSVi
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.UTZC09AxWw2JOSVi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Atalanta
+  - _id: TolbjBPMumn8fPon
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.TolbjBPMumn8fPon"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ganymedes
+  - _id: grB4PlMmM2nWOn04
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.grB4PlMmM2nWOn04"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Jason
+  - _id: xZer8r0NnvMqY2Yx
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.xZer8r0NnvMqY2Yx"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Meleager
+  - _id: PbWGYWPjJkgzP7ZJ
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.PbWGYWPjJkgzP7ZJ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Odysseus
+  - _id: 6yjR1KF7CAly4bGT
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.6yjR1KF7CAly4bGT"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Minos
+  - _id: c7FOkkIp0ltE4QGn
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.c7FOkkIp0ltE4QGn"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Aegeus
+  - _id: 3LT0r8bHo0M9nMqF
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.3LT0r8bHo0M9nMqF"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Andromeda
+  - _id: zs7TzSSMJB15E2lI
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.zs7TzSSMJB15E2lI"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ariadne
+  - _id: 3ULteDxE3IfLHu0b
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.3ULteDxE3IfLHu0b"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Daedalus
+  - _id: 6jJCD0qTNoSwGNTu
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.6jJCD0qTNoSwGNTu"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Patroclus
+  - _id: sdIaLRUxx5NNienX
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.sdIaLRUxx5NNienX"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Peleus
+  - _id: smRTq7PSy0DFnmhg
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.smRTq7PSy0DFnmhg"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Menelaüs
+  - _id: XvNiEIOjJSzMqZAQ
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.XvNiEIOjJSzMqZAQ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Diomedes
+  - _id: BGZ8RXsuDF2VTlvr
+    _key: "!tables.results!.nHqCRrBBV8DshHWL.BGZ8RXsuDF2VTlvr"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Hippolyta
