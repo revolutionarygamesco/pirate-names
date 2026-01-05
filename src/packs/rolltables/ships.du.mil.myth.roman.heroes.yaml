@@ -1,0 +1,169 @@
+_id: 6Fy3ORinxdCJq6Dk
+_key: "!tables!.6Fy3ORinxdCJq6Dk"
+name: Names for Dutch Men-of-War from Roman Mythology (Heroes)
+description: Appropriate names for Dutch men-of-war derived from figures from
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: qo7HZKjWVFlQNZ18
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.qo7HZKjWVFlQNZ18"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Hercules
+  - _id: I4RoPEx143FfR70K
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.I4RoPEx143FfR70K"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Tweelingen
+  - _id: 7gsKvoRgPd6C23kF
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.7gsKvoRgPd6C23kF"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Aeneas
+  - _id: le3bwirLrx7r7E0g
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.le3bwirLrx7r7E0g"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sibylle
+  - _id: pS6jSDYkmvrYjn6B
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.pS6jSDYkmvrYjn6B"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Larunda
+  - _id: xetwCCf7iwTkVODe
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.xetwCCf7iwTkVODe"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Palinurus
+  - _id: AjNMGD20IWswJKJN
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.AjNMGD20IWswJKJN"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Evander
+  - _id: w4wlQri4zICamagJ
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.w4wlQri4zICamagJ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Tutula
+  - _id: GngyTF0v0C5grD0G
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.GngyTF0v0C5grD0G"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Anchises
+  - _id: 33pcgdrszuFWcPpG
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.33pcgdrszuFWcPpG"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Camillus
+  - _id: RxlCsYb4v4aOnh4U
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.RxlCsYb4v4aOnh4U"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Romulus
+  - _id: S82tYLMZgV4031GG
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.S82tYLMZgV4031GG"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Horatius
+  - _id: HFqUz3irRSO8Q8sN
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.HFqUz3irRSO8Q8sN"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Cincinnatus
+  - _id: H8zuEbMELd9sT1yw
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.H8zuEbMELd9sT1yw"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Scaevola
+  - _id: 0LVBuIPDHSiquTIM
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.0LVBuIPDHSiquTIM"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Scipio
+  - _id: rBAB2cWAHfUP6FUc
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.rBAB2cWAHfUP6FUc"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Coriolanus
+  - _id: JZ4XQg3U6VVTCWzE
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.JZ4XQg3U6VVTCWzE"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Hostilius
+  - _id: WCgCv9q2Wkm2UxLN
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.WCgCv9q2Wkm2UxLN"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Agrippa
+  - _id: NXD1kvIdTtlJeEzJ
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.NXD1kvIdTtlJeEzJ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Pompeius
+  - _id: WLgcDlCUc5PwbdNV
+    _key: "!tables.results!.6Fy3ORinxdCJq6Dk.WLgcDlCUc5PwbdNV"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Severus

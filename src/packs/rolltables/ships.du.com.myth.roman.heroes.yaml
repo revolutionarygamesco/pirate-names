@@ -1,0 +1,169 @@
+_id: pJrZ4izz5A7swOcP
+_key: "!tables!.pJrZ4izz5A7swOcP"
+name: Names for Dutch Merchantmen from Roman Mythology (Heroes)
+description: Appropriate names for Dutch merchantmen derived from figures from
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: Y5rjFkdS7fOJeZ8c
+results:
+  - _id: K9NSd6b6LZR6EPB6
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.K9NSd6b6LZR6EPB6"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Hercules
+  - _id: 1DzRS8O459AC2B5r
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.1DzRS8O459AC2B5r"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Tweelingen
+  - _id: bHnj8WYJ0lBpfuRO
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.bHnj8WYJ0lBpfuRO"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Aeneas
+  - _id: GLagvojWHNCGjlnk
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.GLagvojWHNCGjlnk"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Sibylle
+  - _id: YO80p9XcLYvFMZNk
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.YO80p9XcLYvFMZNk"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Larunda
+  - _id: 75FPwtHQe2yBKMfO
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.75FPwtHQe2yBKMfO"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Palinurus
+  - _id: ySMUlf63nH5WajrE
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.ySMUlf63nH5WajrE"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Evander
+  - _id: 0jBsUKFHXkvudBQI
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.0jBsUKFHXkvudBQI"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Tutula
+  - _id: Rmx5QX9K5kpc1XRy
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.Rmx5QX9K5kpc1XRy"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Anchises
+  - _id: DNhAjgkx2tJIQ30l
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.DNhAjgkx2tJIQ30l"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Camillus
+  - _id: pdRIPnBIfKTXORIn
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.pdRIPnBIfKTXORIn"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Remus
+  - _id: tPrKHduCZKcR41nq
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.tPrKHduCZKcR41nq"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Cassandra
+  - _id: bIwLc9aC7wygqLy9
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.bIwLc9aC7wygqLy9"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Priamus
+  - _id: 3HAxhceosbvxCQLm
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.3HAxhceosbvxCQLm"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Cybele
+  - _id: AuULOrSUXFatyxPZ
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.AuULOrSUXFatyxPZ"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Dido
+  - _id: CRMFeH8huOvPsfsO
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.CRMFeH8huOvPsfsO"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Lucretia
+  - _id: Jkj9vYgz1NuiQp6r
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.Jkj9vYgz1NuiQp6r"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Cicero
+  - _id: ahtS1wuKailh5pC6
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.ahtS1wuKailh5pC6"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Cato
+  - _id: rGUjThGyxUTsvlXM
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.rGUjThGyxUTsvlXM"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Crassus
+  - _id: bVx6hXNrg6qjGWtq
+    _key: "!tables.results!.pJrZ4izz5A7swOcP.bVx6hXNrg6qjGWtq"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Arachne

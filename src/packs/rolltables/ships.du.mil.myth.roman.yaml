@@ -1,0 +1,27 @@
+_id: W96nv4hPQ33u8KAX
+_key: "!tables!.W96nv4hPQ33u8KAX"
+name: Names for Dutch Men-of-War from Roman Mythology
+description: Appropriate names for Dutch men-of-war derived from figures from
+  Roman mythology, legend, and history.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: H0nvuws3XnhcTpcR
+results:
+  - _id: YwB4yDQtW0irM6Mk
+    _key: "!tables.results!.W96nv4hPQ33u8KAX.YwB4yDQtW0irM6Mk"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.kAhAbwvoRs5E5rxa
+    name: Names for Dutch Men-of-War from Roman Mythology (Gods)
+  - _id: eiFpkzfyF10nm398
+    _key: "!tables.results!.W96nv4hPQ33u8KAX.eiFpkzfyF10nm398"
+    range:
+      - 11
+      - 20
+    weight: 10
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.6Fy3ORinxdCJq6Dk
+    name: Names for Dutch Men-of-War from Roman Mythology (Heroes)
