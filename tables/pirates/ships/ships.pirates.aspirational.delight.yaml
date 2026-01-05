@@ -1,0 +1,52 @@
+name: 'Pirate Ship Names: Delight'
+formula: 1d12
+description: Pirate ship names centering on delight.
+results:
+  - range:
+      - 1
+      - 1
+    text: Bachelor’s Delight
+  - range:
+      - 2
+      - 2
+    text: Privateer’s Delight
+  - range:
+      - 3
+      - 3
+    text: Sailor’s Delight
+  - range:
+      - 4
+      - 4
+    text: Brotherhood’s Delight
+  - range:
+      - 5
+      - 5
+    text: Buccaneer’s Delight
+  - range:
+      - 6
+      - 6
+    text: Devil’s Delight
+  - range:
+      - 7
+      - 7
+    text: Death’s Delight
+  - range:
+      - 8
+      - 8
+    text: Roger’s Delight
+  - range:
+      - 9
+      - 9
+    text: Corsair’s Delight
+  - range:
+      - 10
+      - 10
+    text: Marooner’s Delight
+  - range:
+      - 11
+      - 11
+    text: Sea Dog’s Delight
+  - range:
+      - 12
+      - 12
+    text: Adventurer’s Delight

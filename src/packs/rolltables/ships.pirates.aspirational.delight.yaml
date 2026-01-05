@@ -1,0 +1,104 @@
+_id: BlDBmG0JRUMRsR8O
+_key: "!tables!.BlDBmG0JRUMRsR8O"
+name: "Pirate Ship Names: Delight"
+description: Pirate ship names centering on delight.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: UXmn2YeFbVpKQyty
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.UXmn2YeFbVpKQyty"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Bachelor’s Delight
+  - _id: kCOuCuSjPSPG46Bp
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.kCOuCuSjPSPG46Bp"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Privateer’s Delight
+  - _id: zrlgUftFHozzoo5O
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.zrlgUftFHozzoo5O"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Sailor’s Delight
+  - _id: XEtFTo40ga4H39tz
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.XEtFTo40ga4H39tz"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Brotherhood’s Delight
+  - _id: ADwDdGojFH07ZEPh
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.ADwDdGojFH07ZEPh"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Buccaneer’s Delight
+  - _id: u5CEPlrjpogdUDYE
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.u5CEPlrjpogdUDYE"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Devil’s Delight
+  - _id: UeI50T6I75J4pCuF
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.UeI50T6I75J4pCuF"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Death’s Delight
+  - _id: HCAYftHhJ8IdMRIN
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.HCAYftHhJ8IdMRIN"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Roger’s Delight
+  - _id: kzpCT2jCA2kuOC4D
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.kzpCT2jCA2kuOC4D"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Corsair’s Delight
+  - _id: owSmtf2koNxl1AMb
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.owSmtf2koNxl1AMb"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Marooner’s Delight
+  - _id: 3gsR5frOxWJa96G0
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.3gsR5frOxWJa96G0"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Sea Dog’s Delight
+  - _id: XF26ONsfhngULbx6
+    _key: "!tables.results!.BlDBmG0JRUMRsR8O.XF26ONsfhngULbx6"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Adventurer’s Delight

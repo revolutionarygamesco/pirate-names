@@ -1,0 +1,104 @@
+_id: UHd5WQAUw7052bUm
+_key: "!tables!.UHd5WQAUw7052bUm"
+name: "Pirate Ship Names: Jacobite Names"
+description: Pirate ship names declaring Jacobite sympathies.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: sJsYkiTO3gdwjsVj
+    _key: "!tables.results!.UHd5WQAUw7052bUm.sJsYkiTO3gdwjsVj"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Bonnie Prince
+  - _id: 2m13SqsAIt0fLael
+    _key: "!tables.results!.UHd5WQAUw7052bUm.2m13SqsAIt0fLael"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: True-Born Prince
+  - _id: gogbuZNxyGsRq23T
+    _key: "!tables.results!.UHd5WQAUw7052bUm.gogbuZNxyGsRq23T"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: King Over the Water
+  - _id: zX58Zx54EREnDP6A
+    _key: "!tables.results!.UHd5WQAUw7052bUm.zX58Zx54EREnDP6A"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Great Daring
+  - _id: XVUUv9jUeZJwHsnR
+    _key: "!tables.results!.UHd5WQAUw7052bUm.XVUUv9jUeZJwHsnR"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Return
+  - _id: NFiX4CF1C6rPJOuD
+    _key: "!tables.results!.UHd5WQAUw7052bUm.NFiX4CF1C6rPJOuD"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Fiat
+  - _id: alL56ciy56eMK9Wx
+    _key: "!tables.results!.UHd5WQAUw7052bUm.alL56ciy56eMK9Wx"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: White Rose
+  - _id: Ycb9K7g4g1B2CmL9
+    _key: "!tables.results!.UHd5WQAUw7052bUm.Ycb9K7g4g1B2CmL9"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Oak
+  - _id: WImPZUxmleIJ6Ruf
+    _key: "!tables.results!.UHd5WQAUw7052bUm.WImPZUxmleIJ6Ruf"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Thistle
+  - _id: 5cEOe1EBtfGpkWTX
+    _key: "!tables.results!.UHd5WQAUw7052bUm.5cEOe1EBtfGpkWTX"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Sunflower
+  - _id: xKUgWd84lT5IXA5s
+    _key: "!tables.results!.UHd5WQAUw7052bUm.xKUgWd84lT5IXA5s"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Thistle
+  - _id: Ytg6snG6XN00Ck9T
+    _key: "!tables.results!.UHd5WQAUw7052bUm.Ytg6snG6XN00Ck9T"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Medusa

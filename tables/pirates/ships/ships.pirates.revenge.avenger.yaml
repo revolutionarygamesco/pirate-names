@@ -1,0 +1,28 @@
+name: 'Pirate Ship Names: Avenger'
+formula: 1d10
+description: Pirate ship names declaring themselves an avenger.
+results:
+  - range:
+      - 1
+      - 5
+    text: Avenger
+  - range:
+      - 6
+      - 6
+    text: Honest Avenger
+  - range:
+      - 7
+      - 7
+    text: Devil’s Avenger
+  - range:
+      - 8
+      - 8
+    text: Bloody Avenger
+  - range:
+      - 9
+      - 9
+    text: Hell’s Avenger
+  - range:
+      - 10
+      - 10
+    text: Deep’s Avenger

@@ -1,0 +1,64 @@
+_id: eIbwZGhkRa5fm5RN
+_key: "!tables!.eIbwZGhkRa5fm5RN"
+name: "Pirate Ship Names: Diamonds"
+description: Pirate ship names centering on diamonds.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: XdEnzhxyXNvBS5i2
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.XdEnzhxyXNvBS5i2"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    text: Diamond
+  - _id: 2E8JexHVj8c8wg6z
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.2E8JexHVj8c8wg6z"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: White Diamond
+  - _id: GtHz7U9P7qf6kzCo
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.GtHz7U9P7qf6kzCo"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Black Diamond
+  - _id: 8DmXaeKxxSUi1EJQ
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.8DmXaeKxxSUi1EJQ"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Blue Diamond
+  - _id: k50zPlV8tCjjCY4F
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.k50zPlV8tCjjCY4F"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Violet Diamond
+  - _id: gys9kKPPhDKmjuE8
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.gys9kKPPhDKmjuE8"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Red Diamond
+  - _id: yHCKIqGY04VDUsjv
+    _key: "!tables.results!.eIbwZGhkRa5fm5RN.yHCKIqGY04VDUsjv"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Blood Diamond

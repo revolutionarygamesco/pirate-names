@@ -1,0 +1,88 @@
+_id: retcrbUEO5xJKO2Y
+_key: "!tables!.retcrbUEO5xJKO2Y"
+name: "Pirate Ship Names: Wolves"
+description: Pirate ship names centering on wolves.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: 1PMupfZH5BYzuNnH
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.1PMupfZH5BYzuNnH"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    text: Wolf
+  - _id: u582dQjCjvLm7sV2
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.u582dQjCjvLm7sV2"
+    range:
+      - 3
+      - 4
+    weight: 2
+    type: text
+    text: Sea Wolf
+  - _id: 3kNlMPFie5yPBmWx
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.3kNlMPFie5yPBmWx"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Hungry Wolf
+  - _id: Z7wEJqOFm811XMWw
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.Z7wEJqOFm811XMWw"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Werewolf
+  - _id: 2n2syNkXUmbrfnKr
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.2n2syNkXUmbrfnKr"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Bloody Wolf
+  - _id: tFCmxPRRgFCFtCON
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.tFCmxPRRgFCFtCON"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Howl
+  - _id: 3h0HkJi0Wkdedb5P
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.3h0HkJi0Wkdedb5P"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Black Wolf
+  - _id: 6MRWNeAJwFlNBnXl
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.6MRWNeAJwFlNBnXl"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Crimson Wolf
+  - _id: X6iJr4ue9UOkTiHD
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.X6iJr4ue9UOkTiHD"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Dire Wolf
+  - _id: KDfGv4J9CwanTMBm
+    _key: "!tables.results!.retcrbUEO5xJKO2Y.KDfGv4J9CwanTMBm"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Wolf’s Revenge

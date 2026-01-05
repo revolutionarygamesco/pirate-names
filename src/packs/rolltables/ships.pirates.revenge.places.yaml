@@ -1,0 +1,88 @@
+_id: b72VjH2RrrkesYCP
+_key: "!tables!.b72VjH2RrrkesYCP"
+name: "Pirate Ship Names: Place’s Revenge"
+description: Pirate ship names centering on vengeance for a place.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: 6zNPjKlmEt2IRoED
+    _key: "!tables.results!.b72VjH2RrrkesYCP.6zNPjKlmEt2IRoED"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: New York’s Revenge
+  - _id: qfSp1cDSOMVGOv2s
+    _key: "!tables.results!.b72VjH2RrrkesYCP.qfSp1cDSOMVGOv2s"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Nassau’s Revenge
+  - _id: BVSPzoyAi8OQmUHI
+    _key: "!tables.results!.b72VjH2RrrkesYCP.BVSPzoyAi8OQmUHI"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Port Royal’s Revenge
+  - _id: oRdaCZBpBZKpqfpP
+    _key: "!tables.results!.b72VjH2RrrkesYCP.oRdaCZBpBZKpqfpP"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Kingston’s Revenge
+  - _id: PPTICIuKIuTRZtNL
+    _key: "!tables.results!.b72VjH2RrrkesYCP.PPTICIuKIuTRZtNL"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Libertalia’s Revenge
+  - _id: YPGpAhfDNAYaxIMs
+    _key: "!tables.results!.b72VjH2RrrkesYCP.YPGpAhfDNAYaxIMs"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Madagascar’s Revenge
+  - _id: WSRuX6qoVB0LuH5r
+    _key: "!tables.results!.b72VjH2RrrkesYCP.WSRuX6qoVB0LuH5r"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: St. Mary’s Revenge
+  - _id: klx4wERPxAcEoBHA
+    _key: "!tables.results!.b72VjH2RrrkesYCP.klx4wERPxAcEoBHA"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Tortuga’s Revenge
+  - _id: dMa5i6DhYgWc2SVb
+    _key: "!tables.results!.b72VjH2RrrkesYCP.dMa5i6DhYgWc2SVb"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Bitter End’s Revenge
+  - _id: 2HFgbbiX0Aa58EOa
+    _key: "!tables.results!.b72VjH2RrrkesYCP.2HFgbbiX0Aa58EOa"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Wapping’s Revenge

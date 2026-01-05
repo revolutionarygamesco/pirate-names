@@ -1,0 +1,84 @@
+name: 'Pirate Ship Names: Gallows Humor'
+formula: 1d20
+description: Pirate ship names centering on gallows humor.
+results:
+  - range:
+      - 1
+      - 1
+    text: Black Joke
+  - range:
+      - 2
+      - 2
+    text: Gallows
+  - range:
+      - 3
+      - 3
+    text: Bitter End
+  - range:
+      - 4
+      - 4
+    text: Hempen Jig
+  - range:
+      - 5
+      - 5
+    text: Hangman’s Daughter
+  - range:
+      - 6
+      - 6
+    text: Dead Man’s Chest
+  - range:
+      - 7
+      - 7
+    text: Last Dance
+  - range:
+      - 8
+      - 8
+    text: Floating Coffin
+  - range:
+      - 9
+      - 9
+    text: Merry Damned
+  - range:
+      - 10
+      - 10
+    text: Last Jest
+  - range:
+      - 11
+      - 11
+    text: Gibbet
+  - range:
+      - 12
+      - 12
+    text: Black Anchor
+  - range:
+      - 13
+      - 13
+    text: Hellfire
+  - range:
+      - 14
+      - 14
+    text: Tyburn
+  - range:
+      - 15
+      - 15
+    text: Morning Drop
+  - range:
+      - 16
+      - 16
+    text: Final Voyage
+  - range:
+      - 17
+      - 17
+    text: Devil’s Bargain
+  - range:
+      - 18
+      - 18
+    text: Executioner
+  - range:
+      - 19
+      - 19
+    text: Devil’s Grin
+  - range:
+      - 20
+      - 20
+    text: Final Joke

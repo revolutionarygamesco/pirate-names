@@ -1,0 +1,88 @@
+_id: 2wGxgaJR1U4HWKHB
+_key: "!tables!.2wGxgaJR1U4HWKHB"
+name: "Pirate Ship Names: Pirate’s Revenge"
+description: Pirate ship names centering on vengeance for a famous pirate.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: zv1AvqNckiCAUTTz
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.zv1AvqNckiCAUTTz"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Blackbeard’s Revenge
+  - _id: aBbgb3kJo4FsKT3l
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.aBbgb3kJo4FsKT3l"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Kidd’s Revenge
+  - _id: YcoEjJwHNKMQ9gff
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.YcoEjJwHNKMQ9gff"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Misson’s Revenge
+  - _id: ccjWR97pyrctOkF5
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.ccjWR97pyrctOkF5"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Avery’s Revenge
+  - _id: luc3G8kUCZmfMYLu
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.luc3G8kUCZmfMYLu"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Drake’s Revenge
+  - _id: o4NYIcVB0SjBxGm3
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.o4NYIcVB0SjBxGm3"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Morgan’s Revenge
+  - _id: JAlSgOSBmLGjsOH9
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.JAlSgOSBmLGjsOH9"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Dampier’s Revenge
+  - _id: YbZ2M27LDT0mx1sr
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.YbZ2M27LDT0mx1sr"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Black Sam’s Revenge
+  - _id: LYYEmbss0S4P0IkQ
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.LYYEmbss0S4P0IkQ"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Buccaneer’s Revenge
+  - _id: QGv4ueKGyfha7QPx
+    _key: "!tables.results!.2wGxgaJR1U4HWKHB.QGv4ueKGyfha7QPx"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Brotherhood’s Revenge

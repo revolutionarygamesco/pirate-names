@@ -1,0 +1,44 @@
+name: 'Pirate Ship Names: Pirate’s Revenge'
+formula: 1d10
+description: Pirate ship names centering on vengeance for a famous pirate.
+results:
+  - range:
+      - 1
+      - 1
+    text: Blackbeard’s Revenge
+  - range:
+      - 2
+      - 2
+    text: Kidd’s Revenge
+  - range:
+      - 3
+      - 3
+    text: Misson’s Revenge
+  - range:
+      - 4
+      - 4
+    text: Avery’s Revenge
+  - range:
+      - 5
+      - 5
+    text: Drake’s Revenge
+  - range:
+      - 6
+      - 6
+    text: Morgan’s Revenge
+  - range:
+      - 7
+      - 7
+    text: Dampier’s Revenge
+  - range:
+      - 8
+      - 8
+    text: Black Sam’s Revenge
+  - range:
+      - 9
+      - 9
+    text: Buccaneer’s Revenge
+  - range:
+      - 10
+      - 10
+    text: Brotherhood’s Revenge

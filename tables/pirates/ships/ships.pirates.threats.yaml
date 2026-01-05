@@ -1,0 +1,84 @@
+name: 'Pirate Ship Names: Threats'
+formula: 1d20
+description: Pirate ship names that make a threat.
+results:
+  - range:
+      - 1
+      - 1
+    text: No Mercy
+  - range:
+      - 2
+      - 2
+    text: No Quarter
+  - range:
+      - 3
+      - 3
+    text: No Pity
+  - range:
+      - 4
+      - 4
+    text: No Escape
+  - range:
+      - 5
+      - 5
+    text: Bleeding Heart
+  - range:
+      - 6
+      - 6
+    text: Red Jack
+  - range:
+      - 7
+      - 7
+    text: Red Death
+  - range:
+      - 8
+      - 8
+    text: Pierced Heart
+  - range:
+      - 9
+      - 9
+    text: Hell’s Bells
+  - range:
+      - 10
+      - 10
+    text: Ruthless
+  - range:
+      - 11
+      - 11
+    text: Merciless
+  - range:
+      - 12
+      - 12
+    text: Heartless
+  - range:
+      - 13
+      - 13
+    text: Death’s Trumpet
+  - range:
+      - 14
+      - 14
+    text: Hell’s Trumpet
+  - range:
+      - 15
+      - 15
+    text: Devil’s Trumpet
+  - range:
+      - 16
+      - 16
+    text: Roger’s Trumpet
+  - range:
+      - 17
+      - 17
+    text: Grim Trumpet
+  - range:
+      - 18
+      - 18
+    text: Deep’s Trumpet
+  - range:
+      - 19
+      - 19
+    text: Death Knell
+  - range:
+      - 20
+      - 20
+    text: Tolling Bell

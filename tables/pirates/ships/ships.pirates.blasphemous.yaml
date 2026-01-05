@@ -1,0 +1,88 @@
+name: 'Pirate Ship Names: Blasphemous Names'
+formula: 1d20
+description: Pirate ship names that evoke hell, the devil, or damnation.
+results:
+  - range:
+      - 1
+      - 1
+    text: Red Right Hand
+  - range:
+      - 2
+      - 2
+    text: Devil’s Wrath
+  - range:
+      - 3
+      - 3
+    text: Hell’s Fury
+  - range:
+      - 4
+      - 4
+    text: Damnation
+  - range:
+      - 5
+      - 5
+    text: Adversary
+  - range:
+      - 6
+      - 6
+    text: Sea Serpent
+  - range:
+      - 7
+      - 7
+    text: Devil’s Cry
+  - range:
+      - 8
+      - 8
+    text: Hellfire
+  - range:
+      - 9
+      - 9
+    text: Hell’s Angel
+  - range:
+      - 10
+      - 10
+    text: Fallen Angel
+  - range:
+      - 11
+      - 11
+    text: Roger’s Galley
+  - range:
+      - 12
+      - 12
+    text: Sea Devil
+  - range:
+      - 13
+      - 13
+    text: Inferno
+  - range:
+      - 14
+      - 14
+    text: Perdition
+  - range:
+      - 14
+      - 14
+    text: Pandemonium
+  - range:
+      - 15
+      - 15
+    text: Abyssal Galley
+  - range:
+      - 16
+      - 16
+    text: Abaddon’s Wrath
+  - range:
+      - 17
+      - 17
+    text: Leviathan
+  - range:
+      - 18
+      - 18
+    text: Davy Jones’ Revenge
+  - range:
+      - 19
+      - 19
+    text: Brimstone
+  - range:
+      - 20
+      - 20
+    text: Blasphemy

@@ -1,0 +1,71 @@
+_id: wAgkdtk8J71NJKUr
+_key: "!tables!.wAgkdtk8J71NJKUr"
+name: "Pirate Ship Names: Animals"
+description: Pirate ship names centering on animals.
+img: icons/svg/d20-grey.svg
+formula: 2d4
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: aSAz3juhCQ9YLTvB
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.aSAz3juhCQ9YLTvB"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.vpA0k39t0Szptq0W
+    name: "Pirate Ship Names: Deer"
+  - _id: kvEDxPS7a5KGQcV5
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.kvEDxPS7a5KGQcV5"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.cVO0XZp8KerLAUk1
+    name: "Pirate Ship Names: Parrots"
+  - _id: wITgX3Iqf2njR7RU
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.wITgX3Iqf2njR7RU"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Y7oYlRM06HYNjSis
+    name: "Pirate Ship Names: Sharks"
+  - _id: 5E8F0fKW9wQWVnEt
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.5E8F0fKW9wQWVnEt"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.VsJJP5duZLyDIl3X
+    name: "Pirate Ship Names: Birds"
+  - _id: qTLBAL1XXg6b60oP
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.qTLBAL1XXg6b60oP"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.retcrbUEO5xJKO2Y
+    name: "Pirate Ship Names: Wolves"
+  - _id: KIJfRQC9Hy0aHMAo
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.KIJfRQC9Hy0aHMAo"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.juUUYbM0swNUu7dv
+    name: "Pirate Ship Names: Cats"
+  - _id: bvc7qljXBeqGeA4b
+    _key: "!tables.results!.wAgkdtk8J71NJKUr.bvc7qljXBeqGeA4b"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.yVjoSgcEQuKcFja5
+    name: "Pirate Ship Names: Dolphins"

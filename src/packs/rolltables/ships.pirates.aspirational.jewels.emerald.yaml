@@ -1,0 +1,64 @@
+_id: wDuEttGZRpzBfi2q
+_key: "!tables!.wDuEttGZRpzBfi2q"
+name: "Pirate Ship Names: Emeralds"
+description: Pirate ship names centering on emeralds.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: 7WqgX6t0SP8LIVTA
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.7WqgX6t0SP8LIVTA"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    text: Emerald
+  - _id: vCCs1IhSEsrDnDzD
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.vCCs1IhSEsrDnDzD"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Green Emerald
+  - _id: AIt1EI8FhaAwDUho
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.AIt1EI8FhaAwDUho"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Viridian Emerald
+  - _id: KN6YDTef5HWW0MzY
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.KN6YDTef5HWW0MzY"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Forest Emerald
+  - _id: ofLYtGQfRmycLji8
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.ofLYtGQfRmycLji8"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Deep Emerald
+  - _id: DLa8bmZQAi0GLXNj
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.DLa8bmZQAi0GLXNj"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Sea Emerald
+  - _id: N4Cx5TYNOJhEhaT2
+    _key: "!tables.results!.wDuEttGZRpzBfi2q.N4Cx5TYNOJhEhaT2"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Poison Emerald

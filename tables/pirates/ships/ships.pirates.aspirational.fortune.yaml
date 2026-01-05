@@ -1,0 +1,48 @@
+name: 'Pirate Ship Names: Fortune'
+formula: 1d12
+description: Pirate ship names centering on fortune.
+results:
+  - range:
+      - 1
+      - 2
+    text: Fortune
+  - range:
+      - 3
+      - 3
+    text: Royal Fortune
+  - range:
+      - 4
+      - 4
+    text: Golden Fortune
+  - range:
+      - 5
+      - 5
+    text: Good Fortune
+  - range:
+      - 6
+      - 6
+    text: Bloody Fortune
+  - range:
+      - 7
+      - 7
+    text: Shining Fortune
+  - range:
+      - 8
+      - 8
+    text: Joyous Fortune
+  - range:
+      - 9
+      - 9
+    text: Fortune’s Revenge
+  - range:
+      - 10
+      - 10
+    text: Seized Fortune
+  - range:
+      - 11
+      - 11
+    text: Fortune’s Twist
+  - range:
+      - 12
+      - 12
+    text: Fortune’s Folly

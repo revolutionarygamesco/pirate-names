@@ -1,0 +1,168 @@
+_id: 94Z5Uqa67wJBXgic
+_key: "!tables!.94Z5Uqa67wJBXgic"
+name: "Pirate Ship Names: Mythical Fury"
+description: Pirate ship names centering on the fury of mythical figures.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: jTeVqyv0Wq65SMvA
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.jTeVqyv0Wq65SMvA"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Poseidon’s Fury
+  - _id: r8oT8D1oF53MfUoh
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.r8oT8D1oF53MfUoh"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Neptune’s Fury
+  - _id: nmdkp8wwzUsjNMFJ
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.nmdkp8wwzUsjNMFJ"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Triton’s Fury
+  - _id: YEkmAbYgWAHWcqmZ
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.YEkmAbYgWAHWcqmZ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Siren’s Fury
+  - _id: WoIFsSIgJLVj5nBg
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.WoIFsSIgJLVj5nBg"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Dragon’s Fury
+  - _id: d2X3mnMCvkAXpXJv
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.d2X3mnMCvkAXpXJv"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Wyvern’s Fury
+  - _id: B87NUjM2jYZf8k8H
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.B87NUjM2jYZf8k8H"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Hell’s Fury
+  - _id: n6falYhtVibSo9ke
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.n6falYhtVibSo9ke"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Devil’s Fury
+  - _id: afoUZjNvPZEQcv3U
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.afoUZjNvPZEQcv3U"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Roger’s Fury
+  - _id: fzjKeNekf4pIUOp7
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.fzjKeNekf4pIUOp7"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Death’s Fury
+  - _id: mSVyiEmLZW1ccWuG
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.mSVyiEmLZW1ccWuG"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Poseidon’s Wrath
+  - _id: Q2UxUaIREaQ3ExVX
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.Q2UxUaIREaQ3ExVX"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Neptune’s Wrath
+  - _id: baSVUEi5If4jRhKh
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.baSVUEi5If4jRhKh"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    text: Triton’s Wrath
+  - _id: gfAyMJla16FWk0oP
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.gfAyMJla16FWk0oP"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    text: Siren’s Wrath
+  - _id: oZwDTpYDQJp7PMi9
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.oZwDTpYDQJp7PMi9"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    text: Dragon’s Wrath
+  - _id: tgEyS1JRFhDEwOpo
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.tgEyS1JRFhDEwOpo"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    text: Wyvern’s Wrath
+  - _id: EaYVzYoF8LIi8zIQ
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.EaYVzYoF8LIi8zIQ"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    text: Hell’s Wrath
+  - _id: agSbquxGOV99VQX5
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.agSbquxGOV99VQX5"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    text: Devil’s Wrath
+  - _id: rsbIUeC01Eb4dS7q
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.rsbIUeC01Eb4dS7q"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    text: Roger’s Wrath
+  - _id: GXhdtF9F6xTssgiX
+    _key: "!tables.results!.94Z5Uqa67wJBXgic.GXhdtF9F6xTssgiX"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    text: Death’s Wrath

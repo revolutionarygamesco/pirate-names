@@ -1,0 +1,96 @@
+_id: FMgV4tDiQrzAu45Z
+_key: "!tables!.FMgV4tDiQrzAu45Z"
+name: "Pirate Ship Names: Fortune"
+description: Pirate ship names centering on fortune.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: UKjSaARYYyPqlA8w
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.UKjSaARYYyPqlA8w"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    text: Fortune
+  - _id: mkB2YOwZKS0KGRPJ
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.mkB2YOwZKS0KGRPJ"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Royal Fortune
+  - _id: zWZJKaz1bRD2cyEn
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.zWZJKaz1bRD2cyEn"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Golden Fortune
+  - _id: 7koBQmP8RUU3ocGV
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.7koBQmP8RUU3ocGV"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Good Fortune
+  - _id: oqF6Y7fdkfwxO4Xp
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.oqF6Y7fdkfwxO4Xp"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Bloody Fortune
+  - _id: VYKHdvxvSLYYWztG
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.VYKHdvxvSLYYWztG"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Shining Fortune
+  - _id: gv1vdHz3rPIPssal
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.gv1vdHz3rPIPssal"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Joyous Fortune
+  - _id: qlkWfuEHqiy1VbhB
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.qlkWfuEHqiy1VbhB"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Fortune’s Revenge
+  - _id: LxUTtZMFD0O0sqxK
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.LxUTtZMFD0O0sqxK"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Seized Fortune
+  - _id: Df06DJ3NWsMg58BK
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.Df06DJ3NWsMg58BK"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Fortune’s Twist
+  - _id: 7v2Y826BUZPYrDDs
+    _key: "!tables.results!.FMgV4tDiQrzAu45Z.7v2Y826BUZPYrDDs"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Fortune’s Folly

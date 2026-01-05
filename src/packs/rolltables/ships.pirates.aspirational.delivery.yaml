@@ -1,0 +1,96 @@
+_id: pdKdiu5mvpxOrI4M
+_key: "!tables!.pdKdiu5mvpxOrI4M"
+name: "Pirate Ship Names: Delivery"
+description: Pirate ship names centering on delivery.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: bdJDGR70zIVNpoba
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.bdJDGR70zIVNpoba"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Happy Delivery
+  - _id: 3BnpGV3y7AKneOxm
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.3BnpGV3y7AKneOxm"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Joyous Delivery
+  - _id: RQXJYGnWYZW3ZYgs
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.RQXJYGnWYZW3ZYgs"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Golden Delivery
+  - _id: rkJYCIkra48yE676
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.rkJYCIkra48yE676"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Honest Delivery
+  - _id: GGBSGfrZ1gQMbTN1
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.GGBSGfrZ1gQMbTN1"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Booming Delivery
+  - _id: wZY2qqmkujBH6p7S
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.wZY2qqmkujBH6p7S"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Black Delivery
+  - _id: 2XvqMZyO3rt1Rq5w
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.2XvqMZyO3rt1Rq5w"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Crimson Delivery
+  - _id: kt3J2pGLX8H7Dil5
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.kt3J2pGLX8H7Dil5"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Bold Delivery
+  - _id: PyayBuLqoxJfJEXM
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.PyayBuLqoxJfJEXM"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Devil’s Delivery
+  - _id: v0MXXTDMOtSDGnwj
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.v0MXXTDMOtSDGnwj"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Hell’s Delivery
+  - _id: pbGsemq3VFU88kVP
+    _key: "!tables.results!.pdKdiu5mvpxOrI4M.pbGsemq3VFU88kVP"
+    range:
+      - 11
+      - 12
+    weight: 2
+    type: text
+    text: Delivery

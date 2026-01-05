@@ -1,0 +1,32 @@
+name: Pirate Ship Names
+formula: 2d4
+description: Names for pirate ships.
+results:
+  - range:
+      - 2
+      - 2
+    text: Jacobite
+  - range:
+      - 3
+      - 3
+    text: Humor
+  - range:
+      - 4
+      - 4
+    text: Aspirational
+  - range:
+      - 5
+      - 5
+    text: Revenge
+  - range:
+      - 6
+      - 6
+    text: Animals
+  - range:
+      - 7
+      - 7
+    text: Threats
+  - range:
+      - 8
+      - 8
+    text: Blasphemous

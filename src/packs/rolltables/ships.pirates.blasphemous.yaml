@@ -1,0 +1,176 @@
+_id: 3fHLisvuhUUq5ZSI
+_key: "!tables!.3fHLisvuhUUq5ZSI"
+name: "Pirate Ship Names: Blasphemous Names"
+description: Pirate ship names that evoke hell, the devil, or damnation.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: LyZBsjfGLmhjw7Pg
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.LyZBsjfGLmhjw7Pg"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    text: Red Right Hand
+  - _id: oiIwmybTWGIULOjK
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.oiIwmybTWGIULOjK"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    text: Devil’s Wrath
+  - _id: n86XFONGKYL8w12O
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.n86XFONGKYL8w12O"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    text: Hell’s Fury
+  - _id: WNHmzJdIfbdpqZw8
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.WNHmzJdIfbdpqZw8"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    text: Damnation
+  - _id: XocRH87nEOEtK6Pu
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.XocRH87nEOEtK6Pu"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    text: Adversary
+  - _id: giiQHxzKS065qyNG
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.giiQHxzKS065qyNG"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    text: Sea Serpent
+  - _id: KimTdMxyk3RXRRjd
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.KimTdMxyk3RXRRjd"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    text: Devil’s Cry
+  - _id: S16vlnbCUy3spgdv
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.S16vlnbCUy3spgdv"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    text: Hellfire
+  - _id: ORiOfg5OLWqEKOdy
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.ORiOfg5OLWqEKOdy"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    text: Hell’s Angel
+  - _id: iUfNGTj1lPPFXyOJ
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.iUfNGTj1lPPFXyOJ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    text: Fallen Angel
+  - _id: cZ5iJebIzSL5uabG
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.cZ5iJebIzSL5uabG"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    text: Roger’s Galley
+  - _id: oq6YTOhdRIJFcLQc
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.oq6YTOhdRIJFcLQc"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    text: Sea Devil
+  - _id: 6bNALBr1T86abiT7
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.6bNALBr1T86abiT7"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    text: Inferno
+  - _id: OEsSuvNjVzr2S0Xq
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.OEsSuvNjVzr2S0Xq"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    text: Perdition
+  - _id: YVedEqO13AoSbPVh
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.YVedEqO13AoSbPVh"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    text: Pandemonium
+  - _id: h7iKhRZbLY63KkGO
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.h7iKhRZbLY63KkGO"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    text: Abyssal Galley
+  - _id: FEqd1XpjkRSVWGQU
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.FEqd1XpjkRSVWGQU"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    text: Abaddon’s Wrath
+  - _id: DZFRXEAQBVSxGjM4
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.DZFRXEAQBVSxGjM4"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    text: Leviathan
+  - _id: R1lGfxdRZY8CI7P5
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.R1lGfxdRZY8CI7P5"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    text: Davy Jones’ Revenge
+  - _id: bI1bAnzPAnXIt83T
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.bI1bAnzPAnXIt83T"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    text: Brimstone
+  - _id: zhYTIsCX09AM9Ii7
+    _key: "!tables.results!.3fHLisvuhUUq5ZSI.zhYTIsCX09AM9Ii7"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    text: Blasphemy

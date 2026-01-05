@@ -1,0 +1,28 @@
+name: 'Pirate Ship Names: Aspirational'
+formula: 1d6
+description: Pirate ship names that invoke the crew’s hopes and ambitions.
+results:
+  - range:
+      - 1
+      - 1
+    text: Jewels
+  - range:
+      - 2
+      - 2
+    text: Fortune
+  - range:
+      - 3
+      - 3
+    text: Fancy
+  - range:
+      - 4
+      - 4
+    text: Adventure
+  - range:
+      - 5
+      - 5
+    text: Delivery
+  - range:
+      - 6
+      - 6
+    text: Delight

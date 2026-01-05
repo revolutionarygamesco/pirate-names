@@ -1,0 +1,62 @@
+_id: yCp87f1lm8UOkYRl
+_key: "!tables!.yCp87f1lm8UOkYRl"
+name: "Pirate Ship Names: Aspirational"
+description: Pirate ship names that invoke the crew’s hopes and ambitions.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: JtUtnYTKom9sjdFQ
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.JtUtnYTKom9sjdFQ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.f23Xw486IUVguNKa
+    name: "Pirate Ship Names: Jewels"
+  - _id: Fis6ivcBZlHrG63l
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.Fis6ivcBZlHrG63l"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.FMgV4tDiQrzAu45Z
+    name: "Pirate Ship Names: Fortune"
+  - _id: LXU4Ew1hEmxbQDvx
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.LXU4Ew1hEmxbQDvx"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.8LIsU4MVeN0vtUVc
+    name: "Pirate Ship Names: Fancy"
+  - _id: mAwF1UxHJFLAnS4Y
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.mAwF1UxHJFLAnS4Y"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.cMqLo02pJ3qmx4Yz
+    name: "Pirate Ship Names: Adventure"
+  - _id: rqGcdH49v32rxCI9
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.rqGcdH49v32rxCI9"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pdKdiu5mvpxOrI4M
+    name: "Pirate Ship Names: Delivery"
+  - _id: yoYgDUNrkegETOOT
+    _key: "!tables.results!.yCp87f1lm8UOkYRl.yoYgDUNrkegETOOT"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.BlDBmG0JRUMRsR8O
+    name: "Pirate Ship Names: Delight"

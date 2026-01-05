@@ -1,0 +1,32 @@
+name: 'Pirate Ship Names: Rubies'
+formula: 1d8
+description: Pirate ship names centering on rubies.
+results:
+  - range:
+      - 1
+      - 2
+    text: Ruby
+  - range:
+      - 3
+      - 3
+    text: Red Ruby
+  - range:
+      - 4
+      - 4
+    text: Bloody Ruby
+  - range:
+      - 5
+      - 5
+    text: Scarlet Ruby
+  - range:
+      - 6
+      - 6
+    text: Crimson Ruby
+  - range:
+      - 7
+      - 7
+    text: Cardinal Ruby
+  - range:
+      - 8
+      - 8
+    text: Fire Ruby

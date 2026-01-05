@@ -1,0 +1,28 @@
+name: 'Pirate Ship Names: Hinds'
+formula: 1d6
+description: Pirate ship names centering on hinds.
+results:
+  - range:
+      - 1
+      - 1
+    text: Golden Hind
+  - range:
+      - 2
+      - 2
+    text: Silver Hind
+  - range:
+      - 3
+      - 3
+    text: White Hind
+  - range:
+      - 4
+      - 4
+    text: Black Hind
+  - range:
+      - 5
+      - 5
+    text: Flying Hind
+  - range:
+      - 6
+      - 6
+    text: Wild Hind

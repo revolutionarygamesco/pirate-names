@@ -1,0 +1,88 @@
+_id: erjJFg34VTu3uiEN
+_key: "!tables!.erjJFg34VTu3uiEN"
+name: "Pirate Ship Names: Revenge"
+description: Pirate ship names centering on vengeance.
+img: icons/svg/d20-grey.svg
+formula: 2d6
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: QaWR11nFKm9JtVVP
+    _key: "!tables.results!.erjJFg34VTu3uiEN.QaWR11nFKm9JtVVP"
+    range:
+      - 2
+      - 3
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.q253hRHKg70z7uf6
+    name: "Pirate Ship Names: Vengeance"
+  - _id: niwyxQtb9if5F4O5
+    _key: "!tables.results!.erjJFg34VTu3uiEN.niwyxQtb9if5F4O5"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.fnALyNajx1XcIhR4
+    name: "Pirate Ship Names: Adjectival Revenge"
+  - _id: 8064ZMmUnbFzIqDH
+    _key: "!tables.results!.erjJFg34VTu3uiEN.8064ZMmUnbFzIqDH"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.b72VjH2RrrkesYCP
+    name: "Pirate Ship Names: Place’s Revenge"
+  - _id: O2ntIZhKbDuadhOR
+    _key: "!tables.results!.erjJFg34VTu3uiEN.O2ntIZhKbDuadhOR"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.36l8yt6xuQnoyEeY
+    name: "Pirate Ship Names: Jacobite Revenge"
+  - _id: Q9IiKLqlGJZPPkap
+    _key: "!tables.results!.erjJFg34VTu3uiEN.Q9IiKLqlGJZPPkap"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Revenge
+  - _id: 78WeFwBVn2YpCuj0
+    _key: "!tables.results!.erjJFg34VTu3uiEN.78WeFwBVn2YpCuj0"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.z9VS5jau5fK6qmyv
+    name: "Pirate Ship Names: Sailor’s Revenge"
+  - _id: r14m1basTW3tjqm4
+    _key: "!tables.results!.erjJFg34VTu3uiEN.r14m1basTW3tjqm4"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.2wGxgaJR1U4HWKHB
+    name: "Pirate Ship Names: Pirate’s Revenge"
+  - _id: MPfrUZCdxhJZoWIp
+    _key: "!tables.results!.erjJFg34VTu3uiEN.MPfrUZCdxhJZoWIp"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.94Z5Uqa67wJBXgic
+    name: "Pirate Ship Names: Mythical Fury"
+  - _id: jOoBwR6RDLJ6YaRH
+    _key: "!tables.results!.erjJFg34VTu3uiEN.jOoBwR6RDLJ6YaRH"
+    range:
+      - 11
+      - 12
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.SPjzxohsr6BuWOiK
+    name: "Pirate Ship Names: Avenger"

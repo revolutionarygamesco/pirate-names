@@ -1,0 +1,71 @@
+_id: ScPMf8BdSRKDbFKF
+_key: "!tables!.ScPMf8BdSRKDbFKF"
+name: Pirate Ship Names
+description: Names for pirate ships.
+img: icons/svg/d20-grey.svg
+formula: 2d4
+folder: YKQHQ8vqzvzoGvaK
+results:
+  - _id: urNUdvRrsxGvwfhj
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.urNUdvRrsxGvwfhj"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.UHd5WQAUw7052bUm
+    name: "Pirate Ship Names: Jacobite Names"
+  - _id: qN1jeZDY0vZxpWqn
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.qN1jeZDY0vZxpWqn"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ohvTYSgAkCqtUG4m
+    name: "Pirate Ship Names: Gallows Humor"
+  - _id: vbu5o89kTWfnHUyr
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.vbu5o89kTWfnHUyr"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.yCp87f1lm8UOkYRl
+    name: "Pirate Ship Names: Aspirational"
+  - _id: Ddp8EnKAp6ZwAREW
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.Ddp8EnKAp6ZwAREW"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.erjJFg34VTu3uiEN
+    name: "Pirate Ship Names: Revenge"
+  - _id: TNHoPIuyxOO0S8qi
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.TNHoPIuyxOO0S8qi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.wAgkdtk8J71NJKUr
+    name: "Pirate Ship Names: Animals"
+  - _id: eAxVCxaVQ7dRq3vX
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.eAxVCxaVQ7dRq3vX"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.4Co3fSNfHeXfErwt
+    name: "Pirate Ship Names: Threats"
+  - _id: vd3rZWbQdCLsevNb
+    _key: "!tables.results!.ScPMf8BdSRKDbFKF.vd3rZWbQdCLsevNb"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3fHLisvuhUUq5ZSI
+    name: "Pirate Ship Names: Blasphemous"

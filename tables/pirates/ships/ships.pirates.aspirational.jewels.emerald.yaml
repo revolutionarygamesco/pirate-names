@@ -1,0 +1,32 @@
+name: 'Pirate Ship Names: Emeralds'
+formula: 1d8
+description: Pirate ship names centering on emeralds.
+results:
+  - range:
+      - 1
+      - 2
+    text: Emerald
+  - range:
+      - 3
+      - 3
+    text: Green Emerald
+  - range:
+      - 4
+      - 4
+    text: Viridian Emerald
+  - range:
+      - 5
+      - 5
+    text: Forest Emerald
+  - range:
+      - 6
+      - 6
+    text: Deep Emerald
+  - range:
+      - 7
+      - 7
+    text: Sea Emerald
+  - range:
+      - 8
+      - 8
+    text: Poison Emerald
