@@ -1,0 +1,808 @@
+_id: WW2BhJyREzjc8OK5
+_key: "!tables!.WW2BhJyREzjc8OK5"
+name: Names for Dutch Ships from Places
+description: Appropriate names for Dutch ships taken from locations or regions.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: aRGe4z9ZnMGvp2wL
+results:
+  - _id: snHW17ill5ZofM4l
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.snHW17ill5ZofM4l"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Guelders
+  - _id: brRpkRAbdrS48EBz
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.brRpkRAbdrS48EBz"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Holland
+  - _id: FYbD0TF2Gdvj7rKi
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.FYbD0TF2Gdvj7rKi"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Zeeland
+  - _id: NByZtuDvVB2ICZuI
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.NByZtuDvVB2ICZuI"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Utrecht
+  - _id: OslGU8EgL5941aOm
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.OslGU8EgL5941aOm"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Overijssel
+  - _id: qDDzf51OP8SpFWpk
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.qDDzf51OP8SpFWpk"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Frisia
+  - _id: V2mnupJHnvfNkgdf
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.V2mnupJHnvfNkgdf"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Groningen
+  - _id: DiHG87IynmZZcwZd
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.DiHG87IynmZZcwZd"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Geldern
+  - _id: pM2b50QFo1qsSGTW
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.pM2b50QFo1qsSGTW"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Zutphen
+  - _id: PSkfzhrB9EgtKT7O
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.PSkfzhrB9EgtKT7O"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Arnhem
+  - _id: gH9ydDhF5Ngxi871
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.gH9ydDhF5Ngxi871"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Betuwe
+  - _id: buZrKEyAeXhIrjrb
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.buZrKEyAeXhIrjrb"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hague
+  - _id: fkOpBHEP6bc5mXZi
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.fkOpBHEP6bc5mXZi"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Hainaut
+  - _id: 7sSblZx3BbVq1HCL
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.7sSblZx3BbVq1HCL"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Flanders
+  - _id: 09u3rTlbEcVVndWp
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.09u3rTlbEcVVndWp"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Middleburg
+  - _id: t6tc74ofrh3oSpX7
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.t6tc74ofrh3oSpX7"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Leeuwarden
+  - _id: MNISQQhUd2as444x
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.MNISQQhUd2as444x"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Amsterdam
+  - _id: rkVKaRZ60G0PAq4d
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.rkVKaRZ60G0PAq4d"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Hoorn
+  - _id: ZI4HWbtVoIxS8198
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.ZI4HWbtVoIxS8198"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Rotterdam
+  - _id: jVaZXNha6AoshT9Z
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.jVaZXNha6AoshT9Z"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Kreeftskeerkring
+  - _id: gFOMPthBUz3rrsAm
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.gFOMPthBUz3rrsAm"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Steenbokskeerkring
+  - _id: 25KD8tbtTPIrMpK5
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.25KD8tbtTPIrMpK5"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Kaap de Goede Hoop
+  - _id: gbXKguFzQe3NH97A
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.gbXKguFzQe3NH97A"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Arguin
+  - _id: W6PmatGx1GEGXZSq
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.W6PmatGx1GEGXZSq"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Gouden Kust
+  - _id: DQPE9q1qlaFlhH1b
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.DQPE9q1qlaFlhH1b"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Arika
+  - _id: AnJ42cwBtcqYNsZH
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.AnJ42cwBtcqYNsZH"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Amerika
+  - _id: ksqhSaydc0SXP4pM
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.ksqhSaydc0SXP4pM"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Sint Antonius
+  - _id: OEFnXO6qXxNgZBUj
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.OEFnXO6qXxNgZBUj"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Aardenburgh
+  - _id: ZmUOm9RYrXkxw6dU
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.ZmUOm9RYrXkxw6dU"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Sint Maarten
+  - _id: sBAkk3RNFGc4M1R7
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.sBAkk3RNFGc4M1R7"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Philipsburg
+  - _id: CG1aip9U8kG3C6PZ
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.CG1aip9U8kG3C6PZ"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Koolbaai
+  - _id: efAHSVrUXqLpAO4e
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.efAHSVrUXqLpAO4e"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Curaçao
+  - _id: U5xtJAbyHmsBt5NJ
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.U5xtJAbyHmsBt5NJ"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Willemstad
+  - _id: uXTvkzjQuM6fR4Dr
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.uXTvkzjQuM6fR4Dr"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Schottegat
+  - _id: udVzkHOHM2jwqQjR
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.udVzkHOHM2jwqQjR"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Christoffelberg
+  - _id: RioJWOsVklmiuJvu
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.RioJWOsVklmiuJvu"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Buskabaai
+  - _id: icU72mmfJJ3rPGhp
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.icU72mmfJJ3rPGhp"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Asfalimeer
+  - _id: 3qXjr89OiDdfMG4y
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.3qXjr89OiDdfMG4y"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Sint Eustatius
+  - _id: 601ZN1HQoRBaCsU3
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.601ZN1HQoRBaCsU3"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Oranjestad
+  - _id: c16Gp1K3ypvDQDVJ
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.c16Gp1K3ypvDQDVJ"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Zeelandia
+  - _id: 0sGHFkEbKLpxRN8Q
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.0sGHFkEbKLpxRN8Q"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Gilboa
+  - _id: 9X2vXXx3HYHwoyGV
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.9X2vXXx3HYHwoyGV"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Kuilzak
+  - _id: kJZw7pTXzhP5j2gG
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.kJZw7pTXzhP5j2gG"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Zorg en Rust
+  - _id: hPyNuKDOk7dVx4JN
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.hPyNuKDOk7dVx4JN"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Nooit Gedacht
+  - _id: dcmEZ0L9wK03HCQk
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.dcmEZ0L9wK03HCQk"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Ruym Sigt
+  - _id: sSNT3leAVxWIDXiC
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.sSNT3leAVxWIDXiC"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Gouden Rots
+  - _id: 88yRAqqBhUwsBHPe
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.88yRAqqBhUwsBHPe"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Waterfort
+  - _id: rG0pNY2VV6L8XlH2
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.rG0pNY2VV6L8XlH2"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Saba
+  - _id: 2GysGnxiNiDj3Fs6
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.2GysGnxiNiDj3Fs6"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Bonaire
+  - _id: AGWtsrjz7OsKv090
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.AGWtsrjz7OsKv090"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Oranje
+  - _id: pEEvjTaN9ZToumWr
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.pEEvjTaN9ZToumWr"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Eiland van Vogels
+  - _id: hKlL5y80tDppTZmh
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.hKlL5y80tDppTZmh"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Nieuw Walcheren
+  - _id: t9iKJ4ofmkf2nPil
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.t9iKJ4ofmkf2nPil"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Tortuga
+  - _id: h7bRjf0JXxgUOknM
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.h7bRjf0JXxgUOknM"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Aruba
+  - _id: 4yF1Vwz6PsIYCqkr
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.4yF1Vwz6PsIYCqkr"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Enkhuizen
+  - _id: laVPsdnuKOuEgOrc
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.laVPsdnuKOuEgOrc"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Medemblik
+  - _id: kHQwuAUcENImOK0Z
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.kHQwuAUcENImOK0Z"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: San Nicolaas
+  - _id: oz17K6dcg9V4Wq02
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.oz17K6dcg9V4Wq02"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Ter Tholen
+  - _id: h4T4XI3olY50cwz1
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.h4T4XI3olY50cwz1"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Maagdeneilanden
+  - _id: X8eEB3UpiNZOh0ks
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.X8eEB3UpiNZOh0ks"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Sint Kruis
+  - _id: Il8lwtgCkBQSpTyM
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.Il8lwtgCkBQSpTyM"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Sint Thomas
+  - _id: 94duDs4aZMqO98Ws
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.94duDs4aZMqO98Ws"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Dikke Naagd
+  - _id: UJFWJOuEX6RLlZpW
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.UJFWJOuEX6RLlZpW"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Berbice
+  - _id: pF0l4ZjLE1bO24qJ
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.pF0l4ZjLE1bO24qJ"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Sint Andries
+  - _id: hTymQwB1HOdDf33Y
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.hTymQwB1HOdDf33Y"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Nassau
+  - _id: vsA2j6fCEPptLGkC
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.vsA2j6fCEPptLGkC"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Demerary
+  - _id: Bl33Pjm3pccPUHrm
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.Bl33Pjm3pccPUHrm"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Borsselen
+  - _id: PTxXwrA0bTBaMnTd
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.PTxXwrA0bTBaMnTd"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Stabroek
+  - _id: 4cgSgwrKsWehivKb
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.4cgSgwrKsWehivKb"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Essequebo
+  - _id: EU2zzzPB5TuPqYNW
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.EU2zzzPB5TuPqYNW"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Suriname
+  - _id: 4pMbsnR81e8OEZwc
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.4pMbsnR81e8OEZwc"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Nieuw Middelburg
+  - _id: AgFsaNh2Ul60qRZk
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.AgFsaNh2Ul60qRZk"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Sommelsdijk
+  - _id: 25WmpFu6EePjfpfP
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.25WmpFu6EePjfpfP"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Guyana
+  - _id: 2XRrDBl8yGgSvRgM
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.2XRrDBl8yGgSvRgM"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Antwerp
+  - _id: ZjF7Z7a0tt44DJL8
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.ZjF7Z7a0tt44DJL8"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Leiden
+  - _id: mhXLlKWNDcCxz1Iw
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.mhXLlKWNDcCxz1Iw"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Friesland
+  - _id: nUTBwvVyk016akaN
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.nUTBwvVyk016akaN"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Noorderkwartier
+  - _id: topq0EbE0a8Yw9Vi
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.topq0EbE0a8Yw9Vi"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Kattenburg
+  - _id: X0rvGun4WOlF4eG9
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.X0rvGun4WOlF4eG9"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Oostenburg
+  - _id: tN08tGZaKBMkD5Xb
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.tN08tGZaKBMkD5Xb"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Nieuwe Haven
+  - _id: fXpr1QWOzTVW6CD0
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.fXpr1QWOzTVW6CD0"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Groenendaal
+  - _id: 2XHiP1Aceuhg5nTg
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.2XHiP1Aceuhg5nTg"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Veere
+  - _id: nCKTj1cbNValQUjN
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.nCKTj1cbNValQUjN"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Vlissingen
+  - _id: aLaacK1oYUF4UToA
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.aLaacK1oYUF4UToA"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Zierikzee
+  - _id: k7eroIHjAjvNq2RO
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.k7eroIHjAjvNq2RO"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Calabar
+  - _id: niflsrdfcT29x9rF
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.niflsrdfcT29x9rF"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Eindhoven
+  - _id: WjQk6Xpyi95XoyTn
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.WjQk6Xpyi95XoyTn"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Tilburg
+  - _id: 0INYOOQkdiOlTGwv
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.0INYOOQkdiOlTGwv"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Lastage
+  - _id: 74f9SKX2HZpESG1x
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.74f9SKX2HZpESG1x"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Hellevoetsluis
+  - _id: Y7XmSIw51KFWzR1R
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.Y7XmSIw51KFWzR1R"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Breda
+  - _id: Xpd5B3mFun4TtUUc
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.Xpd5B3mFun4TtUUc"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Nijmegen
+  - _id: 6JQeDtWu9mZvttT1
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.6JQeDtWu9mZvttT1"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Enschede
+  - _id: RQQKJWauTVyhzeeR
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.RQQKJWauTVyhzeeR"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Haarlem
+  - _id: 2eH8ZL9W8Yul9QUL
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.2eH8ZL9W8Yul9QUL"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Zaanstad
+  - _id: K9jizOpUTQtmFPSY
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.K9jizOpUTQtmFPSY"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Amersfoort
+  - _id: ZLLjE1NPXsAVlTgW
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.ZLLjE1NPXsAVlTgW"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Apeldoorn
+  - _id: 41NIda5ko0WXQ0nm
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.41NIda5ko0WXQ0nm"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Maastricht
+  - _id: cdn8NIaBZGJxRMFx
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.cdn8NIaBZGJxRMFx"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Dordrecht
+  - _id: SCIXyvXgLjkscNOu
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.SCIXyvXgLjkscNOu"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Zoetermeer
+  - _id: f1DDlNxkIx1jqbAM
+    _key: "!tables.results!.WW2BhJyREzjc8OK5.f1DDlNxkIx1jqbAM"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Zwolle
