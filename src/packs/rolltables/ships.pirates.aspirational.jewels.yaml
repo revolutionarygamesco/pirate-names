@@ -1,5 +1,5 @@
 _id: f23Xw486IUVguNKa
-_key: "!tables!.f23Xw486IUVguNKa"
+_key: "!tables!f23Xw486IUVguNKa"
 name: "Pirate Ship Names: Jewels"
 description: Pirate ship names centering on jewels.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: PuDgldNbTCembsy8
-    _key: "!tables.results!.f23Xw486IUVguNKa.PuDgldNbTCembsy8"
+    _key: "!tables.results!f23Xw486IUVguNKa.PuDgldNbTCembsy8"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.eIbwZGhkRa5fm5RN
     name: "Pirate Ship Names: Diamonds"
   - _id: d6iQmbA9hlmDREb6
-    _key: "!tables.results!.f23Xw486IUVguNKa.d6iQmbA9hlmDREb6"
+    _key: "!tables.results!f23Xw486IUVguNKa.d6iQmbA9hlmDREb6"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.wDuEttGZRpzBfi2q
     name: "Pirate Ship Names: Emeralds"
   - _id: f0CalPtpTlDfnDQW
-    _key: "!tables.results!.f23Xw486IUVguNKa.f0CalPtpTlDfnDQW"
+    _key: "!tables.results!f23Xw486IUVguNKa.f0CalPtpTlDfnDQW"
     range:
       - 9
       - 12
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Q157nP1GtbjpJARL
     name: "Pirate Ship Names: Pearls"
   - _id: 1Kz9cWCowO8OjsT0
-    _key: "!tables.results!.f23Xw486IUVguNKa.1Kz9cWCowO8OjsT0"
+    _key: "!tables.results!f23Xw486IUVguNKa.1Kz9cWCowO8OjsT0"
     range:
       - 13
       - 16
@@ -43,7 +43,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.wcDRr2UrfVl2wrbY
     name: "Pirate Ship Names: Rubies"
   - _id: 02L7K1XHutAmvI69
-    _key: "!tables.results!.f23Xw486IUVguNKa.02L7K1XHutAmvI69"
+    _key: "!tables.results!f23Xw486IUVguNKa.02L7K1XHutAmvI69"
     range:
       - 17
       - 20

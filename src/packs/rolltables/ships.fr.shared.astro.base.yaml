@@ -1,5 +1,5 @@
 _id: 3KX6jO9elKi7KFAG
-_key: "!tables!.3KX6jO9elKi7KFAG"
+_key: "!tables!3KX6jO9elKi7KFAG"
 name: Names for French Ships from Astronomical Terms
 description: Appropriate names for French ships derived from astronomy or celestial bodies.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d10
 folder: DQlYv6FOGEeUyk06
 results:
   - _id: 7EwnBRH6hUQoJ1i4
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.7EwnBRH6hUQoJ1i4"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.7EwnBRH6hUQoJ1i4"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Aurore
   - _id: xe03uwj1sBfM5SEh
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.xe03uwj1sBfM5SEh"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.xe03uwj1sBfM5SEh"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Comète
   - _id: dWzONbNdYcKrEDof
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.dWzONbNdYcKrEDof"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.dWzONbNdYcKrEDof"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Constellation
   - _id: RmjsH4KeqbcOzwBZ
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.RmjsH4KeqbcOzwBZ"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.RmjsH4KeqbcOzwBZ"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Éclipse
   - _id: su07dQLZ6Gol2v8F
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.su07dQLZ6Gol2v8F"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.su07dQLZ6Gol2v8F"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Hespérus
   - _id: bDxdr1ldIwlmidJ5
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.bDxdr1ldIwlmidJ5"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.bDxdr1ldIwlmidJ5"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Zodiaque
   - _id: 2roUvNl8oFLvZnzz
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.2roUvNl8oFLvZnzz"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.2roUvNl8oFLvZnzz"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Voie Lactée
   - _id: FdV95oGPsNZhOC7E
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.FdV95oGPsNZhOC7E"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.FdV95oGPsNZhOC7E"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Météore
   - _id: y7bDaN2Y1KsH6Tbk
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.y7bDaN2Y1KsH6Tbk"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.y7bDaN2Y1KsH6Tbk"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Nova
   - _id: hNxnUhmLTRmY0lTJ
-    _key: "!tables.results!.3KX6jO9elKi7KFAG.hNxnUhmLTRmY0lTJ"
+    _key: "!tables.results!3KX6jO9elKi7KFAG.hNxnUhmLTRmY0lTJ"
     range:
       - 10
       - 10

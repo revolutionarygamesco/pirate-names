@@ -1,5 +1,5 @@
 _id: 3z7M2Ufy8SQc2vTz
-_key: "!tables!.3z7M2Ufy8SQc2vTz"
+_key: "!tables!3z7M2Ufy8SQc2vTz"
 name: Names for Dutch Merchantmen from Greek Mythology (Creatures)
 description: Appropriate names for Dutch merchantmen derived from derived from
   creatures in Greek mythology.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: Y5rjFkdS7fOJeZ8c
 results:
   - _id: wBDuVdNS0KkxuAX1
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.wBDuVdNS0KkxuAX1"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.wBDuVdNS0KkxuAX1"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Nereïde
   - _id: iau02okpoqBLoons
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.iau02okpoqBLoons"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.iau02okpoqBLoons"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Chimera
   - _id: Mavk3mHtepnNJ4z2
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.Mavk3mHtepnNJ4z2"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.Mavk3mHtepnNJ4z2"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Cycloop
   - _id: 8NqXhrw0r3pN2ZMi
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.8NqXhrw0r3pN2ZMi"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.8NqXhrw0r3pN2ZMi"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Tyfoon
   - _id: XIIZ4NA6NWq9k6g1
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.XIIZ4NA6NWq9k6g1"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.XIIZ4NA6NWq9k6g1"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Griffioen
   - _id: aP1LHiYjhx1C1Hqc
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.aP1LHiYjhx1C1Hqc"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.aP1LHiYjhx1C1Hqc"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Centauresse
   - _id: VNt2FnM3hFvPXPfn
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.VNt2FnM3hFvPXPfn"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.VNt2FnM3hFvPXPfn"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Harpij
   - _id: dbI4jBaYU3Yd2307
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.dbI4jBaYU3Yd2307"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.dbI4jBaYU3Yd2307"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Hippocamp
   - _id: mXOyKVOXIQWL9oz9
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.mXOyKVOXIQWL9oz9"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.mXOyKVOXIQWL9oz9"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Pegasus
   - _id: eGv1rsyl8FFm5wna
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.eGv1rsyl8FFm5wna"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.eGv1rsyl8FFm5wna"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Sirene
   - _id: 8kG4hdkVpcr8NkiF
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.8kG4hdkVpcr8NkiF"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.8kG4hdkVpcr8NkiF"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Talos
   - _id: sCXCSMIU4Pgvrt6o
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.sCXCSMIU4Pgvrt6o"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.sCXCSMIU4Pgvrt6o"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Sater
   - _id: WsXjkY2YCCG9LSw0
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.WsXjkY2YCCG9LSw0"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.WsXjkY2YCCG9LSw0"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Zeemeermin
   - _id: 0eBcQFo2FWEz7qq4
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.0eBcQFo2FWEz7qq4"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.0eBcQFo2FWEz7qq4"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Cynocephalus
   - _id: a1AC8RghkzjEhRJo
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.a1AC8RghkzjEhRJo"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.a1AC8RghkzjEhRJo"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Sciapod
   - _id: dYLJSgtM0znoWhJ8
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.dYLJSgtM0znoWhJ8"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.dYLJSgtM0znoWhJ8"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Sfinx
   - _id: eV0KdIq7OCrgQK9j
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.eV0KdIq7OCrgQK9j"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.eV0KdIq7OCrgQK9j"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Manticore
   - _id: NwQd7sRrkXWwDskk
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.NwQd7sRrkXWwDskk"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.NwQd7sRrkXWwDskk"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Ouroboros
   - _id: yWcX0BTipZ6zxgSe
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.yWcX0BTipZ6zxgSe"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.yWcX0BTipZ6zxgSe"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Phoenix
   - _id: M11O6vSbS6LN9It7
-    _key: "!tables.results!.3z7M2Ufy8SQc2vTz.M11O6vSbS6LN9It7"
+    _key: "!tables.results!3z7M2Ufy8SQc2vTz.M11O6vSbS6LN9It7"
     range:
       - 20
       - 20

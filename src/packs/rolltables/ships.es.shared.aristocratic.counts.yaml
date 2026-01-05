@@ -1,5 +1,5 @@
 _id: qz0vWQCWH8cBfpla
-_key: "!tables!.qz0vWQCWH8cBfpla"
+_key: "!tables!qz0vWQCWH8cBfpla"
 name: Names for Spanish Ships from Count Titles
 description: Appropriate names for Spanish ships derived from the titles of the
   counts of the Spanish Empire.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: UBh2FeOAjFVXF0f0
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.UBh2FeOAjFVXF0f0"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.UBh2FeOAjFVXF0f0"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Conde de Álava
   - _id: mUuZYN7IpGM3AEGt
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.mUuZYN7IpGM3AEGt"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.mUuZYN7IpGM3AEGt"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Conde de Alba de Liste
   - _id: wv2O2X9b81cqsTz9
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.wv2O2X9b81cqsTz9"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.wv2O2X9b81cqsTz9"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Conde de Barcelona
   - _id: DsZEXh7cUyccvi4D
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.DsZEXh7cUyccvi4D"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.DsZEXh7cUyccvi4D"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Conde de Benavente
   - _id: xVgM0qG42ciJmIWs
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.xVgM0qG42ciJmIWs"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.xVgM0qG42ciJmIWs"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Conde de Chican
   - _id: kmEZTJy6GUXcb9g5
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.kmEZTJy6GUXcb9g5"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.kmEZTJy6GUXcb9g5"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Conde de Chinchón
   - _id: trCqW4brBzYEKhja
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.trCqW4brBzYEKhja"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.trCqW4brBzYEKhja"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Conde de Coruña
   - _id: 5tOKfb1ZLfotVOTB
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.5tOKfb1ZLfotVOTB"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.5tOKfb1ZLfotVOTB"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Conde de Elda
   - _id: xrmOdZgke5f6Xwfa
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.xrmOdZgke5f6Xwfa"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.xrmOdZgke5f6Xwfa"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Conde de Empúries
   - _id: tshwdrwEAg49VwfU
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.tshwdrwEAg49VwfU"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.tshwdrwEAg49VwfU"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Conde de Galve
   - _id: wzC2otUedicYCKc7
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.wzC2otUedicYCKc7"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.wzC2otUedicYCKc7"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Conde de Gondomar
   - _id: 0M8B33EfxXoQ9779
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.0M8B33EfxXoQ9779"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.0M8B33EfxXoQ9779"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Conde de Lemos
   - _id: Cgl1JlKFefeR4D5b
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.Cgl1JlKFefeR4D5b"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.Cgl1JlKFefeR4D5b"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Conde de Liébana
   - _id: 1w12fnre9jkpKbMD
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.1w12fnre9jkpKbMD"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.1w12fnre9jkpKbMD"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Conde de Mayalde
   - _id: w6FcHKQpa5ThDUiC
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.w6FcHKQpa5ThDUiC"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.w6FcHKQpa5ThDUiC"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Conde de Mora
   - _id: Ne9xPYCgJ0lEV4LA
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.Ne9xPYCgJ0lEV4LA"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.Ne9xPYCgJ0lEV4LA"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Conde de Osorno
   - _id: osq9PrHELMFVS2Ko
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.osq9PrHELMFVS2Ko"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.osq9PrHELMFVS2Ko"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Conde de Regla
   - _id: 3v4oegCwxbFAwYeZ
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.3v4oegCwxbFAwYeZ"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.3v4oegCwxbFAwYeZ"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Conde de Tolosa
   - _id: BP2ZQzJoEduQtDcq
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.BP2ZQzJoEduQtDcq"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.BP2ZQzJoEduQtDcq"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Conde de Treviño
   - _id: H9bujDxu9qk8dEMA
-    _key: "!tables.results!.qz0vWQCWH8cBfpla.H9bujDxu9qk8dEMA"
+    _key: "!tables.results!qz0vWQCWH8cBfpla.H9bujDxu9qk8dEMA"
     range:
       - 20
       - 20

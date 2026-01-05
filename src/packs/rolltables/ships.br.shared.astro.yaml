@@ -1,13 +1,14 @@
 _id: byP0Xa7TSpQoecu3
-_key: "!tables!.byP0Xa7TSpQoecu3"
+_key: "!tables!byP0Xa7TSpQoecu3"
 name: Names for British Ships from Astronomy
-description: Appropriate names for British ships derived from astronomy and celestial bodies.
+description: Appropriate names for British ships derived from astronomy and
+  celestial bodies.
 img: icons/svg/d20-grey.svg
 formula: 1d20
 folder: y9dbRWvmng95HqLL
 results:
   - _id: 0GhNlRAgWI7ISEs8
-    _key: "!tables.results!.byP0Xa7TSpQoecu3.0GhNlRAgWI7ISEs8"
+    _key: "!tables.results!byP0Xa7TSpQoecu3.0GhNlRAgWI7ISEs8"
     range:
       - 1
       - 4
@@ -16,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.D81NLBBoGXo1HwxW
     name: Names for British Ships from Astronomical Terms
   - _id: dvWua17T5XgKDzaZ
-    _key: "!tables.results!.byP0Xa7TSpQoecu3.dvWua17T5XgKDzaZ"
+    _key: "!tables.results!byP0Xa7TSpQoecu3.dvWua17T5XgKDzaZ"
     range:
       - 5
       - 8
@@ -25,7 +26,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.nSOwdP2blF0XXl9W
     name: Names for British Ships from Stars
   - _id: l39H4ZwvSCCH7ch9
-    _key: "!tables.results!.byP0Xa7TSpQoecu3.l39H4ZwvSCCH7ch9"
+    _key: "!tables.results!byP0Xa7TSpQoecu3.l39H4ZwvSCCH7ch9"
     range:
       - 9
       - 14
@@ -34,7 +35,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.q3AHebOkXqnjvAnO
     name: Names for British Ships from the Zodiac
   - _id: 9TACSPlmlgNYDlTa
-    _key: "!tables.results!.byP0Xa7TSpQoecu3.9TACSPlmlgNYDlTa"
+    _key: "!tables.results!byP0Xa7TSpQoecu3.9TACSPlmlgNYDlTa"
     range:
       - 15
       - 20

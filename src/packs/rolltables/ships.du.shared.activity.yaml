@@ -1,5 +1,5 @@
 _id: arbscLxvl3J7XOOI
-_key: "!tables!.arbscLxvl3J7XOOI"
+_key: "!tables!arbscLxvl3J7XOOI"
 name: Names for Dutch Ships from Activities
 description: Appropriate names for Dutch ships that refer to an activity.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d10
 folder: aRGe4z9ZnMGvp2wL
 results:
   - _id: oejDjt1ZgdiOsXho
-    _key: "!tables.results!.arbscLxvl3J7XOOI.oejDjt1ZgdiOsXho"
+    _key: "!tables.results!arbscLxvl3J7XOOI.oejDjt1ZgdiOsXho"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Aventurier
   - _id: DSncYE2xuHJifANE
-    _key: "!tables.results!.arbscLxvl3J7XOOI.DSncYE2xuHJifANE"
+    _key: "!tables.results!arbscLxvl3J7XOOI.DSncYE2xuHJifANE"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Beschermer
   - _id: oRPhtl2HHEnDOUQE
-    _key: "!tables.results!.arbscLxvl3J7XOOI.oRPhtl2HHEnDOUQE"
+    _key: "!tables.results!arbscLxvl3J7XOOI.oRPhtl2HHEnDOUQE"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Experiment
   - _id: 9rYIgYHNiIq1aA18
-    _key: "!tables.results!.arbscLxvl3J7XOOI.9rYIgYHNiIq1aA18"
+    _key: "!tables.results!arbscLxvl3J7XOOI.9rYIgYHNiIq1aA18"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Kruiser
   - _id: usDdlzbfKFo3HfE6
-    _key: "!tables.results!.arbscLxvl3J7XOOI.usDdlzbfKFo3HfE6"
+    _key: "!tables.results!arbscLxvl3J7XOOI.usDdlzbfKFo3HfE6"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Lacher
   - _id: bxXS0c56fFuXQ6m1
-    _key: "!tables.results!.arbscLxvl3J7XOOI.bxXS0c56fFuXQ6m1"
+    _key: "!tables.results!arbscLxvl3J7XOOI.bxXS0c56fFuXQ6m1"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Negotie
   - _id: 2WMO0r7JORvVPCAf
-    _key: "!tables.results!.arbscLxvl3J7XOOI.2WMO0r7JORvVPCAf"
+    _key: "!tables.results!arbscLxvl3J7XOOI.2WMO0r7JORvVPCAf"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Snauw
   - _id: VNZahoxOAoAMwpAi
-    _key: "!tables.results!.arbscLxvl3J7XOOI.VNZahoxOAoAMwpAi"
+    _key: "!tables.results!arbscLxvl3J7XOOI.VNZahoxOAoAMwpAi"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Snuffelaar
   - _id: daXS5PEaRXxh2lUK
-    _key: "!tables.results!.arbscLxvl3J7XOOI.daXS5PEaRXxh2lUK"
+    _key: "!tables.results!arbscLxvl3J7XOOI.daXS5PEaRXxh2lUK"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Zeevaart
   - _id: WQHJBilZUIxJE1Ay
-    _key: "!tables.results!.arbscLxvl3J7XOOI.WQHJBilZUIxJE1Ay"
+    _key: "!tables.results!arbscLxvl3J7XOOI.WQHJBilZUIxJE1Ay"
     range:
       - 10
       - 10

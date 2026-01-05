@@ -1,5 +1,5 @@
 _id: KH3NDFJHLIwH1BtJ
-_key: "!tables!.KH3NDFJHLIwH1BtJ"
+_key: "!tables!KH3NDFJHLIwH1BtJ"
 name: Names for Spanish Ships from Stars
 description: Appropriate names for Spanish ships named for stars.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d8
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: O0kshXJh6skmuHVK
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.O0kshXJh6skmuHVK"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.O0kshXJh6skmuHVK"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Estrella
   - _id: gE0kjAdyuyWpSOAc
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.gE0kjAdyuyWpSOAc"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.gE0kjAdyuyWpSOAc"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Estrella del Norte
   - _id: 5ae1Xi7nXeqKU7qu
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.5ae1Xi7nXeqKU7qu"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.5ae1Xi7nXeqKU7qu"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Estrella del Sur
   - _id: uF6AkSLYFSXLF4vV
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.uF6AkSLYFSXLF4vV"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.uF6AkSLYFSXLF4vV"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Estrella del Este
   - _id: 71yJ7DXYcIfpQFDz
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.71yJ7DXYcIfpQFDz"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.71yJ7DXYcIfpQFDz"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Estrella del Oeste
   - _id: iDewbPAK7obnWQxx
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.iDewbPAK7obnWQxx"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.iDewbPAK7obnWQxx"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Estrella de la Mañana
   - _id: w1NrbJ3nTReAGyuY
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.w1NrbJ3nTReAGyuY"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.w1NrbJ3nTReAGyuY"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Estrella de la Tarde
   - _id: MUIvlwbC57hyYVO9
-    _key: "!tables.results!.KH3NDFJHLIwH1BtJ.MUIvlwbC57hyYVO9"
+    _key: "!tables.results!KH3NDFJHLIwH1BtJ.MUIvlwbC57hyYVO9"
     range:
       - 8
       - 8

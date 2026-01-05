@@ -1,5 +1,5 @@
 _id: PgE6UHrWMR0RNRg5
-_key: "!tables!.PgE6UHrWMR0RNRg5"
+_key: "!tables!PgE6UHrWMR0RNRg5"
 name: Religious Names for Spanish Ships from Other Sources
 description: Every Spanish ship officially had a name referring to some sort of
   religious theme.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: aNVsEtOnMyTSWL8U
 results:
   - _id: mD1PTfRkcQlv4j8u
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.mD1PTfRkcQlv4j8u"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.mD1PTfRkcQlv4j8u"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Angel de la Guardia
   - _id: 0JZefbDgOe7PXFkN
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.0JZefbDgOe7PXFkN"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.0JZefbDgOe7PXFkN"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Asuncion
   - _id: l2nlvoq8MBjTJCXp
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.l2nlvoq8MBjTJCXp"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.l2nlvoq8MBjTJCXp"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Concepción
   - _id: oHgNZB8bhXKIsE0m
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.oHgNZB8bhXKIsE0m"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.oHgNZB8bhXKIsE0m"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Divina Pastora
   - _id: I2BTxFXzuOiCnxvH
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.I2BTxFXzuOiCnxvH"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.I2BTxFXzuOiCnxvH"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Jesus Maria y Jose
   - _id: EY9Ue8BIg3d2I86M
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.EY9Ue8BIg3d2I86M"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.EY9Ue8BIg3d2I86M"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Providencia
   - _id: xSnQauLytyp9E5iC
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.xSnQauLytyp9E5iC"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.xSnQauLytyp9E5iC"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Purísima Concepcion
   - _id: AUfjPg0PxDo6YUka
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.AUfjPg0PxDo6YUka"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.AUfjPg0PxDo6YUka"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Salvador
   - _id: nlntQRjbaw4V9VG8
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.nlntQRjbaw4V9VG8"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.nlntQRjbaw4V9VG8"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Salvador del Mundo
   - _id: HSkbq9IyX8TOPJuy
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.HSkbq9IyX8TOPJuy"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.HSkbq9IyX8TOPJuy"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Santisima Trinidad
   - _id: qqtyBf1rDIu6Wnfu
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.qqtyBf1rDIu6Wnfu"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.qqtyBf1rDIu6Wnfu"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Santisimo Sacramento
   - _id: heS6rQNqTqIb7viJ
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.heS6rQNqTqIb7viJ"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.heS6rQNqTqIb7viJ"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Tres Reyes
   - _id: hNKs4ESohKHn0URe
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.hNKs4ESohKHn0URe"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.hNKs4ESohKHn0URe"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Trinidad
   - _id: sskz2Iq3AS3ursQ6
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.sskz2Iq3AS3ursQ6"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.sskz2Iq3AS3ursQ6"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Zeloso
   - _id: i85DpAnrvCHKTk15
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.i85DpAnrvCHKTk15"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.i85DpAnrvCHKTk15"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Confesión
   - _id: rpjv0PBVlsjnB7IA
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.rpjv0PBVlsjnB7IA"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.rpjv0PBVlsjnB7IA"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Eucaristía
   - _id: Ps6ElXDk9YqzTtzk
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.Ps6ElXDk9YqzTtzk"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.Ps6ElXDk9YqzTtzk"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Pasón de Cristo
   - _id: qJ7eaqDcNDsYk4nx
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.qJ7eaqDcNDsYk4nx"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.qJ7eaqDcNDsYk4nx"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Sangre Santa
   - _id: 0fM5hMgu91XkW3xs
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.0fM5hMgu91XkW3xs"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.0fM5hMgu91XkW3xs"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Salvación
   - _id: iZ6Dd89gOdXLLuBM
-    _key: "!tables.results!.PgE6UHrWMR0RNRg5.iZ6Dd89gOdXLLuBM"
+    _key: "!tables.results!PgE6UHrWMR0RNRg5.iZ6Dd89gOdXLLuBM"
     range:
       - 20
       - 20

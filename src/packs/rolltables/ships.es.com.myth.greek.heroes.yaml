@@ -1,5 +1,5 @@
 _id: DKflyrn0avtzoDoM
-_key: "!tables!.DKflyrn0avtzoDoM"
+_key: "!tables!DKflyrn0avtzoDoM"
 name: Names for Spanish Merchantmen from Greek Mythology (Heroes)
 description: Appropriate names for Spanish merchantmen derived from Greek heroes.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: Yla9tUZ9BUrr1ch2
 results:
   - _id: ZsqIIDAaSogSeXMK
-    _key: "!tables.results!.DKflyrn0avtzoDoM.ZsqIIDAaSogSeXMK"
+    _key: "!tables.results!DKflyrn0avtzoDoM.ZsqIIDAaSogSeXMK"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Cástor y Pólux
   - _id: 7q71KRZXgAhS9a9e
-    _key: "!tables.results!.DKflyrn0avtzoDoM.7q71KRZXgAhS9a9e"
+    _key: "!tables.results!DKflyrn0avtzoDoM.7q71KRZXgAhS9a9e"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Orfeo
   - _id: zu0jqVXDjAnPNKDn
-    _key: "!tables.results!.DKflyrn0avtzoDoM.zu0jqVXDjAnPNKDn"
+    _key: "!tables.results!DKflyrn0avtzoDoM.zu0jqVXDjAnPNKDn"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Eurídice
   - _id: ZYA8zpO1f2QpvZyG
-    _key: "!tables.results!.DKflyrn0avtzoDoM.ZYA8zpO1f2QpvZyG"
+    _key: "!tables.results!DKflyrn0avtzoDoM.ZYA8zpO1f2QpvZyG"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Quirón
   - _id: iFwYDel24NUxcp93
-    _key: "!tables.results!.DKflyrn0avtzoDoM.iFwYDel24NUxcp93"
+    _key: "!tables.results!DKflyrn0avtzoDoM.iFwYDel24NUxcp93"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Atreo
   - _id: i4O6pFp2uBuuxPOR
-    _key: "!tables.results!.DKflyrn0avtzoDoM.i4O6pFp2uBuuxPOR"
+    _key: "!tables.results!DKflyrn0avtzoDoM.i4O6pFp2uBuuxPOR"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Atalanta
   - _id: hn7mtTNH6eYcf8hY
-    _key: "!tables.results!.DKflyrn0avtzoDoM.hn7mtTNH6eYcf8hY"
+    _key: "!tables.results!DKflyrn0avtzoDoM.hn7mtTNH6eYcf8hY"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Ganímedes
   - _id: AGV7D446vXUqen9t
-    _key: "!tables.results!.DKflyrn0avtzoDoM.AGV7D446vXUqen9t"
+    _key: "!tables.results!DKflyrn0avtzoDoM.AGV7D446vXUqen9t"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Jason
   - _id: Ew5LC00BcIn5lrQk
-    _key: "!tables.results!.DKflyrn0avtzoDoM.Ew5LC00BcIn5lrQk"
+    _key: "!tables.results!DKflyrn0avtzoDoM.Ew5LC00BcIn5lrQk"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Meleagro
   - _id: jp7dpXkTmzbCZYuX
-    _key: "!tables.results!.DKflyrn0avtzoDoM.jp7dpXkTmzbCZYuX"
+    _key: "!tables.results!DKflyrn0avtzoDoM.jp7dpXkTmzbCZYuX"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Odiseo
   - _id: bZIDvGHa1iWgDane
-    _key: "!tables.results!.DKflyrn0avtzoDoM.bZIDvGHa1iWgDane"
+    _key: "!tables.results!DKflyrn0avtzoDoM.bZIDvGHa1iWgDane"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Minos
   - _id: 7Ki8u5b2jWmDbqvt
-    _key: "!tables.results!.DKflyrn0avtzoDoM.7Ki8u5b2jWmDbqvt"
+    _key: "!tables.results!DKflyrn0avtzoDoM.7Ki8u5b2jWmDbqvt"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Egeo
   - _id: X2rfWSfGbgaJzHVl
-    _key: "!tables.results!.DKflyrn0avtzoDoM.X2rfWSfGbgaJzHVl"
+    _key: "!tables.results!DKflyrn0avtzoDoM.X2rfWSfGbgaJzHVl"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Andrómeda
   - _id: DBbRjilBBqbvrKKt
-    _key: "!tables.results!.DKflyrn0avtzoDoM.DBbRjilBBqbvrKKt"
+    _key: "!tables.results!DKflyrn0avtzoDoM.DBbRjilBBqbvrKKt"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Ariana
   - _id: SsQW3pjRlMjZ3z6p
-    _key: "!tables.results!.DKflyrn0avtzoDoM.SsQW3pjRlMjZ3z6p"
+    _key: "!tables.results!DKflyrn0avtzoDoM.SsQW3pjRlMjZ3z6p"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Dédalo
   - _id: HHbQKcMoktF0a6hN
-    _key: "!tables.results!.DKflyrn0avtzoDoM.HHbQKcMoktF0a6hN"
+    _key: "!tables.results!DKflyrn0avtzoDoM.HHbQKcMoktF0a6hN"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Patroclo
   - _id: LZXn1lTius8LfsSy
-    _key: "!tables.results!.DKflyrn0avtzoDoM.LZXn1lTius8LfsSy"
+    _key: "!tables.results!DKflyrn0avtzoDoM.LZXn1lTius8LfsSy"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Peleo
   - _id: 3OlBKYxq9aDmw0s2
-    _key: "!tables.results!.DKflyrn0avtzoDoM.3OlBKYxq9aDmw0s2"
+    _key: "!tables.results!DKflyrn0avtzoDoM.3OlBKYxq9aDmw0s2"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Menelao
   - _id: 7DdnaM3bFQho0ZDk
-    _key: "!tables.results!.DKflyrn0avtzoDoM.7DdnaM3bFQho0ZDk"
+    _key: "!tables.results!DKflyrn0avtzoDoM.7DdnaM3bFQho0ZDk"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Diomedes
   - _id: 0HgptlgNdRaz3kA4
-    _key: "!tables.results!.DKflyrn0avtzoDoM.0HgptlgNdRaz3kA4"
+    _key: "!tables.results!DKflyrn0avtzoDoM.0HgptlgNdRaz3kA4"
     range:
       - 20
       - 20

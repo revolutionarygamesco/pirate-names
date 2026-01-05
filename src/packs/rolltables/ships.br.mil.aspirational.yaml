@@ -1,5 +1,5 @@
 _id: dtdHRgsHogvOIeJi
-_key: "!tables!.dtdHRgsHogvOIeJi"
+_key: "!tables!dtdHRgsHogvOIeJi"
 name: Aspirational Names for British Men-of-War
 description: Aspirational names for British men-of-war.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: ENnYeLQ6HhHO68Oi
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.ENnYeLQ6HhHO68Oi"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.ENnYeLQ6HhHO68Oi"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Adamant
   - _id: iDrI9Zg4KDlUROWp
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.iDrI9Zg4KDlUROWp"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.iDrI9Zg4KDlUROWp"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Adventure
   - _id: PIgQipCw2XuMx9EN
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.PIgQipCw2XuMx9EN"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.PIgQipCw2XuMx9EN"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Blockade
   - _id: lPOAYXsSctlbLoe8
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.lPOAYXsSctlbLoe8"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.lPOAYXsSctlbLoe8"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Champion
   - _id: 2Ri5TVHphzenEMHi
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.2Ri5TVHphzenEMHi"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.2Ri5TVHphzenEMHi"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Chase
   - _id: RtIWiBRMNZAXuA7g
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.RtIWiBRMNZAXuA7g"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.RtIWiBRMNZAXuA7g"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Constance
   - _id: LXzWucwB6Xo483nk
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.LXzWucwB6Xo483nk"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.LXzWucwB6Xo483nk"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Dart
   - _id: 5Hs7dzOlSEC5GREt
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.5Hs7dzOlSEC5GREt"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.5Hs7dzOlSEC5GREt"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Defiance
   - _id: aCnfrU1OO094YKZs
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.aCnfrU1OO094YKZs"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.aCnfrU1OO094YKZs"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Formidable
   - _id: tiRFlpLCpuuNoTBA
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.tiRFlpLCpuuNoTBA"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.tiRFlpLCpuuNoTBA"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Fortitude
   - _id: ngnG5ZR4pGi6U0Py
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.ngnG5ZR4pGi6U0Py"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.ngnG5ZR4pGi6U0Py"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Hazard
   - _id: DvdpXo9lAWu2HvdE
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.DvdpXo9lAWu2HvdE"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.DvdpXo9lAWu2HvdE"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Intrepid
   - _id: XKkXCcivVcMDcVgk
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.XKkXCcivVcMDcVgk"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.XKkXCcivVcMDcVgk"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Invincible
   - _id: VeO4EljX0S4XMSyi
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.VeO4EljX0S4XMSyi"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.VeO4EljX0S4XMSyi"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Paragon
   - _id: AalFu8RIdqqULsP1
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.AalFu8RIdqqULsP1"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.AalFu8RIdqqULsP1"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Perseverance
   - _id: JQp9mlewB6FnZLu0
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.JQp9mlewB6FnZLu0"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.JQp9mlewB6FnZLu0"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Reliance
   - _id: E8mH6bkwy11nplhc
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.E8mH6bkwy11nplhc"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.E8mH6bkwy11nplhc"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Revenge
   - _id: Te9hIJq3Ab8aJZ5R
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.Te9hIJq3Ab8aJZ5R"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.Te9hIJq3Ab8aJZ5R"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Robust
   - _id: T1S9ZTGWAI10QgGg
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.T1S9ZTGWAI10QgGg"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.T1S9ZTGWAI10QgGg"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Tomahawk
   - _id: 3XziIipIEj87bfL4
-    _key: "!tables.results!.dtdHRgsHogvOIeJi.3XziIipIEj87bfL4"
+    _key: "!tables.results!dtdHRgsHogvOIeJi.3XziIipIEj87bfL4"
     range:
       - 20
       - 20

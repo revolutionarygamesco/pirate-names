@@ -1,5 +1,5 @@
 _id: cVO0XZp8KerLAUk1
-_key: "!tables!.cVO0XZp8KerLAUk1"
+_key: "!tables!cVO0XZp8KerLAUk1"
 name: "Pirate Ship Names: Parrots"
 description: Pirate ship names centering on parrots.
 img: icons/svg/d20-grey.svg
@@ -7,98 +7,98 @@ formula: 1d12
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: Pb5naV2BrSUs4cSo
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.Pb5naV2BrSUs4cSo"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.Pb5naV2BrSUs4cSo"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Scarlet Macaw
+    description: Scarlet Macaw
   - _id: df38CaKLIg9doBVy
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.df38CaKLIg9doBVy"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.df38CaKLIg9doBVy"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Bloody Macaw
+    description: Bloody Macaw
   - _id: QJUxDpobY0hMM3mD
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.QJUxDpobY0hMM3mD"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.QJUxDpobY0hMM3mD"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Crimson Macaw
+    description: Crimson Macaw
   - _id: dXPD6gHs5pq8cZjM
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.dXPD6gHs5pq8cZjM"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.dXPD6gHs5pq8cZjM"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Black Parrot
+    description: Black Parrot
   - _id: yav3U7TWVDRoJeBV
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.yav3U7TWVDRoJeBV"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.yav3U7TWVDRoJeBV"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Black Amazon
+    description: Black Amazon
   - _id: 9GJsIhADMv6CcRbD
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.9GJsIhADMv6CcRbD"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.9GJsIhADMv6CcRbD"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Scarlet Parrot
+    description: Scarlet Parrot
   - _id: xUL8z6jZ6ShsMynD
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.xUL8z6jZ6ShsMynD"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.xUL8z6jZ6ShsMynD"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Crimson Parrot
+    description: Crimson Parrot
   - _id: XY9PMPxmE3pIJHQN
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.XY9PMPxmE3pIJHQN"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.XY9PMPxmE3pIJHQN"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Blood Parrot
+    description: Blood Parrot
   - _id: 0lIPFIV552Kasx5T
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.0lIPFIV552Kasx5T"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.0lIPFIV552Kasx5T"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Scarlet Amazon
+    description: Scarlet Amazon
   - _id: UxexTP9qRodZPVsi
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.UxexTP9qRodZPVsi"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.UxexTP9qRodZPVsi"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Crimson Amazon
+    description: Crimson Amazon
   - _id: XZixEg9dQPDCCTaQ
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.XZixEg9dQPDCCTaQ"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.XZixEg9dQPDCCTaQ"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Blood Amazon
+    description: Blood Amazon
   - _id: dpr29APAiLwlynbo
-    _key: "!tables.results!.cVO0XZp8KerLAUk1.dpr29APAiLwlynbo"
+    _key: "!tables.results!cVO0XZp8KerLAUk1.dpr29APAiLwlynbo"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Emerald Plume
+    description: Emerald Plume

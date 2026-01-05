@@ -1,18 +1,36 @@
+_id: uRfaOZUkJYPvIaG1
+_key: "!tables!uRfaOZUkJYPvIaG1"
 name: Religious Names for Spanish Ships
 description: Every Spanish ship officially had a name referring to some sort of
   religious theme.
-folder: ts6qQgzEUZhV2Cw9
+img: icons/svg/d20-grey.svg
 formula: 1d12
+folder: ts6qQgzEUZhV2Cw9
 results:
-  - range: [ 1, 8 ]
+  - _id: I3aCNsquBiwTHk94
+    _key: "!tables.results!uRfaOZUkJYPvIaG1.I3aCNsquBiwTHk94"
+    range:
+      - 1
+      - 8
+    weight: 8
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xT5UY5ntjt2bVFo5
     name: Religious Names for Spanish Ships from Saints
-  - range: [ 9, 10 ]
+  - _id: hhxMNcxkKs8Yxb9Z
+    _key: "!tables.results!uRfaOZUkJYPvIaG1.hhxMNcxkKs8Yxb9Z"
+    range:
+      - 9
+      - 10
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.qz8vAzz2wfWC0xPj
     name: Religious Names for Spanish Ships from Marian Titles
-  - range: [ 11, 12 ]
+  - _id: AGdmyDwNb5OHed3u
+    _key: "!tables.results!uRfaOZUkJYPvIaG1.AGdmyDwNb5OHed3u"
+    range:
+      - 11
+      - 12
+    weight: 2
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.PgE6UHrWMR0RNRg5
     name: Religious Names for Spanish Ships from Other Sources

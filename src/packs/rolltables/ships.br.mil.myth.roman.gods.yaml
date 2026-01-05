@@ -1,5 +1,5 @@
 _id: tUIi88FZSIxvMTTI
-_key: "!tables!.tUIi88FZSIxvMTTI"
+_key: "!tables!tUIi88FZSIxvMTTI"
 name: Names for British Men-of-War from Roman Mythology (Gods)
 description: Appropriate names for British men-of-war derived from Greek gods.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: bSqOm5REgczvDyDp
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.bSqOm5REgczvDyDp"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.bSqOm5REgczvDyDp"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Jupiter
   - _id: CgGqJkQx58kUcV2Y
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.CgGqJkQx58kUcV2Y"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.CgGqJkQx58kUcV2Y"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Juno
   - _id: HmSWrGFWITaBK2g0
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.HmSWrGFWITaBK2g0"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.HmSWrGFWITaBK2g0"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Neptune
   - _id: 8wM1A29HNsqBIDBX
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.8wM1A29HNsqBIDBX"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.8wM1A29HNsqBIDBX"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Janus
   - _id: 2RgYfkLAA1XzxMV9
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.2RgYfkLAA1XzxMV9"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.2RgYfkLAA1XzxMV9"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Fortuna
   - _id: N7HiDjijPdQ4o9Vk
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.N7HiDjijPdQ4o9Vk"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.N7HiDjijPdQ4o9Vk"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Fides
   - _id: LO9wzAwcZIRSRp0b
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.LO9wzAwcZIRSRp0b"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.LO9wzAwcZIRSRp0b"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Luna
   - _id: wDMh5iFOdty7DIOu
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.wDMh5iFOdty7DIOu"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.wDMh5iFOdty7DIOu"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Salacia
   - _id: MEX3OCVdWMBbeRDo
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.MEX3OCVdWMBbeRDo"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.MEX3OCVdWMBbeRDo"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Venilia
   - _id: 4fiYSAGfdgvOAcCo
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.4fiYSAGfdgvOAcCo"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.4fiYSAGfdgvOAcCo"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Aurora
   - _id: BOrWIyYyk8s0ASMZ
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.BOrWIyYyk8s0ASMZ"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.BOrWIyYyk8s0ASMZ"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Vulturnus
   - _id: VFY2XPi9K4trVWjw
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.VFY2XPi9K4trVWjw"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.VFY2XPi9K4trVWjw"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Mars
   - _id: 72foch3GKs8B6ElQ
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.72foch3GKs8B6ElQ"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.72foch3GKs8B6ElQ"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Minerva
   - _id: WJYr8qdnLMUczJeY
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.WJYr8qdnLMUczJeY"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.WJYr8qdnLMUczJeY"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Diana
   - _id: 48OGmeiQFFhIBHoc
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.48OGmeiQFFhIBHoc"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.48OGmeiQFFhIBHoc"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Quirinus
   - _id: NfSCTn7VmkHQvIEX
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.NfSCTn7VmkHQvIEX"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.NfSCTn7VmkHQvIEX"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Bellona
   - _id: 35mKLlSSMXvrRfRM
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.35mKLlSSMXvrRfRM"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.35mKLlSSMXvrRfRM"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Honos
   - _id: SeyPqDYOzMkNTmbj
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.SeyPqDYOzMkNTmbj"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.SeyPqDYOzMkNTmbj"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Nerio
   - _id: fLXXuYHWJvNHwClY
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.fLXXuYHWJvNHwClY"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.fLXXuYHWJvNHwClY"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Victoria
   - _id: ez4DI1NIL0pknmMq
-    _key: "!tables.results!.tUIi88FZSIxvMTTI.ez4DI1NIL0pknmMq"
+    _key: "!tables.results!tUIi88FZSIxvMTTI.ez4DI1NIL0pknmMq"
     range:
       - 20
       - 20

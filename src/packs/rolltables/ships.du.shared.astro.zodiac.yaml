@@ -1,5 +1,5 @@
 _id: SmwdK50SGoNHQdU9
-_key: "!tables!.SmwdK50SGoNHQdU9"
+_key: "!tables!SmwdK50SGoNHQdU9"
 name: Names for Dutch Ships from the Zodiac
 description: Appropriate names for Dutch ships derived from the signs of the zodiac.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: aRGe4z9ZnMGvp2wL
 results:
   - _id: GqS3dxXV1KFo3q39
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.GqS3dxXV1KFo3q39"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.GqS3dxXV1KFo3q39"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Ram
   - _id: pnnzpPHc6VziLKRV
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.pnnzpPHc6VziLKRV"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.pnnzpPHc6VziLKRV"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Stier
   - _id: spArMPoHm52F08XZ
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.spArMPoHm52F08XZ"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.spArMPoHm52F08XZ"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Tweelingen
   - _id: GZOHjLoeyZ6XHsBj
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.GZOHjLoeyZ6XHsBj"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.GZOHjLoeyZ6XHsBj"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Kreeft
   - _id: AeUa4G8XXAu7Aqb9
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.AeUa4G8XXAu7Aqb9"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.AeUa4G8XXAu7Aqb9"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Leeuw
   - _id: yWjbaWfrE9o4x04J
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.yWjbaWfrE9o4x04J"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.yWjbaWfrE9o4x04J"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Maagd
   - _id: 0702mqvFyZHakI52
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.0702mqvFyZHakI52"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.0702mqvFyZHakI52"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Weegschaal
   - _id: q8uXOgz5xcFr7o2K
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.q8uXOgz5xcFr7o2K"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.q8uXOgz5xcFr7o2K"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Schorpioen
   - _id: QQwdlVUWmW6ivMhH
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.QQwdlVUWmW6ivMhH"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.QQwdlVUWmW6ivMhH"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Boogschutter
   - _id: OasONATYKBmrplOq
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.OasONATYKBmrplOq"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.OasONATYKBmrplOq"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Steenbok
   - _id: J1NNKfymtBvXuu87
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.J1NNKfymtBvXuu87"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.J1NNKfymtBvXuu87"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Waterman
   - _id: hGkqQ765NOHHGhiI
-    _key: "!tables.results!.SmwdK50SGoNHQdU9.hGkqQ765NOHHGhiI"
+    _key: "!tables.results!SmwdK50SGoNHQdU9.hGkqQ765NOHHGhiI"
     range:
       - 12
       - 12

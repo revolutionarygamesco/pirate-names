@@ -1,5 +1,5 @@
 _id: cn3SCjIohIsZWSjD
-_key: "!tables!.cn3SCjIohIsZWSjD"
+_key: "!tables!cn3SCjIohIsZWSjD"
 name: "Pirate Ship Names: Hinds"
 description: Pirate ship names centering on hinds.
 img: icons/svg/d20-grey.svg
@@ -7,50 +7,50 @@ formula: 1d6
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: sBrE45SQ6pVkFduw
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.sBrE45SQ6pVkFduw"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.sBrE45SQ6pVkFduw"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Golden Hind
+    description: Golden Hind
   - _id: Rwt2s8pHaWQ9e0zR
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.Rwt2s8pHaWQ9e0zR"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.Rwt2s8pHaWQ9e0zR"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Silver Hind
+    description: Silver Hind
   - _id: z3upwFs0zPdNoZIM
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.z3upwFs0zPdNoZIM"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.z3upwFs0zPdNoZIM"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: White Hind
+    description: White Hind
   - _id: X5qQ0b1CH44HhItV
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.X5qQ0b1CH44HhItV"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.X5qQ0b1CH44HhItV"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Black Hind
+    description: Black Hind
   - _id: LkeNLeQnwgq61Aqj
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.LkeNLeQnwgq61Aqj"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.LkeNLeQnwgq61Aqj"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Flying Hind
+    description: Flying Hind
   - _id: EzNyNDBIRmGYyhji
-    _key: "!tables.results!.cn3SCjIohIsZWSjD.EzNyNDBIRmGYyhji"
+    _key: "!tables.results!cn3SCjIohIsZWSjD.EzNyNDBIRmGYyhji"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Wild Hind
+    description: Wild Hind

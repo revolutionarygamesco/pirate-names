@@ -1,6 +1,6 @@
 _id: vuY9BXQugTdaWy5K
-_key: "!tables!.vuY9BXQugTdaWy5K"
-name: Names for French Men-of-War from Roman Mythology (Gods)
+_key: "!tables!vuY9BXQugTdaWy5K"
+name: Names for French Men-of-War from Roman Mythology (Heroes)
 description: Appropriate names for French men-of-war derived from figures in
   Roman mythology, legend, and history.
 img: icons/svg/d20-grey.svg
@@ -8,7 +8,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: Ny0NBpK4G6Dmxdh5
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.Ny0NBpK4G6Dmxdh5"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.Ny0NBpK4G6Dmxdh5"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Hercule
   - _id: MMCIPQvZrhYbor4x
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.MMCIPQvZrhYbor4x"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.MMCIPQvZrhYbor4x"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Gémeaux
   - _id: 4H2OApVlhl81u2Dg
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.4H2OApVlhl81u2Dg"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.4H2OApVlhl81u2Dg"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Énée
   - _id: 1q1Ps0ffj6ZgxheH
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.1q1Ps0ffj6ZgxheH"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.1q1Ps0ffj6ZgxheH"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Sibylle
   - _id: fCVNRItVTAWNlacM
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.fCVNRItVTAWNlacM"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.fCVNRItVTAWNlacM"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Larunda
   - _id: fxZKFdhnbksBtApO
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.fxZKFdhnbksBtApO"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.fxZKFdhnbksBtApO"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Palinure
   - _id: qWZS2huSMZtc4hPf
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.qWZS2huSMZtc4hPf"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.qWZS2huSMZtc4hPf"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Évandre
   - _id: 7NMHiOQWwb3omuqn
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.7NMHiOQWwb3omuqn"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.7NMHiOQWwb3omuqn"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Tutula
   - _id: gXiGZnBR8trFrytN
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.gXiGZnBR8trFrytN"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.gXiGZnBR8trFrytN"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Anchise
   - _id: rBTBV8ARAiHyrskm
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.rBTBV8ARAiHyrskm"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.rBTBV8ARAiHyrskm"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Camille
   - _id: vqrushYRvNTsXSm3
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.vqrushYRvNTsXSm3"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.vqrushYRvNTsXSm3"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Romulus
   - _id: AAuMnqEM2Hbv3V22
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.AAuMnqEM2Hbv3V22"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.AAuMnqEM2Hbv3V22"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Horace
   - _id: sgRcLxJBXkwRdE6r
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.sgRcLxJBXkwRdE6r"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.sgRcLxJBXkwRdE6r"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Cincinnatus
   - _id: 5sGqRkzJE8IxG3mN
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.5sGqRkzJE8IxG3mN"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.5sGqRkzJE8IxG3mN"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Scaevola
   - _id: 9wW2wO7dkK8TNAVl
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.9wW2wO7dkK8TNAVl"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.9wW2wO7dkK8TNAVl"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Scipion
   - _id: ciDMjB5IDTlSniHG
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.ciDMjB5IDTlSniHG"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.ciDMjB5IDTlSniHG"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Coriolan
   - _id: nd6rZWpOM9ddOjqX
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.nd6rZWpOM9ddOjqX"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.nd6rZWpOM9ddOjqX"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Hostilius
   - _id: cLeCgq7CDTp8s1r2
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.cLeCgq7CDTp8s1r2"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.cLeCgq7CDTp8s1r2"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Agrippa
   - _id: PPet6hkldUhbqxyL
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.PPet6hkldUhbqxyL"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.PPet6hkldUhbqxyL"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Pompée
   - _id: q2BSKuAS7YaPVxxa
-    _key: "!tables.results!.vuY9BXQugTdaWy5K.q2BSKuAS7YaPVxxa"
+    _key: "!tables.results!vuY9BXQugTdaWy5K.q2BSKuAS7YaPVxxa"
     range:
       - 20
       - 20

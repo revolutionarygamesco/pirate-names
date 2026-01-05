@@ -1,5 +1,5 @@
 _id: ir5C1OSyd84IyZAl
-_key: "!tables!.ir5C1OSyd84IyZAl"
+_key: "!tables!ir5C1OSyd84IyZAl"
 name: "Pirate Ship Names: Sapphires"
 description: Pirate ship names centering on sapphires.
 img: icons/svg/d20-grey.svg
@@ -7,58 +7,58 @@ formula: 1d8
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: rwVqNmoL94vJks30
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.rwVqNmoL94vJks30"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.rwVqNmoL94vJks30"
     range:
       - 1
       - 2
     weight: 2
     type: text
-    text: Sapphire
+    description: Sapphire
   - _id: uDbCFKcSvpJ3avYP
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.uDbCFKcSvpJ3avYP"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.uDbCFKcSvpJ3avYP"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Blue Sapphire
+    description: Blue Sapphire
   - _id: C7KRSxFfQaBclLgq
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.C7KRSxFfQaBclLgq"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.C7KRSxFfQaBclLgq"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Yellow Sapphire
+    description: Yellow Sapphire
   - _id: ic8qM5RNGHrQXYzv
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.ic8qM5RNGHrQXYzv"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.ic8qM5RNGHrQXYzv"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Flame Sapphire
+    description: Flame Sapphire
   - _id: SbTGuRaCRWQwkzHQ
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.SbTGuRaCRWQwkzHQ"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.SbTGuRaCRWQwkzHQ"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: White Emerald
+    description: White Emerald
   - _id: PGx16uUa99ZT6lgb
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.PGx16uUa99ZT6lgb"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.PGx16uUa99ZT6lgb"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Star Sapphire
+    description: Star Sapphire
   - _id: Jn7HalZw40XhgvSz
-    _key: "!tables.results!.ir5C1OSyd84IyZAl.Jn7HalZw40XhgvSz"
+    _key: "!tables.results!ir5C1OSyd84IyZAl.Jn7HalZw40XhgvSz"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Shifting Sapphire
+    description: Shifting Sapphire

@@ -1,5 +1,5 @@
 _id: P2DsnBa7Q7Ep3sJf
-_key: "!tables!.P2DsnBa7Q7Ep3sJf"
+_key: "!tables!P2DsnBa7Q7Ep3sJf"
 name: Names for Dutch Ships from Other Constellations
 description: Appropriate names for Dutch ships derived from the names of
   constellations besides the zodiac.
@@ -8,7 +8,7 @@ formula: 1d10
 folder: aRGe4z9ZnMGvp2wL
 results:
   - _id: FATIBADdo8plmLqj
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.FATIBADdo8plmLqj"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.FATIBADdo8plmLqj"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Andromeda
   - _id: 8i1ALps9G63Ppwfh
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.8i1ALps9G63Ppwfh"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.8i1ALps9G63Ppwfh"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Arend
   - _id: clf6NxhrI3VO5jfQ
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.clf6NxhrI3VO5jfQ"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.clf6NxhrI3VO5jfQ"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Cassiopeia
   - _id: sV5STwfrVMHtilju
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.sV5STwfrVMHtilju"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.sV5STwfrVMHtilju"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Zuiderkruis
   - _id: Jl5eVytlJ7Xrj7BC
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.Jl5eVytlJ7Xrj7BC"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.Jl5eVytlJ7Xrj7BC"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Zwaan
   - _id: 4bJOsUrDZ2Qy2vAV
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.4bJOsUrDZ2Qy2vAV"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.4bJOsUrDZ2Qy2vAV"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Lier
   - _id: u9ywFHtQ8R90kGps
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.u9ywFHtQ8R90kGps"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.u9ywFHtQ8R90kGps"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Orion
   - _id: WY3t5emkSbaG4m48
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.WY3t5emkSbaG4m48"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.WY3t5emkSbaG4m48"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Kleine Wagen
   - _id: Qfw3BudXOcDKA87n
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.Qfw3BudXOcDKA87n"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.Qfw3BudXOcDKA87n"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Grote Wagen
   - _id: zljpZg8egY9VUJmX
-    _key: "!tables.results!.P2DsnBa7Q7Ep3sJf.zljpZg8egY9VUJmX"
+    _key: "!tables.results!P2DsnBa7Q7Ep3sJf.zljpZg8egY9VUJmX"
     range:
       - 10
       - 10

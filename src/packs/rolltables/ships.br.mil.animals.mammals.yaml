@@ -1,5 +1,5 @@
 _id: OmQ2GyxDwYfIQ3WA
-_key: "!tables!.OmQ2GyxDwYfIQ3WA"
+_key: "!tables!OmQ2GyxDwYfIQ3WA"
 name: Names for British Men-of-War from Mammals
 description: Appropriate names for British men-of-war derived from mammals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: YA5RoKzgizbTOMSq
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.YA5RoKzgizbTOMSq"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.YA5RoKzgizbTOMSq"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Fox
   - _id: GPV64eCwuLH3uJW5
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.GPV64eCwuLH3uJW5"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.GPV64eCwuLH3uJW5"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Greyhound
   - _id: 3koC3Ze1lkSl1CkT
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.3koC3Ze1lkSl1CkT"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.3koC3Ze1lkSl1CkT"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Lynx
   - _id: 2vc2tgSAbd1uFhzz
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.2vc2tgSAbd1uFhzz"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.2vc2tgSAbd1uFhzz"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Stag
   - _id: xDBhvW4AY0FNz9kf
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.xDBhvW4AY0FNz9kf"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.xDBhvW4AY0FNz9kf"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Hind
   - _id: nQTJvAR2HefxkQQO
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.nQTJvAR2HefxkQQO"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.nQTJvAR2HefxkQQO"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Stallion
   - _id: cDhkq03BA5GLvVCo
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.cDhkq03BA5GLvVCo"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.cDhkq03BA5GLvVCo"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Mare
   - _id: Wum4LTPVbhzkYdgg
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.Wum4LTPVbhzkYdgg"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.Wum4LTPVbhzkYdgg"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Hound
   - _id: 4sts63OjswOvHf5l
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.4sts63OjswOvHf5l"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.4sts63OjswOvHf5l"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Bull
   - _id: 5BJabYDrS6YSl3SI
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.5BJabYDrS6YSl3SI"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.5BJabYDrS6YSl3SI"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Hedgehog
   - _id: JnDDB2Rb6by8vSUA
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.JnDDB2Rb6by8vSUA"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.JnDDB2Rb6by8vSUA"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Bear
   - _id: huaL12WvmQwykiJ0
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.huaL12WvmQwykiJ0"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.huaL12WvmQwykiJ0"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Boar
   - _id: 2VV5dzVFshbhX6bF
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.2VV5dzVFshbhX6bF"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.2VV5dzVFshbhX6bF"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Leopard
   - _id: NECSpRVvzNHhVHmh
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.NECSpRVvzNHhVHmh"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.NECSpRVvzNHhVHmh"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Lion
   - _id: NNKKZKs6jy2HtWP0
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.NNKKZKs6jy2HtWP0"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.NNKKZKs6jy2HtWP0"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Panther
   - _id: BiR45EJnhInnFJEf
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.BiR45EJnhInnFJEf"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.BiR45EJnhInnFJEf"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Tiger
   - _id: WyYWMjVqAJEAfEND
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.WyYWMjVqAJEAfEND"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.WyYWMjVqAJEAfEND"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Wolf
   - _id: hzkamvblVnfXbb7v
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.hzkamvblVnfXbb7v"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.hzkamvblVnfXbb7v"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Ocelot
   - _id: rCR1Sal4ecv3Wv8Y
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.rCR1Sal4ecv3Wv8Y"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.rCR1Sal4ecv3Wv8Y"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Jackal
   - _id: DZ4WEtHoM03YQZGT
-    _key: "!tables.results!.OmQ2GyxDwYfIQ3WA.DZ4WEtHoM03YQZGT"
+    _key: "!tables.results!OmQ2GyxDwYfIQ3WA.DZ4WEtHoM03YQZGT"
     range:
       - 20
       - 20

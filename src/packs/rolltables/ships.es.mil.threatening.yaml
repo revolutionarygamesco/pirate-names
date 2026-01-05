@@ -1,5 +1,5 @@
 _id: UGe0MZCwvSHcLe0f
-_key: "!tables!.UGe0MZCwvSHcLe0f"
+_key: "!tables!UGe0MZCwvSHcLe0f"
 name: Threatening Names for Spanish Men-of-War
 description: Names for Spanish men-of-war that attempt to strike fear in their enemies.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: aeMjna65FeFdMOpM
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.aeMjna65FeFdMOpM"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.aeMjna65FeFdMOpM"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Atrevida
   - _id: F9zKklR9gLzXB8js
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.F9zKklR9gLzXB8js"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.F9zKklR9gLzXB8js"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Brava
   - _id: Whu9Tl3cEH2PsJbL
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.Whu9Tl3cEH2PsJbL"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.Whu9Tl3cEH2PsJbL"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Cazadora
   - _id: e3erqJNNw0eOxxlt
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.e3erqJNNw0eOxxlt"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.e3erqJNNw0eOxxlt"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Colérica
   - _id: XtWcZpai5On54qDx
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.XtWcZpai5On54qDx"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.XtWcZpai5On54qDx"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Destructora
   - _id: 9nSTcUcTYDjLQr2c
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.9nSTcUcTYDjLQr2c"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.9nSTcUcTYDjLQr2c"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Furia
   - _id: sOJm0ADIrPRP2vlX
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.sOJm0ADIrPRP2vlX"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.sOJm0ADIrPRP2vlX"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Incendio
   - _id: pre35XP32Gy8zWK0
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.pre35XP32Gy8zWK0"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.pre35XP32Gy8zWK0"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Invencible
   - _id: eyuUgCvQHvUVkafL
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.eyuUgCvQHvUVkafL"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.eyuUgCvQHvUVkafL"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Poderoso
   - _id: GKj34VqfjgC6md2c
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.GKj34VqfjgC6md2c"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.GKj34VqfjgC6md2c"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Potencia
   - _id: ytAhV01zNVGyP60e
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.ytAhV01zNVGyP60e"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.ytAhV01zNVGyP60e"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Sanguinolento
   - _id: wczaR6Ph1wN8bDVe
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.wczaR6Ph1wN8bDVe"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.wczaR6Ph1wN8bDVe"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Temerario
   - _id: YMyM4DwqPLE2HCW4
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.YMyM4DwqPLE2HCW4"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.YMyM4DwqPLE2HCW4"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Tenaz
   - _id: vECECZenhR6eXmqM
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.vECECZenhR6eXmqM"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.vECECZenhR6eXmqM"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Terrible
   - _id: cM77EyhW54TryZr1
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.cM77EyhW54TryZr1"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.cM77EyhW54TryZr1"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Triunfante
   - _id: hYdfb2SDjxcqs59l
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.hYdfb2SDjxcqs59l"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.hYdfb2SDjxcqs59l"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Vencedor
   - _id: i0WTGUcTaqxpOK6X
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.i0WTGUcTaqxpOK6X"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.i0WTGUcTaqxpOK6X"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Vengador
   - _id: jbrSxkgBFX39K14j
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.jbrSxkgBFX39K14j"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.jbrSxkgBFX39K14j"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Venganza
   - _id: 2vnHSt337vUTYMAI
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.2vnHSt337vUTYMAI"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.2vnHSt337vUTYMAI"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Victorioso
   - _id: dPkl1csuRPMfg6qp
-    _key: "!tables.results!.UGe0MZCwvSHcLe0f.dPkl1csuRPMfg6qp"
+    _key: "!tables.results!UGe0MZCwvSHcLe0f.dPkl1csuRPMfg6qp"
     range:
       - 20
       - 20

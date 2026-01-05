@@ -1,5 +1,5 @@
 _id: Y7oYlRM06HYNjSis
-_key: "!tables!.Y7oYlRM06HYNjSis"
+_key: "!tables!Y7oYlRM06HYNjSis"
 name: "Pirate Ship Names: Sharks"
 description: Pirate ship names centering on sharks.
 img: icons/svg/d20-grey.svg
@@ -7,74 +7,74 @@ formula: 1d12
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: fyiinzHL4L2G709l
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.fyiinzHL4L2G709l"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.fyiinzHL4L2G709l"
     range:
       - 1
       - 4
     weight: 4
     type: text
-    text: Shark
+    description: Shark
   - _id: lxBF8rAdS2wwfXAF
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.lxBF8rAdS2wwfXAF"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.lxBF8rAdS2wwfXAF"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Hungry Shark
+    description: Hungry Shark
   - _id: YJ4FvMjOjnJ3nLsP
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.YJ4FvMjOjnJ3nLsP"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.YJ4FvMjOjnJ3nLsP"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Restless Shark
+    description: Restless Shark
   - _id: q8JsDXmHTDAd5O8C
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.q8JsDXmHTDAd5O8C"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.q8JsDXmHTDAd5O8C"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Bloody Shark
+    description: Bloody Shark
   - _id: 2C7KCVtVIyM1qy9N
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.2C7KCVtVIyM1qy9N"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.2C7KCVtVIyM1qy9N"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Tiger Shark
+    description: Tiger Shark
   - _id: tDQ9HRcYpCYenf8N
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.tDQ9HRcYpCYenf8N"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.tDQ9HRcYpCYenf8N"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Black Shark
+    description: Black Shark
   - _id: zNLDdx885nz5SCae
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.zNLDdx885nz5SCae"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.zNLDdx885nz5SCae"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Crimson Shark
+    description: Crimson Shark
   - _id: ZPS6wjEfdysJzWiU
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.ZPS6wjEfdysJzWiU"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.ZPS6wjEfdysJzWiU"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Dire Shark
+    description: Dire Shark
   - _id: 6TQaZTLO5jeIm1dS
-    _key: "!tables.results!.Y7oYlRM06HYNjSis.6TQaZTLO5jeIm1dS"
+    _key: "!tables.results!Y7oYlRM06HYNjSis.6TQaZTLO5jeIm1dS"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Shark’s Revenge
+    description: Shark’s Revenge

@@ -1,5 +1,5 @@
 _id: Uvq0zWdPNoHLYU5u
-_key: "!tables!.Uvq0zWdPNoHLYU5u"
+_key: "!tables!Uvq0zWdPNoHLYU5u"
 name: Names for Spanish Ships from the Zodiac
 description: Appropriate names for Spanish ships derived from the signs of the zodiac.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: 8cb0m2Xnmcf5NUz4
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.8cb0m2Xnmcf5NUz4"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.8cb0m2Xnmcf5NUz4"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Aries
   - _id: VI3WzyunO05Jz2Zj
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.VI3WzyunO05Jz2Zj"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.VI3WzyunO05Jz2Zj"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Tauro
   - _id: QlESXFVjGDm4EHeR
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.QlESXFVjGDm4EHeR"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.QlESXFVjGDm4EHeR"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Géminis
   - _id: XSnrtUP1IXaAwaxB
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.XSnrtUP1IXaAwaxB"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.XSnrtUP1IXaAwaxB"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Cáncer
   - _id: UgCwHtxOY0wgKBY3
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.UgCwHtxOY0wgKBY3"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.UgCwHtxOY0wgKBY3"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Leo
   - _id: zXTvCAkrSjcgyMH1
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.zXTvCAkrSjcgyMH1"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.zXTvCAkrSjcgyMH1"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Virgo
   - _id: EvR37acbnEQFjPC2
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.EvR37acbnEQFjPC2"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.EvR37acbnEQFjPC2"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Libra
   - _id: HStVX0HZ5unAQXOd
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.HStVX0HZ5unAQXOd"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.HStVX0HZ5unAQXOd"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Escorpio
   - _id: XzTkWG1dxQeLKt9O
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.XzTkWG1dxQeLKt9O"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.XzTkWG1dxQeLKt9O"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Sagitario
   - _id: cYUbTHm3QJMegZTz
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.cYUbTHm3QJMegZTz"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.cYUbTHm3QJMegZTz"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Capricornio
   - _id: sybZJdkQFLNMl6JW
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.sybZJdkQFLNMl6JW"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.sybZJdkQFLNMl6JW"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Acuario
   - _id: DwB1xpCezfOPCy6Y
-    _key: "!tables.results!.Uvq0zWdPNoHLYU5u.DwB1xpCezfOPCy6Y"
+    _key: "!tables.results!Uvq0zWdPNoHLYU5u.DwB1xpCezfOPCy6Y"
     range:
       - 12
       - 12

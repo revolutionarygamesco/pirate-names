@@ -1,5 +1,5 @@
 _id: D81NLBBoGXo1HwxW
-_key: "!tables!.D81NLBBoGXo1HwxW"
+_key: "!tables!D81NLBBoGXo1HwxW"
 name: Names for British Ships from Astronomical Terms
 description: Appropriate names for British ships derived from astronomy or celestial bodies.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d10
 folder: y9dbRWvmng95HqLL
 results:
   - _id: nakgOhRNENftjIKp
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.nakgOhRNENftjIKp"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.nakgOhRNENftjIKp"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Aurora
   - _id: 2neSp4nSNqjytktt
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.2neSp4nSNqjytktt"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.2neSp4nSNqjytktt"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Comet
   - _id: hgHiqpmgSFr4DRJ6
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.hgHiqpmgSFr4DRJ6"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.hgHiqpmgSFr4DRJ6"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Constellation
   - _id: hVQgJejefcXk6OJO
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.hVQgJejefcXk6OJO"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.hVQgJejefcXk6OJO"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Eclipse
   - _id: TrImYPWxN5A7KFMc
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.TrImYPWxN5A7KFMc"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.TrImYPWxN5A7KFMc"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Hesper
   - _id: qV4S6kpUcuks7pIt
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.qV4S6kpUcuks7pIt"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.qV4S6kpUcuks7pIt"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Zodiac
   - _id: TwhJMpHdcH5qDZQn
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.TwhJMpHdcH5qDZQn"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.TwhJMpHdcH5qDZQn"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Milky Way
   - _id: bSeZOloNRXeJ6wTv
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.bSeZOloNRXeJ6wTv"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.bSeZOloNRXeJ6wTv"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Meteor
   - _id: MUFUwG71rwjB5axA
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.MUFUwG71rwjB5axA"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.MUFUwG71rwjB5axA"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Nova
   - _id: hkaI9IKHfW4eTGOk
-    _key: "!tables.results!.D81NLBBoGXo1HwxW.hkaI9IKHfW4eTGOk"
+    _key: "!tables.results!D81NLBBoGXo1HwxW.hkaI9IKHfW4eTGOk"
     range:
       - 10
       - 10

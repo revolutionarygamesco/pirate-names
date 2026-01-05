@@ -1,5 +1,5 @@
 _id: M1QpFISfQCMkUnf0
-_key: "!tables!.M1QpFISfQCMkUnf0"
+_key: "!tables!M1QpFISfQCMkUnf0"
 name: Names for Spanish Merchantmen from Mammals
 description: Appropriate names for Spanish merchantmen derived from mammals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: Yla9tUZ9BUrr1ch2
 results:
   - _id: oSKEqSmQzPtW1ucB
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.oSKEqSmQzPtW1ucB"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.oSKEqSmQzPtW1ucB"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Zorro
   - _id: hIMlCHPWdAMJFdYB
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.hIMlCHPWdAMJFdYB"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.hIMlCHPWdAMJFdYB"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Galgo
   - _id: Uxc8fi3JIkRBDJii
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.Uxc8fi3JIkRBDJii"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.Uxc8fi3JIkRBDJii"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Lince
   - _id: uhYUbGeosR99K3gQ
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.uhYUbGeosR99K3gQ"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.uhYUbGeosR99K3gQ"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Ciervo
   - _id: 4aO95yFVvgSwJcbC
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.4aO95yFVvgSwJcbC"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.4aO95yFVvgSwJcbC"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Cierva
   - _id: esk7NEY5wjp56zyB
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.esk7NEY5wjp56zyB"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.esk7NEY5wjp56zyB"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Semental
   - _id: hmYCsETTuWSsueNX
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.hmYCsETTuWSsueNX"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.hmYCsETTuWSsueNX"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Yegua
   - _id: RbS0zuabc375CDkA
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.RbS0zuabc375CDkA"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.RbS0zuabc375CDkA"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Sabueso
   - _id: gEMqkWIzpksBkn0r
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.gEMqkWIzpksBkn0r"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.gEMqkWIzpksBkn0r"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Toro
   - _id: c80OiIoI9E00944e
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.c80OiIoI9E00944e"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.c80OiIoI9E00944e"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Erizo
   - _id: NJw5wS31cR05h8bE
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.NJw5wS31cR05h8bE"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.NJw5wS31cR05h8bE"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Antílope
   - _id: ueg4jls5jR4fTekw
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.ueg4jls5jR4fTekw"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.ueg4jls5jR4fTekw"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Tejón
   - _id: 4Sn5GzBHsVb8Pzh3
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.4Sn5GzBHsVb8Pzh3"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.4Sn5GzBHsVb8Pzh3"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Castor
   - _id: 5TqIJhgOjWZKUXCd
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.5TqIJhgOjWZKUXCd"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.5TqIJhgOjWZKUXCd"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Gato Negro
   - _id: lI54iURYXbxf1JGD
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.lI54iURYXbxf1JGD"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.lI54iURYXbxf1JGD"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Elefante
   - _id: qgjxfPG4WRsQtoPj
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.qgjxfPG4WRsQtoPj"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.qgjxfPG4WRsQtoPj"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Hurón
   - _id: kwYKyIWzTA4HGOAL
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.kwYKyIWzTA4HGOAL"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.kwYKyIWzTA4HGOAL"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Onagro
   - _id: 1Vma0ECPcBB24Cw9
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.1Vma0ECPcBB24Cw9"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.1Vma0ECPcBB24Cw9"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Liebre
   - _id: Hl8RqvbfApjSQfLk
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.Hl8RqvbfApjSQfLk"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.Hl8RqvbfApjSQfLk"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Camello
   - _id: A83SVV24NQUK0Zb9
-    _key: "!tables.results!.M1QpFISfQCMkUnf0.A83SVV24NQUK0Zb9"
+    _key: "!tables.results!M1QpFISfQCMkUnf0.A83SVV24NQUK0Zb9"
     range:
       - 20
       - 20

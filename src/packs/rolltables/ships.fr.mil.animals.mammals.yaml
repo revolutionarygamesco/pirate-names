@@ -1,5 +1,5 @@
 _id: wom0psr8zvWwZz3k
-_key: "!tables!.wom0psr8zvWwZz3k"
+_key: "!tables!wom0psr8zvWwZz3k"
 name: Names for French Men-of-War from Mammals
 description: Appropriate names for French men-of-war derived from mammals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: djBFAobd6mOwhAKe
-    _key: "!tables.results!.wom0psr8zvWwZz3k.djBFAobd6mOwhAKe"
+    _key: "!tables.results!wom0psr8zvWwZz3k.djBFAobd6mOwhAKe"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Renard
   - _id: 2SBBYsLKmoJTtKGr
-    _key: "!tables.results!.wom0psr8zvWwZz3k.2SBBYsLKmoJTtKGr"
+    _key: "!tables.results!wom0psr8zvWwZz3k.2SBBYsLKmoJTtKGr"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Lévrier
   - _id: NF1LOOngim70YDIA
-    _key: "!tables.results!.wom0psr8zvWwZz3k.NF1LOOngim70YDIA"
+    _key: "!tables.results!wom0psr8zvWwZz3k.NF1LOOngim70YDIA"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Lynx
   - _id: 6StwcuTh2lgfSedh
-    _key: "!tables.results!.wom0psr8zvWwZz3k.6StwcuTh2lgfSedh"
+    _key: "!tables.results!wom0psr8zvWwZz3k.6StwcuTh2lgfSedh"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Cerf
   - _id: gI0QS4dA5HJMeTme
-    _key: "!tables.results!.wom0psr8zvWwZz3k.gI0QS4dA5HJMeTme"
+    _key: "!tables.results!wom0psr8zvWwZz3k.gI0QS4dA5HJMeTme"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Biche
   - _id: CabqrmdVPZZaGPkq
-    _key: "!tables.results!.wom0psr8zvWwZz3k.CabqrmdVPZZaGPkq"
+    _key: "!tables.results!wom0psr8zvWwZz3k.CabqrmdVPZZaGPkq"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Étalon
   - _id: FGKI6wNT1iibzOax
-    _key: "!tables.results!.wom0psr8zvWwZz3k.FGKI6wNT1iibzOax"
+    _key: "!tables.results!wom0psr8zvWwZz3k.FGKI6wNT1iibzOax"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Jument
   - _id: DcyX7snExCz1g5tj
-    _key: "!tables.results!.wom0psr8zvWwZz3k.DcyX7snExCz1g5tj"
+    _key: "!tables.results!wom0psr8zvWwZz3k.DcyX7snExCz1g5tj"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Chienne
   - _id: FmnikVQhNTw5b7zI
-    _key: "!tables.results!.wom0psr8zvWwZz3k.FmnikVQhNTw5b7zI"
+    _key: "!tables.results!wom0psr8zvWwZz3k.FmnikVQhNTw5b7zI"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Taureau
   - _id: eGi0hLYzTIqlHXB3
-    _key: "!tables.results!.wom0psr8zvWwZz3k.eGi0hLYzTIqlHXB3"
+    _key: "!tables.results!wom0psr8zvWwZz3k.eGi0hLYzTIqlHXB3"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Hérissonne
   - _id: bMrpmYMOJGvLVxIg
-    _key: "!tables.results!.wom0psr8zvWwZz3k.bMrpmYMOJGvLVxIg"
+    _key: "!tables.results!wom0psr8zvWwZz3k.bMrpmYMOJGvLVxIg"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Ours
   - _id: sVMInIVDp9XLE4Su
-    _key: "!tables.results!.wom0psr8zvWwZz3k.sVMInIVDp9XLE4Su"
+    _key: "!tables.results!wom0psr8zvWwZz3k.sVMInIVDp9XLE4Su"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Sanglier
   - _id: B9TMRyo6Ipxu4xNK
-    _key: "!tables.results!.wom0psr8zvWwZz3k.B9TMRyo6Ipxu4xNK"
+    _key: "!tables.results!wom0psr8zvWwZz3k.B9TMRyo6Ipxu4xNK"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Léopard
   - _id: VYjAMzL8jRB9TC10
-    _key: "!tables.results!.wom0psr8zvWwZz3k.VYjAMzL8jRB9TC10"
+    _key: "!tables.results!wom0psr8zvWwZz3k.VYjAMzL8jRB9TC10"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Lion
   - _id: HmjXk8iPttwYFhbO
-    _key: "!tables.results!.wom0psr8zvWwZz3k.HmjXk8iPttwYFhbO"
+    _key: "!tables.results!wom0psr8zvWwZz3k.HmjXk8iPttwYFhbO"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Panthère
   - _id: PO6eJkPZOodVb9rC
-    _key: "!tables.results!.wom0psr8zvWwZz3k.PO6eJkPZOodVb9rC"
+    _key: "!tables.results!wom0psr8zvWwZz3k.PO6eJkPZOodVb9rC"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Tigre
   - _id: frr8Gni1427kIj8l
-    _key: "!tables.results!.wom0psr8zvWwZz3k.frr8Gni1427kIj8l"
+    _key: "!tables.results!wom0psr8zvWwZz3k.frr8Gni1427kIj8l"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Loup
   - _id: S31bkp7lMKkiPlPh
-    _key: "!tables.results!.wom0psr8zvWwZz3k.S31bkp7lMKkiPlPh"
+    _key: "!tables.results!wom0psr8zvWwZz3k.S31bkp7lMKkiPlPh"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Ocelot
   - _id: sXNTtq91lQasoWug
-    _key: "!tables.results!.wom0psr8zvWwZz3k.sXNTtq91lQasoWug"
+    _key: "!tables.results!wom0psr8zvWwZz3k.sXNTtq91lQasoWug"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Chacal
   - _id: rtUseeqnqKRcBsLF
-    _key: "!tables.results!.wom0psr8zvWwZz3k.rtUseeqnqKRcBsLF"
+    _key: "!tables.results!wom0psr8zvWwZz3k.rtUseeqnqKRcBsLF"
     range:
       - 20
       - 20

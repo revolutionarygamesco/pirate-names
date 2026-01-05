@@ -1,5 +1,5 @@
 _id: lG76HDiwzD3CfLC4
-_key: "!tables!.lG76HDiwzD3CfLC4"
+_key: "!tables!lG76HDiwzD3CfLC4"
 name: Names for French Merchantmen from Animals
 description: Appropriate names for French merchantmen derived from animals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: UnF57V3UrteAFAcD
 results:
   - _id: f4RDH7ItxNsBS9dO
-    _key: "!tables.results!.lG76HDiwzD3CfLC4.f4RDH7ItxNsBS9dO"
+    _key: "!tables.results!lG76HDiwzD3CfLC4.f4RDH7ItxNsBS9dO"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.A2AmzUD95atcHetm
     name: Names for French Merchantmen from Birds
   - _id: cvSqvoszxhurhZEA
-    _key: "!tables.results!.lG76HDiwzD3CfLC4.cvSqvoszxhurhZEA"
+    _key: "!tables.results!lG76HDiwzD3CfLC4.cvSqvoszxhurhZEA"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.Umms7e9pNsX0jMLR
     name: Names for French Merchantmen from Mammals
   - _id: FNdrfh8ImVl03bug
-    _key: "!tables.results!.lG76HDiwzD3CfLC4.FNdrfh8ImVl03bug"
+    _key: "!tables.results!lG76HDiwzD3CfLC4.FNdrfh8ImVl03bug"
     range:
       - 9
       - 12

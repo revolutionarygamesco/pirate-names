@@ -1,5 +1,5 @@
 _id: QQeyeF4kj0RJF2bv
-_key: "!tables!.QQeyeF4kj0RJF2bv"
+_key: "!tables!QQeyeF4kj0RJF2bv"
 name: Names for Spanish Ships from Princely Titles
 description: Appropriate names for Spanish ships derived from titles granted to
   the crown prince of the Spanish Empire.
@@ -8,7 +8,7 @@ formula: 1d6
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: iKmbykwN4I0RV1rM
-    _key: "!tables.results!.QQeyeF4kj0RJF2bv.iKmbykwN4I0RV1rM"
+    _key: "!tables.results!QQeyeF4kj0RJF2bv.iKmbykwN4I0RV1rM"
     range:
       - 1
       - 2
@@ -16,7 +16,7 @@ results:
     type: text
     description: Príncipe de Asturias
   - _id: Hk9wXKvTjGdHaYfg
-    _key: "!tables.results!.QQeyeF4kj0RJF2bv.Hk9wXKvTjGdHaYfg"
+    _key: "!tables.results!QQeyeF4kj0RJF2bv.Hk9wXKvTjGdHaYfg"
     range:
       - 3
       - 4
@@ -24,7 +24,7 @@ results:
     type: text
     description: Príncipe de Girona
   - _id: ZzuQERx4XMu20zXl
-    _key: "!tables.results!.QQeyeF4kj0RJF2bv.ZzuQERx4XMu20zXl"
+    _key: "!tables.results!QQeyeF4kj0RJF2bv.ZzuQERx4XMu20zXl"
     range:
       - 5
       - 6

@@ -1,5 +1,5 @@
 _id: kmArvR0AZgDKDUGW
-_key: "!tables!.kmArvR0AZgDKDUGW"
+_key: "!tables!kmArvR0AZgDKDUGW"
 name: Names for Dutch Merchantmen from Birds
 description: Appropriate names for Dutch Merchantmen derived from birds.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: Y5rjFkdS7fOJeZ8c
 results:
   - _id: ccnI81BSoDl3ilzk
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.ccnI81BSoDl3ilzk"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.ccnI81BSoDl3ilzk"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Kraanvogel
   - _id: nrArs21sBruVxhRI
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.nrArs21sBruVxhRI"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.nrArs21sBruVxhRI"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Reiger
   - _id: nTu6CUZFjkcTF8Sz
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.nTu6CUZFjkcTF8Sz"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.nTu6CUZFjkcTF8Sz"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Nachtegaal
   - _id: nH9oeMe37SgDM16A
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.nH9oeMe37SgDM16A"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.nH9oeMe37SgDM16A"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Raaf
   - _id: pOiOuc5EQmV5dsF0
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.pOiOuc5EQmV5dsF0"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.pOiOuc5EQmV5dsF0"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Kauw
   - _id: 9MREKTgHjEBLtKTl
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.9MREKTgHjEBLtKTl"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.9MREKTgHjEBLtKTl"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Goudvink
   - _id: Qaa2KDhGY2MMPpgf
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.Qaa2KDhGY2MMPpgf"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.Qaa2KDhGY2MMPpgf"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Aalscholver
   - _id: GmHds2Jxaglyb63Z
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.GmHds2Jxaglyb63Z"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.GmHds2Jxaglyb63Z"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Ijsvogel
   - _id: FpUBnWtYvqGIdjhj
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.FpUBnWtYvqGIdjhj"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.FpUBnWtYvqGIdjhj"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Pelikaan
   - _id: spH1UyhcfrFcrDX5
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.spH1UyhcfrFcrDX5"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.spH1UyhcfrFcrDX5"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Albatros
   - _id: TrodBgUMi5wvtxwZ
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.TrodBgUMi5wvtxwZ"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.TrodBgUMi5wvtxwZ"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Duif
   - _id: nFu0gkBbDMasDSK5
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.nFu0gkBbDMasDSK5"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.nFu0gkBbDMasDSK5"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Eend
   - _id: Zk9Q1rTaXMipxF3Z
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.Zk9Q1rTaXMipxF3Z"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.Zk9Q1rTaXMipxF3Z"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Jan-van-Gent
   - _id: G88L3tKRoSXB0HVv
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.G88L3tKRoSXB0HVv"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.G88L3tKRoSXB0HVv"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Kolibrie
   - _id: M6lq30FbS9VXC2gc
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.M6lq30FbS9VXC2gc"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.M6lq30FbS9VXC2gc"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Leeuwerik
   - _id: KKxobH4HcH9F4r8r
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.KKxobH4HcH9F4r8r"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.KKxobH4HcH9F4r8r"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Ekster
   - _id: cD70J07cJ7Ru4toS
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.cD70J07cJ7Ru4toS"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.cD70J07cJ7Ru4toS"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Zwaan
   - _id: gVdSSW3vjZURrWd3
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.gVdSSW3vjZURrWd3"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.gVdSSW3vjZURrWd3"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Spreeuw
   - _id: 1Ky4vkjBDXRFJRRo
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.1Ky4vkjBDXRFJRRo"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.1Ky4vkjBDXRFJRRo"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Gans
   - _id: k7BFnJJEI3xZJ80b
-    _key: "!tables.results!.kmArvR0AZgDKDUGW.k7BFnJJEI3xZJ80b"
+    _key: "!tables.results!kmArvR0AZgDKDUGW.k7BFnJJEI3xZJ80b"
     range:
       - 20
       - 20

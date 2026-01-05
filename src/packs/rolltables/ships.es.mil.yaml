@@ -1,5 +1,5 @@
 _id: TXi8XiIIjwVG3pXS
-_key: "!tables!.TXi8XiIIjwVG3pXS"
+_key: "!tables!TXi8XiIIjwVG3pXS"
 name: Names for Spanish Men-of-War
 description: Appropriate names for Spanish men-of-war.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: ts6qQgzEUZhV2Cw9
 results:
   - _id: WgUHHn1yxCZfFYoN
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.WgUHHn1yxCZfFYoN"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.WgUHHn1yxCZfFYoN"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.7RbOJKmELYZF6aX7
     name: Spanish Feminine Names
   - _id: huh9jdtw9oLBztaf
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.huh9jdtw9oLBztaf"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.huh9jdtw9oLBztaf"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pWXaOZJPUIW9MTRD
     name: Names for Spanish Ships from Places
   - _id: D3vlTigw8BFeeVER
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.D3vlTigw8BFeeVER"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.D3vlTigw8BFeeVER"
     range:
       - 9
       - 11
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.MFbDFJbPecTwyVwA
     name: Names for Spanish Ships from Aristocracy
   - _id: AqMIJoJqfKncL07y
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.AqMIJoJqfKncL07y"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.AqMIJoJqfKncL07y"
     range:
       - 12
       - 14
@@ -43,7 +43,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.PJZnSr8Tdw0cZzo4
     name: Names for Spanish Men-of-War from Mythology
   - _id: KwFQ2vIhPZiC1SnW
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.KwFQ2vIhPZiC1SnW"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.KwFQ2vIhPZiC1SnW"
     range:
       - 15
       - 16
@@ -52,7 +52,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xo35LqA9WRuZG4xL
     name: Names for Spanish Men-of-War from Animals
   - _id: AhKcSpcTbGSBBtQ1
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.AhKcSpcTbGSBBtQ1"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.AhKcSpcTbGSBBtQ1"
     range:
       - 17
       - 18
@@ -61,7 +61,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.TtMq9nJDa1Wf70ls
     name: Names for Spanish Ships from Astronomy
   - _id: XaSgC2OBVpl898Vq
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.XaSgC2OBVpl898Vq"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.XaSgC2OBVpl898Vq"
     range:
       - 19
       - 19
@@ -70,7 +70,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.8ikqtiQcev0TXkPg
     name: Aspirational Names for Spanish Men-of-War
   - _id: x2YQLinw0OYmJgrY
-    _key: "!tables.results!.TXi8XiIIjwVG3pXS.x2YQLinw0OYmJgrY"
+    _key: "!tables.results!TXi8XiIIjwVG3pXS.x2YQLinw0OYmJgrY"
     range:
       - 20
       - 20

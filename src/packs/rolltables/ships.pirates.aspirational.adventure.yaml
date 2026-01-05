@@ -1,5 +1,5 @@
 _id: cMqLo02pJ3qmx4Yz
-_key: "!tables!.cMqLo02pJ3qmx4Yz"
+_key: "!tables!cMqLo02pJ3qmx4Yz"
 name: "Pirate Ship Names: Adventure"
 description: Pirate ship names centering on adventure.
 img: icons/svg/d20-grey.svg
@@ -7,162 +7,162 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: 27wRT9JZAMLAk5P4
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.27wRT9JZAMLAk5P4"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.27wRT9JZAMLAk5P4"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Adventure
+    description: Adventure
   - _id: dqFLgSmue5GRcKra
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.dqFLgSmue5GRcKra"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.dqFLgSmue5GRcKra"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Adventurer
+    description: Adventurer
   - _id: gY0ByP1jIsFdLf3X
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.gY0ByP1jIsFdLf3X"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.gY0ByP1jIsFdLf3X"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Adventure Galley
+    description: Adventure Galley
   - _id: DPYvceshOgo5VAmF
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.DPYvceshOgo5VAmF"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.DPYvceshOgo5VAmF"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Adventure Prize
+    description: Adventure Prize
   - _id: 8OUzk2sGWJO0YIs2
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.8OUzk2sGWJO0YIs2"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.8OUzk2sGWJO0YIs2"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Adventure Yacht
+    description: Adventure Yacht
   - _id: YDFcUGUjZm1b3NMx
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.YDFcUGUjZm1b3NMx"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.YDFcUGUjZm1b3NMx"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Adventurer’s Fortune
+    description: Adventurer’s Fortune
   - _id: RbgRSw4tzZhDTQzx
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.RbgRSw4tzZhDTQzx"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.RbgRSw4tzZhDTQzx"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Adventure’s Revenge
+    description: Adventure’s Revenge
   - _id: YcH28lKfeMhjp8jh
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.YcH28lKfeMhjp8jh"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.YcH28lKfeMhjp8jh"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Adventurer’s Wrath
+    description: Adventurer’s Wrath
   - _id: 0eQUCazmkOItEMMz
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.0eQUCazmkOItEMMz"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.0eQUCazmkOItEMMz"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Adventurer’s Fury
+    description: Adventurer’s Fury
   - _id: Mmh5jxQazku45yTk
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.Mmh5jxQazku45yTk"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.Mmh5jxQazku45yTk"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Golden Adventure
+    description: Golden Adventure
   - _id: 5K31PF3FaZT8zXxj
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.5K31PF3FaZT8zXxj"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.5K31PF3FaZT8zXxj"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Royal Adventure
+    description: Royal Adventure
   - _id: mQtXYNx3b0FFBSfC
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.mQtXYNx3b0FFBSfC"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.mQtXYNx3b0FFBSfC"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Grand Adventure
+    description: Grand Adventure
   - _id: KRfUgD0Kq6KwZetq
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.KRfUgD0Kq6KwZetq"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.KRfUgD0Kq6KwZetq"
     range:
       - 13
       - 13
     weight: 1
     type: text
-    text: Bold Adventurer
+    description: Bold Adventurer
   - _id: e5WRZ4J5VeIQWHDZ
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.e5WRZ4J5VeIQWHDZ"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.e5WRZ4J5VeIQWHDZ"
     range:
       - 14
       - 14
     weight: 1
     type: text
-    text: Fortune’s Adventurer
+    description: Fortune’s Adventurer
   - _id: vuftEjyzgir26A9J
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.vuftEjyzgir26A9J"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.vuftEjyzgir26A9J"
     range:
       - 15
       - 15
     weight: 1
     type: text
-    text: Venture
+    description: Venture
   - _id: slPSVqyDEXT0K5rQ
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.slPSVqyDEXT0K5rQ"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.slPSVqyDEXT0K5rQ"
     range:
       - 16
       - 16
     weight: 1
     type: text
-    text: Bold Venture
+    description: Bold Venture
   - _id: eY8D3SP2aTh9eQLm
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.eY8D3SP2aTh9eQLm"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.eY8D3SP2aTh9eQLm"
     range:
       - 17
       - 17
     weight: 1
     type: text
-    text: Damned Venture
+    description: Damned Venture
   - _id: 6YDdCljmPscsaiR3
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.6YDdCljmPscsaiR3"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.6YDdCljmPscsaiR3"
     range:
       - 18
       - 18
     weight: 1
     type: text
-    text: Golden Venture
+    description: Golden Venture
   - _id: 3fDizcznJbFfB35k
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.3fDizcznJbFfB35k"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.3fDizcznJbFfB35k"
     range:
       - 19
       - 19
     weight: 1
     type: text
-    text: Black Venture
+    description: Black Venture
   - _id: pPFaz9D55xDfEEz2
-    _key: "!tables.results!.cMqLo02pJ3qmx4Yz.pPFaz9D55xDfEEz2"
+    _key: "!tables.results!cMqLo02pJ3qmx4Yz.pPFaz9D55xDfEEz2"
     range:
       - 20
       - 20
     weight: 1
     type: text
-    text: Flying Venture
+    description: Flying Venture

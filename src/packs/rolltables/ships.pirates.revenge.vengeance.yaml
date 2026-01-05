@@ -1,5 +1,5 @@
 _id: q253hRHKg70z7uf6
-_key: "!tables!.q253hRHKg70z7uf6"
+_key: "!tables!q253hRHKg70z7uf6"
 name: "Pirate Ship Names: Vengeance"
 description: Pirate ship names about vengeance.
 img: icons/svg/d20-grey.svg
@@ -7,50 +7,50 @@ formula: 1d10
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: tlvg9gWuXfsWHxrK
-    _key: "!tables.results!.q253hRHKg70z7uf6.tlvg9gWuXfsWHxrK"
+    _key: "!tables.results!q253hRHKg70z7uf6.tlvg9gWuXfsWHxrK"
     range:
       - 1
       - 5
     weight: 5
     type: text
-    text: Vengeance
+    description: Vengeance
   - _id: QHFqnzCvWkSdtsei
-    _key: "!tables.results!.q253hRHKg70z7uf6.QHFqnzCvWkSdtsei"
+    _key: "!tables.results!q253hRHKg70z7uf6.QHFqnzCvWkSdtsei"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Honest Vengeance
+    description: Honest Vengeance
   - _id: c1FZumxEe64caHYi
-    _key: "!tables.results!.q253hRHKg70z7uf6.c1FZumxEe64caHYi"
+    _key: "!tables.results!q253hRHKg70z7uf6.c1FZumxEe64caHYi"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Devil’s Vengeance
+    description: Devil’s Vengeance
   - _id: TiGGjhVVqOCo6ljx
-    _key: "!tables.results!.q253hRHKg70z7uf6.TiGGjhVVqOCo6ljx"
+    _key: "!tables.results!q253hRHKg70z7uf6.TiGGjhVVqOCo6ljx"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Bloody Vengeance
+    description: Bloody Vengeance
   - _id: CJT1WXGlINzl4esA
-    _key: "!tables.results!.q253hRHKg70z7uf6.CJT1WXGlINzl4esA"
+    _key: "!tables.results!q253hRHKg70z7uf6.CJT1WXGlINzl4esA"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Hell’s Vengeance
+    description: Hell’s Vengeance
   - _id: lXpXo6LST8wGxh8x
-    _key: "!tables.results!.q253hRHKg70z7uf6.lXpXo6LST8wGxh8x"
+    _key: "!tables.results!q253hRHKg70z7uf6.lXpXo6LST8wGxh8x"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Deep’s Vengeance
+    description: Deep’s Vengeance

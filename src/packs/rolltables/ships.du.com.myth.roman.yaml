@@ -1,5 +1,5 @@
 _id: kQcn7FNZppOF3TSI
-_key: "!tables!.kQcn7FNZppOF3TSI"
+_key: "!tables!kQcn7FNZppOF3TSI"
 name: Names for Dutch Merchantmen from Roman Mythology
 description: Appropriate names for Dutch merchantmen derived from figures from
   Roman mythology, legend, and history.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: Y5rjFkdS7fOJeZ8c
 results:
   - _id: JHWUrKZTxMxm9CsG
-    _key: "!tables.results!.kQcn7FNZppOF3TSI.JHWUrKZTxMxm9CsG"
+    _key: "!tables.results!kQcn7FNZppOF3TSI.JHWUrKZTxMxm9CsG"
     range:
       - 1
       - 10
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mJ1OrQd1JKyTZjNf
     name: Names for Dutch Merchantmen from Roman Mythology (Gods)
   - _id: zd0DcYBP8TOVmwhd
-    _key: "!tables.results!.kQcn7FNZppOF3TSI.zd0DcYBP8TOVmwhd"
+    _key: "!tables.results!kQcn7FNZppOF3TSI.zd0DcYBP8TOVmwhd"
     range:
       - 11
       - 20

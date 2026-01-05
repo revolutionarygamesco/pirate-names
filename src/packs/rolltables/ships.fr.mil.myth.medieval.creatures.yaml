@@ -1,5 +1,5 @@
 _id: 57Mtmpdj6eHXLOwl
-_key: "!tables!.57Mtmpdj6eHXLOwl"
+_key: "!tables!57Mtmpdj6eHXLOwl"
 name: Names for French Men-of-War after Creatures of Medieval Myth and Legend
 description: Appropriate names for French men-of-war derived from creatures
   found in medieval myth, legend, bestiaries, and heraldry.
@@ -8,7 +8,7 @@ formula: 1d12
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: 5YBr4JG8uWoO3Rbr
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.5YBr4JG8uWoO3Rbr"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.5YBr4JG8uWoO3Rbr"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Licorne
   - _id: EV7Cs75ykqil1V2D
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.EV7Cs75ykqil1V2D"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.EV7Cs75ykqil1V2D"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Sirène
   - _id: k7OmLV2fToA5ts2r
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.k7OmLV2fToA5ts2r"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.k7OmLV2fToA5ts2r"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Salamandre
   - _id: azKjKIVBEVVB5poR
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.azKjKIVBEVVB5poR"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.azKjKIVBEVVB5poR"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Griffon de Mer
   - _id: ZCNMUXsOEbSwv0Bj
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.ZCNMUXsOEbSwv0Bj"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.ZCNMUXsOEbSwv0Bj"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Yale
   - _id: ddoW84hzVR7OXBv8
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.ddoW84hzVR7OXBv8"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.ddoW84hzVR7OXBv8"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Lion Ailé
   - _id: rNFFSdkRV53hpwBg
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.rNFFSdkRV53hpwBg"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.rNFFSdkRV53hpwBg"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Dragon
   - _id: qlNRbKhWb602eHCH
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.qlNRbKhWb602eHCH"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.qlNRbKhWb602eHCH"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Tarasque
   - _id: xupGBaFAzT4xnfad
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.xupGBaFAzT4xnfad"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.xupGBaFAzT4xnfad"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Kraken
   - _id: DyDQRBJjbrzJXtW7
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.DyDQRBJjbrzJXtW7"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.DyDQRBJjbrzJXtW7"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Léviathan
   - _id: sIcyC33y5e7DCd5A
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.sIcyC33y5e7DCd5A"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.sIcyC33y5e7DCd5A"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Basilic
   - _id: jmIpohxIGZA6APAk
-    _key: "!tables.results!.57Mtmpdj6eHXLOwl.jmIpohxIGZA6APAk"
+    _key: "!tables.results!57Mtmpdj6eHXLOwl.jmIpohxIGZA6APAk"
     range:
       - 12
       - 12

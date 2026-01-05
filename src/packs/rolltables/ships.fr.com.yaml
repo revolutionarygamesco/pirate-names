@@ -1,5 +1,5 @@
 _id: 1sTaZb3ssDQrBoDp
-_key: "!tables!.1sTaZb3ssDQrBoDp"
+_key: "!tables!1sTaZb3ssDQrBoDp"
 name: Names for French Merchantmen
 description: Appropriate names for French merchantmen.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: TPus7f8HNIFJXBXp
 results:
   - _id: zobXQellca8d5OXi
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.zobXQellca8d5OXi"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.zobXQellca8d5OXi"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.WPdAj2c6hKX2a4v3
     name: French Feminine Names
   - _id: 21KUiDlhZMOKlI8a
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.21KUiDlhZMOKlI8a"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.21KUiDlhZMOKlI8a"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.clnG5w9iWoJiOoja
     name: Names for French Ships from Places
   - _id: ary06MwGtxVaDMur
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.ary06MwGtxVaDMur"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.ary06MwGtxVaDMur"
     range:
       - 9
       - 10
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.niIVQhH7NczGO3Nr
     name: Names for French Ships from Aristocracy
   - _id: moSKoXXvdEHV0ZNM
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.moSKoXXvdEHV0ZNM"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.moSKoXXvdEHV0ZNM"
     range:
       - 11
       - 14
@@ -43,7 +43,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xF9B6kRCDIqB9G4n
     name: Names for French Merchantmen from Mythology
   - _id: y5Fy5dyYsNScrXrl
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.y5Fy5dyYsNScrXrl"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.y5Fy5dyYsNScrXrl"
     range:
       - 15
       - 16
@@ -52,7 +52,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.lG76HDiwzD3CfLC4
     name: Names for French Merchantmen from Animals
   - _id: lpTbmF0cBXVFcf5B
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.lpTbmF0cBXVFcf5B"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.lpTbmF0cBXVFcf5B"
     range:
       - 17
       - 18
@@ -61,7 +61,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mR7QVIGuiOKnVqtJ
     name: Names for French Ships from Astronomy
   - _id: GcIX9l1dxTKDTvft
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.GcIX9l1dxTKDTvft"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.GcIX9l1dxTKDTvft"
     range:
       - 19
       - 19
@@ -70,7 +70,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.NfRsdgoM1K5emTHo
     name: Aspirational Names for French Merchantmen
   - _id: yhXYP4in3m5dcdFT
-    _key: "!tables.results!.1sTaZb3ssDQrBoDp.yhXYP4in3m5dcdFT"
+    _key: "!tables.results!1sTaZb3ssDQrBoDp.yhXYP4in3m5dcdFT"
     range:
       - 20
       - 20

@@ -1,5 +1,5 @@
 _id: THGiYR2Z08mG3f1I
-_key: "!tables!.THGiYR2Z08mG3f1I"
+_key: "!tables!THGiYR2Z08mG3f1I"
 name: Names for Spanish Merchantmen from Birds
 description: Appropriate names for Spanish merchantmen derived from birds.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: Yla9tUZ9BUrr1ch2
 results:
   - _id: cJDKpdr8EyEXvLc6
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.cJDKpdr8EyEXvLc6"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.cJDKpdr8EyEXvLc6"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Grulla
   - _id: puVTtRF5IyqNpa13
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.puVTtRF5IyqNpa13"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.puVTtRF5IyqNpa13"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Garza
   - _id: foT218pXa4xl99l6
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.foT218pXa4xl99l6"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.foT218pXa4xl99l6"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Ruiseñor
   - _id: mEFBA5pgDc3wgHmQ
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.mEFBA5pgDc3wgHmQ"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.mEFBA5pgDc3wgHmQ"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Cuervo
   - _id: 1Hf8DJwf5il4g3Od
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.1Hf8DJwf5il4g3Od"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.1Hf8DJwf5il4g3Od"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Grajo
   - _id: HS8SGoVeKd0d0G4A
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.HS8SGoVeKd0d0G4A"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.HS8SGoVeKd0d0G4A"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Piñonero
   - _id: XXL3mu9xTwsSYp7x
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.XXL3mu9xTwsSYp7x"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.XXL3mu9xTwsSYp7x"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Cormorán
   - _id: G1idhi0w9XaR6o6d
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.G1idhi0w9XaR6o6d"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.G1idhi0w9XaR6o6d"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Martín Pescador
   - _id: lciSy9IhtNhUVeoH
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.lciSy9IhtNhUVeoH"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.lciSy9IhtNhUVeoH"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Pelícano
   - _id: fr3PzgSR9FRH7iGA
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.fr3PzgSR9FRH7iGA"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.fr3PzgSR9FRH7iGA"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Albatros
   - _id: a8Ly2ijWHkFl0FUl
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.a8Ly2ijWHkFl0FUl"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.a8Ly2ijWHkFl0FUl"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Paloma
   - _id: V6A7pqc4uJxVZ77Q
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.V6A7pqc4uJxVZ77Q"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.V6A7pqc4uJxVZ77Q"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Pato
   - _id: GpHrENBegMrRHHn3
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.GpHrENBegMrRHHn3"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.GpHrENBegMrRHHn3"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Alcatraz
   - _id: AvUoUsykBVJ4oUbN
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.AvUoUsykBVJ4oUbN"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.AvUoUsykBVJ4oUbN"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Colibrí
   - _id: jviUl9UkTAFGEzdU
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.jviUl9UkTAFGEzdU"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.jviUl9UkTAFGEzdU"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Alondra
   - _id: RTKuqXpphaCAApWN
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.RTKuqXpphaCAApWN"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.RTKuqXpphaCAApWN"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Urraca
   - _id: RZC2oQmHRE0qxPSr
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.RZC2oQmHRE0qxPSr"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.RZC2oQmHRE0qxPSr"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Cisne
   - _id: l1A6vSVPsCK5DFww
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.l1A6vSVPsCK5DFww"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.l1A6vSVPsCK5DFww"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Estornino
   - _id: AFYgXsTKRQmPWquI
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.AFYgXsTKRQmPWquI"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.AFYgXsTKRQmPWquI"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Ganso
   - _id: 4YAA0g1xpbPTGG7e
-    _key: "!tables.results!.THGiYR2Z08mG3f1I.4YAA0g1xpbPTGG7e"
+    _key: "!tables.results!THGiYR2Z08mG3f1I.4YAA0g1xpbPTGG7e"
     range:
       - 20
       - 20

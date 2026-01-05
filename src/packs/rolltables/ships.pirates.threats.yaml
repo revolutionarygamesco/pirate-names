@@ -1,5 +1,5 @@
 _id: 4Co3fSNfHeXfErwt
-_key: "!tables!.4Co3fSNfHeXfErwt"
+_key: "!tables!4Co3fSNfHeXfErwt"
 name: "Pirate Ship Names: Threats"
 description: Pirate ship names that make a threat.
 img: icons/svg/d20-grey.svg
@@ -7,162 +7,162 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: G2FzAfoh21qJsFc8
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.G2FzAfoh21qJsFc8"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.G2FzAfoh21qJsFc8"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: No Mercy
+    description: No Mercy
   - _id: duACQJnjtHcaY3wp
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.duACQJnjtHcaY3wp"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.duACQJnjtHcaY3wp"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: No Quarter
+    description: No Quarter
   - _id: XaGXwjYXPgufNFaF
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.XaGXwjYXPgufNFaF"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.XaGXwjYXPgufNFaF"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: No Pity
+    description: No Pity
   - _id: QohvVymnx9TYm11E
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.QohvVymnx9TYm11E"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.QohvVymnx9TYm11E"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: No Escape
+    description: No Escape
   - _id: IL1FxEhFpC9EtgZu
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.IL1FxEhFpC9EtgZu"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.IL1FxEhFpC9EtgZu"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Bleeding Heart
+    description: Bleeding Heart
   - _id: PE7GNitUSN0GBMRl
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.PE7GNitUSN0GBMRl"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.PE7GNitUSN0GBMRl"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Red Jack
+    description: Red Jack
   - _id: yVJRTQhKrv3khH6O
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.yVJRTQhKrv3khH6O"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.yVJRTQhKrv3khH6O"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Red Death
+    description: Red Death
   - _id: tSIMnYUFHHMCmDSA
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.tSIMnYUFHHMCmDSA"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.tSIMnYUFHHMCmDSA"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Pierced Heart
+    description: Pierced Heart
   - _id: 5xzroIRVNQQ94Zbg
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.5xzroIRVNQQ94Zbg"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.5xzroIRVNQQ94Zbg"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Hell’s Bells
+    description: Hell’s Bells
   - _id: o9JF3nbFLyl9RKwC
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.o9JF3nbFLyl9RKwC"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.o9JF3nbFLyl9RKwC"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Ruthless
+    description: Ruthless
   - _id: bTmsQ8wj20Hnz28r
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.bTmsQ8wj20Hnz28r"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.bTmsQ8wj20Hnz28r"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Merciless
+    description: Merciless
   - _id: LVB05AgqEJVfqWfo
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.LVB05AgqEJVfqWfo"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.LVB05AgqEJVfqWfo"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Heartless
+    description: Heartless
   - _id: 6x4nBvpvbgguGFxA
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.6x4nBvpvbgguGFxA"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.6x4nBvpvbgguGFxA"
     range:
       - 13
       - 13
     weight: 1
     type: text
-    text: Death’s Trumpet
+    description: Death’s Trumpet
   - _id: P5886tDb22wp8gjy
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.P5886tDb22wp8gjy"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.P5886tDb22wp8gjy"
     range:
       - 14
       - 14
     weight: 1
     type: text
-    text: Hell’s Trumpet
+    description: Hell’s Trumpet
   - _id: 24qzrOcB6yUdQgy6
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.24qzrOcB6yUdQgy6"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.24qzrOcB6yUdQgy6"
     range:
       - 15
       - 15
     weight: 1
     type: text
-    text: Devil’s Trumpet
+    description: Devil’s Trumpet
   - _id: MfpriemYdBezEH3A
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.MfpriemYdBezEH3A"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.MfpriemYdBezEH3A"
     range:
       - 16
       - 16
     weight: 1
     type: text
-    text: Roger’s Trumpet
+    description: Roger’s Trumpet
   - _id: Yx6Tfbo7rvXyqyC4
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.Yx6Tfbo7rvXyqyC4"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.Yx6Tfbo7rvXyqyC4"
     range:
       - 17
       - 17
     weight: 1
     type: text
-    text: Grim Trumpet
+    description: Grim Trumpet
   - _id: NQUTKsaOG4mWMK38
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.NQUTKsaOG4mWMK38"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.NQUTKsaOG4mWMK38"
     range:
       - 18
       - 18
     weight: 1
     type: text
-    text: Deep’s Trumpet
+    description: Deep’s Trumpet
   - _id: seb9IGjION7Y2nKS
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.seb9IGjION7Y2nKS"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.seb9IGjION7Y2nKS"
     range:
       - 19
       - 19
     weight: 1
     type: text
-    text: Death Knell
+    description: Death Knell
   - _id: bABL7kdxcaAMZNhh
-    _key: "!tables.results!.4Co3fSNfHeXfErwt.bABL7kdxcaAMZNhh"
+    _key: "!tables.results!4Co3fSNfHeXfErwt.bABL7kdxcaAMZNhh"
     range:
       - 20
       - 20
     weight: 1
     type: text
-    text: Tolling Bell
+    description: Tolling Bell

@@ -1,5 +1,5 @@
 _id: MFbDFJbPecTwyVwA
-_key: "!tables!.MFbDFJbPecTwyVwA"
+_key: "!tables!MFbDFJbPecTwyVwA"
 name: Names for Spanish Ships from Aristocracy
 description: Appropriate names for Spanish ships derived from the titles of
   peerage of the Spanish Empire.
@@ -8,7 +8,7 @@ formula: 1d4
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: f6fB7rPPhn7ZdZUq
-    _key: "!tables.results!.MFbDFJbPecTwyVwA.f6fB7rPPhn7ZdZUq"
+    _key: "!tables.results!MFbDFJbPecTwyVwA.f6fB7rPPhn7ZdZUq"
     range:
       - 1
       - 6
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.qz0vWQCWH8cBfpla
     name: Names for Spanish Ships from Count Titles
   - _id: 9wOFP2CB1xb1ctwt
-    _key: "!tables.results!.MFbDFJbPecTwyVwA.9wOFP2CB1xb1ctwt"
+    _key: "!tables.results!MFbDFJbPecTwyVwA.9wOFP2CB1xb1ctwt"
     range:
       - 7
       - 12
@@ -26,7 +26,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.uYa7SJdqQFLaNM0O
     name: Names for Spanish Ships from Aristocratic Titles
   - _id: t2qOj8fsbzxepdlF
-    _key: "!tables.results!.MFbDFJbPecTwyVwA.t2qOj8fsbzxepdlF"
+    _key: "!tables.results!MFbDFJbPecTwyVwA.t2qOj8fsbzxepdlF"
     range:
       - 13
       - 18
@@ -35,7 +35,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.dbYeSWNQI6SJSKz6
     name: Names for Spanish Ships from the Royal Family
   - _id: UOh79z5OrLyvKAm0
-    _key: "!tables.results!.MFbDFJbPecTwyVwA.UOh79z5OrLyvKAm0"
+    _key: "!tables.results!MFbDFJbPecTwyVwA.UOh79z5OrLyvKAm0"
     range:
       - 19
       - 20

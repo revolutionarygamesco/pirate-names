@@ -1,5 +1,5 @@
 _id: dFEX3BCDJboj1FDj
-_key: "!tables!.dFEX3BCDJboj1FDj"
+_key: "!tables!dFEX3BCDJboj1FDj"
 name: Names for British Men-of-War
 description: Appropriate names for British men-of-war.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: KEvzzH6j5QBiEIim
 results:
   - _id: XrAJYv8HeEB4KUjI
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.XrAJYv8HeEB4KUjI"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.XrAJYv8HeEB4KUjI"
     range:
       - 1
       - 5
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3FurO9qJF79bb11f
     name: English Feminine Names
   - _id: C7khk5HYYUQoBhuz
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.C7khk5HYYUQoBhuz"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.C7khk5HYYUQoBhuz"
     range:
       - 6
       - 10
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.xlzyioPfs5DgBxk8
     name: Names for British Ships from Places
   - _id: jaLrpDn9AaKqxWfe
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.jaLrpDn9AaKqxWfe"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.jaLrpDn9AaKqxWfe"
     range:
       - 11
       - 12
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.byP0Xa7TSpQoecu3
     name: Names for British Ships from Astronomy
   - _id: IZxVzmKUPvV9PBkE
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.IZxVzmKUPvV9PBkE"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.IZxVzmKUPvV9PBkE"
     range:
       - 13
       - 16
@@ -43,7 +43,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.rszItzSl7cwBMjme
     name: Names for British Men-of-War from Mythology
   - _id: AjxwLqm0wnDgWwlm
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.AjxwLqm0wnDgWwlm"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.AjxwLqm0wnDgWwlm"
     range:
       - 17
       - 18
@@ -52,7 +52,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.UW8t9bOaXAL98Kcc
     name: Names for British Men-of-War from Animals
   - _id: sTaSW6GQUKmVSPKB
-    _key: "!tables.results!.dFEX3BCDJboj1FDj.sTaSW6GQUKmVSPKB"
+    _key: "!tables.results!dFEX3BCDJboj1FDj.sTaSW6GQUKmVSPKB"
     range:
       - 19
       - 20

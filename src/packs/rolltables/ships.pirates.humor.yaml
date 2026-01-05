@@ -1,5 +1,5 @@
 _id: ohvTYSgAkCqtUG4m
-_key: "!tables!.ohvTYSgAkCqtUG4m"
+_key: "!tables!ohvTYSgAkCqtUG4m"
 name: "Pirate Ship Names: Gallows Humor"
 description: Pirate ship names centering on gallows humor.
 img: icons/svg/d20-grey.svg
@@ -7,162 +7,162 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: KqDJCAD4uKPPYlIU
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.KqDJCAD4uKPPYlIU"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.KqDJCAD4uKPPYlIU"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Black Joke
+    description: Black Joke
   - _id: 2FAgQEF6fKN0CE0t
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.2FAgQEF6fKN0CE0t"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.2FAgQEF6fKN0CE0t"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Gallows
+    description: Gallows
   - _id: U8zqGIG54TUyK6xr
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.U8zqGIG54TUyK6xr"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.U8zqGIG54TUyK6xr"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Bitter End
+    description: Bitter End
   - _id: sxFW6wfveo54cJfr
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.sxFW6wfveo54cJfr"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.sxFW6wfveo54cJfr"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Hempen Jig
+    description: Hempen Jig
   - _id: QLge7yitNqPc1xSc
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.QLge7yitNqPc1xSc"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.QLge7yitNqPc1xSc"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Hangman’s Daughter
+    description: Hangman’s Daughter
   - _id: LOa4WPByoA6Lq1K3
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.LOa4WPByoA6Lq1K3"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.LOa4WPByoA6Lq1K3"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Dead Man’s Chest
+    description: Dead Man’s Chest
   - _id: O7zCmf88ucHpOPI1
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.O7zCmf88ucHpOPI1"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.O7zCmf88ucHpOPI1"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Last Dance
+    description: Last Dance
   - _id: eRH9sX19kOoKlj7S
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.eRH9sX19kOoKlj7S"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.eRH9sX19kOoKlj7S"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Floating Coffin
+    description: Floating Coffin
   - _id: mTXArnj3PFIrfZGr
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.mTXArnj3PFIrfZGr"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.mTXArnj3PFIrfZGr"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Merry Damned
+    description: Merry Damned
   - _id: LxNXJvNepNkBj6uR
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.LxNXJvNepNkBj6uR"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.LxNXJvNepNkBj6uR"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Last Jest
+    description: Last Jest
   - _id: DN1Pm2wg3wb9R7xJ
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.DN1Pm2wg3wb9R7xJ"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.DN1Pm2wg3wb9R7xJ"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Gibbet
+    description: Gibbet
   - _id: PoRBoyu4zceFmu7z
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.PoRBoyu4zceFmu7z"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.PoRBoyu4zceFmu7z"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Black Anchor
+    description: Black Anchor
   - _id: 2OJ9tRcrOlmnwdzl
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.2OJ9tRcrOlmnwdzl"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.2OJ9tRcrOlmnwdzl"
     range:
       - 13
       - 13
     weight: 1
     type: text
-    text: Hellfire
+    description: Hellfire
   - _id: MiedOlI1rxYN9Aeo
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.MiedOlI1rxYN9Aeo"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.MiedOlI1rxYN9Aeo"
     range:
       - 14
       - 14
     weight: 1
     type: text
-    text: Tyburn
+    description: Tyburn
   - _id: Oqt3B1O8yRuxiSt0
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.Oqt3B1O8yRuxiSt0"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.Oqt3B1O8yRuxiSt0"
     range:
       - 15
       - 15
     weight: 1
     type: text
-    text: Morning Drop
+    description: Morning Drop
   - _id: A0Sr2YOzXBCQaZvd
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.A0Sr2YOzXBCQaZvd"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.A0Sr2YOzXBCQaZvd"
     range:
       - 16
       - 16
     weight: 1
     type: text
-    text: Final Voyage
+    description: Final Voyage
   - _id: 3z8MAo9Jehxjq6hV
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.3z8MAo9Jehxjq6hV"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.3z8MAo9Jehxjq6hV"
     range:
       - 17
       - 17
     weight: 1
     type: text
-    text: Devil’s Bargain
+    description: Devil’s Bargain
   - _id: AfPxrPgOmTKregOM
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.AfPxrPgOmTKregOM"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.AfPxrPgOmTKregOM"
     range:
       - 18
       - 18
     weight: 1
     type: text
-    text: Executioner
+    description: Executioner
   - _id: JMF0GaNAfjjxTgvs
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.JMF0GaNAfjjxTgvs"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.JMF0GaNAfjjxTgvs"
     range:
       - 19
       - 19
     weight: 1
     type: text
-    text: Devil’s Grin
+    description: Devil’s Grin
   - _id: 1JL3GxFEicO2jEQv
-    _key: "!tables.results!.ohvTYSgAkCqtUG4m.1JL3GxFEicO2jEQv"
+    _key: "!tables.results!ohvTYSgAkCqtUG4m.1JL3GxFEicO2jEQv"
     range:
       - 20
       - 20
     weight: 1
     type: text
-    text: Final Joke
+    description: Final Joke

@@ -1,5 +1,5 @@
 _id: OC9PAHW3bt1RXzxo
-_key: "!tables!.OC9PAHW3bt1RXzxo"
+_key: "!tables!OC9PAHW3bt1RXzxo"
 name: Names for Dutch Ships from Star Names
 description: Appropriate names for Dutch ships named after stars.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: aRGe4z9ZnMGvp2wL
 results:
   - _id: fPJ1Zqsb0JBPd5ly
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.fPJ1Zqsb0JBPd5ly"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.fPJ1Zqsb0JBPd5ly"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Sirius
   - _id: pP4Q9xTmRpxiWrC8
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.pP4Q9xTmRpxiWrC8"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.pP4Q9xTmRpxiWrC8"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Vega
   - _id: FnaN0HhgBRcUbtkz
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.FnaN0HhgBRcUbtkz"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.FnaN0HhgBRcUbtkz"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Arcturus
   - _id: Qy7YaA0Pd328edoZ
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.Qy7YaA0Pd328edoZ"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.Qy7YaA0Pd328edoZ"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Achernar
   - _id: uMCmsxziNPTSFukg
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.uMCmsxziNPTSFukg"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.uMCmsxziNPTSFukg"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Albireo
   - _id: 5KfM9womrHwVN6Er
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.5KfM9womrHwVN6Er"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.5KfM9womrHwVN6Er"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Alcor
   - _id: 4KyCdcAj8XSVzHEG
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.4KyCdcAj8XSVzHEG"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.4KyCdcAj8XSVzHEG"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Aldebaran
   - _id: 679D1ZKjvfMZehq9
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.679D1ZKjvfMZehq9"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.679D1ZKjvfMZehq9"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Altaïr
   - _id: E0hd4A5lF3afdAkY
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.E0hd4A5lF3afdAkY"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.E0hd4A5lF3afdAkY"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Bellatrix
   - _id: 8CWqVZglgjtVi6bG
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.8CWqVZglgjtVi6bG"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.8CWqVZglgjtVi6bG"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Betelgeuze
   - _id: 1hzRr718erah84Kj
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.1hzRr718erah84Kj"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.1hzRr718erah84Kj"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Canopus
   - _id: VWxYW35O3PXLwJvg
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.VWxYW35O3PXLwJvg"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.VWxYW35O3PXLwJvg"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Cor Caroli
   - _id: R1uG96EWqzWf9MHh
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.R1uG96EWqzWf9MHh"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.R1uG96EWqzWf9MHh"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Deneb
   - _id: C2FfoyGOCVkyP0i5
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.C2FfoyGOCVkyP0i5"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.C2FfoyGOCVkyP0i5"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Elnath
   - _id: e8NLm6NUCJs6Mdi8
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.e8NLm6NUCJs6Mdi8"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.e8NLm6NUCJs6Mdi8"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Mizar
   - _id: 0XbvVYZs8ahPhExg
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.0XbvVYZs8ahPhExg"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.0XbvVYZs8ahPhExg"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Polaris
   - _id: py69W3i7fMb9IMMz
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.py69W3i7fMb9IMMz"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.py69W3i7fMb9IMMz"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Procyon
   - _id: x1xC1JMdtyvZwEq1
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.x1xC1JMdtyvZwEq1"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.x1xC1JMdtyvZwEq1"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Rigel
   - _id: PsZ8TXS6maMYg6zn
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.PsZ8TXS6maMYg6zn"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.PsZ8TXS6maMYg6zn"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Spica
   - _id: ZfMrocMvDfro4iqY
-    _key: "!tables.results!.OC9PAHW3bt1RXzxo.ZfMrocMvDfro4iqY"
+    _key: "!tables.results!OC9PAHW3bt1RXzxo.ZfMrocMvDfro4iqY"
     range:
       - 20
       - 20

@@ -1,5 +1,5 @@
 _id: yVjoSgcEQuKcFja5
-_key: "!tables!.yVjoSgcEQuKcFja5"
+_key: "!tables!yVjoSgcEQuKcFja5"
 name: "Pirate Ship Names: Dolphins"
 description: Pirate ship names centering on dolphins.
 img: icons/svg/d20-grey.svg
@@ -7,42 +7,42 @@ formula: 1d6
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: 8i0kMJTiUiW6yV9O
-    _key: "!tables.results!.yVjoSgcEQuKcFja5.8i0kMJTiUiW6yV9O"
+    _key: "!tables.results!yVjoSgcEQuKcFja5.8i0kMJTiUiW6yV9O"
     range:
       - 1
       - 2
     weight: 2
     type: text
-    text: Dolphin
+    description: Dolphin
   - _id: RXKY9T2Qs6i6fEZz
-    _key: "!tables.results!.yVjoSgcEQuKcFja5.RXKY9T2Qs6i6fEZz"
+    _key: "!tables.results!yVjoSgcEQuKcFja5.RXKY9T2Qs6i6fEZz"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Golden Dolphin
+    description: Golden Dolphin
   - _id: v5On4GHzYjOu8b6m
-    _key: "!tables.results!.yVjoSgcEQuKcFja5.v5On4GHzYjOu8b6m"
+    _key: "!tables.results!yVjoSgcEQuKcFja5.v5On4GHzYjOu8b6m"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Silver Dolphin
+    description: Silver Dolphin
   - _id: zs0u96qrJBo0SEde
-    _key: "!tables.results!.yVjoSgcEQuKcFja5.zs0u96qrJBo0SEde"
+    _key: "!tables.results!yVjoSgcEQuKcFja5.zs0u96qrJBo0SEde"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Flying Dolphin
+    description: Flying Dolphin
   - _id: QXQI6bsIDhVL3oBE
-    _key: "!tables.results!.yVjoSgcEQuKcFja5.QXQI6bsIDhVL3oBE"
+    _key: "!tables.results!yVjoSgcEQuKcFja5.QXQI6bsIDhVL3oBE"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Wild Dolphin
+    description: Wild Dolphin

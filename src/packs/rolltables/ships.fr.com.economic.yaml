@@ -1,5 +1,5 @@
 _id: vRoAsJAS9qcwyft1
-_key: "!tables!.vRoAsJAS9qcwyft1"
+_key: "!tables!vRoAsJAS9qcwyft1"
 name: Economic Names for French Merchantmen
 description: Names for French merchantmen that refer to the economy or material aspirations.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d8
 folder: UnF57V3UrteAFAcD
 results:
   - _id: bc3f3qR6eQUpFcuM
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.bc3f3qR6eQUpFcuM"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.bc3f3qR6eQUpFcuM"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Diamant
   - _id: k7lbR2eV2NMmXtYT
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.k7lbR2eV2NMmXtYT"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.k7lbR2eV2NMmXtYT"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Entreprenant
   - _id: XliN6uMh9d7JBGzD
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.XliN6uMh9d7JBGzD"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.XliN6uMh9d7JBGzD"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Guillot
   - _id: 1qDuXZjRqZIT3hQW
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.1qDuXZjRqZIT3hQW"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.1qDuXZjRqZIT3hQW"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Oriflamme
   - _id: auF6EQL3jpUu6vhp
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.auF6EQL3jpUu6vhp"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.auF6EQL3jpUu6vhp"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Prompt
   - _id: HUcQYkByNkIE9Xtr
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.HUcQYkByNkIE9Xtr"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.HUcQYkByNkIE9Xtr"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Prudent
   - _id: xjcs90YtdJbM8xA5
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.xjcs90YtdJbM8xA5"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.xjcs90YtdJbM8xA5"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Rubis
   - _id: wG05cK2ZAejZ5Y0k
-    _key: "!tables.results!.vRoAsJAS9qcwyft1.wG05cK2ZAejZ5Y0k"
+    _key: "!tables.results!vRoAsJAS9qcwyft1.wG05cK2ZAejZ5Y0k"
     range:
       - 8
       - 8

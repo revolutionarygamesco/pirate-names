@@ -1,5 +1,5 @@
 _id: SPjzxohsr6BuWOiK
-_key: "!tables!.SPjzxohsr6BuWOiK"
+_key: "!tables!SPjzxohsr6BuWOiK"
 name: "Pirate Ship Names: Avenger"
 description: Pirate ship names declaring themselves an avenger.
 img: icons/svg/d20-grey.svg
@@ -7,50 +7,50 @@ formula: 1d10
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: wlYklfNu8CXmdFqB
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.wlYklfNu8CXmdFqB"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.wlYklfNu8CXmdFqB"
     range:
       - 1
       - 5
     weight: 5
     type: text
-    text: Avenger
+    description: Avenger
   - _id: WZLoa9lNApvGnoo8
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.WZLoa9lNApvGnoo8"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.WZLoa9lNApvGnoo8"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Honest Avenger
+    description: Honest Avenger
   - _id: Lt4YPPEamfavi2QX
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.Lt4YPPEamfavi2QX"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.Lt4YPPEamfavi2QX"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Devil’s Avenger
+    description: Devil’s Avenger
   - _id: eXmnoxhLn2ShGM6D
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.eXmnoxhLn2ShGM6D"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.eXmnoxhLn2ShGM6D"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Bloody Avenger
+    description: Bloody Avenger
   - _id: dQpiagb9Dm38XQPl
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.dQpiagb9Dm38XQPl"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.dQpiagb9Dm38XQPl"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Hell’s Avenger
+    description: Hell’s Avenger
   - _id: hJEj0c79El1qWqzW
-    _key: "!tables.results!.SPjzxohsr6BuWOiK.hJEj0c79El1qWqzW"
+    _key: "!tables.results!SPjzxohsr6BuWOiK.hJEj0c79El1qWqzW"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Deep’s Avenger
+    description: Deep’s Avenger

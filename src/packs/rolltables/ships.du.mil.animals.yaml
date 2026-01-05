@@ -1,5 +1,5 @@
 _id: SCIn8zwL14D9oJjL
-_key: "!tables!.SCIn8zwL14D9oJjL"
+_key: "!tables!SCIn8zwL14D9oJjL"
 name: Names for Dutch Men-of-War from Animals
 description: Appropriate names for Dutch men-of-war derived from animals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: H0nvuws3XnhcTpcR
 results:
   - _id: 8DOeda1auIBC0bKQ
-    _key: "!tables.results!.SCIn8zwL14D9oJjL.8DOeda1auIBC0bKQ"
+    _key: "!tables.results!SCIn8zwL14D9oJjL.8DOeda1auIBC0bKQ"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.JnF4Bbxq3FVG0Uym
     name: Names for Dutch Men-of-War from Birds
   - _id: dUBVTxo20ga5Jn8r
-    _key: "!tables.results!.SCIn8zwL14D9oJjL.dUBVTxo20ga5Jn8r"
+    _key: "!tables.results!SCIn8zwL14D9oJjL.dUBVTxo20ga5Jn8r"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.XLh5bAn5fOsylewe
     name: Names for Dutch Men-of-War from Mammals
   - _id: aqvYhiyGgVe9nKNN
-    _key: "!tables.results!.SCIn8zwL14D9oJjL.aqvYhiyGgVe9nKNN"
+    _key: "!tables.results!SCIn8zwL14D9oJjL.aqvYhiyGgVe9nKNN"
     range:
       - 9
       - 12

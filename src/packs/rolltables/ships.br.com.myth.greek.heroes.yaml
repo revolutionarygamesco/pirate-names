@@ -1,5 +1,5 @@
 _id: yMD8Mcu2Oaa9hbvJ
-_key: "!tables!.yMD8Mcu2Oaa9hbvJ"
+_key: "!tables!yMD8Mcu2Oaa9hbvJ"
 name: Names for British Merchantmen from Greek Mythology (Heroes)
 description: Appropriate names for British merchantmen derived from Greek heroes.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: oFvm03QYpinUqEnL
 results:
   - _id: 6UFC0cKYWMv8ice4
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.6UFC0cKYWMv8ice4"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.6UFC0cKYWMv8ice4"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Castor and Pollux
   - _id: yscRB7y8eWlCEHnj
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.yscRB7y8eWlCEHnj"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.yscRB7y8eWlCEHnj"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Orpheus
   - _id: 7mjY3c7i2TuUAMFB
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.7mjY3c7i2TuUAMFB"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.7mjY3c7i2TuUAMFB"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Eurydice
   - _id: iaR0aVuvK5xyPhwR
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.iaR0aVuvK5xyPhwR"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.iaR0aVuvK5xyPhwR"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Chiron
   - _id: 68J7G7qzO8WbzJ4f
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.68J7G7qzO8WbzJ4f"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.68J7G7qzO8WbzJ4f"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Atreus
   - _id: SBgHEE8tfUx0sivq
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.SBgHEE8tfUx0sivq"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.SBgHEE8tfUx0sivq"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Atalanta
   - _id: iGrw4tdWj2C6lYI7
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.iGrw4tdWj2C6lYI7"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.iGrw4tdWj2C6lYI7"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Ganymede
   - _id: kaF8F6O0CpmSNk1s
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.kaF8F6O0CpmSNk1s"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.kaF8F6O0CpmSNk1s"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Jason
   - _id: CvMEvb26I3PFLAyK
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.CvMEvb26I3PFLAyK"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.CvMEvb26I3PFLAyK"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Meleager
   - _id: ct5zcXmn4iCjysgA
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.ct5zcXmn4iCjysgA"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.ct5zcXmn4iCjysgA"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Odysseus
   - _id: oWuNKPxWQSUlNz2J
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.oWuNKPxWQSUlNz2J"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.oWuNKPxWQSUlNz2J"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Minos
   - _id: nVfYJCiFTCIzSlOM
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.nVfYJCiFTCIzSlOM"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.nVfYJCiFTCIzSlOM"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Aegeus
   - _id: 0obGJeWDP7YfY8OK
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.0obGJeWDP7YfY8OK"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.0obGJeWDP7YfY8OK"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Andromeda
   - _id: EGkiaypy1ZcX0Dg6
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.EGkiaypy1ZcX0Dg6"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.EGkiaypy1ZcX0Dg6"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Ariadne
   - _id: Ae3iV3fjxCh10ErB
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.Ae3iV3fjxCh10ErB"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.Ae3iV3fjxCh10ErB"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Daedalus
   - _id: kuBYnVyTPEmA9A6c
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.kuBYnVyTPEmA9A6c"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.kuBYnVyTPEmA9A6c"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Patroclus
   - _id: dd7w4ISFjrpVLI55
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.dd7w4ISFjrpVLI55"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.dd7w4ISFjrpVLI55"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Peleus
   - _id: I8LfPuN6Nyt5Xd8a
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.I8LfPuN6Nyt5Xd8a"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.I8LfPuN6Nyt5Xd8a"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Menelaus
   - _id: OFLiRXclOenyP6ff
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.OFLiRXclOenyP6ff"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.OFLiRXclOenyP6ff"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Diomedes
   - _id: iqJjsPIthKkRtIAN
-    _key: "!tables.results!.yMD8Mcu2Oaa9hbvJ.iqJjsPIthKkRtIAN"
+    _key: "!tables.results!yMD8Mcu2Oaa9hbvJ.iqJjsPIthKkRtIAN"
     range:
       - 20
       - 20

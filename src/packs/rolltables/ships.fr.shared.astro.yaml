@@ -1,5 +1,5 @@
 _id: mR7QVIGuiOKnVqtJ
-_key: "!tables!.mR7QVIGuiOKnVqtJ"
+_key: "!tables!mR7QVIGuiOKnVqtJ"
 name: Names for French Ships from Astronomy
 description: Appropriate names for French ships derived from astronomy and celestial bodies.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: DQlYv6FOGEeUyk06
 results:
   - _id: 2h9VsWyghwpCzFSi
-    _key: "!tables.results!.mR7QVIGuiOKnVqtJ.2h9VsWyghwpCzFSi"
+    _key: "!tables.results!mR7QVIGuiOKnVqtJ.2h9VsWyghwpCzFSi"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.3KX6jO9elKi7KFAG
     name: Names for French Ships from Astronomical Terms
   - _id: bewIMcCnVFq9pc0t
-    _key: "!tables.results!.mR7QVIGuiOKnVqtJ.bewIMcCnVFq9pc0t"
+    _key: "!tables.results!mR7QVIGuiOKnVqtJ.bewIMcCnVFq9pc0t"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.I7IEcPSYijYOlSh4
     name: Names for French Ships from Stars
   - _id: TyqDNmLfmfQQlmFZ
-    _key: "!tables.results!.mR7QVIGuiOKnVqtJ.TyqDNmLfmfQQlmFZ"
+    _key: "!tables.results!mR7QVIGuiOKnVqtJ.TyqDNmLfmfQQlmFZ"
     range:
       - 9
       - 14
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.p8YU4nGkOX7DzeWX
     name: Names for French Ships from the Zodiac
   - _id: ELcwFyNofpEnbcoJ
-    _key: "!tables.results!.mR7QVIGuiOKnVqtJ.ELcwFyNofpEnbcoJ"
+    _key: "!tables.results!mR7QVIGuiOKnVqtJ.ELcwFyNofpEnbcoJ"
     range:
       - 15
       - 20

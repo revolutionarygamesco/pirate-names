@@ -1,5 +1,5 @@
 _id: vpA0k39t0Szptq0W
-_key: "!tables!.vpA0k39t0Szptq0W"
+_key: "!tables!vpA0k39t0Szptq0W"
 name: "Pirate Ship Names: Deer"
 description: Pirate ship names centering on deer.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: uVLyayqU3JpwA5xB
-    _key: "!tables.results!.vpA0k39t0Szptq0W.uVLyayqU3JpwA5xB"
+    _key: "!tables.results!vpA0k39t0Szptq0W.uVLyayqU3JpwA5xB"
     range:
       - 1
       - 10
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.cn3SCjIohIsZWSjD
     name: "Pirate Ship Names: Hinds"
   - _id: qinMHMyuVJLELyVw
-    _key: "!tables.results!.vpA0k39t0Szptq0W.qinMHMyuVJLELyVw"
+    _key: "!tables.results!vpA0k39t0Szptq0W.qinMHMyuVJLELyVw"
     range:
       - 11
       - 20

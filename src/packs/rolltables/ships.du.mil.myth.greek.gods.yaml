@@ -1,5 +1,5 @@
 _id: UaUckvEB5qrUOAeb
-_key: "!tables!.UaUckvEB5qrUOAeb"
+_key: "!tables!UaUckvEB5qrUOAeb"
 name: Names for Dutch Men-of-War from Greek Mythology (Gods)
 description: Appropriate names for Dutch men-of-war derived from Greek gods.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: H0nvuws3XnhcTpcR
 results:
   - _id: xSi54wGO4erB7Yzx
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.xSi54wGO4erB7Yzx"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.xSi54wGO4erB7Yzx"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Zeus
   - _id: jymj0KayEQDQygYY
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.jymj0KayEQDQygYY"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.jymj0KayEQDQygYY"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Hera
   - _id: MdpoMXijsfPkigak
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.MdpoMXijsfPkigak"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.MdpoMXijsfPkigak"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Poseidon
   - _id: Fiaufzr7k307Rded
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.Fiaufzr7k307Rded"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.Fiaufzr7k307Rded"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Apollo
   - _id: dAPgI2UZlYdXFq27
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.dAPgI2UZlYdXFq27"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.dAPgI2UZlYdXFq27"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Persephone
   - _id: JAb9m38BBFCJJSrY
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.JAb9m38BBFCJJSrY"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.JAb9m38BBFCJJSrY"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Oceaan
   - _id: rDGYGxs18u15abWD
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.rDGYGxs18u15abWD"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.rDGYGxs18u15abWD"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Nereus
   - _id: OhTKqIJBsFDHse0c
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.OhTKqIJBsFDHse0c"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.OhTKqIJBsFDHse0c"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Pontus
   - _id: Yc0qTDOu5I41gNW2
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.Yc0qTDOu5I41gNW2"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.Yc0qTDOu5I41gNW2"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Thalassa
   - _id: HhnLgfr6wjqMaiEP
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.HhnLgfr6wjqMaiEP"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.HhnLgfr6wjqMaiEP"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Tethys
   - _id: 2jXkFRtimu6kLIxu
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.2jXkFRtimu6kLIxu"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.2jXkFRtimu6kLIxu"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Artemis
   - _id: rYuG4HezEnrzfTyC
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.rYuG4HezEnrzfTyC"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.rYuG4HezEnrzfTyC"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Ares
   - _id: KX8G4VybQimxTJGk
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.KX8G4VybQimxTJGk"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.KX8G4VybQimxTJGk"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Athene
   - _id: GfwE5iW37LTnZZsh
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.GfwE5iW37LTnZZsh"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.GfwE5iW37LTnZZsh"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Nemesis
   - _id: pth5wvVzCw6tgGjp
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.pth5wvVzCw6tgGjp"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.pth5wvVzCw6tgGjp"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Helios
   - _id: bXyRqYtxOEq2WQP1
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.bXyRqYtxOEq2WQP1"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.bXyRqYtxOEq2WQP1"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Triton
   - _id: jQwyqdS4J54SVaub
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.jQwyqdS4J54SVaub"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.jQwyqdS4J54SVaub"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Kratos
   - _id: O6qkpNMaIRUlCWHh
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.O6qkpNMaIRUlCWHh"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.O6qkpNMaIRUlCWHh"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Nike
   - _id: e5Oz4WHAFpoEjXur
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.e5Oz4WHAFpoEjXur"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.e5Oz4WHAFpoEjXur"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Alka
   - _id: qbLAzFWVpCtVdUnR
-    _key: "!tables.results!.UaUckvEB5qrUOAeb.qbLAzFWVpCtVdUnR"
+    _key: "!tables.results!UaUckvEB5qrUOAeb.qbLAzFWVpCtVdUnR"
     range:
       - 20
       - 20

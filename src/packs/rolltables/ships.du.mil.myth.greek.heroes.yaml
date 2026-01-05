@@ -1,5 +1,5 @@
 _id: ZsR6XFn55OY5O7AN
-_key: "!tables!.ZsR6XFn55OY5O7AN"
+_key: "!tables!ZsR6XFn55OY5O7AN"
 name: Names for Dutch Men-of-War from Greek Mythology (Heroes)
 description: Appropriate names for Dutch men-of-war derived from Greek heroes.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: H0nvuws3XnhcTpcR
 results:
   - _id: yPDcz9lhusdToTDF
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.yPDcz9lhusdToTDF"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.yPDcz9lhusdToTDF"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Castor en Pollux
   - _id: tBxUoqan0q9FiATZ
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.tBxUoqan0q9FiATZ"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.tBxUoqan0q9FiATZ"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Orpheus
   - _id: IJfNSGeKrtZvj9yE
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.IJfNSGeKrtZvj9yE"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.IJfNSGeKrtZvj9yE"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Eurydice
   - _id: tIgBR097wa2sEic3
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.tIgBR097wa2sEic3"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.tIgBR097wa2sEic3"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Chiron
   - _id: hcLuh4yVF0sKqwlW
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.hcLuh4yVF0sKqwlW"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.hcLuh4yVF0sKqwlW"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Atreus
   - _id: 1lsnSvwylnWWMozP
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.1lsnSvwylnWWMozP"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.1lsnSvwylnWWMozP"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Atalanta
   - _id: oeAvWTlKbqmdRxuP
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.oeAvWTlKbqmdRxuP"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.oeAvWTlKbqmdRxuP"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Ganymedes
   - _id: LyEAhBDDCljME8Q1
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.LyEAhBDDCljME8Q1"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.LyEAhBDDCljME8Q1"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Jason
   - _id: c677KiCD0WBp4Xju
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.c677KiCD0WBp4Xju"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.c677KiCD0WBp4Xju"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Meleager
   - _id: JyQ98OhzIqdZL8Xn
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.JyQ98OhzIqdZL8Xn"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.JyQ98OhzIqdZL8Xn"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Odysseus
   - _id: sR5OO06REmMGPGoX
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.sR5OO06REmMGPGoX"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.sR5OO06REmMGPGoX"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Achilles
   - _id: dXbx84B5jgVK3JfJ
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.dXbx84B5jgVK3JfJ"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.dXbx84B5jgVK3JfJ"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Heracles
   - _id: 7yB06PfVyucpVTqk
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.7yB06PfVyucpVTqk"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.7yB06PfVyucpVTqk"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Cadmus
   - _id: x9SiilpaGsMrv0C9
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.x9SiilpaGsMrv0C9"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.x9SiilpaGsMrv0C9"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Bellerophon
   - _id: zyx0XS6enc8x76Kj
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.zyx0XS6enc8x76Kj"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.zyx0XS6enc8x76Kj"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Perseus
   - _id: dyUZmFyi7oTFzaXc
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.dyUZmFyi7oTFzaXc"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.dyUZmFyi7oTFzaXc"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Theseus
   - _id: ywLdRUMHb0NcEh3Y
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.ywLdRUMHb0NcEh3Y"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.ywLdRUMHb0NcEh3Y"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Actaeon
   - _id: mEh257X8cxOjFQbB
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.mEh257X8cxOjFQbB"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.mEh257X8cxOjFQbB"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Agamemnon
   - _id: rVEIeNuD4MalvF4I
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.rVEIeNuD4MalvF4I"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.rVEIeNuD4MalvF4I"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Ajax
   - _id: szpLTbrstmDFeWZ6
-    _key: "!tables.results!.ZsR6XFn55OY5O7AN.szpLTbrstmDFeWZ6"
+    _key: "!tables.results!ZsR6XFn55OY5O7AN.szpLTbrstmDFeWZ6"
     range:
       - 20
       - 20

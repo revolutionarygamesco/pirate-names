@@ -1,5 +1,5 @@
 _id: HEY8ioE2THRaxneS
-_key: "!tables!.HEY8ioE2THRaxneS"
+_key: "!tables!HEY8ioE2THRaxneS"
 name: Aspirational Names for French Men-of-War
 description: Aspirational names for French men-of-war.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: 7KD2YdJ6k8fIkz4L
-    _key: "!tables.results!.HEY8ioE2THRaxneS.7KD2YdJ6k8fIkz4L"
+    _key: "!tables.results!HEY8ioE2THRaxneS.7KD2YdJ6k8fIkz4L"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Adroit
   - _id: lB5sHz0vwd3j0b2A
-    _key: "!tables.results!.HEY8ioE2THRaxneS.lB5sHz0vwd3j0b2A"
+    _key: "!tables.results!HEY8ioE2THRaxneS.lB5sHz0vwd3j0b2A"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Ardente
   - _id: sbpd4kWitqbhxh6K
-    _key: "!tables.results!.HEY8ioE2THRaxneS.sbpd4kWitqbhxh6K"
+    _key: "!tables.results!HEY8ioE2THRaxneS.sbpd4kWitqbhxh6K"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Brave
   - _id: Ny0ag7kHCRrjsy63
-    _key: "!tables.results!.HEY8ioE2THRaxneS.Ny0ag7kHCRrjsy63"
+    _key: "!tables.results!HEY8ioE2THRaxneS.Ny0ag7kHCRrjsy63"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Courageux
   - _id: zRM3vsl0beMtMFtb
-    _key: "!tables.results!.HEY8ioE2THRaxneS.zRM3vsl0beMtMFtb"
+    _key: "!tables.results!HEY8ioE2THRaxneS.zRM3vsl0beMtMFtb"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Flambeau
   - _id: gnQhefjdMLJg4A6o
-    _key: "!tables.results!.HEY8ioE2THRaxneS.gnQhefjdMLJg4A6o"
+    _key: "!tables.results!HEY8ioE2THRaxneS.gnQhefjdMLJg4A6o"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Fougueux
   - _id: Skes1BZ09XubwyoG
-    _key: "!tables.results!.HEY8ioE2THRaxneS.Skes1BZ09XubwyoG"
+    _key: "!tables.results!HEY8ioE2THRaxneS.Skes1BZ09XubwyoG"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Galante
   - _id: g6CNfwVs7vJYA1ia
-    _key: "!tables.results!.HEY8ioE2THRaxneS.g6CNfwVs7vJYA1ia"
+    _key: "!tables.results!HEY8ioE2THRaxneS.g6CNfwVs7vJYA1ia"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Glorieux
   - _id: G01EvaheRJWxxvBG
-    _key: "!tables.results!.HEY8ioE2THRaxneS.G01EvaheRJWxxvBG"
+    _key: "!tables.results!HEY8ioE2THRaxneS.G01EvaheRJWxxvBG"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Hardi
   - _id: lJSrYdJHOfPJaGbv
-    _key: "!tables.results!.HEY8ioE2THRaxneS.lJSrYdJHOfPJaGbv"
+    _key: "!tables.results!HEY8ioE2THRaxneS.lJSrYdJHOfPJaGbv"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Héros
   - _id: htbYPx8QLKWMbRwX
-    _key: "!tables.results!.HEY8ioE2THRaxneS.htbYPx8QLKWMbRwX"
+    _key: "!tables.results!HEY8ioE2THRaxneS.htbYPx8QLKWMbRwX"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Intrépide
   - _id: XB7Tk5tHxTKgMiAx
-    _key: "!tables.results!.HEY8ioE2THRaxneS.XB7Tk5tHxTKgMiAx"
+    _key: "!tables.results!HEY8ioE2THRaxneS.XB7Tk5tHxTKgMiAx"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Juste
   - _id: sSlge82iIiOF1cik
-    _key: "!tables.results!.HEY8ioE2THRaxneS.sSlge82iIiOF1cik"
+    _key: "!tables.results!HEY8ioE2THRaxneS.sSlge82iIiOF1cik"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Justice
   - _id: 9ASygSbKTdOcHnMC
-    _key: "!tables.results!.HEY8ioE2THRaxneS.9ASygSbKTdOcHnMC"
+    _key: "!tables.results!HEY8ioE2THRaxneS.9ASygSbKTdOcHnMC"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Opiniâtre
   - _id: QbxsNlrgKj0HVUzd
-    _key: "!tables.results!.HEY8ioE2THRaxneS.QbxsNlrgKj0HVUzd"
+    _key: "!tables.results!HEY8ioE2THRaxneS.QbxsNlrgKj0HVUzd"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Puissant
   - _id: QZiDc0MW1CJhGqhc
-    _key: "!tables.results!.HEY8ioE2THRaxneS.QZiDc0MW1CJhGqhc"
+    _key: "!tables.results!HEY8ioE2THRaxneS.QZiDc0MW1CJhGqhc"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Renomée
   - _id: 8JTFDB5gwqXPN4gx
-    _key: "!tables.results!.HEY8ioE2THRaxneS.8JTFDB5gwqXPN4gx"
+    _key: "!tables.results!HEY8ioE2THRaxneS.8JTFDB5gwqXPN4gx"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Superbe
   - _id: vn7U9qlNbEkqw3XK
-    _key: "!tables.results!.HEY8ioE2THRaxneS.vn7U9qlNbEkqw3XK"
+    _key: "!tables.results!HEY8ioE2THRaxneS.vn7U9qlNbEkqw3XK"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Triomphe
   - _id: 9DSD8r692nbRfUY5
-    _key: "!tables.results!.HEY8ioE2THRaxneS.9DSD8r692nbRfUY5"
+    _key: "!tables.results!HEY8ioE2THRaxneS.9DSD8r692nbRfUY5"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Valeur
   - _id: bXHjZXdzCUCsqpeb
-    _key: "!tables.results!.HEY8ioE2THRaxneS.bXHjZXdzCUCsqpeb"
+    _key: "!tables.results!HEY8ioE2THRaxneS.bXHjZXdzCUCsqpeb"
     range:
       - 20
       - 20

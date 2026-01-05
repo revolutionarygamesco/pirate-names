@@ -1,5 +1,5 @@
 _id: 8LIsU4MVeN0vtUVc
-_key: "!tables!.8LIsU4MVeN0vtUVc"
+_key: "!tables!8LIsU4MVeN0vtUVc"
 name: "Pirate Ship Names: Fancy"
 description: Pirate ship names centering on fanciness.
 img: icons/svg/d20-grey.svg
@@ -7,58 +7,58 @@ formula: 1d8
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: SNhqyUUmNxrWEuRJ
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.SNhqyUUmNxrWEuRJ"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.SNhqyUUmNxrWEuRJ"
     range:
       - 1
       - 2
     weight: 2
     type: text
-    text: Fancy
+    description: Fancy
   - _id: km8dEK9fkagSpB48
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.km8dEK9fkagSpB48"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.km8dEK9fkagSpB48"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Royal Fancy
+    description: Royal Fancy
   - _id: Z9WMwoP6xRIoKGKR
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.Z9WMwoP6xRIoKGKR"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.Z9WMwoP6xRIoKGKR"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Golden Fancy
+    description: Golden Fancy
   - _id: gByrdgrVD2eoAllP
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.gByrdgrVD2eoAllP"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.gByrdgrVD2eoAllP"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Joyful Fancy
+    description: Joyful Fancy
   - _id: x8bPZKZUNuUoYkiI
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.x8bPZKZUNuUoYkiI"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.x8bPZKZUNuUoYkiI"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Bloody Fancy
+    description: Bloody Fancy
   - _id: NugQa9mSL8gEVqIn
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.NugQa9mSL8gEVqIn"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.NugQa9mSL8gEVqIn"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Honest Fancy
+    description: Honest Fancy
   - _id: MZWvy8EB3SLgcITJ
-    _key: "!tables.results!.8LIsU4MVeN0vtUVc.MZWvy8EB3SLgcITJ"
+    _key: "!tables.results!8LIsU4MVeN0vtUVc.MZWvy8EB3SLgcITJ"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Bold Fancy
+    description: Bold Fancy

@@ -1,5 +1,5 @@
 _id: Wqq9tlym8omBD62o
-_key: "!tables!.Wqq9tlym8omBD62o"
+_key: "!tables!Wqq9tlym8omBD62o"
 name: Names for Spanish Men-of-War from Marine Life
 description: Appropriate names for Spanish men-of-war derived from marine animals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: Cnm35AW8HQyKbtxm
-    _key: "!tables.results!.Wqq9tlym8omBD62o.Cnm35AW8HQyKbtxm"
+    _key: "!tables.results!Wqq9tlym8omBD62o.Cnm35AW8HQyKbtxm"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Delfín
   - _id: RgiVlS5aj1Hq4yMM
-    _key: "!tables.results!.Wqq9tlym8omBD62o.RgiVlS5aj1Hq4yMM"
+    _key: "!tables.results!Wqq9tlym8omBD62o.RgiVlS5aj1Hq4yMM"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Marsopa
   - _id: SQ6bXEehAQUGqGZ2
-    _key: "!tables.results!.Wqq9tlym8omBD62o.SQ6bXEehAQUGqGZ2"
+    _key: "!tables.results!Wqq9tlym8omBD62o.SQ6bXEehAQUGqGZ2"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Caballito de Mar
   - _id: NT4iqGHx8yFEq1tH
-    _key: "!tables.results!.Wqq9tlym8omBD62o.NT4iqGHx8yFEq1tH"
+    _key: "!tables.results!Wqq9tlym8omBD62o.NT4iqGHx8yFEq1tH"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Calamar
   - _id: TcH6s08LKVVe505R
-    _key: "!tables.results!.Wqq9tlym8omBD62o.TcH6s08LKVVe505R"
+    _key: "!tables.results!Wqq9tlym8omBD62o.TcH6s08LKVVe505R"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Aguja
   - _id: O0Q0lVYdnpebzMTR
-    _key: "!tables.results!.Wqq9tlym8omBD62o.O0Q0lVYdnpebzMTR"
+    _key: "!tables.results!Wqq9tlym8omBD62o.O0Q0lVYdnpebzMTR"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Beluga
   - _id: mXBmtn4EooDV0I78
-    _key: "!tables.results!.Wqq9tlym8omBD62o.mXBmtn4EooDV0I78"
+    _key: "!tables.results!Wqq9tlym8omBD62o.mXBmtn4EooDV0I78"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Narval
   - _id: ygdZqQz3VXYcBk0H
-    _key: "!tables.results!.Wqq9tlym8omBD62o.ygdZqQz3VXYcBk0H"
+    _key: "!tables.results!Wqq9tlym8omBD62o.ygdZqQz3VXYcBk0H"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Pez Vela
   - _id: 4SH4vgpIFbEZDt8t
-    _key: "!tables.results!.Wqq9tlym8omBD62o.4SH4vgpIFbEZDt8t"
+    _key: "!tables.results!Wqq9tlym8omBD62o.4SH4vgpIFbEZDt8t"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Morsa
   - _id: uWRN39WXy6gK2AYG
-    _key: "!tables.results!.Wqq9tlym8omBD62o.uWRN39WXy6gK2AYG"
+    _key: "!tables.results!Wqq9tlym8omBD62o.uWRN39WXy6gK2AYG"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Lubina
   - _id: H48yNmQNCUa7I5NR
-    _key: "!tables.results!.Wqq9tlym8omBD62o.H48yNmQNCUa7I5NR"
+    _key: "!tables.results!Wqq9tlym8omBD62o.H48yNmQNCUa7I5NR"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Tiburón
   - _id: ISjEJ3N6o6YoBec8
-    _key: "!tables.results!.Wqq9tlym8omBD62o.ISjEJ3N6o6YoBec8"
+    _key: "!tables.results!Wqq9tlym8omBD62o.ISjEJ3N6o6YoBec8"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Nautilo
   - _id: kXF1krpwFSKb0gBS
-    _key: "!tables.results!.Wqq9tlym8omBD62o.kXF1krpwFSKb0gBS"
+    _key: "!tables.results!Wqq9tlym8omBD62o.kXF1krpwFSKb0gBS"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Orca
   - _id: pZ4cdmEfgtKtg5kX
-    _key: "!tables.results!.Wqq9tlym8omBD62o.pZ4cdmEfgtKtg5kX"
+    _key: "!tables.results!Wqq9tlym8omBD62o.pZ4cdmEfgtKtg5kX"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Barracuda
   - _id: D6jYtKjuokIRfSY7
-    _key: "!tables.results!.Wqq9tlym8omBD62o.D6jYtKjuokIRfSY7"
+    _key: "!tables.results!Wqq9tlym8omBD62o.D6jYtKjuokIRfSY7"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Cangrejo
   - _id: 938io9h7s5x5hAew
-    _key: "!tables.results!.Wqq9tlym8omBD62o.938io9h7s5x5hAew"
+    _key: "!tables.results!Wqq9tlym8omBD62o.938io9h7s5x5hAew"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Pez Espada
   - _id: NzSASUYT8Ks93NJf
-    _key: "!tables.results!.Wqq9tlym8omBD62o.NzSASUYT8Ks93NJf"
+    _key: "!tables.results!Wqq9tlym8omBD62o.NzSASUYT8Ks93NJf"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Mantarraya
   - _id: AemDQEvQnDu6r1H7
-    _key: "!tables.results!.Wqq9tlym8omBD62o.AemDQEvQnDu6r1H7"
+    _key: "!tables.results!Wqq9tlym8omBD62o.AemDQEvQnDu6r1H7"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Caimán
   - _id: D6SzVnMzMV13l3OG
-    _key: "!tables.results!.Wqq9tlym8omBD62o.D6SzVnMzMV13l3OG"
+    _key: "!tables.results!Wqq9tlym8omBD62o.D6SzVnMzMV13l3OG"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: León Marino
   - _id: BTPC33PSAuQDEjz9
-    _key: "!tables.results!.Wqq9tlym8omBD62o.BTPC33PSAuQDEjz9"
+    _key: "!tables.results!Wqq9tlym8omBD62o.BTPC33PSAuQDEjz9"
     range:
       - 20
       - 20

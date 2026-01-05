@@ -1,5 +1,5 @@
 _id: zNjlBi4JXbwuAJVM
-_key: "!tables!.zNjlBi4JXbwuAJVM"
+_key: "!tables!zNjlBi4JXbwuAJVM"
 name: Names for Spanish Men-of-War from Roman Mythology (Heroes)
 description: Appropriate names for Spanish men-of-war derived from figures in
   Roman mythology, legend, and history.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: F0E4wp1tXmeHKOK2
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.F0E4wp1tXmeHKOK2"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.F0E4wp1tXmeHKOK2"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Hércules
   - _id: 6qNzXzaqxy9hu1Tp
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.6qNzXzaqxy9hu1Tp"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.6qNzXzaqxy9hu1Tp"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Géminis
   - _id: 0nzHIGaMoV5E3hXf
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.0nzHIGaMoV5E3hXf"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.0nzHIGaMoV5E3hXf"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Eneas
   - _id: V9YLOErWGOociF6D
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.V9YLOErWGOociF6D"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.V9YLOErWGOociF6D"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Sibila
   - _id: FFiARZ8C1ueJf23A
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.FFiARZ8C1ueJf23A"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.FFiARZ8C1ueJf23A"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Larunda
   - _id: db14tG5YK59IrDSP
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.db14tG5YK59IrDSP"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.db14tG5YK59IrDSP"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Palinuro
   - _id: RjZ8EIitUmmqu4LV
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.RjZ8EIitUmmqu4LV"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.RjZ8EIitUmmqu4LV"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Evandro
   - _id: uom3EuUDTxyoOTzD
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.uom3EuUDTxyoOTzD"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.uom3EuUDTxyoOTzD"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Tútula
   - _id: 7K8yaOWMXPmIWXU8
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.7K8yaOWMXPmIWXU8"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.7K8yaOWMXPmIWXU8"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Anquises
   - _id: OH7vPHhAcg2R5HPF
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.OH7vPHhAcg2R5HPF"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.OH7vPHhAcg2R5HPF"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Camilo
   - _id: meO1F2wGt0ZDFXLv
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.meO1F2wGt0ZDFXLv"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.meO1F2wGt0ZDFXLv"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Rómulo
   - _id: UdKslM1lipHpD9Bi
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.UdKslM1lipHpD9Bi"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.UdKslM1lipHpD9Bi"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Horacio
   - _id: p9lTxy49tOLB9Zn4
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.p9lTxy49tOLB9Zn4"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.p9lTxy49tOLB9Zn4"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Cincinato
   - _id: ANhZgGgXcuE70z8Q
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.ANhZgGgXcuE70z8Q"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.ANhZgGgXcuE70z8Q"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Escévola
   - _id: m6wbN0RAO77plii3
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.m6wbN0RAO77plii3"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.m6wbN0RAO77plii3"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Escipión
   - _id: bon1qmM6RJrlP7RW
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.bon1qmM6RJrlP7RW"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.bon1qmM6RJrlP7RW"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Coriolano
   - _id: tUuYM7Sz4wuXjPHp
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.tUuYM7Sz4wuXjPHp"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.tUuYM7Sz4wuXjPHp"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Hostilio
   - _id: nzpVOqOnkZBqRHVm
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.nzpVOqOnkZBqRHVm"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.nzpVOqOnkZBqRHVm"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Agripa
   - _id: PIKvgTZYYRuaG1f7
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.PIKvgTZYYRuaG1f7"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.PIKvgTZYYRuaG1f7"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Pompeyo
   - _id: tt58nug0CFh4LcTu
-    _key: "!tables.results!.zNjlBi4JXbwuAJVM.tt58nug0CFh4LcTu"
+    _key: "!tables.results!zNjlBi4JXbwuAJVM.tt58nug0CFh4LcTu"
     range:
       - 20
       - 20

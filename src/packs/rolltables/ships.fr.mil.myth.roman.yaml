@@ -1,5 +1,5 @@
 _id: sHwkp3f80AgXw6FN
-_key: "!tables!.sHwkp3f80AgXw6FN"
+_key: "!tables!sHwkp3f80AgXw6FN"
 name: Names for French Men-of-War from Roman Mythology
 description: Appropriate names for French men-of-war derived from figures in
   Roman mythology, legend, and history.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: NrZXrc22hqXyhMjJ
-    _key: "!tables.results!.sHwkp3f80AgXw6FN.NrZXrc22hqXyhMjJ"
+    _key: "!tables.results!sHwkp3f80AgXw6FN.NrZXrc22hqXyhMjJ"
     range:
       - 1
       - 10
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.N8KG2Q6wRNrJVyPK
     name: Names for French Men-of-War from Roman Mythology (Gods)
   - _id: Gt3289rI0YpnYoFh
-    _key: "!tables.results!.sHwkp3f80AgXw6FN.Gt3289rI0YpnYoFh"
+    _key: "!tables.results!sHwkp3f80AgXw6FN.Gt3289rI0YpnYoFh"
     range:
       - 11
       - 20

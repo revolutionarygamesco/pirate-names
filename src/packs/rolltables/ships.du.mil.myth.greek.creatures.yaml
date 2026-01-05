@@ -1,5 +1,5 @@
 _id: pv9SMiwNTS4mAUea
-_key: "!tables!.pv9SMiwNTS4mAUea"
+_key: "!tables!pv9SMiwNTS4mAUea"
 name: Names for Dutch Men-of-War from Greek Mythology (Creatures)
 description: Appropriate names for Dutch men-of-war derived from derived from
   creatures in Greek mythology.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: H0nvuws3XnhcTpcR
 results:
   - _id: EhjFMGPmoNsE0zwr
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.EhjFMGPmoNsE0zwr"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.EhjFMGPmoNsE0zwr"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Nereïde
   - _id: yMjjzWiUNUftAh4k
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.yMjjzWiUNUftAh4k"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.yMjjzWiUNUftAh4k"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Chimera
   - _id: dNskSdLsQ2kYbKbi
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.dNskSdLsQ2kYbKbi"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.dNskSdLsQ2kYbKbi"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Cycloop
   - _id: Ifg0UgrlAcSSHbnG
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.Ifg0UgrlAcSSHbnG"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.Ifg0UgrlAcSSHbnG"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Tyfoon
   - _id: gsTrIsAghN1waWxp
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.gsTrIsAghN1waWxp"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.gsTrIsAghN1waWxp"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Griffioen
   - _id: lGO9tQ2qGsYtJUmh
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.lGO9tQ2qGsYtJUmh"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.lGO9tQ2qGsYtJUmh"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Centauresse
   - _id: hnpGiM4mooyqIevr
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.hnpGiM4mooyqIevr"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.hnpGiM4mooyqIevr"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Harpij
   - _id: Hfn8TtWbN1OBeBfy
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.Hfn8TtWbN1OBeBfy"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.Hfn8TtWbN1OBeBfy"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Hippocamp
   - _id: vOG3mRkh3K9d0TgM
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.vOG3mRkh3K9d0TgM"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.vOG3mRkh3K9d0TgM"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Pegasus
   - _id: PSTIqzzc5QeQ4fCc
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.PSTIqzzc5QeQ4fCc"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.PSTIqzzc5QeQ4fCc"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Sirene
   - _id: kC2LgSBha3e423qY
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.kC2LgSBha3e423qY"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.kC2LgSBha3e423qY"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Minotaurus
   - _id: agCBr73jcZogOBVZ
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.agCBr73jcZogOBVZ"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.agCBr73jcZogOBVZ"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Hydra
   - _id: DnkOiD0Bn0xxytbh
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.DnkOiD0Bn0xxytbh"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.DnkOiD0Bn0xxytbh"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Aloadai
   - _id: mnMHpe0erdTZ5hsu
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.mnMHpe0erdTZ5hsu"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.mnMHpe0erdTZ5hsu"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Antaeus
   - _id: CFhYgU7MqYEuBjCM
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.CFhYgU7MqYEuBjCM"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.CFhYgU7MqYEuBjCM"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Geryon
   - _id: r8PYXD0RaFtYpvQt
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.r8PYXD0RaFtYpvQt"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.r8PYXD0RaFtYpvQt"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Gorgone
   - _id: uAtoHX2aBVs0GFKJ
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.uAtoHX2aBVs0GFKJ"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.uAtoHX2aBVs0GFKJ"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Medusa
   - _id: M5LAtuPc087fwa2T
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.M5LAtuPc087fwa2T"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.M5LAtuPc087fwa2T"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Porphyrion
   - _id: vYPpY31QwNqK9mJ8
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.vYPpY31QwNqK9mJ8"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.vYPpY31QwNqK9mJ8"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Cerberus
   - _id: oyOtnXJ6KIZSy6Dx
-    _key: "!tables.results!.pv9SMiwNTS4mAUea.oyOtnXJ6KIZSy6Dx"
+    _key: "!tables.results!pv9SMiwNTS4mAUea.oyOtnXJ6KIZSy6Dx"
     range:
       - 20
       - 20

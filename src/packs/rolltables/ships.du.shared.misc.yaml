@@ -1,5 +1,5 @@
 _id: ZM6pUGXNDHMGgVfJ
-_key: "!tables!.ZM6pUGXNDHMGgVfJ"
+_key: "!tables!ZM6pUGXNDHMGgVfJ"
 name: Miscellaneous Names for Dutch Ships
 description: Uncategorized names for Dutch ships.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: aRGe4z9ZnMGvp2wL
 results:
   - _id: K3h3w4boATlaoyJu
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.K3h3w4boATlaoyJu"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.K3h3w4boATlaoyJu"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Bierkan
   - _id: nmym6DFBZkeX4GIa
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.nmym6DFBZkeX4GIa"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.nmym6DFBZkeX4GIa"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Bijl
   - _id: onOZfv5XlowywKIs
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.onOZfv5XlowywKIs"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.onOZfv5XlowywKIs"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Dageraad
   - _id: 7UpPuIhvtn1CNFw6
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.7UpPuIhvtn1CNFw6"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.7UpPuIhvtn1CNFw6"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Diamant
   - _id: aTNupkg8COqMXzvd
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.aTNupkg8COqMXzvd"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.aTNupkg8COqMXzvd"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Handboog
   - _id: bzsWl04TlDtI25zr
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.bzsWl04TlDtI25zr"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.bzsWl04TlDtI25zr"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Meiboom
   - _id: ccGfkXshBARObYg7
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.ccGfkXshBARObYg7"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.ccGfkXshBARObYg7"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Nijptang
   - _id: r1sAuFbKPYuI9n8g
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.r1sAuFbKPYuI9n8g"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.r1sAuFbKPYuI9n8g"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Pijlswaart
   - _id: ZCjPTGbXHf6GPA73
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.ZCjPTGbXHf6GPA73"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.ZCjPTGbXHf6GPA73"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Regenboog
   - _id: GJgvN42d0WkWRbsc
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.GJgvN42d0WkWRbsc"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.GJgvN42d0WkWRbsc"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Rommelpot
   - _id: y8raI1o0LMLCbCNW
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.y8raI1o0LMLCbCNW"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.y8raI1o0LMLCbCNW"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Vuur
   - _id: 00MBw3gnaBB1KizC
-    _key: "!tables.results!.ZM6pUGXNDHMGgVfJ.00MBw3gnaBB1KizC"
+    _key: "!tables.results!ZM6pUGXNDHMGgVfJ.00MBw3gnaBB1KizC"
     range:
       - 12
       - 12

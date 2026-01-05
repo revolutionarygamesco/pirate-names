@@ -1,5 +1,5 @@
 _id: InHTFzQSFWWbJi6Y
-_key: "!tables!.InHTFzQSFWWbJi6Y"
+_key: "!tables!InHTFzQSFWWbJi6Y"
 name: Names for Dutch Merchantmen from Greek Mythology
 description: Appropriate names for Dutch merchantmen derived from derived from
   Greek mythology.
@@ -8,7 +8,7 @@ formula: 1d12
 folder: Y5rjFkdS7fOJeZ8c
 results:
   - _id: qR4DH6M2jLxFvspQ
-    _key: "!tables.results!.InHTFzQSFWWbJi6Y.qR4DH6M2jLxFvspQ"
+    _key: "!tables.results!InHTFzQSFWWbJi6Y.qR4DH6M2jLxFvspQ"
     range:
       - 1
       - 4
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.qIpIFA3ZU2fQmnF3
     name: Names for Dutch Merchantmen from Greek Mythology (Gods)
   - _id: vXB31NZ45viu3DHD
-    _key: "!tables.results!.InHTFzQSFWWbJi6Y.vXB31NZ45viu3DHD"
+    _key: "!tables.results!InHTFzQSFWWbJi6Y.vXB31NZ45viu3DHD"
     range:
       - 5
       - 8
@@ -26,7 +26,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.nHqCRrBBV8DshHWL
     name: Names for Dutch Merchantmen from Greek Mythology (Heroes)
   - _id: SoxINX7tVU3VgjSa
-    _key: "!tables.results!.InHTFzQSFWWbJi6Y.SoxINX7tVU3VgjSa"
+    _key: "!tables.results!InHTFzQSFWWbJi6Y.SoxINX7tVU3VgjSa"
     range:
       - 9
       - 12

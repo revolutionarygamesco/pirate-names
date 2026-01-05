@@ -1,5 +1,5 @@
 _id: hNDZuh6pAnrXOcgO
-_key: "!tables!.hNDZuh6pAnrXOcgO"
+_key: "!tables!hNDZuh6pAnrXOcgO"
 name: Names for British Men-of-War after Occupations
 description: Appropriate names for British men-of-war that refer to occupations.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: dhv9yLcxBdrcEKZA
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.dhv9yLcxBdrcEKZA"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.dhv9yLcxBdrcEKZA"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Duke
   - _id: 3bNtmreCUtrEPSUM
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.3bNtmreCUtrEPSUM"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.3bNtmreCUtrEPSUM"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Duchess
   - _id: hyweHhasXnRkmR2J
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.hyweHhasXnRkmR2J"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.hyweHhasXnRkmR2J"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Gladiator
   - _id: 6xO8rwBHHreR40Wk
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.6xO8rwBHHreR40Wk"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.6xO8rwBHHreR40Wk"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Herald
   - _id: 9XU5i4gXXCV5gz2I
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.9XU5i4gXXCV5gz2I"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.9XU5i4gXXCV5gz2I"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Hero
   - _id: Mg2SrbVvtRMCN36w
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.Mg2SrbVvtRMCN36w"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.Mg2SrbVvtRMCN36w"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Hunter
   - _id: xiq9En2zA3MNyrO2
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.xiq9En2zA3MNyrO2"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.xiq9En2zA3MNyrO2"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Huntress
   - _id: reXxy5zdUPC8FiiW
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.reXxy5zdUPC8FiiW"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.reXxy5zdUPC8FiiW"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Knight
   - _id: sNN6Lq4P3Hmipicy
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.sNN6Lq4P3Hmipicy"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.sNN6Lq4P3Hmipicy"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Protectress
   - _id: lfsjEyxfuqd1OHb6
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.lfsjEyxfuqd1OHb6"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.lfsjEyxfuqd1OHb6"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Ranger
   - _id: xL5oqPnK8paEYZUu
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.xL5oqPnK8paEYZUu"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.xL5oqPnK8paEYZUu"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Regulator
   - _id: 8U7DnPU6Nm4ix3HM
-    _key: "!tables.results!.hNDZuh6pAnrXOcgO.8U7DnPU6Nm4ix3HM"
+    _key: "!tables.results!hNDZuh6pAnrXOcgO.8U7DnPU6Nm4ix3HM"
     range:
       - 12
       - 12

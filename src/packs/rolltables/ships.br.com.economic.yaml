@@ -1,5 +1,5 @@
 _id: YDV7dj2oats4WMQF
-_key: "!tables!.YDV7dj2oats4WMQF"
+_key: "!tables!YDV7dj2oats4WMQF"
 name: Economic Names for British Merchantmen
 description: Names for British merchantmen that refer to the economy or material
   aspirations.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: oFvm03QYpinUqEnL
 results:
   - _id: epJlyaO10aaRDMF0
-    _key: "!tables.results!.YDV7dj2oats4WMQF.epJlyaO10aaRDMF0"
+    _key: "!tables.results!YDV7dj2oats4WMQF.epJlyaO10aaRDMF0"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Ambition
   - _id: bd08jYCZ65ZifvfD
-    _key: "!tables.results!.YDV7dj2oats4WMQF.bd08jYCZ65ZifvfD"
+    _key: "!tables.results!YDV7dj2oats4WMQF.bd08jYCZ65ZifvfD"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Chance
   - _id: e2HCHrZlBiW4rV3s
-    _key: "!tables.results!.YDV7dj2oats4WMQF.e2HCHrZlBiW4rV3s"
+    _key: "!tables.results!YDV7dj2oats4WMQF.e2HCHrZlBiW4rV3s"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Commerce
   - _id: ufj2EpxEA3CcLNL3
-    _key: "!tables.results!.YDV7dj2oats4WMQF.ufj2EpxEA3CcLNL3"
+    _key: "!tables.results!YDV7dj2oats4WMQF.ufj2EpxEA3CcLNL3"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Diligence
   - _id: WdN3eSZir6maGeAe
-    _key: "!tables.results!.YDV7dj2oats4WMQF.WdN3eSZir6maGeAe"
+    _key: "!tables.results!YDV7dj2oats4WMQF.WdN3eSZir6maGeAe"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Economy
   - _id: 5fjh7n1gR5rRYJyQ
-    _key: "!tables.results!.YDV7dj2oats4WMQF.5fjh7n1gR5rRYJyQ"
+    _key: "!tables.results!YDV7dj2oats4WMQF.5fjh7n1gR5rRYJyQ"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Endeavour
   - _id: nbUJtg22iwwzGhSc
-    _key: "!tables.results!.YDV7dj2oats4WMQF.nbUJtg22iwwzGhSc"
+    _key: "!tables.results!YDV7dj2oats4WMQF.nbUJtg22iwwzGhSc"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Enterprise
   - _id: pbruLcNIsEe5NkrT
-    _key: "!tables.results!.YDV7dj2oats4WMQF.pbruLcNIsEe5NkrT"
+    _key: "!tables.results!YDV7dj2oats4WMQF.pbruLcNIsEe5NkrT"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Expedition
   - _id: N0OpBVC6ETT2LHSY
-    _key: "!tables.results!.YDV7dj2oats4WMQF.N0OpBVC6ETT2LHSY"
+    _key: "!tables.results!YDV7dj2oats4WMQF.N0OpBVC6ETT2LHSY"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Fortune
   - _id: 7ZGhSqj5M3DIvTUP
-    _key: "!tables.results!.YDV7dj2oats4WMQF.7ZGhSqj5M3DIvTUP"
+    _key: "!tables.results!YDV7dj2oats4WMQF.7ZGhSqj5M3DIvTUP"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Harmony
   - _id: ZSyhYT6dcFFHHzcQ
-    _key: "!tables.results!.YDV7dj2oats4WMQF.ZSyhYT6dcFFHHzcQ"
+    _key: "!tables.results!YDV7dj2oats4WMQF.ZSyhYT6dcFFHHzcQ"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Industry
   - _id: 5JWB7ttyVZWamHcR
-    _key: "!tables.results!.YDV7dj2oats4WMQF.5JWB7ttyVZWamHcR"
+    _key: "!tables.results!YDV7dj2oats4WMQF.5JWB7ttyVZWamHcR"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Integrity
   - _id: 00ueCV7MmBymr9az
-    _key: "!tables.results!.YDV7dj2oats4WMQF.00ueCV7MmBymr9az"
+    _key: "!tables.results!YDV7dj2oats4WMQF.00ueCV7MmBymr9az"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Pearl
   - _id: msOLxaxTtrAsA2Gv
-    _key: "!tables.results!.YDV7dj2oats4WMQF.msOLxaxTtrAsA2Gv"
+    _key: "!tables.results!YDV7dj2oats4WMQF.msOLxaxTtrAsA2Gv"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Prosperity
   - _id: ClJWP6f2NsQ5eEL0
-    _key: "!tables.results!.YDV7dj2oats4WMQF.ClJWP6f2NsQ5eEL0"
+    _key: "!tables.results!YDV7dj2oats4WMQF.ClJWP6f2NsQ5eEL0"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Recovery
   - _id: AYdn3PPJ1kSnrmVH
-    _key: "!tables.results!.YDV7dj2oats4WMQF.AYdn3PPJ1kSnrmVH"
+    _key: "!tables.results!YDV7dj2oats4WMQF.AYdn3PPJ1kSnrmVH"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Resolution
   - _id: XEWX3eIz1yqvqXhj
-    _key: "!tables.results!.YDV7dj2oats4WMQF.XEWX3eIz1yqvqXhj"
+    _key: "!tables.results!YDV7dj2oats4WMQF.XEWX3eIz1yqvqXhj"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Reward
   - _id: n7yebS9ydI81IZ17
-    _key: "!tables.results!.YDV7dj2oats4WMQF.n7yebS9ydI81IZ17"
+    _key: "!tables.results!YDV7dj2oats4WMQF.n7yebS9ydI81IZ17"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Ruby
   - _id: vJN9XJkb2t2nnM8a
-    _key: "!tables.results!.YDV7dj2oats4WMQF.vJN9XJkb2t2nnM8a"
+    _key: "!tables.results!YDV7dj2oats4WMQF.vJN9XJkb2t2nnM8a"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Success
   - _id: CUXArDZxo8ZTUQOt
-    _key: "!tables.results!.YDV7dj2oats4WMQF.CUXArDZxo8ZTUQOt"
+    _key: "!tables.results!YDV7dj2oats4WMQF.CUXArDZxo8ZTUQOt"
     range:
       - 20
       - 20

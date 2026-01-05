@@ -1,5 +1,5 @@
 _id: E8fRKmva9RJ8TA1p
-_key: "!tables!.E8fRKmva9RJ8TA1p"
+_key: "!tables!E8fRKmva9RJ8TA1p"
 name: Names for British Merchantmen from Birds
 description: Appropriate names for British merchantmen derived from birds.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: oFvm03QYpinUqEnL
 results:
   - _id: pYU941RgVJ7w4aOE
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.pYU941RgVJ7w4aOE"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.pYU941RgVJ7w4aOE"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Crane
   - _id: rK05mp2UttJExZbN
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.rK05mp2UttJExZbN"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.rK05mp2UttJExZbN"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Heron
   - _id: LKxi1i6fTnpTMVfV
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.LKxi1i6fTnpTMVfV"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.LKxi1i6fTnpTMVfV"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Nightingale
   - _id: t7I1ZFS8MeakmpAX
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.t7I1ZFS8MeakmpAX"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.t7I1ZFS8MeakmpAX"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Raven
   - _id: fG28tfJgWQQLtWZ0
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.fG28tfJgWQQLtWZ0"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.fG28tfJgWQQLtWZ0"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Jackdaw
   - _id: MnkbIJdHZrh8wI7E
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.MnkbIJdHZrh8wI7E"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.MnkbIJdHZrh8wI7E"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Bullfinch
   - _id: yEOikkQ6Gm1srNqw
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.yEOikkQ6Gm1srNqw"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.yEOikkQ6Gm1srNqw"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Cormorant
   - _id: heiRoD6QkamxpIiU
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.heiRoD6QkamxpIiU"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.heiRoD6QkamxpIiU"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Kingfisher
   - _id: 9S2Vd6uqBpmRUMMJ
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.9S2Vd6uqBpmRUMMJ"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.9S2Vd6uqBpmRUMMJ"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Pelican
   - _id: agdyNrWUaHXpAudk
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.agdyNrWUaHXpAudk"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.agdyNrWUaHXpAudk"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Albatross
   - _id: 2wHb4qZnMSJhoyor
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.2wHb4qZnMSJhoyor"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.2wHb4qZnMSJhoyor"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Dove
   - _id: bEZlhQX2m6qxmk2y
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.bEZlhQX2m6qxmk2y"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.bEZlhQX2m6qxmk2y"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Duck
   - _id: SZtqnqoSKPGYxlqn
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.SZtqnqoSKPGYxlqn"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.SZtqnqoSKPGYxlqn"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Gannet
   - _id: KeEfO01IN19zNwVL
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.KeEfO01IN19zNwVL"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.KeEfO01IN19zNwVL"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Hummingbird
   - _id: hISQChRFWB7e7O5f
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.hISQChRFWB7e7O5f"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.hISQChRFWB7e7O5f"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Lark
   - _id: EWWM3X9Q4L3udSTt
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.EWWM3X9Q4L3udSTt"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.EWWM3X9Q4L3udSTt"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Magpie
   - _id: jR2JZh7yvaPqpa6M
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.jR2JZh7yvaPqpa6M"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.jR2JZh7yvaPqpa6M"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Swan
   - _id: RZc7ana6vRLU5lXr
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.RZc7ana6vRLU5lXr"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.RZc7ana6vRLU5lXr"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Starling
   - _id: oZeM2C4fYwmhzRyA
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.oZeM2C4fYwmhzRyA"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.oZeM2C4fYwmhzRyA"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Goose
   - _id: 2mClzcSnrAVG9rRO
-    _key: "!tables.results!.E8fRKmva9RJ8TA1p.2mClzcSnrAVG9rRO"
+    _key: "!tables.results!E8fRKmva9RJ8TA1p.2mClzcSnrAVG9rRO"
     range:
       - 20
       - 20

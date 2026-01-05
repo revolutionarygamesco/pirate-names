@@ -1,5 +1,5 @@
 _id: z9VS5jau5fK6qmyv
-_key: "!tables!.z9VS5jau5fK6qmyv"
+_key: "!tables!z9VS5jau5fK6qmyv"
 name: "Pirate Ship Names: Sailor’s Revenge"
 description: Pirate ship names centering on vengeance for exploited sailors.
 img: icons/svg/d20-grey.svg
@@ -7,82 +7,82 @@ formula: 1d10
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: 30RGNueGoGYvJDiV
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.30RGNueGoGYvJDiV"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.30RGNueGoGYvJDiV"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Tar’s Revenge
+    description: Tar’s Revenge
   - _id: ZsEKlFFrsTxbtEBA
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.ZsEKlFFrsTxbtEBA"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.ZsEKlFFrsTxbtEBA"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Honest Revenge
+    description: Honest Revenge
   - _id: OY6LfvNoOEohBjgK
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.OY6LfvNoOEohBjgK"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.OY6LfvNoOEohBjgK"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Sailor’s Revenge
+    description: Sailor’s Revenge
   - _id: c1lNJOcERsw1GkvL
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.c1lNJOcERsw1GkvL"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.c1lNJOcERsw1GkvL"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Roger’s Revenge
+    description: Roger’s Revenge
   - _id: t3swdk5X5RZuKfHE
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.t3swdk5X5RZuKfHE"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.t3swdk5X5RZuKfHE"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Deserter’s Revenge
+    description: Deserter’s Revenge
   - _id: AJ2KpuPU90Xorf6D
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.AJ2KpuPU90Xorf6D"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.AJ2KpuPU90Xorf6D"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Mutineer’s Revenge
+    description: Mutineer’s Revenge
   - _id: BeFAmAMuDCMnxFIJ
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.BeFAmAMuDCMnxFIJ"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.BeFAmAMuDCMnxFIJ"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Stolen Wage
+    description: Stolen Wage
   - _id: B3BVkLgIhCHFrxXX
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.B3BVkLgIhCHFrxXX"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.B3BVkLgIhCHFrxXX"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Widow’s Revenge
+    description: Widow’s Revenge
   - _id: pCQMURhZUgILlq7p
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.pCQMURhZUgILlq7p"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.pCQMURhZUgILlq7p"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Lobscouser’s Revenge
+    description: Lobscouser’s Revenge
   - _id: 3U7fZrppytIZFSEe
-    _key: "!tables.results!.z9VS5jau5fK6qmyv.3U7fZrppytIZFSEe"
+    _key: "!tables.results!z9VS5jau5fK6qmyv.3U7fZrppytIZFSEe"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Jack-Tar’s Revenge
+    description: Jack-Tar’s Revenge

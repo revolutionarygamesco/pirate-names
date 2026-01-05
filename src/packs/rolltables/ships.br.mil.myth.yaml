@@ -1,5 +1,5 @@
 _id: rszItzSl7cwBMjme
-_key: "!tables!.rszItzSl7cwBMjme"
+_key: "!tables!rszItzSl7cwBMjme"
 name: Names for British Men-of-War from Mythology
 description: Appropriate names for British men-of-war derived from mythology.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: 6VHLcs5xCriMBVXQ
 results:
   - _id: J0bBNHIgA2XVqvab
-    _key: "!tables.results!.rszItzSl7cwBMjme.J0bBNHIgA2XVqvab"
+    _key: "!tables.results!rszItzSl7cwBMjme.J0bBNHIgA2XVqvab"
     range:
       - 1
       - 10
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.4pBJfaaeZLhvhorT
     name: Names for British Men-of-War from Greek Mythology
   - _id: 1BsEgZQZFhqYkFJZ
-    _key: "!tables.results!.rszItzSl7cwBMjme.1BsEgZQZFhqYkFJZ"
+    _key: "!tables.results!rszItzSl7cwBMjme.1BsEgZQZFhqYkFJZ"
     range:
       - 11
       - 17
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.f3pp76EuLZl9QLBT
     name: Names for British Men-of-War from Roman Mythology
   - _id: CGPS5MKMQF4StMAk
-    _key: "!tables.results!.rszItzSl7cwBMjme.CGPS5MKMQF4StMAk"
+    _key: "!tables.results!rszItzSl7cwBMjme.CGPS5MKMQF4StMAk"
     range:
       - 18
       - 20

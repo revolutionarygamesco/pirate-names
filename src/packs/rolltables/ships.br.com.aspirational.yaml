@@ -1,5 +1,5 @@
 _id: V0rAhBRUB1Tb5hx3
-_key: "!tables!.V0rAhBRUB1Tb5hx3"
+_key: "!tables!V0rAhBRUB1Tb5hx3"
 name: Aspirational Names for British Merchantmen
 description: Aspirational names for British merchantmen.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: oFvm03QYpinUqEnL
 results:
   - _id: 8MALkBdOeqikNQtI
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.8MALkBdOeqikNQtI"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.8MALkBdOeqikNQtI"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Adamant
   - _id: uwlGs5tAAtnqnNC0
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.uwlGs5tAAtnqnNC0"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.uwlGs5tAAtnqnNC0"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Adventure
   - _id: 6R0Rm4b2r3E0dlIa
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.6R0Rm4b2r3E0dlIa"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.6R0Rm4b2r3E0dlIa"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Amity
   - _id: 0OeggtZSsoWcSRjT
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.0OeggtZSsoWcSRjT"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.0OeggtZSsoWcSRjT"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Benevolence
   - _id: sxPwMLY2p2Ebpq0x
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.sxPwMLY2p2Ebpq0x"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.sxPwMLY2p2Ebpq0x"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Constance
   - _id: 93bXoCOl53q66jTS
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.93bXoCOl53q66jTS"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.93bXoCOl53q66jTS"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Dart
   - _id: YYE5n2JlE6OYssip
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.YYE5n2JlE6OYssip"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.YYE5n2JlE6OYssip"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Delight
   - _id: e0WKY3ARoY1P3ceI
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.e0WKY3ARoY1P3ceI"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.e0WKY3ARoY1P3ceI"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Fame
   - _id: DNjN5mZgA6Ull4YR
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.DNjN5mZgA6Ull4YR"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.DNjN5mZgA6Ull4YR"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Freedom
   - _id: UjNzFYsnbvBBQoxh
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.UjNzFYsnbvBBQoxh"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.UjNzFYsnbvBBQoxh"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Friendship
   - _id: L2NLGMMw8mmYxRyK
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.L2NLGMMw8mmYxRyK"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.L2NLGMMw8mmYxRyK"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Good Intent
   - _id: 9gGL9JbD6Wa870Su
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.9gGL9JbD6Wa870Su"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.9gGL9JbD6Wa870Su"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Grace
   - _id: edZ1OZLlYzxY0ouW
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.edZ1OZLlYzxY0ouW"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.edZ1OZLlYzxY0ouW"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Hopewell
   - _id: gfyqIRBeNfcKgaOc
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.gfyqIRBeNfcKgaOc"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.gfyqIRBeNfcKgaOc"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Lively
   - _id: xvZDBvRBMnixETWB
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.xvZDBvRBMnixETWB"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.xvZDBvRBMnixETWB"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Perseverance
   - _id: yMI5YmewFgtF9nMf
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.yMI5YmewFgtF9nMf"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.yMI5YmewFgtF9nMf"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Providence
   - _id: 7o8uJ82Xf6FUKpM2
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.7o8uJ82Xf6FUKpM2"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.7o8uJ82Xf6FUKpM2"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Renown
   - _id: iT2noTAwnviwR7vd
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.iT2noTAwnviwR7vd"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.iT2noTAwnviwR7vd"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Reward
   - _id: NfHJMwlEDyiUxOD5
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.NfHJMwlEDyiUxOD5"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.NfHJMwlEDyiUxOD5"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Speedy
   - _id: 8vmdhjM9iIxlqZ6O
-    _key: "!tables.results!.V0rAhBRUB1Tb5hx3.8vmdhjM9iIxlqZ6O"
+    _key: "!tables.results!V0rAhBRUB1Tb5hx3.8vmdhjM9iIxlqZ6O"
     range:
       - 20
       - 20

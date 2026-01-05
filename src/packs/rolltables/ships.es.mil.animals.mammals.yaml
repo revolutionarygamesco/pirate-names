@@ -1,5 +1,5 @@
 _id: HyrwjeWFGU8BJ89S
-_key: "!tables!.HyrwjeWFGU8BJ89S"
+_key: "!tables!HyrwjeWFGU8BJ89S"
 name: Names for Spanish Men-of-War from Mammals
 description: Appropriate names for Spanish men-of-war derived from mammals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: f7jjMMJV99iUzI2n
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.f7jjMMJV99iUzI2n"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.f7jjMMJV99iUzI2n"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Zorro
   - _id: 2CwZJMsMYTWSVjM8
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.2CwZJMsMYTWSVjM8"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.2CwZJMsMYTWSVjM8"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Galgo
   - _id: 1zGCfdanhU8HUp52
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.1zGCfdanhU8HUp52"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.1zGCfdanhU8HUp52"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Lince
   - _id: c3nlYsM98LrCKPat
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.c3nlYsM98LrCKPat"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.c3nlYsM98LrCKPat"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Ciervo
   - _id: qZPyxTJtdkeDQ3t9
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.qZPyxTJtdkeDQ3t9"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.qZPyxTJtdkeDQ3t9"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Cierva
   - _id: ZBeXnijS7s3Q3W1Z
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.ZBeXnijS7s3Q3W1Z"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.ZBeXnijS7s3Q3W1Z"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Semental
   - _id: DNBoWWnP2GspatUu
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.DNBoWWnP2GspatUu"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.DNBoWWnP2GspatUu"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Yegua
   - _id: sqj60Riad6xcGa7W
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.sqj60Riad6xcGa7W"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.sqj60Riad6xcGa7W"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Sabueso
   - _id: C7rBnBrSvjp5HDSf
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.C7rBnBrSvjp5HDSf"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.C7rBnBrSvjp5HDSf"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Toro
   - _id: Gu7Ur5yiWg8vgmNt
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.Gu7Ur5yiWg8vgmNt"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.Gu7Ur5yiWg8vgmNt"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Erizo
   - _id: mA8UDBI89fP8rOee
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.mA8UDBI89fP8rOee"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.mA8UDBI89fP8rOee"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Oso
   - _id: vjPHpOEytSawDxG8
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.vjPHpOEytSawDxG8"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.vjPHpOEytSawDxG8"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Jabalí
   - _id: b3rB4iQ6du5IRjL3
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.b3rB4iQ6du5IRjL3"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.b3rB4iQ6du5IRjL3"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Leopardo
   - _id: Ar2DHgapxcTEqai9
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.Ar2DHgapxcTEqai9"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.Ar2DHgapxcTEqai9"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: León
   - _id: 0AaUZJZjycHy7Iot
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.0AaUZJZjycHy7Iot"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.0AaUZJZjycHy7Iot"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Pantera
   - _id: bN8Dl1Ll3KGKYdu3
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.bN8Dl1Ll3KGKYdu3"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.bN8Dl1Ll3KGKYdu3"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Tigre
   - _id: TdKayixsZxkm5xMA
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.TdKayixsZxkm5xMA"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.TdKayixsZxkm5xMA"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Lobo
   - _id: FcA21D569Wd1AIDm
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.FcA21D569Wd1AIDm"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.FcA21D569Wd1AIDm"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Ocelote
   - _id: jbEj9F77MGL9F32b
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.jbEj9F77MGL9F32b"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.jbEj9F77MGL9F32b"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Chacal
   - _id: JCn2vFHspSZzkB8E
-    _key: "!tables.results!.HyrwjeWFGU8BJ89S.JCn2vFHspSZzkB8E"
+    _key: "!tables.results!HyrwjeWFGU8BJ89S.JCn2vFHspSZzkB8E"
     range:
       - 20
       - 20

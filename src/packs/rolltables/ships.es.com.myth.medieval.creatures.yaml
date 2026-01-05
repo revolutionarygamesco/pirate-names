@@ -1,14 +1,14 @@
 _id: 3C1RWLRvkP8o2CVe
-_key: "!tables!.3C1RWLRvkP8o2CVe"
-name: Names for Spanish Men-of-War after Creatures of Medieval Myth and Legend
-description: Appropriate names for Spanish men-of-war derived from creatures
+_key: "!tables!3C1RWLRvkP8o2CVe"
+name: Names for Spanish Merchantmen after Creatures of Medieval Myth and Legend
+description: Appropriate names for Spanish merchantmen derived from creatures
   found in medieval myth, legend, bestiaries, and heraldry.
 img: icons/svg/d20-grey.svg
 formula: 1d12
 folder: Yla9tUZ9BUrr1ch2
 results:
   - _id: dbMR8vIZvw0VnKZX
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.dbMR8vIZvw0VnKZX"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.dbMR8vIZvw0VnKZX"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Unicornio
   - _id: 6ehixsnKcXegiRJm
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.6ehixsnKcXegiRJm"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.6ehixsnKcXegiRJm"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Sirena
   - _id: JbrLfrmV01lhkOlj
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.JbrLfrmV01lhkOlj"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.JbrLfrmV01lhkOlj"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Salamandra
   - _id: Ma7xH99k7KyydcNI
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.Ma7xH99k7KyydcNI"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.Ma7xH99k7KyydcNI"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Grifo Marino
   - _id: fQjNPr9an2GK190g
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.fQjNPr9an2GK190g"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.fQjNPr9an2GK190g"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Eale
   - _id: BbLnY52FMujpw0k4
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.BbLnY52FMujpw0k4"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.BbLnY52FMujpw0k4"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: León Alado
   - _id: 5rJiV2rxpsKwAi23
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.5rJiV2rxpsKwAi23"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.5rJiV2rxpsKwAi23"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Caladrio
   - _id: 5n0xtc6nU0YxvG35
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.5n0xtc6nU0YxvG35"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.5n0xtc6nU0YxvG35"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Carbunclo
   - _id: 4YtiTQUE9YvnKwtV
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.4YtiTQUE9YvnKwtV"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.4YtiTQUE9YvnKwtV"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Fauno
   - _id: 4kLDyyWtLXrpHXZd
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.4kLDyyWtLXrpHXZd"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.4kLDyyWtLXrpHXZd"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Monje Marino
   - _id: ZXG7mDROs4KtVMTb
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.ZXG7mDROs4KtVMTb"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.ZXG7mDROs4KtVMTb"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Lamia
   - _id: 00tcMy56h648MpLq
-    _key: "!tables.results!.3C1RWLRvkP8o2CVe.00tcMy56h648MpLq"
+    _key: "!tables.results!3C1RWLRvkP8o2CVe.00tcMy56h648MpLq"
     range:
       - 12
       - 12

@@ -1,5 +1,5 @@
 _id: 1Qzy2hEXDjzZNgf2
-_key: "!tables!.1Qzy2hEXDjzZNgf2"
+_key: "!tables!1Qzy2hEXDjzZNgf2"
 name: Names for French Merchantmen from Marine Life
 description: Appropriate names for French merchantmen derived from marine animals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: UnF57V3UrteAFAcD
 results:
   - _id: IhfBqlpU2Upn751Q
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.IhfBqlpU2Upn751Q"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.IhfBqlpU2Upn751Q"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Dauphin
   - _id: F5Ao423Y49shrX45
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.F5Ao423Y49shrX45"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.F5Ao423Y49shrX45"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Marsouin
   - _id: ydKjpDBrBAmliXw1
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.ydKjpDBrBAmliXw1"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.ydKjpDBrBAmliXw1"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Hippocampe
   - _id: HdQijUdCCF9B0Pcf
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.HdQijUdCCF9B0Pcf"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.HdQijUdCCF9B0Pcf"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Calmar
   - _id: 4ijpTuAw3ZEHr0jD
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.4ijpTuAw3ZEHr0jD"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.4ijpTuAw3ZEHr0jD"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Marlin
   - _id: Xz2GQwa1lEMIBW6i
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.Xz2GQwa1lEMIBW6i"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.Xz2GQwa1lEMIBW6i"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Bélouga
   - _id: YHwwQyEKwcNXW2sK
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.YHwwQyEKwcNXW2sK"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.YHwwQyEKwcNXW2sK"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Narval
   - _id: kNuK4BWud0JYjKHz
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.kNuK4BWud0JYjKHz"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.kNuK4BWud0JYjKHz"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Voilier
   - _id: w8QtyqRsFIOhYruG
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.w8QtyqRsFIOhYruG"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.w8QtyqRsFIOhYruG"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Morse
   - _id: OyAdIGpN3thFzsEl
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.OyAdIGpN3thFzsEl"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.OyAdIGpN3thFzsEl"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Bar
   - _id: TZVQ8AYa6LAtRf2b
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.TZVQ8AYa6LAtRf2b"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.TZVQ8AYa6LAtRf2b"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Poisson Volant
   - _id: qUUMpH5zZtXXkcyF
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.qUUMpH5zZtXXkcyF"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.qUUMpH5zZtXXkcyF"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Saumon
   - _id: jyG7H8hI24x02O9L
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.jyG7H8hI24x02O9L"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.jyG7H8hI24x02O9L"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Thon Blanc
   - _id: g7KyBDojrop1wPrT
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.g7KyBDojrop1wPrT"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.g7KyBDojrop1wPrT"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Huître
   - _id: i50pUGPlDFNEqUHz
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.i50pUGPlDFNEqUHz"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.i50pUGPlDFNEqUHz"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Poisson-Ange
   - _id: KLXnws8XnKMHMG7D
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.KLXnws8XnKMHMG7D"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.KLXnws8XnKMHMG7D"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Conque
   - _id: rPMtr0h07xIJ2zsU
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.rPMtr0h07xIJ2zsU"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.rPMtr0h07xIJ2zsU"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Anguille
   - _id: 9WxPRchiVbk0XfQe
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.9WxPRchiVbk0XfQe"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.9WxPRchiVbk0XfQe"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Mérou
   - _id: y4rawIa5ycJA88Yr
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.y4rawIa5ycJA88Yr"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.y4rawIa5ycJA88Yr"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Anémone
   - _id: yKp2KimgRRjArQhy
-    _key: "!tables.results!.1Qzy2hEXDjzZNgf2.yKp2KimgRRjArQhy"
+    _key: "!tables.results!1Qzy2hEXDjzZNgf2.yKp2KimgRRjArQhy"
     range:
       - 20
       - 20

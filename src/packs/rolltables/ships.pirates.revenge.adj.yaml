@@ -1,5 +1,5 @@
 _id: fnALyNajx1XcIhR4
-_key: "!tables!.fnALyNajx1XcIhR4"
+_key: "!tables!fnALyNajx1XcIhR4"
 name: "Pirate Ship Names: Adjectival Revenge"
 description: Pirate ship names centering on qualified revenge.
 img: icons/svg/d20-grey.svg
@@ -7,98 +7,98 @@ formula: 1d12
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: 6lHXlpDomqLd9hIZ
-    _key: "!tables.results!.fnALyNajx1XcIhR4.6lHXlpDomqLd9hIZ"
+    _key: "!tables.results!fnALyNajx1XcIhR4.6lHXlpDomqLd9hIZ"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Swift Revenge
+    description: Swift Revenge
   - _id: soaOPv7vUttl9FKr
-    _key: "!tables.results!.fnALyNajx1XcIhR4.soaOPv7vUttl9FKr"
+    _key: "!tables.results!fnALyNajx1XcIhR4.soaOPv7vUttl9FKr"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Honest Revenge
+    description: Honest Revenge
   - _id: 33jW9AY1GTdS33LO
-    _key: "!tables.results!.fnALyNajx1XcIhR4.33jW9AY1GTdS33LO"
+    _key: "!tables.results!fnALyNajx1XcIhR4.33jW9AY1GTdS33LO"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Bloody Revenge
+    description: Bloody Revenge
   - _id: 3HC6Ws55RcZQ7aVG
-    _key: "!tables.results!.fnALyNajx1XcIhR4.3HC6Ws55RcZQ7aVG"
+    _key: "!tables.results!fnALyNajx1XcIhR4.3HC6Ws55RcZQ7aVG"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Cold Revenge
+    description: Cold Revenge
   - _id: vacWL95LbIgZjv35
-    _key: "!tables.results!.fnALyNajx1XcIhR4.vacWL95LbIgZjv35"
+    _key: "!tables.results!fnALyNajx1XcIhR4.vacWL95LbIgZjv35"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Fiery Revenge
+    description: Fiery Revenge
   - _id: tpwPIZuuCarPzl1E
-    _key: "!tables.results!.fnALyNajx1XcIhR4.tpwPIZuuCarPzl1E"
+    _key: "!tables.results!fnALyNajx1XcIhR4.tpwPIZuuCarPzl1E"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Black Revenge
+    description: Black Revenge
   - _id: xJr9HUDRlI40hF3t
-    _key: "!tables.results!.fnALyNajx1XcIhR4.xJr9HUDRlI40hF3t"
+    _key: "!tables.results!fnALyNajx1XcIhR4.xJr9HUDRlI40hF3t"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Crimson Revenge
+    description: Crimson Revenge
   - _id: Ztq5Rk3sDanZkCsh
-    _key: "!tables.results!.fnALyNajx1XcIhR4.Ztq5Rk3sDanZkCsh"
+    _key: "!tables.results!fnALyNajx1XcIhR4.Ztq5Rk3sDanZkCsh"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Bitter Revenge
+    description: Bitter Revenge
   - _id: VBxG6sVdVXel17al
-    _key: "!tables.results!.fnALyNajx1XcIhR4.VBxG6sVdVXel17al"
+    _key: "!tables.results!fnALyNajx1XcIhR4.VBxG6sVdVXel17al"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Dreadful Revenge
+    description: Dreadful Revenge
   - _id: mAIZHScsVG12TnSa
-    _key: "!tables.results!.fnALyNajx1XcIhR4.mAIZHScsVG12TnSa"
+    _key: "!tables.results!fnALyNajx1XcIhR4.mAIZHScsVG12TnSa"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Certain Revenge
+    description: Certain Revenge
   - _id: c1rf5NRIM8q8ka3C
-    _key: "!tables.results!.fnALyNajx1XcIhR4.c1rf5NRIM8q8ka3C"
+    _key: "!tables.results!fnALyNajx1XcIhR4.c1rf5NRIM8q8ka3C"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Patient Revenge
+    description: Patient Revenge
   - _id: lZb4ekEAIZXsXgjs
-    _key: "!tables.results!.fnALyNajx1XcIhR4.lZb4ekEAIZXsXgjs"
+    _key: "!tables.results!fnALyNajx1XcIhR4.lZb4ekEAIZXsXgjs"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Merciless Revenge
+    description: Merciless Revenge

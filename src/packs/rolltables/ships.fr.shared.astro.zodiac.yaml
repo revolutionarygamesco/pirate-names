@@ -1,5 +1,5 @@
 _id: p8YU4nGkOX7DzeWX
-_key: "!tables!.p8YU4nGkOX7DzeWX"
+_key: "!tables!p8YU4nGkOX7DzeWX"
 name: Names for French Ships from the Zodiac
 description: Appropriate names for French ships derived from the signs of the zodiac.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: DQlYv6FOGEeUyk06
 results:
   - _id: ylbhsQuzicKHIL0H
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.ylbhsQuzicKHIL0H"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.ylbhsQuzicKHIL0H"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Bélier
   - _id: dAk5RlgVeNGH5MZb
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.dAk5RlgVeNGH5MZb"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.dAk5RlgVeNGH5MZb"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Taureau
   - _id: rgPn9vc6qgPujH4C
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.rgPn9vc6qgPujH4C"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.rgPn9vc6qgPujH4C"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Gémeaux
   - _id: YAXL8NkcmyF1PkX7
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.YAXL8NkcmyF1PkX7"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.YAXL8NkcmyF1PkX7"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Cancer
   - _id: GvnsHTyBpukqqa96
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.GvnsHTyBpukqqa96"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.GvnsHTyBpukqqa96"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Lion
   - _id: zPjEaU6NNsKn0xcm
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.zPjEaU6NNsKn0xcm"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.zPjEaU6NNsKn0xcm"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Vierge
   - _id: xpiZL8u32YZwdlHc
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.xpiZL8u32YZwdlHc"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.xpiZL8u32YZwdlHc"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Balance
   - _id: cabdHUnYdsocYe5o
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.cabdHUnYdsocYe5o"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.cabdHUnYdsocYe5o"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Scorpion
   - _id: BWTOz1j6VxfGuI8n
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.BWTOz1j6VxfGuI8n"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.BWTOz1j6VxfGuI8n"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Sagittaire
   - _id: oPeDc3FKkzSQfMcG
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.oPeDc3FKkzSQfMcG"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.oPeDc3FKkzSQfMcG"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Capricorne
   - _id: Eut6RrRjosJWFN28
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.Eut6RrRjosJWFN28"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.Eut6RrRjosJWFN28"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Verseau
   - _id: TeHLnJOLTjTB1Mn3
-    _key: "!tables.results!.p8YU4nGkOX7DzeWX.TeHLnJOLTjTB1Mn3"
+    _key: "!tables.results!p8YU4nGkOX7DzeWX.TeHLnJOLTjTB1Mn3"
     range:
       - 12
       - 12

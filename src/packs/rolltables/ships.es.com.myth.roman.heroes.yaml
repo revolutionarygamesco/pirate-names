@@ -1,5 +1,5 @@
 _id: ZKjV58w88UumDdxw
-_key: "!tables!.ZKjV58w88UumDdxw"
+_key: "!tables!ZKjV58w88UumDdxw"
 name: Names for Spanish Merchantmen from Roman Mythology (Heroes)
 description: Appropriate names for Spanish merchantmen derived from figures in
   Roman mythology, legend, and history.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: Yla9tUZ9BUrr1ch2
 results:
   - _id: NduuDuDsyp5ek02a
-    _key: "!tables.results!.ZKjV58w88UumDdxw.NduuDuDsyp5ek02a"
+    _key: "!tables.results!ZKjV58w88UumDdxw.NduuDuDsyp5ek02a"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Hércules
   - _id: W5G5nRHzD8Mtehr7
-    _key: "!tables.results!.ZKjV58w88UumDdxw.W5G5nRHzD8Mtehr7"
+    _key: "!tables.results!ZKjV58w88UumDdxw.W5G5nRHzD8Mtehr7"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Géminis
   - _id: QLgCQmXgzyhdV2FX
-    _key: "!tables.results!.ZKjV58w88UumDdxw.QLgCQmXgzyhdV2FX"
+    _key: "!tables.results!ZKjV58w88UumDdxw.QLgCQmXgzyhdV2FX"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Eneas
   - _id: NLB2UZtz7tzOF1Mi
-    _key: "!tables.results!.ZKjV58w88UumDdxw.NLB2UZtz7tzOF1Mi"
+    _key: "!tables.results!ZKjV58w88UumDdxw.NLB2UZtz7tzOF1Mi"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Sibila
   - _id: bKayWuXjy0w5tFAv
-    _key: "!tables.results!.ZKjV58w88UumDdxw.bKayWuXjy0w5tFAv"
+    _key: "!tables.results!ZKjV58w88UumDdxw.bKayWuXjy0w5tFAv"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Larunda
   - _id: vjkIRNJjZzedHgs1
-    _key: "!tables.results!.ZKjV58w88UumDdxw.vjkIRNJjZzedHgs1"
+    _key: "!tables.results!ZKjV58w88UumDdxw.vjkIRNJjZzedHgs1"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Palinuro
   - _id: YRCKoN5op1T4shBc
-    _key: "!tables.results!.ZKjV58w88UumDdxw.YRCKoN5op1T4shBc"
+    _key: "!tables.results!ZKjV58w88UumDdxw.YRCKoN5op1T4shBc"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Evandro
   - _id: apCjzaLPpcIYXuV5
-    _key: "!tables.results!.ZKjV58w88UumDdxw.apCjzaLPpcIYXuV5"
+    _key: "!tables.results!ZKjV58w88UumDdxw.apCjzaLPpcIYXuV5"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Tútula
   - _id: 4pkDhlPijI2ejWIR
-    _key: "!tables.results!.ZKjV58w88UumDdxw.4pkDhlPijI2ejWIR"
+    _key: "!tables.results!ZKjV58w88UumDdxw.4pkDhlPijI2ejWIR"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Anquises
   - _id: GMTeloNzq28MlhRQ
-    _key: "!tables.results!.ZKjV58w88UumDdxw.GMTeloNzq28MlhRQ"
+    _key: "!tables.results!ZKjV58w88UumDdxw.GMTeloNzq28MlhRQ"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Camilo
   - _id: Ah7IGm9C5WgAInYa
-    _key: "!tables.results!.ZKjV58w88UumDdxw.Ah7IGm9C5WgAInYa"
+    _key: "!tables.results!ZKjV58w88UumDdxw.Ah7IGm9C5WgAInYa"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Remo
   - _id: yz4f6XL9hD8BvZxr
-    _key: "!tables.results!.ZKjV58w88UumDdxw.yz4f6XL9hD8BvZxr"
+    _key: "!tables.results!ZKjV58w88UumDdxw.yz4f6XL9hD8BvZxr"
     range:
       - 12
       - 12
@@ -104,7 +104,7 @@ results:
     type: text
     description: Casandra
   - _id: B2ffDJONVETCLP8u
-    _key: "!tables.results!.ZKjV58w88UumDdxw.B2ffDJONVETCLP8u"
+    _key: "!tables.results!ZKjV58w88UumDdxw.B2ffDJONVETCLP8u"
     range:
       - 13
       - 13
@@ -112,7 +112,7 @@ results:
     type: text
     description: Príamo
   - _id: OmIDBP2ExI5zg8Fl
-    _key: "!tables.results!.ZKjV58w88UumDdxw.OmIDBP2ExI5zg8Fl"
+    _key: "!tables.results!ZKjV58w88UumDdxw.OmIDBP2ExI5zg8Fl"
     range:
       - 14
       - 14
@@ -120,7 +120,7 @@ results:
     type: text
     description: Cibeles
   - _id: b9lHwRbvI5hyqzkT
-    _key: "!tables.results!.ZKjV58w88UumDdxw.b9lHwRbvI5hyqzkT"
+    _key: "!tables.results!ZKjV58w88UumDdxw.b9lHwRbvI5hyqzkT"
     range:
       - 15
       - 15
@@ -128,7 +128,7 @@ results:
     type: text
     description: Dido
   - _id: IDqAHrOrUg4PC9gR
-    _key: "!tables.results!.ZKjV58w88UumDdxw.IDqAHrOrUg4PC9gR"
+    _key: "!tables.results!ZKjV58w88UumDdxw.IDqAHrOrUg4PC9gR"
     range:
       - 16
       - 16
@@ -136,7 +136,7 @@ results:
     type: text
     description: Lucrecia
   - _id: yBdPpElF7wdYsUU9
-    _key: "!tables.results!.ZKjV58w88UumDdxw.yBdPpElF7wdYsUU9"
+    _key: "!tables.results!ZKjV58w88UumDdxw.yBdPpElF7wdYsUU9"
     range:
       - 17
       - 17
@@ -144,7 +144,7 @@ results:
     type: text
     description: Cicerón
   - _id: yBTyuv2ug2jdR7Or
-    _key: "!tables.results!.ZKjV58w88UumDdxw.yBTyuv2ug2jdR7Or"
+    _key: "!tables.results!ZKjV58w88UumDdxw.yBTyuv2ug2jdR7Or"
     range:
       - 18
       - 18
@@ -152,7 +152,7 @@ results:
     type: text
     description: Catón
   - _id: 6bOUXcEu1TrW6BoN
-    _key: "!tables.results!.ZKjV58w88UumDdxw.6bOUXcEu1TrW6BoN"
+    _key: "!tables.results!ZKjV58w88UumDdxw.6bOUXcEu1TrW6BoN"
     range:
       - 19
       - 19
@@ -160,7 +160,7 @@ results:
     type: text
     description: Craso
   - _id: j8EwsSvhMAl6McLD
-    _key: "!tables.results!.ZKjV58w88UumDdxw.j8EwsSvhMAl6McLD"
+    _key: "!tables.results!ZKjV58w88UumDdxw.j8EwsSvhMAl6McLD"
     range:
       - 20
       - 20

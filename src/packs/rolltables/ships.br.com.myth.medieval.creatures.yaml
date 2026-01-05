@@ -1,5 +1,5 @@
 _id: kSDqqtg0NEilic89
-_key: "!tables!.kSDqqtg0NEilic89"
+_key: "!tables!kSDqqtg0NEilic89"
 name: Names for British Merchantmen after Creatures of Medieval Myth and Legend
 description: Appropriate names for British merchantmen derived from creatures
   found in medieval myth, legend, bestiaries, and heraldry.
@@ -8,7 +8,7 @@ formula: 1d12
 folder: oFvm03QYpinUqEnL
 results:
   - _id: eUi1lTjEyLHEC7Mx
-    _key: "!tables.results!.kSDqqtg0NEilic89.eUi1lTjEyLHEC7Mx"
+    _key: "!tables.results!kSDqqtg0NEilic89.eUi1lTjEyLHEC7Mx"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Unicorn
   - _id: k5rs7nS1mKU4Twrr
-    _key: "!tables.results!.kSDqqtg0NEilic89.k5rs7nS1mKU4Twrr"
+    _key: "!tables.results!kSDqqtg0NEilic89.k5rs7nS1mKU4Twrr"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Mermaid
   - _id: lDJXNEIznb5mYoyP
-    _key: "!tables.results!.kSDqqtg0NEilic89.lDJXNEIznb5mYoyP"
+    _key: "!tables.results!kSDqqtg0NEilic89.lDJXNEIznb5mYoyP"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Salamander
   - _id: gFNtyucdcOS6XKdx
-    _key: "!tables.results!.kSDqqtg0NEilic89.gFNtyucdcOS6XKdx"
+    _key: "!tables.results!kSDqqtg0NEilic89.gFNtyucdcOS6XKdx"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Sea Griffin
   - _id: TrdAoMPiqJfwd6xv
-    _key: "!tables.results!.kSDqqtg0NEilic89.TrdAoMPiqJfwd6xv"
+    _key: "!tables.results!kSDqqtg0NEilic89.TrdAoMPiqJfwd6xv"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Yale
   - _id: hgpZ1TM1GGJ9tdPz
-    _key: "!tables.results!.kSDqqtg0NEilic89.hgpZ1TM1GGJ9tdPz"
+    _key: "!tables.results!kSDqqtg0NEilic89.hgpZ1TM1GGJ9tdPz"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Winged Lion
   - _id: 3IECy0mxnd3gDz1y
-    _key: "!tables.results!.kSDqqtg0NEilic89.3IECy0mxnd3gDz1y"
+    _key: "!tables.results!kSDqqtg0NEilic89.3IECy0mxnd3gDz1y"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Caladrius
   - _id: M5GNwPI2ymWmvCtr
-    _key: "!tables.results!.kSDqqtg0NEilic89.M5GNwPI2ymWmvCtr"
+    _key: "!tables.results!kSDqqtg0NEilic89.M5GNwPI2ymWmvCtr"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Carbuncle
   - _id: Ho2N6cExvu7qvKaR
-    _key: "!tables.results!.kSDqqtg0NEilic89.Ho2N6cExvu7qvKaR"
+    _key: "!tables.results!kSDqqtg0NEilic89.Ho2N6cExvu7qvKaR"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Faun
   - _id: 2kJQfE6lWEJfOQ6d
-    _key: "!tables.results!.kSDqqtg0NEilic89.2kJQfE6lWEJfOQ6d"
+    _key: "!tables.results!kSDqqtg0NEilic89.2kJQfE6lWEJfOQ6d"
     range:
       - 10
       - 10
@@ -88,7 +88,7 @@ results:
     type: text
     description: Sea Monk
   - _id: M2CluJZ7GK12QRTU
-    _key: "!tables.results!.kSDqqtg0NEilic89.M2CluJZ7GK12QRTU"
+    _key: "!tables.results!kSDqqtg0NEilic89.M2CluJZ7GK12QRTU"
     range:
       - 11
       - 11
@@ -96,7 +96,7 @@ results:
     type: text
     description: Selkie
   - _id: GeKHZz3XDPLPRGDg
-    _key: "!tables.results!.kSDqqtg0NEilic89.GeKHZz3XDPLPRGDg"
+    _key: "!tables.results!kSDqqtg0NEilic89.GeKHZz3XDPLPRGDg"
     range:
       - 12
       - 12

@@ -1,5 +1,5 @@
 _id: G9NdYAi8KGib0O8y
-_key: "!tables!.G9NdYAi8KGib0O8y"
+_key: "!tables!G9NdYAi8KGib0O8y"
 name: Names for British Merchantmen from Greek Mythology (Gods)
 description: Appropriate names for British merchantmen derived from Greek gods.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: oFvm03QYpinUqEnL
 results:
   - _id: TsAxFDkzj8fpfwMM
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.TsAxFDkzj8fpfwMM"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.TsAxFDkzj8fpfwMM"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Zeus
   - _id: s8me5c5WPL5ckr4G
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.s8me5c5WPL5ckr4G"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.s8me5c5WPL5ckr4G"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Hera
   - _id: fBeh9KtC4Gjs5pSP
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.fBeh9KtC4Gjs5pSP"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.fBeh9KtC4Gjs5pSP"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Poseidon
   - _id: oVfZXcZPVVefx8g8
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.oVfZXcZPVVefx8g8"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.oVfZXcZPVVefx8g8"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Apollo
   - _id: pGb09wzWcGmQgDBj
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.pGb09wzWcGmQgDBj"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.pGb09wzWcGmQgDBj"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Persephone
   - _id: VKF2QnEZ8DVpa74W
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.VKF2QnEZ8DVpa74W"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.VKF2QnEZ8DVpa74W"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Oceanus
   - _id: yHOC6A9uXrTMblnI
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.yHOC6A9uXrTMblnI"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.yHOC6A9uXrTMblnI"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Nereus
   - _id: gucbiksbfPWc8oRZ
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.gucbiksbfPWc8oRZ"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.gucbiksbfPWc8oRZ"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Pontus
   - _id: GLPFrUIcHKu9sYUS
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.GLPFrUIcHKu9sYUS"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.GLPFrUIcHKu9sYUS"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Thalassa
   - _id: kIBXh3GV82Tju1RB
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.kIBXh3GV82Tju1RB"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.kIBXh3GV82Tju1RB"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Tethys
   - _id: wAXUoDx32IjpReBE
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.wAXUoDx32IjpReBE"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.wAXUoDx32IjpReBE"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Demeter
   - _id: 7TrtBNzCezdtB1pN
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.7TrtBNzCezdtB1pN"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.7TrtBNzCezdtB1pN"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Hephaestus
   - _id: S751WV0eMHxFmorJ
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.S751WV0eMHxFmorJ"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.S751WV0eMHxFmorJ"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Aphrodite
   - _id: OihaaYtMhIgqQgxI
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.OihaaYtMhIgqQgxI"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.OihaaYtMhIgqQgxI"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Hermes
   - _id: cWiEuOYDtPtXuD3w
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.cWiEuOYDtPtXuD3w"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.cWiEuOYDtPtXuD3w"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Hestia
   - _id: Ei3SdHY6IGUiaSN8
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.Ei3SdHY6IGUiaSN8"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.Ei3SdHY6IGUiaSN8"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Dionysus
   - _id: agGGnOmCqWaQaL7v
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.agGGnOmCqWaQaL7v"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.agGGnOmCqWaQaL7v"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Galatea
   - _id: y5jGic2THUtTJSF7
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.y5jGic2THUtTJSF7"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.y5jGic2THUtTJSF7"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Asclepius
   - _id: 75faS6u1Xqs4vzcn
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.75faS6u1Xqs4vzcn"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.75faS6u1Xqs4vzcn"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Leucothea
   - _id: JnWcyMWKOxjNEMks
-    _key: "!tables.results!.G9NdYAi8KGib0O8y.JnWcyMWKOxjNEMks"
+    _key: "!tables.results!G9NdYAi8KGib0O8y.JnWcyMWKOxjNEMks"
     range:
       - 20
       - 20

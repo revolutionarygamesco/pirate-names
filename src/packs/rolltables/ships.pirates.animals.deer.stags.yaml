@@ -1,5 +1,5 @@
 _id: Odp1r6Xip9hcrxbA
-_key: "!tables!.Odp1r6Xip9hcrxbA"
+_key: "!tables!Odp1r6Xip9hcrxbA"
 name: "Pirate Ship Names: Stags"
 description: Pirate ship names centering on stags.
 img: icons/svg/d20-grey.svg
@@ -7,50 +7,50 @@ formula: 1d6
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: uutnFcSnnRGvFZ0V
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.uutnFcSnnRGvFZ0V"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.uutnFcSnnRGvFZ0V"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Golden Stag
+    description: Golden Stag
   - _id: FyRRR0mEbn77eg4q
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.FyRRR0mEbn77eg4q"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.FyRRR0mEbn77eg4q"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Silver Stag
+    description: Silver Stag
   - _id: rvZKVXBtsvg0wi5Z
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.rvZKVXBtsvg0wi5Z"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.rvZKVXBtsvg0wi5Z"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: White Stag
+    description: White Stag
   - _id: nky2Q5Gti12d5YcZ
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.nky2Q5Gti12d5YcZ"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.nky2Q5Gti12d5YcZ"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Black Stag
+    description: Black Stag
   - _id: quQvWkX1wGoJq3BV
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.quQvWkX1wGoJq3BV"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.quQvWkX1wGoJq3BV"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Flying Stag
+    description: Flying Stag
   - _id: OG9DV7BL3pPAioKw
-    _key: "!tables.results!.Odp1r6Xip9hcrxbA.OG9DV7BL3pPAioKw"
+    _key: "!tables.results!Odp1r6Xip9hcrxbA.OG9DV7BL3pPAioKw"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Wild Stag
+    description: Wild Stag

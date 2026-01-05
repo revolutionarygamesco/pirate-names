@@ -1,5 +1,5 @@
 _id: pjpBMo3KaLv9kX4N
-_key: "!tables!.pjpBMo3KaLv9kX4N"
+_key: "!tables!pjpBMo3KaLv9kX4N"
 name: Names for Spanish Men-of-War from Roman Mythology
 description: Appropriate names for Spanish men-of-war derived from figures in
   Roman mythology, legend, and history.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: Mx7a1VPq1leAVmU9
-    _key: "!tables.results!.pjpBMo3KaLv9kX4N.Mx7a1VPq1leAVmU9"
+    _key: "!tables.results!pjpBMo3KaLv9kX4N.Mx7a1VPq1leAVmU9"
     range:
       - 1
       - 10
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.h30U7jQi1JcJdIOX
     name: Names for Spanish Men-of-War from Roman Mythology (Gods)
   - _id: PEykifFePlTVZEjI
-    _key: "!tables.results!.pjpBMo3KaLv9kX4N.PEykifFePlTVZEjI"
+    _key: "!tables.results!pjpBMo3KaLv9kX4N.PEykifFePlTVZEjI"
     range:
       - 11
       - 20

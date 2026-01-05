@@ -1,5 +1,5 @@
 _id: 36l8yt6xuQnoyEeY
-_key: "!tables!.36l8yt6xuQnoyEeY"
+_key: "!tables!36l8yt6xuQnoyEeY"
 name: "Pirate Ship Names: Jacobite Revenge"
 description: Pirate ship names centering on vengeance and Jacobitism.
 img: icons/svg/d20-grey.svg
@@ -7,82 +7,82 @@ formula: 1d10
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: pMeHLroGT3ose46R
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.pMeHLroGT3ose46R"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.pMeHLroGT3ose46R"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: King Over the Water
+    description: King Over the Water
   - _id: Z9git5Z5161Tr0Pp
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.Z9git5Z5161Tr0Pp"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.Z9git5Z5161Tr0Pp"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: King James’s Revenge
+    description: King James’s Revenge
   - _id: gNrpwnVMOzKoKFy8
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.gNrpwnVMOzKoKFy8"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.gNrpwnVMOzKoKFy8"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: White Rose’s Revenge
+    description: White Rose’s Revenge
   - _id: OoUQ1B3R8kMZXhJI
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.OoUQ1B3R8kMZXhJI"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.OoUQ1B3R8kMZXhJI"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Bonnie Prince’s Revenge
+    description: Bonnie Prince’s Revenge
   - _id: O1NX9m5dcUZc5ai5
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.O1NX9m5dcUZc5ai5"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.O1NX9m5dcUZc5ai5"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Oak Leaf’s Revenge
+    description: Oak Leaf’s Revenge
   - _id: oJKWesAWFGGKVGzF
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.oJKWesAWFGGKVGzF"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.oJKWesAWFGGKVGzF"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Glenshiel’s Revenge
+    description: Glenshiel’s Revenge
   - _id: 4bXAza3LqiKBaToC
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.4bXAza3LqiKBaToC"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.4bXAza3LqiKBaToC"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Braemar’s Revenge
+    description: Braemar’s Revenge
   - _id: 80fw9G2eZuspmeim
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.80fw9G2eZuspmeim"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.80fw9G2eZuspmeim"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Black Velvet’s Revenge
+    description: Black Velvet’s Revenge
   - _id: hBgxPxrQoX6jqaw9
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.hBgxPxrQoX6jqaw9"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.hBgxPxrQoX6jqaw9"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: True-Born Prince’s Revenge
+    description: True-Born Prince’s Revenge
   - _id: 577zNIM0exRGeBx3
-    _key: "!tables.results!.36l8yt6xuQnoyEeY.577zNIM0exRGeBx3"
+    _key: "!tables.results!36l8yt6xuQnoyEeY.577zNIM0exRGeBx3"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Stuart’s Revenge
+    description: Stuart’s Revenge

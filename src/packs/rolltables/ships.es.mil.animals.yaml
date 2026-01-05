@@ -1,5 +1,5 @@
 _id: xo35LqA9WRuZG4xL
-_key: "!tables!.xo35LqA9WRuZG4xL"
+_key: "!tables!xo35LqA9WRuZG4xL"
 name: Names for Spanish Men-of-War from Animals
 description: Appropriate names for Spanish men-of-war derived from animals.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: Q9thIoEFajO5KHU1
-    _key: "!tables.results!.xo35LqA9WRuZG4xL.Q9thIoEFajO5KHU1"
+    _key: "!tables.results!xo35LqA9WRuZG4xL.Q9thIoEFajO5KHU1"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.KOKGYwkz71RaN2Sg
     name: Names for Spanish Men-of-War from Birds
   - _id: V3IPHfutGyfl24Ap
-    _key: "!tables.results!.xo35LqA9WRuZG4xL.V3IPHfutGyfl24Ap"
+    _key: "!tables.results!xo35LqA9WRuZG4xL.V3IPHfutGyfl24Ap"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.HyrwjeWFGU8BJ89S
     name: Names for Spanish Men-of-War from Mammals
   - _id: m3hI7x8d6lmpAok6
-    _key: "!tables.results!.xo35LqA9WRuZG4xL.m3hI7x8d6lmpAok6"
+    _key: "!tables.results!xo35LqA9WRuZG4xL.m3hI7x8d6lmpAok6"
     range:
       - 9
       - 12

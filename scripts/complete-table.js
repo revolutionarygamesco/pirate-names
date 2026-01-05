@@ -3,10 +3,10 @@ import { parse, stringify } from 'yaml'
 import generateID from './generate-id.js'
 
 const getKey = (obj, parent) => {
-  const type = parent ? '!tables.results!' : '!tables!'
+  const type = parent ? 'tables.results' : 'tables'
   return parent
-    ? [type, parent, obj].join('.')
-    : [type, obj].join('.')
+    ? `!${type}!${parent}.${obj}`
+    : `!${type}!${obj}`
 }
 
 const completeResult = (result, parentID, index) => {

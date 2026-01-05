@@ -1,5 +1,5 @@
 _id: PJZnSr8Tdw0cZzo4
-_key: "!tables!.PJZnSr8Tdw0cZzo4"
+_key: "!tables!PJZnSr8Tdw0cZzo4"
 name: Names for Spanish Men-of-War from Mythology
 description: Appropriate names for Spanish men-of-war derived from mythology.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: FcQYrHqUz2KgcsJH
 results:
   - _id: SLa0X1JmUw3PjHPm
-    _key: "!tables.results!.PJZnSr8Tdw0cZzo4.SLa0X1JmUw3PjHPm"
+    _key: "!tables.results!PJZnSr8Tdw0cZzo4.SLa0X1JmUw3PjHPm"
     range:
       - 1
       - 10
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.zUaE6cQzIKxUzIFl
     name: Names for Spanish Men-of-War from Greek Mythology
   - _id: O9gRaliMtukJ4f8x
-    _key: "!tables.results!.PJZnSr8Tdw0cZzo4.O9gRaliMtukJ4f8x"
+    _key: "!tables.results!PJZnSr8Tdw0cZzo4.O9gRaliMtukJ4f8x"
     range:
       - 12
       - 17
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.pjpBMo3KaLv9kX4N
     name: Names for Spanish Men-of-War from Roman Mythology
   - _id: QTNNPHJqjPxsxu7U
-    _key: "!tables.results!.PJZnSr8Tdw0cZzo4.QTNNPHJqjPxsxu7U"
+    _key: "!tables.results!PJZnSr8Tdw0cZzo4.QTNNPHJqjPxsxu7U"
     range:
       - 18
       - 20

@@ -1,5 +1,5 @@
 _id: VsJJP5duZLyDIl3X
-_key: "!tables!.VsJJP5duZLyDIl3X"
+_key: "!tables!VsJJP5duZLyDIl3X"
 name: "Pirate Ship Names: Birds"
 description: Pirate ship names centering on birds.
 img: icons/svg/d20-grey.svg
@@ -7,162 +7,162 @@ formula: 1d20
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: XFCu6w2b9ATL636W
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.XFCu6w2b9ATL636W"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.XFCu6w2b9ATL636W"
     range:
       - 1
       - 1
     weight: 1
     type: text
-    text: Stormy Petrel
+    description: Stormy Petrel
   - _id: cwkYNFsB342eFQ55
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.cwkYNFsB342eFQ55"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.cwkYNFsB342eFQ55"
     range:
       - 2
       - 2
     weight: 1
     type: text
-    text: Black Albatross
+    description: Black Albatross
   - _id: DoCHDDvywWlJbh7U
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.DoCHDDvywWlJbh7U"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.DoCHDDvywWlJbh7U"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Crimson Ibis
+    description: Crimson Ibis
   - _id: MVRhp86C9fgGRBST
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.MVRhp86C9fgGRBST"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.MVRhp86C9fgGRBST"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Blood Hawk
+    description: Blood Hawk
   - _id: cQD7atc6LHpgNgRR
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.cQD7atc6LHpgNgRR"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.cQD7atc6LHpgNgRR"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Blood Eagle
+    description: Blood Eagle
   - _id: p4KLhB33EdhZJ4fp
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.p4KLhB33EdhZJ4fp"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.p4KLhB33EdhZJ4fp"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Vulture
+    description: Vulture
   - _id: 4C5P7GCz3HfKJY9x
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.4C5P7GCz3HfKJY9x"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.4C5P7GCz3HfKJY9x"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Devil’s Falcon
+    description: Devil’s Falcon
   - _id: 1ZVxQ61e5oZLwZZv
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.1ZVxQ61e5oZLwZZv"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.1ZVxQ61e5oZLwZZv"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Raven
+    description: Raven
   - _id: CfceRFWEjnyTnUHa
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.CfceRFWEjnyTnUHa"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.CfceRFWEjnyTnUHa"
     range:
       - 9
       - 9
     weight: 1
     type: text
-    text: Black Swan
+    description: Black Swan
   - _id: V8cQV0IkLnwBD8HO
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.V8cQV0IkLnwBD8HO"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.V8cQV0IkLnwBD8HO"
     range:
       - 10
       - 10
     weight: 1
     type: text
-    text: Kestrel
+    description: Kestrel
   - _id: uLjG2DGGXZNaKC3l
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.uLjG2DGGXZNaKC3l"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.uLjG2DGGXZNaKC3l"
     range:
       - 11
       - 11
     weight: 1
     type: text
-    text: Buzzard
+    description: Buzzard
   - _id: V1f1SjO0WTEi9LOL
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.V1f1SjO0WTEi9LOL"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.V1f1SjO0WTEi9LOL"
     range:
       - 12
       - 12
     weight: 1
     type: text
-    text: Hell’s Harrier
+    description: Hell’s Harrier
   - _id: EdlbAesN3KANhmKU
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.EdlbAesN3KANhmKU"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.EdlbAesN3KANhmKU"
     range:
       - 13
       - 13
     weight: 1
     type: text
-    text: Sea Kite
+    description: Sea Kite
   - _id: rViPu2LlVhotrYp0
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.rViPu2LlVhotrYp0"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.rViPu2LlVhotrYp0"
     range:
       - 14
       - 14
     weight: 1
     type: text
-    text: Condor
+    description: Condor
   - _id: U1OwN3yFK6dkzQjT
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.U1OwN3yFK6dkzQjT"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.U1OwN3yFK6dkzQjT"
     range:
       - 15
       - 15
     weight: 1
     type: text
-    text: Midnight Owl
+    description: Midnight Owl
   - _id: EZXRaGNCI4XlwOcv
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.EZXRaGNCI4XlwOcv"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.EZXRaGNCI4XlwOcv"
     range:
       - 16
       - 16
     weight: 1
     type: text
-    text: Golden Eagle
+    description: Golden Eagle
   - _id: U6zfAo0idosgmWM5
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.U6zfAo0idosgmWM5"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.U6zfAo0idosgmWM5"
     range:
       - 17
       - 17
     weight: 1
     type: text
-    text: Night Hawk
+    description: Night Hawk
   - _id: 3t6K38hA6XkeTJzz
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.3t6K38hA6XkeTJzz"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.3t6K38hA6XkeTJzz"
     range:
       - 18
       - 18
     weight: 1
     type: text
-    text: Golden Crane
+    description: Golden Crane
   - _id: R8KuenmPzcsmJhAF
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.R8KuenmPzcsmJhAF"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.R8KuenmPzcsmJhAF"
     range:
       - 19
       - 19
     weight: 1
     type: text
-    text: Death’s Falcon
+    description: Death’s Falcon
   - _id: ta2cREQabFp4GhCB
-    _key: "!tables.results!.VsJJP5duZLyDIl3X.ta2cREQabFp4GhCB"
+    _key: "!tables.results!VsJJP5duZLyDIl3X.ta2cREQabFp4GhCB"
     range:
       - 20
       - 20
     weight: 1
     type: text
-    text: Black Falcon
+    description: Black Falcon

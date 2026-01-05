@@ -1,5 +1,5 @@
 _id: I7IEcPSYijYOlSh4
-_key: "!tables!.I7IEcPSYijYOlSh4"
+_key: "!tables!I7IEcPSYijYOlSh4"
 name: Names for French Ships from Stars
 description: Appropriate names for French ships named for stars.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d8
 folder: DQlYv6FOGEeUyk06
 results:
   - _id: lZhREQquoH6b6SuL
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.lZhREQquoH6b6SuL"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.lZhREQquoH6b6SuL"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Étoile
   - _id: duALuowLSTmWJbLa
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.duALuowLSTmWJbLa"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.duALuowLSTmWJbLa"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Étoile du Nord
   - _id: WKMWkTuEjpIeHof0
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.WKMWkTuEjpIeHof0"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.WKMWkTuEjpIeHof0"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Étoile du Sud
   - _id: AE2584eSaF4CjeiI
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.AE2584eSaF4CjeiI"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.AE2584eSaF4CjeiI"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Étoile de l'Est
   - _id: NGwrJYvsSnsbq9ig
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.NGwrJYvsSnsbq9ig"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.NGwrJYvsSnsbq9ig"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Étoile de l'Ouest
   - _id: q2F1Zb9ozIcyWbS7
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.q2F1Zb9ozIcyWbS7"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.q2F1Zb9ozIcyWbS7"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Étoile du Matin
   - _id: 1ClJ80XSqbB2RmQj
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.1ClJ80XSqbB2RmQj"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.1ClJ80XSqbB2RmQj"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Étoile du Soir
   - _id: aMaA72fT8TaqKzsq
-    _key: "!tables.results!.I7IEcPSYijYOlSh4.aMaA72fT8TaqKzsq"
+    _key: "!tables.results!I7IEcPSYijYOlSh4.aMaA72fT8TaqKzsq"
     range:
       - 8
       - 8

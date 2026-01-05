@@ -1,5 +1,5 @@
 _id: Ct3NNcG78pyyDb7W
-_key: "!tables!.Ct3NNcG78pyyDb7W"
+_key: "!tables!Ct3NNcG78pyyDb7W"
 name: Names for British Merchantmen from Greek Mythology
 description: Appropriate names for British Merchantmen derived from Greek mythology.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: oFvm03QYpinUqEnL
 results:
   - _id: ThcTfRqvkHXoI360
-    _key: "!tables.results!.Ct3NNcG78pyyDb7W.ThcTfRqvkHXoI360"
+    _key: "!tables.results!Ct3NNcG78pyyDb7W.ThcTfRqvkHXoI360"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.G9NdYAi8KGib0O8y
     name: Names for British Merchantmen from Greek Mythology (Gods)
   - _id: j2PO5tERundSgECl
-    _key: "!tables.results!.Ct3NNcG78pyyDb7W.j2PO5tERundSgECl"
+    _key: "!tables.results!Ct3NNcG78pyyDb7W.j2PO5tERundSgECl"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.yMD8Mcu2Oaa9hbvJ
     name: Names for British Merchantmen from Greek Mythology (Heroes)
   - _id: 0fBI5JM2jDJ3YitV
-    _key: "!tables.results!.Ct3NNcG78pyyDb7W.0fBI5JM2jDJ3YitV"
+    _key: "!tables.results!Ct3NNcG78pyyDb7W.0fBI5JM2jDJ3YitV"
     range:
       - 9
       - 12

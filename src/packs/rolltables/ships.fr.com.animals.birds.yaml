@@ -1,5 +1,5 @@
 _id: A2AmzUD95atcHetm
-_key: "!tables!.A2AmzUD95atcHetm"
+_key: "!tables!A2AmzUD95atcHetm"
 name: Names for French Merchantmen from Birds
 description: Appropriate names for French merchantmen derived from birds.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: UnF57V3UrteAFAcD
 results:
   - _id: hQuwLnQA2RiaYwRB
-    _key: "!tables.results!.A2AmzUD95atcHetm.hQuwLnQA2RiaYwRB"
+    _key: "!tables.results!A2AmzUD95atcHetm.hQuwLnQA2RiaYwRB"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Grue
   - _id: vBo2CjVdPUkxIfyS
-    _key: "!tables.results!.A2AmzUD95atcHetm.vBo2CjVdPUkxIfyS"
+    _key: "!tables.results!A2AmzUD95atcHetm.vBo2CjVdPUkxIfyS"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Héron
   - _id: TUmQRVJ9YeDJgecu
-    _key: "!tables.results!.A2AmzUD95atcHetm.TUmQRVJ9YeDJgecu"
+    _key: "!tables.results!A2AmzUD95atcHetm.TUmQRVJ9YeDJgecu"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Rossignol
   - _id: MQKe0WFPCY4khhWv
-    _key: "!tables.results!.A2AmzUD95atcHetm.MQKe0WFPCY4khhWv"
+    _key: "!tables.results!A2AmzUD95atcHetm.MQKe0WFPCY4khhWv"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Corbeau
   - _id: iO2zLJxlbh14SipT
-    _key: "!tables.results!.A2AmzUD95atcHetm.iO2zLJxlbh14SipT"
+    _key: "!tables.results!A2AmzUD95atcHetm.iO2zLJxlbh14SipT"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Choucas
   - _id: 9ve7mzzVoxiDM9hL
-    _key: "!tables.results!.A2AmzUD95atcHetm.9ve7mzzVoxiDM9hL"
+    _key: "!tables.results!A2AmzUD95atcHetm.9ve7mzzVoxiDM9hL"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Bouvreuil
   - _id: fCBrgY5ZNAXlT0IM
-    _key: "!tables.results!.A2AmzUD95atcHetm.fCBrgY5ZNAXlT0IM"
+    _key: "!tables.results!A2AmzUD95atcHetm.fCBrgY5ZNAXlT0IM"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Cormoran
   - _id: iiNzA8NoCzKB2V19
-    _key: "!tables.results!.A2AmzUD95atcHetm.iiNzA8NoCzKB2V19"
+    _key: "!tables.results!A2AmzUD95atcHetm.iiNzA8NoCzKB2V19"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Martin-Pêcheur
   - _id: k5jY3TW9CE4giI6y
-    _key: "!tables.results!.A2AmzUD95atcHetm.k5jY3TW9CE4giI6y"
+    _key: "!tables.results!A2AmzUD95atcHetm.k5jY3TW9CE4giI6y"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Pélican
   - _id: OHOZIFkmHzzPBtHZ
-    _key: "!tables.results!.A2AmzUD95atcHetm.OHOZIFkmHzzPBtHZ"
+    _key: "!tables.results!A2AmzUD95atcHetm.OHOZIFkmHzzPBtHZ"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Albatros
   - _id: aiG9bSjfo5ELW60C
-    _key: "!tables.results!.A2AmzUD95atcHetm.aiG9bSjfo5ELW60C"
+    _key: "!tables.results!A2AmzUD95atcHetm.aiG9bSjfo5ELW60C"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Colombe
   - _id: GtGG1GonnyPCblIP
-    _key: "!tables.results!.A2AmzUD95atcHetm.GtGG1GonnyPCblIP"
+    _key: "!tables.results!A2AmzUD95atcHetm.GtGG1GonnyPCblIP"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Canard
   - _id: 9NWluHlwwCoJ3bVY
-    _key: "!tables.results!.A2AmzUD95atcHetm.9NWluHlwwCoJ3bVY"
+    _key: "!tables.results!A2AmzUD95atcHetm.9NWluHlwwCoJ3bVY"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Fou
   - _id: 1Fxx365xeqTnwHPE
-    _key: "!tables.results!.A2AmzUD95atcHetm.1Fxx365xeqTnwHPE"
+    _key: "!tables.results!A2AmzUD95atcHetm.1Fxx365xeqTnwHPE"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Colibri
   - _id: Co5vxUBHHk0C37TJ
-    _key: "!tables.results!.A2AmzUD95atcHetm.Co5vxUBHHk0C37TJ"
+    _key: "!tables.results!A2AmzUD95atcHetm.Co5vxUBHHk0C37TJ"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Alouette
   - _id: jw3bzouyj2v2deX8
-    _key: "!tables.results!.A2AmzUD95atcHetm.jw3bzouyj2v2deX8"
+    _key: "!tables.results!A2AmzUD95atcHetm.jw3bzouyj2v2deX8"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Pie
   - _id: E0AD1rwmALZ80iYB
-    _key: "!tables.results!.A2AmzUD95atcHetm.E0AD1rwmALZ80iYB"
+    _key: "!tables.results!A2AmzUD95atcHetm.E0AD1rwmALZ80iYB"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Cygne
   - _id: zCp4itXdrGmmewsc
-    _key: "!tables.results!.A2AmzUD95atcHetm.zCp4itXdrGmmewsc"
+    _key: "!tables.results!A2AmzUD95atcHetm.zCp4itXdrGmmewsc"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Étourneau
   - _id: yEJ8vYjc89SALI9u
-    _key: "!tables.results!.A2AmzUD95atcHetm.yEJ8vYjc89SALI9u"
+    _key: "!tables.results!A2AmzUD95atcHetm.yEJ8vYjc89SALI9u"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Oie
   - _id: GatW8mnh5PsCYB9b
-    _key: "!tables.results!.A2AmzUD95atcHetm.GatW8mnh5PsCYB9b"
+    _key: "!tables.results!A2AmzUD95atcHetm.GatW8mnh5PsCYB9b"
     range:
       - 20
       - 20

@@ -1,5 +1,5 @@
 _id: aLM0JV4R5WUvzSCX
-_key: "!tables!.aLM0JV4R5WUvzSCX"
+_key: "!tables!aLM0JV4R5WUvzSCX"
 name: Names for Dutch Men-of-War from Greek Mythology
 description: Appropriate names for Dutch men-of-war derived from derived from
   Greek mythology.
@@ -8,7 +8,7 @@ formula: 1d12
 folder: H0nvuws3XnhcTpcR
 results:
   - _id: o7v8QZERSzItEqHk
-    _key: "!tables.results!.aLM0JV4R5WUvzSCX.o7v8QZERSzItEqHk"
+    _key: "!tables.results!aLM0JV4R5WUvzSCX.o7v8QZERSzItEqHk"
     range:
       - 1
       - 4
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.UaUckvEB5qrUOAeb
     name: Names for Dutch Men-of-War from Greek Mythology (Gods)
   - _id: bnwzOQ8OQNNJHRyp
-    _key: "!tables.results!.aLM0JV4R5WUvzSCX.bnwzOQ8OQNNJHRyp"
+    _key: "!tables.results!aLM0JV4R5WUvzSCX.bnwzOQ8OQNNJHRyp"
     range:
       - 5
       - 8
@@ -26,7 +26,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ZsR6XFn55OY5O7AN
     name: Names for Dutch Men-of-War from Greek Mythology (Heroes)
   - _id: yW2lIAHCmrJMDdQs
-    _key: "!tables.results!.aLM0JV4R5WUvzSCX.yW2lIAHCmrJMDdQs"
+    _key: "!tables.results!aLM0JV4R5WUvzSCX.yW2lIAHCmrJMDdQs"
     range:
       - 9
       - 12

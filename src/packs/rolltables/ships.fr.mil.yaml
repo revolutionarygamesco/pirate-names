@@ -1,5 +1,5 @@
 _id: Hz8mjlKg3hlKiFfL
-_key: "!tables!.Hz8mjlKg3hlKiFfL"
+_key: "!tables!Hz8mjlKg3hlKiFfL"
 name: Names for French Men-of-War
 description: Appropriate names for French men-of-war.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: TPus7f8HNIFJXBXp
 results:
   - _id: RxIw8m9rOYd27yoe
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.RxIw8m9rOYd27yoe"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.RxIw8m9rOYd27yoe"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.WPdAj2c6hKX2a4v3
     name: French Feminine Names
   - _id: 5VqdbYw5jggwoGVC
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.5VqdbYw5jggwoGVC"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.5VqdbYw5jggwoGVC"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.clnG5w9iWoJiOoja
     name: Names for French Ships from Places
   - _id: Ksi506bXRJY6eo3V
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.Ksi506bXRJY6eo3V"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.Ksi506bXRJY6eo3V"
     range:
       - 9
       - 10
@@ -34,7 +34,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.niIVQhH7NczGO3Nr
     name: Names for French Ships from Aristocracy
   - _id: acLeXWjY7sZVGuDD
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.acLeXWjY7sZVGuDD"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.acLeXWjY7sZVGuDD"
     range:
       - 11
       - 14
@@ -43,7 +43,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.yfjLRY5NSXHtHk63
     name: Names for French Men-of-War from Mythology
   - _id: igc7tl3zA8Kn7VDt
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.igc7tl3zA8Kn7VDt"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.igc7tl3zA8Kn7VDt"
     range:
       - 15
       - 16
@@ -52,7 +52,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.fdxKxFMZkEl4zkH3
     name: Names for French Men-of-War from Animals
   - _id: MDG1APasN3acDBst
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.MDG1APasN3acDBst"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.MDG1APasN3acDBst"
     range:
       - 17
       - 18
@@ -61,7 +61,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.mR7QVIGuiOKnVqtJ
     name: Names for French Ships from Astronomy
   - _id: 97cb8d7zyKyxRHPh
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.97cb8d7zyKyxRHPh"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.97cb8d7zyKyxRHPh"
     range:
       - 19
       - 19
@@ -70,7 +70,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.HEY8ioE2THRaxneS
     name: Aspirational Names for French Men-of-War
   - _id: vPNRu96GOwA1fGrU
-    _key: "!tables.results!.Hz8mjlKg3hlKiFfL.vPNRu96GOwA1fGrU"
+    _key: "!tables.results!Hz8mjlKg3hlKiFfL.vPNRu96GOwA1fGrU"
     range:
       - 20
       - 20

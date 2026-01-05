@@ -1,5 +1,5 @@
 _id: pWXaOZJPUIW9MTRD
-_key: "!tables!.pWXaOZJPUIW9MTRD"
+_key: "!tables!pWXaOZJPUIW9MTRD"
 name: Names for Spanish Ships from Places
 description: Appropriate names for Spanish ships taken from locations or regions.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d100
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: SR7TS3bwYfpOL8jx
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.SR7TS3bwYfpOL8jx"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.SR7TS3bwYfpOL8jx"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Africa
   - _id: GlGDZXaEN5YSQ3K9
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.GlGDZXaEN5YSQ3K9"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.GlGDZXaEN5YSQ3K9"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Albacete
   - _id: C20RKKoAwCBv6UNV
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.C20RKKoAwCBv6UNV"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.C20RKKoAwCBv6UNV"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Álava
   - _id: FzOBq2j0DdLybk56
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.FzOBq2j0DdLybk56"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.FzOBq2j0DdLybk56"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Algeciras
   - _id: 6cQ8ZHyl9rwFTUfW
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.6cQ8ZHyl9rwFTUfW"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.6cQ8ZHyl9rwFTUfW"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Alicante
   - _id: AOOjQ1qOLFPHyv6a
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.AOOjQ1qOLFPHyv6a"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.AOOjQ1qOLFPHyv6a"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Almería
   - _id: Y14nETehWDD0T2QC
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Y14nETehWDD0T2QC"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Y14nETehWDD0T2QC"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Americana
   - _id: Ugxoqnda8i3abecb
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Ugxoqnda8i3abecb"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Ugxoqnda8i3abecb"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Andalucia
   - _id: busdfvhbe2dOq080
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.busdfvhbe2dOq080"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.busdfvhbe2dOq080"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Andalucia la Baja
   - _id: vI8kr16iEBJSKAyg
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.vI8kr16iEBJSKAyg"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.vI8kr16iEBJSKAyg"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Andalucía la Alta
   - _id: Yc2Xn5xiwVdTbZ6n
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Yc2Xn5xiwVdTbZ6n"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Yc2Xn5xiwVdTbZ6n"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Asia
   - _id: FD4BLIk9zINkDYdA
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.FD4BLIk9zINkDYdA"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.FD4BLIk9zINkDYdA"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Asturias
   - _id: pZgrxFi6hrMP9YnA
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.pZgrxFi6hrMP9YnA"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.pZgrxFi6hrMP9YnA"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Atocha de Verano
   - _id: R1JKo9eTgws3E5XR
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.R1JKo9eTgws3E5XR"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.R1JKo9eTgws3E5XR"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Ávila
   - _id: nCCbbewN8zNnBPXh
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.nCCbbewN8zNnBPXh"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.nCCbbewN8zNnBPXh"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Badajoz
   - _id: M0r3ybRSKdyjq7Sm
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.M0r3ybRSKdyjq7Sm"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.M0r3ybRSKdyjq7Sm"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Bahama
   - _id: x3YTwwBRGT7zdNzM
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.x3YTwwBRGT7zdNzM"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.x3YTwwBRGT7zdNzM"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Bajío
   - _id: a3vfSMaCyJTpy3KL
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.a3vfSMaCyJTpy3KL"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.a3vfSMaCyJTpy3KL"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Barcelona
   - _id: axCh8nEDiX5Z5aZl
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.axCh8nEDiX5Z5aZl"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.axCh8nEDiX5Z5aZl"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Burgos
   - _id: Gi6CBoYooNg2tMdI
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Gi6CBoYooNg2tMdI"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Gi6CBoYooNg2tMdI"
     range:
       - 20
       - 20
@@ -167,7 +167,7 @@ results:
     type: text
     description: Cáceres
   - _id: ufqSIYRIQocBa5VV
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.ufqSIYRIQocBa5VV"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.ufqSIYRIQocBa5VV"
     range:
       - 21
       - 21
@@ -175,7 +175,7 @@ results:
     type: text
     description: Cádiz
   - _id: kzx5kkvsCw2PKyZ3
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.kzx5kkvsCw2PKyZ3"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.kzx5kkvsCw2PKyZ3"
     range:
       - 22
       - 22
@@ -183,7 +183,7 @@ results:
     type: text
     description: Calatrava la Vieja
   - _id: Cgs3K3eBU0o1aZUG
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Cgs3K3eBU0o1aZUG"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Cgs3K3eBU0o1aZUG"
     range:
       - 23
       - 23
@@ -191,7 +191,7 @@ results:
     type: text
     description: Cantabria
   - _id: qxGSIfPotGQ49H3P
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.qxGSIfPotGQ49H3P"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.qxGSIfPotGQ49H3P"
     range:
       - 24
       - 24
@@ -199,7 +199,7 @@ results:
     type: text
     description: Castellón
   - _id: uuyUKWGrB7wwCtlK
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.uuyUKWGrB7wwCtlK"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.uuyUKWGrB7wwCtlK"
     range:
       - 25
       - 25
@@ -207,7 +207,7 @@ results:
     type: text
     description: Castilla
   - _id: hFGeR3UbrGSrvcYu
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.hFGeR3UbrGSrvcYu"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.hFGeR3UbrGSrvcYu"
     range:
       - 26
       - 26
@@ -215,7 +215,7 @@ results:
     type: text
     description: Catalan
   - _id: pL3FQCbaK8C1nKay
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.pL3FQCbaK8C1nKay"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.pL3FQCbaK8C1nKay"
     range:
       - 27
       - 27
@@ -223,7 +223,7 @@ results:
     type: text
     description: Cayman
   - _id: G92eXR5I4WSLeRme
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.G92eXR5I4WSLeRme"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.G92eXR5I4WSLeRme"
     range:
       - 28
       - 28
@@ -231,7 +231,7 @@ results:
     type: text
     description: Ciudad de México
   - _id: 45CitHzaR6pfnH1u
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.45CitHzaR6pfnH1u"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.45CitHzaR6pfnH1u"
     range:
       - 29
       - 29
@@ -239,7 +239,7 @@ results:
     type: text
     description: Ciudad Real
   - _id: Rq8ifj0aKaN623Kh
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Rq8ifj0aKaN623Kh"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Rq8ifj0aKaN623Kh"
     range:
       - 30
       - 30
@@ -247,7 +247,7 @@ results:
     type: text
     description: Córdoba
   - _id: xNjJ0Qz6U27fsWez
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.xNjJ0Qz6U27fsWez"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.xNjJ0Qz6U27fsWez"
     range:
       - 31
       - 31
@@ -255,7 +255,7 @@ results:
     type: text
     description: Cuba
   - _id: Dz58cPiS3A49wxBK
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Dz58cPiS3A49wxBK"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Dz58cPiS3A49wxBK"
     range:
       - 32
       - 32
@@ -263,7 +263,7 @@ results:
     type: text
     description: Cuéllar
   - _id: lbV8omGlUISdGtyl
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.lbV8omGlUISdGtyl"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.lbV8omGlUISdGtyl"
     range:
       - 33
       - 33
@@ -271,7 +271,7 @@ results:
     type: text
     description: Cuenca
   - _id: GL4X25nAOQM7zqsY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.GL4X25nAOQM7zqsY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.GL4X25nAOQM7zqsY"
     range:
       - 34
       - 34
@@ -279,7 +279,7 @@ results:
     type: text
     description: Sevillana
   - _id: fef0aMQXMK3pW0Yy
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.fef0aMQXMK3pW0Yy"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.fef0aMQXMK3pW0Yy"
     range:
       - 35
       - 35
@@ -287,7 +287,7 @@ results:
     type: text
     description: España
   - _id: 8E46YfnZ5ZNTPtaL
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.8E46YfnZ5ZNTPtaL"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.8E46YfnZ5ZNTPtaL"
     range:
       - 36
       - 36
@@ -295,7 +295,7 @@ results:
     type: text
     description: Europa
   - _id: aetXIKIOjudbBBNT
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.aetXIKIOjudbBBNT"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.aetXIKIOjudbBBNT"
     range:
       - 37
       - 37
@@ -303,7 +303,7 @@ results:
     type: text
     description: Extremeña
   - _id: q99bR2cyrLbr9QJv
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.q99bR2cyrLbr9QJv"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.q99bR2cyrLbr9QJv"
     range:
       - 38
       - 38
@@ -311,7 +311,7 @@ results:
     type: text
     description: Ferrolana
   - _id: NaE6udZBGXX94GWV
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.NaE6udZBGXX94GWV"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.NaE6udZBGXX94GWV"
     range:
       - 39
       - 39
@@ -319,7 +319,7 @@ results:
     type: text
     description: Filipino
   - _id: 7pDw6zgYCBtsQAuO
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.7pDw6zgYCBtsQAuO"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.7pDw6zgYCBtsQAuO"
     range:
       - 40
       - 40
@@ -327,7 +327,7 @@ results:
     type: text
     description: Galicia
   - _id: G8PjKInfGg7SN8rA
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.G8PjKInfGg7SN8rA"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.G8PjKInfGg7SN8rA"
     range:
       - 41
       - 41
@@ -335,7 +335,7 @@ results:
     type: text
     description: Genovesa
   - _id: NenUdVlTScW62W1L
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.NenUdVlTScW62W1L"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.NenUdVlTScW62W1L"
     range:
       - 42
       - 42
@@ -343,7 +343,7 @@ results:
     type: text
     description: Gitano
   - _id: u41iOKnTpHyIEthj
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.u41iOKnTpHyIEthj"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.u41iOKnTpHyIEthj"
     range:
       - 43
       - 43
@@ -351,7 +351,7 @@ results:
     type: text
     description: Gipuzkoa
   - _id: 4kXyeNMCrrqR6cO2
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.4kXyeNMCrrqR6cO2"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.4kXyeNMCrrqR6cO2"
     range:
       - 44
       - 44
@@ -359,7 +359,7 @@ results:
     type: text
     description: Girona
   - _id: wZn7Y86U8Hz33dH4
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.wZn7Y86U8Hz33dH4"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.wZn7Y86U8Hz33dH4"
     range:
       - 45
       - 45
@@ -367,7 +367,7 @@ results:
     type: text
     description: Granada
   - _id: fdyVAIB8oFHap4Fa
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.fdyVAIB8oFHap4Fa"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.fdyVAIB8oFHap4Fa"
     range:
       - 46
       - 46
@@ -375,7 +375,7 @@ results:
     type: text
     description: Griega
   - _id: 2rKEnV388dHbj4mc
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.2rKEnV388dHbj4mc"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.2rKEnV388dHbj4mc"
     range:
       - 47
       - 47
@@ -383,7 +383,7 @@ results:
     type: text
     description: Guadalajara
   - _id: iPOTb1nCdJ9LprVh
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.iPOTb1nCdJ9LprVh"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.iPOTb1nCdJ9LprVh"
     range:
       - 48
       - 48
@@ -391,7 +391,7 @@ results:
     type: text
     description: Guatemala
   - _id: yQDbcjdQFMlyoDDg
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.yQDbcjdQFMlyoDDg"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.yQDbcjdQFMlyoDDg"
     range:
       - 49
       - 49
@@ -399,7 +399,7 @@ results:
     type: text
     description: Guipuzcoa
   - _id: pZ4Wzzgr14qExGcR
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.pZ4Wzzgr14qExGcR"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.pZ4Wzzgr14qExGcR"
     range:
       - 50
       - 50
@@ -407,7 +407,7 @@ results:
     type: text
     description: Guipuzcoana
   - _id: 7niszHObk2PIkmc9
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.7niszHObk2PIkmc9"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.7niszHObk2PIkmc9"
     range:
       - 51
       - 51
@@ -415,7 +415,7 @@ results:
     type: text
     description: Havana
   - _id: x2TkMgSgFXsPUPdi
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.x2TkMgSgFXsPUPdi"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.x2TkMgSgFXsPUPdi"
     range:
       - 52
       - 52
@@ -423,7 +423,7 @@ results:
     type: text
     description: Huelva
   - _id: 9SFHnAfs5wzgBMzL
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.9SFHnAfs5wzgBMzL"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.9SFHnAfs5wzgBMzL"
     range:
       - 53
       - 53
@@ -431,7 +431,7 @@ results:
     type: text
     description: Huesca
   - _id: OpDqRwR5AF6fa0nO
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.OpDqRwR5AF6fa0nO"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.OpDqRwR5AF6fa0nO"
     range:
       - 54
       - 54
@@ -439,7 +439,7 @@ results:
     type: text
     description: Iberia
   - _id: lNAaFu1zawt7iEj6
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.lNAaFu1zawt7iEj6"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.lNAaFu1zawt7iEj6"
     range:
       - 55
       - 55
@@ -447,7 +447,7 @@ results:
     type: text
     description: Ibicenco
   - _id: VQzdQBK3hBfx0Kga
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.VQzdQBK3hBfx0Kga"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.VQzdQBK3hBfx0Kga"
     range:
       - 56
       - 56
@@ -455,7 +455,7 @@ results:
     type: text
     description: Jaén
   - _id: YZgtLHChT4Wwb4gY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.YZgtLHChT4Wwb4gY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.YZgtLHChT4Wwb4gY"
     range:
       - 57
       - 57
@@ -463,7 +463,7 @@ results:
     type: text
     description: La Coruña
   - _id: 700DuoscgoYokBlI
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.700DuoscgoYokBlI"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.700DuoscgoYokBlI"
     range:
       - 58
       - 58
@@ -471,7 +471,7 @@ results:
     type: text
     description: La Rioja
   - _id: g77A9xn62T2N8dm7
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.g77A9xn62T2N8dm7"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.g77A9xn62T2N8dm7"
     range:
       - 59
       - 59
@@ -479,7 +479,7 @@ results:
     type: text
     description: Las Palmas de Gran Canaria
   - _id: sipVQlZNEElbJSFN
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.sipVQlZNEElbJSFN"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.sipVQlZNEElbJSFN"
     range:
       - 60
       - 60
@@ -487,7 +487,7 @@ results:
     type: text
     description: León
   - _id: yHifW98Ms5K1jDri
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.yHifW98Ms5K1jDri"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.yHifW98Ms5K1jDri"
     range:
       - 61
       - 61
@@ -495,7 +495,7 @@ results:
     type: text
     description: Lérida
   - _id: 9YYIlBytOWlTzg2h
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.9YYIlBytOWlTzg2h"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.9YYIlBytOWlTzg2h"
     range:
       - 62
       - 62
@@ -503,7 +503,7 @@ results:
     type: text
     description: Lugo
   - _id: J95Z8duIBdd5aES0
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.J95Z8duIBdd5aES0"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.J95Z8duIBdd5aES0"
     range:
       - 63
       - 63
@@ -511,7 +511,7 @@ results:
     type: text
     description: Madrid
   - _id: P8FrZ1fHbcSHVApT
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.P8FrZ1fHbcSHVApT"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.P8FrZ1fHbcSHVApT"
     range:
       - 64
       - 64
@@ -519,7 +519,7 @@ results:
     type: text
     description: Málaga
   - _id: AVRtK2q9hXZIy7iY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.AVRtK2q9hXZIy7iY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.AVRtK2q9hXZIy7iY"
     range:
       - 65
       - 65
@@ -527,7 +527,7 @@ results:
     type: text
     description: Mallorquín
   - _id: PvBKbKTaXGbOLQwL
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.PvBKbKTaXGbOLQwL"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.PvBKbKTaXGbOLQwL"
     range:
       - 66
       - 66
@@ -535,7 +535,7 @@ results:
     type: text
     description: Mejicano
   - _id: nm2C8dxwO0LsAUNY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.nm2C8dxwO0LsAUNY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.nm2C8dxwO0LsAUNY"
     range:
       - 67
       - 67
@@ -543,7 +543,7 @@ results:
     type: text
     description: Menorquin
   - _id: RfXKsSNpymbXpbaj
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.RfXKsSNpymbXpbaj"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.RfXKsSNpymbXpbaj"
     range:
       - 68
       - 68
@@ -551,7 +551,7 @@ results:
     type: text
     description: México
   - _id: fGC7PWz5KW2YZJqH
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.fGC7PWz5KW2YZJqH"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.fGC7PWz5KW2YZJqH"
     range:
       - 69
       - 69
@@ -559,7 +559,7 @@ results:
     type: text
     description: Montañes
   - _id: prtnpFb0Van5InfX
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.prtnpFb0Van5InfX"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.prtnpFb0Van5InfX"
     range:
       - 70
       - 70
@@ -567,7 +567,7 @@ results:
     type: text
     description: Murciana
   - _id: I7MWnqgN028yPzIY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.I7MWnqgN028yPzIY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.I7MWnqgN028yPzIY"
     range:
       - 71
       - 71
@@ -575,7 +575,7 @@ results:
     type: text
     description: Navarra
   - _id: kDI6ke9LKlG7swQQ
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.kDI6ke9LKlG7swQQ"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.kDI6ke9LKlG7swQQ"
     range:
       - 72
       - 72
@@ -583,7 +583,7 @@ results:
     type: text
     description: Nueva España
   - _id: poYpRIMzWXaY3tnp
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.poYpRIMzWXaY3tnp"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.poYpRIMzWXaY3tnp"
     range:
       - 73
       - 73
@@ -591,7 +591,7 @@ results:
     type: text
     description: Nueva Galicia
   - _id: woZwIBvWIcjYeIXL
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.woZwIBvWIcjYeIXL"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.woZwIBvWIcjYeIXL"
     range:
       - 74
       - 74
@@ -599,7 +599,7 @@ results:
     type: text
     description: Numancia
   - _id: Efv6OaWObalnq3Vi
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.Efv6OaWObalnq3Vi"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.Efv6OaWObalnq3Vi"
     range:
       - 75
       - 75
@@ -607,7 +607,7 @@ results:
     type: text
     description: Orense
   - _id: U32I6WuWXPmY1RgR
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.U32I6WuWXPmY1RgR"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.U32I6WuWXPmY1RgR"
     range:
       - 76
       - 76
@@ -615,7 +615,7 @@ results:
     type: text
     description: Oriente
   - _id: 5eaGtvxyHVRDsgVy
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.5eaGtvxyHVRDsgVy"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.5eaGtvxyHVRDsgVy"
     range:
       - 77
       - 77
@@ -623,7 +623,7 @@ results:
     type: text
     description: Palencia
   - _id: jVN41zOIfrLdeQq8
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.jVN41zOIfrLdeQq8"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.jVN41zOIfrLdeQq8"
     range:
       - 78
       - 78
@@ -631,7 +631,7 @@ results:
     type: text
     description: Panama
   - _id: IX6oyz3wRAxv1dlT
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.IX6oyz3wRAxv1dlT"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.IX6oyz3wRAxv1dlT"
     range:
       - 79
       - 79
@@ -639,7 +639,7 @@ results:
     type: text
     description: Peruano
   - _id: 3A2LclaiJXEnkLdu
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.3A2LclaiJXEnkLdu"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.3A2LclaiJXEnkLdu"
     range:
       - 80
       - 80
@@ -647,7 +647,7 @@ results:
     type: text
     description: Pontevedra
   - _id: CGuShapfWpQkwTSH
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.CGuShapfWpQkwTSH"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.CGuShapfWpQkwTSH"
     range:
       - 81
       - 81
@@ -655,7 +655,7 @@ results:
     type: text
     description: Potosi
   - _id: GYxjmKyDjTAPUggb
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.GYxjmKyDjTAPUggb"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.GYxjmKyDjTAPUggb"
     range:
       - 82
       - 82
@@ -663,7 +663,7 @@ results:
     type: text
     description: Puebla
   - _id: FgNAofokQ3162FfV
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.FgNAofokQ3162FfV"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.FgNAofokQ3162FfV"
     range:
       - 83
       - 83
@@ -671,7 +671,7 @@ results:
     type: text
     description: Puertorriqueño
   - _id: 6hGDNmFjVfwdLUCs
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.6hGDNmFjVfwdLUCs"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.6hGDNmFjVfwdLUCs"
     range:
       - 84
       - 84
@@ -679,7 +679,7 @@ results:
     type: text
     description: Puerto Rico
   - _id: AHR4Fkg0ruqx43Xm
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.AHR4Fkg0ruqx43Xm"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.AHR4Fkg0ruqx43Xm"
     range:
       - 85
       - 85
@@ -687,7 +687,7 @@ results:
     type: text
     description: Salamanca
   - _id: V9rdJARv66Z9S2SA
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.V9rdJARv66Z9S2SA"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.V9rdJARv66Z9S2SA"
     range:
       - 86
       - 86
@@ -695,7 +695,7 @@ results:
     type: text
     description: Santiago de Compostela
   - _id: gAfq8vMB0HSDLwTU
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.gAfq8vMB0HSDLwTU"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.gAfq8vMB0HSDLwTU"
     range:
       - 87
       - 87
@@ -703,7 +703,7 @@ results:
     type: text
     description: Segovia
   - _id: ti3AiATyQyYeLYmz
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.ti3AiATyQyYeLYmz"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.ti3AiATyQyYeLYmz"
     range:
       - 88
       - 88
@@ -711,7 +711,7 @@ results:
     type: text
     description: Sevilla
   - _id: fXqLUX9Jp0vMXKSQ
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.fXqLUX9Jp0vMXKSQ"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.fXqLUX9Jp0vMXKSQ"
     range:
       - 89
       - 89
@@ -719,7 +719,7 @@ results:
     type: text
     description: Soria
   - _id: eD0cPcmG8AsCV5c2
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.eD0cPcmG8AsCV5c2"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.eD0cPcmG8AsCV5c2"
     range:
       - 90
       - 90
@@ -727,7 +727,7 @@ results:
     type: text
     description: Tarragona
   - _id: ctaJvXJlAV4pHJZS
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.ctaJvXJlAV4pHJZS"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.ctaJvXJlAV4pHJZS"
     range:
       - 91
       - 91
@@ -735,7 +735,7 @@ results:
     type: text
     description: Teruel
   - _id: bHBUobtfErELx4XG
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.bHBUobtfErELx4XG"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.bHBUobtfErELx4XG"
     range:
       - 92
       - 92
@@ -743,7 +743,7 @@ results:
     type: text
     description: Toledo
   - _id: QOXrQ5B7WBcBgQAl
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.QOXrQ5B7WBcBgQAl"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.QOXrQ5B7WBcBgQAl"
     range:
       - 93
       - 93
@@ -751,7 +751,7 @@ results:
     type: text
     description: Valenciano
   - _id: viPdFCLxYcWagMcU
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.viPdFCLxYcWagMcU"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.viPdFCLxYcWagMcU"
     range:
       - 94
       - 94
@@ -759,7 +759,7 @@ results:
     type: text
     description: Valladolid
   - _id: 58aPMxEYemuQR5xR
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.58aPMxEYemuQR5xR"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.58aPMxEYemuQR5xR"
     range:
       - 95
       - 95
@@ -767,7 +767,7 @@ results:
     type: text
     description: Veracruz
   - _id: ewXMTiXkS4U42Pjc
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.ewXMTiXkS4U42Pjc"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.ewXMTiXkS4U42Pjc"
     range:
       - 96
       - 96
@@ -775,7 +775,7 @@ results:
     type: text
     description: Villa de Bilbao
   - _id: QvxJTmEj3BMj9HYH
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.QvxJTmEj3BMj9HYH"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.QvxJTmEj3BMj9HYH"
     range:
       - 97
       - 97
@@ -783,7 +783,7 @@ results:
     type: text
     description: Vizcaya
   - _id: GIZTAnfIZ1HrIPmY
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.GIZTAnfIZ1HrIPmY"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.GIZTAnfIZ1HrIPmY"
     range:
       - 98
       - 98
@@ -791,7 +791,7 @@ results:
     type: text
     description: Yucatán
   - _id: O4OSDkC5o6w55M3s
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.O4OSDkC5o6w55M3s"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.O4OSDkC5o6w55M3s"
     range:
       - 99
       - 99
@@ -799,7 +799,7 @@ results:
     type: text
     description: Zamora
   - _id: AYP6OZTW9cPItXuX
-    _key: "!tables.results!.pWXaOZJPUIW9MTRD.AYP6OZTW9cPItXuX"
+    _key: "!tables.results!pWXaOZJPUIW9MTRD.AYP6OZTW9cPItXuX"
     range:
       - 100
       - 100

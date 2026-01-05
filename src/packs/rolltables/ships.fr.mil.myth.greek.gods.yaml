@@ -1,5 +1,5 @@
 _id: 95uPXUyvsvoBLuI1
-_key: "!tables!.95uPXUyvsvoBLuI1"
+_key: "!tables!95uPXUyvsvoBLuI1"
 name: Names for French Men-of-War from Greek Mythology (Gods)
 description: Appropriate names for French men-of-war derived from Greek gods.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: Vnjvxr6VGLzUAYqC
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.Vnjvxr6VGLzUAYqC"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.Vnjvxr6VGLzUAYqC"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Zeus
   - _id: vfamHTNgG8YZhwcx
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.vfamHTNgG8YZhwcx"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.vfamHTNgG8YZhwcx"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Héra
   - _id: NYKf5kj10FGN54mX
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.NYKf5kj10FGN54mX"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.NYKf5kj10FGN54mX"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Poséidon
   - _id: aVQNvMtWUMnMSokx
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.aVQNvMtWUMnMSokx"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.aVQNvMtWUMnMSokx"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Apollon
   - _id: xmGIjXDBKYhitm5P
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.xmGIjXDBKYhitm5P"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.xmGIjXDBKYhitm5P"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Perséphone
   - _id: tp0MHNaDWrm6Xrew
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.tp0MHNaDWrm6Xrew"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.tp0MHNaDWrm6Xrew"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Océan
   - _id: xHZ4xGMOIQPGg6Bv
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.xHZ4xGMOIQPGg6Bv"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.xHZ4xGMOIQPGg6Bv"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Nérée
   - _id: rYRzkY7pIgcqN8WH
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.rYRzkY7pIgcqN8WH"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.rYRzkY7pIgcqN8WH"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Pontus
   - _id: 3vewDhl1Vz06Behj
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.3vewDhl1Vz06Behj"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.3vewDhl1Vz06Behj"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Thalassa
   - _id: 8bYx4vACzMzyh9Nk
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.8bYx4vACzMzyh9Nk"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.8bYx4vACzMzyh9Nk"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Téthys
   - _id: TG8p83NyDd2LssIN
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.TG8p83NyDd2LssIN"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.TG8p83NyDd2LssIN"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Artémis
   - _id: o8qqNa7EAuCZ0nqc
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.o8qqNa7EAuCZ0nqc"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.o8qqNa7EAuCZ0nqc"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Arès
   - _id: ZrA8nJ0FI2M0NhFN
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.ZrA8nJ0FI2M0NhFN"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.ZrA8nJ0FI2M0NhFN"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Athéna
   - _id: HQfvLuE0B1UtDuj2
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.HQfvLuE0B1UtDuj2"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.HQfvLuE0B1UtDuj2"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Némésis
   - _id: ogn2WIhUKuuM9Dvz
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.ogn2WIhUKuuM9Dvz"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.ogn2WIhUKuuM9Dvz"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Hélios
   - _id: Y4baBI6OvxN9oJ3Q
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.Y4baBI6OvxN9oJ3Q"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.Y4baBI6OvxN9oJ3Q"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Triton
   - _id: pMbHWPwuYKy56FsT
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.pMbHWPwuYKy56FsT"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.pMbHWPwuYKy56FsT"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Kratos
   - _id: V1oDdafw9QY7562z
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.V1oDdafw9QY7562z"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.V1oDdafw9QY7562z"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Nike
   - _id: SSKD8NRtxAACyEGf
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.SSKD8NRtxAACyEGf"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.SSKD8NRtxAACyEGf"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Alka
   - _id: YwdscDbz2IUt0b94
-    _key: "!tables.results!.95uPXUyvsvoBLuI1.YwdscDbz2IUt0b94"
+    _key: "!tables.results!95uPXUyvsvoBLuI1.YwdscDbz2IUt0b94"
     range:
       - 20
       - 20

@@ -1,5 +1,5 @@
 _id: aJL9ANMHyakweDXu
-_key: "!tables!.aJL9ANMHyakweDXu"
+_key: "!tables!aJL9ANMHyakweDXu"
 name: Names for French Men-of-War from Birds
 description: Appropriate names for French men-of-war derived from birds.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: KSKilyT1hCU0m99a
-    _key: "!tables.results!.aJL9ANMHyakweDXu.KSKilyT1hCU0m99a"
+    _key: "!tables.results!aJL9ANMHyakweDXu.KSKilyT1hCU0m99a"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Grue
   - _id: x6guJJUjaEouyOCS
-    _key: "!tables.results!.aJL9ANMHyakweDXu.x6guJJUjaEouyOCS"
+    _key: "!tables.results!aJL9ANMHyakweDXu.x6guJJUjaEouyOCS"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Héron
   - _id: OMwUXartfJiSv2Wn
-    _key: "!tables.results!.aJL9ANMHyakweDXu.OMwUXartfJiSv2Wn"
+    _key: "!tables.results!aJL9ANMHyakweDXu.OMwUXartfJiSv2Wn"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Rossignol
   - _id: UrYo0u5xLQbkddbe
-    _key: "!tables.results!.aJL9ANMHyakweDXu.UrYo0u5xLQbkddbe"
+    _key: "!tables.results!aJL9ANMHyakweDXu.UrYo0u5xLQbkddbe"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Corbeau
   - _id: WZQCYvce0agSebQC
-    _key: "!tables.results!.aJL9ANMHyakweDXu.WZQCYvce0agSebQC"
+    _key: "!tables.results!aJL9ANMHyakweDXu.WZQCYvce0agSebQC"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Choucas
   - _id: iLTgwBu0XlWQCA6s
-    _key: "!tables.results!.aJL9ANMHyakweDXu.iLTgwBu0XlWQCA6s"
+    _key: "!tables.results!aJL9ANMHyakweDXu.iLTgwBu0XlWQCA6s"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Bouvreuil
   - _id: wsDHCYM9Ky7SYv1W
-    _key: "!tables.results!.aJL9ANMHyakweDXu.wsDHCYM9Ky7SYv1W"
+    _key: "!tables.results!aJL9ANMHyakweDXu.wsDHCYM9Ky7SYv1W"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Cormoran
   - _id: pFgfzs9imCFgtIFQ
-    _key: "!tables.results!.aJL9ANMHyakweDXu.pFgfzs9imCFgtIFQ"
+    _key: "!tables.results!aJL9ANMHyakweDXu.pFgfzs9imCFgtIFQ"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Martin-Pêcheur
   - _id: 4utjhOU32eEcvIMJ
-    _key: "!tables.results!.aJL9ANMHyakweDXu.4utjhOU32eEcvIMJ"
+    _key: "!tables.results!aJL9ANMHyakweDXu.4utjhOU32eEcvIMJ"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Pélican
   - _id: fhP6Cr4wRh9eZ8cj
-    _key: "!tables.results!.aJL9ANMHyakweDXu.fhP6Cr4wRh9eZ8cj"
+    _key: "!tables.results!aJL9ANMHyakweDXu.fhP6Cr4wRh9eZ8cj"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Albatros
   - _id: CivCpaSyTpZBzZmc
-    _key: "!tables.results!.aJL9ANMHyakweDXu.CivCpaSyTpZBzZmc"
+    _key: "!tables.results!aJL9ANMHyakweDXu.CivCpaSyTpZBzZmc"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Aigle
   - _id: lLR4tTD5wTMkIJy6
-    _key: "!tables.results!.aJL9ANMHyakweDXu.lLR4tTD5wTMkIJy6"
+    _key: "!tables.results!aJL9ANMHyakweDXu.lLR4tTD5wTMkIJy6"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Faucon
   - _id: ENs2UiqHsN18Cjad
-    _key: "!tables.results!.aJL9ANMHyakweDXu.ENs2UiqHsN18Cjad"
+    _key: "!tables.results!aJL9ANMHyakweDXu.ENs2UiqHsN18Cjad"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Balbuzard
   - _id: X9AdvLdQ2swplJe4
-    _key: "!tables.results!.aJL9ANMHyakweDXu.X9AdvLdQ2swplJe4"
+    _key: "!tables.results!aJL9ANMHyakweDXu.X9AdvLdQ2swplJe4"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Crécerelle
   - _id: BGQfrZnJy9odjaav
-    _key: "!tables.results!.aJL9ANMHyakweDXu.BGQfrZnJy9odjaav"
+    _key: "!tables.results!aJL9ANMHyakweDXu.BGQfrZnJy9odjaav"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Busard
   - _id: RmbKIpt5vhYQKJI7
-    _key: "!tables.results!.aJL9ANMHyakweDXu.RmbKIpt5vhYQKJI7"
+    _key: "!tables.results!aJL9ANMHyakweDXu.RmbKIpt5vhYQKJI7"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Buse
   - _id: fMkSR6XyBviAVPlZ
-    _key: "!tables.results!.aJL9ANMHyakweDXu.fMkSR6XyBviAVPlZ"
+    _key: "!tables.results!aJL9ANMHyakweDXu.fMkSR6XyBviAVPlZ"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Condor
   - _id: rHx7TswIeZoNAOx8
-    _key: "!tables.results!.aJL9ANMHyakweDXu.rHx7TswIeZoNAOx8"
+    _key: "!tables.results!aJL9ANMHyakweDXu.rHx7TswIeZoNAOx8"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Vautour
   - _id: WzsBYtx3o3fJzUFf
-    _key: "!tables.results!.aJL9ANMHyakweDXu.WzsBYtx3o3fJzUFf"
+    _key: "!tables.results!aJL9ANMHyakweDXu.WzsBYtx3o3fJzUFf"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Chouette
   - _id: O9oItX4gdj39KoOe
-    _key: "!tables.results!.aJL9ANMHyakweDXu.O9oItX4gdj39KoOe"
+    _key: "!tables.results!aJL9ANMHyakweDXu.O9oItX4gdj39KoOe"
     range:
       - 20
       - 20

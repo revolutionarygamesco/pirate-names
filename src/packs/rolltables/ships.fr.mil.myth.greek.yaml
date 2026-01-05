@@ -1,5 +1,5 @@
 _id: joWjp1K4hCEGCy09
-_key: "!tables!.joWjp1K4hCEGCy09"
+_key: "!tables!joWjp1K4hCEGCy09"
 name: Names for French Men-of-War from Greek Mythology
 description: Appropriate names for French men-of-war derived from Greek mythology.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d12
 folder: stZbdsj7mB5NWnk2
 results:
   - _id: kAnWiAZXdLaY74xv
-    _key: "!tables.results!.joWjp1K4hCEGCy09.kAnWiAZXdLaY74xv"
+    _key: "!tables.results!joWjp1K4hCEGCy09.kAnWiAZXdLaY74xv"
     range:
       - 1
       - 4
@@ -16,7 +16,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.95uPXUyvsvoBLuI1
     name: Names for French Men-of-War from Greek Mythology (Gods)
   - _id: 5ZONrQN4RUsCfXfM
-    _key: "!tables.results!.joWjp1K4hCEGCy09.5ZONrQN4RUsCfXfM"
+    _key: "!tables.results!joWjp1K4hCEGCy09.5ZONrQN4RUsCfXfM"
     range:
       - 5
       - 8
@@ -25,7 +25,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.isvEuKxp2uUE7Rkb
     name: Names for French Men-of-War from Greek Mythology (Heroes)
   - _id: gjrJ6c4KjneJ1Mfu
-    _key: "!tables.results!.joWjp1K4hCEGCy09.gjrJ6c4KjneJ1Mfu"
+    _key: "!tables.results!joWjp1K4hCEGCy09.gjrJ6c4KjneJ1Mfu"
     range:
       - 9
       - 12

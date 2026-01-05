@@ -1,5 +1,5 @@
 _id: Q157nP1GtbjpJARL
-_key: "!tables!.Q157nP1GtbjpJARL"
+_key: "!tables!Q157nP1GtbjpJARL"
 name: "Pirate Ship Names: Pearls"
 description: Pirate ship names centering on pearls.
 img: icons/svg/d20-grey.svg
@@ -7,58 +7,58 @@ formula: 1d8
 folder: YKQHQ8vqzvzoGvaK
 results:
   - _id: AA7QSM3QqOtidrwj
-    _key: "!tables.results!.Q157nP1GtbjpJARL.AA7QSM3QqOtidrwj"
+    _key: "!tables.results!Q157nP1GtbjpJARL.AA7QSM3QqOtidrwj"
     range:
       - 1
       - 2
     weight: 2
     type: text
-    text: Pearl
+    description: Pearl
   - _id: afJlhO7mDayjTgGC
-    _key: "!tables.results!.Q157nP1GtbjpJARL.afJlhO7mDayjTgGC"
+    _key: "!tables.results!Q157nP1GtbjpJARL.afJlhO7mDayjTgGC"
     range:
       - 3
       - 3
     weight: 1
     type: text
-    text: Black Pearl
+    description: Black Pearl
   - _id: 0hieSDsb41nfUJTb
-    _key: "!tables.results!.Q157nP1GtbjpJARL.0hieSDsb41nfUJTb"
+    _key: "!tables.results!Q157nP1GtbjpJARL.0hieSDsb41nfUJTb"
     range:
       - 4
       - 4
     weight: 1
     type: text
-    text: Silver Pearl
+    description: Silver Pearl
   - _id: RyJoFNtY3ljrLooA
-    _key: "!tables.results!.Q157nP1GtbjpJARL.RyJoFNtY3ljrLooA"
+    _key: "!tables.results!Q157nP1GtbjpJARL.RyJoFNtY3ljrLooA"
     range:
       - 5
       - 5
     weight: 1
     type: text
-    text: Blue Pearl
+    description: Blue Pearl
   - _id: FNbAscrUGaElVgg6
-    _key: "!tables.results!.Q157nP1GtbjpJARL.FNbAscrUGaElVgg6"
+    _key: "!tables.results!Q157nP1GtbjpJARL.FNbAscrUGaElVgg6"
     range:
       - 6
       - 6
     weight: 1
     type: text
-    text: Green Pearl
+    description: Green Pearl
   - _id: GWZj9iYKlI2TPTyy
-    _key: "!tables.results!.Q157nP1GtbjpJARL.GWZj9iYKlI2TPTyy"
+    _key: "!tables.results!Q157nP1GtbjpJARL.GWZj9iYKlI2TPTyy"
     range:
       - 7
       - 7
     weight: 1
     type: text
-    text: Sea Pearl
+    description: Sea Pearl
   - _id: PTqrm1eYpZ7OURVv
-    _key: "!tables.results!.Q157nP1GtbjpJARL.PTqrm1eYpZ7OURVv"
+    _key: "!tables.results!Q157nP1GtbjpJARL.PTqrm1eYpZ7OURVv"
     range:
       - 8
       - 8
     weight: 1
     type: text
-    text: Golden Pearl
+    description: Golden Pearl

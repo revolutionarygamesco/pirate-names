@@ -1,5 +1,5 @@
 _id: mQZspG8J9hPwjfGl
-_key: "!tables!.mQZspG8J9hPwjfGl"
+_key: "!tables!mQZspG8J9hPwjfGl"
 name: Names for Spanish Ships from Other Constellations
 description: Appropriate names for Spanish ships derived from the names of
   constellations besides the zodiac.
@@ -8,7 +8,7 @@ formula: 1d10
 folder: lAMrMYcWbC5XqzEI
 results:
   - _id: 9XnFN3zbIaprhVVc
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.9XnFN3zbIaprhVVc"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.9XnFN3zbIaprhVVc"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Andrómeda
   - _id: zVGwPZmuc5q89zbU
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.zVGwPZmuc5q89zbU"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.zVGwPZmuc5q89zbU"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Águila
   - _id: W5cECgGgJxQ0ck6j
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.W5cECgGgJxQ0ck6j"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.W5cECgGgJxQ0ck6j"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Casiopea
   - _id: 5Nn9U52fTSKNhcQw
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.5Nn9U52fTSKNhcQw"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.5Nn9U52fTSKNhcQw"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Cruz del Sur
   - _id: 3ixfNutgO13JWdut
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.3ixfNutgO13JWdut"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.3ixfNutgO13JWdut"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Cisne
   - _id: aZqaTK9jgj9z4gvV
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.aZqaTK9jgj9z4gvV"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.aZqaTK9jgj9z4gvV"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Lira
   - _id: JXtl09Nwyhutdti0
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.JXtl09Nwyhutdti0"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.JXtl09Nwyhutdti0"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Orión
   - _id: ukY0bh1ckziq5ilR
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.ukY0bh1ckziq5ilR"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.ukY0bh1ckziq5ilR"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Pequeño Carro
   - _id: VrJ8HPA7583ukKMB
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.VrJ8HPA7583ukKMB"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.VrJ8HPA7583ukKMB"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Gran Carro
   - _id: 9a43n2L3Fimvj41z
-    _key: "!tables.results!.mQZspG8J9hPwjfGl.9a43n2L3Fimvj41z"
+    _key: "!tables.results!mQZspG8J9hPwjfGl.9a43n2L3Fimvj41z"
     range:
       - 10
       - 10

@@ -1,5 +1,5 @@
 _id: niIVQhH7NczGO3Nr
-_key: "!tables!.niIVQhH7NczGO3Nr"
+_key: "!tables!niIVQhH7NczGO3Nr"
 name: Names for French Ships from Aristocracy
 description: Appropriate names for French ships derived from the titles of
   peerage of the Kingdom of France.
@@ -8,7 +8,7 @@ formula: 1d20
 folder: DQlYv6FOGEeUyk06
 results:
   - _id: 293Nzg9vIXL0DJDJ
-    _key: "!tables.results!.niIVQhH7NczGO3Nr.293Nzg9vIXL0DJDJ"
+    _key: "!tables.results!niIVQhH7NczGO3Nr.293Nzg9vIXL0DJDJ"
     range:
       - 1
       - 5
@@ -17,7 +17,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.cMEUN9M5XqHLIBVe
     name: Names for French Ships from Aristocratic Titles
   - _id: v5DVEfKHghmzkuyl
-    _key: "!tables.results!.niIVQhH7NczGO3Nr.v5DVEfKHghmzkuyl"
+    _key: "!tables.results!niIVQhH7NczGO3Nr.v5DVEfKHghmzkuyl"
     range:
       - 6
       - 10
@@ -26,7 +26,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.GdNBFCkG5Q3IbJmm
     name: Names for French Ships from Count Titles
   - _id: VbGADxStFeuj9vwy
-    _key: "!tables.results!.niIVQhH7NczGO3Nr.VbGADxStFeuj9vwy"
+    _key: "!tables.results!niIVQhH7NczGO3Nr.VbGADxStFeuj9vwy"
     range:
       - 11
       - 15
@@ -35,7 +35,7 @@ results:
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.39I27fydr2ZEL4UX
     name: Names for French Ships from Ducal Titles
   - _id: oyI7BY1Slf5k7YMy
-    _key: "!tables.results!.niIVQhH7NczGO3Nr.oyI7BY1Slf5k7YMy"
+    _key: "!tables.results!niIVQhH7NczGO3Nr.oyI7BY1Slf5k7YMy"
     range:
       - 16
       - 20

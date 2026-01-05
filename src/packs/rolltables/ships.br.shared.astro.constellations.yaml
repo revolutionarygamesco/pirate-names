@@ -1,5 +1,5 @@
 _id: SPJRd47jj3grEVWO
-_key: "!tables!.SPJRd47jj3grEVWO"
+_key: "!tables!SPJRd47jj3grEVWO"
 name: Names for British Ships from Other Constellations
 description: Appropriate names for British ships derived from the names of
   constellations besides the zodiac.
@@ -8,7 +8,7 @@ formula: 1d10
 folder: y9dbRWvmng95HqLL
 results:
   - _id: UYHfWfvwU1EVNPtJ
-    _key: "!tables.results!.SPJRd47jj3grEVWO.UYHfWfvwU1EVNPtJ"
+    _key: "!tables.results!SPJRd47jj3grEVWO.UYHfWfvwU1EVNPtJ"
     range:
       - 1
       - 1
@@ -16,7 +16,7 @@ results:
     type: text
     description: Andromeda
   - _id: sqha02tiPglUwx2t
-    _key: "!tables.results!.SPJRd47jj3grEVWO.sqha02tiPglUwx2t"
+    _key: "!tables.results!SPJRd47jj3grEVWO.sqha02tiPglUwx2t"
     range:
       - 2
       - 2
@@ -24,7 +24,7 @@ results:
     type: text
     description: Aquila
   - _id: zjDJLYtpKHf7ysiR
-    _key: "!tables.results!.SPJRd47jj3grEVWO.zjDJLYtpKHf7ysiR"
+    _key: "!tables.results!SPJRd47jj3grEVWO.zjDJLYtpKHf7ysiR"
     range:
       - 3
       - 3
@@ -32,7 +32,7 @@ results:
     type: text
     description: Cassiopeia
   - _id: z8bSYFaEAwx6sTDX
-    _key: "!tables.results!.SPJRd47jj3grEVWO.z8bSYFaEAwx6sTDX"
+    _key: "!tables.results!SPJRd47jj3grEVWO.z8bSYFaEAwx6sTDX"
     range:
       - 4
       - 4
@@ -40,7 +40,7 @@ results:
     type: text
     description: Southern Cross
   - _id: rrg0OZL94kSEP43E
-    _key: "!tables.results!.SPJRd47jj3grEVWO.rrg0OZL94kSEP43E"
+    _key: "!tables.results!SPJRd47jj3grEVWO.rrg0OZL94kSEP43E"
     range:
       - 5
       - 5
@@ -48,7 +48,7 @@ results:
     type: text
     description: Cygnus
   - _id: 39kAq79stwPv0WeB
-    _key: "!tables.results!.SPJRd47jj3grEVWO.39kAq79stwPv0WeB"
+    _key: "!tables.results!SPJRd47jj3grEVWO.39kAq79stwPv0WeB"
     range:
       - 6
       - 6
@@ -56,7 +56,7 @@ results:
     type: text
     description: Lyra
   - _id: YFqh7IymhUIiL4Je
-    _key: "!tables.results!.SPJRd47jj3grEVWO.YFqh7IymhUIiL4Je"
+    _key: "!tables.results!SPJRd47jj3grEVWO.YFqh7IymhUIiL4Je"
     range:
       - 7
       - 7
@@ -64,7 +64,7 @@ results:
     type: text
     description: Orion
   - _id: gNKB9uCkRUaZycOk
-    _key: "!tables.results!.SPJRd47jj3grEVWO.gNKB9uCkRUaZycOk"
+    _key: "!tables.results!SPJRd47jj3grEVWO.gNKB9uCkRUaZycOk"
     range:
       - 8
       - 8
@@ -72,7 +72,7 @@ results:
     type: text
     description: Little Dipper
   - _id: j5dbhoMUBUMfgAP5
-    _key: "!tables.results!.SPJRd47jj3grEVWO.j5dbhoMUBUMfgAP5"
+    _key: "!tables.results!SPJRd47jj3grEVWO.j5dbhoMUBUMfgAP5"
     range:
       - 9
       - 9
@@ -80,7 +80,7 @@ results:
     type: text
     description: Big Dipper
   - _id: ihcqXNKybMIU2mwr
-    _key: "!tables.results!.SPJRd47jj3grEVWO.ihcqXNKybMIU2mwr"
+    _key: "!tables.results!SPJRd47jj3grEVWO.ihcqXNKybMIU2mwr"
     range:
       - 10
       - 10

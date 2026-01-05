@@ -1,5 +1,5 @@
 _id: FhPMRxtpcVYZWdKM
-_key: "!tables!.FhPMRxtpcVYZWdKM"
+_key: "!tables!FhPMRxtpcVYZWdKM"
 name: Names for French Merchantmen from Greek Mythology (Heroes)
 description: Appropriate names for French merchantmen derived from Greek heroes.
 img: icons/svg/d20-grey.svg
@@ -7,7 +7,7 @@ formula: 1d20
 folder: UnF57V3UrteAFAcD
 results:
   - _id: erPYqqsxHOE5VNYe
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.erPYqqsxHOE5VNYe"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.erPYqqsxHOE5VNYe"
     range:
       - 1
       - 1
@@ -15,7 +15,7 @@ results:
     type: text
     description: Castor et Pollux
   - _id: lY2xOIb4twfLXVQD
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.lY2xOIb4twfLXVQD"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.lY2xOIb4twfLXVQD"
     range:
       - 2
       - 2
@@ -23,7 +23,7 @@ results:
     type: text
     description: Orphée
   - _id: lIPgROsypDcgbYlS
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.lIPgROsypDcgbYlS"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.lIPgROsypDcgbYlS"
     range:
       - 3
       - 3
@@ -31,7 +31,7 @@ results:
     type: text
     description: Eurydice
   - _id: rmGEsLjl4qYEJcy8
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.rmGEsLjl4qYEJcy8"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.rmGEsLjl4qYEJcy8"
     range:
       - 4
       - 4
@@ -39,7 +39,7 @@ results:
     type: text
     description: Chiron
   - _id: sPBLdgkIG3NNfwUZ
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.sPBLdgkIG3NNfwUZ"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.sPBLdgkIG3NNfwUZ"
     range:
       - 5
       - 5
@@ -47,7 +47,7 @@ results:
     type: text
     description: Atrée
   - _id: Z8GJ0NTG98du2yL6
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.Z8GJ0NTG98du2yL6"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.Z8GJ0NTG98du2yL6"
     range:
       - 6
       - 6
@@ -55,7 +55,7 @@ results:
     type: text
     description: Atalante
   - _id: A1lSX1FFXfgiaYUO
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.A1lSX1FFXfgiaYUO"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.A1lSX1FFXfgiaYUO"
     range:
       - 7
       - 7
@@ -63,7 +63,7 @@ results:
     type: text
     description: Ganymède
   - _id: adFzUzAYeLgYz6Zm
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.adFzUzAYeLgYz6Zm"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.adFzUzAYeLgYz6Zm"
     range:
       - 8
       - 8
@@ -71,7 +71,7 @@ results:
     type: text
     description: Jason
   - _id: iITc0QQq19UmCbG3
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.iITc0QQq19UmCbG3"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.iITc0QQq19UmCbG3"
     range:
       - 9
       - 9
@@ -79,7 +79,7 @@ results:
     type: text
     description: Méléagre
   - _id: ZtWLIXYaavMrw28C
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.ZtWLIXYaavMrw28C"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.ZtWLIXYaavMrw28C"
     range:
       - 10
       - 10
@@ -87,7 +87,7 @@ results:
     type: text
     description: Ulysse
   - _id: Ruu7PuzN9usEIX4K
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.Ruu7PuzN9usEIX4K"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.Ruu7PuzN9usEIX4K"
     range:
       - 11
       - 11
@@ -95,7 +95,7 @@ results:
     type: text
     description: Minos
   - _id: KT2LaelC7vNgU9fS
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.KT2LaelC7vNgU9fS"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.KT2LaelC7vNgU9fS"
     range:
       - 12
       - 12
@@ -103,7 +103,7 @@ results:
     type: text
     description: Égée
   - _id: 9jdWkw5VDcXtaUch
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.9jdWkw5VDcXtaUch"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.9jdWkw5VDcXtaUch"
     range:
       - 13
       - 13
@@ -111,7 +111,7 @@ results:
     type: text
     description: Andromède
   - _id: FB5Nl3qgzZLRBfm4
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.FB5Nl3qgzZLRBfm4"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.FB5Nl3qgzZLRBfm4"
     range:
       - 14
       - 14
@@ -119,7 +119,7 @@ results:
     type: text
     description: Ariane
   - _id: 55TkjRGNLBuvxVfJ
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.55TkjRGNLBuvxVfJ"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.55TkjRGNLBuvxVfJ"
     range:
       - 15
       - 15
@@ -127,7 +127,7 @@ results:
     type: text
     description: Dédale
   - _id: NxmOdN4A9cdmYnP7
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.NxmOdN4A9cdmYnP7"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.NxmOdN4A9cdmYnP7"
     range:
       - 16
       - 16
@@ -135,7 +135,7 @@ results:
     type: text
     description: Patrocle
   - _id: v9A1LWlSUobAPYq2
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.v9A1LWlSUobAPYq2"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.v9A1LWlSUobAPYq2"
     range:
       - 17
       - 17
@@ -143,7 +143,7 @@ results:
     type: text
     description: Pélée
   - _id: h3mUHkxgK0V5jvZE
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.h3mUHkxgK0V5jvZE"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.h3mUHkxgK0V5jvZE"
     range:
       - 18
       - 18
@@ -151,7 +151,7 @@ results:
     type: text
     description: Ménélas
   - _id: TCVMIRypatD8s9zd
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.TCVMIRypatD8s9zd"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.TCVMIRypatD8s9zd"
     range:
       - 19
       - 19
@@ -159,7 +159,7 @@ results:
     type: text
     description: Diomède
   - _id: h93jiH9pSMomEKJJ
-    _key: "!tables.results!.FhPMRxtpcVYZWdKM.h93jiH9pSMomEKJJ"
+    _key: "!tables.results!FhPMRxtpcVYZWdKM.h93jiH9pSMomEKJJ"
     range:
       - 20
       - 20
