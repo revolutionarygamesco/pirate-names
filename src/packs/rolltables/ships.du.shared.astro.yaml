@@ -1,0 +1,44 @@
+_id: 1As4fIMwgnEZwFFP
+_key: "!tables!.1As4fIMwgnEZwFFP"
+name: Names for Dutch Ships from Astronomy
+description: Appropriate names for Dutch ships derived from astronomy and celestial bodies.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: aRGe4z9ZnMGvp2wL
+results:
+  - _id: 5WArpC99xahXIqYN
+    _key: "!tables.results!.1As4fIMwgnEZwFFP.5WArpC99xahXIqYN"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.0DJ83zEK5TAqKAKh
+    name: Names for Dutch Ships from Astronomical Terms
+  - _id: oER4zukzCe4AYqho
+    _key: "!tables.results!.1As4fIMwgnEZwFFP.oER4zukzCe4AYqho"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.InPJdU1eSBiU8DSM
+    name: Names for Dutch Ships from Stars
+  - _id: VkR9IpDZScVtwVzX
+    _key: "!tables.results!.1As4fIMwgnEZwFFP.VkR9IpDZScVtwVzX"
+    range:
+      - 9
+      - 14
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.SmwdK50SGoNHQdU9
+    name: Names for Dutch Ships from the Zodiac
+  - _id: 4F94a4ir7lYIz1jv
+    _key: "!tables.results!.1As4fIMwgnEZwFFP.4F94a4ir7lYIz1jv"
+    range:
+      - 15
+      - 20
+    weight: 6
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.P2DsnBa7Q7Ep3sJf
+    name: Names for Dutch Ships from Other Constellations

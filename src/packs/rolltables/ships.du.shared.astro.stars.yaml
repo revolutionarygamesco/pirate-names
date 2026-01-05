@@ -1,0 +1,73 @@
+_id: InPJdU1eSBiU8DSM
+_key: "!tables!.InPJdU1eSBiU8DSM"
+name: Names for Dutch Ships from Stars
+description: Appropriate names for Dutch ships named for stars.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: aRGe4z9ZnMGvp2wL
+results:
+  - _id: MvjbukG25x6Wse4a
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.MvjbukG25x6Wse4a"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Ster
+  - _id: GxQJ1jWqOloELi5f
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.GxQJ1jWqOloELi5f"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Poolster
+  - _id: 3nPnqSirn1pJK7Rc
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.3nPnqSirn1pJK7Rc"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Zuidster
+  - _id: 7HAaGc5ShIRMA27u
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.7HAaGc5ShIRMA27u"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Oosterster
+  - _id: zFXaonIQBFtRr1R2
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.zFXaonIQBFtRr1R2"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Westerster
+  - _id: m0wqxv13tGMMvT2t
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.m0wqxv13tGMMvT2t"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Morgenster
+  - _id: 85Gv6mNCDCeifi9H
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.85Gv6mNCDCeifi9H"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Avondster
+  - _id: gPsjYzSc16SLaqrF
+    _key: "!tables.results!.InPJdU1eSBiU8DSM.gPsjYzSc16SLaqrF"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.OC9PAHW3bt1RXzxo
+    name: Names for Dutch Ships from Star Names

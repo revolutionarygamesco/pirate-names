@@ -1,0 +1,88 @@
+_id: 0DJ83zEK5TAqKAKh
+_key: "!tables!.0DJ83zEK5TAqKAKh"
+name: Names for Dutch Ships from Astronomical Terms
+description: Appropriate names for Dutch ships derived from astronomy or celestial bodies.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: aRGe4z9ZnMGvp2wL
+results:
+  - _id: u9fpeSoh6KaYaHXO
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.u9fpeSoh6KaYaHXO"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Aurora
+  - _id: BiIii0bvdup1MViX
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.BiIii0bvdup1MViX"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Komeet
+  - _id: fNsKQxsJXEY9rSHy
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.fNsKQxsJXEY9rSHy"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Sterrenbeeld
+  - _id: TllmZmFFHJo08QGv
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.TllmZmFFHJo08QGv"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Eclips
+  - _id: C45d9fI1WcbAfIIi
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.C45d9fI1WcbAfIIi"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Hesperus
+  - _id: 18h5XxAcjuDx9Ooj
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.18h5XxAcjuDx9Ooj"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Dierenriem
+  - _id: XEVEfV13u3DjeYJJ
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.XEVEfV13u3DjeYJJ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Melkweg
+  - _id: eVA0oVSbzAajOWZW
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.eVA0oVSbzAajOWZW"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Meteoor
+  - _id: HgGMZ0ZzKMaFgMnK
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.HgGMZ0ZzKMaFgMnK"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Nova
+  - _id: LjPrxTQf2JVsw2GB
+    _key: "!tables.results!.0DJ83zEK5TAqKAKh.LjPrxTQf2JVsw2GB"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Nevel
