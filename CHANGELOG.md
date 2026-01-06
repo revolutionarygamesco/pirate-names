@@ -1,3 +1,10 @@
+### v1.2.0
+* Moved from extraction to keeping the original form of compendium content under version control as YAML files.
+* Add Scottish, Irish, and Welsh personal names.
+* Expanded content throughout rolltables.
+* Separate dialogs for personal names and ship names.
+  * `openGenerateNameDialog` is now a deprecated alias for `openGeneratePersonalNameDialog` to maintain backwards compatability.
+
 ### 1.1.0
 * Add 36 new rollable tables for generating pirate ship names (bringing total to 212).
 * A **Generate Pirate Ship Name** macro that rolls a random pirate ship name and whispers it to the user.

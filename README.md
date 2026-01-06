@@ -5,9 +5,16 @@
 ![Test Status](https://img.shields.io/github/actions/workflow/status/revolutionarygamesco/piratenames/test.yml?label=Test+status&style=for-the-badge)
 ![License](https://img.shields.io/github/license/revolutionarygamesco/piratenames?style=for-the-badge)
 
-This module provides roll tables, API methods, and macros to generate common
-Spanish, British, French, and Dutch names from the 18th century (the European
-imperial powers present in the Caribbean during the Golden Age of Piracy).
+This is a module for [Foundry VTT](https://foundryvtt.com/) that generates plausible,
+random names for people and ships in the Caribbean during the Golden Age of Piracy.
+
+* Generate masculine and feminine names for Spanish, English, French, Dutch, Scottish, Irish, and Welsh characters, following culturally-specific naming practices.
+  * Spanish names include variations of Marian personal names (e.g., _Maria de los Angeles_) and two surnames (either of which can also be composite).
+  * Half of Dutch surnames are replaced by patronyms.
+  * Irish names are presented in Gaelic along with an Anglicized version that might be used in official records.
+* Generate names for Spanish, British, French, and Dutch merchantmen and men-of-war, reflecting the unique ship-naming trends of each nation.
+  * Commercial names are more likely to reflect economic ambitions (e.g., _Enterprise_, _Prosperity_, _Eurydice_, _Dove_), while martial names are more likely to represent more bellicose intentions (e.g., _Defiance_, _Victory_, _Agamemnon_, _Dragon_).
+  * Completely separate tables for pirate ship names reflect themes of revenge with hints of blasphemy and gallows humor that pirates of the period were known for.
 
 ## API
 
@@ -19,7 +26,7 @@ nationality and gender provided.
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'British' | 'French' | 'Dutch'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 
 interface GenerateGivenNameOptions {
@@ -39,8 +46,7 @@ Sets the nationality that the name should be taken from.
 
 _Default:_ Roll on the _Nationalities_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy. Spanish is the most common, British second, with French
-and Dutch less common.
+Golden Age of Piracy.
 
 #### `options.gender`
 
@@ -64,7 +70,7 @@ nationality provided.
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'British' | 'French' | 'Dutch'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
 
 interface GenerateSurameOptions {
   nation: Nationality
@@ -86,8 +92,7 @@ returns just one surname.
 
 _Default:_ Roll on the _Nationalities_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy. Spanish is the most common, British second, with French
-and Dutch less common.
+Golden Age of Piracy.
 
 #### `options.whisper`
 
@@ -103,22 +108,24 @@ Generates a reasonable full name for the nationality and gender specified.
 _Mostly_ this is a matter of calling `generateGivenName`, then
 `generateSurname`, and concatenating the result. The exceptions are:
 
-* For Spanish, we use the _Spanish Naming Structure_ roll table to select if
-  the name has a single or composite given name. Etiher way, we use the
-  standard double surname (`GIVEN_NAME` _y_ `GIVEN_NAME`).
-* If a Spanish woman’s name is _María_, there’s a 50% chance that we roll
-  on the _Spanish Feminine Marian Names_ table for an expanded name.
+* In Spanish, each of a person’s two surnames has a 30% chance of being a
+  composite surname (two surnames separated by a hyphen), meaning that the
+  full surname could include anywhere between 2 and 4 names.
 * In French, a number of masculine names can be preceded by _Jean_ to form a
   compound name (e.g., `Jean-Luc`, `Jean-Paul`). If one of these names is
   drawn, there’s a 50% chance that we prepend _Jean-_ to it.
 * In Dutch, there’s a 50% chance that instead of drawing a surname, we create a
   patronymic by drawing a masculine given name and appending _szoon_ to
   masculine names or _sdochter_ to feminine names.
+* Irish names are presented in Gaelic with its Anglicization in parentheses.
+  During this period, the British Empire was attempting to suppress Gaelic
+  language and traditions, so Gaelic names were often used in their own
+  communities, though official records would use Anglicized forms.
 
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'British' | 'French' | 'Dutch'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 
 interface GenerateNameOptions {
@@ -138,8 +145,7 @@ Sets the nationality that the name should be taken from.
 
 _Default:_ Roll on the _Nationalities_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy. Spanish is the most common, British second, with French
-and Dutch less common.
+Golden Age of Piracy.
 
 #### `options.gender`
 
@@ -165,7 +171,7 @@ Generates a reasonable ship name for the nationality specified.
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'British' | 'French' | 'Dutch'
+type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 
 interface SpanishShipName {
   religious: string
@@ -173,8 +179,8 @@ interface SpanishShipName {
 }
 
 interface GenerateShipNameOptions {
-  nation: Nationality
-  naval: boolean
+  colors?: Colors
+  martial?: boolean
   whisper?: string[]
 }
 
@@ -183,20 +189,19 @@ async (options: GenerateShipNameOptions) => Promise<SpanishShipName | string>
 
 #### Parameters
 
-##### `options.nation`
+##### `options.colors`
 
 Sets the nationality that the name should be taken from.
 
-_Default:_ Roll on the _Nationalities_ roll table included in the module. This
+_Default:_ Roll on the _Colors_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy. Spanish is the most common, British second, with French
-and Dutch less common.
+Golden Age of Piracy.
 
-#### `options.naval`
+#### `options.martial`
 
-If `true`, we use naval roll tables, which are more likely to return names
-related to warfare or other martial pursuits. Otherwise, the ship is named
-as a civilian ship, with names that are more likely to be releated to
+If `true`, we use the man-of-war roll tables, which are more likely to return
+names related to warfare or other martial pursuits. Otherwise, the ship is
+named as a civilian ship, with names that are more likely to be related to
 trade and commerce.
 
 _Default_: `false`
@@ -227,9 +232,9 @@ with the generated name.
 
 _Default_: `[]`
 
-### `openGenerateNameDialog`
+### `openGeneratePersonalNameDialog`
 
-This method opens a dialog that allows a user to select the parameters for generating a new name.
+This method opens a dialog that allows a user to select the parameters for generating a person’s name.
 
 #### Signature
 
@@ -244,71 +249,28 @@ async (onComplete?: (nation: string, type: string) => Promise<void>) => Promise<
 This is the method that will be called when the user clicks on the
 **Generate Name** button.
 
-_Default:_ By default, we provide a method that selects one of the above API
-methods depending on user selection and whispers the generated name to
-`game.user.id`. In most cases, this is the expected behavior, but you can
-override this if necessary.
+_Default:_ By default, we provide a method that gathers the user’s input from
+the form, passes it to `generateName`, and whispers it to the user. In most
+cases, this is the expected behavior, but you can override this if necessary.
 
-### `rollTable`
+### `openGenerateShipNameDialog`
 
-This method makes a roll on a given roll table and returns the results.
+This method opens a dialog that allows a user to select the parameters for generating a ship’s name.
 
 #### Signature
 
 ```typescript
-interface RollTableResult {
-  type?: string
-  img?: string
-  name?: string
-  description?: string
-}
-
-interface RollTableOptions {
-  displayChat?: boolean
-  recursive?: boolean
-  results?: documents.TableResult[]
-  roll?: Roll
-  rollMode?: string
-}
-
-async (id: string, options?: RollTableOptions) => Promise<RollTableResult[]>
+async (onComplete?: (c: Colors | 'Pirate' | 'Random', t: string) => Promise<void>) => Promise<void>
 ```
 
 #### Parameters
 
-##### `id`
+##### `onComplete`
 
-The UUID of the table you want to roll on.
+This is the method that will be called when the user clicks on the
+**Generate Name** button.
 
-##### `options.displayChat`
-
-Whether to automatically display the results in chat.
-
-_Default:_ `true`
-
-#### `options.recursive`
-
-Allow drawing recursively from inner RollTable results.
-
-_Default_: `true`
-
-#### `options.results`
-
-One or more table results which have been drawn.
-
-_Default_: `undefined`
-
-#### `options.roll`
-
-An existing Roll instance to use for drawing from the table.
-
-_Default_: `undefined`
-
-#### `options.rollMode`
-
-The chat roll mode to use when displaying the result.
-
-_Example:_ Provide `{ rollMode: 'whisper' }` to whisper the result to the
-current player.
-
-_Default_: `undefined`
+_Default:_ By default, we provide a method that gathers the user’s input from
+the form, passes it to either `generateShipName` or `generatePirateShipName`
+(depending on the value of `c`), and whispers it to the user. In most cases,
+this is the expected behavior, but you can override this if necessary.
