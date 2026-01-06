@@ -58,9 +58,14 @@
           "label": "Type",
           "hint": "Is this a merchantman or a man-of-war?",
           "options": {
-            "Random": "Random",
-            "Masculine": "Commercial",
-            "Feminine": "Martial"
+            "Commercial": {
+              "label": "Merchantman",
+              "hint": "Generate a name for a civilian vessel built for commerce and trade."
+            },
+            "Martial": {
+              "label": "Man-of-War",
+              "hint": "Generate a name for a vessel built for war, either a naval vessel or a privateer."
+            }
           }
         },
         "actions": {

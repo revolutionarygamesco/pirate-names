@@ -7,7 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        module: resolve(__dirname, 'src/scripts/module.ts')
+        module: resolve(__dirname, 'src/scripts/module.ts'),
+        styles: resolve(__dirname, 'src/styles/module.scss')
       },
       output: {
         dir: 'dist',
@@ -16,6 +17,9 @@ export default defineConfig({
           return chunkInfo.name === 'module' ? 'scripts/module.js' : '[name].js'
         },
         assetFileNames: (assetInfo) => {
+          if (assetInfo.name?.endsWith('.css')) {
+            return `styles/[name][extname]`
+          }
           return '[name][extname]'
         }
       }
@@ -36,7 +40,8 @@ export default defineConfig({
     },
     viteStaticCopy({
       targets: [
-        { src: 'src/lang', dest: '' }
+        { src: 'src/lang', dest: '' },
+        { src: 'src/images', dest: '' }
       ]
     })
   ]
