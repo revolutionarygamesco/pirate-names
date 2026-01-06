@@ -60,9 +60,10 @@ declare const foundry: {
   }
 }
 
-type Nationality = 'Spanish' | 'British' | 'French' | 'Dutch'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish'
+type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
-
+type NationScope = 'person' | 'pirate' | 'ship'
 
 interface RollTableResult {
   type?: string
@@ -80,8 +81,8 @@ interface RollTableOptions {
 }
 
 interface GenerateShipNameOptions {
-  nation?: Nationality
-  naval?: boolean
+  colors?: Colors
+  martial?: boolean
   whisper?: string[]
 }
 

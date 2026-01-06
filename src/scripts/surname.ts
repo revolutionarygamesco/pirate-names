@@ -1,9 +1,9 @@
+import { MODULE_ID } from './settings.ts'
 import { surnames } from '../ids.ts'
-import pickNationality from './nationality.ts'
 import rollTable from './roll-table.ts'
 import whisperMessage from './whisper.ts'
-import {localize} from './wrapper.ts'
-import {MODULE_ID} from './settings.ts'
+import { pickNationality } from './nationality.ts'
+import { localize } from './wrapper.ts'
 
 const generateSurname = async (
   nationality?: Nationality,

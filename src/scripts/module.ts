@@ -5,7 +5,7 @@ import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import generateName from './full.ts'
 import generateShipName, { generatePirateShipName } from './ship.ts'
-import openGenerateNameDialog from './dialog.ts'
+import openGeneratePersonalNameDialog from './dialogs/person.ts'
 
 Hooks.once('init', async () => {
   const generator = game.modules.get(MODULE_ID)
@@ -18,6 +18,7 @@ Hooks.once('init', async () => {
     generateName,
     generateShipName,
     generatePirateShipName,
-    openGenerateNameDialog
+    openGenerateNameDialog: openGeneratePersonalNameDialog,
+    openGeneratePersonalNameDialog
   }
 })

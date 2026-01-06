@@ -1,10 +1,10 @@
-import pickNationality from './nationality.ts'
-import pickGender from './gender.ts'
+import { MODULE_ID } from './settings.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import whisperMessage from './whisper.ts'
-import {localize} from './wrapper.ts'
-import {MODULE_ID} from './settings.ts'
+import { pickGender } from './gender.ts'
+import { pickNationality } from './nationality.ts'
+import { localize } from './wrapper.ts'
 
 const jeanable = ['Baptiste', 'Paul', 'Pierre', 'Louis', 'Claude', 'François',
   'Jacques', 'Charles', 'Michel', 'Joseph', 'Marc', 'Luc', 'Philippe',
@@ -23,6 +23,23 @@ const generateSpanishSurname = async (): Promise<string> => {
   return check(0.7)
     ? surname
     : `${surname}-${await generateSurname('Spanish')}`
+}
+
+const separateAnglicizedIrishName = (str: string): { gaelic: string, anglicization: string } => {
+  const match = str.match(/(.*?) \((.*?)\)/)
+  const gaelic = match ? match[1] : str
+  const anglicization = match ? match[2] : str
+  return { gaelic, anglicization }
+}
+
+const renderGaelicName = (given: string, surname: string): string => {
+  const separatedGiven = separateAnglicizedIrishName(given)
+  const separatedSurname = separateAnglicizedIrishName(surname)
+  const gaelic = `${separatedGiven.gaelic} ${separatedSurname.gaelic}`
+  const anglicization = `${separatedGiven.anglicization} ${separatedSurname.anglicization}`
+  return gaelic === anglicization
+    ? gaelic
+    : `${gaelic} (${anglicization})`
 }
 
 const generateFullSpanishSurname = async (): Promise<string> => {
@@ -47,7 +64,11 @@ const generateName = async (
   if (n === 'French' && jeanable.includes(given) && check()) given = `Jean-${given}`
   if (n === 'Dutch' && check()) surname = await generateDutchPatronym(g)
 
-  const name = `${given} ${surname}`.replace(/<[^>]*>/g, '')
+  let name = n === 'Irish'
+    ? renderGaelicName(given, surname)
+    : `${given} ${surname}`
+  name = name.replace(/<[^>]*>/g, '')
+
   if (whisper) {
     const flavor = localize(`${MODULE_ID}.message.flavor.full`, { gender: g.toLocaleLowerCase(), nation: n })
     await whisperMessage(whisper, flavor, name)

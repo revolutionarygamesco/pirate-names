@@ -10,32 +10,63 @@
       "speaker": "Pirate Name Generator"
     },
     "dialog": {
-      "title": "Pirate Name Generator",
-      "nationalities": {
-        "label": "Nationality",
-        "hint": "What nationality should this name come from?",
-        "options": {
-          "Spanish": "Spanish",
-          "British": "British",
-          "French": "French",
-          "Dutch": "Dutch",
-          "Random": "Randomize"
+      "person": {
+        "title": "Generate a Person’s Name",
+        "nationalities": {
+          "label": "Nationality",
+          "hint": "What nationality should this name come from?",
+          "options": {
+            "Random Person": "Random Person",
+            "Random Pirate": "Random Pirate",
+            "Spanish": "Spanish",
+            "English": "English",
+            "French": "French",
+            "Dutch": "Dutch",
+            "Scottish": "Scottish",
+            "Irish": "Irish",
+            "Welsh": "Welsh"
+          }
+        },
+        "gender": {
+          "label": "Gender",
+          "hint": "What gender should the name reflect?",
+          "options": {
+            "Random": "Random",
+            "Masculine": "Masculine",
+            "Feminine": "Feminine"
+          }
+        },
+        "actions": {
+          "generate": "Generate Name",
+          "cancel": "Cancel"
         }
       },
-      "type": {
-        "label": "Type",
-        "hint": "What type of name would you like to generate?",
-        "options": {
-          "Masculine": "Masculine personal name",
-          "Feminine": "Feminine personal name",
-          "Random": "Personal name (random gender)",
-          "Merchant": "Merchantman name",
-          "Naval": "Man-of-war name"
+      "ship": {
+        "title": "Generate a Ship’s Name",
+        "nationalities": {
+          "label": "Colors",
+          "options": {
+            "Random": "Random",
+            "Spanish": "Spanish Empire",
+            "British": "British Empire",
+            "French": "Kingdom of France",
+            "Dutch": "Dutch West India Company",
+            "Pirate": "Pirates"
+          }
+        },
+        "type": {
+          "label": "Type",
+          "hint": "Is this a merchantman or a man-of-war?",
+          "options": {
+            "Random": "Random",
+            "Masculine": "Commercial",
+            "Feminine": "Martial"
+          }
+        },
+        "actions": {
+          "generate": "Generate Name",
+          "cancel": "Cancel"
         }
-      },
-      "actions": {
-        "generate": "Generate Name",
-        "cancel": "Cancel"
       }
     }
   }

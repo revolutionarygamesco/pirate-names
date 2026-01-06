@@ -1,20 +1,20 @@
 import { MODULE_ID } from './settings.ts'
-import { shipNames } from '../ids.ts'
+import { shipNames, pirateNames } from '../ids.ts'
 import { localize } from './wrapper.ts'
-import pickNationality from './nationality.ts'
+import { pickColors } from './nationality.ts'
 import rollTable from './roll-table.ts'
 import whisperMessage from './whisper.ts'
 
-const getType = (options?: GenerateShipNameOptions): 'Merchant' | 'Naval' => {
-  return options?.naval === true ? 'Naval' : 'Merchant'
+const getType = (options?: GenerateShipNameOptions): 'Commercial' | 'Martial' => {
+  return options?.martial === true ? 'Martial' : 'Commercial'
 }
 
 const generateBaseShipName = async (
-  nationality: Nationality,
-  type: 'Naval' | 'Merchant' | 'Religious',
+  colors: Colors,
+  type: 'Martial' | 'Commercial' | 'Religious',
   fallback: string = 'Ranger'
 ): Promise<string> => {
-  const drawn = await rollTable(shipNames[nationality][type], { displayChat: false })
+  const drawn = await rollTable(shipNames[colors][type], { displayChat: false })
   return drawn?.description ?? fallback
 }
 
@@ -26,7 +26,7 @@ const generateSpanishShipName = async (options?: GenerateShipNameOptions): Promi
 }
 
 const generatePirateShipName = async (whisper: string[] = []): Promise<string> => {
-  const drawn = await rollTable(shipNames.Pirate, { displayChat: false })
+  const drawn = await rollTable(pirateNames, { displayChat: false })
   const name = drawn?.description ?? 'Revenge'
 
   if (whisper.length > 0) {
@@ -38,7 +38,7 @@ const generatePirateShipName = async (whisper: string[] = []): Promise<string> =
 }
 
 const generateShipName = async (options?: GenerateShipNameOptions): Promise<string | SpanishShipName> => {
-  const n = options?.nation ?? await pickNationality()
+  const n = options?.colors ?? await pickColors()
   const name = n === 'Spanish'
     ? await generateSpanishShipName(options)
     : await generateBaseShipName(n, getType(options))

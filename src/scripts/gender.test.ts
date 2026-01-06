@@ -1,7 +1,7 @@
-import pickGender, { isGender, genders } from './gender.ts'
+import { isGender, pickGender, genders } from './gender.ts'
 
 jest.mock('./wrapper.ts', () => ({
-  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ name: 'Feminine' }] } } })
+  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Feminine' }] } } })
 }))
 
 describe('isGender', () => {
