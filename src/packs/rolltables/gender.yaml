@@ -1,0 +1,24 @@
+_id: Jt1Mi4ZzTsLUmxxs
+_key: "!tables!Jt1Mi4ZzTsLUmxxs"
+name: Gender
+description: All of the cultures included in this module had a strong, binary
+  distinction between masculine and feminine given names.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+results:
+  - _id: OBKt0vSmCJDPHJw6
+    _key: "!tables.results!Jt1Mi4ZzTsLUmxxs.OBKt0vSmCJDPHJw6"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: text
+    description: Masculine
+  - _id: QJKf3yRESWMB2rbv
+    _key: "!tables.results!Jt1Mi4ZzTsLUmxxs.QJKf3yRESWMB2rbv"
+    range:
+      - 11
+      - 20
+    weight: 10
+    type: text
+    description: Feminine

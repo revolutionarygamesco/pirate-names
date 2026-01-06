@@ -1,0 +1,32 @@
+_id: 600RHZKkT52dIm3K
+_key: "!tables!600RHZKkT52dIm3K"
+name: Celtic Nationalities
+description: Selecting a random Welshman, Irishman, or Scot.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: pMg13lE0TKm6b5Sy
+    _key: "!tables.results!600RHZKkT52dIm3K.pMg13lE0TKm6b5Sy"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    description: Irish
+  - _id: aAaKuqqXzj7JB5Sd
+    _key: "!tables.results!600RHZKkT52dIm3K.aAaKuqqXzj7JB5Sd"
+    range:
+      - 3
+      - 4
+    weight: 2
+    type: text
+    description: Scottish
+  - _id: ypr4AVFZlD7y7e0I
+    _key: "!tables.results!600RHZKkT52dIm3K.ypr4AVFZlD7y7e0I"
+    range:
+      - 5
+      - 6
+    weight: 2
+    type: text
+    description: Welsh

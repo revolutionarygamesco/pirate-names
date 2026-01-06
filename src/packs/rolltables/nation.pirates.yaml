@@ -1,0 +1,65 @@
+_id: S3jEhiwdL6Pry0nK
+_key: "!tables!S3jEhiwdL6Pry0nK"
+name: Pirate Nationalities
+description: Villains of all nations though they may be, pirates were born into
+  particular nations and named according to their traditions.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: 278ZBFuleX830nD3
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.278ZBFuleX830nD3"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: text
+    description: English
+  - _id: GylgfxljRRIjGxTB
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.GylgfxljRRIjGxTB"
+    range:
+      - 11
+      - 13
+    weight: 3
+    type: text
+    description: Scottish
+  - _id: LCLYt9LC3AiHa1dZ
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.LCLYt9LC3AiHa1dZ"
+    range:
+      - 14
+      - 15
+    weight: 2
+    type: text
+    description: Welsh
+  - _id: 2ZCrzduk2sakeAbJ
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.2ZCrzduk2sakeAbJ"
+    range:
+      - 16
+      - 17
+    weight: 2
+    type: text
+    description: Irish
+  - _id: S5VSyE7xd64Mhcpw
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.S5VSyE7xd64Mhcpw"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: French
+  - _id: Tj8iMifdOMkQ4WUX
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.Tj8iMifdOMkQ4WUX"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Dutch
+  - _id: ct6ZXxlvwsqdvnkj
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.ct6ZXxlvwsqdvnkj"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Spanish

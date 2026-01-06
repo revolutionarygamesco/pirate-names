@@ -1,0 +1,40 @@
+_id: CrljZ2S8EdjWco9K
+_key: "!tables!CrljZ2S8EdjWco9K"
+name: Colors
+description: Select a nationality at random for a ship in the Caribbean.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: vdxt3OoJN5vbuCXJ
+    _key: "!tables.results!CrljZ2S8EdjWco9K.vdxt3OoJN5vbuCXJ"
+    range:
+      - 1
+      - 7
+    weight: 7
+    type: text
+    description: Spanish
+  - _id: o4yGBUqTbu5uBKwd
+    _key: "!tables.results!CrljZ2S8EdjWco9K.o4yGBUqTbu5uBKwd"
+    range:
+      - 8
+      - 14
+    weight: 7
+    type: text
+    description: British
+  - _id: sRoQePiNx5cpE9hX
+    _key: "!tables.results!CrljZ2S8EdjWco9K.sRoQePiNx5cpE9hX"
+    range:
+      - 15
+      - 19
+    weight: 5
+    type: text
+    description: French
+  - _id: FEHm66k5ZA4hoDEb
+    _key: "!tables.results!CrljZ2S8EdjWco9K.FEHm66k5ZA4hoDEb"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Dutch
