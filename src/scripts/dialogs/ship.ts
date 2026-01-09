@@ -64,11 +64,6 @@ const openGenerateShipNameDialog = async (
           const coll = button.form?.elements
           if (!coll) return
 
-          console.log({
-            coll,
-            nation: coll.namedItem('nationality'),
-            type: coll.namedItem('type')
-          })
           const nation: string | undefined = (coll.namedItem('nationality') as RadioNodeList).value
           const type: string | undefined = (coll.namedItem('type') as RadioNodeList).value
           await onComplete(nation as Colors | 'Pirate' | 'Random', type)
