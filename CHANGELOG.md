@@ -1,3 +1,7 @@
+### v1.2.1
+* Misspelled the surname Williams as “Willaims.” Yikes!
+* Removed some errant logging.
+
 ### v1.2.0
 * Moved from extraction to keeping the original form of compendium content under version control as YAML files.
 * Add Scottish, Irish, and Welsh personal names.
