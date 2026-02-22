@@ -128,13 +128,11 @@ _Mostly_ this is a matter of calling `generateGivenName`, then
 type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 
-interface GenerateNameOptions {
-  nation: Nationality
-  gender: Gender
+async (
+  nationality?: Nationality,
+  gender?: Gender,
   whisper?: string[]
-}
-
-async (options: GenerateNameOptions) => Promise<string>
+) => Promise<string>
 ```
 
 #### Parameters
