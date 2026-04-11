@@ -1,0 +1,168 @@
+_id: ygr4TbMqmyXRDja5
+_key: "!tables!ygr4TbMqmyXRDja5"
+name: Portuguese Marian Names
+description: A selection of feminine Portuguese names after various names for Mary.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: ft2RHtjABuVLgej6
+results:
+  - _id: nLHzgkgCcBxxHvx8
+    _key: "!tables.results!ygr4TbMqmyXRDja5.nLHzgkgCcBxxHvx8"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Maria da Conceição
+  - _id: XI9iL0wnblMjVvDa
+    _key: "!tables.results!ygr4TbMqmyXRDja5.XI9iL0wnblMjVvDa"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Maria do Carmo
+  - _id: jJH4CRKj0Y1iwH0C
+    _key: "!tables.results!ygr4TbMqmyXRDja5.jJH4CRKj0Y1iwH0C"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Maria das Dores
+  - _id: aZz6KIfitRnlpbRW
+    _key: "!tables.results!ygr4TbMqmyXRDja5.aZz6KIfitRnlpbRW"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Maria do Rosário
+  - _id: Lq6AHbBDT0pSdzI2
+    _key: "!tables.results!ygr4TbMqmyXRDja5.Lq6AHbBDT0pSdzI2"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Maria da Graça
+  - _id: HEkyGR9bJQWlkcfi
+    _key: "!tables.results!ygr4TbMqmyXRDja5.HEkyGR9bJQWlkcfi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Maria da Luz
+  - _id: I5PaYcb4JRq5aHbk
+    _key: "!tables.results!ygr4TbMqmyXRDja5.I5PaYcb4JRq5aHbk"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Maria dos Anjos
+  - _id: IdgYqJcRKvcpEFe0
+    _key: "!tables.results!ygr4TbMqmyXRDja5.IdgYqJcRKvcpEFe0"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Maria da Assunção
+  - _id: ggaI2GAPLucTVSBL
+    _key: "!tables.results!ygr4TbMqmyXRDja5.ggaI2GAPLucTVSBL"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Maria da Purificação
+  - _id: mqD0dLZxgwdGEpuk
+    _key: "!tables.results!ygr4TbMqmyXRDja5.mqD0dLZxgwdGEpuk"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Maria da Piedade
+  - _id: xXjYq4X9mbLgWioe
+    _key: "!tables.results!ygr4TbMqmyXRDja5.xXjYq4X9mbLgWioe"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Maria do Amparo
+  - _id: f2bURw0nTCMJGpDu
+    _key: "!tables.results!ygr4TbMqmyXRDja5.f2bURw0nTCMJGpDu"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Maria da Glória
+  - _id: LQaMHe1Va2gQQHlu
+    _key: "!tables.results!ygr4TbMqmyXRDja5.LQaMHe1Va2gQQHlu"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Maria de Nazaré
+  - _id: iowOms0VRoQsJeLH
+    _key: "!tables.results!ygr4TbMqmyXRDja5.iowOms0VRoQsJeLH"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Maria da Apresentação
+  - _id: PMdAPR6QG71IseAi
+    _key: "!tables.results!ygr4TbMqmyXRDja5.PMdAPR6QG71IseAi"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Maria da Visitação
+  - _id: FIpY5Vl9MLV7bKm5
+    _key: "!tables.results!ygr4TbMqmyXRDja5.FIpY5Vl9MLV7bKm5"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Maria da Esperança
+  - _id: N7Qg15LlmE7LOWAi
+    _key: "!tables.results!ygr4TbMqmyXRDja5.N7Qg15LlmE7LOWAi"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Maria do Socorro
+  - _id: 2X5ARJ52UgWUmB6E
+    _key: "!tables.results!ygr4TbMqmyXRDja5.2X5ARJ52UgWUmB6E"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Maria da Encarnação
+  - _id: hARlYYiZ9Lzgwnmm
+    _key: "!tables.results!ygr4TbMqmyXRDja5.hARlYYiZ9Lzgwnmm"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Maria da Natividade
+  - _id: FBx7quJtshFLIlNB
+    _key: "!tables.results!ygr4TbMqmyXRDja5.FBx7quJtshFLIlNB"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Maria da Penha

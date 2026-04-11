@@ -1,0 +1,777 @@
+_id: sTahknOtK9nAiwNb
+_key: "!tables!sTahknOtK9nAiwNb"
+name: Portuguese Feminine Names
+description: A selection of popular 18th century Portuguese feminine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: ft2RHtjABuVLgej6
+results:
+  - _id: xQkNxzO6imlGyCxL
+    _key: "!tables.results!sTahknOtK9nAiwNb.xQkNxzO6imlGyCxL"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Norberta
+  - _id: GoQFHbh06BqaT6oi
+    _key: "!tables.results!sTahknOtK9nAiwNb.GoQFHbh06BqaT6oi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Rufina
+  - _id: 9g82xZTOiSvd3p0k
+    _key: "!tables.results!sTahknOtK9nAiwNb.9g82xZTOiSvd3p0k"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Leandra
+  - _id: 99UGBzIgskRfUYO5
+    _key: "!tables.results!sTahknOtK9nAiwNb.99UGBzIgskRfUYO5"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Anastácia
+  - _id: ZnMOEKFI2NJeCg0M
+    _key: "!tables.results!sTahknOtK9nAiwNb.ZnMOEKFI2NJeCg0M"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Umbelina
+  - _id: NHMyHhNPhJ13V7fp
+    _key: "!tables.results!sTahknOtK9nAiwNb.NHMyHhNPhJ13V7fp"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Justa
+  - _id: D3Xdqnn0PnXv8kZj
+    _key: "!tables.results!sTahknOtK9nAiwNb.D3Xdqnn0PnXv8kZj"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Felismina
+  - _id: UPOQdoE39QsHVY2A
+    _key: "!tables.results!sTahknOtK9nAiwNb.UPOQdoE39QsHVY2A"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Florinda
+  - _id: 2jYVxmxaeE1wX5MO
+    _key: "!tables.results!sTahknOtK9nAiwNb.2jYVxmxaeE1wX5MO"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Simplícia
+  - _id: ZIN0qyQ8JJx8wW3S
+    _key: "!tables.results!sTahknOtK9nAiwNb.ZIN0qyQ8JJx8wW3S"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Lúcia
+  - _id: OMwsRM8FdzHJJVBd
+    _key: "!tables.results!sTahknOtK9nAiwNb.OMwsRM8FdzHJJVBd"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Perpétua
+  - _id: jtgAtQzz35HoFfUf
+    _key: "!tables.results!sTahknOtK9nAiwNb.jtgAtQzz35HoFfUf"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Páscoa
+  - _id: txreNPg6xLyX1RZQ
+    _key: "!tables.results!sTahknOtK9nAiwNb.txreNPg6xLyX1RZQ"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Celeste
+  - _id: 9WETOtrGbIQbsI1h
+    _key: "!tables.results!sTahknOtK9nAiwNb.9WETOtrGbIQbsI1h"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Delfina
+  - _id: 8EkLty1j3U8XQC2H
+    _key: "!tables.results!sTahknOtK9nAiwNb.8EkLty1j3U8XQC2H"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Emília
+  - _id: qXUzjWpdbXCtBfnE
+    _key: "!tables.results!sTahknOtK9nAiwNb.qXUzjWpdbXCtBfnE"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Eugénia
+  - _id: goGVtBR56vsNytsH
+    _key: "!tables.results!sTahknOtK9nAiwNb.goGVtBR56vsNytsH"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Apolónia
+  - _id: zroO456dEjkzMgbK
+    _key: "!tables.results!sTahknOtK9nAiwNb.zroO456dEjkzMgbK"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Esperança
+  - _id: 5gLskib9VPWZaxn5
+    _key: "!tables.results!sTahknOtK9nAiwNb.5gLskib9VPWZaxn5"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Eufrásia
+  - _id: vk3EOkoq4viVCpgs
+    _key: "!tables.results!sTahknOtK9nAiwNb.vk3EOkoq4viVCpgs"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Generosa
+  - _id: R4k5ykP7hdzlHPYh
+    _key: "!tables.results!sTahknOtK9nAiwNb.R4k5ykP7hdzlHPYh"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Genoveva
+  - _id: 67Y7hb3wPXqea0st
+    _key: "!tables.results!sTahknOtK9nAiwNb.67Y7hb3wPXqea0st"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Honorata
+  - _id: CkPTG1AT9ppdHbUR
+    _key: "!tables.results!sTahknOtK9nAiwNb.CkPTG1AT9ppdHbUR"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Justina
+  - _id: nQqMIEbUOVvy2Owz
+    _key: "!tables.results!sTahknOtK9nAiwNb.nQqMIEbUOVvy2Owz"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Laureana
+  - _id: SrStZq7X7edeEeHm
+    _key: "!tables.results!sTahknOtK9nAiwNb.SrStZq7X7edeEeHm"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Leocádia
+  - _id: mM2hMp5ksEGnjUlF
+    _key: "!tables.results!sTahknOtK9nAiwNb.mM2hMp5ksEGnjUlF"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Liberata
+  - _id: CbiPBHb3rUAc9OsM
+    _key: "!tables.results!sTahknOtK9nAiwNb.CbiPBHb3rUAc9OsM"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Micaela
+  - _id: 1b2g6q5PFMOauJVB
+    _key: "!tables.results!sTahknOtK9nAiwNb.1b2g6q5PFMOauJVB"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Narcisa
+  - _id: Lo4TESEYgJ4B16gA
+    _key: "!tables.results!sTahknOtK9nAiwNb.Lo4TESEYgJ4B16gA"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Olímpia
+  - _id: nSXAE0w1YKRPBe5E
+    _key: "!tables.results!sTahknOtK9nAiwNb.nSXAE0w1YKRPBe5E"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Petronilha
+  - _id: 11ouTGRhRTpJYrww
+    _key: "!tables.results!sTahknOtK9nAiwNb.11ouTGRhRTpJYrww"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Plácida
+  - _id: i5WEjlfoBl0DWG3v
+    _key: "!tables.results!sTahknOtK9nAiwNb.i5WEjlfoBl0DWG3v"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Leonor
+  - _id: eKEGXfFixynWMwPO
+    _key: "!tables.results!sTahknOtK9nAiwNb.eKEGXfFixynWMwPO"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Helena
+  - _id: npZzxbIsFXGbkjFj
+    _key: "!tables.results!sTahknOtK9nAiwNb.npZzxbIsFXGbkjFj"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Luísa
+  - _id: g1S4HL6D3mlret2n
+    _key: "!tables.results!sTahknOtK9nAiwNb.g1S4HL6D3mlret2n"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Madalena
+  - _id: z1OHXTPcyRe0Atee
+    _key: "!tables.results!sTahknOtK9nAiwNb.z1OHXTPcyRe0Atee"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Brites
+  - _id: K2oQbGR2AXpJLt4V
+    _key: "!tables.results!sTahknOtK9nAiwNb.K2oQbGR2AXpJLt4V"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Constança
+  - _id: PtQQ4o2hklcwgMrC
+    _key: "!tables.results!sTahknOtK9nAiwNb.PtQQ4o2hklcwgMrC"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Margarida
+  - _id: rreutFHSDDXeW2Vi
+    _key: "!tables.results!sTahknOtK9nAiwNb.rreutFHSDDXeW2Vi"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Antónia
+  - _id: NV1ZKR34cIFuUZUy
+    _key: "!tables.results!sTahknOtK9nAiwNb.NV1ZKR34cIFuUZUy"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Guiomar
+  - _id: EbCMHH690jxxQn9O
+    _key: "!tables.results!sTahknOtK9nAiwNb.EbCMHH690jxxQn9O"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Bárbara
+  - _id: AXlbbO4v0LGFlO06
+    _key: "!tables.results!sTahknOtK9nAiwNb.AXlbbO4v0LGFlO06"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Bernarda
+  - _id: htK8rrQqlsfdX3q2
+    _key: "!tables.results!sTahknOtK9nAiwNb.htK8rrQqlsfdX3q2"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Clara
+  - _id: gE1VfHlFMBpSxQ6N
+    _key: "!tables.results!sTahknOtK9nAiwNb.gE1VfHlFMBpSxQ6N"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Catarina
+  - _id: j5h5njo7ERLUM4UA
+    _key: "!tables.results!sTahknOtK9nAiwNb.j5h5njo7ERLUM4UA"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Teresa
+  - _id: hlxUcB0FsIxNSPF7
+    _key: "!tables.results!sTahknOtK9nAiwNb.hlxUcB0FsIxNSPF7"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Francisca
+  - _id: dupb3a8Q8SUn8mzv
+    _key: "!tables.results!sTahknOtK9nAiwNb.dupb3a8Q8SUn8mzv"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Isabel
+  - _id: 7afQfMDOVGIJMVTr
+    _key: "!tables.results!sTahknOtK9nAiwNb.7afQfMDOVGIJMVTr"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Maria
+  - _id: 3RF9rxUb8rI0yrVX
+    _key: "!tables.results!sTahknOtK9nAiwNb.3RF9rxUb8rI0yrVX"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.ygr4TbMqmyXRDja5
+    name: Portuguese Marian Names
+  - _id: i0K3bOstB0Wpjs0V
+    _key: "!tables.results!sTahknOtK9nAiwNb.i0K3bOstB0Wpjs0V"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Ana
+  - _id: bI3PMcuRgES2i7bo
+    _key: "!tables.results!sTahknOtK9nAiwNb.bI3PMcuRgES2i7bo"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Joana
+  - _id: Ooj1bpecwqo6O2AK
+    _key: "!tables.results!sTahknOtK9nAiwNb.Ooj1bpecwqo6O2AK"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Filipa
+  - _id: fMgLj7V9mHbQzYCG
+    _key: "!tables.results!sTahknOtK9nAiwNb.fMgLj7V9mHbQzYCG"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Inês
+  - _id: Ozc3hOQGjPQzDo8D
+    _key: "!tables.results!sTahknOtK9nAiwNb.Ozc3hOQGjPQzDo8D"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Beatriz
+  - _id: fvncebWj3cbRNC3u
+    _key: "!tables.results!sTahknOtK9nAiwNb.fvncebWj3cbRNC3u"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Domingas
+  - _id: 6zJm68ha5o7kFJXZ
+    _key: "!tables.results!sTahknOtK9nAiwNb.6zJm68ha5o7kFJXZ"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Felícia
+  - _id: bdyJMNY1Igebg3bq
+    _key: "!tables.results!sTahknOtK9nAiwNb.bdyJMNY1Igebg3bq"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Jacinta
+  - _id: NpegIPNGud7OOfrd
+    _key: "!tables.results!sTahknOtK9nAiwNb.NpegIPNGud7OOfrd"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Jerónima
+  - _id: C1SKaQy2t2nOdLNj
+    _key: "!tables.results!sTahknOtK9nAiwNb.C1SKaQy2t2nOdLNj"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Lourença
+  - _id: 5QcGlvxiKZ0c30I2
+    _key: "!tables.results!sTahknOtK9nAiwNb.5QcGlvxiKZ0c30I2"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Marta
+  - _id: peUuiEbYAK5fh4YV
+    _key: "!tables.results!sTahknOtK9nAiwNb.peUuiEbYAK5fh4YV"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Paula
+  - _id: rjVkOfXNQ367dWIH
+    _key: "!tables.results!sTahknOtK9nAiwNb.rjVkOfXNQ367dWIH"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Rosa
+  - _id: xkJNDTnESGDnpMLE
+    _key: "!tables.results!sTahknOtK9nAiwNb.xkJNDTnESGDnpMLE"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Rita
+  - _id: gNXpfmTCpDSmqlog
+    _key: "!tables.results!sTahknOtK9nAiwNb.gNXpfmTCpDSmqlog"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Sebastiana
+  - _id: ZLPQc0dnOYRtRSEu
+    _key: "!tables.results!sTahknOtK9nAiwNb.ZLPQc0dnOYRtRSEu"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Prudência
+  - _id: z358XVfPADvojp56
+    _key: "!tables.results!sTahknOtK9nAiwNb.z358XVfPADvojp56"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Quitéria
+  - _id: 6HMJB7n47f9BxIDq
+    _key: "!tables.results!sTahknOtK9nAiwNb.6HMJB7n47f9BxIDq"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Serafina
+  - _id: oLKjuU2EAFrHodXI
+    _key: "!tables.results!sTahknOtK9nAiwNb.oLKjuU2EAFrHodXI"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Silvana
+  - _id: yhHPqA2ASc7RSLFQ
+    _key: "!tables.results!sTahknOtK9nAiwNb.yhHPqA2ASc7RSLFQ"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Teodora
+  - _id: P1kslsh2W00BwffG
+    _key: "!tables.results!sTahknOtK9nAiwNb.P1kslsh2W00BwffG"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Tomásia
+  - _id: lQSr5ZqiourEpjCv
+    _key: "!tables.results!sTahknOtK9nAiwNb.lQSr5ZqiourEpjCv"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Verónica
+  - _id: gXA53boP8OyZ53Bk
+    _key: "!tables.results!sTahknOtK9nAiwNb.gXA53boP8OyZ53Bk"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Brígida
+  - _id: rWUIi6hvdwZ8ynGx
+    _key: "!tables.results!sTahknOtK9nAiwNb.rWUIi6hvdwZ8ynGx"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Úrsula
+  - _id: NyhpOdtu5Uza03i7
+    _key: "!tables.results!sTahknOtK9nAiwNb.NyhpOdtu5Uza03i7"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Vitória
+  - _id: hEn1Y7IOpSUwPH7X
+    _key: "!tables.results!sTahknOtK9nAiwNb.hEn1Y7IOpSUwPH7X"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Aldona
+  - _id: dRj5zbbS1XB93Qlt
+    _key: "!tables.results!sTahknOtK9nAiwNb.dRj5zbbS1XB93Qlt"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Iria
+  - _id: s5UlqzFWLSoWQIzx
+    _key: "!tables.results!sTahknOtK9nAiwNb.s5UlqzFWLSoWQIzx"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Mécia
+  - _id: KPvSZHt8hFXvaX9b
+    _key: "!tables.results!sTahknOtK9nAiwNb.KPvSZHt8hFXvaX9b"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Susana
+  - _id: xaDn6Iawm6BHvddK
+    _key: "!tables.results!sTahknOtK9nAiwNb.xaDn6Iawm6BHvddK"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Urraca
+  - _id: ZPONQWD164PUh703
+    _key: "!tables.results!sTahknOtK9nAiwNb.ZPONQWD164PUh703"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Benvinda
+  - _id: y1zp44AZRw2xXlJT
+    _key: "!tables.results!sTahknOtK9nAiwNb.y1zp44AZRw2xXlJT"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Celestina
+  - _id: 5duQJKjwZBaIujFn
+    _key: "!tables.results!sTahknOtK9nAiwNb.5duQJKjwZBaIujFn"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Crisanta
+  - _id: 0kCrrBlvUPl0nm8p
+    _key: "!tables.results!sTahknOtK9nAiwNb.0kCrrBlvUPl0nm8p"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Gertrudes
+  - _id: IFssrrGnwstJcPut
+    _key: "!tables.results!sTahknOtK9nAiwNb.IFssrrGnwstJcPut"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Hermínia
+  - _id: 4tPAR3Tk8PVxkV4a
+    _key: "!tables.results!sTahknOtK9nAiwNb.4tPAR3Tk8PVxkV4a"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Isidora
+  - _id: 1p0DXhrvqUOKTsPb
+    _key: "!tables.results!sTahknOtK9nAiwNb.1p0DXhrvqUOKTsPb"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Laurinda
+  - _id: bd80Espx6GehJqO0
+    _key: "!tables.results!sTahknOtK9nAiwNb.bd80Espx6GehJqO0"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Feliciana
+  - _id: aaq9FJEFYkqaBIOv
+    _key: "!tables.results!sTahknOtK9nAiwNb.aaq9FJEFYkqaBIOv"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Dionísia
+  - _id: WygfQ90u4qjtdGyc
+    _key: "!tables.results!sTahknOtK9nAiwNb.WygfQ90u4qjtdGyc"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Marcelina
+  - _id: I0FdA1s7jZMZw5Zx
+    _key: "!tables.results!sTahknOtK9nAiwNb.I0FdA1s7jZMZw5Zx"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Salomé
+  - _id: RtiVABfy6IIigDSl
+    _key: "!tables.results!sTahknOtK9nAiwNb.RtiVABfy6IIigDSl"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Rosália
+  - _id: zryyLixHntcnaM8u
+    _key: "!tables.results!sTahknOtK9nAiwNb.zryyLixHntcnaM8u"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Máxima
+  - _id: 7MQY1MOR0ZPSsy6A
+    _key: "!tables.results!sTahknOtK9nAiwNb.7MQY1MOR0ZPSsy6A"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Modesta
+  - _id: OWqytmLMB2OwrbNv
+    _key: "!tables.results!sTahknOtK9nAiwNb.OWqytmLMB2OwrbNv"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Gregória
+  - _id: jQWKeFdupF4sYUNP
+    _key: "!tables.results!sTahknOtK9nAiwNb.jQWKeFdupF4sYUNP"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Anatólia
+  - _id: GOQ7GaRnmvZL7Gca
+    _key: "!tables.results!sTahknOtK9nAiwNb.GOQ7GaRnmvZL7Gca"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Grácia

@@ -1,0 +1,776 @@
+_id: YnfyDSNUGMgycTHm
+_key: "!tables!YnfyDSNUGMgycTHm"
+name: Portuguese Surnames
+description: A selection of popular 18th century Portuguese surnames.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: ft2RHtjABuVLgej6
+results:
+  - _id: 1kIhUExfN5fZTwep
+    _key: "!tables.results!YnfyDSNUGMgycTHm.1kIhUExfN5fZTwep"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Zuzarte
+  - _id: Y0eocViDnl5mIBG4
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Y0eocViDnl5mIBG4"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Zagalo
+  - _id: bS43MJT1Arc9mNvK
+    _key: "!tables.results!YnfyDSNUGMgycTHm.bS43MJT1Arc9mNvK"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Calvão
+  - _id: vH5XaOsmEdwOB0IU
+    _key: "!tables.results!YnfyDSNUGMgycTHm.vH5XaOsmEdwOB0IU"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Carvalheira
+  - _id: AeuhCyO0YWDmIxuv
+    _key: "!tables.results!YnfyDSNUGMgycTHm.AeuhCyO0YWDmIxuv"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Boto
+  - _id: 09wQCedSZDr1LDAM
+    _key: "!tables.results!YnfyDSNUGMgycTHm.09wQCedSZDr1LDAM"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Gouveia
+  - _id: 5iKxBBUXQVxxKYef
+    _key: "!tables.results!YnfyDSNUGMgycTHm.5iKxBBUXQVxxKYef"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Lacerda
+  - _id: lJnVRfC7LN19UH82
+    _key: "!tables.results!YnfyDSNUGMgycTHm.lJnVRfC7LN19UH82"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Leal
+  - _id: 1gzjS9ldv2Q2QmKn
+    _key: "!tables.results!YnfyDSNUGMgycTHm.1gzjS9ldv2Q2QmKn"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Leite
+  - _id: hqNlN0SWph9vb33R
+    _key: "!tables.results!YnfyDSNUGMgycTHm.hqNlN0SWph9vb33R"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Lobo
+  - _id: HcjapW71JEQzQP5e
+    _key: "!tables.results!YnfyDSNUGMgycTHm.HcjapW71JEQzQP5e"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Magalhães
+  - _id: 1ccEiX6KJAxpEXwj
+    _key: "!tables.results!YnfyDSNUGMgycTHm.1ccEiX6KJAxpEXwj"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Marques
+  - _id: ztUCetTwqX0nXxHA
+    _key: "!tables.results!YnfyDSNUGMgycTHm.ztUCetTwqX0nXxHA"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Matos
+  - _id: lit7ngmtFFApqviq
+    _key: "!tables.results!YnfyDSNUGMgycTHm.lit7ngmtFFApqviq"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Medeiros
+  - _id: wrJTnuBNiWH7PMhZ
+    _key: "!tables.results!YnfyDSNUGMgycTHm.wrJTnuBNiWH7PMhZ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Morais
+  - _id: J4DgEuMGirBtoPjN
+    _key: "!tables.results!YnfyDSNUGMgycTHm.J4DgEuMGirBtoPjN"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Nogueira
+  - _id: qrGv7tiqvFRhL5rW
+    _key: "!tables.results!YnfyDSNUGMgycTHm.qrGv7tiqvFRhL5rW"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Albuquerque
+  - _id: 0MP3n6kdXV1EuUoF
+    _key: "!tables.results!YnfyDSNUGMgycTHm.0MP3n6kdXV1EuUoF"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Ataíde
+  - _id: qH2hqYlrwMf4pwJ8
+    _key: "!tables.results!YnfyDSNUGMgycTHm.qH2hqYlrwMf4pwJ8"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Brandão
+  - _id: Bj33dux8MolbaGFs
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Bj33dux8MolbaGFs"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Brito
+  - _id: WC4FbG5sEnbxKYB6
+    _key: "!tables.results!YnfyDSNUGMgycTHm.WC4FbG5sEnbxKYB6"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Cabral
+  - _id: dRJB6QflQU0RHMAC
+    _key: "!tables.results!YnfyDSNUGMgycTHm.dRJB6QflQU0RHMAC"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Carneiro
+  - _id: LTf1FHn4G4CzFImm
+    _key: "!tables.results!YnfyDSNUGMgycTHm.LTf1FHn4G4CzFImm"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Chaves
+  - _id: pPcPt7OPLaNBiEUR
+    _key: "!tables.results!YnfyDSNUGMgycTHm.pPcPt7OPLaNBiEUR"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Coimbra
+  - _id: EUT471z4DbEn2PqL
+    _key: "!tables.results!YnfyDSNUGMgycTHm.EUT471z4DbEn2PqL"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Coutinho
+  - _id: I30t5gGUMbMi7wJC
+    _key: "!tables.results!YnfyDSNUGMgycTHm.I30t5gGUMbMi7wJC"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Esteves
+  - _id: FhMgg94qBp1TTVPU
+    _key: "!tables.results!YnfyDSNUGMgycTHm.FhMgg94qBp1TTVPU"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Falcão
+  - _id: OPDMbsfHJNQzXvkM
+    _key: "!tables.results!YnfyDSNUGMgycTHm.OPDMbsfHJNQzXvkM"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Faria
+  - _id: NVTcovaUdoWgvB1A
+    _key: "!tables.results!YnfyDSNUGMgycTHm.NVTcovaUdoWgvB1A"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Fernandes
+  - _id: lMbjXH8tMoqjGJnK
+    _key: "!tables.results!YnfyDSNUGMgycTHm.lMbjXH8tMoqjGJnK"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Galvão
+  - _id: VY0QtDr3KUWBJDhA
+    _key: "!tables.results!YnfyDSNUGMgycTHm.VY0QtDr3KUWBJDhA"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Henriques
+  - _id: 8Gug8hTFhbJUlbfY
+    _key: "!tables.results!YnfyDSNUGMgycTHm.8Gug8hTFhbJUlbfY"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Monteiro
+  - _id: vFcmbZLxNykS5Lf6
+    _key: "!tables.results!YnfyDSNUGMgycTHm.vFcmbZLxNykS5Lf6"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Nunes
+  - _id: M1sK9S5A3YDnBs1g
+    _key: "!tables.results!YnfyDSNUGMgycTHm.M1sK9S5A3YDnBs1g"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Mendes
+  - _id: 7qXmI1jnqMIyMuDC
+    _key: "!tables.results!YnfyDSNUGMgycTHm.7qXmI1jnqMIyMuDC"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Martins
+  - _id: leDmeK4bzIkzuZ7B
+    _key: "!tables.results!YnfyDSNUGMgycTHm.leDmeK4bzIkzuZ7B"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Tavares
+  - _id: 88RA7K3EoD42sifF
+    _key: "!tables.results!YnfyDSNUGMgycTHm.88RA7K3EoD42sifF"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Figueiredo
+  - _id: jpbteSVUcb4yUNib
+    _key: "!tables.results!YnfyDSNUGMgycTHm.jpbteSVUcb4yUNib"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Pinheiro
+  - _id: Yv4FywIwyIqxggsh
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Yv4FywIwyIqxggsh"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Coelho
+  - _id: Y3Zw2BMojLUyTbfj
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Y3Zw2BMojLUyTbfj"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Teixeira
+  - _id: 3kJGe3AodAxE3Ocu
+    _key: "!tables.results!YnfyDSNUGMgycTHm.3kJGe3AodAxE3Ocu"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Carvalho
+  - _id: tI8h1UTM7BnE1jDz
+    _key: "!tables.results!YnfyDSNUGMgycTHm.tI8h1UTM7BnE1jDz"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Gonçalves
+  - _id: cj3TRNgxS9fccUOy
+    _key: "!tables.results!YnfyDSNUGMgycTHm.cj3TRNgxS9fccUOy"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Azevedo
+  - _id: T3QkjKapAS71yNrs
+    _key: "!tables.results!YnfyDSNUGMgycTHm.T3QkjKapAS71yNrs"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Santos
+  - _id: 0G6pbh7ZOfu0H5nl
+    _key: "!tables.results!YnfyDSNUGMgycTHm.0G6pbh7ZOfu0H5nl"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Rodrigues
+  - _id: 1RDkiod1i2zUzkxx
+    _key: "!tables.results!YnfyDSNUGMgycTHm.1RDkiod1i2zUzkxx"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Costa
+  - _id: Azn3N9RdJbe9aojd
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Azn3N9RdJbe9aojd"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Pereira
+  - _id: jv5uAII3pkISq6KM
+    _key: "!tables.results!YnfyDSNUGMgycTHm.jv5uAII3pkISq6KM"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Silva
+  - _id: WIa2L55ZCbVMBmyP
+    _key: "!tables.results!YnfyDSNUGMgycTHm.WIa2L55ZCbVMBmyP"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Ferreira
+  - _id: c9HaRG35zymy07AV
+    _key: "!tables.results!YnfyDSNUGMgycTHm.c9HaRG35zymy07AV"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Oliveira
+  - _id: P7HLSdZNtIgnHy8R
+    _key: "!tables.results!YnfyDSNUGMgycTHm.P7HLSdZNtIgnHy8R"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Sousa
+  - _id: mVfMf3pn4XbP2XZG
+    _key: "!tables.results!YnfyDSNUGMgycTHm.mVfMf3pn4XbP2XZG"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Almeida
+  - _id: 8EeOI0QNoUf0yx3z
+    _key: "!tables.results!YnfyDSNUGMgycTHm.8EeOI0QNoUf0yx3z"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Lopes
+  - _id: CeSBZajtwrNiCiAa
+    _key: "!tables.results!YnfyDSNUGMgycTHm.CeSBZajtwrNiCiAa"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Borges
+  - _id: lFkVm0pX7ulD2xv6
+    _key: "!tables.results!YnfyDSNUGMgycTHm.lFkVm0pX7ulD2xv6"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Cardoso
+  - _id: 9wpyovOcS2mDlLJ8
+    _key: "!tables.results!YnfyDSNUGMgycTHm.9wpyovOcS2mDlLJ8"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Castro
+  - _id: kgtsL3YERuNaEe2G
+    _key: "!tables.results!YnfyDSNUGMgycTHm.kgtsL3YERuNaEe2G"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Correia
+  - _id: TyiXHSTa7ZdlcyzM
+    _key: "!tables.results!YnfyDSNUGMgycTHm.TyiXHSTa7ZdlcyzM"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Cunha
+  - _id: LI1dk1WOfKqqQCEf
+    _key: "!tables.results!YnfyDSNUGMgycTHm.LI1dk1WOfKqqQCEf"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Dias
+  - _id: 9jzIIlQ14f3Z2WZa
+    _key: "!tables.results!YnfyDSNUGMgycTHm.9jzIIlQ14f3Z2WZa"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Fonseca
+  - _id: HDqLHLy87if6jk4r
+    _key: "!tables.results!YnfyDSNUGMgycTHm.HDqLHLy87if6jk4r"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Freitas
+  - _id: PMQ3Ub8EewGzAXt5
+    _key: "!tables.results!YnfyDSNUGMgycTHm.PMQ3Ub8EewGzAXt5"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Gomes
+  - _id: qqejA4Nb9niv80pz
+    _key: "!tables.results!YnfyDSNUGMgycTHm.qqejA4Nb9niv80pz"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Lima
+  - _id: kZiU5u139rF4SPNv
+    _key: "!tables.results!YnfyDSNUGMgycTHm.kZiU5u139rF4SPNv"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Machado
+  - _id: VBsXxCvFVyEbqaxC
+    _key: "!tables.results!YnfyDSNUGMgycTHm.VBsXxCvFVyEbqaxC"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Melo
+  - _id: pQZu8Wxtc0sm78F5
+    _key: "!tables.results!YnfyDSNUGMgycTHm.pQZu8Wxtc0sm78F5"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Miranda
+  - _id: N42hZOXcH80E63lS
+    _key: "!tables.results!YnfyDSNUGMgycTHm.N42hZOXcH80E63lS"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Moreira
+  - _id: VTqYUXY2UxHWQmvz
+    _key: "!tables.results!YnfyDSNUGMgycTHm.VTqYUXY2UxHWQmvz"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Mota
+  - _id: AMj1zoRW6V711v5p
+    _key: "!tables.results!YnfyDSNUGMgycTHm.AMj1zoRW6V711v5p"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Moura
+  - _id: DAJO0soB04SX8SPK
+    _key: "!tables.results!YnfyDSNUGMgycTHm.DAJO0soB04SX8SPK"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Pinto
+  - _id: TF2Q45xYajIePwNn
+    _key: "!tables.results!YnfyDSNUGMgycTHm.TF2Q45xYajIePwNn"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Ramos
+  - _id: MpJcXMSlDP832MSc
+    _key: "!tables.results!YnfyDSNUGMgycTHm.MpJcXMSlDP832MSc"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Ribeiro
+  - _id: ksu0J8RmeqkOlrVF
+    _key: "!tables.results!YnfyDSNUGMgycTHm.ksu0J8RmeqkOlrVF"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Rocha
+  - _id: IpYRNYnUXO8Idn0R
+    _key: "!tables.results!YnfyDSNUGMgycTHm.IpYRNYnUXO8Idn0R"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Vieira
+  - _id: wg8KxAQDkTwDbshH
+    _key: "!tables.results!YnfyDSNUGMgycTHm.wg8KxAQDkTwDbshH"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Abreu
+  - _id: 6NWniEONzeuyym8F
+    _key: "!tables.results!YnfyDSNUGMgycTHm.6NWniEONzeuyym8F"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Alves
+  - _id: rYvbtgFHBhNc89XD
+    _key: "!tables.results!YnfyDSNUGMgycTHm.rYvbtgFHBhNc89XD"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Andrade
+  - _id: OCPgMjS44LExI93Y
+    _key: "!tables.results!YnfyDSNUGMgycTHm.OCPgMjS44LExI93Y"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Araújo
+  - _id: Zcsf9wI07MCyJqxw
+    _key: "!tables.results!YnfyDSNUGMgycTHm.Zcsf9wI07MCyJqxw"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Paiva
+  - _id: YaFBJhaTrs5mBTBI
+    _key: "!tables.results!YnfyDSNUGMgycTHm.YaFBJhaTrs5mBTBI"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Pacheco
+  - _id: fqx4KXj0CmMdVP9F
+    _key: "!tables.results!YnfyDSNUGMgycTHm.fqx4KXj0CmMdVP9F"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Pedroso
+  - _id: TGDzkmtOy9KZCXqP
+    _key: "!tables.results!YnfyDSNUGMgycTHm.TGDzkmtOy9KZCXqP"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Queirós
+  - _id: YaQsP6HGFtoU5k2W
+    _key: "!tables.results!YnfyDSNUGMgycTHm.YaQsP6HGFtoU5k2W"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Raposo
+  - _id: 8FPjemyQQ9LO0AaE
+    _key: "!tables.results!YnfyDSNUGMgycTHm.8FPjemyQQ9LO0AaE"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Rego
+  - _id: OzzjrJ9oRZGqylYH
+    _key: "!tables.results!YnfyDSNUGMgycTHm.OzzjrJ9oRZGqylYH"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Sampaio
+  - _id: QrWOmf7ZO8wiYqM0
+    _key: "!tables.results!YnfyDSNUGMgycTHm.QrWOmf7ZO8wiYqM0"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Sarmento
+  - _id: nHpMab97OUV3VLZc
+    _key: "!tables.results!YnfyDSNUGMgycTHm.nHpMab97OUV3VLZc"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Seabra
+  - _id: lkOKDidgj1UuTsqb
+    _key: "!tables.results!YnfyDSNUGMgycTHm.lkOKDidgj1UuTsqb"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Pais
+  - _id: mhF5iwikEIs97k7K
+    _key: "!tables.results!YnfyDSNUGMgycTHm.mhF5iwikEIs97k7K"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Peixoto
+  - _id: QecR19ue9RE20YrR
+    _key: "!tables.results!YnfyDSNUGMgycTHm.QecR19ue9RE20YrR"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Saraiva
+  - _id: c9IDo2IK35HRa1HD
+    _key: "!tables.results!YnfyDSNUGMgycTHm.c9IDo2IK35HRa1HD"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Teles
+  - _id: LUCf6QtRBbGPbBMe
+    _key: "!tables.results!YnfyDSNUGMgycTHm.LUCf6QtRBbGPbBMe"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Valente
+  - _id: 3rwtQHVU3K3Lm1c6
+    _key: "!tables.results!YnfyDSNUGMgycTHm.3rwtQHVU3K3Lm1c6"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Vasconcelos
+  - _id: pkKiO2ImIgkOhE5h
+    _key: "!tables.results!YnfyDSNUGMgycTHm.pkKiO2ImIgkOhE5h"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Ventura
+  - _id: pC524qmVs6bOVZML
+    _key: "!tables.results!YnfyDSNUGMgycTHm.pC524qmVs6bOVZML"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Bettencourt
+  - _id: VThwEwZFu8p9lSFk
+    _key: "!tables.results!YnfyDSNUGMgycTHm.VThwEwZFu8p9lSFk"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Quadros
