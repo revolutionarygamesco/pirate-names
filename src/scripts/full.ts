@@ -1,4 +1,5 @@
 import { MODULE_ID } from './settings.ts'
+import check from './check.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import whisperMessage from './whisper.ts'
@@ -10,8 +11,6 @@ const jeanable = ['Baptiste', 'Paul', 'Pierre', 'Louis', 'Claude', 'François',
   'Jacques', 'Charles', 'Michel', 'Joseph', 'Marc', 'Luc', 'Philippe',
   'Christophe', 'René', 'Antoine', 'Gabriel']
 
-const check = (threshold: number = 0.5): boolean => Math.random() < threshold
-
 const generateDutchPatronym = async (gender: Gender): Promise<string> => {
   const father = await generateGivenName('Dutch', 'Masculine')
   const suffix = gender === 'Feminine' ? 'dochter' : 'zoon'
@@ -20,7 +19,7 @@ const generateDutchPatronym = async (gender: Gender): Promise<string> => {
 
 const generateSpanishSurname = async (): Promise<string> => {
   const surname = await generateSurname('Spanish')
-  return check(0.7)
+  return await check('d10', r => r < 7)
     ? surname
     : `${surname}-${await generateSurname('Spanish')}`
 }
@@ -59,10 +58,11 @@ const generateName = async (
   let given = await generateGivenName(n, g)
   let surname = n === 'Spanish'
     ? await generateFullSpanishSurname()
-    :await generateSurname(n)
+    : await generateSurname(n)
 
-  if (n === 'French' && jeanable.includes(given) && check()) given = `Jean-${given}`
-  if (n === 'Dutch' && check()) surname = await generateDutchPatronym(g)
+  const flip = await check('d20', r => r > 10)
+  if (n === 'French' && jeanable.includes(given) && flip) given = `Jean-${given}`
+  if (n === 'Dutch' && flip) surname = await generateDutchPatronym(g)
 
   let name = n === 'Irish'
     ? renderGaelicName(given, surname)
