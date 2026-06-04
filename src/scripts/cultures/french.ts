@@ -10,7 +10,7 @@ const generateFrenchName = async (
   gender: Gender
 ): Promise<string> => {
   const orig = await generateGivenName('French', gender)
-  const jean = gender === 'Feminine' || (jeanable.includes(orig) && await check('d20', r => r > 10))
+  const jean = gender === 'Masculine' && jeanable.includes(orig) && await check('d20', r => r > 10)
   const given = jean ? `Jean-${orig}` : orig
 
   const surname = await generateSurname('French')
