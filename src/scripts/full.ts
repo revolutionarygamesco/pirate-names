@@ -7,6 +7,7 @@ import generateFrenchName from './cultures/french.ts'
 import generatePortugueseName from './cultures/portuguese.ts'
 import generateScottishName from './cultures/scottish.ts'
 import generateSpanishName from './cultures/spanish.ts'
+import generateWelshName from './cultures/welsh.ts'
 import whisperMessage from './whisper.ts'
 import { pickGender } from './gender.ts'
 import { pickNationality } from './nationality.ts'
@@ -43,6 +44,7 @@ const generateName = async (
   if (n === 'Portuguese') return generatePortugueseName(g)
   if (n === 'Scottish') return generateScottishName(g)
   if (n === 'Spanish') return generateSpanishName(g)
+  if (n === 'Welsh') return generateWelshName(g)
 
   let given = await generateGivenName(n, g)
   let surname = await generateSurname(n)
