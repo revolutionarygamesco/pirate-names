@@ -2,6 +2,7 @@ import { MODULE_ID } from './settings.ts'
 import check from './check.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
+import generateEnglishName from './cultures/english.ts'
 import generateFrenchName from './cultures/french.ts'
 import generatePortugueseName from './cultures/portuguese.ts'
 import generateSpanishName from './cultures/spanish.ts'
@@ -41,6 +42,7 @@ const generateName = async (
   const n = nationality ?? await pickNationality()
   const g = gender ?? await pickGender()
 
+  if (n === 'English') return generateEnglishName(g)
   if (n === 'French') return generateFrenchName(g)
   if (n === 'Portuguese') return generatePortugueseName(g)
   if (n === 'Spanish') return generateSpanishName(g)
