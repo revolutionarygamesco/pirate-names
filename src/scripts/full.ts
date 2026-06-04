@@ -3,6 +3,7 @@ import check from './check.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import generateFrenchName from './cultures/french.ts'
+import generatePortugueseName from './cultures/portuguese.ts'
 import generateSpanishName from './cultures/spanish.ts'
 import whisperMessage from './whisper.ts'
 import { pickGender } from './gender.ts'
@@ -32,12 +33,6 @@ const renderGaelicName = (given: string, surname: string): string => {
     : `${gaelic} (${anglicization})`
 }
 
-const generateFullSpanishSurname = async (): Promise<string> => {
-  const father = await generateSpanishSurname()
-  const mother = await generateSpanishSurname()
-  return `${father} y ${mother}`
-}
-
 const generateName = async (
   nationality?: Nationality,
   gender?: Gender,
@@ -47,6 +42,7 @@ const generateName = async (
   const g = gender ?? await pickGender()
 
   if (n === 'French') return generateFrenchName(g)
+  if (n === 'Portuguese') return generatePortugueseName(g)
   if (n === 'Spanish') return generateSpanishName(g)
 
   let given = await generateGivenName(n, g)
