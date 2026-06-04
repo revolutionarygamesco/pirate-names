@@ -3,6 +3,7 @@ import check from './check.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import generateFrenchName from './cultures/french.ts'
+import generateSpanishName from './cultures/spanish.ts'
 import whisperMessage from './whisper.ts'
 import { pickGender } from './gender.ts'
 import { pickNationality } from './nationality.ts'
@@ -12,13 +13,6 @@ const generateDutchPatronym = async (gender: Gender): Promise<string> => {
   const father = await generateGivenName('Dutch', 'Masculine')
   const suffix = gender === 'Feminine' ? 'dochter' : 'zoon'
   return `${father}s${suffix}`
-}
-
-const generateSpanishSurname = async (): Promise<string> => {
-  const surname = await generateSurname('Spanish')
-  return await check('d10', r => r < 7)
-    ? surname
-    : `${surname}-${await generateSurname('Spanish')}`
 }
 
 const separateAnglicizedIrishName = (str: string): { gaelic: string, anglicization: string } => {
@@ -53,11 +47,10 @@ const generateName = async (
   const g = gender ?? await pickGender()
 
   if (n === 'French') return generateFrenchName(g)
+  if (n === 'Spanish') return generateSpanishName(g)
 
   let given = await generateGivenName(n, g)
-  let surname = n === 'Spanish'
-    ? await generateFullSpanishSurname()
-    : await generateSurname(n)
+  let surname = await generateSurname(n)
 
   const flip = await check('d20', r => r > 10)
   if (n === 'Dutch' && flip) surname = await generateDutchPatronym(g)
