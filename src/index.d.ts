@@ -60,7 +60,7 @@ declare const foundry: {
   }
 }
 
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese'
 type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 type NationScope = 'person' | 'pirate' | 'ship'

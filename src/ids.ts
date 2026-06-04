@@ -26,6 +26,10 @@ export const givenNames: Record<Nationality, Record<Gender, string>> = {
   Irish: {
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FfWfEmYaVbJCx5i0',
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.QAewP1wCxn8LhvlP'
+  },
+  Portuguese: {
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.sTahknOtK9nAiwNb',
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.iwH36PdS8m7nQKN6'
   }
 }
 
@@ -36,7 +40,8 @@ export const surnames: Record<Nationality, string> = {
   Dutch: 'Compendium.revolutionary-piratenames.rolltables.RollTable.txdQSSgEHJlW9Iax',
   Scottish: 'Compendium.revolutionary-piratenames.rolltables.RollTable.SLsldh8SgYaY2Ryn',
   Welsh: 'Compendium.revolutionary-piratenames.rolltables.RollTable.HsshgplTIrOwI4xH',
-  Irish: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FIDGyWGEFEw1I5iW'
+  Irish: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FIDGyWGEFEw1I5iW',
+  Portuguese: 'Compendium.revolutionary-piratenames.rolltables.RollTable.YnfyDSNUGMgycTHm'
 }
 
 export const pirateNames = 'Compendium.revolutionary-piratenames.rolltables.RollTable.ScPMf8BdSRKDbFKF'
