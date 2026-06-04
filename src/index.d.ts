@@ -34,6 +34,17 @@ interface Module {
   api: Record<string, Function>
 }
 
+declare class Roll {
+  constructor(formula: string, data?: Record<string, any>)
+  evaluate(options?: {
+    allowInteractive?: boolean,
+    allowStrings?: boolean,
+    maximize?: boolean,
+    minimize?: boolean
+  }): Promise<Roll>
+  total: number
+}
+
 declare const Hooks: {
   on: (name: string, callback: (...args: any[]) => void) => number
   once: (name: string, callback: (...args: any[]) => void) => number
