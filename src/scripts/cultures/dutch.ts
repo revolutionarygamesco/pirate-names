@@ -12,9 +12,9 @@ const generateDutchName = async (
   gender: Gender
 ): Promise<string> => {
   const flip = await check('d20', r => r > 10)
-  const given = await generateGivenName('English', gender)
+  const given = await generateGivenName('Dutch', gender)
   const surname = flip
-    ? await generateSurname('English')
+    ? await generateSurname('Dutch')
     : await generateDutchPatronym(gender)
   return `${given} ${surname}`
 }
