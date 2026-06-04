@@ -1,12 +1,9 @@
-import generateGivenName from '../given.ts'
-import generateSurname from '../surname.ts'
+import generateBasicName from './basic.ts'
 
 const generateEnglishName = async (
   gender: Gender
 ): Promise<string> => {
-  const given = await generateGivenName('English', gender)
-  const surname = await generateSurname('English')
-  return `${given} ${surname}`
+  return await generateBasicName('English', gender)
 }
 
 export default generateEnglishName
