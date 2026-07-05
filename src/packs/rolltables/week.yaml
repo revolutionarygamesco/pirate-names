@@ -1,0 +1,72 @@
+_id: OOksyW9qFJNWWxUV
+_key: "!tables!OOksyW9qFJNWWxUV"
+name: Weekdays
+description: Several West African naming traditions relied heavily on the day of
+  the week on which a person was born.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+results:
+  - _id: dj3DPbfTyfjEX1Ms
+    _key: "!tables.results!OOksyW9qFJNWWxUV.dj3DPbfTyfjEX1Ms"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Sunday
+  - _id: E4gw3jP6dgNz7jmA
+    _key: "!tables.results!OOksyW9qFJNWWxUV.E4gw3jP6dgNz7jmA"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Monday
+  - _id: bf9MrquE5fw5CJTv
+    _key: "!tables.results!OOksyW9qFJNWWxUV.bf9MrquE5fw5CJTv"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Tuesday
+  - _id: lpwTLJBktvsgQnhY
+    _key: "!tables.results!OOksyW9qFJNWWxUV.lpwTLJBktvsgQnhY"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Wednesday
+  - _id: HuCtVPkqLp0LwdaL
+    _key: "!tables.results!OOksyW9qFJNWWxUV.HuCtVPkqLp0LwdaL"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Thursday
+  - _id: o7hDFABcE4UHMnvR
+    _key: "!tables.results!OOksyW9qFJNWWxUV.o7hDFABcE4UHMnvR"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Friday
+  - _id: VpBoIIh2hE2FjLuQ
+    _key: "!tables.results!OOksyW9qFJNWWxUV.VpBoIIh2hE2FjLuQ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Saturday
+  - _id: AjMfRpuyfBKcF5cy
+    _key: "!tables.results!OOksyW9qFJNWWxUV.AjMfRpuyfBKcF5cy"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: document
+    documentUuid: RollTable.OOksyW9qFJNWWxUV
