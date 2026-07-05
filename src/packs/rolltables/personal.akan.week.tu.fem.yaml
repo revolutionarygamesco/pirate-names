@@ -1,0 +1,56 @@
+_id: ZoTYUnGdgqkAHoAL
+_key: "!tables!ZoTYUnGdgqkAHoAL"
+name: Akan Tuesday Girl Names
+description: Names given to Akan girls born on Tuesday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: A355bNDQxHx3vvwz
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.A355bNDQxHx3vvwz"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Abena
+  - _id: iObMkb9NzKFQtt2N
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.iObMkb9NzKFQtt2N"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Ablá
+  - _id: Ti2a9Y6fOdvQU1Dd
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.Ti2a9Y6fOdvQU1Dd"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ablã
+  - _id: Rp2gzbbA6AAXDtGe
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.Rp2gzbbA6AAXDtGe"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Abenaa
+  - _id: bEDFTsnYblz0bUur
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.bEDFTsnYblz0bUur"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Araba
+  - _id: Yq1wyaISpUMPw5Fz
+    _key: "!tables.results!ZoTYUnGdgqkAHoAL.Yq1wyaISpUMPw5Fz"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Abrema

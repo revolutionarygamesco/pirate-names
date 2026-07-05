@@ -1,0 +1,56 @@
+_id: d6TMjqiTUF3jZzRz
+_key: "!tables!d6TMjqiTUF3jZzRz"
+name: Akan Sunday Girl Names
+description: Names given to Akan girls born on Sunday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: OnoZxJ7dgfCQJyGm
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.OnoZxJ7dgfCQJyGm"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Akosua
+  - _id: AM1LYp1MjEzB9lkF
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.AM1LYp1MjEzB9lkF"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Akasi
+  - _id: 0oMWIHsdlUTwePDb
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.0oMWIHsdlUTwePDb"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Akosi
+  - _id: UP0aPegJ0VjHRuCK
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.UP0aPegJ0VjHRuCK"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Akosiwa
+  - _id: i3y883WQyXpUkLo8
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.i3y883WQyXpUkLo8"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Awusi
+  - _id: BLexPXF0me4Y8ADK
+    _key: "!tables.results!d6TMjqiTUF3jZzRz.BLexPXF0me4Y8ADK"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Asi

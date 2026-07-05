@@ -1,0 +1,56 @@
+_id: o9m52eiGNLe2Tv6X
+_key: "!tables!o9m52eiGNLe2Tv6X"
+name: Akan Monday Boy Names
+description: Names given to Akan boys born on Monday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: KApTR6k5YNWNEo2r
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.KApTR6k5YNWNEo2r"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kwadwo
+  - _id: kcCg3LbceCsWSPgi
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.kcCg3LbceCsWSPgi"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Kodjó
+  - _id: qlbHwfnUMeAU5k8i
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.qlbHwfnUMeAU5k8i"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Kojo
+  - _id: iKGjfLLJzfQYDF2N
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.iKGjfLLJzfQYDF2N"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Jojo
+  - _id: VMnjRIX6ZzSvPqEa
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.VMnjRIX6ZzSvPqEa"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Cudjoe
+  - _id: BpxO19A7TwR1vePz
+    _key: "!tables.results!o9m52eiGNLe2Tv6X.BpxO19A7TwR1vePz"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Kodyo

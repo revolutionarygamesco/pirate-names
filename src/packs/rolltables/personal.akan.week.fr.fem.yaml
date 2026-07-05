@@ -1,0 +1,56 @@
+_id: NxvZ04Dn2cjkamMl
+_key: "!tables!NxvZ04Dn2cjkamMl"
+name: Akan Friday Girl Names
+description: Names given to Akan girls born on Friday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: FIk5ZqT4RlHzVZDd
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.FIk5ZqT4RlHzVZDd"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Afua
+  - _id: qnQhJ4L4JxTWDhj4
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.qnQhJ4L4JxTWDhj4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Afí
+  - _id: 3LbqG3O7VTrLVDN8
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.3LbqG3O7VTrLVDN8"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Afiba
+  - _id: vBW5w1LobqTikWWU
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.vBW5w1LobqTikWWU"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Afia
+  - _id: 2xQbr6eIVeePqESZ
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.2xQbr6eIVeePqESZ"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Efua
+  - _id: CCGWwGE4Qtt9HpSH
+    _key: "!tables.results!NxvZ04Dn2cjkamMl.CCGWwGE4Qtt9HpSH"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Efe

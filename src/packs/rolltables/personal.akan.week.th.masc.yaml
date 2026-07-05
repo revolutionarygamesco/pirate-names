@@ -1,0 +1,72 @@
+_id: uL1wjWWBDnVTHxB0
+_key: "!tables!uL1wjWWBDnVTHxB0"
+name: Akan Thursday Boy Names
+description: Names given to Akan boys born on Thursday.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: 7D6h0umMroF5JNrJ
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.7D6h0umMroF5JNrJ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Yaw
+  - _id: 8zUXICTb7I7vVQgH
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.8zUXICTb7I7vVQgH"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Yao
+  - _id: g1UG1p6yr3VlvquE
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.g1UG1p6yr3VlvquE"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Yawo
+  - _id: UyOPNpkwlY98OFru
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.UyOPNpkwlY98OFru"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Yawu
+  - _id: JM1GoO1q8IQ8hk9L
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.JM1GoO1q8IQ8hk9L"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Yawa
+  - _id: jflWvafwYKTEFR7V
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.jflWvafwYKTEFR7V"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Kwaw
+  - _id: 9Iy7oC9CK9A86gaW
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.9Iy7oC9CK9A86gaW"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ekow
+  - _id: N1mWiCdkxTSfnyWH
+    _key: "!tables.results!uL1wjWWBDnVTHxB0.N1mWiCdkxTSfnyWH"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kow

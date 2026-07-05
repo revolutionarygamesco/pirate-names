@@ -1,0 +1,72 @@
+_id: kz359Z2CPweeAYAM
+_key: "!tables!kz359Z2CPweeAYAM"
+name: Akan Tuesday Boy Names
+description: Names given to Akan boys born on Tuesday.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: oTSC99GujiQV7SxD
+    _key: "!tables.results!kz359Z2CPweeAYAM.oTSC99GujiQV7SxD"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kwabena
+  - _id: mglSpiWVpxX5qfKH
+    _key: "!tables.results!kz359Z2CPweeAYAM.mglSpiWVpxX5qfKH"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Komlá
+  - _id: Qs4WbDMulYgF1h6D
+    _key: "!tables.results!kz359Z2CPweeAYAM.Qs4WbDMulYgF1h6D"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Komlan
+  - _id: pGmSywRO9F96zT7s
+    _key: "!tables.results!kz359Z2CPweeAYAM.pGmSywRO9F96zT7s"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kabenla
+  - _id: 8TeddeoSbHRZkwIm
+    _key: "!tables.results!kz359Z2CPweeAYAM.8TeddeoSbHRZkwIm"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Kobby
+  - _id: h9P1KuUI5bbnHWOS
+    _key: "!tables.results!kz359Z2CPweeAYAM.h9P1KuUI5bbnHWOS"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Ebo
+  - _id: cGSBYYNukRlSN2b4
+    _key: "!tables.results!kz359Z2CPweeAYAM.cGSBYYNukRlSN2b4"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Kobi
+  - _id: wTpc5B8v4ub6foED
+    _key: "!tables.results!kz359Z2CPweeAYAM.wTpc5B8v4ub6foED"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kobina

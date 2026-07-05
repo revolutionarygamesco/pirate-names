@@ -1,0 +1,40 @@
+_id: LHTQniTTWtxvfJDF
+_key: "!tables!LHTQniTTWtxvfJDF"
+name: Akan Thursday Girl Names
+description: Names given to Akan girls born on Thursday.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: y3T8hDj8B54k81yL
+    _key: "!tables.results!LHTQniTTWtxvfJDF.y3T8hDj8B54k81yL"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Yaa
+  - _id: geCG0rcLCW4UYyjG
+    _key: "!tables.results!LHTQniTTWtxvfJDF.geCG0rcLCW4UYyjG"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Yaaba
+  - _id: RnP7oPKkgIklYWgP
+    _key: "!tables.results!LHTQniTTWtxvfJDF.RnP7oPKkgIklYWgP"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Yaba
+  - _id: ZIDBFKrQUC1NmXmp
+    _key: "!tables.results!LHTQniTTWtxvfJDF.ZIDBFKrQUC1NmXmp"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Abina

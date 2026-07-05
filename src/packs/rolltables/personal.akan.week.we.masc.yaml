@@ -1,0 +1,72 @@
+_id: z9IfTjKaGmJ25ey1
+_key: "!tables!z9IfTjKaGmJ25ey1"
+name: Akan Wednesday Boy Names
+description: Names given to Akan boys born on Wednesday.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: DGnM7JTDbFLxZOFd
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.DGnM7JTDbFLxZOFd"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kwaku
+  - _id: WwP3TujfhRutzVZq
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.WwP3TujfhRutzVZq"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Kukuuwa
+  - _id: vQsOCbcN8rfattly
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.vQsOCbcN8rfattly"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Koku
+  - _id: tAYgnyCeQl9iBBNX
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.tAYgnyCeQl9iBBNX"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kokou
+  - _id: 5JMnJuOWbDp0bg8y
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.5JMnJuOWbDp0bg8y"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Abeiku
+  - _id: sfxZRU8I7g38M2Pt
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.sfxZRU8I7g38M2Pt"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Kaku
+  - _id: IAhqX5wYYdG52ui9
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.IAhqX5wYYdG52ui9"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Kuuku
+  - _id: hufIiPkZlP22ICvY
+    _key: "!tables.results!z9IfTjKaGmJ25ey1.hufIiPkZlP22ICvY"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kweku

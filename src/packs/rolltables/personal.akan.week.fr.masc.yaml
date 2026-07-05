@@ -1,0 +1,56 @@
+_id: sN51ZjYJmeJ9zbku
+_key: "!tables!sN51ZjYJmeJ9zbku"
+name: Akan Friday Boy Names
+description: Names given to Akan boys born on Friday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: n7asXaVzvZFoTNDz
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.n7asXaVzvZFoTNDz"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kofi
+  - _id: jDGgBpEc8Or20P1s
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.jDGgBpEc8Or20P1s"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Fiifi
+  - _id: BWvEM7SBrpkArobN
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.BWvEM7SBrpkArobN"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Yoofi
+  - _id: 2eZKggtOLYQkeKpj
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.2eZKggtOLYQkeKpj"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Cuffee
+  - _id: 8MMLYxD01zuLDfwg
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.8MMLYxD01zuLDfwg"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Coffey
+  - _id: UIsmGCiPTxrb1A3y
+    _key: "!tables.results!sN51ZjYJmeJ9zbku.UIsmGCiPTxrb1A3y"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Cuffy

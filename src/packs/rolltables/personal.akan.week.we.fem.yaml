@@ -1,0 +1,40 @@
+_id: BviGWCXkoM6NFsmg
+_key: "!tables!BviGWCXkoM6NFsmg"
+name: Akan Wednesday Girl Names
+description: Names given to Akan girls born on Wednesday.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: 9Htio7NFktbIKvVR
+    _key: "!tables.results!BviGWCXkoM6NFsmg.9Htio7NFktbIKvVR"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Akua
+  - _id: XXeJ42aLAN6HVZb3
+    _key: "!tables.results!BviGWCXkoM6NFsmg.XXeJ42aLAN6HVZb3"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Akuba
+  - _id: EEWxAo25r7uVtrHq
+    _key: "!tables.results!BviGWCXkoM6NFsmg.EEWxAo25r7uVtrHq"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Akú
+  - _id: idB1tXgRrtXJEmkU
+    _key: "!tables.results!BviGWCXkoM6NFsmg.idB1tXgRrtXJEmkU"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Ekua

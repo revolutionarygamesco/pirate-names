@@ -1,0 +1,56 @@
+_id: Zyx3S4CaZcaRhZJ5
+_key: "!tables!Zyx3S4CaZcaRhZJ5"
+name: Akan Saturday Girl Names
+description: Names given to Akan girls born on Saturday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: Ec7hOypyAIItR0mc
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.Ec7hOypyAIItR0mc"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Amba
+  - _id: 6fN7BYrPyHMNDQmE
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.6fN7BYrPyHMNDQmE"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Ama
+  - _id: OSway3815jsvsfSl
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.OSway3815jsvsfSl"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ame
+  - _id: qvvuwEBwGLMxaUXP
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.qvvuwEBwGLMxaUXP"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Ami
+  - _id: 0OuB5kmBLyvB63qW
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.0OuB5kmBLyvB63qW"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Amma
+  - _id: be208vB0MiaZXQQV
+    _key: "!tables.results!Zyx3S4CaZcaRhZJ5.be208vB0MiaZXQQV"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Ameyo

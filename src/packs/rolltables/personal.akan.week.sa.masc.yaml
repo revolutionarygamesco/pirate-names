@@ -1,0 +1,56 @@
+_id: 6bVDNhiN1uXUhFEA
+_key: "!tables!6bVDNhiN1uXUhFEA"
+name: Akan Saturday Boy Names
+description: Names given to Akan boys born on Saturday.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: yoF5KxFyTOOBULvB
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.yoF5KxFyTOOBULvB"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kwame
+  - _id: 8elSO0x4ojTLOsNj
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.8elSO0x4ojTLOsNj"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Kwami
+  - _id: XF6YDwe4KdNn1cfO
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.XF6YDwe4KdNn1cfO"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Kuw-ame
+  - _id: Z9VhXBbhtEMGWVfA
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.Z9VhXBbhtEMGWVfA"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kwamena
+  - _id: 0FuUpw5KjMBhFE7A
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.0FuUpw5KjMBhFE7A"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Kwamina
+  - _id: MG1FRf8kwtI6P3nA
+    _key: "!tables.results!6bVDNhiN1uXUhFEA.MG1FRf8kwtI6P3nA"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Komi

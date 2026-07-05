@@ -1,0 +1,88 @@
+_id: 5ikjS0zIRZkJqgbR
+_key: "!tables!5ikjS0zIRZkJqgbR"
+name: Akan Monday Girl Names
+description: Names given to Akan girls born on Monday.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: SOksaK5zT0xQffzs
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.SOksaK5zT0xQffzs"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Adwoa
+  - _id: sy5LFE1eWuFnHDig
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.sy5LFE1eWuFnHDig"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Adjua
+  - _id: EOd846YL3TjtPjg2
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.EOd846YL3TjtPjg2"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ajwoba
+  - _id: R3kz9EgLsb0zPx1k
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.R3kz9EgLsb0zPx1k"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Adwoba
+  - _id: AYklVXgSEks1kWy2
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.AYklVXgSEks1kWy2"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Adjoa
+  - _id: 5y0DS8no4dhjt9Pb
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.5y0DS8no4dhjt9Pb"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Adjo
+  - _id: SRsL305oijncTrOJ
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.SRsL305oijncTrOJ"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: N’adjo
+  - _id: XgOy7i4Y1I0fcg6y
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.XgOy7i4Y1I0fcg6y"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: M’adjo
+  - _id: Lkoxw71EsIJvkCcM
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.Lkoxw71EsIJvkCcM"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Adjowa
+  - _id: kFTCw2QvjhVKr1G1
+    _key: "!tables.results!5ikjS0zIRZkJqgbR.kFTCw2QvjhVKr1G1"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Ajao

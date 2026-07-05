@@ -1,0 +1,808 @@
+_id: 6gusbvIigQXTCmPC
+_key: "!tables!6gusbvIigQXTCmPC"
+name: Asante Surnames
+description: Common Asante surnames.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: OA3vmPELqClbKePb
+    _key: "!tables.results!6gusbvIigQXTCmPC.OA3vmPELqClbKePb"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Abrafi
+  - _id: JFxg7zakRx9vBi47
+    _key: "!tables.results!6gusbvIigQXTCmPC.JFxg7zakRx9vBi47"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Appiah
+  - _id: eL6nqIBOmejKNGqR
+    _key: "!tables.results!6gusbvIigQXTCmPC.eL6nqIBOmejKNGqR"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Gyakari
+  - _id: ZyUNGX5cdpLdFnR6
+    _key: "!tables.results!6gusbvIigQXTCmPC.ZyUNGX5cdpLdFnR6"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Opare
+  - _id: g72zdS1hCI6E3qqJ
+    _key: "!tables.results!6gusbvIigQXTCmPC.g72zdS1hCI6E3qqJ"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Abrefa
+  - _id: 4eCw2AiLbkBfyc3U
+    _key: "!tables.results!6gusbvIigQXTCmPC.4eCw2AiLbkBfyc3U"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Asamoah
+  - _id: ZGb3bBrbuLA91yvA
+    _key: "!tables.results!6gusbvIigQXTCmPC.ZGb3bBrbuLA91yvA"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Gyamfi
+  - _id: 8XXrMvYPGg7Nmj99
+    _key: "!tables.results!6gusbvIigQXTCmPC.8XXrMvYPGg7Nmj99"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Opuni
+  - _id: e8vVw8jeGqFcKO0V
+    _key: "!tables.results!6gusbvIigQXTCmPC.e8vVw8jeGqFcKO0V"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Adade
+  - _id: XqtlHtZhcuo1LkGw
+    _key: "!tables.results!6gusbvIigQXTCmPC.XqtlHtZhcuo1LkGw"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Asare
+  - _id: sIXg5kDLN47i7vip
+    _key: "!tables.results!6gusbvIigQXTCmPC.sIXg5kDLN47i7vip"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Gyasi
+  - _id: 8HxVGBVDuBz3Suvm
+    _key: "!tables.results!6gusbvIigQXTCmPC.8HxVGBVDuBz3Suvm"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Osafo
+  - _id: hYCAO72o8nrEWQpl
+    _key: "!tables.results!6gusbvIigQXTCmPC.hYCAO72o8nrEWQpl"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Addai
+  - _id: DtjSwjIoHEyelHq4
+    _key: "!tables.results!6gusbvIigQXTCmPC.DtjSwjIoHEyelHq4"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Asenso
+  - _id: Bu0CnWnKPPTIJ6WP
+    _key: "!tables.results!6gusbvIigQXTCmPC.Bu0CnWnKPPTIJ6WP"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Inkoom
+  - _id: fJRxLju5nX9jnhnT
+    _key: "!tables.results!6gusbvIigQXTCmPC.fJRxLju5nX9jnhnT"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Osam
+  - _id: p7KtRprp9eX1ofzn
+    _key: "!tables.results!6gusbvIigQXTCmPC.p7KtRprp9eX1ofzn"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Addo
+  - _id: K3YH5K59qg9UAjhX
+    _key: "!tables.results!6gusbvIigQXTCmPC.K3YH5K59qg9UAjhX"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ashia
+  - _id: 7J7GjjwiolfBMNbG
+    _key: "!tables.results!6gusbvIigQXTCmPC.7J7GjjwiolfBMNbG"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Karikari
+  - _id: o2JWOdVHoYskreRq
+    _key: "!tables.results!6gusbvIigQXTCmPC.o2JWOdVHoYskreRq"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Otuo
+  - _id: vjflzlwGb6xDxobC
+    _key: "!tables.results!6gusbvIigQXTCmPC.vjflzlwGb6xDxobC"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Adomah
+  - _id: C159vwOVJUMIgnNm
+    _key: "!tables.results!6gusbvIigQXTCmPC.C159vwOVJUMIgnNm"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Asiedu
+  - _id: E6lgaNL4KWcI6Wi7
+    _key: "!tables.results!6gusbvIigQXTCmPC.E6lgaNL4KWcI6Wi7"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Kenu
+  - _id: aPuvrbhKG0b6EwX7
+    _key: "!tables.results!6gusbvIigQXTCmPC.aPuvrbhKG0b6EwX7"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Osei
+  - _id: PtbAn6GOnDHYsHbR
+    _key: "!tables.results!6gusbvIigQXTCmPC.PtbAn6GOnDHYsHbR"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Adomako
+  - _id: ZflAJo58RHMZv1qf
+    _key: "!tables.results!6gusbvIigQXTCmPC.ZflAJo58RHMZv1qf"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Asomadu
+  - _id: QwCez1Thc6Wgi9OH
+    _key: "!tables.results!6gusbvIigQXTCmPC.QwCez1Thc6Wgi9OH"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Koduah
+  - _id: JTqvsebf46TxobPz
+    _key: "!tables.results!6gusbvIigQXTCmPC.JTqvsebf46TxobPz"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Owusu
+  - _id: E19TEYJhgKy7J6Z9
+    _key: "!tables.results!6gusbvIigQXTCmPC.E19TEYJhgKy7J6Z9"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Adusei
+  - _id: HRZtCRTs2SHhB5lT
+    _key: "!tables.results!6gusbvIigQXTCmPC.HRZtCRTs2SHhB5lT"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Asubonteng
+  - _id: k9XquWvCvSsXirNl
+    _key: "!tables.results!6gusbvIigQXTCmPC.k9XquWvCvSsXirNl"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Kokote
+  - _id: zM1681gJfJeTJWUI
+    _key: "!tables.results!6gusbvIigQXTCmPC.zM1681gJfJeTJWUI"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Prempeh
+  - _id: bKP48eLtWJAL0IB9
+    _key: "!tables.results!6gusbvIigQXTCmPC.bKP48eLtWJAL0IB9"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Afreh
+  - _id: SO2UI02uiOktUuj6
+    _key: "!tables.results!6gusbvIigQXTCmPC.SO2UI02uiOktUuj6"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Ayeh
+  - _id: 0yhcqlPqHZfxV18o
+    _key: "!tables.results!6gusbvIigQXTCmPC.0yhcqlPqHZfxV18o"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Konadu
+  - _id: jmmJ8Ut5qf2x3FOW
+    _key: "!tables.results!6gusbvIigQXTCmPC.jmmJ8Ut5qf2x3FOW"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Quansah
+  - _id: IevwimCyzn8xwnqi
+    _key: "!tables.results!6gusbvIigQXTCmPC.IevwimCyzn8xwnqi"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Afram
+  - _id: ZTan826ZxbDHJ75h
+    _key: "!tables.results!6gusbvIigQXTCmPC.ZTan826ZxbDHJ75h"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Ayensu
+  - _id: ckm6rIKselXxiNxs
+    _key: "!tables.results!6gusbvIigQXTCmPC.ckm6rIKselXxiNxs"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Korsah
+  - _id: IzzsDsQgMOPpOI3V
+    _key: "!tables.results!6gusbvIigQXTCmPC.IzzsDsQgMOPpOI3V"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Sakyi
+  - _id: ZgL7I3s8EZxtoGJQ
+    _key: "!tables.results!6gusbvIigQXTCmPC.ZgL7I3s8EZxtoGJQ"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Afrane
+  - _id: 5id5AT5Lda6rRcvk
+    _key: "!tables.results!6gusbvIigQXTCmPC.5id5AT5Lda6rRcvk"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Awuah
+  - _id: O6d2lHPVU3JElt2X
+    _key: "!tables.results!6gusbvIigQXTCmPC.O6d2lHPVU3JElt2X"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Kumankama
+  - _id: o4g3GbGMspRQYTrh
+    _key: "!tables.results!6gusbvIigQXTCmPC.o4g3GbGMspRQYTrh"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Sarkodie
+  - _id: Jf8FrCkjLUeDBucE
+    _key: "!tables.results!6gusbvIigQXTCmPC.Jf8FrCkjLUeDBucE"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Afriyie
+  - _id: O8IhC8YK8zqcv2yB
+    _key: "!tables.results!6gusbvIigQXTCmPC.O8IhC8YK8zqcv2yB"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Baako
+  - _id: LRA9plG5xAeDKfIM
+    _key: "!tables.results!6gusbvIigQXTCmPC.LRA9plG5xAeDKfIM"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Kwaata
+  - _id: bgHMa35YpMgieUeu
+    _key: "!tables.results!6gusbvIigQXTCmPC.bgHMa35YpMgieUeu"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Sasraku
+  - _id: PQxQuzEUYLi40dEq
+    _key: "!tables.results!6gusbvIigQXTCmPC.PQxQuzEUYLi40dEq"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Ahinful
+  - _id: vzeFwTuld60JhQWc
+    _key: "!tables.results!6gusbvIigQXTCmPC.vzeFwTuld60JhQWc"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Banahene
+  - _id: zb3r9yvtD8bd19Vb
+    _key: "!tables.results!6gusbvIigQXTCmPC.zb3r9yvtD8bd19Vb"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Kwayie
+  - _id: QapVjIE5RVvdCAED
+    _key: "!tables.results!6gusbvIigQXTCmPC.QapVjIE5RVvdCAED"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Siaw
+  - _id: R0COHwnVtrMwJjDi
+    _key: "!tables.results!6gusbvIigQXTCmPC.R0COHwnVtrMwJjDi"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Akosah
+  - _id: WRdNiG0O2XT4If3M
+    _key: "!tables.results!6gusbvIigQXTCmPC.WRdNiG0O2XT4If3M"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Bekoe
+  - _id: 6dJFmdoRFoGJt6CY
+    _key: "!tables.results!6gusbvIigQXTCmPC.6dJFmdoRFoGJt6CY"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Misa
+  - _id: BNAomuLlptKdK880
+    _key: "!tables.results!6gusbvIigQXTCmPC.BNAomuLlptKdK880"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Sika
+  - _id: R978EbbnXZDKCwm7
+    _key: "!tables.results!6gusbvIigQXTCmPC.R978EbbnXZDKCwm7"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Akoto
+  - _id: abNKX1JY84dHQtDI
+    _key: "!tables.results!6gusbvIigQXTCmPC.abNKX1JY84dHQtDI"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Bemah
+  - _id: r89JbVt0SnkfKnoC
+    _key: "!tables.results!6gusbvIigQXTCmPC.r89JbVt0SnkfKnoC"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Munuo
+  - _id: erpQPCzBX67NvSyz
+    _key: "!tables.results!6gusbvIigQXTCmPC.erpQPCzBX67NvSyz"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Sikafuo
+  - _id: xFGft2wvIdSPqSvS
+    _key: "!tables.results!6gusbvIigQXTCmPC.xFGft2wvIdSPqSvS"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Akrofi
+  - _id: MJrUovk8SFfayq2a
+    _key: "!tables.results!6gusbvIigQXTCmPC.MJrUovk8SFfayq2a"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Boadi
+  - _id: mkySXRnjZDm31vdS
+    _key: "!tables.results!6gusbvIigQXTCmPC.mkySXRnjZDm31vdS"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Nuako
+  - _id: 1y36r9STezYAkuMp
+    _key: "!tables.results!6gusbvIigQXTCmPC.1y36r9STezYAkuMp"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Sintim
+  - _id: tWPf3cm9hzMhwfyj
+    _key: "!tables.results!6gusbvIigQXTCmPC.tWPf3cm9hzMhwfyj"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Akuffo
+  - _id: 3lxKSQnS0DaZTmvm
+    _key: "!tables.results!6gusbvIigQXTCmPC.3lxKSQnS0DaZTmvm"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Boadu
+  - _id: kZlbUZld2rM6MprV
+    _key: "!tables.results!6gusbvIigQXTCmPC.kZlbUZld2rM6MprV"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Nyantah
+  - _id: HF1ShZYbzsC9fgye
+    _key: "!tables.results!6gusbvIigQXTCmPC.HF1ShZYbzsC9fgye"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Sowah
+  - _id: 1xk2pZPPohhWISSS
+    _key: "!tables.results!6gusbvIigQXTCmPC.1xk2pZPPohhWISSS"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Amoah
+  - _id: ofQ6DAXhT09F7vcN
+    _key: "!tables.results!6gusbvIigQXTCmPC.ofQ6DAXhT09F7vcN"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Boamah
+  - _id: zXFVeAuukDYae9mS
+    _key: "!tables.results!6gusbvIigQXTCmPC.zXFVeAuukDYae9mS"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Oduro
+  - _id: t3Tnz77vUUB7NW4y
+    _key: "!tables.results!6gusbvIigQXTCmPC.t3Tnz77vUUB7NW4y"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Tagoe
+  - _id: 4qsZlocds0EaTT0Y
+    _key: "!tables.results!6gusbvIigQXTCmPC.4qsZlocds0EaTT0Y"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Amofah
+  - _id: llTkYD6Mh0h0L8OD
+    _key: "!tables.results!6gusbvIigQXTCmPC.llTkYD6Mh0h0L8OD"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Bonsu
+  - _id: mxiCf0d5eyxUt5Jf
+    _key: "!tables.results!6gusbvIigQXTCmPC.mxiCf0d5eyxUt5Jf"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Ofori
+  - _id: bJpmL84dTjB8xiNi
+    _key: "!tables.results!6gusbvIigQXTCmPC.bJpmL84dTjB8xiNi"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Takyi
+  - _id: Y3B6vSV3r2GbbKys
+    _key: "!tables.results!6gusbvIigQXTCmPC.Y3B6vSV3r2GbbKys"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Ampadu
+  - _id: QPgM4f0qakIXQfqm
+    _key: "!tables.results!6gusbvIigQXTCmPC.QPgM4f0qakIXQfqm"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Danso
+  - _id: 856kKhU7nMXaeb6g
+    _key: "!tables.results!6gusbvIigQXTCmPC.856kKhU7nMXaeb6g"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Ofosu
+  - _id: AragynLS9ctmoKq6
+    _key: "!tables.results!6gusbvIigQXTCmPC.AragynLS9ctmoKq6"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Tandoh
+  - _id: pbdzZ4u78YymUoVV
+    _key: "!tables.results!6gusbvIigQXTCmPC.pbdzZ4u78YymUoVV"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Andoh
+  - _id: lDvvMkME2KdESeAV
+    _key: "!tables.results!6gusbvIigQXTCmPC.lDvvMkME2KdESeAV"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Diawuo
+  - _id: G9WpOFm3ybTyvXZX
+    _key: "!tables.results!6gusbvIigQXTCmPC.G9WpOFm3ybTyvXZX"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Ohemeng
+  - _id: p27X0GuauG44kNOX
+    _key: "!tables.results!6gusbvIigQXTCmPC.p27X0GuauG44kNOX"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Tawiah
+  - _id: 2uiddkNuJEfMjzNv
+    _key: "!tables.results!6gusbvIigQXTCmPC.2uiddkNuJEfMjzNv"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Ankomah
+  - _id: J3471tjsLueDoV3c
+    _key: "!tables.results!6gusbvIigQXTCmPC.J3471tjsLueDoV3c"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Duah
+  - _id: 8xJlROjIymciXHX3
+    _key: "!tables.results!6gusbvIigQXTCmPC.8xJlROjIymciXHX3"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Ohene
+  - _id: Xx7UB5XtGJA0hiCA
+    _key: "!tables.results!6gusbvIigQXTCmPC.Xx7UB5XtGJA0hiCA"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Twasam
+  - _id: pv2iXxRY0O2N5AVA
+    _key: "!tables.results!6gusbvIigQXTCmPC.pv2iXxRY0O2N5AVA"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Ankrah
+  - _id: VcB9j5mvon0OI4Rp
+    _key: "!tables.results!6gusbvIigQXTCmPC.VcB9j5mvon0OI4Rp"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Ekuoba
+  - _id: UQfmPaIHFFpo64xW
+    _key: "!tables.results!6gusbvIigQXTCmPC.UQfmPaIHFFpo64xW"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Okese
+  - _id: oJEzXwSw8muMDAd2
+    _key: "!tables.results!6gusbvIigQXTCmPC.oJEzXwSw8muMDAd2"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Yamoah
+  - _id: WWWWgDcdqSR6QDLt
+    _key: "!tables.results!6gusbvIigQXTCmPC.WWWWgDcdqSR6QDLt"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Anokye
+  - _id: 8lS2Qt7jBcllgg8v
+    _key: "!tables.results!6gusbvIigQXTCmPC.8lS2Qt7jBcllgg8v"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Essien
+  - _id: d46Okjx9r0XzPOtW
+    _key: "!tables.results!6gusbvIigQXTCmPC.d46Okjx9r0XzPOtW"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Okoromansah
+  - _id: oug6aaW5uqO0KU7M
+    _key: "!tables.results!6gusbvIigQXTCmPC.oug6aaW5uqO0KU7M"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Yeboah
+  - _id: 0nqc7IqN3maUfbeL
+    _key: "!tables.results!6gusbvIigQXTCmPC.0nqc7IqN3maUfbeL"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ansah
+  - _id: 79J0JJ7MthnGTLNu
+    _key: "!tables.results!6gusbvIigQXTCmPC.79J0JJ7MthnGTLNu"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Fremah
+  - _id: h09usXmjsgnya1qX
+    _key: "!tables.results!6gusbvIigQXTCmPC.h09usXmjsgnya1qX"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Okyere
+  - _id: By5cRwvAccat3lpN
+    _key: "!tables.results!6gusbvIigQXTCmPC.By5cRwvAccat3lpN"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Yiadom

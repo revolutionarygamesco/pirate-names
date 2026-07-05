@@ -1,0 +1,40 @@
+_id: F4PzbpArSznQTDZz
+_key: "!tables!F4PzbpArSznQTDZz"
+name: Akan Sunday Boy Names
+description: Names given to Akan boys born on Sunday.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: GCl2Bah76kCAyX9o
+results:
+  - _id: Whsa6ttMdVWA0bP0
+    _key: "!tables.results!F4PzbpArSznQTDZz.Whsa6ttMdVWA0bP0"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kwasi
+  - _id: WHPoXi2E4qTjqi7x
+    _key: "!tables.results!F4PzbpArSznQTDZz.WHPoXi2E4qTjqi7x"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Silsi
+  - _id: 0DAz0qoFSCmpRP0M
+    _key: "!tables.results!F4PzbpArSznQTDZz.0DAz0qoFSCmpRP0M"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Akwasi
+  - _id: VpPWSdiDMUPHHuiv
+    _key: "!tables.results!F4PzbpArSznQTDZz.VpPWSdiDMUPHHuiv"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kosi
