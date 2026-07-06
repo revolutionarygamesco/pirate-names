@@ -1,5 +1,6 @@
 import { otherNames } from '../../ids.ts'
 import { pickWeekday } from '../weekday.ts'
+import check from '../check.ts'
 import roll from '../roll.ts'
 import rollTable from '../roll-table.ts'
 
@@ -133,11 +134,9 @@ const pickBirthOrder = async (): Promise<number | 'last'> => {
 }
 
 const pickTwin = async (): Promise<1 | 2 | false> => {
-  const isTwin = await roll('1d100')
-  if (isTwin > 3) return false
-
-  const whichTwin = await roll('1d20')
-  return whichTwin < 11 ? 1 : 2
+  if (await check('1d100', r => r > 3)) return false
+  const isFirst = await check('1d20', r => r <= 10)
+  return isFirst ? 1 : 2
 }
 
 const pickCircumstance = async (): Promise<string | null> => {
