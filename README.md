@@ -127,11 +127,19 @@ _Mostly_ this is a matter of calling `generateGivenName`, then
 ```typescript
 type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
+type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
+interface BirthCircumstances {
+  weekday: Weekday
+  order: number | 'last'
+  twin: 1 | 2 | false
+  special: string
+}
 
 async (
   nationality?: Nationality,
   gender?: Gender,
-  whisper?: string[]
+  whisper?: string[],
+  circumstances?: Partial<BirthCircumstances>
 ) => Promise<string>
 ```
 
@@ -156,6 +164,46 @@ with equal chances of getting `Masculine` or `Feminine`.
 
 A string of user IDs. If provided, a message will be whispered to these users
 with the generated name.
+
+#### `options.circumstances`
+
+Several West African naming traditions include special names reserved for those
+born under specific circumstances. This object gives you the opportunity to
+specify those as needed; otherwise, they are randomized.
+
+##### `options.circumstances.weekday`
+
+The day of the week on which this person was born. This is an important part of
+Akan, Fon, and Igbo names.
+
+##### `options.circumstances.order`
+
+Birth order (`1` for the first-born, `2` for the second-born, and so on, up to
+`13`). This is used in Akan names, while `last` can also be a part of a Bantu
+name.
+
+##### `options.circumstances.twin`
+
+Akan, Bantu, Fon, and Yoruba all have special names reserved for the first and
+second twin. `1` indicates the older twin, `2` the younger twin, and `false`
+that this person is _not_ a twin. Leave undefined to leave it up to chance.
+
+##### `options.circumstances.special`
+
+A range of special names commemorating special circumstances around the
+child’s birth.
+
+| Culture(s) | Code         | Meaning                                        |
+|------------|--------------|------------------------------------------------|
+| Akan       | `sickly`     | Born premature or sickly.                      |
+| Akan       | `field`      | Born in the field.                             |
+| Akan       | `war`        | Born during a time of war.                     |
+| Akan       | `road`       | Born on the road.                              |
+| Akan       | `fatherless` | The child’s father died before they were born. |
+| Akan       | `happy`      | A child born under happy circumstances.        |
+| Akan       | `loves`      | One who loves.                                 |
+| Akan       | `great`      | Great one.                                     |
+| Akan       | `forceful`   | Forceful.                                      |
 
 _Default_: `undefined`
 
