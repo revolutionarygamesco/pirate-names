@@ -4,7 +4,7 @@ import {
   weekdayNames
 } from './weekday.ts'
 
-jest.mock('./wrapper.ts', () => ({
+jest.mock('../wrapper.ts', () => ({
   fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Friday' }] } } })
 }))
 

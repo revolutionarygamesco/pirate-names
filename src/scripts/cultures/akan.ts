@@ -1,5 +1,5 @@
 import { otherNames } from '../../ids.ts'
-import { pickWeekday } from '../weekday.ts'
+import { pickWeekday } from '../enums/weekday.ts'
 import check from '../randomizers/check.ts'
 import roll from '../randomizers/roll.ts'
 import rollTable from '../randomizers/roll-table.ts'

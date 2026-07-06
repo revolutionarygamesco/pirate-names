@@ -1,5 +1,5 @@
-import { weekdays } from '../ids.ts'
-import rollTable from './randomizers/roll-table.ts'
+import { weekdays } from '../../ids.ts'
+import rollTable from '../randomizers/roll-table.ts'
 
 export const weekdayNames: Weekday[] = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 

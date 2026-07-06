@@ -1,6 +1,6 @@
 import { isGender, pickGender, genders } from './gender.ts'
 
-jest.mock('./wrapper.ts', () => ({
+jest.mock('../wrapper.ts', () => ({
   fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Feminine' }] } } })
 }))
 

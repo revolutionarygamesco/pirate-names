@@ -2,7 +2,7 @@ import { MODULE_ID } from './settings.ts'
 import { surnames } from '../ids.ts'
 import rollTable from './randomizers/roll-table.ts'
 import whisperMessage from './whisper.ts'
-import { pickNationality } from './nationality.ts'
+import { pickNationality } from './enums/nationality.ts'
 import { localize } from './wrapper.ts'
 
 const generateSurname = async (

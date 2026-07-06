@@ -9,8 +9,8 @@ import generateScottishName from './cultures/scottish.ts'
 import generateSpanishName from './cultures/spanish.ts'
 import generateWelshName from './cultures/welsh.ts'
 import whisperMessage from './whisper.ts'
-import { pickGender } from './gender.ts'
-import { pickNationality } from './nationality.ts'
+import { pickGender } from './enums/gender.ts'
+import { pickNationality } from './enums/nationality.ts'
 import { localize } from './wrapper.ts'
 
 type Generator = (

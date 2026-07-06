@@ -1,5 +1,5 @@
-import { genders as id } from '../ids.ts'
-import rollTable from './randomizers/roll-table.ts'
+import { genders as id } from '../../ids.ts'
+import rollTable from '../randomizers/roll-table.ts'
 
 export const genders: Gender[] = ['Feminine', 'Masculine']
 

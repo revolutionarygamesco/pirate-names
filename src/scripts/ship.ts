@@ -1,7 +1,7 @@
 import { MODULE_ID } from './settings.ts'
 import { shipNames, pirateNames } from '../ids.ts'
 import { localize } from './wrapper.ts'
-import { pickColors } from './nationality.ts'
+import { pickColors } from './enums/nationality.ts'
 import rollTable from './randomizers/roll-table.ts'
 import whisperMessage from './whisper.ts'
 

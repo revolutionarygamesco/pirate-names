@@ -1,7 +1,7 @@
 import { MODULE_ID } from '../settings.ts'
 import { localize } from '../wrapper.ts'
-import { isNationality, pickNationality } from '../nationality.ts'
-import { isGender, pickGender } from '../gender.ts'
+import { isNationality, pickNationality } from '../enums/nationality.ts'
+import { isGender, pickGender } from '../enums/gender.ts'
 import generateName from '../full.ts'
 
 const defaultOnComplete = async (nation: string, gender: string) => {
