@@ -1,4 +1,4 @@
-export const givenNames: Record<Nationality, Record<Gender, string>> = {
+export const givenNames: Record<string, Record<Gender, string>> = {
   Spanish: {
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.7RbOJKmELYZF6aX7',
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.2nlXu7X2BWOsp7oi'
@@ -33,7 +33,7 @@ export const givenNames: Record<Nationality, Record<Gender, string>> = {
   }
 }
 
-export const surnames: Record<Nationality, string> = {
+export const surnames: Record<string, string> = {
   Spanish: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zWWy0a2DiYQ9bdqe',
   English: 'Compendium.revolutionary-piratenames.rolltables.RollTable.EVtxLwQ1W8ML3vKL',
   French: 'Compendium.revolutionary-piratenames.rolltables.RollTable.bT9wBtgWV3ZA0sMr',
@@ -42,6 +42,42 @@ export const surnames: Record<Nationality, string> = {
   Welsh: 'Compendium.revolutionary-piratenames.rolltables.RollTable.HsshgplTIrOwI4xH',
   Irish: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FIDGyWGEFEw1I5iW',
   Portuguese: 'Compendium.revolutionary-piratenames.rolltables.RollTable.YnfyDSNUGMgycTHm'
+}
+
+export const otherNames: Record<string, any> = {
+  Akan: {
+    WeekdayNames: {
+      Sunday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.F4PzbpArSznQTDZz',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.d6TMjqiTUF3jZzRz'
+      },
+      Monday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.o9m52eiGNLe2Tv6X',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.5ikjS0zIRZkJqgbR'
+      },
+      Tuesday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.kz359Z2CPweeAYAM',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.ZoTYUnGdgqkAHoAL'
+      },
+      Wednesday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.z9IfTjKaGmJ25ey1',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.BviGWCXkoM6NFsmg'
+      },
+      Thursday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.uL1wjWWBDnVTHxB0',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.LHTQniTTWtxvfJDF'
+      },
+      Friday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.sN51ZjYJmeJ9zbku',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.NxvZ04Dn2cjkamMl'
+      },
+      Saturday: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6bVDNhiN1uXUhFEA',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Zyx3S4CaZcaRhZJ5'
+      }
+    },
+    Surnames: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6gusbvIigQXTCmPC'
+  }
 }
 
 export const pirateNames = 'Compendium.revolutionary-piratenames.rolltables.RollTable.ScPMf8BdSRKDbFKF'

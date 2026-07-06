@@ -2,7 +2,8 @@ import { nation } from '../ids.ts'
 import rollTable from './roll-table.ts'
 
 export const colors: Colors[] = ['Spanish', 'British', 'French', 'Dutch']
-export const nationalities: Nationality[] = ['Spanish', 'English', 'French', 'Dutch', 'Scottish', 'Welsh', 'Irish', 'Portuguese']
+export const nationalities: Nationality[] = ['Akan', 'Spanish', 'English',
+  'French', 'Dutch', 'Scottish', 'Welsh', 'Irish', 'Portuguese']
 
 export const isColors = (candidate: unknown): candidate is Colors => {
   if (typeof candidate !== 'string') return false

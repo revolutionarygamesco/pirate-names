@@ -71,7 +71,7 @@ declare const foundry: {
   }
 }
 
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese'
+type Nationality = 'Akan' | 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese'
 type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
@@ -101,4 +101,11 @@ interface GenerateShipNameOptions {
 interface SpanishShipName {
   religious: string
   secular: string
+}
+
+interface BirthCircumstances {
+  weekday: Weekday
+  order: number | 'last'
+  twin: 1 | 2 | false
+  special: string
 }
