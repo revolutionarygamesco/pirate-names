@@ -1,5 +1,5 @@
-import generateGivenName from '../given.ts'
-import generateSurname from '../surname.ts'
+import generateGivenName from './given.ts'
+import generateSurname from './surname.ts'
 
 const generateBasicName = async (
   nationality: Nationality,

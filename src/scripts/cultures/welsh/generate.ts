@@ -1,4 +1,4 @@
-import generateBasicName from './basic.ts'
+import generateBasicName from '../../basic.ts'
 
 const generateWelshName = async (
   gender: Gender

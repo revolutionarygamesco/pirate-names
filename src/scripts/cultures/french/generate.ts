@@ -1,6 +1,6 @@
-import check from '../randomizers/check.ts'
-import generateGivenName from '../given.ts'
-import generateSurname from '../surname.ts'
+import check from '../../randomizers/check.ts'
+import generateGivenName from '../../given.ts'
+import generateSurname from '../../surname.ts'
 
 const jeanable = ['Baptiste', 'Paul', 'Pierre', 'Louis', 'Claude', 'François',
   'Jacques', 'Charles', 'Michel', 'Joseph', 'Marc', 'Luc', 'Philippe',
