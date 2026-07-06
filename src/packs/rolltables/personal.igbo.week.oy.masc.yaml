@@ -1,0 +1,40 @@
+_id: cI7heAYS1tbv5fnl
+_key: "!tables!cI7heAYS1tbv5fnl"
+name: Igbo Oye-Born Masculine Names
+description: A selection of names for Igbo men born on Oye/Orie/Olie.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: 1xfXqxHGI55gvdB1
+    _key: "!tables.results!cI7heAYS1tbv5fnl.1xfXqxHGI55gvdB1"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Okorie
+  - _id: A9ax1X12m8W8YNJ1
+    _key: "!tables.results!cI7heAYS1tbv5fnl.A9ax1X12m8W8YNJ1"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Okoli
+  - _id: QKEEpX0rz8O9yHVk
+    _key: "!tables.results!cI7heAYS1tbv5fnl.QKEEpX0rz8O9yHVk"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nworie
+  - _id: HBu6SIXn0anAQR5N
+    _key: "!tables.results!cI7heAYS1tbv5fnl.HBu6SIXn0anAQR5N"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Wolie

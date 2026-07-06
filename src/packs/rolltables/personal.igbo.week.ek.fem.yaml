@@ -1,0 +1,40 @@
+_id: xirRaiEMQxffat2i
+_key: "!tables!xirRaiEMQxffat2i"
+name: Igbo Eke-Born Feminine Names
+description: A selection of names for Igbo women born on Eke.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: MmIRhLAaScoT8MXa
+    _key: "!tables.results!xirRaiEMQxffat2i.MmIRhLAaScoT8MXa"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Mgbeke
+  - _id: V3qbJgJOWHtkEsvN
+    _key: "!tables.results!xirRaiEMQxffat2i.V3qbJgJOWHtkEsvN"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Nweke
+  - _id: V4bbh3aUMdLowiDT
+    _key: "!tables.results!xirRaiEMQxffat2i.V4bbh3aUMdLowiDT"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ugweke
+  - _id: AqDPcbYpToi36IJD
+    _key: "!tables.results!xirRaiEMQxffat2i.AqDPcbYpToi36IJD"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Ekemma

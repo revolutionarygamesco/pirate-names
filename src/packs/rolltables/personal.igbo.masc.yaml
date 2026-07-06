@@ -1,0 +1,776 @@
+_id: suEpqqiTqsZc1v0v
+_key: "!tables!suEpqqiTqsZc1v0v"
+name: Igbo Masculine Names
+description: A selection of Igbo masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: bXyTUOkw1oGVtq6f
+    _key: "!tables.results!suEpqqiTqsZc1v0v.bXyTUOkw1oGVtq6f"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ouequeque
+  - _id: IxEZoXD1ATWlaCtx
+    _key: "!tables.results!suEpqqiTqsZc1v0v.IxEZoXD1ATWlaCtx"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Dgiadgisey
+  - _id: SDl693xOR9mP2ukM
+    _key: "!tables.results!suEpqqiTqsZc1v0v.SDl693xOR9mP2ukM"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Théoucou
+  - _id: nT4ydJkKuI0rnEZd
+    _key: "!tables.results!suEpqqiTqsZc1v0v.nT4ydJkKuI0rnEZd"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ouda
+  - _id: gR2B12FjmMkK0IKf
+    _key: "!tables.results!suEpqqiTqsZc1v0v.gR2B12FjmMkK0IKf"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Amouneka
+  - _id: tIMWSeQI9PZrHW5p
+    _key: "!tables.results!suEpqqiTqsZc1v0v.tIMWSeQI9PZrHW5p"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Oclo
+  - _id: cE7KlApXlfdki2Rn
+    _key: "!tables.results!suEpqqiTqsZc1v0v.cE7KlApXlfdki2Rn"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Makiku
+  - _id: wYUWEWzcB3eBHAxS
+    _key: "!tables.results!suEpqqiTqsZc1v0v.wYUWEWzcB3eBHAxS"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Abara
+  - _id: 11f1iggPrv9zQAE3
+    _key: "!tables.results!suEpqqiTqsZc1v0v.11f1iggPrv9zQAE3"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Anohoké
+  - _id: JyksWwuBgxJ3t9z8
+    _key: "!tables.results!suEpqqiTqsZc1v0v.JyksWwuBgxJ3t9z8"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ouhan
+  - _id: D0xvB6MEE7QLUGo3
+    _key: "!tables.results!suEpqqiTqsZc1v0v.D0xvB6MEE7QLUGo3"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Akoualan
+  - _id: 7g4pZJAHBilN9OIB
+    _key: "!tables.results!suEpqqiTqsZc1v0v.7g4pZJAHBilN9OIB"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Ouangnon
+  - _id: 6uDgDS5w7fXjmsFY
+    _key: "!tables.results!suEpqqiTqsZc1v0v.6uDgDS5w7fXjmsFY"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Adou
+  - _id: 9sW0Pj5O3V7LD5Ht
+    _key: "!tables.results!suEpqqiTqsZc1v0v.9sW0Pj5O3V7LD5Ht"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Apa
+  - _id: E0rnADHJjU3FBawu
+    _key: "!tables.results!suEpqqiTqsZc1v0v.E0rnADHJjU3FBawu"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Auboulindaca
+  - _id: YcrONn4OpuWdITp2
+    _key: "!tables.results!suEpqqiTqsZc1v0v.YcrONn4OpuWdITp2"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Okoli
+  - _id: FTEmhoKxsPFIDp0a
+    _key: "!tables.results!suEpqqiTqsZc1v0v.FTEmhoKxsPFIDp0a"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Ebou
+  - _id: GfJXHgjEEMuv9Kin
+    _key: "!tables.results!suEpqqiTqsZc1v0v.GfJXHgjEEMuv9Kin"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Onou
+  - _id: fEV297tqWZocRji0
+    _key: "!tables.results!suEpqqiTqsZc1v0v.fEV297tqWZocRji0"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Ounoquia
+  - _id: oyWvGJnALhs8hGR9
+    _key: "!tables.results!suEpqqiTqsZc1v0v.oyWvGJnALhs8hGR9"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Oudouga
+  - _id: qmy1kHiNsu9Mo0Zm
+    _key: "!tables.results!suEpqqiTqsZc1v0v.qmy1kHiNsu9Mo0Zm"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Ra
+  - _id: LM5EwxkwcjdyMkzU
+    _key: "!tables.results!suEpqqiTqsZc1v0v.LM5EwxkwcjdyMkzU"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Izou
+  - _id: i0POhfnJ1gVBJ6v6
+    _key: "!tables.results!suEpqqiTqsZc1v0v.i0POhfnJ1gVBJ6v6"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Guélé
+  - _id: WSPJdX6yg2D4C2QL
+    _key: "!tables.results!suEpqqiTqsZc1v0v.WSPJdX6yg2D4C2QL"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Oubrequé
+  - _id: xQ5DlB0043ZXwFOW
+    _key: "!tables.results!suEpqqiTqsZc1v0v.xQ5DlB0043ZXwFOW"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Ounehoudé
+  - _id: ACCo0xbx50OJTfEj
+    _key: "!tables.results!suEpqqiTqsZc1v0v.ACCo0xbx50OJTfEj"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Oudé
+  - _id: QClSEvxHbOLBSLgm
+    _key: "!tables.results!suEpqqiTqsZc1v0v.QClSEvxHbOLBSLgm"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Aglebou
+  - _id: 97fl7I1yYQ1iMBsQ
+    _key: "!tables.results!suEpqqiTqsZc1v0v.97fl7I1yYQ1iMBsQ"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Amouchekoi
+  - _id: xFJhgkT262FDJUcO
+    _key: "!tables.results!suEpqqiTqsZc1v0v.xFJhgkT262FDJUcO"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Auguanou
+  - _id: kkRzACDmk29NJAU9
+    _key: "!tables.results!suEpqqiTqsZc1v0v.kkRzACDmk29NJAU9"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Oukoibi
+  - _id: DB7tWGBWkv3otzkW
+    _key: "!tables.results!suEpqqiTqsZc1v0v.DB7tWGBWkv3otzkW"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Omokou
+  - _id: YAKAzXOjWOgXLhRK
+    _key: "!tables.results!suEpqqiTqsZc1v0v.YAKAzXOjWOgXLhRK"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Oéraro
+  - _id: B2sLuJCHnzTDr14j
+    _key: "!tables.results!suEpqqiTqsZc1v0v.B2sLuJCHnzTDr14j"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Amé
+  - _id: RsDevfDFPeRrrCdM
+    _key: "!tables.results!suEpqqiTqsZc1v0v.RsDevfDFPeRrrCdM"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Apa
+  - _id: cauphEnzoUJDMHX2
+    _key: "!tables.results!suEpqqiTqsZc1v0v.cauphEnzoUJDMHX2"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Emédikué
+  - _id: gkTWw88tlyjrlcRZ
+    _key: "!tables.results!suEpqqiTqsZc1v0v.gkTWw88tlyjrlcRZ"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Madé
+  - _id: YTeGNRt6eNCRq7SB
+    _key: "!tables.results!suEpqqiTqsZc1v0v.YTeGNRt6eNCRq7SB"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Equiben
+  - _id: WfxfNItyMmEjuy85
+    _key: "!tables.results!suEpqqiTqsZc1v0v.WfxfNItyMmEjuy85"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Ankézoné
+  - _id: GR7lJFvCnCYGVUKu
+    _key: "!tables.results!suEpqqiTqsZc1v0v.GR7lJFvCnCYGVUKu"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Akouré
+  - _id: 7nPUCvYXRPz3DPAH
+    _key: "!tables.results!suEpqqiTqsZc1v0v.7nPUCvYXRPz3DPAH"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Ouenquoin
+  - _id: VOdSUMLAsXDOTKvS
+    _key: "!tables.results!suEpqqiTqsZc1v0v.VOdSUMLAsXDOTKvS"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Annoliben
+  - _id: cZu2XpR8gGQsCMYx
+    _key: "!tables.results!suEpqqiTqsZc1v0v.cZu2XpR8gGQsCMYx"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Inkésé
+  - _id: lL2KCbYlbFftGQrd
+    _key: "!tables.results!suEpqqiTqsZc1v0v.lL2KCbYlbFftGQrd"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Ouenquoin
+  - _id: HwCP7ktoHWYhJYQy
+    _key: "!tables.results!suEpqqiTqsZc1v0v.HwCP7ktoHWYhJYQy"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: 9Bibi
+  - _id: y6SYBIRXOT5sXDC3
+    _key: "!tables.results!suEpqqiTqsZc1v0v.y6SYBIRXOT5sXDC3"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: 6Ouquédi
+  - _id: gaH72Snh96B6Oh5m
+    _key: "!tables.results!suEpqqiTqsZc1v0v.gaH72Snh96B6Oh5m"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: 5Oucaordon
+  - _id: FzFpmO9zvJ3c1wB4
+    _key: "!tables.results!suEpqqiTqsZc1v0v.FzFpmO9zvJ3c1wB4"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: 3Inouebon
+  - _id: s9j3P7gHrsdB6rFG
+    _key: "!tables.results!suEpqqiTqsZc1v0v.s9j3P7gHrsdB6rFG"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Ougeromba
+  - _id: S8AHgzDT5Nq8INBx
+    _key: "!tables.results!suEpqqiTqsZc1v0v.S8AHgzDT5Nq8INBx"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: 2Vaniclei
+  - _id: IRC8SBGnocuVBCZY
+    _key: "!tables.results!suEpqqiTqsZc1v0v.IRC8SBGnocuVBCZY"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: 4Oupagne
+  - _id: eye9U9tL3WVqnOcD
+    _key: "!tables.results!suEpqqiTqsZc1v0v.eye9U9tL3WVqnOcD"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: 6Ouquédi
+  - _id: DP7iZSc5l3y9Uvrx
+    _key: "!tables.results!suEpqqiTqsZc1v0v.DP7iZSc5l3y9Uvrx"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: 8Yaleramen
+  - _id: NXyWst01Qf2c1H2L
+    _key: "!tables.results!suEpqqiTqsZc1v0v.NXyWst01Qf2c1H2L"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Ouanahan
+  - _id: KxN4amPAiRDWz0Mh
+    _key: "!tables.results!suEpqqiTqsZc1v0v.KxN4amPAiRDWz0Mh"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Aujauké
+  - _id: FnhHUBAFK2yNigc6
+    _key: "!tables.results!suEpqqiTqsZc1v0v.FnhHUBAFK2yNigc6"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Ora
+  - _id: Fg1FxJFZl9YT5KnO
+    _key: "!tables.results!suEpqqiTqsZc1v0v.Fg1FxJFZl9YT5KnO"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Ezé
+  - _id: 0Bd48j998vqhdWrU
+    _key: "!tables.results!suEpqqiTqsZc1v0v.0Bd48j998vqhdWrU"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Eglémadé
+  - _id: FKlMEGrltiBi4tGd
+    _key: "!tables.results!suEpqqiTqsZc1v0v.FKlMEGrltiBi4tGd"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Anobi
+  - _id: tGB0DT9ULTF4rDdd
+    _key: "!tables.results!suEpqqiTqsZc1v0v.tGB0DT9ULTF4rDdd"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Egoudin
+  - _id: GxdfTdoc0cJQDdDj
+    _key: "!tables.results!suEpqqiTqsZc1v0v.GxdfTdoc0cJQDdDj"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Oueké
+  - _id: ZoMMCjLvXN6rG8Ot
+    _key: "!tables.results!suEpqqiTqsZc1v0v.ZoMMCjLvXN6rG8Ot"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Ogon
+  - _id: 6f5suaLMccHkgkFj
+    _key: "!tables.results!suEpqqiTqsZc1v0v.6f5suaLMccHkgkFj"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Ouqué
+  - _id: QqmKP19wxRMnkZKz
+    _key: "!tables.results!suEpqqiTqsZc1v0v.QqmKP19wxRMnkZKz"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Eken
+  - _id: Rur4ZR4AfKQxuQov
+    _key: "!tables.results!suEpqqiTqsZc1v0v.Rur4ZR4AfKQxuQov"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Issou
+  - _id: 0NYhoK8HNq7ol8yX
+    _key: "!tables.results!suEpqqiTqsZc1v0v.0NYhoK8HNq7ol8yX"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Eméqueke
+  - _id: 1CbBvYevGyyhcUdl
+    _key: "!tables.results!suEpqqiTqsZc1v0v.1CbBvYevGyyhcUdl"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Oukoi
+  - _id: qCdqNn4CLx9KxBm2
+    _key: "!tables.results!suEpqqiTqsZc1v0v.qCdqNn4CLx9KxBm2"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Oukan
+  - _id: ttAjmNJ0AYbWPPDO
+    _key: "!tables.results!suEpqqiTqsZc1v0v.ttAjmNJ0AYbWPPDO"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Alamouhi
+  - _id: sL09yrKPoq4r2f2f
+    _key: "!tables.results!suEpqqiTqsZc1v0v.sL09yrKPoq4r2f2f"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Oupabia
+  - _id: RWiNh2m7whyOyzyg
+    _key: "!tables.results!suEpqqiTqsZc1v0v.RWiNh2m7whyOyzyg"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Kikou
+  - _id: 6kz3XQdcZuZJw0qo
+    _key: "!tables.results!suEpqqiTqsZc1v0v.6kz3XQdcZuZJw0qo"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Madabou
+  - _id: RVSKJQglMfTNE4Ow
+    _key: "!tables.results!suEpqqiTqsZc1v0v.RVSKJQglMfTNE4Ow"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Aoulourou
+  - _id: FWvT0NpFfHnAeV45
+    _key: "!tables.results!suEpqqiTqsZc1v0v.FWvT0NpFfHnAeV45"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Ougeroi
+  - _id: ufqEtFhWaj198S4Q
+    _key: "!tables.results!suEpqqiTqsZc1v0v.ufqEtFhWaj198S4Q"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Irouen
+  - _id: 0cHe1LfVAt6ZBKSP
+    _key: "!tables.results!suEpqqiTqsZc1v0v.0cHe1LfVAt6ZBKSP"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Chactcha
+  - _id: 7gCIggSqM1uPJLvG
+    _key: "!tables.results!suEpqqiTqsZc1v0v.7gCIggSqM1uPJLvG"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Ounobi
+  - _id: 05nMShwYRqb7XAyh
+    _key: "!tables.results!suEpqqiTqsZc1v0v.05nMShwYRqb7XAyh"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Aougie
+  - _id: HDvY2n2yaAWjhEEO
+    _key: "!tables.results!suEpqqiTqsZc1v0v.HDvY2n2yaAWjhEEO"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Opran
+  - _id: WQxLdHl0WP1TPY9n
+    _key: "!tables.results!suEpqqiTqsZc1v0v.WQxLdHl0WP1TPY9n"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Atolo
+  - _id: MpUkAx0rOb9wC7qi
+    _key: "!tables.results!suEpqqiTqsZc1v0v.MpUkAx0rOb9wC7qi"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Echauwale
+  - _id: Kxt7yZZ977rkO5jp
+    _key: "!tables.results!suEpqqiTqsZc1v0v.Kxt7yZZ977rkO5jp"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Madaka
+  - _id: AwGpYLmIyiZE9ps9
+    _key: "!tables.results!suEpqqiTqsZc1v0v.AwGpYLmIyiZE9ps9"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Amandé
+  - _id: EYwyjDCU5h1NURAA
+    _key: "!tables.results!suEpqqiTqsZc1v0v.EYwyjDCU5h1NURAA"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Ouarie
+  - _id: q6XJJXLnoimbIhYy
+    _key: "!tables.results!suEpqqiTqsZc1v0v.q6XJJXLnoimbIhYy"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ankolo
+  - _id: TIP69feMiqctdKzO
+    _key: "!tables.results!suEpqqiTqsZc1v0v.TIP69feMiqctdKzO"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Irouen
+  - _id: roWuuiw9HTHUzGd4
+    _key: "!tables.results!suEpqqiTqsZc1v0v.roWuuiw9HTHUzGd4"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Bouchié
+  - _id: 3mLlpYKIdbDyYmK6
+    _key: "!tables.results!suEpqqiTqsZc1v0v.3mLlpYKIdbDyYmK6"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Oukoukoin
+  - _id: w28db84G4Lfm4D9l
+    _key: "!tables.results!suEpqqiTqsZc1v0v.w28db84G4Lfm4D9l"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Igidam
+  - _id: ouFpC4sIFO3gHv0z
+    _key: "!tables.results!suEpqqiTqsZc1v0v.ouFpC4sIFO3gHv0z"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Ouoli
+  - _id: CsjR74wQcgGeLQWT
+    _key: "!tables.results!suEpqqiTqsZc1v0v.CsjR74wQcgGeLQWT"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Egabou
+  - _id: jIuZE50ZDYMKhp7W
+    _key: "!tables.results!suEpqqiTqsZc1v0v.jIuZE50ZDYMKhp7W"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Echiaou
+  - _id: LSD1IZbCe7GGJyy0
+    _key: "!tables.results!suEpqqiTqsZc1v0v.LSD1IZbCe7GGJyy0"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Ebehouzi
+  - _id: Ww5VOFkeKRFsvIOI
+    _key: "!tables.results!suEpqqiTqsZc1v0v.Ww5VOFkeKRFsvIOI"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Igou
+  - _id: MMiKIPJ8ZzXzx66y
+    _key: "!tables.results!suEpqqiTqsZc1v0v.MMiKIPJ8ZzXzx66y"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Ouacoutihi
+  - _id: bD4metibX9ILNJLC
+    _key: "!tables.results!suEpqqiTqsZc1v0v.bD4metibX9ILNJLC"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Hiamanneké
+  - _id: PyePoyL4wRTRqz3x
+    _key: "!tables.results!suEpqqiTqsZc1v0v.PyePoyL4wRTRqz3x"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Alou

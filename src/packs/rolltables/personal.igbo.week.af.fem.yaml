@@ -1,0 +1,40 @@
+_id: RWfP0OYZBXeyd8ne
+_key: "!tables!RWfP0OYZBXeyd8ne"
+name: Igbo Afor-Born Feminine Names
+description: A selection of names for Igbo women born on Afor.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: 4k5htK4lfBHzh3kf
+    _key: "!tables.results!RWfP0OYZBXeyd8ne.4k5htK4lfBHzh3kf"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Mgbafor
+  - _id: nsTNpGVY9NiqhY0A
+    _key: "!tables.results!RWfP0OYZBXeyd8ne.nsTNpGVY9NiqhY0A"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Mgbọafọ
+  - _id: Gj8dmXv3yqf5zyLZ
+    _key: "!tables.results!RWfP0OYZBXeyd8ne.Gj8dmXv3yqf5zyLZ"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nwafọ
+  - _id: HSzb2EVhIbjQOCBX
+    _key: "!tables.results!RWfP0OYZBXeyd8ne.HSzb2EVhIbjQOCBX"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Afọamaka

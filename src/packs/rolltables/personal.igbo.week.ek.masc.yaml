@@ -1,0 +1,40 @@
+_id: 7gE1hyJlwt1u9oHL
+_key: "!tables!7gE1hyJlwt1u9oHL"
+name: Igbo Eke-Born Masculine Names
+description: A selection of names for Igbo men born on Eke.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: OIqg5o06iDDsdh9a
+    _key: "!tables.results!7gE1hyJlwt1u9oHL.OIqg5o06iDDsdh9a"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Okoeke
+  - _id: JHj4KDxuA6EG5VkJ
+    _key: "!tables.results!7gE1hyJlwt1u9oHL.JHj4KDxuA6EG5VkJ"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Okoloeke
+  - _id: VG54oUGS9SNS7gtR
+    _key: "!tables.results!7gE1hyJlwt1u9oHL.VG54oUGS9SNS7gtR"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nweke
+  - _id: FqX9WwtqZDyCu2Rx
+    _key: "!tables.results!7gE1hyJlwt1u9oHL.FqX9WwtqZDyCu2Rx"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Weke

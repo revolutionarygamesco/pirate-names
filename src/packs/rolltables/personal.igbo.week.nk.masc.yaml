@@ -1,0 +1,40 @@
+_id: zTqHX0nG0RHhMPbF
+_key: "!tables!zTqHX0nG0RHhMPbF"
+name: Igbo Nkwo-Born Masculine Names
+description: A selection of names for Igbo men born on Nkwo.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: POrZsPnTH1yR3mAP
+    _key: "!tables.results!zTqHX0nG0RHhMPbF.POrZsPnTH1yR3mAP"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Okonkwọ
+  - _id: lm7D7eLvZCfyXWW5
+    _key: "!tables.results!zTqHX0nG0RHhMPbF.lm7D7eLvZCfyXWW5"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Okoronkwo
+  - _id: lhWd2e7AQRd65gMI
+    _key: "!tables.results!zTqHX0nG0RHhMPbF.lhWd2e7AQRd65gMI"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nwankwọ
+  - _id: L7kpxAtK7jOdhjQR
+    _key: "!tables.results!zTqHX0nG0RHhMPbF.L7kpxAtK7jOdhjQR"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Wenkwo

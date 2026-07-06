@@ -1,0 +1,40 @@
+_id: w8NAGfjJWmsvspjD
+_key: "!tables!w8NAGfjJWmsvspjD"
+name: Igbo Nkwo-Born Feminine Names
+description: A selection of names for Igbo women born on Nkwo.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: NevgynrVpgRUUuz4
+    _key: "!tables.results!w8NAGfjJWmsvspjD.NevgynrVpgRUUuz4"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Mgbenkwọ
+  - _id: aiKscjwZ3Xil0rHL
+    _key: "!tables.results!w8NAGfjJWmsvspjD.aiKscjwZ3Xil0rHL"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Mgbokwo
+  - _id: L2cuWHOwWY9m1zSE
+    _key: "!tables.results!w8NAGfjJWmsvspjD.L2cuWHOwWY9m1zSE"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nwankwọ
+  - _id: Lelwtjvo1v5M1r8f
+    _key: "!tables.results!w8NAGfjJWmsvspjD.Lelwtjvo1v5M1r8f"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Nkwọja

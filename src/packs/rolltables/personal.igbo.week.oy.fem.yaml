@@ -1,0 +1,40 @@
+_id: EUydQtTL6vaNYlmV
+_key: "!tables!EUydQtTL6vaNYlmV"
+name: Igbo Oye-Born Feminine Names
+description: A selection of names for Igbo women born on Oye/Orie/Olie.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: lK40BiYDPqe5BNUn
+    _key: "!tables.results!EUydQtTL6vaNYlmV.lK40BiYDPqe5BNUn"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Mgbolie
+  - _id: 1ZucHtBJiQ0dsQPQ
+    _key: "!tables.results!EUydQtTL6vaNYlmV.1ZucHtBJiQ0dsQPQ"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Mgborie
+  - _id: ccrrLPd6rfcYo4tH
+    _key: "!tables.results!EUydQtTL6vaNYlmV.ccrrLPd6rfcYo4tH"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Mgboye
+  - _id: ZzWPpIohd11yBMoZ
+    _key: "!tables.results!EUydQtTL6vaNYlmV.ZzWPpIohd11yBMoZ"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Nworie

@@ -34,6 +34,10 @@ export const givenNames: Record<string, Record<Gender, string>> = {
   Fon: {
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Refe5IIGXrv0VzmH',
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.dMeVOYZnSWMjyaZy'
+  },
+  Igbo: {
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.suEpqqiTqsZc1v0v',
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zZu80jKYxdX3WrSa'
   }
 }
 
@@ -88,6 +92,26 @@ export const otherNames: Record<string, any> = {
     Initiation: {
       Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.P1mOexZPE3QmASEw',
       Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zk8wGuZMePWe4DaL'
+    }
+  },
+  Igbo: {
+    WeekdayNames: {
+      Eke: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.7gE1hyJlwt1u9oHL',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.xirRaiEMQxffat2i'
+      },
+      Oye: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.cI7heAYS1tbv5fnl',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.EUydQtTL6vaNYlmV'
+      },
+      Afor: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.dHwrHVCqYAp3gvLN',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.RWfP0OYZBXeyd8ne'
+      },
+      Nkwo: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zTqHX0nG0RHhMPbF',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.w8NAGfjJWmsvspjD'
+      }
     }
   }
 }

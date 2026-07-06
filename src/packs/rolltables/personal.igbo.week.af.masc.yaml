@@ -1,0 +1,40 @@
+_id: dHwrHVCqYAp3gvLN
+_key: "!tables!dHwrHVCqYAp3gvLN"
+name: Igbo Afor-Born Masculine Names
+description: A selection of names for Igbo men born on Afor.
+img: icons/svg/d20-grey.svg
+formula: 1d4
+folder: 7GgyDqvvRE62cbVU
+results:
+  - _id: 6UZiXA49VYcaLlam
+    _key: "!tables.results!dHwrHVCqYAp3gvLN.6UZiXA49VYcaLlam"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Okoafọ
+  - _id: IGcEfUqwwLcAcKvH
+    _key: "!tables.results!dHwrHVCqYAp3gvLN.IGcEfUqwwLcAcKvH"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Okoloafo
+  - _id: Aaaf0fASbMDQA9Gi
+    _key: "!tables.results!dHwrHVCqYAp3gvLN.Aaaf0fASbMDQA9Gi"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Okoroafọ
+  - _id: GhFzTGvMYKOGa4NN
+    _key: "!tables.results!dHwrHVCqYAp3gvLN.GhFzTGvMYKOGa4NN"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Nwafọ
