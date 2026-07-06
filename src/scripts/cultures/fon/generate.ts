@@ -2,6 +2,7 @@ import generateGivenName from '../../given.ts'
 import pickTwin from '../../randomizers/twin.ts'
 import pickCircumstance from '../../randomizers/circumstance.ts'
 import { pickWeekday } from '../../enums/weekday.ts'
+import selectRandomElement from '../../randomizers/el.ts'
 import circumstanceNames from '../akan/circumstance.ts'
 import weekdayNames from './weekday.ts'
 
@@ -12,10 +13,7 @@ const generateFonName = async (
   const weekday = circumstances?.weekday ?? await pickWeekday()
   const twin = circumstances?.twin ?? await pickTwin()
   const circumstance = circumstances?.special ?? await pickCircumstance()
-
-  const w = weekdayNames[weekday][gender]
-  const wi = Math.floor(Math.random() * w.length)
-  const names = [w[wi]]
+  const names = [selectRandomElement(weekdayNames[weekday][gender])]
 
   if (twin === 1) {
     names.push('Sagbo')

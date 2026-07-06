@@ -1,3 +1,5 @@
+import selectRandomElement from '../randomizers/el.ts'
+
 export const weekdayNames: Weekday[] = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 export const isWeekday = (candidate: unknown): candidate is Weekday => {
@@ -6,5 +8,5 @@ export const isWeekday = (candidate: unknown): candidate is Weekday => {
 }
 
 export const pickWeekday = async (): Promise<Weekday> => {
-  return weekdayNames[Math.floor(Math.random() * weekdayNames.length)]
+  return selectRandomElement(weekdayNames)
 }

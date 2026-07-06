@@ -1,8 +1,9 @@
+import selectRandomBetween from './between.ts'
 import pickBirthOrder from './birth-order.ts'
 
 jest.mock('../randomizers/roll.ts', () => ({
   __esModule: true,
-  default: async () => Math.floor((Math.random() * 100) + 1)
+  default: async () => selectRandomBetween(1, 100)
 }))
 
 describe('pickBirthOrder', () => {
