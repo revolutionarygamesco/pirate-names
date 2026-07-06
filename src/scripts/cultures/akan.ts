@@ -1,8 +1,8 @@
 import { otherNames } from '../../ids.ts'
 import { pickWeekday } from '../weekday.ts'
-import check from '../check.ts'
-import roll from '../roll.ts'
-import rollTable from '../roll-table.ts'
+import check from '../randomizers/check.ts'
+import roll from '../randomizers/roll.ts'
+import rollTable from '../randomizers/roll-table.ts'
 
 const birthOrderNames: Record<string, Record<Gender, string>> = {
   '1': {

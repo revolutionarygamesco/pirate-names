@@ -1,4 +1,4 @@
-import { fromUuid } from './wrapper.ts'
+import { fromUuid } from '../wrapper.ts'
 
 const reduceRollTableDraw = (orig: any): RollTableResult => {
   const obj: RollTableResult = {}

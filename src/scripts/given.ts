@@ -1,7 +1,7 @@
 import { MODULE_ID } from './settings.ts'
 import { givenNames } from '../ids.ts'
 import { pickGender } from './gender.ts'
-import rollTable from './roll-table.ts'
+import rollTable from './randomizers/roll-table.ts'
 import whisperMessage from './whisper.ts'
 import { pickNationality } from './nationality.ts'
 import { localize } from './wrapper.ts'

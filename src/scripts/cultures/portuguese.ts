@@ -1,4 +1,4 @@
-import roll from '../roll.ts'
+import roll from '../randomizers/roll.ts'
 import generateGivenName from '../given.ts'
 import generateSurname from '../surname.ts'
 

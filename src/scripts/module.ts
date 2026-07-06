@@ -1,6 +1,6 @@
 import { MODULE_ID } from './settings'
 
-import rollTable from './roll-table.ts'
+import rollTable from './randomizers/roll-table.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 import generateName from './full.ts'

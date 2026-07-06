@@ -1,4 +1,4 @@
-import check from '../check.ts'
+import check from '../randomizers/check.ts'
 import generateGivenName from '../given.ts'
 import generateSurname from '../surname.ts'
 
