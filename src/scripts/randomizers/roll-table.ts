@@ -1,6 +1,6 @@
 import { fromUuid } from '../wrapper.ts'
 
-const reduceRollTableDraw = (orig: any): RollTableResult => {
+export const reduceRollTableDraw = (orig: any): RollTableResult => {
   const obj: RollTableResult = {}
 
   if (orig.type) obj.type = orig.type as string | undefined
