@@ -38,6 +38,10 @@ export const givenNames: Record<string, Record<Gender, string>> = {
   Igbo: {
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.suEpqqiTqsZc1v0v',
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zZu80jKYxdX3WrSa'
+  },
+  Mandinka: {
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FQJ81W7DYNYjBGTW',
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.h6tzaD6oa2YIIV12'
   }
 }
 
@@ -112,6 +116,14 @@ export const otherNames: Record<string, any> = {
         Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zTqHX0nG0RHhMPbF',
         Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.w8NAGfjJWmsvspjD'
       }
+    }
+  },
+  Mandinka: {
+    Jamu: {
+      Foro: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Oj7Bc5DBCsBNxZF6',
+      Marabout: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6pJpyB88zpiBTjWP',
+      Griot: 'Compendium.revolutionary-piratenames.rolltables.RollTable.93b5JWBYXzygjAtO',
+      Blacksmith: 'Compendium.revolutionary-piratenames.rolltables.RollTable.AqC4WfHPOUpmsQ63'
     }
   }
 }

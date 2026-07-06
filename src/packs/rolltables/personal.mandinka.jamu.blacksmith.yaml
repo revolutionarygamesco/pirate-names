@@ -1,0 +1,48 @@
+_id: AqC4WfHPOUpmsQ63
+_key: "!tables!AqC4WfHPOUpmsQ63"
+name: Mandinka Blacksmith Jamu
+description: A selection of Mandinka blacksmith jamu.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: 1JuNMa6YapnKsgWq
+results:
+  - _id: 55XSgdPHzE8PJQq6
+    _key: "!tables.results!AqC4WfHPOUpmsQ63.55XSgdPHzE8PJQq6"
+    range:
+      - 1
+      - 2
+    weight: 2
+    type: text
+    description: Kanteh / Kante
+  - _id: GS5gppIKTv0lzUGc
+    _key: "!tables.results!AqC4WfHPOUpmsQ63.GS5gppIKTv0lzUGc"
+    range:
+      - 3
+      - 4
+    weight: 2
+    type: text
+    description: Fane
+  - _id: XSzmrd9VZ4vv9e3i
+    _key: "!tables.results!AqC4WfHPOUpmsQ63.XSzmrd9VZ4vv9e3i"
+    range:
+      - 5
+      - 6
+    weight: 2
+    type: text
+    description: Diankha / Dankha
+  - _id: VpbVQInJqtBHxLhc
+    _key: "!tables.results!AqC4WfHPOUpmsQ63.VpbVQInJqtBHxLhc"
+    range:
+      - 7
+      - 8
+    weight: 2
+    type: text
+    description: Doumbia / Dumbuya
+  - _id: SDXXlSLrQ2rWmtk1
+    _key: "!tables.results!AqC4WfHPOUpmsQ63.SDXXlSLrQ2rWmtk1"
+    range:
+      - 9
+      - 10
+    weight: 2
+    type: text
+    description: Doumbouya

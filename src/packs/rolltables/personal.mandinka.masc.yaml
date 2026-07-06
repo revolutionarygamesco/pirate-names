@@ -1,0 +1,776 @@
+_id: FQJ81W7DYNYjBGTW
+_key: "!tables!FQJ81W7DYNYjBGTW"
+name: Mandinka Masculine Names
+description: A selection of Mandinka masculine names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 1JuNMa6YapnKsgWq
+results:
+  - _id: ufrrGNUCNgYntX2u
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.ufrrGNUCNgYntX2u"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Sarjo
+  - _id: RMAiD4miS3UCX57o
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.RMAiD4miS3UCX57o"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Sulay
+  - _id: ybpOnEFRf27ciZCE
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.ybpOnEFRf27ciZCE"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Wally
+  - _id: TKVnERwm9BujcpMA
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.TKVnERwm9BujcpMA"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Baturu
+  - _id: wIOHIvgn7QsbFyoz
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.wIOHIvgn7QsbFyoz"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Famara
+  - _id: xkZQdCzR9b1th4aB
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.xkZQdCzR9b1th4aB"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Kalifa
+  - _id: z12HeC3fQvCIf5de
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.z12HeC3fQvCIf5de"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Sedia
+  - _id: nyHt3F3iJs9KSMAp
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.nyHt3F3iJs9KSMAp"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Alfusainey
+  - _id: q9ohECKzOruyvnQM
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.q9ohECKzOruyvnQM"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Sankung
+  - _id: QUZV5mSy1XdOFaTT
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.QUZV5mSy1XdOFaTT"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Basiru
+  - _id: heAl6ZpHDOhxpOfA
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.heAl6ZpHDOhxpOfA"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Lang
+  - _id: IxONUJz5AFiPuNiv
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.IxONUJz5AFiPuNiv"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Faburama
+  - _id: JFoCQKal8JsT9tK2
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.JFoCQKal8JsT9tK2"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Saja
+  - _id: beaYoU7qGkOpVbMI
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.beaYoU7qGkOpVbMI"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Malang
+  - _id: fhnhcTJW6n0iSeN0
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.fhnhcTJW6n0iSeN0"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Momar
+  - _id: 7ud9IR7Urb18yzmO
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.7ud9IR7Urb18yzmO"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Saidou
+  - _id: hVxjR9ZnIDahk6yO
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.hVxjR9ZnIDahk6yO"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Ebou
+  - _id: wzw6nhbcAPIPaaTP
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.wzw6nhbcAPIPaaTP"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Yerro
+  - _id: 4z7E4yhTkCtEUI31
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.4z7E4yhTkCtEUI31"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Wuyeh
+  - _id: 2LA39i52grQ2RVae
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.2LA39i52grQ2RVae"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Kandeh
+  - _id: iel2lSQpVqY3aP5c
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.iel2lSQpVqY3aP5c"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Nfally
+  - _id: TXWywegGTFx4Mt5Z
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.TXWywegGTFx4Mt5Z"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Solo
+  - _id: 5J9pyhSEnHwbHyqq
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.5J9pyhSEnHwbHyqq"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Wandifa
+  - _id: 1Tm2DM6z6ycfwMUk
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.1Tm2DM6z6ycfwMUk"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Bala
+  - _id: my6RQAA8DFJl0lv0
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.my6RQAA8DFJl0lv0"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Fansu
+  - _id: nv0XBsPaeplddVjr
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.nv0XBsPaeplddVjr"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Kalilu
+  - _id: phuXONKyuerDGdtL
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.phuXONKyuerDGdtL"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Gibril
+  - _id: 0OWbxseADMufdEXg
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.0OWbxseADMufdEXg"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Yoro
+  - _id: 2xiZ78F5ZwHop7Jz
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.2xiZ78F5ZwHop7Jz"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Jato
+  - _id: Vs2kMuYRoaZRqeQC
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.Vs2kMuYRoaZRqeQC"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Fanding
+  - _id: 2OZDigsndNzbyQlA
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.2OZDigsndNzbyQlA"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Nfamara
+  - _id: Z1L5a50vPHvxohUr
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.Z1L5a50vPHvxohUr"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Tijan
+  - _id: utJX5UhhopIWbDo0
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.utJX5UhhopIWbDo0"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Essa
+  - _id: OOkEkDK5oqPLPctr
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.OOkEkDK5oqPLPctr"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Fabakary
+  - _id: JH37U60OpEFWixiQ
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.JH37U60OpEFWixiQ"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Sheriff
+  - _id: 04DgDnLnq33cZtlZ
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.04DgDnLnq33cZtlZ"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Alagie
+  - _id: lr8gOKOwesZJegmT
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.lr8gOKOwesZJegmT"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Saikou
+  - _id: rvfjYjUdJ34rx6TU
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.rvfjYjUdJ34rx6TU"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Abdoulie
+  - _id: wzjTL1Lg1BXNjL8x
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.wzjTL1Lg1BXNjL8x"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Foday
+  - _id: bHN1VA0w5jo8Wro9
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.bHN1VA0w5jo8Wro9"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Karamo
+  - _id: BHiiJL8lh0uVsYAR
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.BHiiJL8lh0uVsYAR"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Landing
+  - _id: BYNzgUzHBaCfEFMZ
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.BYNzgUzHBaCfEFMZ"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Kebba
+  - _id: RzcjQhEf28hy45Py
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.RzcjQhEf28hy45Py"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Sulayman
+  - _id: UsffeL2l7eoGTsFk
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.UsffeL2l7eoGTsFk"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Baboucarr
+  - _id: rBgRcJPtkWY3Ggy6
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.rBgRcJPtkWY3Ggy6"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Alieu
+  - _id: s4jkhVWdP99t8ABU
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.s4jkhVWdP99t8ABU"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Ousman
+  - _id: 3l8mA6P1h3sgi6Yf
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.3l8mA6P1h3sgi6Yf"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Modou
+  - _id: uj5Qh6NkbU1CoSG3
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.uj5Qh6NkbU1CoSG3"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Lamin
+  - _id: bFPbUoB35dFaqcto
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.bFPbUoB35dFaqcto"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Momodou
+  - _id: 3WWulA0hQeC8CJ3m
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.3WWulA0hQeC8CJ3m"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Ebrima
+  - _id: i5EejzhHUE8XLPKa
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.i5EejzhHUE8XLPKa"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Musa
+  - _id: izogiEe46YyQM4rW
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.izogiEe46YyQM4rW"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Bakary
+  - _id: q4OESp5zKBMzD71q
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.q4OESp5zKBMzD71q"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Ousainou
+  - _id: mBG4U6r5PFXbkxAx
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.mBG4U6r5PFXbkxAx"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Yaya
+  - _id: WIUlRxrUXt4Pipuf
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.WIUlRxrUXt4Pipuf"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Demba
+  - _id: JnLZgU4HVBn24xu6
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.JnLZgU4HVBn24xu6"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Sana
+  - _id: hDhImA9NRZ4sazW0
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.hDhImA9NRZ4sazW0"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Ismaila
+  - _id: wTB2KMbLf8pN2EcK
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.wTB2KMbLf8pN2EcK"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Buba
+  - _id: eTCOslb14Wtuhn8E
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.eTCOslb14Wtuhn8E"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Yankuba
+  - _id: iJIlg5F0c7WH4hRL
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.iJIlg5F0c7WH4hRL"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Yusupha
+  - _id: wrY7lbiyHaCTy8N4
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.wrY7lbiyHaCTy8N4"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Amadou
+  - _id: uwO0fjebH7ZzNvXg
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.uwO0fjebH7ZzNvXg"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Sambou
+  - _id: sC6UibVBJOgLDaPc
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.sC6UibVBJOgLDaPc"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Sidi
+  - _id: eOkKxl33DQFhKNF1
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.eOkKxl33DQFhKNF1"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Idrissa
+  - _id: 8iz2U5HtdPh0TPNX
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.8iz2U5HtdPh0TPNX"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Omar
+  - _id: msNwI8vtcNindkTP
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.msNwI8vtcNindkTP"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Dodou
+  - _id: spErqrUzneNVeqiB
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.spErqrUzneNVeqiB"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Tamba
+  - _id: eWXQ12ZPecKQ9Iar
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.eWXQ12ZPecKQ9Iar"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Sajo
+  - _id: H1fb8D8WUQ9ZjRgY
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.H1fb8D8WUQ9ZjRgY"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Malamin
+  - _id: NSWBlEYToRe4Fpm4
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.NSWBlEYToRe4Fpm4"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Haruna
+  - _id: qASZd8aw49wrjgC5
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.qASZd8aw49wrjgC5"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Kemo
+  - _id: Jps0mCQG2Xkb5ZkV
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.Jps0mCQG2Xkb5ZkV"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Pateh
+  - _id: Pu6rQdsECunnBkSY
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.Pu6rQdsECunnBkSY"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Njundu
+  - _id: jvz1Wk7xpAWZWTFB
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.jvz1Wk7xpAWZWTFB"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Manlafy
+  - _id: SOT0xejarSAV38lT
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.SOT0xejarSAV38lT"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Suntou
+  - _id: WcVLPFyaoAqVVakY
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.WcVLPFyaoAqVVakY"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Bekai
+  - _id: YOHR5Ko3iZAp6svI
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.YOHR5Ko3iZAp6svI"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Masamba
+  - _id: i4ekPKWMKZTrMGh5
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.i4ekPKWMKZTrMGh5"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Numukunda
+  - _id: YszHlW38MX2JaS5a
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.YszHlW38MX2JaS5a"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Chebo
+  - _id: ARFzipjPC4EQIeLF
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.ARFzipjPC4EQIeLF"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Dembo
+  - _id: Y27xSZu80baVSMWo
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.Y27xSZu80baVSMWo"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Sait
+  - _id: dOKbXUkjtfXWAxAK
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.dOKbXUkjtfXWAxAK"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Baba
+  - _id: WIQ8t1ZzoN0qE39f
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.WIQ8t1ZzoN0qE39f"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Nfansu
+  - _id: goE64rE3K0L1BeUI
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.goE64rE3K0L1BeUI"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Toumani
+  - _id: z82KOeO3wfX14dQz
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.z82KOeO3wfX14dQz"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Kekuta
+  - _id: C6kkDsKU8IGdip9h
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.C6kkDsKU8IGdip9h"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Kawsu
+  - _id: 8G5VxEcxQIpsh71L
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.8G5VxEcxQIpsh71L"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Sirifo
+  - _id: mLesRKvKYJePYTYJ
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.mLesRKvKYJePYTYJ"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Ansumana
+  - _id: UV3c7XCK8uyYA5Fb
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.UV3c7XCK8uyYA5Fb"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Alimami
+  - _id: qQpkUqAcJwMvoYJf
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.qQpkUqAcJwMvoYJf"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Bora
+  - _id: q6bGDJ3E4h8KD28U
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.q6bGDJ3E4h8KD28U"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Bubacarr
+  - _id: 4pAEFaqK7tP639X6
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.4pAEFaqK7tP639X6"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Kebuteh
+  - _id: NlzEFgUjW1Y6y2h8
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.NlzEFgUjW1Y6y2h8"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Sang
+  - _id: oE212dX8bRoQsW9I
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.oE212dX8bRoQsW9I"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Bunja
+  - _id: 31nhVSUVvuKjTMsK
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.31nhVSUVvuKjTMsK"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Numo
+  - _id: HfAO4tEd4HGcDrkW
+    _key: "!tables.results!FQJ81W7DYNYjBGTW.HfAO4tEd4HGcDrkW"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Bubu

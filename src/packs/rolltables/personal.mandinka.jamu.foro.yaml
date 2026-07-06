@@ -1,0 +1,776 @@
+_id: Oj7Bc5DBCsBNxZF6
+_key: "!tables!Oj7Bc5DBCsBNxZF6"
+name: Mandinka Foro Jamu
+description: A selection of Mandinka foro jamu.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 1JuNMa6YapnKsgWq
+results:
+  - _id: xghL43PZDuMrTvOW
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.xghL43PZDuMrTvOW"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Sanneh / Sane
+  - _id: xaFBv9ozlPVMHuDZ
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.xaFBv9ozlPVMHuDZ"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Manneh / Mane
+  - _id: 3Rvv6hGmuSW4CZmk
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.3Rvv6hGmuSW4CZmk"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Badjie / Badgie / Badji
+  - _id: NxRGI2hxXiWENTeJ
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.NxRGI2hxXiWENTeJ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sowe / Sowe
+  - _id: MHSqKsr0ED7w4e0o
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.MHSqKsr0ED7w4e0o"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Jarju / Jarjou / Jarjue
+  - _id: HdNCLO9pCMJqU9fn
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.HdNCLO9pCMJqU9fn"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Sonko
+  - _id: ct1lNBNXX8SNyvKm
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.ct1lNBNXX8SNyvKm"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Colley / Kolley
+  - _id: scbeldLG1cd6ceuy
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.scbeldLG1cd6ceuy"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Sambou / Sambu
+  - _id: wV1lejtyIB0prt9r
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.wV1lejtyIB0prt9r"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Conteh / Konteh / Konte
+  - _id: iECnTl6Z2gQc5bwK
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.iECnTl6Z2gQc5bwK"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Sillah / Silla
+  - _id: ejRe7EkwkGXqYmSI
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.ejRe7EkwkGXqYmSI"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Sanyang
+  - _id: osd28peDp7BGq8I5
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.osd28peDp7BGq8I5"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Jammeh / Jamme
+  - _id: SIBXGmpMFt6U4vke
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.SIBXGmpMFt6U4vke"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Bojang
+  - _id: q5WlvDfATApJ5JzE
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.q5WlvDfATApJ5JzE"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Marong / Maron
+  - _id: wM9QbK92D4qf21JY
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.wM9QbK92D4qf21JY"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Janneh / Janne
+  - _id: SqROnsTwLLFLQs8u
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.SqROnsTwLLFLQs8u"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Jawara / Diawara
+  - _id: 8kUW6Dg4eCw6yNWz
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.8kUW6Dg4eCw6yNWz"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Jatta / Jata
+  - _id: IRQ30d1NMRh8Kx2y
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.IRQ30d1NMRh8Kx2y"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Jabang
+  - _id: l9EqHdqVLKMDmF8y
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.l9EqHdqVLKMDmF8y"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Nyang
+  - _id: PBWZLSXCxxcDqlYM
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.PBWZLSXCxxcDqlYM"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Kinteh / Kinte
+  - _id: pOPU0BLayB5KbCGg
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.pOPU0BLayB5KbCGg"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Manjang / Manjan
+  - _id: sMuS6Q1F4lO0hByI
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.sMuS6Q1F4lO0hByI"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Kujabi
+  - _id: KvyKFG8Qx25JOaxH
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.KvyKFG8Qx25JOaxH"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Dampha / Damfa / Danfa
+  - _id: Y9ERoypidehutrAh
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.Y9ERoypidehutrAh"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Samateh / Samate
+  - _id: gC8hofgenMrK7eiy
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.gC8hofgenMrK7eiy"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Tamba
+  - _id: 0XtAyYDUJDCePv5w
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.0XtAyYDUJDCePv5w"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Jadama
+  - _id: FURgwrvdafUPmIZ8
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.FURgwrvdafUPmIZ8"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Nyassi / Nyass
+  - _id: DintKPNwFeOXUfdR
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.DintKPNwFeOXUfdR"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Danso / Dansoko
+  - _id: VUu5Vvw4N9Ja9lEy
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.VUu5Vvw4N9Ja9lEy"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Njie / Njai / Njaay
+  - _id: B29dEfe2fqiwHQ6y
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.B29dEfe2fqiwHQ6y"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Sabally / Saballi
+  - _id: 3gsUCMvWnTG6IloX
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.3gsUCMvWnTG6IloX"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Krubally / Kurubally / Curubally
+  - _id: EFIHRhlGa5QEWUiM
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.EFIHRhlGa5QEWUiM"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Nyabally
+  - _id: kmj2eV3jXoK4PVxl
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.kmj2eV3jXoK4PVxl"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Waali / Wali / Wally
+  - _id: uvQMludpmxxnFo9l
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.uvQMludpmxxnFo9l"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Jasseh / Jassey
+  - _id: NYYJpreKM24vEemq
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.NYYJpreKM24vEemq"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Jaiteh / Jaite
+  - _id: lCY2xAdkBMG8mbTz
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.lCY2xAdkBMG8mbTz"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Dibba
+  - _id: I6d0HhvQnlMCb4cQ
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.I6d0HhvQnlMCb4cQ"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Fatty / Faty
+  - _id: w9zFsnUPfSolESlV
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.w9zFsnUPfSolESlV"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Bayo / Bayoh
+  - _id: sIgj0gWqKubkiV2A
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.sIgj0gWqKubkiV2A"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Manga
+  - _id: zFinTS92BNjFlU8k
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.zFinTS92BNjFlU8k"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Secka / Sekka
+  - _id: PaG6DfCzddMQvWLN
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.PaG6DfCzddMQvWLN"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Jawo / Jawo
+  - _id: 7GZQKP4rsv2Zl1Wl
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.7GZQKP4rsv2Zl1Wl"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Bittaye / Bittaye
+  - _id: D2yQZbosIVD2zUOj
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.D2yQZbosIVD2zUOj"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Djitte / Jitte
+  - _id: mq3IVKjfxprdA9bm
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.mq3IVKjfxprdA9bm"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Dansoko / Dansohko
+  - _id: PErXwfwxLbi0go8k
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.PErXwfwxLbi0go8k"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Mandiang / Mandian
+  - _id: mZyV3ymJrTvVg29E
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.mZyV3ymJrTvVg29E"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Keita / Keita
+  - _id: mYtIwwjdwuzGkjH5
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.mYtIwwjdwuzGkjH5"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Kamara / Camara
+  - _id: OFuGDQhVLLp8o5d5
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.OFuGDQhVLLp8o5d5"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Trawally / Traore / Tarawele
+  - _id: M5TmxfSIAlyl4gMn
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.M5TmxfSIAlyl4gMn"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Konate / Konate
+  - _id: DkcGIIe5YSjIr8fE
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.DkcGIIe5YSjIr8fE"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Diarra / Jara
+  - _id: gR16RGh4loLmi8yk
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.gR16RGh4loLmi8yk"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Coulibaly / Kulibali
+  - _id: ry78yAbBLzQhe26r
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.ry78yAbBLzQhe26r"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Kone / Kone
+  - _id: 7azOtGaVRGqURzin
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.7azOtGaVRGqURzin"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Dembele / Dembele
+  - _id: LrwnkhcMzdrdUh8p
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.LrwnkhcMzdrdUh8p"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Sidibeh / Sidibe
+  - _id: KhMaKsaCn9LnxnLt
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.KhMaKsaCn9LnxnLt"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Diakite / Diakite
+  - _id: YZxvN1K3lXrw8sOi
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.YZxvN1K3lXrw8sOi"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Konde / Conde
+  - _id: LCouYkYf7Q65FV2n
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.LCouYkYf7Q65FV2n"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Kourouma / Kuruma
+  - _id: lhCFB3LWOXamuzmv
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.lhCFB3LWOXamuzmv"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Tounkara / Tunkara
+  - _id: zaeAC5rn76ERnICB
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.zaeAC5rn76ERnICB"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Bamba
+  - _id: 5Jk6AiSgdcDsdZno
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.5Jk6AiSgdcDsdZno"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Sangare / Sangare
+  - _id: zZgOsDEo4eUkX3vF
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.zZgOsDEo4eUkX3vF"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Sanogo
+  - _id: XGxiechwZbYmMD06
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.XGxiechwZbYmMD06"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Bathily
+  - _id: I7cwyETeA2WwpbcJ
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.I7cwyETeA2WwpbcJ"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Diomande / Diomande
+  - _id: fxbZqbFQj73d5gyj
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.fxbZqbFQj73d5gyj"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Ouattara / Watara
+  - _id: xwjvWi86h6QW2S0q
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.xwjvWi86h6QW2S0q"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Koita / Koita
+  - _id: elf5PRhMyOsiBSJ8
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.elf5PRhMyOsiBSJ8"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Fakoly / Fakoli / Fakholy
+  - _id: 3z6PnuCJIaVnSzfv
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.3z6PnuCJIaVnSzfv"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Bakayoko
+  - _id: Rgyl6xkM6HpHvCbE
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.Rgyl6xkM6HpHvCbE"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Diakhaby / Diakhaby
+  - _id: CV9RewnlkSvmn4iL
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.CV9RewnlkSvmn4iL"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Diakho
+  - _id: yiYj4Kw84oHGzLJ5
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.yiYj4Kw84oHGzLJ5"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Diaoune / Diaouune
+  - _id: KI3gcH7rlycwujM4
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.KI3gcH7rlycwujM4"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Magassouba / Magassa
+  - _id: RwE0Qp4vbyYFfpcn
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.RwE0Qp4vbyYFfpcn"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Magassa
+  - _id: J5sGcnAZMCAdqqri
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.J5sGcnAZMCAdqqri"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Gakou
+  - _id: sbelSfLXQsYSGhCx
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.sbelSfLXQsYSGhCx"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Gnabaly
+  - _id: vzyPFYDj2yrKvHar
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.vzyPFYDj2yrKvHar"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Kebe / Kebe
+  - _id: IptjngTdIZt499px
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.IptjngTdIZt499px"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Meite / Meite
+  - _id: xQhZn0SNrNdiRBjL
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.xQhZn0SNrNdiRBjL"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Sano
+  - _id: wEGWyodpctdtDeXY
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.wEGWyodpctdtDeXY"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Samassa
+  - _id: cY91Nn2MOYRz06H1
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.cY91Nn2MOYRz06H1"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Sawane / Sawane
+  - _id: jGMl3J15yS8j2rbG
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.jGMl3J15yS8j2rbG"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Souane / Souane
+  - _id: 32E0uR69EgRp5tbC
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.32E0uR69EgRp5tbC"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Soumare / Soumare
+  - _id: Xuf67C9HzZgF58qo
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.Xuf67C9HzZgF58qo"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Sima
+  - _id: 9AS9THi3imjDNdLI
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.9AS9THi3imjDNdLI"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Simaga
+  - _id: ncffUtQxcl84RX4V
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.ncffUtQxcl84RX4V"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Timite / Timite
+  - _id: 7rMwf5boJBcRdsns
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.7rMwf5boJBcRdsns"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Youla
+  - _id: q965vF2TMljrzLHb
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.q965vF2TMljrzLHb"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Yattara
+  - _id: UpIY4IBH8uoBcdT6
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.UpIY4IBH8uoBcdT6"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Tangara
+  - _id: 5wTZaDuSkM4JpdBP
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.5wTZaDuSkM4JpdBP"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Fomba
+  - _id: wcdXCiUiPlBjxgRm
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.wcdXCiUiPlBjxgRm"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Samake / Samake
+  - _id: FmfsRy17VkGZ9AuV
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.FmfsRy17VkGZ9AuV"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Ballo
+  - _id: EnJMiYqtCU917e06
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.EnJMiYqtCU917e06"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Kanoute / Kanoute
+  - _id: ESPl123iBd9uRBHD
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.ESPl123iBd9uRBHD"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Tandia
+  - _id: kDPB2Ywmkr9nI8lS
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.kDPB2Ywmkr9nI8lS"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Dosso
+  - _id: GrluPs2nNY3pBBwc
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.GrluPs2nNY3pBBwc"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Soumahoro / Soumaoro
+  - _id: h2SoC1WEuTXH1dDV
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.h2SoC1WEuTXH1dDV"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Katile
+  - _id: 6g1Ahw7BQafgN7CC
+    _key: "!tables.results!Oj7Bc5DBCsBNxZF6.6g1Ahw7BQafgN7CC"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Berthe / Berte

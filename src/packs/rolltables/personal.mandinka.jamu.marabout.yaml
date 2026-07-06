@@ -1,0 +1,168 @@
+_id: 6pJpyB88zpiBTjWP
+_key: "!tables!6pJpyB88zpiBTjWP"
+name: Mandinka Marabout Jamu
+description: A selection of Mandinka marabout jamu.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 1JuNMa6YapnKsgWq
+results:
+  - _id: XE3VFtiltpvkWPZi
+    _key: "!tables.results!6pJpyB88zpiBTjWP.XE3VFtiltpvkWPZi"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Drammeh / Darame / Drame
+  - _id: yhmQIxTUo25FuN97
+    _key: "!tables.results!6pJpyB88zpiBTjWP.yhmQIxTUo25FuN97"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Darboe / Darbo
+  - _id: 4ELxw7j4MIAzRxYg
+    _key: "!tables.results!6pJpyB88zpiBTjWP.4ELxw7j4MIAzRxYg"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Fofana
+  - _id: 7ZoMWehrZ4k3CdhN
+    _key: "!tables.results!6pJpyB88zpiBTjWP.7ZoMWehrZ4k3CdhN"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Gassama
+  - _id: 7esz2tQ8MAMCZ7rp
+    _key: "!tables.results!6pJpyB88zpiBTjWP.7esz2tQ8MAMCZ7rp"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ceesay / Cisse / Sise
+  - _id: GRz5ZT7JLY3ttXOL
+    _key: "!tables.results!6pJpyB88zpiBTjWP.GRz5ZT7JLY3ttXOL"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Touray / Toure
+  - _id: IvHlZnYBCzJCjyAr
+    _key: "!tables.results!6pJpyB88zpiBTjWP.IvHlZnYBCzJCjyAr"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Kaba / Kabba
+  - _id: sUaIfJ5T0QCQcq4g
+    _key: "!tables.results!6pJpyB88zpiBTjWP.sUaIfJ5T0QCQcq4g"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sylla / Silla
+  - _id: 5ftCvFxoTtoq15sd
+    _key: "!tables.results!6pJpyB88zpiBTjWP.5ftCvFxoTtoq15sd"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Sakho / Sako
+  - _id: 4cHlO9O6vfpGTbDC
+    _key: "!tables.results!6pJpyB88zpiBTjWP.4cHlO9O6vfpGTbDC"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Jabbi / Jabi
+  - _id: 6zs7BhS9X4hoQB6z
+    _key: "!tables.results!6pJpyB88zpiBTjWP.6zs7BhS9X4hoQB6z"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Fadera
+  - _id: grvOuDf0XESc8Yzf
+    _key: "!tables.results!6pJpyB88zpiBTjWP.grvOuDf0XESc8Yzf"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Suwareh / Suware / Souare
+  - _id: X8M2WYYuaSIeGQmr
+    _key: "!tables.results!6pJpyB88zpiBTjWP.X8M2WYYuaSIeGQmr"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Dabo
+  - _id: WCMAO5nQQArVdGA5
+    _key: "!tables.results!6pJpyB88zpiBTjWP.WCMAO5nQQArVdGA5"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Hydara / Haidara / Aidara
+  - _id: c8j7zmOUrMNpl7W7
+    _key: "!tables.results!6pJpyB88zpiBTjWP.c8j7zmOUrMNpl7W7"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Fadiga
+  - _id: v4Irs46giiSkh0a3
+    _key: "!tables.results!6pJpyB88zpiBTjWP.v4Irs46giiSkh0a3"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Berete
+  - _id: r5mqJkDimdXyeb2U
+    _key: "!tables.results!6pJpyB88zpiBTjWP.r5mqJkDimdXyeb2U"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Diane
+  - _id: Lo6sub8i4o4VRckn
+    _key: "!tables.results!6pJpyB88zpiBTjWP.Lo6sub8i4o4VRckn"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Doucoure / Doukoure
+  - _id: GFwC1eJ5vaUPZ0Db
+    _key: "!tables.results!6pJpyB88zpiBTjWP.GFwC1eJ5vaUPZ0Db"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Bagayogo / Bagayoko
+  - _id: 52lXZJuSALjmJkWs
+    _key: "!tables.results!6pJpyB88zpiBTjWP.52lXZJuSALjmJkWs"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Marega

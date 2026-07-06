@@ -1,0 +1,104 @@
+_id: 93b5JWBYXzygjAtO
+_key: "!tables!93b5JWBYXzygjAtO"
+name: Mandinka Griot Jamu
+description: A selection of Mandinka griot jamu.
+img: icons/svg/d20-grey.svg
+formula: 1d12
+folder: 1JuNMa6YapnKsgWq
+results:
+  - _id: L2QswNBgNpUYavdY
+    _key: "!tables.results!93b5JWBYXzygjAtO.L2QswNBgNpUYavdY"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Kouyateh / Kouyate / Kuyateh
+  - _id: D37YBwnUgTM5QiyB
+    _key: "!tables.results!93b5JWBYXzygjAtO.D37YBwnUgTM5QiyB"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Jobarteh / Diabate / Jebate
+  - _id: fcK16Czl6xbq5bXl
+    _key: "!tables.results!93b5JWBYXzygjAtO.fcK16Czl6xbq5bXl"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Suso / Susso / Cissokho
+  - _id: twCpgmtxFqMXrt1Q
+    _key: "!tables.results!93b5JWBYXzygjAtO.twCpgmtxFqMXrt1Q"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kanuteh / Kanute / Konte
+  - _id: zHDreEWalI0x7ch3
+    _key: "!tables.results!93b5JWBYXzygjAtO.zHDreEWalI0x7ch3"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Sissoko / Cissokho
+  - _id: DPDQD5fOWNU557k7
+    _key: "!tables.results!93b5JWBYXzygjAtO.DPDQD5fOWNU557k7"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Saho / Sahoe
+  - _id: Z501eDMhWKyb6LIV
+    _key: "!tables.results!93b5JWBYXzygjAtO.Z501eDMhWKyb6LIV"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Kamissoko
+  - _id: mT0oaoRtUfmws2Pd
+    _key: "!tables.results!93b5JWBYXzygjAtO.mT0oaoRtUfmws2Pd"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Sakiliba
+  - _id: kkGDCHd7lXmzhgvT
+    _key: "!tables.results!93b5JWBYXzygjAtO.kkGDCHd7lXmzhgvT"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Soumano
+  - _id: Nc54bbrDgVYGH21K
+    _key: "!tables.results!93b5JWBYXzygjAtO.Nc54bbrDgVYGH21K"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Diaby / Diabi
+  - _id: j7D8o6OxdJUGBbYG
+    _key: "!tables.results!93b5JWBYXzygjAtO.j7D8o6OxdJUGBbYG"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Damba
+  - _id: E8JRtejAyeCZDsVS
+    _key: "!tables.results!93b5JWBYXzygjAtO.E8JRtejAyeCZDsVS"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Nyaho

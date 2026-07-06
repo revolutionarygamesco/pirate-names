@@ -71,7 +71,7 @@ declare const foundry: {
   }
 }
 
-type Nationality = 'Akan' | 'Bantu' | 'Fon' | 'Igbo' | 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese'
+type Nationality = 'Akan' | 'Bantu' | 'Fon' | 'Igbo' | 'Mandinka' | 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese'
 type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
@@ -108,4 +108,5 @@ interface BirthCircumstances {
   order: number | 'last'
   twin: 1 | 2 | false
   special: string
+  caste: string
 }
