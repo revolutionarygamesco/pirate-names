@@ -197,13 +197,20 @@ child’s birth.
 |------------|--------------|------------------------------------------------|
 | Akan       | `sickly`     | Born premature or sickly.                      |
 | Akan       | `field`      | Born in the field.                             |
-| Akan       | `war`        | Born during a time of war.                     |
-| Akan       | `road`       | Born on the road.                              |
+| Akan, Fon  | `war`        | Born during a time of war.                     |
+| Akan, Fon  | `road`       | Born on the road.                              |
 | Akan       | `fatherless` | The child’s father died before they were born. |
 | Akan       | `happy`      | A child born under happy circumstances.        |
 | Akan       | `loves`      | One who loves.                                 |
 | Akan       | `great`      | Great one.                                     |
 | Akan       | `forceful`   | Forceful.                                      |
+ | Fon        | `dry`        | Born during the dry season.                    |
+ | Fon        | `water`      | Born on the water.                             |
+| Fon        | `conflict`   | Born in a time of family conflict.             |
+| Fon        | `market`     | Born at the market.                            |
+| Fon        | `facedown`   | Born facedown.                                 |
+ | Fon        | `day`        | Born during the day.                           |
+| Fon        | `night`      | Born at night.                                 |
 
 _Default_: `undefined`
 

@@ -2,7 +2,7 @@ import { nation } from '../../ids.ts'
 import rollTable from '../randomizers/roll-table.ts'
 
 export const colors: Colors[] = ['Spanish', 'British', 'French', 'Dutch']
-export const nationalities: Nationality[] = ['Akan', 'Bantu', 'Spanish',
+export const nationalities: Nationality[] = ['Akan', 'Bantu', 'Spanish', 'Fon',
   'English', 'French', 'Dutch', 'Scottish', 'Welsh', 'Irish', 'Portuguese']
 
 export const isColors = (candidate: unknown): candidate is Colors => {

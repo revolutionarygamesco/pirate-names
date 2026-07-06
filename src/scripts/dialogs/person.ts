@@ -17,7 +17,7 @@ const openGeneratePersonalNameDialog = async (
 ): Promise<void> => {
   const title = localize(`${MODULE_ID}.dialog.person.personal.title`)
 
-  const nationalityOptions = ['Random Person', 'Random Pirate', 'Spanish', 'English', 'French', 'Dutch', 'Scottish', 'Irish', 'Welsh', 'Portuguese', 'Akan', 'Bantu'].map(nation => {
+  const nationalityOptions = ['Random Person', 'Random Pirate', 'Spanish', 'English', 'French', 'Dutch', 'Scottish', 'Irish', 'Welsh', 'Portuguese', 'Akan', 'Bantu', 'Fon'].map(nation => {
     const value = localize(`${MODULE_ID}.dialog.person.nationalities.options.${nation}`)
     return `<option value="${nation}">${value}</option>`
   }).join('\n')

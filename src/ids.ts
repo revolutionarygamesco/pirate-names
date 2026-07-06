@@ -30,6 +30,10 @@ export const givenNames: Record<string, Record<Gender, string>> = {
   Portuguese: {
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.sTahknOtK9nAiwNb',
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.iwH36PdS8m7nQKN6'
+  },
+  Fon: {
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Refe5IIGXrv0VzmH',
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.dMeVOYZnSWMjyaZy'
   }
 }
 

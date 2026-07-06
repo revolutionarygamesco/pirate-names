@@ -3,6 +3,7 @@ import generateAkanName from './cultures/akan/generate.ts'
 import generateBantuName from './cultures/bantu/generate.ts'
 import generateDutchName from './cultures/dutch/generate.ts'
 import generateEnglishName from './cultures/english/generate.ts'
+import generateFonName from './cultures/fon/generate.ts'
 import generateFrenchName from './cultures/french/generate.ts'
 import generateIrishName from './cultures/irish/generate.ts'
 import generatePortugueseName from './cultures/portuguese/generate.ts'
@@ -33,6 +34,7 @@ const generateName = async (
     Bantu: generateBantuName,
     Dutch: generateDutchName,
     English: generateEnglishName,
+    Fon: generateFonName,
     French: generateFrenchName,
     Irish: generateIrishName,
     Portuguese: generatePortugueseName,

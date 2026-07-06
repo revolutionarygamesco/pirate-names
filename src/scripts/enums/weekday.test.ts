@@ -4,10 +4,6 @@ import {
   weekdayNames
 } from './weekday.ts'
 
-jest.mock('../wrapper.ts', () => ({
-  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Friday' }] } } })
-}))
-
 describe('isWeekday', () => {
   it.each([
     ['undefined', undefined],
@@ -30,6 +26,6 @@ describe('isWeekday', () => {
 
 describe('pickWeekday', () => {
   it('picks a random weekday', async () => {
-    expect(await pickWeekday()).toBe('Friday')
+    expect(weekdayNames).toContain(await pickWeekday())
   })
 })
