@@ -1,0 +1,776 @@
+_id: FseoFZOSLwHCNy4W
+_key: "!tables!FseoFZOSLwHCNy4W"
+name: Nkumbu Names
+description: Common personal Bantu names.
+img: icons/svg/d20-grey.svg
+formula: 5d20
+folder: 1kvk60fl7x9kLgKv
+results:
+  - _id: mJCzH7qp9fmkmQCV
+    _key: "!tables.results!FseoFZOSLwHCNy4W.mJCzH7qp9fmkmQCV"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Kiala
+  - _id: nSSvmyFcpjmCyjWi
+    _key: "!tables.results!FseoFZOSLwHCNy4W.nSSvmyFcpjmCyjWi"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Bisala
+  - _id: icV3MUn36ufKVD5H
+    _key: "!tables.results!FseoFZOSLwHCNy4W.icV3MUn36ufKVD5H"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Nseyila
+  - _id: oe2ylqW5NvUipXLb
+    _key: "!tables.results!FseoFZOSLwHCNy4W.oe2ylqW5NvUipXLb"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Kisolokele
+  - _id: AhhgKgKWqC3BNekp
+    _key: "!tables.results!FseoFZOSLwHCNy4W.AhhgKgKWqC3BNekp"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Kukiele
+  - _id: w9fvfoLWlOxmWfgr
+    _key: "!tables.results!FseoFZOSLwHCNy4W.w9fvfoLWlOxmWfgr"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Nkiluku
+  - _id: ZqxQwcxKjF78A9Pu
+    _key: "!tables.results!FseoFZOSLwHCNy4W.ZqxQwcxKjF78A9Pu"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Diyamona
+  - _id: gIPYAfqBkjloFn9J
+    _key: "!tables.results!FseoFZOSLwHCNy4W.gIPYAfqBkjloFn9J"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Diakanua
+  - _id: hGrdF9f4mS5LKFg2
+    _key: "!tables.results!FseoFZOSLwHCNy4W.hGrdF9f4mS5LKFg2"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Malangi
+  - _id: udVWBU8mOwAbggOn
+    _key: "!tables.results!FseoFZOSLwHCNy4W.udVWBU8mOwAbggOn"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Kimpa
+  - _id: 6ePD7P3EgXgktMEC
+    _key: "!tables.results!FseoFZOSLwHCNy4W.6ePD7P3EgXgktMEC"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Luyeye
+  - _id: okrfITzekGyw0wHw
+    _key: "!tables.results!FseoFZOSLwHCNy4W.okrfITzekGyw0wHw"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Nsaku
+  - _id: 6YBTykwdHPN2vDSA
+    _key: "!tables.results!FseoFZOSLwHCNy4W.6YBTykwdHPN2vDSA"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Lutete
+  - _id: rYQhxcDWQ7LlFq33
+    _key: "!tables.results!FseoFZOSLwHCNy4W.rYQhxcDWQ7LlFq33"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Matondele
+  - _id: R04CQrLg9a8fHt0L
+    _key: "!tables.results!FseoFZOSLwHCNy4W.R04CQrLg9a8fHt0L"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Kuma
+  - _id: b0cxDoUT66kvkQuB
+    _key: "!tables.results!FseoFZOSLwHCNy4W.b0cxDoUT66kvkQuB"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Sala
+  - _id: wkmYqz8yhw04cuWu
+    _key: "!tables.results!FseoFZOSLwHCNy4W.wkmYqz8yhw04cuWu"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Ntunga
+  - _id: j6nGtAhjHN3ljNs3
+    _key: "!tables.results!FseoFZOSLwHCNy4W.j6nGtAhjHN3ljNs3"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Masukidi
+  - _id: pja2H8byQ7IOgGmK
+    _key: "!tables.results!FseoFZOSLwHCNy4W.pja2H8byQ7IOgGmK"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Diata
+  - _id: kke3EkvDP10qAw9d
+    _key: "!tables.results!FseoFZOSLwHCNy4W.kke3EkvDP10qAw9d"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Mabiala
+  - _id: bhi8mxwtVMuYgAOM
+    _key: "!tables.results!FseoFZOSLwHCNy4W.bhi8mxwtVMuYgAOM"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Matumona
+  - _id: lAamEFacchMyYSYS
+    _key: "!tables.results!FseoFZOSLwHCNy4W.lAamEFacchMyYSYS"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Malanda
+  - _id: zSTmENylBzk5z7Nz
+    _key: "!tables.results!FseoFZOSLwHCNy4W.zSTmENylBzk5z7Nz"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Tuzolana
+  - _id: kGWEneuf8kQSOaw6
+    _key: "!tables.results!FseoFZOSLwHCNy4W.kGWEneuf8kQSOaw6"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Masamba
+  - _id: Y6SlqXyR841cTn49
+    _key: "!tables.results!FseoFZOSLwHCNy4W.Y6SlqXyR841cTn49"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Manzambi
+  - _id: cjbEhLPwf6A0ROLD
+    _key: "!tables.results!FseoFZOSLwHCNy4W.cjbEhLPwf6A0ROLD"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Mawete
+  - _id: a1nWqKyydstdns92
+    _key: "!tables.results!FseoFZOSLwHCNy4W.a1nWqKyydstdns92"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Nsengo
+  - _id: 1HucQa981pwCgenv
+    _key: "!tables.results!FseoFZOSLwHCNy4W.1HucQa981pwCgenv"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Tadi
+  - _id: w0xTMsZW849QhBNj
+    _key: "!tables.results!FseoFZOSLwHCNy4W.w0xTMsZW849QhBNj"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Nkento
+  - _id: SfOirdyUGXFYRp87
+    _key: "!tables.results!FseoFZOSLwHCNy4W.SfOirdyUGXFYRp87"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Buzitu
+  - _id: o2WNRNFDx0k15Qx3
+    _key: "!tables.results!FseoFZOSLwHCNy4W.o2WNRNFDx0k15Qx3"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Nzau
+  - _id: bgXz0Xp6DiQ3fAAM
+    _key: "!tables.results!FseoFZOSLwHCNy4W.bgXz0Xp6DiQ3fAAM"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Nzazi
+  - _id: a1ZoJPa2iUYDLVaH
+    _key: "!tables.results!FseoFZOSLwHCNy4W.a1ZoJPa2iUYDLVaH"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Ngonda
+  - _id: upvxFpUZ8atY0Ebm
+    _key: "!tables.results!FseoFZOSLwHCNy4W.upvxFpUZ8atY0Ebm"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Songa-nzila
+  - _id: gEmICOBJ7dYJYuHd
+    _key: "!tables.results!FseoFZOSLwHCNy4W.gEmICOBJ7dYJYuHd"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Kasinda
+  - _id: XE5ArCNMxLc0kIlk
+    _key: "!tables.results!FseoFZOSLwHCNy4W.XE5ArCNMxLc0kIlk"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Makelele
+  - _id: cToG1Psyi6lqRlfA
+    _key: "!tables.results!FseoFZOSLwHCNy4W.cToG1Psyi6lqRlfA"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Nzala
+  - _id: KECHJsqy1QZyP2iP
+    _key: "!tables.results!FseoFZOSLwHCNy4W.KECHJsqy1QZyP2iP"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Manoka
+  - _id: PCGLxxrMrXRDbAvd
+    _key: "!tables.results!FseoFZOSLwHCNy4W.PCGLxxrMrXRDbAvd"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Malundama
+  - _id: QDx6kwHFnJyZVUdg
+    _key: "!tables.results!FseoFZOSLwHCNy4W.QDx6kwHFnJyZVUdg"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Fumu
+  - _id: SSRS0V4WUxtcLMBN
+    _key: "!tables.results!FseoFZOSLwHCNy4W.SSRS0V4WUxtcLMBN"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Makiadi
+  - _id: xPe1toEwkrWdrMuo
+    _key: "!tables.results!FseoFZOSLwHCNy4W.xPe1toEwkrWdrMuo"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Makanga
+  - _id: BVTJLiBm7IdAnf2V
+    _key: "!tables.results!FseoFZOSLwHCNy4W.BVTJLiBm7IdAnf2V"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Mayangi
+  - _id: jwG7hGN2CqMOhRXH
+    _key: "!tables.results!FseoFZOSLwHCNy4W.jwG7hGN2CqMOhRXH"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Nkembo
+  - _id: DJ1RnF8kzSglgN8o
+    _key: "!tables.results!FseoFZOSLwHCNy4W.DJ1RnF8kzSglgN8o"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Kivuvu
+  - _id: qd548gNGiLSNowQO
+    _key: "!tables.results!FseoFZOSLwHCNy4W.qd548gNGiLSNowQO"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Matondo
+  - _id: SUqvbAYdaPEq7dlw
+    _key: "!tables.results!FseoFZOSLwHCNy4W.SUqvbAYdaPEq7dlw"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Makiese
+  - _id: 5zXE9LMg5WYZsdaz
+    _key: "!tables.results!FseoFZOSLwHCNy4W.5zXE9LMg5WYZsdaz"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Zola
+  - _id: tGtKNeJ0jtKWYlOO
+    _key: "!tables.results!FseoFZOSLwHCNy4W.tGtKNeJ0jtKWYlOO"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Luzolo
+  - _id: TmDv5Bi7BIevQuNQ
+    _key: "!tables.results!FseoFZOSLwHCNy4W.TmDv5Bi7BIevQuNQ"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Yenge
+  - _id: UDZ6SVwqm8MP86j1
+    _key: "!tables.results!FseoFZOSLwHCNy4W.UDZ6SVwqm8MP86j1"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Kiminu
+  - _id: HKmpsYTSmFUVasQY
+    _key: "!tables.results!FseoFZOSLwHCNy4W.HKmpsYTSmFUVasQY"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Nkenda
+  - _id: sE2IhwcVrANEtqKC
+    _key: "!tables.results!FseoFZOSLwHCNy4W.sE2IhwcVrANEtqKC"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Kembo
+  - _id: ICiCPf55b2xiGVrX
+    _key: "!tables.results!FseoFZOSLwHCNy4W.ICiCPf55b2xiGVrX"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Nienzi
+  - _id: 13NBTCOFV03r4xRK
+    _key: "!tables.results!FseoFZOSLwHCNy4W.13NBTCOFV03r4xRK"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Kuyana
+  - _id: S13op1pEbldvHoIk
+    _key: "!tables.results!FseoFZOSLwHCNy4W.S13op1pEbldvHoIk"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Moyo
+  - _id: xjENQQELIM0SjNYU
+    _key: "!tables.results!FseoFZOSLwHCNy4W.xjENQQELIM0SjNYU"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Mfumu
+  - _id: 3QBWSvNdgM5sEbTu
+    _key: "!tables.results!FseoFZOSLwHCNy4W.3QBWSvNdgM5sEbTu"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Matadi
+  - _id: beQcu5FGT3nDuMlM
+    _key: "!tables.results!FseoFZOSLwHCNy4W.beQcu5FGT3nDuMlM"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Mvula
+  - _id: ihKASOoqJRBPBbl0
+    _key: "!tables.results!FseoFZOSLwHCNy4W.ihKASOoqJRBPBbl0"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Maza
+  - _id: pEmmJdtMVtvIUXaL
+    _key: "!tables.results!FseoFZOSLwHCNy4W.pEmmJdtMVtvIUXaL"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Sita
+  - _id: DakgwRvWo5ZUbu0G
+    _key: "!tables.results!FseoFZOSLwHCNy4W.DakgwRvWo5ZUbu0G"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Nsuka
+  - _id: zu2V0k66G0ZIpEP2
+    _key: "!tables.results!FseoFZOSLwHCNy4W.zu2V0k66G0ZIpEP2"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Lunzi
+  - _id: IjjjpjjWyYyNQqyd
+    _key: "!tables.results!FseoFZOSLwHCNy4W.IjjjpjjWyYyNQqyd"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Ntangu
+  - _id: 8O2eN6QYWx4oOeRX
+    _key: "!tables.results!FseoFZOSLwHCNy4W.8O2eN6QYWx4oOeRX"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Ngo
+  - _id: AEZW00AgFDMqTonq
+    _key: "!tables.results!FseoFZOSLwHCNy4W.AEZW00AgFDMqTonq"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Ntalu
+  - _id: EjqCRvx0aUns7RIG
+    _key: "!tables.results!FseoFZOSLwHCNy4W.EjqCRvx0aUns7RIG"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Bakala
+  - _id: ODY0hZaOEVYbu15X
+    _key: "!tables.results!FseoFZOSLwHCNy4W.ODY0hZaOEVYbu15X"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Nti
+  - _id: t2Xfs7YgDqo8guou
+    _key: "!tables.results!FseoFZOSLwHCNy4W.t2Xfs7YgDqo8guou"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Sesa
+  - _id: 89mX84CkQUdSqh1D
+    _key: "!tables.results!FseoFZOSLwHCNy4W.89mX84CkQUdSqh1D"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Tanzi
+  - _id: VnAAicsqN5KwQ6HP
+    _key: "!tables.results!FseoFZOSLwHCNy4W.VnAAicsqN5KwQ6HP"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Diwete
+  - _id: YieppcGDvhsw4uXz
+    _key: "!tables.results!FseoFZOSLwHCNy4W.YieppcGDvhsw4uXz"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Nsambu
+  - _id: hVluWvfs3cws9idv
+    _key: "!tables.results!FseoFZOSLwHCNy4W.hVluWvfs3cws9idv"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Zolana
+  - _id: R5MbPy2deccyVZKX
+    _key: "!tables.results!FseoFZOSLwHCNy4W.R5MbPy2deccyVZKX"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Banzola
+  - _id: djot3ZF8eZLdxi5n
+    _key: "!tables.results!FseoFZOSLwHCNy4W.djot3ZF8eZLdxi5n"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Mambwene
+  - _id: I3gR6q7Th2EoszzV
+    _key: "!tables.results!FseoFZOSLwHCNy4W.I3gR6q7Th2EoszzV"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Mamona
+  - _id: QlFmuDiZrMTbkbzA
+    _key: "!tables.results!FseoFZOSLwHCNy4W.QlFmuDiZrMTbkbzA"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Mayala
+  - _id: Bgs1WIOPIVfY0Wvn
+    _key: "!tables.results!FseoFZOSLwHCNy4W.Bgs1WIOPIVfY0Wvn"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Dialungana
+  - _id: YooezuTAG1kj5swc
+    _key: "!tables.results!FseoFZOSLwHCNy4W.YooezuTAG1kj5swc"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Mampasi
+  - _id: sUNPtKb7xfy1aNXE
+    _key: "!tables.results!FseoFZOSLwHCNy4W.sUNPtKb7xfy1aNXE"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Vangu
+  - _id: GwkOgppBxLwidthq
+    _key: "!tables.results!FseoFZOSLwHCNy4W.GwkOgppBxLwidthq"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Mpaka
+  - _id: wx1ERVhqlEqHK2cd
+    _key: "!tables.results!FseoFZOSLwHCNy4W.wx1ERVhqlEqHK2cd"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Mayenda
+  - _id: KR6ztmN59W7JqA3p
+    _key: "!tables.results!FseoFZOSLwHCNy4W.KR6ztmN59W7JqA3p"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Diakese
+  - _id: Rv4u36T2qlaDUmKj
+    _key: "!tables.results!FseoFZOSLwHCNy4W.Rv4u36T2qlaDUmKj"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Mbemba
+  - _id: NzJGp5autmbeX6gW
+    _key: "!tables.results!FseoFZOSLwHCNy4W.NzJGp5autmbeX6gW"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Mavinga
+  - _id: SdO3rh4zKolLCrdE
+    _key: "!tables.results!FseoFZOSLwHCNy4W.SdO3rh4zKolLCrdE"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Mbala
+  - _id: KWlAiAwWSvnRIGBf
+    _key: "!tables.results!FseoFZOSLwHCNy4W.KWlAiAwWSvnRIGBf"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Tulunga
+  - _id: VXpa06LWCKOOFVEc
+    _key: "!tables.results!FseoFZOSLwHCNy4W.VXpa06LWCKOOFVEc"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Diawaku
+  - _id: m7R2o29EPvtnE9l8
+    _key: "!tables.results!FseoFZOSLwHCNy4W.m7R2o29EPvtnE9l8"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Ndombele
+  - _id: xdlktk1pk5auxARb
+    _key: "!tables.results!FseoFZOSLwHCNy4W.xdlktk1pk5auxARb"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Biyavanga
+  - _id: QDVuLxLVxR06bZOY
+    _key: "!tables.results!FseoFZOSLwHCNy4W.QDVuLxLVxR06bZOY"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Kimwina
+  - _id: uharm5YKFdEV7Crt
+    _key: "!tables.results!FseoFZOSLwHCNy4W.uharm5YKFdEV7Crt"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Kuyela
+  - _id: EXo1bcn0ZE24oYUg
+    _key: "!tables.results!FseoFZOSLwHCNy4W.EXo1bcn0ZE24oYUg"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Diasivi
+  - _id: RIElQqflF0Knxo0y
+    _key: "!tables.results!FseoFZOSLwHCNy4W.RIElQqflF0Knxo0y"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Nzumba
+  - _id: CwNDtMw6CHYPy2kI
+    _key: "!tables.results!FseoFZOSLwHCNy4W.CwNDtMw6CHYPy2kI"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Nsiluvangu
+  - _id: IH2ZgN5CZiyc7O9G
+    _key: "!tables.results!FseoFZOSLwHCNy4W.IH2ZgN5CZiyc7O9G"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Malanga

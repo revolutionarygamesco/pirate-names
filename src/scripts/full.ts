@@ -1,5 +1,6 @@
 import { MODULE_ID } from './settings.ts'
 import generateAkanName from './cultures/akan/generate.ts'
+import generateBantuName from './cultures/bantu/generate.ts'
 import generateDutchName from './cultures/dutch/generate.ts'
 import generateEnglishName from './cultures/english/generate.ts'
 import generateFrenchName from './cultures/french/generate.ts'
@@ -29,6 +30,7 @@ const generateName = async (
 
   const generator: Record<string, Generator> = {
     Akan: generateAkanName,
+    Bantu: generateBantuName,
     Dutch: generateDutchName,
     English: generateEnglishName,
     French: generateFrenchName,

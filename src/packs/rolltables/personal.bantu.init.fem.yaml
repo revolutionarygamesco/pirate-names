@@ -1,0 +1,57 @@
+_id: zk8wGuZMePWe4DaL
+_key: "!tables!zk8wGuZMePWe4DaL"
+name: Feminine Bantu Initiation Names
+description: Names granted to women who have been initiated into specific elite
+  traditions of the Kingdom of Kongo.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: 1kvk60fl7x9kLgKv
+results:
+  - _id: SDBtzPvU7i5lM0hU
+    _key: "!tables.results!zk8wGuZMePWe4DaL.SDBtzPvU7i5lM0hU"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Lubondo
+  - _id: YhphQqv9lPoJM9Id
+    _key: "!tables.results!zk8wGuZMePWe4DaL.YhphQqv9lPoJM9Id"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Mabinda
+  - _id: q7vcS7aEG8pTAbyu
+    _key: "!tables.results!zk8wGuZMePWe4DaL.q7vcS7aEG8pTAbyu"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Lembe
+  - _id: p2nK7Ou4nza7HoMW
+    _key: "!tables.results!zk8wGuZMePWe4DaL.p2nK7Ou4nza7HoMW"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Kuyana
+  - _id: iyY0wjjWGSyQ2Lu6
+    _key: "!tables.results!zk8wGuZMePWe4DaL.iyY0wjjWGSyQ2Lu6"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Nienzi
+  - _id: GsiG4TaAHjZHBbJJ
+    _key: "!tables.results!zk8wGuZMePWe4DaL.GsiG4TaAHjZHBbJJ"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Zolani

@@ -1,0 +1,57 @@
+_id: P1mOexZPE3QmASEw
+_key: "!tables!P1mOexZPE3QmASEw"
+name: Masculine Bantu Initiation Names
+description: Names granted to men who have been initiated into specific elite
+  traditions of the Kingdom of Kongo.
+img: icons/svg/d20-grey.svg
+formula: 1d6
+folder: 1kvk60fl7x9kLgKv
+results:
+  - _id: zy82HH6ULaFTpFM5
+    _key: "!tables.results!P1mOexZPE3QmASEw.zy82HH6ULaFTpFM5"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Nsumbu
+  - _id: 2xmyxXGWyuY86Q1y
+    _key: "!tables.results!P1mOexZPE3QmASEw.2xmyxXGWyuY86Q1y"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Lema
+  - _id: p3b3pWrZhiT4KtKE
+    _key: "!tables.results!P1mOexZPE3QmASEw.p3b3pWrZhiT4KtKE"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Mavakala
+  - _id: oL3g1Vi5fhVHEyYy
+    _key: "!tables.results!P1mOexZPE3QmASEw.oL3g1Vi5fhVHEyYy"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Lukau
+  - _id: GNZjZn1ZbbvTFVcN
+    _key: "!tables.results!P1mOexZPE3QmASEw.GNZjZn1ZbbvTFVcN"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Mata
+  - _id: 2kyqXILyUHh6wobg
+    _key: "!tables.results!P1mOexZPE3QmASEw.2kyqXILyUHh6wobg"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Takenda

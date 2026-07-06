@@ -77,6 +77,14 @@ export const otherNames: Record<string, any> = {
       }
     },
     Surnames: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6gusbvIigQXTCmPC'
+  },
+  Bantu: {
+    Nkumbu: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FseoFZOSLwHCNy4W',
+    Santu: 'Compendium.revolutionary-piratenames.rolltables.RollTable.sHJcHKv4AL1xdrkT',
+    Initiation: {
+      Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.P1mOexZPE3QmASEw',
+      Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.zk8wGuZMePWe4DaL'
+    }
   }
 }
 
