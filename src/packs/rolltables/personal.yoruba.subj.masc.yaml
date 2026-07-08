@@ -1,0 +1,168 @@
+_id: Dt4kwodKkcmpmafX
+_key: "!tables!Dt4kwodKkcmpmafX"
+name: Masculine Yoruba Name Subjects
+description: A selection of subjects used in masculine Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: 5tbpLWYoYp4CLlnP
+    _key: "!tables.results!Dt4kwodKkcmpmafX.5tbpLWYoYp4CLlnP"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Ṣàngó
+  - _id: gKEMPwAW0yASnkhp
+    _key: "!tables.results!Dt4kwodKkcmpmafX.gKEMPwAW0yASnkhp"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Ògún
+  - _id: DsMYpFkznEbIE3Qg
+    _key: "!tables.results!Dt4kwodKkcmpmafX.DsMYpFkznEbIE3Qg"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Fá
+  - _id: vtF0jm4dcSebW6XU
+    _key: "!tables.results!Dt4kwodKkcmpmafX.vtF0jm4dcSebW6XU"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Òrìṣà
+  - _id: ENWMM6QqSTkdKpsn
+    _key: "!tables.results!Dt4kwodKkcmpmafX.ENWMM6QqSTkdKpsn"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Olú
+  - _id: bYD8y8UsfYIQNaWs
+    _key: "!tables.results!Dt4kwodKkcmpmafX.bYD8y8UsfYIQNaWs"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Awo
+  - _id: FQoXEAnBeiVcBk91
+    _key: "!tables.results!Dt4kwodKkcmpmafX.FQoXEAnBeiVcBk91"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Oje
+  - _id: mbfe3kX3HicKmWq7
+    _key: "!tables.results!Dt4kwodKkcmpmafX.mbfe3kX3HicKmWq7"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Bàbá
+  - _id: ovk5O4ZXKIZBUHWp
+    _key: "!tables.results!Dt4kwodKkcmpmafX.ovk5O4ZXKIZBUHWp"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Ọba
+  - _id: 8NVZWtR6Nwj9If3S
+    _key: "!tables.results!Dt4kwodKkcmpmafX.8NVZWtR6Nwj9If3S"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Ọ̀ṣọ́ọ̀sì
+  - _id: OF4h7j2nuf5EAxEB
+    _key: "!tables.results!Dt4kwodKkcmpmafX.OF4h7j2nuf5EAxEB"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Odù
+  - _id: GkL4NgJYmsKM3kKl
+    _key: "!tables.results!Dt4kwodKkcmpmafX.GkL4NgJYmsKM3kKl"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Ọdẹ
+  - _id: JNh6hUvhCvpNEXfg
+    _key: "!tables.results!Dt4kwodKkcmpmafX.JNh6hUvhCvpNEXfg"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Akin
+  - _id: NR76nV0qdkXm5P8q
+    _key: "!tables.results!Dt4kwodKkcmpmafX.NR76nV0qdkXm5P8q"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Odùduwà
+  - _id: 9kDPz4gXSu0NgSgJ
+    _key: "!tables.results!Dt4kwodKkcmpmafX.9kDPz4gXSu0NgSgJ"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Ọ̀sanyìn
+  - _id: W9KdI3R4MtgfKcUw
+    _key: "!tables.results!Dt4kwodKkcmpmafX.W9KdI3R4MtgfKcUw"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Ọ̀rànyàn
+  - _id: VwV7bbAnEFeVUvdq
+    _key: "!tables.results!Dt4kwodKkcmpmafX.VwV7bbAnEFeVUvdq"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Aganjú
+  - _id: 29k5acErDbjpwlM1
+    _key: "!tables.results!Dt4kwodKkcmpmafX.29k5acErDbjpwlM1"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Erinlè
+  - _id: fYfMjjxJhO0IqTwe
+    _key: "!tables.results!Dt4kwodKkcmpmafX.fYfMjjxJhO0IqTwe"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Àrẹ̀
+  - _id: mW4JtXj7ZZDrHWsy
+    _key: "!tables.results!Dt4kwodKkcmpmafX.mW4JtXj7ZZDrHWsy"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Ọlọ́fa

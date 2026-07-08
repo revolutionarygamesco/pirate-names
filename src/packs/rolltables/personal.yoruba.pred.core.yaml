@@ -1,0 +1,168 @@
+_id: aiO35Dj2wpXFkDAz
+_key: "!tables!aiO35Dj2wpXFkDAz"
+name: Common Yoruba Name Predicates
+description: A selection of predicates used in Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: z7wgCnckoY7Md1im
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.z7wgCnckoY7Md1im"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: yẹmí
+  - _id: Od8rC6TzPi0zjOsG
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.Od8rC6TzPi0zjOsG"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: wùmí
+  - _id: 6DURkUKuffZgYIf1
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.6DURkUKuffZgYIf1"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: tọ́lá
+  - _id: Epgayfxffk8YKEKq
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.Epgayfxffk8YKEKq"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: níyì
+  - _id: Wb09MODtCQtamM5l
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.Wb09MODtCQtamM5l"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: lékè
+  - _id: WJOQUrA3jOyVMnWC
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.WJOQUrA3jOyVMnWC"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: ṣọlá
+  - _id: jkJkqWg16xStBWRd
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.jkJkqWg16xStBWRd"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: dayọ̀
+  - _id: Nem1WictcNhjsAmD
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.Nem1WictcNhjsAmD"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: ṣẹ́gun
+  - _id: ZcS9IDfyJISNgAvK
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.ZcS9IDfyJISNgAvK"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: kúnlé
+  - _id: omEBUMw7EbtjhX78
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.omEBUMw7EbtjhX78"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: mọ́lá
+  - _id: 1oalDVLJoZO1XFTm
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.1oalDVLJoZO1XFTm"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: lọ́lá
+  - _id: NraUJOO4IWRiD2qJ
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.NraUJOO4IWRiD2qJ"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: délé
+  - _id: KwNRtlpQ5l8DfeNh
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.KwNRtlpQ5l8DfeNh"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: wálé
+  - _id: J9Di2xjD8Gzd2Q2n
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.J9Di2xjD8Gzd2Q2n"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: túndé
+  - _id: nFQ94Qr7HcDMYY09
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.nFQ94Qr7HcDMYY09"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: jídé
+  - _id: srjt14Wtzb8G3kbH
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.srjt14Wtzb8G3kbH"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: gòkè
+  - _id: 6p4py03mI30O64RT
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.6p4py03mI30O64RT"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: fẹ́mi
+  - _id: 9jSL26t2kQwCf8tB
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.9jSL26t2kQwCf8tB"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: kẹ́mi
+  - _id: EeaDEis1AuZ2rz7h
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.EeaDEis1AuZ2rz7h"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: rónkẹ́
+  - _id: EytPeA8Pzvzb5Qy8
+    _key: "!tables.results!aiO35Dj2wpXFkDAz.EytPeA8Pzvzb5Qy8"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: ṣèwà

@@ -1,0 +1,168 @@
+_id: wlROyhcSD9v2ePg0
+_key: "!tables!wlROyhcSD9v2ePg0"
+name: Inanimate Yoruba Name Subjects
+description: A selection of inanimate subjects used in Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: OIwXDwa2JjbRt4Hl
+    _key: "!tables.results!wlROyhcSD9v2ePg0.OIwXDwa2JjbRt4Hl"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Adé
+  - _id: RBNBIu8nqztDgJQp
+    _key: "!tables.results!wlROyhcSD9v2ePg0.RBNBIu8nqztDgJQp"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Ọlá
+  - _id: dOYLlouKpz93yRlp
+    _key: "!tables.results!wlROyhcSD9v2ePg0.dOYLlouKpz93yRlp"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ọlà
+  - _id: j3OfBmjmodmrgUxM
+    _key: "!tables.results!wlROyhcSD9v2ePg0.j3OfBmjmodmrgUxM"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Ayọ̀
+  - _id: QJILjD2ywAmIXcMr
+    _key: "!tables.results!wlROyhcSD9v2ePg0.QJILjD2ywAmIXcMr"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ọmọ
+  - _id: Xe59S55decG8xKfU
+    _key: "!tables.results!wlROyhcSD9v2ePg0.Xe59S55decG8xKfU"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Oyè
+  - _id: aeXpHjVy1Xe8pDAN
+    _key: "!tables.results!wlROyhcSD9v2ePg0.aeXpHjVy1Xe8pDAN"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ọpẹ́
+  - _id: C2nZvyT9De7YfSRj
+    _key: "!tables.results!wlROyhcSD9v2ePg0.C2nZvyT9De7YfSRj"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ìfẹ́
+  - _id: KYhdlnYdYE2G9Y7W
+    _key: "!tables.results!wlROyhcSD9v2ePg0.KYhdlnYdYE2G9Y7W"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Orí
+  - _id: x8zZX7phvjCi69zl
+    _key: "!tables.results!wlROyhcSD9v2ePg0.x8zZX7phvjCi69zl"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Ire
+  - _id: ijoFQcGV8zrXsvco
+    _key: "!tables.results!wlROyhcSD9v2ePg0.ijoFQcGV8zrXsvco"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Owó
+  - _id: cpvTfne7JbiEzaDw
+    _key: "!tables.results!wlROyhcSD9v2ePg0.cpvTfne7JbiEzaDw"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Ẹ̀bùn
+  - _id: 7PvyJ004wiMCiAPC
+    _key: "!tables.results!wlROyhcSD9v2ePg0.7PvyJ004wiMCiAPC"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Ilé
+  - _id: rkfCkuP6rK7DrWdv
+    _key: "!tables.results!wlROyhcSD9v2ePg0.rkfCkuP6rK7DrWdv"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Ayé
+  - _id: CtcIGZyhQE3Q3ncG
+    _key: "!tables.results!wlROyhcSD9v2ePg0.CtcIGZyhQE3Q3ncG"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Oyin
+  - _id: dHpnLr1yhJiZSFYQ
+    _key: "!tables.results!wlROyhcSD9v2ePg0.dHpnLr1yhJiZSFYQ"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Wúrà
+  - _id: VaNLl34snoxzrOpS
+    _key: "!tables.results!wlROyhcSD9v2ePg0.VaNLl34snoxzrOpS"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Ẹbí
+  - _id: BKDab0p9HX30nmoS
+    _key: "!tables.results!wlROyhcSD9v2ePg0.BKDab0p9HX30nmoS"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Ọ̀rẹ́
+  - _id: kQXKhqkx6aWjr7Ob
+    _key: "!tables.results!wlROyhcSD9v2ePg0.kQXKhqkx6aWjr7Ob"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Àṣẹ
+  - _id: UOELZXvid1spco2Z
+    _key: "!tables.results!wlROyhcSD9v2ePg0.UOELZXvid1spco2Z"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Ọ̀run

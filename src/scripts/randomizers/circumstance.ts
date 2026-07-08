@@ -17,7 +17,19 @@ export const options: Array<{ min: number, max: number, circumstance: string | n
   { min: 33, max: 35, circumstance: 'facedown' },
   { min: 36, max: 37, circumstance: 'day' },
   { min: 38, max: 39, circumstance: 'night' },
-  { min: 40, max: 100, circumstance: null }
+  { min: 40, max: 40, circumstance: 'postterm' },
+  { min: 41, max: 41, circumstance: 'caul' },
+  { min: 42, max: 42, circumstance: 'motherless' },
+  { min: 43, max: 43, circumstance: 'crier' },
+  { min: 44, max: 44, circumstance: 'breech' },
+  { min: 45, max: 45, circumstance: 'knotted' },
+  { min: 46, max: 46, circumstance: 'unbroken' },
+  { min: 47, max: 47, circumstance: 'festival' },
+  { min: 48, max: 48, circumstance: 'egungun' },
+  { min: 49, max: 49, circumstance: 'orisa' },
+  { min: 50, max: 50, circumstance: 'traveling' },
+  { min: 51, max: 51, circumstance: 'overseas' },
+  { min: 52, max: 100, circumstance: null }
 ]
 
 const pickCircumstance = async (): Promise<string | null> => {

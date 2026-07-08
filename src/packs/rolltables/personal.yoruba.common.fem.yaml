@@ -1,0 +1,808 @@
+_id: iKoVbfys8guccYIP
+_key: "!tables!iKoVbfys8guccYIP"
+name: Common Feminine Yoruba Names
+description: A selection of popular feminine Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: 0GqVl2Ko65VV2DJZ
+    _key: "!tables.results!iKoVbfys8guccYIP.0GqVl2Ko65VV2DJZ"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Abáyọmí
+  - _id: OJisz9YPLAwuKPMo
+    _key: "!tables.results!iKoVbfys8guccYIP.OJisz9YPLAwuKPMo"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Àbẹ̀bí
+  - _id: ljtt0wXRdJVgdMaw
+    _key: "!tables.results!iKoVbfys8guccYIP.ljtt0wXRdJVgdMaw"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Àbẹ̀ní
+  - _id: P7XYW9SPhHXUTw4K
+    _key: "!tables.results!iKoVbfys8guccYIP.P7XYW9SPhHXUTw4K"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Àbíké
+  - _id: Pm6EOnSyPgQEW7wF
+    _key: "!tables.results!iKoVbfys8guccYIP.Pm6EOnSyPgQEW7wF"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Àbíọ́nà
+  - _id: uyIJRW11tWw0lOEk
+    _key: "!tables.results!iKoVbfys8guccYIP.uyIJRW11tWw0lOEk"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Abísọ́lá
+  - _id: 80Ha07EpKacdGYUY
+    _key: "!tables.results!iKoVbfys8guccYIP.80Ha07EpKacdGYUY"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Adébáyọ̀
+  - _id: 0ZtzOf6hlH8C723t
+    _key: "!tables.results!iKoVbfys8guccYIP.0ZtzOf6hlH8C723t"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Adébọ́lá
+  - _id: unzS2tZ7hIbkzxvu
+    _key: "!tables.results!iKoVbfys8guccYIP.unzS2tZ7hIbkzxvu"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Adébùkọ́lá
+  - _id: CEuLgeyCLcrg7Cc0
+    _key: "!tables.results!iKoVbfys8guccYIP.CEuLgeyCLcrg7Cc0"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Adédayọ̀
+  - _id: D6LxETxLTrjWrHFi
+    _key: "!tables.results!iKoVbfys8guccYIP.D6LxETxLTrjWrHFi"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Adédoyin
+  - _id: ej6V2K6hibrUPe4K
+    _key: "!tables.results!iKoVbfys8guccYIP.ej6V2K6hibrUPe4K"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Adéfúnkẹ́
+  - _id: QKclzQb8vImSnWcb
+    _key: "!tables.results!iKoVbfys8guccYIP.QKclzQb8vImSnWcb"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Adéjọkẹ́
+  - _id: huprUJICtaEruSKu
+    _key: "!tables.results!iKoVbfys8guccYIP.huprUJICtaEruSKu"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Adélékè
+  - _id: qlVg1SWpPgAwbjGp
+    _key: "!tables.results!iKoVbfys8guccYIP.qlVg1SWpPgAwbjGp"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Adémọ́lá
+  - _id: oPm7nrFs9JcTnRaP
+    _key: "!tables.results!iKoVbfys8guccYIP.oPm7nrFs9JcTnRaP"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Adéníyì
+  - _id: EpkrCcFS7DyS9Yg4
+    _key: "!tables.results!iKoVbfys8guccYIP.EpkrCcFS7DyS9Yg4"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Adéọlá
+  - _id: JFn017xM7GpDC3tK
+    _key: "!tables.results!iKoVbfys8guccYIP.JFn017xM7GpDC3tK"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Adéoyè
+  - _id: XmWZaiZIWo4ZTSN0
+    _key: "!tables.results!iKoVbfys8guccYIP.XmWZaiZIWo4ZTSN0"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Adérónkẹ́
+  - _id: LkOsl4iD4KQUArLo
+    _key: "!tables.results!iKoVbfys8guccYIP.LkOsl4iD4KQUArLo"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Adéṣèwà
+  - _id: 1MlJjGuQtFhSaETI
+    _key: "!tables.results!iKoVbfys8guccYIP.1MlJjGuQtFhSaETI"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Adéṣọlá
+  - _id: UWI8EkgL7etvwgVU
+    _key: "!tables.results!iKoVbfys8guccYIP.UWI8EkgL7etvwgVU"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Adéwùnmí
+  - _id: uu7RdiBzL1dSdkd4
+    _key: "!tables.results!iKoVbfys8guccYIP.uu7RdiBzL1dSdkd4"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Adéyẹmí
+  - _id: pn8l18uwS2AddpQ4
+    _key: "!tables.results!iKoVbfys8guccYIP.pn8l18uwS2AddpQ4"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Àdùnní
+  - _id: ezmFVpfqrEQJT7Ba
+    _key: "!tables.results!iKoVbfys8guccYIP.ezmFVpfqrEQJT7Ba"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Àjọkẹ́
+  - _id: pYKLzVrA9dEXt5Ob
+    _key: "!tables.results!iKoVbfys8guccYIP.pYKLzVrA9dEXt5Ob"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Àkànkẹ́
+  - _id: NxBP53NlZHQ1lRxy
+    _key: "!tables.results!iKoVbfys8guccYIP.NxBP53NlZHQ1lRxy"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Àríké
+  - _id: kgZdr1wMwNPECfJW
+    _key: "!tables.results!iKoVbfys8guccYIP.kgZdr1wMwNPECfJW"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Àríyọ̀
+  - _id: olebkTvKHXCfWWTd
+    _key: "!tables.results!iKoVbfys8guccYIP.olebkTvKHXCfWWTd"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Àṣabí
+  - _id: GQi9k46bla3rLOB3
+    _key: "!tables.results!iKoVbfys8guccYIP.GQi9k46bla3rLOB3"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Àṣàkẹ́
+  - _id: JDOjGLT7aZxeTe8W
+    _key: "!tables.results!iKoVbfys8guccYIP.JDOjGLT7aZxeTe8W"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Àyìnkẹ́
+  - _id: Jy20oGdI5hgEHhoa
+    _key: "!tables.results!iKoVbfys8guccYIP.Jy20oGdI5hgEHhoa"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Ayọ̀bámi
+  - _id: JLshmitFOVJUBTV2
+    _key: "!tables.results!iKoVbfys8guccYIP.JLshmitFOVJUBTV2"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Ayọ̀déjì
+  - _id: zr9CmtTmRIGQAHda
+    _key: "!tables.results!iKoVbfys8guccYIP.zr9CmtTmRIGQAHda"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Ayọ̀délé
+  - _id: 6FB6M0D2o0cCrZ20
+    _key: "!tables.results!iKoVbfys8guccYIP.6FB6M0D2o0cCrZ20"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Ayọ̀ọlá
+  - _id: pHGCyQ1mQcwkGgbv
+    _key: "!tables.results!iKoVbfys8guccYIP.pHGCyQ1mQcwkGgbv"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Ayọ̀túndé
+  - _id: f3HHmeF4sihgGRwI
+    _key: "!tables.results!iKoVbfys8guccYIP.f3HHmeF4sihgGRwI"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Ayọ̀wùmí
+  - _id: XQWl8BQKFl6LjQY4
+    _key: "!tables.results!iKoVbfys8guccYIP.XQWl8BQKFl6LjQY4"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Bámidélé
+  - _id: 2xOwykQtlEYMZF0y
+    _key: "!tables.results!iKoVbfys8guccYIP.2xOwykQtlEYMZF0y"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Bọ́lánlé
+  - _id: WotjIGpMALEQmNxZ
+    _key: "!tables.results!iKoVbfys8guccYIP.WotjIGpMALEQmNxZ"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Bùkọ́lá
+  - _id: ziT2tBIe0kLWrd0p
+    _key: "!tables.results!iKoVbfys8guccYIP.ziT2tBIe0kLWrd0p"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Dayọ̀
+  - _id: VBwJJUlgGEsedYYC
+    _key: "!tables.results!iKoVbfys8guccYIP.VBwJJUlgGEsedYYC"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Délé
+  - _id: FEALAaitsQ6IEWAE
+    _key: "!tables.results!iKoVbfys8guccYIP.FEALAaitsQ6IEWAE"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Dúpẹ́
+  - _id: tYHTfaqK44LUCRE9
+    _key: "!tables.results!iKoVbfys8guccYIP.tYHTfaqK44LUCRE9"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Ekúndayọ̀
+  - _id: Md8kqfOQJAYo34Ky
+    _key: "!tables.results!iKoVbfys8guccYIP.Md8kqfOQJAYo34Ky"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Fọláké
+  - _id: cMMhMVR52rj959w0
+    _key: "!tables.results!iKoVbfys8guccYIP.cMMhMVR52rj959w0"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Fọlárìn
+  - _id: QLSDekoIkY1RfdnN
+    _key: "!tables.results!iKoVbfys8guccYIP.QLSDekoIkY1RfdnN"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Fọláṣadé
+  - _id: aoF4kLRA9HcDzMQH
+    _key: "!tables.results!iKoVbfys8guccYIP.aoF4kLRA9HcDzMQH"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Fọláṣàdé
+  - _id: xTAjS1BImWE7239X
+    _key: "!tables.results!iKoVbfys8guccYIP.xTAjS1BImWE7239X"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Fúnmiláyọ̀
+  - _id: zSrYEVgmxMzuilfG
+    _key: "!tables.results!iKoVbfys8guccYIP.zSrYEVgmxMzuilfG"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Ìbídún
+  - _id: 9qOjWlBSIRVvaL6c
+    _key: "!tables.results!iKoVbfys8guccYIP.9qOjWlBSIRVvaL6c"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Ìfẹ́ọlá
+  - _id: zDGEFI8m7mixJKX9
+    _key: "!tables.results!iKoVbfys8guccYIP.zDGEFI8m7mixJKX9"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Ìfẹ́túndé
+  - _id: IVEZCdIImwkLSBZq
+    _key: "!tables.results!iKoVbfys8guccYIP.IVEZCdIImwkLSBZq"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Ìfẹ́wùmí
+  - _id: nOoBKZeF0SRwzhYj
+    _key: "!tables.results!iKoVbfys8guccYIP.nOoBKZeF0SRwzhYj"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Ìyábọ̀
+  - _id: FmQiiRa6O79noQkg
+    _key: "!tables.results!iKoVbfys8guccYIP.FmQiiRa6O79noQkg"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Modúpẹ́
+  - _id: CB5X2nLh8dp4Rrme
+    _key: "!tables.results!iKoVbfys8guccYIP.CB5X2nLh8dp4Rrme"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Mọ́réniké
+  - _id: 4R9ChrCJ1XSQAksP
+    _key: "!tables.results!iKoVbfys8guccYIP.4R9ChrCJ1XSQAksP"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Ọládayọ̀
+  - _id: JBt5F3oFc5BaRTS6
+    _key: "!tables.results!iKoVbfys8guccYIP.JBt5F3oFc5BaRTS6"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Ọládélé
+  - _id: IcLCBteT6gXPo83o
+    _key: "!tables.results!iKoVbfys8guccYIP.IcLCBteT6gXPo83o"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Ọládiméjì
+  - _id: uEU5BbZUHrn6CM0q
+    _key: "!tables.results!iKoVbfys8guccYIP.uEU5BbZUHrn6CM0q"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Ọlálékè
+  - _id: 71V9vHB5KK2BX9yN
+    _key: "!tables.results!iKoVbfys8guccYIP.71V9vHB5KK2BX9yN"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Ọlámidé
+  - _id: 65lYbWdD5MdxtvaJ
+    _key: "!tables.results!iKoVbfys8guccYIP.65lYbWdD5MdxtvaJ"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Ọláníyì
+  - _id: QGv8BlU5osRRY3eC
+    _key: "!tables.results!iKoVbfys8guccYIP.QGv8BlU5osRRY3eC"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Ọláṣẹ́gun
+  - _id: yMc1pkINxvIKYtVw
+    _key: "!tables.results!iKoVbfys8guccYIP.yMc1pkINxvIKYtVw"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Ọláṣọlá
+  - _id: dHiacqVpFHUTEhbu
+    _key: "!tables.results!iKoVbfys8guccYIP.dHiacqVpFHUTEhbu"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Ọláṣubọ̀mí
+  - _id: yfJopaCh6JWuQh9q
+    _key: "!tables.results!iKoVbfys8guccYIP.yfJopaCh6JWuQh9q"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Ọlátúndé
+  - _id: oF9vHQjvmP2l75zA
+    _key: "!tables.results!iKoVbfys8guccYIP.oF9vHQjvmP2l75zA"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Ọláwálé
+  - _id: 01JED5Wv5a6JHDGm
+    _key: "!tables.results!iKoVbfys8guccYIP.01JED5Wv5a6JHDGm"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Ọláwùmí
+  - _id: EqjTlRl2NhF03zbI
+    _key: "!tables.results!iKoVbfys8guccYIP.EqjTlRl2NhF03zbI"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Ọláwùnmisí
+  - _id: mVGPNSimD4nF4pYh
+    _key: "!tables.results!iKoVbfys8guccYIP.mVGPNSimD4nF4pYh"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Ọláyẹmí
+  - _id: ucp9oAgDWoH7dApI
+    _key: "!tables.results!iKoVbfys8guccYIP.ucp9oAgDWoH7dApI"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Ọláyẹmisí
+  - _id: M09Xmcbv5Dmv1IX9
+    _key: "!tables.results!iKoVbfys8guccYIP.M09Xmcbv5Dmv1IX9"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Ọláyínká
+  - _id: FURH6ncWF7BES5DE
+    _key: "!tables.results!iKoVbfys8guccYIP.FURH6ncWF7BES5DE"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Ọmọ́ládé
+  - _id: La0dZpn9o7IUxTtM
+    _key: "!tables.results!iKoVbfys8guccYIP.La0dZpn9o7IUxTtM"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Ọmọ́lọ́lá
+  - _id: vAflGHyCO034DGBt
+    _key: "!tables.results!iKoVbfys8guccYIP.vAflGHyCO034DGBt"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Ọmọ́níkẹ́
+  - _id: yr94lwpAreDw5qf8
+    _key: "!tables.results!iKoVbfys8guccYIP.yr94lwpAreDw5qf8"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Ọmọ́táyọ̀
+  - _id: RDBGQI8db6bEjwMS
+    _key: "!tables.results!iKoVbfys8guccYIP.RDBGQI8db6bEjwMS"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Ọmọ́wálé
+  - _id: a1dl2GvsTX6bf8Qo
+    _key: "!tables.results!iKoVbfys8guccYIP.a1dl2GvsTX6bf8Qo"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Ọmọ́wùmí
+  - _id: fJhZgxFj7kZZcLVW
+    _key: "!tables.results!iKoVbfys8guccYIP.fJhZgxFj7kZZcLVW"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Ọmọ́yẹmí
+  - _id: A7sfvqZ98AzCRuK9
+    _key: "!tables.results!iKoVbfys8guccYIP.A7sfvqZ98AzCRuK9"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Ọpẹ́ọlá
+  - _id: pJpA4ebqvIhdC7pf
+    _key: "!tables.results!iKoVbfys8guccYIP.pJpA4ebqvIhdC7pf"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Ọpẹ́túndé
+  - _id: txQ4gKYiEdSLbn9H
+    _key: "!tables.results!iKoVbfys8guccYIP.txQ4gKYiEdSLbn9H"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Ọpẹ́yẹmí
+  - _id: jVTNIdnYy6MlAI77
+    _key: "!tables.results!iKoVbfys8guccYIP.jVTNIdnYy6MlAI77"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Ọ̀ṣunbùnmi
+  - _id: 5PQgJn4DueN4lOZe
+    _key: "!tables.results!iKoVbfys8guccYIP.5PQgJn4DueN4lOZe"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Ọ̀ṣundé
+  - _id: wq84njpGzRYLzHCt
+    _key: "!tables.results!iKoVbfys8guccYIP.wq84njpGzRYLzHCt"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Ọ̀ṣunkẹ́mi
+  - _id: VtER0Cu5Yzt9QD8l
+    _key: "!tables.results!iKoVbfys8guccYIP.VtER0Cu5Yzt9QD8l"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Ọ̀ṣunyẹmí
+  - _id: X4VJR2YrmreNo9rF
+    _key: "!tables.results!iKoVbfys8guccYIP.X4VJR2YrmreNo9rF"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Ọyabùnmi
+  - _id: XYo3QzrgYuK5LyXP
+    _key: "!tables.results!iKoVbfys8guccYIP.XYo3QzrgYuK5LyXP"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ọyátúndé
+  - _id: l9he8qJeyAPMrODW
+    _key: "!tables.results!iKoVbfys8guccYIP.l9he8qJeyAPMrODW"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Oyèọlá
+  - _id: 3NhRerjBeKkKHmUu
+    _key: "!tables.results!iKoVbfys8guccYIP.3NhRerjBeKkKHmUu"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Oyèwùmí
+  - _id: P94wJSMeaZxfSIXk
+    _key: "!tables.results!iKoVbfys8guccYIP.P94wJSMeaZxfSIXk"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Oyèyẹmí
+  - _id: aZ82ejoxPUJNNURc
+    _key: "!tables.results!iKoVbfys8guccYIP.aZ82ejoxPUJNNURc"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Ṣadé
+  - _id: jaOUglWDFL265RdT
+    _key: "!tables.results!iKoVbfys8guccYIP.jaOUglWDFL265RdT"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Táyọ̀
+  - _id: ENguXAu4wFjVBnsV
+    _key: "!tables.results!iKoVbfys8guccYIP.ENguXAu4wFjVBnsV"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Títílayọ̀
+  - _id: bKhZdMrS0x87krUH
+    _key: "!tables.results!iKoVbfys8guccYIP.bKhZdMrS0x87krUH"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Títílọ́pẹ̀
+  - _id: SSmoV0DRcxexhCIe
+    _key: "!tables.results!iKoVbfys8guccYIP.SSmoV0DRcxexhCIe"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Wúràọlá
+  - _id: Z3FlJiq46YPPknmA
+    _key: "!tables.results!iKoVbfys8guccYIP.Z3FlJiq46YPPknmA"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Yéjídé
+  - _id: 1tga8aPBSy1BK4my
+    _key: "!tables.results!iKoVbfys8guccYIP.1tga8aPBSy1BK4my"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Yémisí
+  - _id: KjSd8znkH1PGGfrI
+    _key: "!tables.results!iKoVbfys8guccYIP.KjSd8znkH1PGGfrI"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Yétúndé
+  - _id: wT1KECN6H7rk48EI
+    _key: "!tables.results!iKoVbfys8guccYIP.wT1KECN6H7rk48EI"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Yéwándé

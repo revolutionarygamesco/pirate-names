@@ -1,0 +1,808 @@
+_id: 0IPu47kGws4uELoZ
+_key: "!tables!0IPu47kGws4uELoZ"
+name: Common Masculine Yoruba Names
+description: A selection of popular masculine Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: 19nHFZgqptLgEOkw
+    _key: "!tables.results!0IPu47kGws4uELoZ.19nHFZgqptLgEOkw"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Abáyọmí
+  - _id: bo0YvkjO0dOEYfDj
+    _key: "!tables.results!0IPu47kGws4uELoZ.bo0YvkjO0dOEYfDj"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Adébáyọ̀
+  - _id: IvLOeM2UvyYxzixd
+    _key: "!tables.results!0IPu47kGws4uELoZ.IvLOeM2UvyYxzixd"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Adébọ́lá
+  - _id: R8ey8oniS3t3kCUs
+    _key: "!tables.results!0IPu47kGws4uELoZ.R8ey8oniS3t3kCUs"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Adédayọ̀
+  - _id: QlmasMjrJjtxyxRg
+    _key: "!tables.results!0IPu47kGws4uELoZ.QlmasMjrJjtxyxRg"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Adéfẹ́mi
+  - _id: zANewtDVuxpV6pig
+    _key: "!tables.results!0IPu47kGws4uELoZ.zANewtDVuxpV6pig"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Adégòkè
+  - _id: lxkzXaWSP18UA7Oo
+    _key: "!tables.results!0IPu47kGws4uELoZ.lxkzXaWSP18UA7Oo"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Adékúnlé
+  - _id: BrFJ7yXSk4i7LMOG
+    _key: "!tables.results!0IPu47kGws4uELoZ.BrFJ7yXSk4i7LMOG"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Adélékè
+  - _id: UtpnQgi82u5jsx3F
+    _key: "!tables.results!0IPu47kGws4uELoZ.UtpnQgi82u5jsx3F"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Adémọ́lá
+  - _id: hNook24h99mt1743
+    _key: "!tables.results!0IPu47kGws4uELoZ.hNook24h99mt1743"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Adéníyì
+  - _id: lngbXa6P4Wloqxmt
+    _key: "!tables.results!0IPu47kGws4uELoZ.lngbXa6P4Wloqxmt"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Adéọlá
+  - _id: YGtHu7TpsP5z1P0Z
+    _key: "!tables.results!0IPu47kGws4uELoZ.YGtHu7TpsP5z1P0Z"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Adéoyè
+  - _id: oe0KKMFvF0TLVExr
+    _key: "!tables.results!0IPu47kGws4uELoZ.oe0KKMFvF0TLVExr"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Adéṣẹ́gun
+  - _id: 2tUbxrkqLeuCGjBc
+    _key: "!tables.results!0IPu47kGws4uELoZ.2tUbxrkqLeuCGjBc"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Adéṣọlá
+  - _id: BIx7MXl1Im5tNPIR
+    _key: "!tables.results!0IPu47kGws4uELoZ.BIx7MXl1Im5tNPIR"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Adétúndé
+  - _id: Uu6CvY6iTk4BpTbd
+    _key: "!tables.results!0IPu47kGws4uELoZ.Uu6CvY6iTk4BpTbd"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Adéwálé
+  - _id: lsA15TkOmd6kSXWc
+    _key: "!tables.results!0IPu47kGws4uELoZ.lsA15TkOmd6kSXWc"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Adéwùnmí
+  - _id: 8Be0YRqQ6wRJ9i1l
+    _key: "!tables.results!0IPu47kGws4uELoZ.8Be0YRqQ6wRJ9i1l"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Adéyẹmí
+  - _id: eV367xh1wWGKtOXQ
+    _key: "!tables.results!0IPu47kGws4uELoZ.eV367xh1wWGKtOXQ"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Akíndélé
+  - _id: kYO5M6QrNASlgqsF
+    _key: "!tables.results!0IPu47kGws4uELoZ.kYO5M6QrNASlgqsF"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Akínkúnlé
+  - _id: T0mRbH3NewH41Omi
+    _key: "!tables.results!0IPu47kGws4uELoZ.T0mRbH3NewH41Omi"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Akínọlá
+  - _id: vmSPvYrSLoeAJ9Vz
+    _key: "!tables.results!0IPu47kGws4uELoZ.vmSPvYrSLoeAJ9Vz"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Akínṣẹ́gun
+  - _id: xBbGvhDVJaGUKATZ
+    _key: "!tables.results!0IPu47kGws4uELoZ.xBbGvhDVJaGUKATZ"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Akínṣọlá
+  - _id: sMfpYAnf8LSSZOll
+    _key: "!tables.results!0IPu47kGws4uELoZ.sMfpYAnf8LSSZOll"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Akíntúndé
+  - _id: Qi5mARi7VvKHhi8M
+    _key: "!tables.results!0IPu47kGws4uELoZ.Qi5mARi7VvKHhi8M"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Akínwálé
+  - _id: iVmSJkByx4QtmBRB
+    _key: "!tables.results!0IPu47kGws4uELoZ.iVmSJkByx4QtmBRB"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Akínyẹmí
+  - _id: Ii3iIn63RXcwZF0k
+    _key: "!tables.results!0IPu47kGws4uELoZ.Ii3iIn63RXcwZF0k"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Awódélé
+  - _id: 2k1tO0l7jC46A4f2
+    _key: "!tables.results!0IPu47kGws4uELoZ.2k1tO0l7jC46A4f2"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Awólọ́wọ̀
+  - _id: EMylCuUOj5upo3Cf
+    _key: "!tables.results!0IPu47kGws4uELoZ.EMylCuUOj5upo3Cf"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Awóyẹmí
+  - _id: UyGBgyJWdo61iJqO
+    _key: "!tables.results!0IPu47kGws4uELoZ.UyGBgyJWdo61iJqO"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Ayọ̀bámi
+  - _id: HdZX09LfpbpHvzVK
+    _key: "!tables.results!0IPu47kGws4uELoZ.HdZX09LfpbpHvzVK"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Ayọ̀déjì
+  - _id: bMmVABX1yZH9Xond
+    _key: "!tables.results!0IPu47kGws4uELoZ.bMmVABX1yZH9Xond"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Ayọ̀délé
+  - _id: cRTT9usl9dTOCEfd
+    _key: "!tables.results!0IPu47kGws4uELoZ.cRTT9usl9dTOCEfd"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Ayọ̀ọlá
+  - _id: zvBSHXaJ6O1MvfA0
+    _key: "!tables.results!0IPu47kGws4uELoZ.zvBSHXaJ6O1MvfA0"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Ayọ̀túndé
+  - _id: Xv5sojYLoFXGY5IV
+    _key: "!tables.results!0IPu47kGws4uELoZ.Xv5sojYLoFXGY5IV"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Ayọ̀wùmí
+  - _id: TVSBXHdJELgetNak
+    _key: "!tables.results!0IPu47kGws4uELoZ.TVSBXHdJELgetNak"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Babádélé
+  - _id: qFgrLEtroDmZisJf
+    _key: "!tables.results!0IPu47kGws4uELoZ.qFgrLEtroDmZisJf"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Babájídé
+  - _id: fcbVVXHGuLTXqq9d
+    _key: "!tables.results!0IPu47kGws4uELoZ.fcbVVXHGuLTXqq9d"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Babáṣọlá
+  - _id: 2qwPCDlhffcrVqNr
+    _key: "!tables.results!0IPu47kGws4uELoZ.2qwPCDlhffcrVqNr"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Babátúndé
+  - _id: px36EEd6IHhWGDcf
+    _key: "!tables.results!0IPu47kGws4uELoZ.px36EEd6IHhWGDcf"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Babáwálé
+  - _id: x9ORexHoMRTiyBX4
+    _key: "!tables.results!0IPu47kGws4uELoZ.x9ORexHoMRTiyBX4"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Dayọ̀
+  - _id: pWhuzfOzcbwOVtx3
+    _key: "!tables.results!0IPu47kGws4uELoZ.pWhuzfOzcbwOVtx3"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Délé
+  - _id: e571NN0M4oD5WZsk
+    _key: "!tables.results!0IPu47kGws4uELoZ.e571NN0M4oD5WZsk"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Ekúndayọ̀
+  - _id: xnF2gUt3mrKh86mM
+    _key: "!tables.results!0IPu47kGws4uELoZ.xnF2gUt3mrKh86mM"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Fábùnmi
+  - _id: 6E1a0KkwwZ75w26E
+    _key: "!tables.results!0IPu47kGws4uELoZ.6E1a0KkwwZ75w26E"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Fádáre
+  - _id: Ya4EiRbDdjsnu6fP
+    _key: "!tables.results!0IPu47kGws4uELoZ.Ya4EiRbDdjsnu6fP"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Fágbèmí
+  - _id: LBj6hhVMV3wOTGUj
+    _key: "!tables.results!0IPu47kGws4uELoZ.LBj6hhVMV3wOTGUj"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Fálọ́lá
+  - _id: Ds3Hkc4ul40ILydn
+    _key: "!tables.results!0IPu47kGws4uELoZ.Ds3Hkc4ul40ILydn"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Fáṣọlá
+  - _id: SNMdz4tE8BwZ6nlo
+    _key: "!tables.results!0IPu47kGws4uELoZ.SNMdz4tE8BwZ6nlo"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Fátúndé
+  - _id: dTZ0YlTd20d1UXJA
+    _key: "!tables.results!0IPu47kGws4uELoZ.dTZ0YlTd20d1UXJA"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Fáwọlé
+  - _id: ABXWPLo1gIvbouVz
+    _key: "!tables.results!0IPu47kGws4uELoZ.ABXWPLo1gIvbouVz"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Fáyẹmí
+  - _id: EF9VvWLdfaM5O1Ej
+    _key: "!tables.results!0IPu47kGws4uELoZ.EF9VvWLdfaM5O1Ej"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Ìfẹ́ọlá
+  - _id: wClcCARkLhweaa14
+    _key: "!tables.results!0IPu47kGws4uELoZ.wClcCARkLhweaa14"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Ìfẹ́túndé
+  - _id: neFsDIhEAd8UJRcZ
+    _key: "!tables.results!0IPu47kGws4uELoZ.neFsDIhEAd8UJRcZ"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Ìfẹ́wùmí
+  - _id: cij4HO5vDVt9qVzq
+    _key: "!tables.results!0IPu47kGws4uELoZ.cij4HO5vDVt9qVzq"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Ọbádélé
+  - _id: PQOeKFZKN5U7H9uK
+    _key: "!tables.results!0IPu47kGws4uELoZ.PQOeKFZKN5U7H9uK"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Ọbafẹ́mi
+  - _id: 9O1P1dXt1W0gLCdk
+    _key: "!tables.results!0IPu47kGws4uELoZ.9O1P1dXt1W0gLCdk"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Ògúnbùnmi
+  - _id: pEw0xZBQ9cBi5yOu
+    _key: "!tables.results!0IPu47kGws4uELoZ.pEw0xZBQ9cBi5yOu"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Ògúndáre
+  - _id: 3q8bXIYeKdspWA9t
+    _key: "!tables.results!0IPu47kGws4uELoZ.3q8bXIYeKdspWA9t"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Ògúndélé
+  - _id: 4hijVYx6LC0JbunB
+    _key: "!tables.results!0IPu47kGws4uELoZ.4hijVYx6LC0JbunB"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Ògúnkúnlé
+  - _id: SZDcfUBR705oIrHR
+    _key: "!tables.results!0IPu47kGws4uELoZ.SZDcfUBR705oIrHR"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Ògúnṣẹ́gun
+  - _id: yEZdMJaT8yWUNPwd
+    _key: "!tables.results!0IPu47kGws4uELoZ.yEZdMJaT8yWUNPwd"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Ògúnṣínà
+  - _id: untlU1JGSbCjFUAt
+    _key: "!tables.results!0IPu47kGws4uELoZ.untlU1JGSbCjFUAt"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Ògúnṣọlá
+  - _id: Q3Ls4EbvSEOfrmca
+    _key: "!tables.results!0IPu47kGws4uELoZ.Q3Ls4EbvSEOfrmca"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Ògúntọ́lá
+  - _id: zeoKspXFzaRITOE5
+    _key: "!tables.results!0IPu47kGws4uELoZ.zeoKspXFzaRITOE5"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Ògúnwálé
+  - _id: IHVZXVRG3ev7WImN
+    _key: "!tables.results!0IPu47kGws4uELoZ.IHVZXVRG3ev7WImN"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Ògúnyẹmí
+  - _id: ZpMVwI10DhdYZ8Gy
+    _key: "!tables.results!0IPu47kGws4uELoZ.ZpMVwI10DhdYZ8Gy"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Ọládayọ̀
+  - _id: oxiEu5CrHymsfDQP
+    _key: "!tables.results!0IPu47kGws4uELoZ.oxiEu5CrHymsfDQP"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Ọládélé
+  - _id: YGWFnUa4nDq4wFXo
+    _key: "!tables.results!0IPu47kGws4uELoZ.YGWFnUa4nDq4wFXo"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Ọládiméjì
+  - _id: fGHrnXkQXmRn7BM9
+    _key: "!tables.results!0IPu47kGws4uELoZ.fGHrnXkQXmRn7BM9"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Ọláfẹ́mi
+  - _id: WUIVs0DT6DzThIQl
+    _key: "!tables.results!0IPu47kGws4uELoZ.WUIVs0DT6DzThIQl"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Ọlálékè
+  - _id: 4ocaKrmxgqA5ZvB4
+    _key: "!tables.results!0IPu47kGws4uELoZ.4ocaKrmxgqA5ZvB4"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Ọlámidé
+  - _id: hLmg2uOp0V78xRbJ
+    _key: "!tables.results!0IPu47kGws4uELoZ.hLmg2uOp0V78xRbJ"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Ọláníyì
+  - _id: MwmYyHWaovKZQD6c
+    _key: "!tables.results!0IPu47kGws4uELoZ.MwmYyHWaovKZQD6c"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Ọláṣẹ́gun
+  - _id: mZngY4SuuwLu4t2s
+    _key: "!tables.results!0IPu47kGws4uELoZ.mZngY4SuuwLu4t2s"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Ọláṣọlá
+  - _id: zNwJeVZ9X7tM0BBj
+    _key: "!tables.results!0IPu47kGws4uELoZ.zNwJeVZ9X7tM0BBj"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Ọlátúndé
+  - _id: dwUOHfOgimxLbGbA
+    _key: "!tables.results!0IPu47kGws4uELoZ.dwUOHfOgimxLbGbA"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Ọláwálé
+  - _id: qV9d5K6kVNJtf9bk
+    _key: "!tables.results!0IPu47kGws4uELoZ.qV9d5K6kVNJtf9bk"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Ọláwùmí
+  - _id: 8WSLXD1u4I3IhJvK
+    _key: "!tables.results!0IPu47kGws4uELoZ.8WSLXD1u4I3IhJvK"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Ọláyẹmí
+  - _id: eo4RzEe5zvipnXrv
+    _key: "!tables.results!0IPu47kGws4uELoZ.eo4RzEe5zvipnXrv"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Ọláyínká
+  - _id: qLGKq6cW9wGj26xB
+    _key: "!tables.results!0IPu47kGws4uELoZ.qLGKq6cW9wGj26xB"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Olúfẹ́mi
+  - _id: 7k9KNp0Q4UHlBRp2
+    _key: "!tables.results!0IPu47kGws4uELoZ.7k9KNp0Q4UHlBRp2"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Ọmọ́ládé
+  - _id: Zy58oDVO8V7djc9j
+    _key: "!tables.results!0IPu47kGws4uELoZ.Zy58oDVO8V7djc9j"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Ọmọ́lọ́lá
+  - _id: xF4IYEzTO12EZYFH
+    _key: "!tables.results!0IPu47kGws4uELoZ.xF4IYEzTO12EZYFH"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Ọmọ́táyọ̀
+  - _id: 6Dbq8coGq4u8JcXB
+    _key: "!tables.results!0IPu47kGws4uELoZ.6Dbq8coGq4u8JcXB"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Ọmọ́wálé
+  - _id: RUPCTYEWxsLT299e
+    _key: "!tables.results!0IPu47kGws4uELoZ.RUPCTYEWxsLT299e"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Ọmọ́wùmí
+  - _id: XCgvf7jBzfDzNKXX
+    _key: "!tables.results!0IPu47kGws4uELoZ.XCgvf7jBzfDzNKXX"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Ọmọ́yẹmí
+  - _id: Sy43xKeZmxSuxcOc
+    _key: "!tables.results!0IPu47kGws4uELoZ.Sy43xKeZmxSuxcOc"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ọpẹ́ọlá
+  - _id: Vi1kC52kLktRoWPQ
+    _key: "!tables.results!0IPu47kGws4uELoZ.Vi1kC52kLktRoWPQ"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Ọpẹ́túndé
+  - _id: Glk7qqRAOsIOaU3e
+    _key: "!tables.results!0IPu47kGws4uELoZ.Glk7qqRAOsIOaU3e"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Ọpẹ́yẹmí
+  - _id: 9d1OBKJipYE4URJL
+    _key: "!tables.results!0IPu47kGws4uELoZ.9d1OBKJipYE4URJL"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Oyèọlá
+  - _id: SEYapwQglSOrAMrO
+    _key: "!tables.results!0IPu47kGws4uELoZ.SEYapwQglSOrAMrO"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Oyèwálé
+  - _id: OTt6NXm0iURBZhjI
+    _key: "!tables.results!0IPu47kGws4uELoZ.OTt6NXm0iURBZhjI"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Oyèwùmí
+  - _id: CpzT66obqUz9oQCM
+    _key: "!tables.results!0IPu47kGws4uELoZ.CpzT66obqUz9oQCM"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Oyèyẹmí
+  - _id: 5g16TwCbusqcXrXo
+    _key: "!tables.results!0IPu47kGws4uELoZ.5g16TwCbusqcXrXo"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Ṣàngóbùnmi
+  - _id: pgXvQMvjpcE54S6x
+    _key: "!tables.results!0IPu47kGws4uELoZ.pgXvQMvjpcE54S6x"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Ṣàngódélé
+  - _id: a4YylaYktOW4zYGC
+    _key: "!tables.results!0IPu47kGws4uELoZ.a4YylaYktOW4zYGC"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ṣàngótọ́lá
+  - _id: S39qxkv1S1PredEM
+    _key: "!tables.results!0IPu47kGws4uELoZ.S39qxkv1S1PredEM"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Ṣàngówálé
+  - _id: GVcgQ2pFQVPXbbrO
+    _key: "!tables.results!0IPu47kGws4uELoZ.GVcgQ2pFQVPXbbrO"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Ṣàngóyẹmí
+  - _id: M4kI6b7B8Zwfmjst
+    _key: "!tables.results!0IPu47kGws4uELoZ.M4kI6b7B8Zwfmjst"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Táyọ̀

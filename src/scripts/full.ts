@@ -12,6 +12,7 @@ import generatePortugueseName from './cultures/portuguese/generate.ts'
 import generateScottishName from './cultures/scottish/generate.ts'
 import generateSpanishName from './cultures/spanish/generate.ts'
 import generateWelshName from './cultures/welsh/generate.ts'
+import generateYorubaName from './cultures/yoruba/generate.ts'
 import whisperMessage from './whisper.ts'
 import { pickGender } from './enums/gender.ts'
 import { pickNationality } from './enums/nationality.ts'
@@ -44,7 +45,8 @@ const generateName = async (
     Portuguese: generatePortugueseName,
     Scottish: generateScottishName,
     Spanish: generateSpanishName,
-    Welsh: generateWelshName
+    Welsh: generateWelshName,
+    Yoruba: generateYorubaName
   }
 
   const name = (await generator[n](g, circumstances))

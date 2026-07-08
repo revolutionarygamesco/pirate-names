@@ -42,6 +42,10 @@ export const givenNames: Record<string, Record<Gender, string>> = {
   Mandinka: {
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.FQJ81W7DYNYjBGTW',
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.h6tzaD6oa2YIIV12'
+  },
+  Yoruba: {
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.0IPu47kGws4uELoZ',
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.iKoVbfys8guccYIP'
   }
 }
 
@@ -124,6 +128,19 @@ export const otherNames: Record<string, any> = {
       Marabout: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6pJpyB88zpiBTjWP',
       Griot: 'Compendium.revolutionary-piratenames.rolltables.RollTable.93b5JWBYXzygjAtO',
       Blacksmith: 'Compendium.revolutionary-piratenames.rolltables.RollTable.AqC4WfHPOUpmsQ63'
+    }
+  },
+  Yoruba: {
+    Subjects: {
+      Animate: {
+        Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Dt4kwodKkcmpmafX',
+        Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.kiI7ux4anupC510u'
+      },
+      Inanimate: 'Compendium.revolutionary-piratenames.rolltables.RollTable.wlROyhcSD9v2ePg0'
+    },
+    Predicates: {
+      Core: 'Compendium.revolutionary-piratenames.rolltables.RollTable.aiO35Dj2wpXFkDAz',
+      Animate: 'Compendium.revolutionary-piratenames.rolltables.RollTable.U3WKD2JK3WAEUwz5'
     }
   }
 }

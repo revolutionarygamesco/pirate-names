@@ -1,0 +1,72 @@
+_id: kiI7ux4anupC510u
+_key: "!tables!kiI7ux4anupC510u"
+name: Feminine Yoruba Name Subjects
+description: A selection of subjects used in feminine Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d8
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: J7Eeg1uP0ZQM6pCm
+    _key: "!tables.results!kiI7ux4anupC510u.J7Eeg1uP0ZQM6pCm"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Ọ̀ṣun
+  - _id: le27gM8wfaLf1FSk
+    _key: "!tables.results!kiI7ux4anupC510u.le27gM8wfaLf1FSk"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Yé
+  - _id: U6XQ6pyTyIRRMh73
+    _key: "!tables.results!kiI7ux4anupC510u.U6XQ6pyTyIRRMh73"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Ọya
+  - _id: fhud5LwK3WchnJq1
+    _key: "!tables.results!kiI7ux4anupC510u.fhud5LwK3WchnJq1"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Yemọja
+  - _id: 871SnyhAEFTdgetQ
+    _key: "!tables.results!kiI7ux4anupC510u.871SnyhAEFTdgetQ"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ajé
+  - _id: EzOh4iZKkPnorE8R
+    _key: "!tables.results!kiI7ux4anupC510u.EzOh4iZKkPnorE8R"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Nàná
+  - _id: 56lKZvruWTYM3MdD
+    _key: "!tables.results!kiI7ux4anupC510u.56lKZvruWTYM3MdD"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Ọ̀bà
+  - _id: WJixEjSvptCRMu4W
+    _key: "!tables.results!kiI7ux4anupC510u.WJixEjSvptCRMu4W"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Ẹgbé

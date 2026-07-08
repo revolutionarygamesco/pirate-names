@@ -5,7 +5,7 @@ jest.mock('../../randomizers/roll-table.ts', () => ({
   default: () => ({ description: 'Test' })
 }))
 
-describe('check', () => {
+describe('generateWeekdayName', () => {
   beforeEach(() => {
     jest.resetAllMocks()
   })

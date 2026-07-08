@@ -1,0 +1,72 @@
+_id: U3WKD2JK3WAEUwz5
+_key: "!tables!U3WKD2JK3WAEUwz5"
+name: Animate Yoruba Name Predicates
+description: A selection of predicates used with animate subjects in Yoruba names.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: 7UIP8Lu9OfEi2aAM
+results:
+  - _id: HX27GEIc3iBU4Hj4
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.HX27GEIc3iBU4Hj4"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: bùnmi
+  - _id: YZU6Jc7xW5FDmUDk
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.YZU6Jc7xW5FDmUDk"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: fúnmi
+  - _id: XvECoDsOqA3thvi5
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.XvECoDsOqA3thvi5"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: gbèmí
+  - _id: RYLqPTY5zwD6ZR2a
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.RYLqPTY5zwD6ZR2a"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: dáre
+  - _id: ahMl3QceuLpJcmTM
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.ahMl3QceuLpJcmTM"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: ṣínà
+  - _id: ideiTBmlnAhHaeGt
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.ideiTBmlnAhHaeGt"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: jìmí
+  - _id: UIW83gPpLBh4nhhy
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.UIW83gPpLBh4nhhy"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: ṣoore
+  - _id: xB8P3lUdV2BlXYuR
+    _key: "!tables.results!U3WKD2JK3WAEUwz5.xB8P3lUdV2BlXYuR"
+    range:
+      - 8
+      - 20
+    weight: 1
+    type: document
+    documentUuid: RollTable.aiO35Dj2wpXFkDAz
