@@ -15,7 +15,7 @@ const defaultOnComplete = async (c: Colors | 'Pirate' | 'Random', t: string) => 
 const openGenerateShipNameDialog = async (
   onComplete: (c: Colors | 'Pirate' | 'Random', t: string) => Promise<void> = defaultOnComplete
 ): Promise<void> => {
-  const title = localize(`${MODULE_ID}.dialog.person.personal.title`)
+  const title = localize(`${MODULE_ID}.dialog.ship.title`)
 
   const nationalities = ['Random', 'Spanish', 'British', 'French', 'Dutch', 'Pirate'].map(nation => {
     const value = localize(`${MODULE_ID}.dialog.ship.nationalities.options.${nation}`)
