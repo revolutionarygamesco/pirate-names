@@ -4,70 +4,78 @@ name: Pirate Nationalities
 description: Villains of all nations though they may be, pirates were born into
   particular nations and named according to their traditions.
 img: icons/svg/d20-grey.svg
-formula: 1d20
+formula: 1d100
 folder: FCeVvX0DLfaQnv2c
 results:
-  - _id: 278ZBFuleX830nD3
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.278ZBFuleX830nD3"
+  - _id: KzqCIXeFtClCud9X
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.KzqCIXeFtClCud9X"
     range:
       - 1
-      - 8
-    weight: 8
+      - 35
+    weight: 35
     type: text
     description: English
-  - _id: GylgfxljRRIjGxTB
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.GylgfxljRRIjGxTB"
+  - _id: 3yGL1GyfJ1lHXji4
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.3yGL1GyfJ1lHXji4"
     range:
-      - 9
-      - 10
-    weight: 2
-    type: text
-    description: Scottish
-  - _id: LCLYt9LC3AiHa1dZ
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.LCLYt9LC3AiHa1dZ"
-    range:
-      - 11
-      - 11
-    weight: 1
+      - 36
+      - 43
+    weight: 8
     type: text
     description: Welsh
-  - _id: 2ZCrzduk2sakeAbJ
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.2ZCrzduk2sakeAbJ"
+  - _id: vu6YIwF9NC6LlknE
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.vu6YIwF9NC6LlknE"
     range:
-      - 12
-      - 12
-    weight: 1
+      - 44
+      - 53
+    weight: 10
+    type: text
+    description: Scottish
+  - _id: V8hN1TSxsgDDqwt2
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.V8hN1TSxsgDDqwt2"
+    range:
+      - 54
+      - 58
+    weight: 5
     type: text
     description: Irish
-  - _id: S5VSyE7xd64Mhcpw
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.S5VSyE7xd64Mhcpw"
+  - _id: x6o0oBXB7dsIjuSe
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.x6o0oBXB7dsIjuSe"
     range:
-      - 13
-      - 13
-    weight: 1
-    type: text
-    description: French
-  - _id: Tj8iMifdOMkQ4WUX
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.Tj8iMifdOMkQ4WUX"
-    range:
-      - 14
-      - 14
-    weight: 1
-    type: text
-    description: Dutch
-  - _id: ct6ZXxlvwsqdvnkj
-    _key: "!tables.results!S3jEhiwdL6Pry0nK.ct6ZXxlvwsqdvnkj"
-    range:
-      - 15
-      - 15
-    weight: 1
+      - 59
+      - 60
+    weight: 2
     type: text
     description: Spanish
+  - _id: pZpbDAlNPL1IQrEJ
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.pZpbDAlNPL1IQrEJ"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Portuguese
+  - _id: ToKEgiYeJ2AuHJ4x
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.ToKEgiYeJ2AuHJ4x"
+    range:
+      - 62
+      - 65
+    weight: 4
+    type: text
+    description: French
+  - _id: fwYSQwmTQxEG5y2k
+    _key: "!tables.results!S3jEhiwdL6Pry0nK.fwYSQwmTQxEG5y2k"
+    range:
+      - 66
+      - 70
+    weight: 5
+    type: text
+    description: Dutch
   - _id: IIIUBPMPuAmYNn0R
     _key: "!tables.results!S3jEhiwdL6Pry0nK.IIIUBPMPuAmYNn0R"
     range:
-      - 16
-      - 20
-    weight: 5
+      - 71
+      - 100
+    weight: 30
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.NhB4at5fTxB6UAMu
