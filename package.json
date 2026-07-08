@@ -1,7 +1,7 @@
 {
   "name": "@revolutionarygamesco/piratenames",
   "description": "A Foundry VTT module for generating personal and ship names for the major European powers present in the Caribbean during the Golden Age of Piracy: the Spanish Empire, the British Empire, the Kingdom of France, and the Dutch West India Company.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.build.json && vite build && npm run pack",
