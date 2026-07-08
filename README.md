@@ -125,7 +125,7 @@ _Mostly_ this is a matter of calling `generateGivenName`, then
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
+type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh' | 'Akan' | 'Bantu' | 'Fon' | 'Igbo' | 'Mandinka' | 'Yoruba'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
 interface BirthCircumstances {
@@ -133,6 +133,7 @@ interface BirthCircumstances {
   order: number | 'last'
   twin: 1 | 2 | false
   special: string
+  caste: string
 }
 
 async (
@@ -165,6 +166,8 @@ with equal chances of getting `Masculine` or `Feminine`.
 A string of user IDs. If provided, a message will be whispered to these users
 with the generated name.
 
+_Default_: `undefined`
+
 #### `options.circumstances`
 
 Several West African naming traditions include special names reserved for those
@@ -176,11 +179,15 @@ specify those as needed; otherwise, they are randomized.
 The day of the week on which this person was born. This is an important part of
 Akan, Fon, and Igbo names.
 
+_Default_: `undefined`
+
 ##### `options.circumstances.order`
 
 Birth order (`1` for the first-born, `2` for the second-born, and so on, up to
 `13`). This is used in Akan names, while `last` can also be a part of a Bantu
 name.
+
+_Default_: `undefined`
 
 ##### `options.circumstances.twin`
 
@@ -188,29 +195,58 @@ Akan, Bantu, Fon, and Yoruba all have special names reserved for the first and
 second twin. `1` indicates the older twin, `2` the younger twin, and `false`
 that this person is _not_ a twin. Leave undefined to leave it up to chance.
 
+_Default_: `undefined`
+
 ##### `options.circumstances.special`
 
-A range of special names commemorating special circumstances around the
-child’s birth.
+Either `null` or a string code specifying a special circumstance that would be
+commemorated in the naming traditions of certain cultures.
 
-| Culture(s) | Code         | Meaning                                        |
-|------------|--------------|------------------------------------------------|
-| Akan       | `sickly`     | Born premature or sickly.                      |
-| Akan       | `field`      | Born in the field.                             |
-| Akan, Fon  | `war`        | Born during a time of war.                     |
-| Akan, Fon  | `road`       | Born on the road.                              |
-| Akan       | `fatherless` | The child’s father died before they were born. |
-| Akan       | `happy`      | A child born under happy circumstances.        |
-| Akan       | `loves`      | One who loves.                                 |
-| Akan       | `great`      | Great one.                                     |
-| Akan       | `forceful`   | Forceful.                                      |
- | Fon        | `dry`        | Born during the dry season.                    |
- | Fon        | `water`      | Born on the water.                             |
-| Fon        | `conflict`   | Born in a time of family conflict.             |
-| Fon        | `market`     | Born at the market.                            |
-| Fon        | `facedown`   | Born facedown.                                 |
- | Fon        | `day`        | Born during the day.                           |
-| Fon        | `night`      | Born at night.                                 |
+| Culture(s)        | Code         | Meaning                                        |
+|-------------------|--------------|------------------------------------------------|
+| Akan              | `sickly`     | Born premature or sickly.                      |
+| Akan              | `field`      | Born in the field.                             |
+| Akan, Fon, Yoruba | `war`        | Born during a time of war.                     |
+| Akan, Fon, Yoruba | `road`       | Born on the road.                              |
+| Akan              | `fatherless` | The child’s father died before they were born. |
+| Akan              | `happy`      | A child born under happy circumstances.        |
+| Akan              | `loves`      | One who loves.                                 |
+| Akan              | `great`      | Great one.                                     |
+| Akan              | `forceful`   | Forceful.                                      |
+ | Fon               | `dry`        | Born during the dry season.                    |
+ | Fon               | `water`      | Born on the water.                             |
+| Fon               | `conflict`   | Born in a time of family conflict.             |
+| Fon               | `market`     | Born at the market.                            |
+| Fon, Yoruba       | `facedown`   | Born facedown.                                 |
+ | Fon               | `day`        | Born during the day.                           |
+| Fon               | `night`      | Born at night.                                 |
+| Yoruba            | `postterm`   | Post-term birth.                               |
+| Yoruba            | `caul`       | Born covered with caul.                        |
+| Yoruba            | `motherless` | Mother died shortly after birth.               |
+| Yoruba            | `crier`      | A small baby that cried a lot.                 |
+| Yoruba            | `breech`     | Breech birth.                                  |
+ | Yoruba            | `knotted`    | Born with knotted hair or dreads.              |
+| Yoruba            | `unbroken`   | Born with an unbroken membrane.                |
+| Yoruba            | `festival`   | Born during an important festival.             |
+| Yoruba            | `egungun`    | Born during the Egúngún festival.              |
+| Yoruba            | `orisa`      | Born during Orisa festival.                    |
+| Yoruba            | `traveling`  | Born while parents were out of town.           |
+| Yoruba            | `overseas`   | Born overseas.                                 |
+
+_Default_: `undefined`
+
+##### `options.circumstances.caste`
+
+Only relevant to Mandinka names. Can be `undefined` or any of the following:
+
+| Caste     | Chance | Notes                                                                                                                         |
+|-----------|--------|-------------------------------------------------------------------------------------------------------------------------------|
+| Foro      | 97%    | Freeborn, encompassing farmers, warriors, and nobility alike.                                                                 |
+| Jakhanke  | 1%     | The Islamic priestly class.                                                                                                   |
+| Jali      | 1%     | The griots — storytellers, praise singers, historians, and musicians.                                                         |
+| Nyamakala | 1%     | Artisans and other talented people, though the only special names designated in this module are for blacksmiths specifically. |
+
+If `undefined`, a caste is chosen at rndom, using the odds listed above.
 
 _Default_: `undefined`
 
