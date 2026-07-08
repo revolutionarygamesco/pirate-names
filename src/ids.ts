@@ -125,9 +125,9 @@ export const otherNames: Record<string, any> = {
   Mandinka: {
     Jamu: {
       Foro: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Oj7Bc5DBCsBNxZF6',
-      Marabout: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6pJpyB88zpiBTjWP',
-      Griot: 'Compendium.revolutionary-piratenames.rolltables.RollTable.93b5JWBYXzygjAtO',
-      Blacksmith: 'Compendium.revolutionary-piratenames.rolltables.RollTable.AqC4WfHPOUpmsQ63'
+      Jakhanke: 'Compendium.revolutionary-piratenames.rolltables.RollTable.6pJpyB88zpiBTjWP',
+      Jali: 'Compendium.revolutionary-piratenames.rolltables.RollTable.93b5JWBYXzygjAtO',
+      Nyamakala: 'Compendium.revolutionary-piratenames.rolltables.RollTable.AqC4WfHPOUpmsQ63'
     }
   },
   Yoruba: {

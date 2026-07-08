@@ -14,22 +14,22 @@ describe('check', () => {
     mockRoll.mockReset()
   })
 
-  it('sometimes picks marabout', async () => {
+  it('sometimes picks Jakhanke', async () => {
     mockRoll.mockResolvedValueOnce(100)
     const actual = await pickCaste()
-    expect(actual).toBe('Marabout')
+    expect(actual).toBe('Jakhanke')
   })
 
-  it('sometimes picks griot', async () => {
+  it('sometimes picks Jali', async () => {
     mockRoll.mockResolvedValueOnce(99)
     const actual = await pickCaste()
-    expect(actual).toBe('Griot')
+    expect(actual).toBe('Jali')
   })
 
-  it('sometimes picks blacksmith', async () => {
+  it('sometimes picks Nyamakala', async () => {
     mockRoll.mockResolvedValueOnce(98)
     const actual = await pickCaste()
-    expect(actual).toBe('Blacksmith')
+    expect(actual).toBe('Nyamakala')
   })
 
   it('usually picks foro', async () => {
