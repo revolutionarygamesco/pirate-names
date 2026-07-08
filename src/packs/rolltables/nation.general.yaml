@@ -1,50 +1,25 @@
-_id: h0phd8lv3WDfTIob
-_key: "!tables!h0phd8lv3WDfTIob"
+_id: NLyKzSrJYnYaU6TJ
+_key: "!tables!NLyKzSrJYnYaU6TJ"
 name: Nationality
-description: Select a nationality at random for someone you meet aboard a ship
-  in the Caribbean.
+description: Select a random European or African in the Caribbean during the
+  Golden Age of Piracy.
 img: icons/svg/d20-grey.svg
-formula: 1d20
+formula: 1d10
 folder: FCeVvX0DLfaQnv2c
 results:
-  - _id: JVTEClA8vxMWwapI
-    _key: "!tables.results!h0phd8lv3WDfTIob.JVTEClA8vxMWwapI"
+  - _id: Jqd1rtQhdmIsmbky
+    _key: "!tables.results!NLyKzSrJYnYaU6TJ.Jqd1rtQhdmIsmbky"
     range:
       - 1
-      - 10
-    weight: 10
-    type: text
-    description: Spanish
-  - _id: WIuaSoEyz8BjsJ6B
-    _key: "!tables.results!h0phd8lv3WDfTIob.WIuaSoEyz8BjsJ6B"
-    range:
-      - 11
-      - 15
-    weight: 5
-    type: text
-    description: English
-  - _id: EOkodbE5p1fEn6DM
-    _key: "!tables.results!h0phd8lv3WDfTIob.EOkodbE5p1fEn6DM"
-    range:
-      - 16
-      - 17
-    weight: 2
-    type: text
-    description: French
-  - _id: KA4Vj1r8rFDQgBzy
-    _key: "!tables.results!h0phd8lv3WDfTIob.KA4Vj1r8rFDQgBzy"
-    range:
-      - 18
-      - 18
-    weight: 1
-    type: text
-    description: Dutch
-  - _id: SWa5HogQk1HTJmAs
-    _key: "!tables.results!h0phd8lv3WDfTIob.SWa5HogQk1HTJmAs"
-    range:
-      - 19
-      - 20
-    weight: 2
+      - 6
+    weight: 6
     type: document
-    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.600RHZKkT52dIm3K
-    name: Celtic Nationalities
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.NhB4at5fTxB6UAMu
+  - _id: ILxES6iW3q1VsmhS
+    _key: "!tables.results!NLyKzSrJYnYaU6TJ.ILxES6iW3q1VsmhS"
+    range:
+      - 7
+      - 10
+    weight: 4
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.h0phd8lv3WDfTIob

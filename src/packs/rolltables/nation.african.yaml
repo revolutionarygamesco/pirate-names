@@ -1,0 +1,56 @@
+_id: NhB4at5fTxB6UAMu
+_key: "!tables!NhB4at5fTxB6UAMu"
+name: African Nationalities
+description: Select a random African in the Caribbean during the Golden Age of Piracy.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: lN60rGtKKkc9ENCl
+    _key: "!tables.results!NhB4at5fTxB6UAMu.lN60rGtKKkc9ENCl"
+    range:
+      - 1
+      - 6
+    weight: 6
+    type: text
+    description: Akan
+  - _id: 3w1uoUMjvaSWBChT
+    _key: "!tables.results!NhB4at5fTxB6UAMu.3w1uoUMjvaSWBChT"
+    range:
+      - 7
+      - 10
+    weight: 4
+    type: text
+    description: Yoruba
+  - _id: OhNjRQ4VFcP3silK
+    _key: "!tables.results!NhB4at5fTxB6UAMu.OhNjRQ4VFcP3silK"
+    range:
+      - 11
+      - 14
+    weight: 4
+    type: text
+    description: Fon
+  - _id: u6eB75F85Ha4TxqC
+    _key: "!tables.results!NhB4at5fTxB6UAMu.u6eB75F85Ha4TxqC"
+    range:
+      - 15
+      - 17
+    weight: 3
+    type: text
+    description: Bantu
+  - _id: dTLdOvTml7ixXwwT
+    _key: "!tables.results!NhB4at5fTxB6UAMu.dTLdOvTml7ixXwwT"
+    range:
+      - 18
+      - 19
+    weight: 2
+    type: text
+    description: Mandinka
+  - _id: 0LcPUHCxALyedLQw
+    _key: "!tables.results!NhB4at5fTxB6UAMu.0LcPUHCxALyedLQw"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Igbo

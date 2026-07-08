@@ -169,7 +169,7 @@ export const shipNames: Record<Colors, Record<string, string>> = {
 export const genders = 'Compendium.revolutionary-piratenames.rolltables.RollTable.Jt1Mi4ZzTsLUmxxs'
 export const weekdays = 'Compendium.revolutionary-piratenames.rolltables.RollTable.OOksyW9qFJNWWxUV'
 export const nation: Record<NationScope, string> = {
-  person: 'Compendium.revolutionary-piratenames.rolltables.RollTable.h0phd8lv3WDfTIob',
+  person: 'Compendium.revolutionary-piratenames.rolltables.RollTable.NLyKzSrJYnYaU6TJ',
   pirate: 'Compendium.revolutionary-piratenames.rolltables.RollTable.S3jEhiwdL6Pry0nK',
   ship: 'Compendium.revolutionary-piratenames.rolltables.RollTable.CrljZ2S8EdjWco9K'
 }

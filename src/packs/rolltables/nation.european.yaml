@@ -1,0 +1,50 @@
+_id: h0phd8lv3WDfTIob
+_key: "!tables!h0phd8lv3WDfTIob"
+name: European Nationalities
+description: Select a random European in the Caribbean during the Golden Age of
+  Piracy.
+img: icons/svg/d20-grey.svg
+formula: 1d20
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: JVTEClA8vxMWwapI
+    _key: "!tables.results!h0phd8lv3WDfTIob.JVTEClA8vxMWwapI"
+    range:
+      - 1
+      - 10
+    weight: 10
+    type: text
+    description: Spanish
+  - _id: WIuaSoEyz8BjsJ6B
+    _key: "!tables.results!h0phd8lv3WDfTIob.WIuaSoEyz8BjsJ6B"
+    range:
+      - 11
+      - 15
+    weight: 5
+    type: text
+    description: English
+  - _id: EOkodbE5p1fEn6DM
+    _key: "!tables.results!h0phd8lv3WDfTIob.EOkodbE5p1fEn6DM"
+    range:
+      - 16
+      - 17
+    weight: 2
+    type: text
+    description: French
+  - _id: KA4Vj1r8rFDQgBzy
+    _key: "!tables.results!h0phd8lv3WDfTIob.KA4Vj1r8rFDQgBzy"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Dutch
+  - _id: SWa5HogQk1HTJmAs
+    _key: "!tables.results!h0phd8lv3WDfTIob.SWa5HogQk1HTJmAs"
+    range:
+      - 19
+      - 20
+    weight: 2
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.600RHZKkT52dIm3K
+    name: Celtic Nationalities
