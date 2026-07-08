@@ -1,4 +1,5 @@
 import roll from './roll.ts'
+import selectRandomElement from './el.ts'
 
 export const options: Array<{ min: number, max: number, circumstance: string | null }> = [
   { min: 1, max: 3, circumstance: 'sickly' },
@@ -24,19 +25,21 @@ export const options: Array<{ min: number, max: number, circumstance: string | n
   { min: 44, max: 44, circumstance: 'breech' },
   { min: 45, max: 45, circumstance: 'knotted' },
   { min: 46, max: 46, circumstance: 'unbroken' },
-  { min: 47, max: 47, circumstance: 'festival' },
-  { min: 48, max: 48, circumstance: 'egungun' },
-  { min: 49, max: 49, circumstance: 'orisa' },
-  { min: 50, max: 50, circumstance: 'traveling' },
-  { min: 51, max: 51, circumstance: 'overseas' },
-  { min: 52, max: 100, circumstance: null }
+  { min: 47, max: 47, circumstance: 'festival,festival,festival,festival,egungun,orisa' },
+  { min: 48, max: 48, circumstance: 'traveling' },
+  { min: 49, max: 49, circumstance: 'overseas' },
+  { min: 50, max: 100, circumstance: null }
 ]
 
 const pickCircumstance = async (): Promise<string | null> => {
   const circumstanceRoll = await roll('1d100')
 
   for (const { min, max, circumstance } of options) {
-    if (min <= circumstanceRoll && max >= circumstanceRoll) return circumstance
+    if (min <= circumstanceRoll && max >= circumstanceRoll) {
+      if (circumstance === null) return null
+      const options = circumstance.split(',')
+      return selectRandomElement(options)
+    }
   }
 
   return null

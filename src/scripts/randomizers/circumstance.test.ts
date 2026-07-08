@@ -24,4 +24,11 @@ describe('pickCircumstance', () => {
     const actual = await pickCircumstance()
     expect(actual).toBe('sickly')
   })
+
+  it('can select between rarer circumstances', async () => {
+    mockRoll.mockResolvedValueOnce(47)
+    const expected = ['festival', 'egungun', 'orisa']
+    const actual = await pickCircumstance()
+    expect(expected).toContain(actual)
+  })
 })
