@@ -4,22 +4,30 @@ name: Nationality
 description: Select a random European or African in the Caribbean during the
   Golden Age of Piracy.
 img: icons/svg/d20-grey.svg
-formula: 1d10
+formula: 1d20
 folder: FCeVvX0DLfaQnv2c
 results:
   - _id: Jqd1rtQhdmIsmbky
     _key: "!tables.results!NLyKzSrJYnYaU6TJ.Jqd1rtQhdmIsmbky"
     range:
       - 1
-      - 6
+      - 11
     weight: 6
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.NhB4at5fTxB6UAMu
   - _id: ILxES6iW3q1VsmhS
     _key: "!tables.results!NLyKzSrJYnYaU6TJ.ILxES6iW3q1VsmhS"
     range:
-      - 7
-      - 10
+      - 12
+      - 19
     weight: 4
     type: document
     documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.h0phd8lv3WDfTIob
+  - _id: BbghU91deix07r9s
+    _key: "!tables.results!NLyKzSrJYnYaU6TJ.BbghU91deix07r9s"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: document
+    documentUuid: Compendium.revolutionary-piratenames.rolltables.RollTable.OXeW7FDefkUmP0tH

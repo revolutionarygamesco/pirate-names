@@ -2,9 +2,9 @@ import { nation } from '../../ids.ts'
 import rollTable from '../randomizers/roll-table.ts'
 
 export const colors: Colors[] = ['Spanish', 'British', 'French', 'Dutch']
-export const nationalities: Nationality[] = ['Akan', 'Bantu', 'Spanish', 'Fon',
-  'English', 'French', 'Dutch', 'Igbo', 'Scottish', 'Welsh', 'Irish',
-  'Mandinka', 'Portuguese', 'Yoruba']
+export const nationalities: Nationality[] = ['Akan', 'Bantu', 'Dutch',
+  'English', 'Fon', 'French', 'Igbo', 'Irish', 'Kalinago', 'Mandinka',
+  'Miskito', 'Portuguese', 'Scottish', 'Spanish', 'Taino', 'Welsh', 'Yoruba']
 
 export const isColors = (candidate: unknown): candidate is Colors => {
   if (typeof candidate !== 'string') return false

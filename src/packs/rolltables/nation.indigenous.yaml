@@ -1,0 +1,33 @@
+_id: OXeW7FDefkUmP0tH
+_key: "!tables!OXeW7FDefkUmP0tH"
+name: Indigenous Nationalities
+description: Select a random indigenous person in the Caribbean during the
+  Golden Age of Piracy.
+img: icons/svg/d20-grey.svg
+formula: 1d10
+folder: FCeVvX0DLfaQnv2c
+results:
+  - _id: WgmV9RmSjoaPyvbD
+    _key: "!tables.results!OXeW7FDefkUmP0tH.WgmV9RmSjoaPyvbD"
+    range:
+      - 1
+      - 4
+    weight: 4
+    type: text
+    description: Kalinago
+  - _id: jyUUgDfu3DK4bQjm
+    _key: "!tables.results!OXeW7FDefkUmP0tH.jyUUgDfu3DK4bQjm"
+    range:
+      - 5
+      - 8
+    weight: 4
+    type: text
+    description: Miskito
+  - _id: v4MUect5sEtZFSOO
+    _key: "!tables.results!OXeW7FDefkUmP0tH.v4MUect5sEtZFSOO"
+    range:
+      - 9
+      - 10
+    weight: 2
+    type: text
+    description: Taino

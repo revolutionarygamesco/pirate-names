@@ -71,7 +71,7 @@ declare const foundry: {
   }
 }
 
-type Nationality = 'Akan' | 'Bantu' | 'Fon' | 'Igbo' | 'Mandinka' | 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Welsh' | 'Irish' | 'Portuguese' | 'Yoruba'
+type Nationality = 'Akan' | 'Bantu' | 'Dutch' | 'English' | 'Fon' | 'French' | 'Igbo' | 'Irish' | 'Kalinago' | 'Mandinka' | 'Miskito' | 'Portuguese' | 'Scottish' | 'Spanish' | 'Taino' | 'Welsh' | 'Yoruba'
 type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
