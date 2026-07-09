@@ -1,0 +1,808 @@
+_id: 3NtXeNj9VaeJzfxr
+_key: "!tables!3NtXeNj9VaeJzfxr"
+name: Masculine Kalinago Name Subjects
+description: A selection of subjects that might be used in masculine Kalinago names.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: TjL6Gu1vcGtyNjvb
+results:
+  - _id: Sx4kYQaVXCFlOB6B
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.Sx4kYQaVXCFlOB6B"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Wukeri
+  - _id: zCEM6oRND9JOwDv5
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.zCEM6oRND9JOwDv5"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Weyu
+  - _id: qYFySggM5xgBZRld
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.qYFySggM5xgBZRld"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Nonum
+  - _id: gESPOnU9pdmNQAO5
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.gESPOnU9pdmNQAO5"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Uma
+  - _id: pYKsjOiSFw5i8qID
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.pYKsjOiSFw5i8qID"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Ibuganau
+  - _id: wO1lMhVgQ5JJ4vn7
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.wO1lMhVgQ5JJ4vn7"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Waluyuru
+  - _id: QxJs6l1ISo96SvMR
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.QxJs6l1ISo96SvMR"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Wepu
+  - _id: hQEWuxllkTdW9FNL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.hQEWuxllkTdW9FNL"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Parana
+  - _id: gnuVtd6uamFqpRw5
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.gnuVtd6uamFqpRw5"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Balana
+  - _id: xa5tpagm3e1l3D0v
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.xa5tpagm3e1l3D0v"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Watu
+  - _id: ytII2U4j3PTkC6MM
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ytII2U4j3PTkC6MM"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Waipayawa
+  - _id: EoOioJolldccUYhY
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.EoOioJolldccUYhY"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hehue
+  - _id: JChSYL7os5B5gDbG
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.JChSYL7os5B5gDbG"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Usari
+  - _id: qibp86CCsTEHM1mC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.qibp86CCsTEHM1mC"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Meku
+  - _id: IW5pAI4pNwGnidqJ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.IW5pAI4pNwGnidqJ"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Auli
+  - _id: pxIzvMk4XRQ8DcLW
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.pxIzvMk4XRQ8DcLW"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Gligli
+  - _id: ASycJyaiLCx6xw6B
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ASycJyaiLCx6xw6B"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Gadaru
+  - _id: HenwkbKiMF39p25B
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.HenwkbKiMF39p25B"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Pona
+  - _id: XMx9Olu3pMFFbuY9
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.XMx9Olu3pMFFbuY9"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Ouli
+  - _id: LgxzO5b3tIuhMUNM
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.LgxzO5b3tIuhMUNM"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Apara
+  - _id: ZfSbFo1o5K9wOujH
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ZfSbFo1o5K9wOujH"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Kabicha
+  - _id: kvGogqE9icVmg1K1
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.kvGogqE9icVmg1K1"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Kaima
+  - _id: GWk6fvNxFFCp5ys4
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.GWk6fvNxFFCp5ys4"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Rarama
+  - _id: k59z9HDV5BBhTbIb
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.k59z9HDV5BBhTbIb"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Kanumu
+  - _id: M3Kuf3Ox8tiYomiv
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.M3Kuf3Ox8tiYomiv"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Waliku
+  - _id: qeJ5dUwNrgNptbF9
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.qeJ5dUwNrgNptbF9"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Aruguti
+  - _id: ZU31WHElfYjg75Er
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ZU31WHElfYjg75Er"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Ibiri
+  - _id: 6mHjj7JTMcRED5iG
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.6mHjj7JTMcRED5iG"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Iawuritei
+  - _id: tC1hLiqLHTv82YKJ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.tC1hLiqLHTv82YKJ"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Amulenei
+  - _id: vgV1Mpz02uvCBAnL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.vgV1Mpz02uvCBAnL"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Ibawanari
+  - _id: xEKOQe5zEeYbkEEy
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.xEKOQe5zEeYbkEEy"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Uguchili
+  - _id: Q2PzNFSjwgy9QHOv
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.Q2PzNFSjwgy9QHOv"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Balifeti
+  - _id: G9LQC6sZlr60jgPQ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.G9LQC6sZlr60jgPQ"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Kariti
+  - _id: yN4ki0N0ccZgY2fE
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.yN4ki0N0ccZgY2fE"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Teuteti
+  - _id: C96CdCLQrgCwDOOm
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.C96CdCLQrgCwDOOm"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Choruti
+  - _id: 0oWpfufUBcUEs7ut
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.0oWpfufUBcUEs7ut"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Irufuti
+  - _id: EDAJV3RTtJ3KmxUl
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.EDAJV3RTtJ3KmxUl"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Inaruti
+  - _id: vcmc2wAzD0iOIo96
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.vcmc2wAzD0iOIo96"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Ihati
+  - _id: S7BMLqBH2GloJHvg
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.S7BMLqBH2GloJHvg"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Tikalineti
+  - _id: RYkSGC4CwFftlCu8
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.RYkSGC4CwFftlCu8"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Kalinemeti
+  - _id: GgPp5DIOgL6h7a6a
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.GgPp5DIOgL6h7a6a"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Buiti
+  - _id: hUhV4fuzUgoG3GjZ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.hUhV4fuzUgoG3GjZ"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Uliliti
+  - _id: VcV6vmrUIULYPCCC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.VcV6vmrUIULYPCCC"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Kereti
+  - _id: VMFFn0lwnPx9kchj
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.VMFFn0lwnPx9kchj"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Wairiti
+  - _id: afTkR68RI1rgRaVb
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.afTkR68RI1rgRaVb"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Puwituti
+  - _id: vVAk3tYMX3v4Vegs
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.vVAk3tYMX3v4Vegs"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Akako
+  - _id: SCVCITxwkY5oFIsR
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.SCVCITxwkY5oFIsR"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Hamuka
+  - _id: UhVPq6qdHRGQI0Ud
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.UhVPq6qdHRGQI0Ud"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Wewe
+  - _id: EJHeRF7usNQ64zGT
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.EJHeRF7usNQ64zGT"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Mibi
+  - _id: qlR6AgHfDOFx0HIi
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.qlR6AgHfDOFx0HIi"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Iyuri
+  - _id: xxkU319ckVBIavGw
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.xxkU319ckVBIavGw"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Narau
+  - _id: crnLysFSqmzsajJL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.crnLysFSqmzsajJL"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Kalau
+  - _id: BRTZTopj6iaBmeKg
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.BRTZTopj6iaBmeKg"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Kachibou
+  - _id: wTTYgkhKWYliEA5Y
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.wTTYgkhKWYliEA5Y"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Karata
+  - _id: BrzHF4CKsOQuHfka
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.BrzHF4CKsOQuHfka"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Simarouba
+  - _id: 97Wm5fG61YGov19k
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.97Wm5fG61YGov19k"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Mapou
+  - _id: W83kLHnRPkQuP3Nh
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.W83kLHnRPkQuP3Nh"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Balata
+  - _id: 8cL1IqpkiUu1vGoH
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.8cL1IqpkiUu1vGoH"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Acajou
+  - _id: D6T9NDg8dGd86VSO
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.D6T9NDg8dGd86VSO"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Kaniya
+  - _id: gSMXZTue2yuhP2CE
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.gSMXZTue2yuhP2CE"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Cacao
+  - _id: JsCg4pzMKSycRmVf
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.JsCg4pzMKSycRmVf"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Oubao
+  - _id: RKuvVkZIv7htKiFL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.RKuvVkZIv7htKiFL"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Monha
+  - _id: z6jLnPnoMhsL5rYZ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.z6jLnPnoMhsL5rYZ"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Sakau
+  - _id: ozLGsIYVpVGIyeKC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ozLGsIYVpVGIyeKC"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Emetali
+  - _id: J33Wu33PeZ7KUvA7
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.J33Wu33PeZ7KUvA7"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Ora
+  - _id: CDNHTiLGacTMidyC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.CDNHTiLGacTMidyC"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Akuta
+  - _id: 1wySs8Vab8HdfLae
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.1wySs8Vab8HdfLae"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Bebeite
+  - _id: 93HMQqbUlasaKfyL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.93HMQqbUlasaKfyL"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Karukera
+  - _id: Ocr4Zskk9EcMeYzL
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.Ocr4Zskk9EcMeYzL"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Aichi
+  - _id: 6kTPqpF6YEdQHJsJ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.6kTPqpF6YEdQHJsJ"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Semi
+  - _id: 8twpfFuoR19uERkZ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.8twpfFuoR19uERkZ"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Wayamaka
+  - _id: vCmUPZ0pOoq1Z6fW
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.vCmUPZ0pOoq1Z6fW"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Anoli
+  - _id: 3F3qEmXfAsF5eWvD
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.3F3qEmXfAsF5eWvD"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Manicou
+  - _id: oEdsouu4bKKkVe2M
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.oEdsouu4bKKkVe2M"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Agouti
+  - _id: HtXUNMlQHe0ItW6z
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.HtXUNMlQHe0ItW6z"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Manchalaka
+  - _id: CNlVcnFmRnr34Kq9
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.CNlVcnFmRnr34Kq9"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Erebeteke
+  - _id: uFf2ssCdQXOkJqQu
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.uFf2ssCdQXOkJqQu"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Huwa
+  - _id: ixEbpfs1hz8Alk5G
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ixEbpfs1hz8Alk5G"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Gayu
+  - _id: 4wIDlh9Ud2CK3LEw
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.4wIDlh9Ud2CK3LEw"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Yamati
+  - _id: V9WsolpGBUinGqJy
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.V9WsolpGBUinGqJy"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Kanawa
+  - _id: 6FrvZ7w1s0XxToQZ
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.6FrvZ7w1s0XxToQZ"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Kewe
+  - _id: qMR2BG3rnMoAxW3I
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.qMR2BG3rnMoAxW3I"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Karawau
+  - _id: ePmqgn7kVJvApA3q
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ePmqgn7kVJvApA3q"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Chinali
+  - _id: mvNCJNBypwtO4YL7
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.mvNCJNBypwtO4YL7"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Eremu
+  - _id: BImmYKSOhCG4AV9u
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.BImmYKSOhCG4AV9u"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Pinu
+  - _id: aQMzjxz4Jvqdr66S
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.aQMzjxz4Jvqdr66S"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Balichi
+  - _id: lCsz1n3jSR73c8Wl
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.lCsz1n3jSR73c8Wl"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Funa
+  - _id: zgHn2QESWqrxi9an
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.zgHn2QESWqrxi9an"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Ibe
+  - _id: GYS7NTUlR4JIWNG6
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.GYS7NTUlR4JIWNG6"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Ilaku
+  - _id: fsCb5psOj3B1yCAY
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.fsCb5psOj3B1yCAY"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Mutu
+  - _id: wNpBoR3lY5PNRUpn
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.wNpBoR3lY5PNRUpn"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Iraheu
+  - _id: Uz1f0PwjKdKpllaI
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.Uz1f0PwjKdKpllaI"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Matao
+  - _id: wzXXLdG1SCeKYzQC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.wzXXLdG1SCeKYzQC"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Nisanimy
+  - _id: mGN6K7M35VuQv7Hl
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.mGN6K7M35VuQv7Hl"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Igiramau
+  - _id: RIiLz8g9iWOWYplk
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.RIiLz8g9iWOWYplk"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Iranaguau
+  - _id: dzEEZye1c6JVR1uC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.dzEEZye1c6JVR1uC"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Adarahouni
+  - _id: CzgDSvX1rFoAyoY9
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.CzgDSvX1rFoAyoY9"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Ibari
+  - _id: 1A9eKW190G4fy3wi
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.1A9eKW190G4fy3wi"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Iduhei
+  - _id: ZN8NSM0avY6y7bhC
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.ZN8NSM0avY6y7bhC"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Itiyu
+  - _id: wh7GsZvh5FsPohZY
+    _key: "!tables.results!3NtXeNj9VaeJzfxr.wh7GsZvh5FsPohZY"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Umari

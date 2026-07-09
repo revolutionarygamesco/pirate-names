@@ -46,6 +46,10 @@ export const givenNames: Record<string, Record<Gender, string>> = {
   Yoruba: {
     Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.0IPu47kGws4uELoZ',
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.iKoVbfys8guccYIP'
+  },
+  Kalinago: {
+    Masculine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.3NtXeNj9VaeJzfxr',
+    Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.yczM4bZ4HPALuC36'
   }
 }
 
