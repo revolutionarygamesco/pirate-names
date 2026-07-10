@@ -1,15 +1,7 @@
 import check from '../../randomizers/check.ts'
 import generateGivenName from '../../given.ts'
-import rollTable from '../../randomizers/roll-table.ts'
+import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
 import { otherNames } from '../../../ids.ts'
-
-const constructAbisoDraw = async (
-  table: string,
-  fallback: string
-): Promise<string> => {
-  const draw = await rollTable(table, { displayChat: false })
-  return draw?.description ?? fallback
-}
 
 const constructAbiso = async (
   gender: Gender
@@ -24,8 +16,8 @@ const constructAbiso = async (
     ? otherNames.Yoruba.Predicates.Animate
     : otherNames.Yoruba.Predicates.Core
 
-  const subject = await constructAbisoDraw(subjects, 'Adé')
-  const predicate = await constructAbisoDraw(predicates, 'lọ́lá')
+  const subject = await rollTableFallback(subjects, 'Adé')
+  const predicate = await rollTableFallback(predicates, 'lọ́lá')
   return subject + predicate
 }
 

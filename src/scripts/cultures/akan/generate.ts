@@ -2,10 +2,10 @@ import { pickWeekday } from '../../enums/weekday.ts'
 import pickBirthOrder from '../../randomizers/birth-order.ts'
 import pickTwin from '../../randomizers/twin.ts'
 import pickCircumstance from '../../randomizers/circumstance.ts'
-import generateWeekdayName from './weekday.ts'
-import generateAsanteSurname from './sur.ts'
+import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
 import birthOrderNames from './birth-order.ts'
 import circumstanceNames from './circumstance.ts'
+import { otherNames } from '../../../ids.ts'
 
 const generateAkanName = async (
   gender: Gender,
@@ -17,7 +17,7 @@ const generateAkanName = async (
   const circumstance = circumstances?.special ?? await pickCircumstance()
 
   const names: string[] = [
-    await generateWeekdayName(weekday, gender),
+    await rollTableFallback(otherNames.Akan.WeekdayNames[weekday][gender], gender === 'Feminine' ? 'Akosua' : 'Kwasi'),
     birthOrderNames[order.toString()][gender]
   ]
 
@@ -29,7 +29,7 @@ const generateAkanName = async (
     names.push(circumstanceNames[circumstance][gender])
   }
 
-  names.push(await generateAsanteSurname())
+  names.push(await rollTableFallback(otherNames.Akan.Surnames, 'Mensah'))
 
   return names.join(' ')
 }
