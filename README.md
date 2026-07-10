@@ -72,7 +72,7 @@ nationality provided.
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
+type Nationality = 'Dutch' | 'English' | 'French' | 'Irish' | 'Portuguese' | 'Scottish' | 'Spanish' | 'Welsh'
 
 interface GenerateSurameOptions {
   nation: Nationality
@@ -94,7 +94,8 @@ returns just one surname.
 
 _Default:_ Roll on the _Nationalities_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy.
+Golden Age of Piracy. If it comes up with a nationality that doesn’t use
+surnames, it will roll again until it comes up with an appropriate option.
 
 #### `options.whisper`
 

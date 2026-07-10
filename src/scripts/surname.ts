@@ -9,7 +9,12 @@ const generateSurname = async (
   nationality?: Nationality,
   whisper?: string[]
 ): Promise<string> => {
-  const n = nationality ?? await pickNationality()
+  let n = nationality
+  while (!n) {
+    n = await pickNationality()
+    if (!(n in surnames)) n = undefined
+  }
+
   const drawn = await rollTable(surnames[n], { displayChat: false })
   const name = drawn?.description ?? 'Smith'
 
