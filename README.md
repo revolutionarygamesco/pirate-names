@@ -108,27 +108,10 @@ _Default_: `undefined`
 
 Generates a reasonable full name for the nationality and gender specified.
 
-_Mostly_ this is a matter of calling `generateGivenName`, then
-`generateSurname`, and concatenating the result. The exceptions are:
-
-* In Spanish, each of a person’s two surnames has a 30% chance of being a
-  composite surname (two surnames separated by a hyphen), meaning that the
-  full surname could include anywhere between 2 and 4 names.
-* In French, a number of masculine names can be preceded by _Jean_ to form a
-  compound name (e.g., `Jean-Luc`, `Jean-Paul`). If one of these names is
-  drawn, there’s a 50% chance that we prepend _Jean-_ to it.
-* In Dutch, there’s a 50% chance that instead of drawing a surname, we create a
-  patronymic by drawing a masculine given name and appending _szoon_ to
-  masculine names or _sdochter_ to feminine names.
-* Irish names are presented in Gaelic with its Anglicization in parentheses.
-  During this period, the British Empire was attempting to suppress Gaelic
-  language and traditions, so Gaelic names were often used in their own
-  communities, though official records would use Anglicized forms.
-
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh' | 'Akan' | 'Bantu' | 'Fon' | 'Igbo' | 'Mandinka' | 'Yoruba'
+type Nationality = 'Akan' | 'Bantu' | 'Dutch' | 'English' | 'Fon' | 'French' | 'Igbo' | 'Irish' | 'Kalinago' | 'Mandinka' | 'Miskito' | 'Portuguese' | 'Scottish' | 'Spanish' | 'Taino' | 'Welsh' | 'Yoruba'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
 interface BirthCircumstances {
@@ -161,8 +144,8 @@ Golden Age of Piracy.
 
 Sets the gender of the name to be generated.
 
-_Default_: Roll on the _Name Genders_ roll table included in the module,
-with equal chances of getting `Masculine` or `Feminine`.
+_Default_: Roll on the _Gender_ roll table included in the module, with equal
+chances of getting `Masculine` or `Feminine`.
 
 #### `options.whisper`
 
