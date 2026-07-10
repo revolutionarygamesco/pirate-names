@@ -26,7 +26,7 @@ nationality and gender provided.
 #### Signature
 
 ```typescript
-type Nationality = 'Spanish' | 'English' | 'French' | 'Dutch' | 'Scottish' | 'Irish' | 'Welsh'
+type Nationality = 'Dutch' | 'English' | 'Fon' | 'French' | 'Igbo' | 'Irish' | 'Kalinago' | 'Mandinka' | 'Portuguese' | 'Scottish' | 'Spanish' | 'Welsh' | 'Yoruba'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 
 interface GenerateGivenNameOptions {
@@ -46,14 +46,16 @@ Sets the nationality that the name should be taken from.
 
 _Default:_ Roll on the _Nationalities_ roll table included in the module. This
 reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy.
+Golden Age of Piracy. If it comes up with a nationality that uses something
+more complex than given names (e.g., Akan or Taíno), it will roll again until
+it comes up with an appropriate option.
 
 #### `options.gender`
 
 Sets the gender of the name to be generated.
 
-_Default_: Roll on the _Name Genders_ roll table included in the module,
-with equal chances of getting `Masculine` or `Feminine`.
+_Default_: Roll on the _Gender_ roll table included in the module, with equal
+chances of getting `Masculine` or `Feminine`.
 
 #### `options.whisper`
 
