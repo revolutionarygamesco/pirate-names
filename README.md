@@ -122,12 +122,29 @@ interface BirthCircumstances {
   caste: string
 }
 
+interface Relation {
+  relationship: string
+  person: Person
+}
+
+interface Person {
+  born: Partial<BirthCircumstances>
+  nationality: Nationality
+  gender: Gender
+  names: {
+    full: string
+    personal: string
+    family?: string
+  }
+  relations: Relation[]
+}
+
 async (
   nationality?: Nationality,
   gender?: Gender,
   whisper?: string[],
   circumstances?: Partial<BirthCircumstances>
-) => Promise<string>
+) => Promise<Person>
 ```
 
 #### Parameters
@@ -235,6 +252,53 @@ Only relevant to Mandinka names. Can be `undefined` or any of the following:
 If `undefined`, a caste is chosen at rndom, using the odds listed above.
 
 _Default_: `undefined`
+
+#### Returns
+
+##### `person.born`
+
+If you provided a `circumstances` parameter, everything you provided is
+included in the return object as `born`, plus any circumstances that were
+randomized to generate the name. Circumstances that were not needed to generate
+the name are not included (e.g., only Mandinka characters will have a
+`person.born.caste`).
+
+##### `person.nationality`
+
+The nationality used to generate this person’s name.
+
+##### `person.gender`
+
+The gender used to generate this person’s name.
+
+##### `person.name`
+
+An object providing the generated name.
+
+##### `person.name.full`
+
+The character’s full generated name.
+
+##### `person.name.personal`
+
+The character’s personal name, usually a shorter form that would be used more
+often in casual conversation or between friends.
+
+##### `person.name.family`
+
+The person’s surname, family name, or clan name. There is no such name for
+Bantu, Fon, Igbo, Kalinago, Miskito, Taíno, or Yoruba names. For Spanish and
+Portuguese names, it’s the father’s surname, which is the one used in the
+shortened form of the name.
+
+##### `person.name.relations`
+
+An array of relatives that the person’s name implies. For example, a Dutch
+character named _Janszoon_ must have a father name _Jan_. A Yoruba named
+_Táíwò_ must have a twin named _Kẹ́hìndé_. This is not an exhaustive list of
+every character in this person’s life, only those implied by the name. Each
+one has a `relationship` string (`father` for `Jan` or `twin` for _Kẹ́hìndé_),
+with a full `Person` object detailing that other person.
 
 ### `generateShipName`
 

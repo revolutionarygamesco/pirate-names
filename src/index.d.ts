@@ -110,3 +110,20 @@ interface BirthCircumstances {
   special: string
   caste: string
 }
+
+interface Relation {
+  relationship: string
+  person: Person
+}
+
+interface Person {
+  born: Partial<BirthCircumstances>
+  nationality: Nationality
+  gender: Gender
+  name: {
+    full: string
+    personal: string
+    family?: string
+  }
+  relations: Relation[]
+}
