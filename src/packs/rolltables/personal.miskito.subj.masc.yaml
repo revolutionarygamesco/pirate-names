@@ -1,0 +1,808 @@
+_id: v6cVmbEDM57tkc6f
+_key: "!tables!v6cVmbEDM57tkc6f"
+name: Masculine Miskito Name Subjects
+description: Subjects that might be used in the names of Miskito men.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: ltWCKlhw4FIRr6MF
+results:
+  - _id: wqzOQU6GyNLzbMVU
+    _key: "!tables.results!v6cVmbEDM57tkc6f.wqzOQU6GyNLzbMVU"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Lapta
+  - _id: DC8Q9DEfDHiTuGUn
+    _key: "!tables.results!v6cVmbEDM57tkc6f.DC8Q9DEfDHiTuGUn"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Alwani
+  - _id: DFBIjdVoJ1kh84xO
+    _key: "!tables.results!v6cVmbEDM57tkc6f.DFBIjdVoJ1kh84xO"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Imyula
+  - _id: 2ksOeP6M0ZaFfKkd
+    _key: "!tables.results!v6cVmbEDM57tkc6f.2ksOeP6M0ZaFfKkd"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Pauta
+  - _id: XBugWOcClR9Sd5c3
+    _key: "!tables.results!v6cVmbEDM57tkc6f.XBugWOcClR9Sd5c3"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Kwasku
+  - _id: FfvETNz1G1C8oo63
+    _key: "!tables.results!v6cVmbEDM57tkc6f.FfvETNz1G1C8oo63"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Kiasma
+  - _id: Ouh5qf0Wf8xN7tUa
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Ouh5qf0Wf8xN7tUa"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Pasa
+  - _id: uVh6xMDviKmxyKAU
+    _key: "!tables.results!v6cVmbEDM57tkc6f.uVh6xMDviKmxyKAU"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Skwal
+  - _id: CaWTyMrPxO77upOF
+    _key: "!tables.results!v6cVmbEDM57tkc6f.CaWTyMrPxO77upOF"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Kabu
+  - _id: JYLFZxZGJnNRtGFZ
+    _key: "!tables.results!v6cVmbEDM57tkc6f.JYLFZxZGJnNRtGFZ"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Awala
+  - _id: K71ToH6avEpTve93
+    _key: "!tables.results!v6cVmbEDM57tkc6f.K71ToH6avEpTve93"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Naskaya
+  - _id: 4CUu9YhyTYoEfLai
+    _key: "!tables.results!v6cVmbEDM57tkc6f.4CUu9YhyTYoEfLai"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Li
+  - _id: 0PCkbt8I75d2E9uO
+    _key: "!tables.results!v6cVmbEDM57tkc6f.0PCkbt8I75d2E9uO"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Tingni
+  - _id: bvpR4PcT0Evx8frz
+    _key: "!tables.results!v6cVmbEDM57tkc6f.bvpR4PcT0Evx8frz"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Tasba
+  - _id: KO4PNwrfs3GpDw0t
+    _key: "!tables.results!v6cVmbEDM57tkc6f.KO4PNwrfs3GpDw0t"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Asang
+  - _id: 0ODCGhluS9E03Q7F
+    _key: "!tables.results!v6cVmbEDM57tkc6f.0ODCGhluS9E03Q7F"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Walpa
+  - _id: LWXE1nWN2T71PYy4
+    _key: "!tables.results!v6cVmbEDM57tkc6f.LWXE1nWN2T71PYy4"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Witni
+  - _id: 9ChV8qPZuSIg9FJj
+    _key: "!tables.results!v6cVmbEDM57tkc6f.9ChV8qPZuSIg9FJj"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Albanhkia
+  - _id: DpnMPSf4bdvBMWlR
+    _key: "!tables.results!v6cVmbEDM57tkc6f.DpnMPSf4bdvBMWlR"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Unta
+  - _id: KrJQL1cMIxFjm61c
+    _key: "!tables.results!v6cVmbEDM57tkc6f.KrJQL1cMIxFjm61c"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Dus
+  - _id: uQsaavt2gpl1FAnK
+    _key: "!tables.results!v6cVmbEDM57tkc6f.uQsaavt2gpl1FAnK"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Awas
+  - _id: UsTDVfFHsNLoIOJD
+    _key: "!tables.results!v6cVmbEDM57tkc6f.UsTDVfFHsNLoIOJD"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Auhya
+  - _id: ufCGOsBhejNce3NE
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ufCGOsBhejNce3NE"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Wina
+  - _id: ADmwVxBEDRGnuhzy
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ADmwVxBEDRGnuhzy"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Dusa
+  - _id: xU9KCSOsT7Eirn2U
+    _key: "!tables.results!v6cVmbEDM57tkc6f.xU9KCSOsT7Eirn2U"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Tala
+  - _id: 3TEUXp4M1C6MAw1X
+    _key: "!tables.results!v6cVmbEDM57tkc6f.3TEUXp4M1C6MAw1X"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Kupia
+  - _id: 1NCmrTv8djQCyCsx
+    _key: "!tables.results!v6cVmbEDM57tkc6f.1NCmrTv8djQCyCsx"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Napa
+  - _id: MHFYwrZg0U68ul8L
+    _key: "!tables.results!v6cVmbEDM57tkc6f.MHFYwrZg0U68ul8L"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Mihta
+  - _id: N0NTmHxnzfG0v71H
+    _key: "!tables.results!v6cVmbEDM57tkc6f.N0NTmHxnzfG0v71H"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Lal
+  - _id: RwNhg2HurBLlvz99
+    _key: "!tables.results!v6cVmbEDM57tkc6f.RwNhg2HurBLlvz99"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Mina
+  - _id: UlVzAwAJSs5VpqxQ
+    _key: "!tables.results!v6cVmbEDM57tkc6f.UlVzAwAJSs5VpqxQ"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Nakra
+  - _id: zSRYqRUAFMV1UpbH
+    _key: "!tables.results!v6cVmbEDM57tkc6f.zSRYqRUAFMV1UpbH"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Kiama
+  - _id: z6IPIMBE7adb9P2L
+    _key: "!tables.results!v6cVmbEDM57tkc6f.z6IPIMBE7adb9P2L"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Bila
+  - _id: m1dNMifFkugwInkq
+    _key: "!tables.results!v6cVmbEDM57tkc6f.m1dNMifFkugwInkq"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Tnawa
+  - _id: SH8ubwEb3hNDdfvu
+    _key: "!tables.results!v6cVmbEDM57tkc6f.SH8ubwEb3hNDdfvu"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Taya
+  - _id: 7N4CMfH1H6Kr0LxM
+    _key: "!tables.results!v6cVmbEDM57tkc6f.7N4CMfH1H6Kr0LxM"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Krusa
+  - _id: UvZxzJV2hOjoatXx
+    _key: "!tables.results!v6cVmbEDM57tkc6f.UvZxzJV2hOjoatXx"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Wingka
+  - _id: ogryCaeiOrS1tW4Q
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ogryCaeiOrS1tW4Q"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Payaska
+  - _id: H410JPFTlXnwL7IQ
+    _key: "!tables.results!v6cVmbEDM57tkc6f.H410JPFTlXnwL7IQ"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Karna
+  - _id: yGa4o1CDmQKqSWBg
+    _key: "!tables.results!v6cVmbEDM57tkc6f.yGa4o1CDmQKqSWBg"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Sins
+  - _id: ukzngdKOMMAV2GZC
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ukzngdKOMMAV2GZC"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Kasak
+  - _id: hmSXZwZKfqOCu26B
+    _key: "!tables.results!v6cVmbEDM57tkc6f.hmSXZwZKfqOCu26B"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Nina
+  - _id: CbmJpevEkKtKU8ie
+    _key: "!tables.results!v6cVmbEDM57tkc6f.CbmJpevEkKtKU8ie"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Prana
+  - _id: xzcuoh6UIvWZquJV
+    _key: "!tables.results!v6cVmbEDM57tkc6f.xzcuoh6UIvWZquJV"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Rayaka
+  - _id: CLiUOLiGcc89Amfz
+    _key: "!tables.results!v6cVmbEDM57tkc6f.CLiUOLiGcc89Amfz"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Laman
+  - _id: 9fwN2jXQThKc1Y2l
+    _key: "!tables.results!v6cVmbEDM57tkc6f.9fwN2jXQThKc1Y2l"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Pri
+  - _id: 2BEISE4dIMeiW5vm
+    _key: "!tables.results!v6cVmbEDM57tkc6f.2BEISE4dIMeiW5vm"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Lasa
+  - _id: Sgc1ccc5lfCxVbrb
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Sgc1ccc5lfCxVbrb"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Lilka
+  - _id: sMShm1xSIAZe1f9l
+    _key: "!tables.results!v6cVmbEDM57tkc6f.sMShm1xSIAZe1f9l"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Daiwan
+  - _id: XF0NDJz7lt4CJ9mT
+    _key: "!tables.results!v6cVmbEDM57tkc6f.XF0NDJz7lt4CJ9mT"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Limi
+  - _id: CT9HQ3cZFqNbvEUt
+    _key: "!tables.results!v6cVmbEDM57tkc6f.CT9HQ3cZFqNbvEUt"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Wari
+  - _id: DPM8x571h1b4zoi3
+    _key: "!tables.results!v6cVmbEDM57tkc6f.DPM8x571h1b4zoi3"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Sula
+  - _id: o5fONy9NcCGO8nfL
+    _key: "!tables.results!v6cVmbEDM57tkc6f.o5fONy9NcCGO8nfL"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Yakal
+  - _id: 0kzbHGGtNV4Wp42p
+    _key: "!tables.results!v6cVmbEDM57tkc6f.0kzbHGGtNV4Wp42p"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Waula
+  - _id: oV5scMqkHmxZCVIs
+    _key: "!tables.results!v6cVmbEDM57tkc6f.oV5scMqkHmxZCVIs"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Piuta
+  - _id: GzpMQltVkENwwUtn
+    _key: "!tables.results!v6cVmbEDM57tkc6f.GzpMQltVkENwwUtn"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Misri
+  - _id: 0DdUu5ZuodJ7nc6O
+    _key: "!tables.results!v6cVmbEDM57tkc6f.0DdUu5ZuodJ7nc6O"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Barhkura
+  - _id: ko4EOXyMNnVAh0JL
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ko4EOXyMNnVAh0JL"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Batsi
+  - _id: Olwr1PgoelEKZNP2
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Olwr1PgoelEKZNP2"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Smara
+  - _id: ATUQCyp5EWHKxJ4j
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ATUQCyp5EWHKxJ4j"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Inska
+  - _id: xiYot5jPDNA7CyBz
+    _key: "!tables.results!v6cVmbEDM57tkc6f.xiYot5jPDNA7CyBz"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Kaku
+  - _id: bzADWztDCfTzyIn8
+    _key: "!tables.results!v6cVmbEDM57tkc6f.bzADWztDCfTzyIn8"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Ulu
+  - _id: t7TFEhTzS4uCfyBU
+    _key: "!tables.results!v6cVmbEDM57tkc6f.t7TFEhTzS4uCfyBU"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Tnawira
+  - _id: vGlk0OwGXzkB7g4f
+    _key: "!tables.results!v6cVmbEDM57tkc6f.vGlk0OwGXzkB7g4f"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Aring
+  - _id: Hm6GoygvG3pjRXU1
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Hm6GoygvG3pjRXU1"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Masas
+  - _id: 6WQIJ3QLJTaxJk3D
+    _key: "!tables.results!v6cVmbEDM57tkc6f.6WQIJ3QLJTaxJk3D"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Waisku
+  - _id: 8gIuk4CWDuwvTQ2A
+    _key: "!tables.results!v6cVmbEDM57tkc6f.8gIuk4CWDuwvTQ2A"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Daka
+  - _id: Z8R1sDxzqCPuILbs
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Z8R1sDxzqCPuILbs"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Trisba
+  - _id: PTBOq4jU11uyrqHK
+    _key: "!tables.results!v6cVmbEDM57tkc6f.PTBOq4jU11uyrqHK"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Pantamangka
+  - _id: Uf0bCO6F5mhdUFIL
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Uf0bCO6F5mhdUFIL"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Kiulh
+  - _id: OQQT4oALkwu3OBGH
+    _key: "!tables.results!v6cVmbEDM57tkc6f.OQQT4oALkwu3OBGH"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Silak
+  - _id: H8vwJ9OHZe9pTUpj
+    _key: "!tables.results!v6cVmbEDM57tkc6f.H8vwJ9OHZe9pTUpj"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Duri
+  - _id: s0fvnfVBmyJSwcFZ
+    _key: "!tables.results!v6cVmbEDM57tkc6f.s0fvnfVBmyJSwcFZ"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Plamaya
+  - _id: K44gX0kE76oUGBSD
+    _key: "!tables.results!v6cVmbEDM57tkc6f.K44gX0kE76oUGBSD"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Wakia
+  - _id: mAiOjjsmzIYWKlgO
+    _key: "!tables.results!v6cVmbEDM57tkc6f.mAiOjjsmzIYWKlgO"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Yu
+  - _id: dHx0DduUmuxO8p9V
+    _key: "!tables.results!v6cVmbEDM57tkc6f.dHx0DduUmuxO8p9V"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Titan
+  - _id: noZN3TEtUrIYl0QE
+    _key: "!tables.results!v6cVmbEDM57tkc6f.noZN3TEtUrIYl0QE"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Tutni
+  - _id: 4nLNhUSwwdGyYMjC
+    _key: "!tables.results!v6cVmbEDM57tkc6f.4nLNhUSwwdGyYMjC"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Tihmia
+  - _id: hWQmlkA5HtTLZHRa
+    _key: "!tables.results!v6cVmbEDM57tkc6f.hWQmlkA5HtTLZHRa"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Pura
+  - _id: ss8AdEDDoJmWy4fM
+    _key: "!tables.results!v6cVmbEDM57tkc6f.ss8AdEDDoJmWy4fM"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Kasbrika
+  - _id: y9wayrHIV8C8oO32
+    _key: "!tables.results!v6cVmbEDM57tkc6f.y9wayrHIV8C8oO32"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Slilma
+  - _id: Cmm26NwnCqynunMk
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Cmm26NwnCqynunMk"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Kati
+  - _id: 9nr26KdcPztfBlve
+    _key: "!tables.results!v6cVmbEDM57tkc6f.9nr26KdcPztfBlve"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Kumadura
+  - _id: uW2WDJa0nyvPRNre
+    _key: "!tables.results!v6cVmbEDM57tkc6f.uW2WDJa0nyvPRNre"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Dawan
+  - _id: Wv3arT08H9LP7BMB
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Wv3arT08H9LP7BMB"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Waikna
+  - _id: 5PxWeNgTu8jAmaH9
+    _key: "!tables.results!v6cVmbEDM57tkc6f.5PxWeNgTu8jAmaH9"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Dama
+  - _id: OItfygrMwHAm4VIW
+    _key: "!tables.results!v6cVmbEDM57tkc6f.OItfygrMwHAm4VIW"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Aisa
+  - _id: q9Lwx3vsql2VZoEB
+    _key: "!tables.results!v6cVmbEDM57tkc6f.q9Lwx3vsql2VZoEB"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Wahma
+  - _id: qmQY1NQwFvUozfjX
+    _key: "!tables.results!v6cVmbEDM57tkc6f.qmQY1NQwFvUozfjX"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Upla
+  - _id: A6On79zZBbCx84Tw
+    _key: "!tables.results!v6cVmbEDM57tkc6f.A6On79zZBbCx84Tw"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Pana
+  - _id: cG1W9GcI9ak4W0bL
+    _key: "!tables.results!v6cVmbEDM57tkc6f.cG1W9GcI9ak4W0bL"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Tuktan
+  - _id: e3nlh5HPSrqLyAO6
+    _key: "!tables.results!v6cVmbEDM57tkc6f.e3nlh5HPSrqLyAO6"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Luhpia
+  - _id: jwvpf8MqJZRAWdsG
+    _key: "!tables.results!v6cVmbEDM57tkc6f.jwvpf8MqJZRAWdsG"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Basala
+  - _id: NInfk3SXo2eguNQ2
+    _key: "!tables.results!v6cVmbEDM57tkc6f.NInfk3SXo2eguNQ2"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Usupum
+  - _id: cu13sxfQY9lY5ysy
+    _key: "!tables.results!v6cVmbEDM57tkc6f.cu13sxfQY9lY5ysy"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Tikimi
+  - _id: QveRhTLxq5pMe4CK
+    _key: "!tables.results!v6cVmbEDM57tkc6f.QveRhTLxq5pMe4CK"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Marasa
+  - _id: Crbth1w6KVhZKkzr
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Crbth1w6KVhZKkzr"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Liwa
+  - _id: dTVOjtLNhry7KIXW
+    _key: "!tables.results!v6cVmbEDM57tkc6f.dTVOjtLNhry7KIXW"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Duhindu
+  - _id: yA1YgdNc81Y4RMpq
+    _key: "!tables.results!v6cVmbEDM57tkc6f.yA1YgdNc81Y4RMpq"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Sikia
+  - _id: Ae72JuutN3ZCOoRj
+    _key: "!tables.results!v6cVmbEDM57tkc6f.Ae72JuutN3ZCOoRj"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Kauhru

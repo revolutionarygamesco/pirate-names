@@ -156,6 +156,16 @@ export const otherNames: Record<string, any> = {
       Subjects: 'Compendium.revolutionary-piratenames.rolltables.RollTable.fje6L4HNrI3U8uSQ',
       Modifiers: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Gsjbg0iaYj0GzTxp'
     }
+  },
+  Miskito: {
+    Masculine: {
+      Subjects: 'Compendium.revolutionary-piratenames.rolltables.RollTable.v6cVmbEDM57tkc6f',
+      Modifiers: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Pt5oS0ifCTYer0f2'
+    },
+    Feminine: {
+      Subjects: 'Compendium.revolutionary-piratenames.rolltables.RollTable.qF2pSmn3cyD1do6N',
+      Modifiers: 'Compendium.revolutionary-piratenames.rolltables.RollTable.AlsFFMJA3AhtCmda'
+    }
   }
 }
 

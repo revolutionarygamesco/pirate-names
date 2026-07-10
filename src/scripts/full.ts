@@ -9,6 +9,7 @@ import generateIgboName from './cultures/igbo/generate.ts'
 import generateIrishName from './cultures/irish/generate.ts'
 import generateKalinagoName from './cultures/kalinago/generate.ts'
 import generateMandinkaName from './cultures/mandinka/generate.ts'
+import generateMiskitoName from './cultures/miskito/generate.ts'
 import generatePortugueseName from './cultures/portuguese/generate.ts'
 import generateScottishName from './cultures/scottish/generate.ts'
 import generateSpanishName from './cultures/spanish/generate.ts'
@@ -45,6 +46,7 @@ const generateName = async (
     Irish: generateIrishName,
     Kalinago: generateKalinagoName,
     Mandinka: generateMandinkaName,
+    Miskito: generateMiskitoName,
     Portuguese: generatePortugueseName,
     Scottish: generateScottishName,
     Spanish: generateSpanishName,
