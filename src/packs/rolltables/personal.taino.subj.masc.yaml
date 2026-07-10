@@ -1,0 +1,808 @@
+_id: S4wGCjjJcFyCvzbg
+_key: "!tables!S4wGCjjJcFyCvzbg"
+name: Taíno Masculine Name Subjects
+description: Subjects that might be used in names for Taíno men.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: lYemoxUEeaf2Xpbw
+results:
+  - _id: 6Ro0IrwCsHid2aKh
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.6Ro0IrwCsHid2aKh"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: Güey
+  - _id: qgqbj73LdBcTJGt4
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.qgqbj73LdBcTJGt4"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: Bagua
+  - _id: wAfIhkF1wpQrBlgg
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.wAfIhkF1wpQrBlgg"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: Turey
+  - _id: pfb5Vn11e4qHJdL1
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.pfb5Vn11e4qHJdL1"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: Hurakán
+  - _id: Q8vV6V6aDqqgAe8x
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Q8vV6V6aDqqgAe8x"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: Guatú
+  - _id: GniyARQGwCGB69lI
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.GniyARQGwCGB69lI"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: Ciba
+  - _id: QhuZGMKbKQfP34Hm
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.QhuZGMKbKQfP34Hm"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: Cibao
+  - _id: VS6mje9SYZUqNvoZ
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.VS6mje9SYZUqNvoZ"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: Toa
+  - _id: NPyqX2q6hrxV2oOt
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.NPyqX2q6hrxV2oOt"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: Iwana
+  - _id: KX9U1bLXB1HxL0uW
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.KX9U1bLXB1HxL0uW"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: Caimán
+  - _id: GDdsPk7jv3LozPIo
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.GDdsPk7jv3LozPIo"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: Carey
+  - _id: 6MAccSf6HemNjnI3
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.6MAccSf6HemNjnI3"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: Hicotea
+  - _id: E3C2ZMvQexH7Cxbe
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.E3C2ZMvQexH7Cxbe"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: Manatí
+  - _id: SlDd0htFT70rnL4D
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.SlDd0htFT70rnL4D"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: Tiburón
+  - _id: DMjh7DHYroinTqzh
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.DMjh7DHYroinTqzh"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: Picúa
+  - _id: ayFBAZ7AWsBXPtmX
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ayFBAZ7AWsBXPtmX"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: Guaraguao
+  - _id: 46ALm8aT9MB6Dlff
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.46ALm8aT9MB6Dlff"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: Múcaro
+  - _id: RE7iWphp53z3vtyt
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.RE7iWphp53z3vtyt"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: Guabairo
+  - _id: 9o7m3qdCMox8LIva
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.9o7m3qdCMox8LIva"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: Pitirre
+  - _id: HBuBRDHRclL2oLsO
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.HBuBRDHRclL2oLsO"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: Higuaca
+  - _id: YhOCZdZy2QuYpGm1
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.YhOCZdZy2QuYpGm1"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: Inriri
+  - _id: h3ulc8nCDYkB9KpY
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.h3ulc8nCDYkB9KpY"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: Cocuyo
+  - _id: fo34IHHYwXMN321K
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.fo34IHHYwXMN321K"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: Cucubano
+  - _id: cGJzHiXqYFvb4vIA
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.cGJzHiXqYFvb4vIA"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: Coquí
+  - _id: GiXCp0Ut6Yb7KAi1
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.GiXCp0Ut6Yb7KAi1"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: Maco
+  - _id: 3LxxtdCWwpzSQIhm
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.3LxxtdCWwpzSQIhm"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: Aón
+  - _id: kvU7yUKKYkjSgyxa
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.kvU7yUKKYkjSgyxa"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: Hutía
+  - _id: Hw6r1Fy78hFpep4j
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Hw6r1Fy78hFpep4j"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: Majá
+  - _id: YYoKtTbC6lFsnYDM
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.YYoKtTbC6lFsnYDM"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: Jaiba
+  - _id: uvBLVCrq3pLeK6hB
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.uvBLVCrq3pLeK6hB"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: Juey
+  - _id: AzztuDUObhNsVvND
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.AzztuDUObhNsVvND"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: Buruquena
+  - _id: h8X0lChRjS4LxhrV
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.h8X0lChRjS4LxhrV"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: Cobo
+  - _id: zlU6u81SxxisEJjY
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.zlU6u81SxxisEJjY"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: Burgao
+  - _id: 5FncDj9ooXGQ3jld
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.5FncDj9ooXGQ3jld"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: Carite
+  - _id: jWaoneMLHSmgHty2
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.jWaoneMLHSmgHty2"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: Dajao
+  - _id: rO4iPenjYj7RXwzZ
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.rO4iPenjYj7RXwzZ"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: Sábalo
+  - _id: NobTyW0dFWRQOED8
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.NobTyW0dFWRQOED8"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: Guabina
+  - _id: derOgRw2mqZLEnJg
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.derOgRw2mqZLEnJg"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: Biajaca
+  - _id: n1Memt15u1Od8C3V
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.n1Memt15u1Od8C3V"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: Guabá
+  - _id: zoNAEiyzdUr62r2W
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.zoNAEiyzdUr62r2W"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: Ceiba
+  - _id: zkjay1YJgH3vHe2B
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.zkjay1YJgH3vHe2B"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: Guayacán
+  - _id: kWWDQJK5DnRpUn7u
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.kWWDQJK5DnRpUn7u"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: Ausubo
+  - _id: qoaArs5ehXtUact0
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.qoaArs5ehXtUact0"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: Tabonuco
+  - _id: 09WxYgzS1cerf8N1
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.09WxYgzS1cerf8N1"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: Úcar
+  - _id: qUaUAFc7Ai56bAsW
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.qUaUAFc7Ai56bAsW"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: Baitoa
+  - _id: G49uFpm9oOi07aim
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.G49uFpm9oOi07aim"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: Maga
+  - _id: OtfWkrmL6m8qK9pw
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.OtfWkrmL6m8qK9pw"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: Hobo
+  - _id: t8P726RlZrta08j3
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.t8P726RlZrta08j3"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: Jagua
+  - _id: TdeMkIXBE8VL2pHI
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.TdeMkIXBE8VL2pHI"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: Yaya
+  - _id: AEVRcYTHDiW07gkw
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.AEVRcYTHDiW07gkw"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: Guama
+  - _id: hibjQisImwQieNFX
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.hibjQisImwQieNFX"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: Cupey
+  - _id: hUWza7KtlhuWnd2U
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.hUWza7KtlhuWnd2U"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: Caimito
+  - _id: ATRFkAwgCta9jMcO
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ATRFkAwgCta9jMcO"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: Yarey
+  - _id: ZQjZKvdP5MTSCc3n
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ZQjZKvdP5MTSCc3n"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: Cana
+  - _id: N0VxjLU0YTJlVq8l
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.N0VxjLU0YTJlVq8l"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: Manaca
+  - _id: l78vddC9Dn5HxrKd
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.l78vddC9Dn5HxrKd"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: Macana
+  - _id: PFhrg70NzTrdshh4
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.PFhrg70NzTrdshh4"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: Coa
+  - _id: jAA3SAfb1ae7Rh3s
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.jAA3SAfb1ae7Rh3s"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: Guaíza
+  - _id: Gxganl8h4NLa9aS3
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Gxganl8h4NLa9aS3"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: Maraca
+  - _id: ue9kuT9wMGRy0coW
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ue9kuT9wMGRy0coW"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: Guanín
+  - _id: 2tAAj7fyQ9telm4g
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.2tAAj7fyQ9telm4g"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: Caona
+  - _id: GPZNt6mVgT2hidH6
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.GPZNt6mVgT2hidH6"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: Dujo
+  - _id: QIFNcd5hVwF48eId
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.QIFNcd5hVwF48eId"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: Cemí
+  - _id: NvJTpRrBd3WziElR
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.NvJTpRrBd3WziElR"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: Hupía
+  - _id: V82cK1rXszE0o5zJ
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.V82cK1rXszE0o5zJ"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: Boinael
+  - _id: zdQZM7JVCyLMkYbT
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.zdQZM7JVCyLMkYbT"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: Márohu
+  - _id: jII0puohosHD7WH8
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.jII0puohosHD7WH8"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: Cacibajagua
+  - _id: 758yvN4DpAUGqD06
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.758yvN4DpAUGqD06"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: Coabey
+  - _id: SQM4f36lK3BPRL65
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.SQM4f36lK3BPRL65"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: Batey
+  - _id: q8nswP0COHsZTRKS
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.q8nswP0COHsZTRKS"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: Canoa
+  - _id: obqKNfdNAcPlLaEF
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.obqKNfdNAcPlLaEF"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: Baba
+  - _id: U079C2rRc4ue2S39
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.U079C2rRc4ue2S39"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: Aracoel
+  - _id: KnKSvXsNWFpAp6rc
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.KnKSvXsNWFpAp6rc"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: Guatiao
+  - _id: YLUDAw7huaDXBgJX
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.YLUDAw7huaDXBgJX"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: Nitaíno
+  - _id: 6dVT189Kcy2P7Rx7
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.6dVT189Kcy2P7Rx7"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: Cacú
+  - _id: SsqtTotQCePOd9Sv
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.SsqtTotQCePOd9Sv"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: Bagüey
+  - _id: 0IhYPEbENaSGEhtr
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.0IhYPEbENaSGEhtr"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: Cibü
+  - _id: jPRBcSYChB0QfEin
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.jPRBcSYChB0QfEin"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: Turabo
+  - _id: l4U5CKhascuZJYvx
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.l4U5CKhascuZJYvx"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: Mabuya
+  - _id: Bb6MDthfAaDVViwt
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Bb6MDthfAaDVViwt"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: Opiyel
+  - _id: ISevZYw71siOEJXX
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ISevZYw71siOEJXX"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: Baracú
+  - _id: RBfpGXqHR7rZCt93
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.RBfpGXqHR7rZCt93"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: Guaraca
+  - _id: 4zV3cFnU9H9sKTzu
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.4zV3cFnU9H9sKTzu"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: Yaque
+  - _id: M63ykuJefHTG2mjj
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.M63ykuJefHTG2mjj"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: Guanabo
+  - _id: Cadv6h6kR9oVBtc2
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Cadv6h6kR9oVBtc2"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: Comerío
+  - _id: NmkeFIBuGajsQjvR
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.NmkeFIBuGajsQjvR"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: Otoao
+  - _id: dHZXQoU2hwlNF4na
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.dHZXQoU2hwlNF4na"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: Guaonabo
+  - _id: B5HT8ijmqfwK2Pgj
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.B5HT8ijmqfwK2Pgj"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: Baoruco
+  - _id: omNO76UsXpmvfLxo
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.omNO76UsXpmvfLxo"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: Maniel
+  - _id: PWHoHz7Kb0TDncaL
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.PWHoHz7Kb0TDncaL"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: Caguax
+  - _id: ocdVNCOYKHEeqw0N
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.ocdVNCOYKHEeqw0N"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: Jacaguax
+  - _id: P5Q0LuWiNaqnymHL
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.P5Q0LuWiNaqnymHL"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: Bohío
+  - _id: VRcvYgTaVrTcEzZ4
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.VRcvYgTaVrTcEzZ4"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: Caney
+  - _id: q3uuKE7XUerF3TiV
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.q3uuKE7XUerF3TiV"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: Yucayeque
+  - _id: QjDvCqkOfuxq5Qoi
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.QjDvCqkOfuxq5Qoi"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: Cohoba
+  - _id: TrLxnjm44r3iNM1C
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.TrLxnjm44r3iNM1C"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: Areíto
+  - _id: F4EtIj1z8sXL3Jij
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.F4EtIj1z8sXL3Jij"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: Güiro
+  - _id: Ap1VBdcTvH3xAlaI
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.Ap1VBdcTvH3xAlaI"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: Baria
+  - _id: UPqGN5kg63Mnk17K
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.UPqGN5kg63Mnk17K"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: Caracoa
+  - _id: LJkbWrSJsUrwfVdk
+    _key: "!tables.results!S4wGCjjJcFyCvzbg.LJkbWrSJsUrwfVdk"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: Bija

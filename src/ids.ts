@@ -146,6 +146,16 @@ export const otherNames: Record<string, any> = {
       Core: 'Compendium.revolutionary-piratenames.rolltables.RollTable.aiO35Dj2wpXFkDAz',
       Animate: 'Compendium.revolutionary-piratenames.rolltables.RollTable.U3WKD2JK3WAEUwz5'
     }
+  },
+  Taino: {
+    Masculine: {
+      Subjects: 'Compendium.revolutionary-piratenames.rolltables.RollTable.S4wGCjjJcFyCvzbg',
+      Modifiers: 'Compendium.revolutionary-piratenames.rolltables.RollTable.vZjPrjaJGCz68pll'
+    },
+    Feminine: {
+      Subjects: 'Compendium.revolutionary-piratenames.rolltables.RollTable.fje6L4HNrI3U8uSQ',
+      Modifiers: 'Compendium.revolutionary-piratenames.rolltables.RollTable.Gsjbg0iaYj0GzTxp'
+    }
   }
 }
 

@@ -12,6 +12,7 @@ import generateMandinkaName from './cultures/mandinka/generate.ts'
 import generatePortugueseName from './cultures/portuguese/generate.ts'
 import generateScottishName from './cultures/scottish/generate.ts'
 import generateSpanishName from './cultures/spanish/generate.ts'
+import generateTainoName from './cultures/taino/generate.ts'
 import generateWelshName from './cultures/welsh/generate.ts'
 import generateYorubaName from './cultures/yoruba/generate.ts'
 import whisperMessage from './whisper.ts'
@@ -47,6 +48,7 @@ const generateName = async (
     Portuguese: generatePortugueseName,
     Scottish: generateScottishName,
     Spanish: generateSpanishName,
+    Taino: generateTainoName,
     Welsh: generateWelshName,
     Yoruba: generateYorubaName
   }

@@ -1,0 +1,808 @@
+_id: Gsjbg0iaYj0GzTxp
+_key: "!tables!Gsjbg0iaYj0GzTxp"
+name: Taíno Feminine Name Modifiers
+description: Modifiers that might be used in names for Taíno women.
+img: icons/svg/d20-grey.svg
+formula: 1d100
+folder: lYemoxUEeaf2Xpbw
+results:
+  - _id: 2ikrIqFYadCtrFIe
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2ikrIqFYadCtrFIe"
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    description: caona
+  - _id: mPNmKz623komZg3G
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.mPNmKz623komZg3G"
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    description: guanín
+  - _id: 13lVyTurGlwcwkxz
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.13lVyTurGlwcwkxz"
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    description: ana
+  - _id: 1dDm1MEOfUmvMo20
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.1dDm1MEOfUmvMo20"
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    description: karaya
+  - _id: mUrfjZygbbJ7ayVF
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.mUrfjZygbbJ7ayVF"
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    description: güey
+  - _id: bb6GonRdM6AcAeti
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.bb6GonRdM6AcAeti"
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    description: turey
+  - _id: e7GbuJGIP7CSMbu0
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.e7GbuJGIP7CSMbu0"
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    description: bagua
+  - _id: cCPk6DleCXpTmpDk
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.cCPk6DleCXpTmpDk"
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    description: toa
+  - _id: OTFngpX1XwuDp0nj
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.OTFngpX1XwuDp0nj"
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    description: ni
+  - _id: 1mulAB0wdFy1Noou
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.1mulAB0wdFy1Noou"
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    description: bija
+  - _id: S6zygh48OyWJlgoK
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.S6zygh48OyWJlgoK"
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    description: jagua
+  - _id: 2IQmfqsjvhCsny8t
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2IQmfqsjvhCsny8t"
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    description: guaní
+  - _id: nFX5Dvk1ZHBMp2Gi
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.nFX5Dvk1ZHBMp2Gi"
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    description: yarí
+  - _id: oL6mbdO7SO4nyQGY
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.oL6mbdO7SO4nyQGY"
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    description: baití
+  - _id: jMkHlYreEacwvm5f
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.jMkHlYreEacwvm5f"
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    description: catú
+  - _id: LkkF8MFAyoo5sdw1
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.LkkF8MFAyoo5sdw1"
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    description: taíno
+  - _id: Si05Djjj6wGBVhFO
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.Si05Djjj6wGBVhFO"
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    description: bibí
+  - _id: 2vmjm6RpdBUMxnyN
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2vmjm6RpdBUMxnyN"
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    description: naniki
+  - _id: xAbXwFoPif5GgrBn
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xAbXwFoPif5GgrBn"
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    description: bo
+  - _id: vuaf497wMMzPH701
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.vuaf497wMMzPH701"
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    description: ti
+  - _id: g9XvyXaHeQK2Ltzr
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.g9XvyXaHeQK2Ltzr"
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    description: guama
+  - _id: 6h92hcqZd2o4z9Zm
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.6h92hcqZd2o4z9Zm"
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    description: cana
+  - _id: 4a02JYksZb7T5jhK
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.4a02JYksZb7T5jhK"
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    description: yagua
+  - _id: DAemPBSlGfNivtmn
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.DAemPBSlGfNivtmn"
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    description: higüera
+  - _id: Lb84QTAcst7TENEh
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.Lb84QTAcst7TENEh"
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    description: mamey
+  - _id: RPxwJ0tSpVsXipoq
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.RPxwJ0tSpVsXipoq"
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    description: anón
+  - _id: 3EXeeuY08GP7XnkN
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.3EXeeuY08GP7XnkN"
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    description: guayaba
+  - _id: wluOnJHh5cWAies4
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.wluOnJHh5cWAies4"
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    description: caimí
+  - _id: U0BSZgiv5xL7nDGk
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.U0BSZgiv5xL7nDGk"
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    description: cocuy
+  - _id: nVAaaQCWdR0tq4Io
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.nVAaaQCWdR0tq4Io"
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    description: guaní
+  - _id: lAOAIhNaHMDaO66z
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.lAOAIhNaHMDaO66z"
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    description: cigua
+  - _id: xL8WXF1ukeWObn24
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xL8WXF1ukeWObn24"
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    description: areí
+  - _id: dVGDmcG712NP4pwk
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.dVGDmcG712NP4pwk"
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    description: guajana
+  - _id: CGwMuxfqhToNAcHS
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.CGwMuxfqhToNAcHS"
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    description: nagua
+  - _id: NCFUCUv0PFKpmetP
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.NCFUCUv0PFKpmetP"
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    description: algodí
+  - _id: cqy7DCP9jbSVs5gP
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.cqy7DCP9jbSVs5gP"
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    description: guaíza
+  - _id: xwXA8Q1gjh4RKGjB
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xwXA8Q1gjh4RKGjB"
+    range:
+      - 37
+      - 37
+    weight: 1
+    type: text
+    description: perlí
+  - _id: yNpSMAvfxmbqBgdq
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.yNpSMAvfxmbqBgdq"
+    range:
+      - 38
+      - 38
+    weight: 1
+    type: text
+    description: caracolí
+  - _id: l86mBeOL8KkW1Ro2
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.l86mBeOL8KkW1Ro2"
+    range:
+      - 39
+      - 39
+    weight: 1
+    type: text
+    description: siba
+  - _id: QC7b8j27NjfVFeIE
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.QC7b8j27NjfVFeIE"
+    range:
+      - 40
+      - 40
+    weight: 1
+    type: text
+    description: cibü
+  - _id: wBtHeaoEpIMiy5yb
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.wBtHeaoEpIMiy5yb"
+    range:
+      - 41
+      - 41
+    weight: 1
+    type: text
+    description: bibiya
+  - _id: vXcWuX3IegjVKD5a
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.vXcWuX3IegjVKD5a"
+    range:
+      - 42
+      - 42
+    weight: 1
+    type: text
+    description: guaó
+  - _id: 6Ke8772q6YTLOdNf
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.6Ke8772q6YTLOdNf"
+    range:
+      - 43
+      - 43
+    weight: 1
+    type: text
+    description: baiguá
+  - _id: adAHbdY0EdbuEeD6
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.adAHbdY0EdbuEeD6"
+    range:
+      - 44
+      - 44
+    weight: 1
+    type: text
+    description: yamú
+  - _id: eI9JRSLGX5cjkhQr
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.eI9JRSLGX5cjkhQr"
+    range:
+      - 45
+      - 45
+    weight: 1
+    type: text
+    description: marí
+  - _id: 1Ajz2P5TCAGWWqyr
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.1Ajz2P5TCAGWWqyr"
+    range:
+      - 46
+      - 46
+    weight: 1
+    type: text
+    description: higüamí
+  - _id: wHB5Gr4ixWjvuboz
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.wHB5Gr4ixWjvuboz"
+    range:
+      - 47
+      - 47
+    weight: 1
+    type: text
+    description: boina
+  - _id: 2ZBp2iwlxGwUGcPc
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2ZBp2iwlxGwUGcPc"
+    range:
+      - 48
+      - 48
+    weight: 1
+    type: text
+    description: márohu
+  - _id: 2LtHSIi3R5yLgTFd
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2LtHSIi3R5yLgTFd"
+    range:
+      - 49
+      - 49
+    weight: 1
+    type: text
+    description: turabí
+  - _id: J6RBsHXumzpDR6rw
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.J6RBsHXumzpDR6rw"
+    range:
+      - 50
+      - 50
+    weight: 1
+    type: text
+    description: guabí
+  - _id: NzLI5XfvrbUtDtbv
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.NzLI5XfvrbUtDtbv"
+    range:
+      - 51
+      - 51
+    weight: 1
+    type: text
+    description: anaó
+  - _id: 3Og0LiY7Cx2FD5wl
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.3Og0LiY7Cx2FD5wl"
+    range:
+      - 52
+      - 52
+    weight: 1
+    type: text
+    description: floral
+  - _id: 6sko2ciQfoa8NFEb
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.6sko2ciQfoa8NFEb"
+    range:
+      - 53
+      - 53
+    weight: 1
+    type: text
+    description: guajaní
+  - _id: PtX4Yk9PTdDAVyD6
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.PtX4Yk9PTdDAVyD6"
+    range:
+      - 54
+      - 54
+    weight: 1
+    type: text
+    description: bibijá
+  - _id: YAk2nABZbFdtdoGh
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.YAk2nABZbFdtdoGh"
+    range:
+      - 55
+      - 55
+    weight: 1
+    type: text
+    description: cohíbí
+  - _id: D0tE2mMkNGp8mhBR
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.D0tE2mMkNGp8mhBR"
+    range:
+      - 56
+      - 56
+    weight: 1
+    type: text
+    description: guacar
+  - _id: uc1avVz4E34kqPKs
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.uc1avVz4E34kqPKs"
+    range:
+      - 57
+      - 57
+    weight: 1
+    type: text
+    description: baoní
+  - _id: ugRA7SiwniAv5ukp
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.ugRA7SiwniAv5ukp"
+    range:
+      - 58
+      - 58
+    weight: 1
+    type: text
+    description: caoní
+  - _id: 3pe93zxoZxUziFWv
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.3pe93zxoZxUziFWv"
+    range:
+      - 59
+      - 59
+    weight: 1
+    type: text
+    description: güeyní
+  - _id: K0sIlCoEJc85gOPR
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.K0sIlCoEJc85gOPR"
+    range:
+      - 60
+      - 60
+    weight: 1
+    type: text
+    description: karayí
+  - _id: mvzfs6AdqGFF5ulN
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.mvzfs6AdqGFF5ulN"
+    range:
+      - 61
+      - 61
+    weight: 1
+    type: text
+    description: tureyí
+  - _id: RSF9D3vljxCgRdco
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.RSF9D3vljxCgRdco"
+    range:
+      - 62
+      - 62
+    weight: 1
+    type: text
+    description: bibiote
+  - _id: VtqaRNz2t4w79HCX
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.VtqaRNz2t4w79HCX"
+    range:
+      - 63
+      - 63
+    weight: 1
+    type: text
+    description: guaminí
+  - _id: JsjJR7SZjBge2YBr
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.JsjJR7SZjBge2YBr"
+    range:
+      - 64
+      - 64
+    weight: 1
+    type: text
+    description: anacú
+  - _id: QYSonI0aLUC0j3Ah
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.QYSonI0aLUC0j3Ah"
+    range:
+      - 65
+      - 65
+    weight: 1
+    type: text
+    description: yayama
+  - _id: RGF6QfFtYdJjRnta
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.RGF6QfFtYdJjRnta"
+    range:
+      - 66
+      - 66
+    weight: 1
+    type: text
+    description: mabí
+  - _id: k46WHKJMAvTIzOnX
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.k46WHKJMAvTIzOnX"
+    range:
+      - 67
+      - 67
+    weight: 1
+    type: text
+    description: hicaco
+  - _id: MSvFcYCJTXr1liS2
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.MSvFcYCJTXr1liS2"
+    range:
+      - 68
+      - 68
+    weight: 1
+    type: text
+    description: pitají
+  - _id: czLHrQyMoaKuwtr4
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.czLHrQyMoaKuwtr4"
+    range:
+      - 69
+      - 69
+    weight: 1
+    type: text
+    description: azucí
+  - _id: 7fXxAOZxtCakNXb3
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.7fXxAOZxtCakNXb3"
+    range:
+      - 70
+      - 70
+    weight: 1
+    type: text
+    description: aromí
+  - _id: V3dswPtWbCRSwVNO
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.V3dswPtWbCRSwVNO"
+    range:
+      - 71
+      - 71
+    weight: 1
+    type: text
+    description: verbí
+  - _id: PvMUob2GWULyije7
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.PvMUob2GWULyije7"
+    range:
+      - 72
+      - 72
+    weight: 1
+    type: text
+    description: malojí
+  - _id: 1TUJ7fUONLzYWFAl
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.1TUJ7fUONLzYWFAl"
+    range:
+      - 73
+      - 73
+    weight: 1
+    type: text
+    description: tibisí
+  - _id: fzPbkSnfRcVpK0VZ
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.fzPbkSnfRcVpK0VZ"
+    range:
+      - 74
+      - 74
+    weight: 1
+    type: text
+    description: guajaca
+  - _id: QXZUnN7lJHTvVKGw
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.QXZUnN7lJHTvVKGw"
+    range:
+      - 75
+      - 75
+    weight: 1
+    type: text
+    description: damají
+  - _id: 2IOpxXwW4YfDDfSI
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.2IOpxXwW4YfDDfSI"
+    range:
+      - 76
+      - 76
+    weight: 1
+    type: text
+    description: yaguí
+  - _id: a6VxIOqSqXU39GAb
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.a6VxIOqSqXU39GAb"
+    range:
+      - 77
+      - 77
+    weight: 1
+    type: text
+    description: cataí
+  - _id: NpzUxJovR2qJQb6D
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.NpzUxJovR2qJQb6D"
+    range:
+      - 78
+      - 78
+    weight: 1
+    type: text
+    description: bagüí
+  - _id: nEEPA24QmZfrAjZj
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.nEEPA24QmZfrAjZj"
+    range:
+      - 79
+      - 79
+    weight: 1
+    type: text
+    description: nibí
+  - _id: xRTU6wyftL95AKyj
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xRTU6wyftL95AKyj"
+    range:
+      - 80
+      - 80
+    weight: 1
+    type: text
+    description: guacía
+  - _id: GMYqWQGduPqBzGWl
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.GMYqWQGduPqBzGWl"
+    range:
+      - 81
+      - 81
+    weight: 1
+    type: text
+    description: bibicú
+  - _id: 4S6wT6n1nDME4KsI
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.4S6wT6n1nDME4KsI"
+    range:
+      - 82
+      - 82
+    weight: 1
+    type: text
+    description: caniba
+  - _id: xi4SrzQplkpcAxTs
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xi4SrzQplkpcAxTs"
+    range:
+      - 83
+      - 83
+    weight: 1
+    type: text
+    description: guarí
+  - _id: ZhEhe3YrGtS1ZN57
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.ZhEhe3YrGtS1ZN57"
+    range:
+      - 84
+      - 84
+    weight: 1
+    type: text
+    description: catí
+  - _id: Fo8akvGrnL2C9mD1
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.Fo8akvGrnL2C9mD1"
+    range:
+      - 85
+      - 85
+    weight: 1
+    type: text
+    description: guaoní
+  - _id: bwkZNYgMJRVM7ctT
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.bwkZNYgMJRVM7ctT"
+    range:
+      - 86
+      - 86
+    weight: 1
+    type: text
+    description: anamú
+  - _id: OCOpeIdYv4x7GRmR
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.OCOpeIdYv4x7GRmR"
+    range:
+      - 87
+      - 87
+    weight: 1
+    type: text
+    description: bimí
+  - _id: hypY8kEqbKeh5eHI
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.hypY8kEqbKeh5eHI"
+    range:
+      - 88
+      - 88
+    weight: 1
+    type: text
+    description: guaraguí
+  - _id: ZCPLOziu3ThoGrsj
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.ZCPLOziu3ThoGrsj"
+    range:
+      - 89
+      - 89
+    weight: 1
+    type: text
+    description: coquí
+  - _id: sPq0twsQz0YemXCg
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.sPq0twsQz0YemXCg"
+    range:
+      - 90
+      - 90
+    weight: 1
+    type: text
+    description: ciguí
+  - _id: znVnTQ84WVevNHHv
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.znVnTQ84WVevNHHv"
+    range:
+      - 91
+      - 91
+    weight: 1
+    type: text
+    description: rolí
+  - _id: XDuwBCJd0Hm0CsDq
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.XDuwBCJd0Hm0CsDq"
+    range:
+      - 92
+      - 92
+    weight: 1
+    type: text
+    description: mariabí
+  - _id: 6vOuHJgpONErSnGa
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.6vOuHJgpONErSnGa"
+    range:
+      - 93
+      - 93
+    weight: 1
+    type: text
+    description: guaimá
+  - _id: RZowNlkXdcLH7qpA
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.RZowNlkXdcLH7qpA"
+    range:
+      - 94
+      - 94
+    weight: 1
+    type: text
+    description: aracú
+  - _id: 10d7G1kxq7KLiP3v
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.10d7G1kxq7KLiP3v"
+    range:
+      - 95
+      - 95
+    weight: 1
+    type: text
+    description: baibrí
+  - _id: qERGQ0urk5yLwVGt
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.qERGQ0urk5yLwVGt"
+    range:
+      - 96
+      - 96
+    weight: 1
+    type: text
+    description: itibí
+  - _id: 8zyDfRHPYKBLOtoX
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.8zyDfRHPYKBLOtoX"
+    range:
+      - 97
+      - 97
+    weight: 1
+    type: text
+    description: atabí
+  - _id: 7dQ2xyBhsoQLl0UA
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.7dQ2xyBhsoQLl0UA"
+    range:
+      - 98
+      - 98
+    weight: 1
+    type: text
+    description: guabí
+  - _id: xysMmyYVyAcEojpT
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.xysMmyYVyAcEojpT"
+    range:
+      - 99
+      - 99
+    weight: 1
+    type: text
+    description: naborí
+  - _id: wECYKKLb8ULvV21q
+    _key: "!tables.results!Gsjbg0iaYj0GzTxp.wECYKKLb8ULvV21q"
+    range:
+      - 100
+      - 100
+    weight: 1
+    type: text
+    description: guaticú
