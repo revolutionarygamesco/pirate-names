@@ -1,3 +1,34 @@
+### v1.5.0
+* Add Kalinago, Taíno, and Miskito names.
+
+### v1.4.2
+* Move **Pirate Nationalities** to a d100 table. This allows us to push African
+  names up to the top of the historically-estimated range (30%) with more
+  fine-tuning for the less common options that are too flavorful to drop
+  entirely (Spanish, French, Dutch) and keeping the Celtic options (Scottish,
+  Irish, Welsh) sufficiently high to reflect Jacobite tendencies.
+
+### v1.4.1
+* Fix nationality tables by moving older table to **European Nationalities**
+  and adding a new **African Nationalities** table (based on data from
+  [Slave Voyages](https://www.slavevoyages.org/)). The new top-level
+  **Nationalities** table has a 60% chance of rolling on 
+  **African Nationalities** and a 40% chance of rolling on
+  **European Nationalities**. **Pirate Nationalities** has also been fixed by
+  reducing chances of existing European tables to add a 25% chance of rolling 
+  on **African Nationalities**. That’s a defensible number, but honestly on the
+  low side, but pumping it up to the higher end of the range at 30% would push
+  out Spanish, Dutch, French, Irish, and/or Welsh pirates completely.
+
+### v1.4.0
+* Add Akan, Bantu, Fon, Igbo, Mandinka, and Yoruba names.
+
+### v1.3.0
+* Add Portuguese personal names
+* Fix anachronistic British flag
+* Correction to documentation
+* Verified in Foundry 14
+
 ### v1.2.1
 * Misspelled the surname Williams as “Willaims.” Yikes!
 * Removed some errant logging.
