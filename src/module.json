@@ -4,7 +4,7 @@
   "description": "This module provides roll tables, API methods, and a macro to generate personal and ship names for the major European powers in the Caribbean during the Golden Age of Piracy: the Spanish Empire, the British Empire, the Kingdom of France, and the Dutch West India Company.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "authors": [
