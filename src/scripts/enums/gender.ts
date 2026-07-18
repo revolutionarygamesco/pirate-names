@@ -1,15 +1,5 @@
-import { genders as id } from '../../ids.ts'
-import rollTable from '../randomizers/roll-table.ts'
+import { makeStringUnionGuard, selectRandomElement } from '@revolutionarygamesco/common'
 
 export const genders: Gender[] = ['Feminine', 'Masculine']
-
-export const isGender = (candidate: unknown): candidate is Gender => {
-  if (typeof candidate !== 'string') return false
-  return genders.includes(candidate as Gender)
-}
-
-export const pickGender = async (): Promise<Gender> => {
-  const drawn = await rollTable(id, { displayChat: false })
-  const g = drawn?.description
-  return isGender(g) ? g : 'Masculine'
-}
+export const isGender = makeStringUnionGuard(genders)
+export const pickGender = () => selectRandomElement(genders)
