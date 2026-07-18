@@ -1,5 +1,5 @@
+import { selectRandomElement } from '@revolutionarygamesco/common'
 import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
-import selectRandomElement from '../../randomizers/el.ts'
 import { otherNames } from '../../../ids.ts'
 
 const generateJamu = async (caste: string): Promise<string> => {

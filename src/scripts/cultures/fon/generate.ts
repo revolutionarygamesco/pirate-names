@@ -1,8 +1,8 @@
+import { selectRandomElement } from '@revolutionarygamesco/common'
 import generateGivenName from '../../given.ts'
 import pickTwin from '../../randomizers/twin.ts'
 import pickCircumstance from '../../randomizers/circumstance.ts'
 import { pickWeekday } from '../../enums/weekday.ts'
-import selectRandomElement from '../../randomizers/el.ts'
 import circumstanceNames from '../akan/circumstance.ts'
 import weekdayNames from './weekday.ts'
 

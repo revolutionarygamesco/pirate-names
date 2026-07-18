@@ -1,6 +1,6 @@
 import { describe, beforeEach, it, expect, vi } from 'vitest'
 import roll from '../../randomizers/roll.ts'
-import selectRandomBetween from '../../randomizers/between.ts'
+import { selectRandomBetween } from '@revolutionarygamesco/common'
 import pickCaste from './caste.ts'
 
 vi.mock('../../randomizers/roll.ts', () => ({

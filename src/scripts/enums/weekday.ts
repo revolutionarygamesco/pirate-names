@@ -1,4 +1,4 @@
-import selectRandomElement from '../randomizers/el.ts'
+import { selectRandomElement } from '@revolutionarygamesco/common'
 
 export const weekdayNames: Weekday[] = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 

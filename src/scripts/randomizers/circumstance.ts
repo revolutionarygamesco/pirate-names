@@ -1,5 +1,5 @@
 import roll from './roll.ts'
-import selectRandomElement from './el.ts'
+import { selectRandomElement } from '@revolutionarygamesco/common'
 
 export const options: Array<{ min: number, max: number, circumstance: string | null }> = [
   { min: 1, max: 3, circumstance: 'sickly' },

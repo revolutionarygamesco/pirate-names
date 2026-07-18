@@ -1,4 +1,4 @@
-import selectRandomBetween from './between.ts'
+import { selectRandomBetween } from '@revolutionarygamesco/common'
 import pickFamilySize from './family.ts'
 
 const pickBirthOrder = async (): Promise<number | 'last'> => {
