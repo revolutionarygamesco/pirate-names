@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import { resolve } from 'path'
 import { copyFileSync } from 'fs'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
@@ -44,5 +44,15 @@ export default defineConfig({
         { src: 'src/images', dest: '' }
       ]
     })
-  ]
+  ],
+  test: {
+    globals: true,
+    include: ['src/**/*.test.ts'],
+    setupFiles: ['./src/test-setup.ts'],
+    coverage: {
+      provider: 'v8',
+      include: ['src/**/*.ts'],
+      exclude: ['src/**/*.d.ts', 'src/**/*.test.ts']
+    }
+  }
 })
