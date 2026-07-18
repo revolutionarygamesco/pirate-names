@@ -1,16 +1,17 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import roll from './roll.ts'
 import pickCircumstance from './circumstance.ts'
 
-jest.mock('./roll', () => ({
+vi.mock('./roll', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-const mockRoll = jest.mocked(roll)
+const mockRoll = vi.mocked(roll)
 
 describe('pickCircumstance', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('might return null', async () => {

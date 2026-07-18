@@ -1,12 +1,13 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import rollTable from '../../randomizers/roll-table.ts'
 import generateDutchPatronym from './patronym.ts'
 
-jest.mock('../../randomizers/roll-table.ts', () => ({
+vi.mock('../../randomizers/roll-table.ts', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-const mockTable = jest.mocked(rollTable)
+const mockTable = vi.mocked(rollTable)
 
 describe('check', () => {
   beforeEach(() => {

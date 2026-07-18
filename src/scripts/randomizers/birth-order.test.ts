@@ -1,14 +1,15 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import selectRandomBetween from './between.ts'
 import pickBirthOrder from './birth-order.ts'
 
-jest.mock('../randomizers/roll.ts', () => ({
+vi.mock('../randomizers/roll.ts', () => ({
   __esModule: true,
   default: async () => selectRandomBetween(1, 100)
 }))
 
 describe('pickBirthOrder', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('returns a number between 1 and 13 or "last"', async () => {

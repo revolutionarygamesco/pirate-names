@@ -1,7 +1,8 @@
+import { describe, it, expect, vi } from 'vitest'
 import rollTable, { reduceRollTableDraw } from './roll-table.ts'
 
-jest.mock('../wrapper.ts', () => ({
-  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Test' }] } } })
+vi.mock('../wrapper.ts', () => ({
+  fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Test' }] } } })
 }))
 
 describe('reduceRollTableDraw', () => {

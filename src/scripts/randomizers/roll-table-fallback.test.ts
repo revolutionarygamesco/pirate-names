@@ -1,12 +1,13 @@
+import { describe, it, expect, vi } from 'vitest'
 import rollTable from './roll-table.ts'
 import rollTableWithFallback from './roll-table-fallback.ts'
 
-jest.mock('./roll-table', () => ({
+vi.mock('./roll-table', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-const mockTable = jest.mocked(rollTable)
+const mockTable = vi.mocked(rollTable)
 
 describe('rollTableWithFallback', () => {
   const description = 'Description'

@@ -1,12 +1,13 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import roll from './roll.ts'
 import check from './check.ts'
 
-jest.mock('./roll', () => ({
+vi.mock('./roll', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-const mockRoll = jest.mocked(roll)
+const mockRoll = vi.mocked(roll)
 
 describe('check', () => {
   beforeEach(() => {

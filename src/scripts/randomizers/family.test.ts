@@ -1,13 +1,14 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import pickFamilySize from './family.ts'
 
-jest.mock('../randomizers/roll.ts', () => ({
+vi.mock('../randomizers/roll.ts', () => ({
   __esModule: true,
   default: async () => Math.floor((Math.random() * 100) + 1)
 }))
 
 describe('pickFamilySize', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('returns a number between 1 and 13', async () => {

@@ -1,13 +1,14 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import generateWeekdayName from './weekday.ts'
 
-jest.mock('../../randomizers/roll-table.ts', () => ({
+vi.mock('../../randomizers/roll-table.ts', () => ({
   __esModule: true,
   default: () => ({ description: 'Test' })
 }))
 
 describe('generateWeekdayName', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('returns a weekday name', async () => {

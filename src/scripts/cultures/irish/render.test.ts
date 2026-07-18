@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import renderGaelicName from './render.ts'
 
 describe('renderGaelicName', () => {

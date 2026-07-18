@@ -1,18 +1,19 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import generateFullSpanishSurname from './full-sur.ts'
 
-jest.mock('../../randomizers/roll.ts', () => ({
+vi.mock('../../randomizers/roll.ts', () => ({
   __esModule: true,
   default: async () => 5
 }))
 
-jest.mock('../../randomizers/roll-table.ts', () => ({
+vi.mock('../../randomizers/roll-table.ts', () => ({
   __esModule: true,
   default: async () => ({ description: 'Rodriguez' })
 }))
 
 describe('generateFullSpanishSurname', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('returns a full surname', async () => {

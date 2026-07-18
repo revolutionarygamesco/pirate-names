@@ -1,18 +1,19 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import generateAbiso from './abiso.ts'
 
-jest.mock('../../randomizers/roll.ts', () => ({
+vi.mock('../../randomizers/roll.ts', () => ({
   __esModule: true,
   default: () => 1
 }))
 
-jest.mock('../../randomizers/roll-table.ts', () => ({
+vi.mock('../../randomizers/roll-table.ts', () => ({
   __esModule: true,
   default: () => ({ description: 'Test' })
 }))
 
 describe('generateAbiso', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('constructs a Yoruba name', async () => {

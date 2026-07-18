@@ -1,7 +1,8 @@
+import { describe, it, expect, vi } from 'vitest'
 import { isGender, pickGender, genders } from './gender.ts'
 
-jest.mock('../wrapper.ts', () => ({
-  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Feminine' }] } } })
+vi.mock('../wrapper.ts', () => ({
+  fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Feminine' }] } } })
 }))
 
 describe('isGender', () => {

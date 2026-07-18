@@ -1,12 +1,13 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import roll from '../../randomizers/roll.ts'
 import pickSpecialNames from './special.ts'
 
-jest.mock('../../randomizers/roll.ts', () => ({
+vi.mock('../../randomizers/roll.ts', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-const mockRoll = jest.mocked(roll)
+const mockRoll = vi.mocked(roll)
 
 describe('check', () => {
   beforeEach(() => {

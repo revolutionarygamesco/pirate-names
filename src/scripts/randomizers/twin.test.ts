@@ -1,13 +1,14 @@
+import { describe, beforeEach, it, expect, vi } from 'vitest'
 import pickTwin from './twin.ts'
 
-jest.mock('../randomizers/roll.ts', () => ({
+vi.mock('../randomizers/roll.ts', () => ({
   __esModule: true,
   default: async () => 5
 }))
 
 describe('pickTwin', () => {
   beforeEach(() => {
-    jest.resetAllMocks()
+    vi.resetAllMocks()
   })
 
   it('returns false if not a twin', async () => {

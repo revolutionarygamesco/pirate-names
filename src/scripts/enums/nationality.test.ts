@@ -1,3 +1,4 @@
+import { describe, it, expect, vi } from 'vitest'
 import {
   isColors,
   isNationality,
@@ -7,8 +8,8 @@ import {
   nationalities
 } from './nationality.ts'
 
-jest.mock('../wrapper.ts', () => ({
-  fromUuid: jest.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Spanish' }] } } })
+vi.mock('../wrapper.ts', () => ({
+  fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Spanish' }] } } })
 }))
 
 describe('isColors', () => {

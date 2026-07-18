@@ -8,9 +8,8 @@
     "pack": "node ./scripts/pack.js",
     "yamlify-personal": "node ./scripts/yamlify-personal.js",
     "complete-table": "node ./scripts/complete-table.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.2",
