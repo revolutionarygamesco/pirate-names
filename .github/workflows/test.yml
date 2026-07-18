@@ -14,5 +14,3 @@ jobs:
           node-version: '18'
       - run: npm ci
       - run: npm run test
-        env:
-          TS_NODE_PROJECT: tsconfig.test.json
