@@ -17,7 +17,7 @@ const generateGivenName = async (
     if (!(n in givenNames)) n = undefined
   }
 
-  const g = gender ?? await pickGender()
+  const g = gender ?? pickGender()
   const drawn = await rollTable(givenNames[n][g], { displayChat: false })
   const name = drawn?.description ?? 'John'
 

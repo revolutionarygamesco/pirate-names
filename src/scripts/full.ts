@@ -33,7 +33,7 @@ const generateName = async (
   circumstances?: BirthCircumstances
 ): Promise<string> => {
   const n = nationality ?? await pickNationality()
-  const g = gender ?? await pickGender()
+  const g = gender ?? pickGender()
 
   const generator: Record<string, Generator> = {
     Akan: generateAkanName,

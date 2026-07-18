@@ -26,7 +26,7 @@ describe('isGender', () => {
 })
 
 describe('pickGender', () => {
-  it('picks a gender', async () => {
-    expect(await pickGender()).toBe('Feminine')
+  it('picks a gender', () => {
+    expect(genders).toContain(pickGender())
   })
 })
