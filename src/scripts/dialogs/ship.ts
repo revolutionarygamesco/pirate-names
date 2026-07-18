@@ -1,6 +1,6 @@
 import { MODULE_ID } from '../settings.ts'
 import { localize } from '../wrapper.ts'
-import { isColors, pickColors } from '../enums/nationality.ts'
+import { isColors, pickColors } from '../enums/colors.ts'
 import generateShipName, { generatePirateShipName } from '../ship.ts'
 
 const defaultOnComplete = async (c: Colors | 'Pirate' | 'Random', t: string) => {

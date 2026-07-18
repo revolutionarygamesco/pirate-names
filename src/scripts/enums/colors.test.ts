@@ -1,15 +1,15 @@
 import { describe, it, expect, vi } from 'vitest'
 import {
-  isNationality,
-  pickNationality,
-  nationalities
-} from './nationality.ts'
+  isColors,
+  pickColors,
+  colors
+} from './colors.ts'
 
 vi.mock('../wrapper.ts', () => ({
   fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Spanish' }] } } })
 }))
 
-describe('isNationality', () => {
+describe('isColors', () => {
   it.each([
     ['undefined', undefined],
     ['null', null],
@@ -21,16 +21,16 @@ describe('isNationality', () => {
     ['an array', []],
     ['an object', {}]
   ] as [string, any][])('rejects %s', (_desc: string, candidate: any) => {
-    expect(isNationality(candidate)).toBe(false)
+    expect(isColors(candidate)).toBe(false)
   })
 
-  it.each(nationalities)('accepts %s', (nationality: Nationality) => {
-    expect(isNationality(nationality)).toBe(true)
+  it.each(colors)('accepts %s', (colors: Colors) => {
+    expect(isColors(colors)).toBe(true)
   })
 })
 
-describe('pickNationality', () => {
-  it('picks a nationality', async () => {
-    expect(await pickNationality()).toBe('Spanish')
+describe('pickColors', () => {
+  it('picks colors', async () => {
+    expect(await pickColors()).toBe('Spanish')
   })
 })
