@@ -1,3 +1,4 @@
+import { isWithinRange } from '@revolutionarygamesco/common'
 import roll from './roll.ts'
 
 const pickFamilySize = async (): Promise<number> => {
@@ -19,7 +20,7 @@ const pickFamilySize = async (): Promise<number> => {
   ]
 
   for (const { min, max, size } of familySizeBands) {
-    if (min <= familySizeRoll && max >= familySizeRoll) return size
+    if (isWithinRange(familySizeRoll, [min, max])) return size
   }
 
   return 1

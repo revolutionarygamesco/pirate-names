@@ -1,5 +1,5 @@
 import roll from './roll.ts'
-import { selectRandomElement } from '@revolutionarygamesco/common'
+import { selectRandomElement, isWithinRange } from '@revolutionarygamesco/common'
 
 export const options: Array<{ min: number, max: number, circumstance: string | null }> = [
   { min: 1, max: 3, circumstance: 'sickly' },
@@ -35,7 +35,7 @@ const pickCircumstance = async (): Promise<string | null> => {
   const circumstanceRoll = await roll('1d100')
 
   for (const { min, max, circumstance } of options) {
-    if (min <= circumstanceRoll && max >= circumstanceRoll) {
+    if (isWithinRange(circumstanceRoll, [min, max])) {
       if (circumstance === null) return null
       const options = circumstance.split(',')
       return selectRandomElement(options)
