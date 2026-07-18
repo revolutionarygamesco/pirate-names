@@ -37,8 +37,7 @@ const pickCircumstance = async (): Promise<string | null> => {
   for (const { min, max, circumstance } of options) {
     if (isWithinRange(circumstanceRoll, [min, max])) {
       if (circumstance === null) return null
-      const options = circumstance.split(',')
-      return selectRandomElement(options)
+      return selectRandomElement(circumstance.split(','))
     }
   }
 
