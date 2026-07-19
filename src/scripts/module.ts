@@ -1,5 +1,5 @@
 import { registerAPI } from '@revolutionarygamesco/common-foundryvtt'
-import { MODULE_ID } from './settings'
+import { MODULE_ID } from './settings.ts'
 
 import generateName from './full.ts'
 import generateShipName, { generatePirateShipName } from './ship.ts'
