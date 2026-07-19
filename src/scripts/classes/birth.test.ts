@@ -1,6 +1,14 @@
-import { describe, expect, it } from 'vitest'
+import {describe, expect, it, vi} from 'vitest'
+import { selectRandomElement } from '@revolutionarygamesco/common'
 import { weekdays } from '../enums/weekday.ts'
 import BirthContext, { type BirthContextData } from './birth.ts'
+
+vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
+  ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
+  selectRandomElement: vi.fn()
+}))
+
+const mockRandom = vi.mocked(selectRandomElement)
 
 describe('BirthContext', () => {
   const data: BirthContextData = { weekday: 'Sunday', special: 'road' }
@@ -39,6 +47,26 @@ describe('BirthContext', () => {
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)
+      })
+    })
+  })
+
+  describe('Instance methods', () => {
+    describe('randomizeCircumstance', () => {
+      it('often sets special to null', () => {
+        mockRandom.mockReturnValueOnce('Sunday')
+        mockRandom.mockReturnValueOnce('')
+        const actual = new BirthContext()
+        actual.randomizeCircumstance()
+        expect(actual.special).toBeNull()
+      })
+
+      it('might return a special circumstance', () => {
+        mockRandom.mockReturnValueOnce('Sunday')
+        mockRandom.mockReturnValueOnce('sickly')
+        const actual = new BirthContext()
+        actual.randomizeCircumstance()
+        expect(actual.special).toBe('sickly')
       })
     })
   })
