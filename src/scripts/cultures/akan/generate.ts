@@ -4,7 +4,7 @@ import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
 import { type Gender } from '../../enums/gender.ts'
 import selectRandomBirthOrder from '../../randomizers/birth-order.ts'
 import pickTwin from '../../randomizers/twin.ts'
-import pickCircumstance from '../../randomizers/circumstance.ts'
+import selectRandomCircumstance from '../../randomizers/circumstance.ts'
 import birthOrderNames from './birth-order.ts'
 import circumstanceNames from './circumstance.ts'
 import { otherNames } from '../../../ids.ts'
@@ -16,7 +16,7 @@ const generateAkanName = async (
   const weekday: Weekday = circumstances?.weekday ?? selectRandomWeekday()
   const order = circumstances?.order ?? selectRandomBirthOrder()
   const twin = circumstances?.twin ?? pickTwin()
-  const circumstance = circumstances?.special ?? pickCircumstance()
+  const circumstance = circumstances?.special ?? selectRandomCircumstance()
 
   const names: string[] = [
     await drawGuarded(otherNames.Akan.WeekdayNames[weekday][gender], isString, gender === 'Feminine' ? 'Akosua' : 'Kwasi'),

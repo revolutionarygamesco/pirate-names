@@ -1,6 +1,6 @@
 import { selectRandomElement, selectRandomBand } from '@revolutionarygamesco/common'
 
-const pickCircumstance = (): string | null => {
+const selectRandomCircumstance = (): string | null => {
   const circumstance = selectRandomBand([
     { range: [1, 3], value: 'sickly' },
     { range: [4, 6], value: 'field' },
@@ -35,4 +35,4 @@ const pickCircumstance = (): string | null => {
   return selectRandomElement(circumstance.split(','))
 }
 
-export default pickCircumstance
+export default selectRandomCircumstance
