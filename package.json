@@ -4,12 +4,14 @@
   "version": "1.5.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && vite build && npm run pack",
+    "build": "npm run typecheck:build && vite build",
     "pack": "node ./scripts/pack.js",
     "yamlify-personal": "node ./scripts/yamlify-personal.js",
     "complete-table": "node ./scripts/complete-table.js",
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc -p tsconfig.json",
+    "typecheck:build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.2",
