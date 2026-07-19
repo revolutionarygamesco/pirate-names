@@ -1,9 +1,9 @@
-import { makeStringUnionGuard, selectRandomElement } from '@revolutionarygamesco/common'
+import { makeEnum } from '@revolutionarygamesco/common'
 
-export const weekdayNames: Weekday[] = ['Sunday', 'Monday', 'Tuesday',
-  'Wednesday', 'Thursday', 'Friday', 'Saturday']
-export const isWeekday = makeStringUnionGuard(weekdayNames)
-
-export const pickWeekday = async (): Promise<Weekday> => {
-  return selectRandomElement(weekdayNames)
-}
+export const weekdays = ['Sunday', 'Monday', 'Tuesday',
+  'Wednesday', 'Thursday', 'Friday', 'Saturday'] as const
+export type Weekday = typeof weekdays[number]
+export const {
+  guard: isWeekday,
+  randomizer: selectRandomWeekday
+} = makeEnum(weekdays)

@@ -1,11 +1,12 @@
-import roll from '../../randomizers/roll.ts'
+import { selectRandomBand } from '@revolutionarygamesco/common'
 
 const pickCaste = async (): Promise<string> => {
-  const r = await roll('1d100')
-  if (r === 100) return 'Jakhanke'
-  if (r === 99) return 'Jali'
-  if (r === 98) return 'Nyamakala'
-  return 'Foro'
+  return selectRandomBand([
+    { range: [1, 97], value: 'Foro' },
+    { range: [98], value: 'Nyamakala' },
+    { range: [99], value: 'Jali' },
+    { range: [100], value: 'Jakhanke' }
+  ]) ?? 'Foro'
 }
 
 export default pickCaste

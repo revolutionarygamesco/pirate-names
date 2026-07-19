@@ -1,3 +1,4 @@
+import { type Gender } from '../../enums/gender.ts'
 import generateGivenName from '../../given.ts'
 
 const generateKalinagoName = async (

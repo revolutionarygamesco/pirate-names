@@ -1,3 +1,6 @@
+import { type Gender } from './scripts/enums/gender.ts'
+import { type Colors } from './scripts/enums/colors.ts'
+
 export const givenNames: Record<string, Record<Gender, string>> = {
   Spanish: {
     Feminine: 'Compendium.revolutionary-piratenames.rolltables.RollTable.7RbOJKmELYZF6aX7',
@@ -190,8 +193,6 @@ export const shipNames: Record<Colors, Record<string, string>> = {
   }
 }
 
-export const genders = 'Compendium.revolutionary-piratenames.rolltables.RollTable.Jt1Mi4ZzTsLUmxxs'
-export const weekdays = 'Compendium.revolutionary-piratenames.rolltables.RollTable.OOksyW9qFJNWWxUV'
 export const nation: Record<NationScope, string> = {
   person: 'Compendium.revolutionary-piratenames.rolltables.RollTable.NLyKzSrJYnYaU6TJ',
   pirate: 'Compendium.revolutionary-piratenames.rolltables.RollTable.S3jEhiwdL6Pry0nK',

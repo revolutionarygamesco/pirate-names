@@ -1,8 +1,10 @@
-import { pickWeekday } from '../../enums/weekday.ts'
+import { isString } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
+import { type Gender } from '../../enums/gender.ts'
 import pickBirthOrder from '../../randomizers/birth-order.ts'
 import pickTwin from '../../randomizers/twin.ts'
 import pickCircumstance from '../../randomizers/circumstance.ts'
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
 import birthOrderNames from './birth-order.ts'
 import circumstanceNames from './circumstance.ts'
 import { otherNames } from '../../../ids.ts'
@@ -11,13 +13,13 @@ const generateAkanName = async (
   gender: Gender,
   circumstances?: Partial<BirthCircumstances>
 ): Promise<string> => {
-  const weekday = circumstances?.weekday ?? await pickWeekday()
-  const order = circumstances?.order ?? await pickBirthOrder()
-  const twin = circumstances?.twin ?? await pickTwin()
-  const circumstance = circumstances?.special ?? await pickCircumstance()
+  const weekday: Weekday = circumstances?.weekday ?? selectRandomWeekday()
+  const order = circumstances?.order ?? pickBirthOrder()
+  const twin = circumstances?.twin ?? pickTwin()
+  const circumstance = circumstances?.special ?? pickCircumstance()
 
   const names: string[] = [
-    await rollTableFallback(otherNames.Akan.WeekdayNames[weekday][gender], gender === 'Feminine' ? 'Akosua' : 'Kwasi'),
+    await drawGuarded(otherNames.Akan.WeekdayNames[weekday][gender], isString, gender === 'Feminine' ? 'Akosua' : 'Kwasi'),
     birthOrderNames[order.toString()][gender]
   ]
 
@@ -29,8 +31,7 @@ const generateAkanName = async (
     names.push(circumstanceNames[circumstance][gender])
   }
 
-  names.push(await rollTableFallback(otherNames.Akan.Surnames, 'Mensah'))
-
+  names.push(await drawGuarded(otherNames.Akan.Surnames, isString, 'Mensah'))
   return names.join(' ')
 }
 

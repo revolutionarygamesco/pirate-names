@@ -1,19 +1,18 @@
 import { describe, beforeEach, it, expect, vi } from 'vitest'
+import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import { surnames } from '../../../ids.ts'
 import generateFullSpanishSurname from './full-sur.ts'
 
-vi.mock('../../randomizers/roll.ts', () => ({
-  __esModule: true,
-  default: async () => 5
-}))
-
-vi.mock('../../randomizers/roll-table.ts', () => ({
-  __esModule: true,
-  default: async () => ({ description: 'Rodriguez' })
+vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
+  ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
+  chance: () => true
 }))
 
 describe('generateFullSpanishSurname', () => {
   beforeEach(() => {
-    vi.resetAllMocks()
+    mockTables({
+      [surnames.Spanish]: { results: [{ description: 'Rodriguez' } as foundry.documents.TableResult] }
+    })
   })
 
   it('returns a full surname', async () => {

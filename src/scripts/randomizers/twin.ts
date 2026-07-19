@@ -1,11 +1,10 @@
-import check from './check.ts'
+import { chance } from '@revolutionarygamesco/common'
 
-const pickTwin = async (
+const pickTwin = (
   twinBirthsPer100: number = 1
-): Promise<1 | 2 | false> => {
-  if (await check('1d100', r => r > twinBirthsPer100)) return false
-  const isFirst = await check('1d20', r => r <= 10)
-  return isFirst ? 1 : 2
+): 1 | 2 | false => {
+  if (!chance(twinBirthsPer100, 100)) return false
+  return chance(1, 2) ? 1 : 2
 }
 
 export default pickTwin

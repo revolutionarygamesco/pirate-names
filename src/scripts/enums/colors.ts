@@ -1,12 +1,11 @@
-import { makeStringUnionGuard } from '@revolutionarygamesco/common'
+import { makeEnum } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { nation } from '../../ids.ts'
-import rollTable from '../randomizers/roll-table.ts'
 
-export const colors: Colors[] = ['Spanish', 'British', 'French', 'Dutch']
-export const isColors = makeStringUnionGuard(colors)
+export const colors = ['Spanish', 'British', 'French', 'Dutch'] as const
+export type Colors = typeof colors[number]
+export const { guard: isColors } = makeEnum(colors)
 
-export const pickColors = async (): Promise<Colors> => {
-  const drawn = await rollTable(nation.ship, { displayChat: false })
-  const n = drawn?.description
-  return isColors(n) ? n : 'Spanish'
+export const selectRandomColors = async (): Promise<Colors> => {
+  return await drawGuarded(nation.ship, isColors, 'Spanish')
 }

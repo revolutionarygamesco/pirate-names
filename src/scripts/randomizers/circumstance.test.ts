@@ -1,35 +1,31 @@
-import { describe, beforeEach, it, expect, vi } from 'vitest'
-import roll from './roll.ts'
+import {describe, it, expect, vi} from 'vitest'
+import { selectRandomBand } from '@revolutionarygamesco/common'
 import pickCircumstance from './circumstance.ts'
 
-vi.mock('./roll', () => ({
-  __esModule: true,
-  default: vi.fn(),
+vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
+  ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
+  selectRandomBand: vi.fn()
 }))
 
-const mockRoll = vi.mocked(roll)
+const mockRandom = vi.mocked(selectRandomBand)
 
 describe('pickCircumstance', () => {
-  beforeEach(() => {
-    vi.resetAllMocks()
-  })
-
-  it('might return null', async () => {
-    mockRoll.mockResolvedValueOnce(100)
-    const actual = await pickCircumstance()
+  it('might return null', () => {
+    mockRandom.mockReturnValueOnce('')
+    const actual = pickCircumstance()
     expect(actual).toBeNull()
   })
 
-  it('might return a special circumstance', async () => {
-    mockRoll.mockResolvedValueOnce(1)
-    const actual = await pickCircumstance()
+  it('might return a special circumstance', () => {
+    mockRandom.mockReturnValueOnce('sickly')
+    const actual = pickCircumstance()
     expect(actual).toBe('sickly')
   })
 
-  it('can select between rarer circumstances', async () => {
-    mockRoll.mockResolvedValueOnce(47)
+  it('can select between rarer circumstances', () => {
+    mockRandom.mockReturnValueOnce('festival,festival,festival,festival,egungun,orisa')
     const expected = ['festival', 'egungun', 'orisa']
-    const actual = await pickCircumstance()
+    const actual = pickCircumstance()
     expect(expected).toContain(actual)
   })
 })

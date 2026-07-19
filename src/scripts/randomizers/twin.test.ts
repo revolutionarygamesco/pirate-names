@@ -1,24 +1,15 @@
-import { describe, beforeEach, it, expect, vi } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import pickTwin from './twin.ts'
 
-vi.mock('../randomizers/roll.ts', () => ({
-  __esModule: true,
-  default: async () => 5
-}))
-
 describe('pickTwin', () => {
-  beforeEach(() => {
-    vi.resetAllMocks()
-  })
-
-  it('returns false if not a twin', async () => {
-    const actual = await pickTwin(0)
+  it('returns false if not a twin', () => {
+    const actual = pickTwin(0)
     expect(actual).toBe(false)
   })
 
-  it('returns birth order if a twin', async () => {
+  it('returns birth order if a twin', () => {
     const expected = [1, 2]
-    const actual = await pickTwin(100)
+    const actual = pickTwin(100)
     expect(expected).toContain(actual)
   })
 })

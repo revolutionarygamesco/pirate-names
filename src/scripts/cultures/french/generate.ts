@@ -1,4 +1,5 @@
-import check from '../../randomizers/check.ts'
+import { chance } from '@revolutionarygamesco/common'
+import { type Gender } from '../../enums/gender.ts'
 import generateGivenName from '../../given.ts'
 import generateSurname from '../../surname.ts'
 
@@ -10,7 +11,7 @@ const generateFrenchName = async (
   gender: Gender
 ): Promise<string> => {
   const orig = await generateGivenName('French', gender)
-  const jean = gender === 'Masculine' && jeanable.includes(orig) && await check('d20', r => r > 10)
+  const jean = gender === 'Masculine' && jeanable.includes(orig) && chance(1, 2)
   const given = jean ? `Jean-${orig}` : orig
 
   const surname = await generateSurname('French')

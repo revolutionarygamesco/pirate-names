@@ -1,14 +1,15 @@
-import { makeStringUnionGuard } from '@revolutionarygamesco/common'
+import { makeEnum } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { nation } from '../../ids.ts'
-import rollTable from '../randomizers/roll-table.ts'
 
-export const nationalities: Nationality[] = ['Akan', 'Bantu', 'Dutch',
+export const nationalities = ['Akan', 'Bantu', 'Dutch',
   'English', 'Fon', 'French', 'Igbo', 'Irish', 'Kalinago', 'Mandinka',
-  'Miskito', 'Portuguese', 'Scottish', 'Spanish', 'Taino', 'Welsh', 'Yoruba']
-export const isNationality = makeStringUnionGuard(nationalities)
+  'Miskito', 'Portuguese', 'Scottish', 'Spanish', 'Taino', 'Welsh', 'Yoruba'] as const
+export type Nationality = typeof nationalities[number]
+export const { guard: isNationality } = makeEnum(nationalities)
 
-export const pickNationality = async (scope: 'person' | 'pirate' = 'person'): Promise<Nationality> => {
-  const drawn = await rollTable(nation[scope], { displayChat: false })
-  const n = drawn?.description
-  return isNationality(n) ? n : 'Spanish'
+export const selectRandomNationality = async (
+  scope: 'person' | 'pirate' = 'person'
+): Promise<Nationality> => {
+  return await drawGuarded(nation[scope], isNationality, 'Spanish')
 }

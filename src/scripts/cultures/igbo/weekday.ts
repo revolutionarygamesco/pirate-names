@@ -1,5 +1,6 @@
-import { selectRandomElement } from '@revolutionarygamesco/common'
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
+import { selectRandomElement, isString } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { type Gender } from '../../enums/gender.ts'
 import { otherNames } from '../../../ids.ts'
 
 export const igboWeekdayNames = ['Eke', 'Oye', 'Afor', 'Nkwo']
@@ -8,7 +9,7 @@ const generateWeekdayName = async (
   gender: Gender
 ): Promise<string> => {
   const weekday = selectRandomElement(igboWeekdayNames)
-  return await rollTableFallback(otherNames.Igbo.WeekdayNames[weekday][gender], gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
+  return await drawGuarded(otherNames.Igbo.WeekdayNames[weekday][gender], isString, gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
 }
 
 export default generateWeekdayName

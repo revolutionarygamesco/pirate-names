@@ -1,4 +1,6 @@
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
+import { isString } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { type Gender } from '../../enums/gender.ts'
 import { otherNames } from '../../../ids.ts'
 
 const generateMiskitoName = async (
@@ -10,8 +12,8 @@ const generateMiskitoName = async (
   const subjFallback = gender === 'Masculine' ? 'Lapta' : 'Kati'
   const modFallback = gender === 'Masculine' ? 'Tara' : 'Pihni'
 
-  const subj = await rollTableFallback(subjTable, subjFallback)
-  const mod = await rollTableFallback(modTable, modFallback)
+  const subj = await drawGuarded(subjTable, isString, subjFallback)
+  const mod = await drawGuarded(modTable, isString, modFallback)
 
   return `${subj} ${mod}`
 }

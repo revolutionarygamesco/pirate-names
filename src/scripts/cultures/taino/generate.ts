@@ -1,17 +1,14 @@
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
+import { isString, retryUntil } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { type Gender } from '../../enums/gender.ts'
 import concatWithElision from './elide.ts'
 import { otherNames } from '../../../ids.ts'
 
 const generateTainoName = async (
   gender: Gender
 ): Promise<string> => {
-  const subj = await rollTableFallback(otherNames.Taino[gender].Subjects, 'Güey')
-  let mod = await rollTableFallback(otherNames.Taino[gender].Modifiers, 'toa')
-
-  while (subj.toLowerCase() === mod.toLowerCase()) {
-    mod = await rollTableFallback(otherNames.Taino[gender].Modifiers, 'toa')
-  }
-
+  const subj = await drawGuarded(otherNames.Taino[gender].Subjects, isString, 'Güey')
+  const mod = await retryUntil(async () => await drawGuarded(otherNames.Taino[gender].Modifiers, isString, 'toa'), mod => mod !== subj, { fallback: 'toa' })
   return concatWithElision(subj, mod)
 }
 

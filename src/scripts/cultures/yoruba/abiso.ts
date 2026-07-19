@@ -1,12 +1,14 @@
-import check from '../../randomizers/check.ts'
+import { isString } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { chance } from '@revolutionarygamesco/common'
+import { type Gender } from '../../enums/gender.ts'
 import generateGivenName from '../../given.ts'
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
 import { otherNames } from '../../../ids.ts'
 
 const constructAbiso = async (
   gender: Gender
 ): Promise<string> => {
-  const useAnimateSubject = await check('1d20', r => r > 10)
+  const useAnimateSubject = chance(1, 2)
   const subjects = useAnimateSubject
     ? gender === 'Masculine'
       ? otherNames.Yoruba.Subjects.Animate.Masculine
@@ -16,18 +18,17 @@ const constructAbiso = async (
     ? otherNames.Yoruba.Predicates.Animate
     : otherNames.Yoruba.Predicates.Core
 
-  const subject = await rollTableFallback(subjects, 'Adé')
-  const predicate = await rollTableFallback(predicates, 'lọ́lá')
+  const subject = await drawGuarded(subjects, isString, 'Adé')
+  const predicate = await drawGuarded(predicates, isString, 'lọ́lá')
   return subject + predicate
 }
 
 const generateAbiso = async (
   gender: Gender
 ): Promise<string> => {
-  const useCommon = await check('1d20', r => r > 10)
-
-  if (useCommon) return await generateGivenName('Yoruba', gender)
-  return constructAbiso(gender)
+  return chance(1, 3)
+    ? await generateGivenName('Yoruba', gender)
+    : constructAbiso(gender)
 }
 
 export default generateAbiso

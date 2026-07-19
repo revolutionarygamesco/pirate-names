@@ -1,3 +1,4 @@
+import { type Gender } from '../../enums/gender.ts'
 import pickCaste from './caste.ts'
 import generateGivenName from '../../given.ts'
 import generateJamu from './jamu.ts'

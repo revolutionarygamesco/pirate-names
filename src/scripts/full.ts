@@ -1,3 +1,4 @@
+import { whisper as whisperMessage } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 import generateAkanName from './cultures/akan/generate.ts'
 import generateBantuName from './cultures/bantu/generate.ts'
@@ -16,10 +17,8 @@ import generateSpanishName from './cultures/spanish/generate.ts'
 import generateTainoName from './cultures/taino/generate.ts'
 import generateWelshName from './cultures/welsh/generate.ts'
 import generateYorubaName from './cultures/yoruba/generate.ts'
-import whisperMessage from './whisper.ts'
-import { pickGender } from './enums/gender.ts'
-import { pickNationality } from './enums/nationality.ts'
-import { localize } from './wrapper.ts'
+import { selectRandomGender, type Gender } from './enums/gender.ts'
+import { selectRandomNationality, type Nationality } from './enums/nationality.ts'
 
 type Generator = (
   gender: Gender,
@@ -32,8 +31,8 @@ const generateName = async (
   whisper?: string[],
   circumstances?: BirthCircumstances
 ): Promise<string> => {
-  const n = nationality ?? await pickNationality()
-  const g = gender ?? pickGender()
+  const n = nationality ?? await selectRandomNationality()
+  const g = gender ?? selectRandomGender()
 
   const generator: Record<string, Generator> = {
     Akan: generateAkanName,
@@ -59,8 +58,8 @@ const generateName = async (
     .replace(/<[^>]*>/g, '')
 
   if (whisper) {
-    const flavor = localize(`${MODULE_ID}.message.flavor.full`, { gender: g.toLocaleLowerCase(), nation: n })
-    await whisperMessage(whisper, flavor, name)
+    const flavor = game.i18n.localize(`${MODULE_ID}.message.flavor.full`, { gender: g.toLocaleLowerCase(), nation: n })
+    await whisperMessage({ recipients: whisper, flavor, content: name })
   }
 
   return name

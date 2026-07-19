@@ -1,3 +1,5 @@
+import { type Nationality } from './enums/nationality.ts'
+import { type Gender } from './enums/gender.ts'
 import generateGivenName from './given.ts'
 import generateSurname from './surname.ts'
 

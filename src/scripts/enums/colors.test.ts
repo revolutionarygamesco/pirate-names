@@ -1,13 +1,12 @@
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect } from 'vitest'
+import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import { nation } from '../../ids.ts'
 import {
   isColors,
-  pickColors,
-  colors
+  selectRandomColors,
+  colors,
+  type Colors
 } from './colors.ts'
-
-vi.mock('../wrapper.ts', () => ({
-  fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Spanish' }] } } })
-}))
 
 describe('isColors', () => {
   it.each([
@@ -29,8 +28,9 @@ describe('isColors', () => {
   })
 })
 
-describe('pickColors', () => {
+describe('colors', () => {
   it('picks colors', async () => {
-    expect(await pickColors()).toBe('Spanish')
+    mockTables({ [nation.ship]: { results: [{ description: 'Spanish' } as foundry.documents.TableResult] } })
+    expect(await selectRandomColors()).toBe('Spanish')
   })
 })

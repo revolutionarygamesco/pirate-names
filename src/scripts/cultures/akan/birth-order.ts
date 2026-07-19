@@ -1,3 +1,5 @@
+import { type Gender } from '../../enums/gender.ts'
+
 const birthOrderNames: Record<string, Record<Gender, string>> = {
   '1': {
     Masculine: 'Píèsíe',

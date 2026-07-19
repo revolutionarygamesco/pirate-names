@@ -1,13 +1,13 @@
+import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
-import { localize } from '../wrapper.ts'
-import { isNationality, pickNationality } from '../enums/nationality.ts'
-import { isGender, pickGender } from '../enums/gender.ts'
+import { nationalities, isNationality, selectRandomNationality, type Nationality } from '../enums/nationality.ts'
+import { genders, isGender, selectRandomGender, type Gender } from '../enums/gender.ts'
 import generateName from '../full.ts'
 
 const defaultOnComplete = async (nation: string, gender: string) => {
   const scope = nation === 'Random Pirate' ? 'pirate' : 'person'
-  const n = isNationality(nation) ? nation : await pickNationality(scope)
-  const g = isGender(gender) ? gender : await pickGender()
+  const n: Nationality = isNationality(nation) ? nation : await selectRandomNationality(scope)
+  const g: Gender = isGender(gender) ? gender : selectRandomGender()
   const whisper = [game.user.id]
   await generateName(n, g, whisper)
 }
@@ -15,16 +15,17 @@ const defaultOnComplete = async (nation: string, gender: string) => {
 const openGeneratePersonalNameDialog = async (
   onComplete: (nation: string, type: string) => Promise<void> = defaultOnComplete
 ): Promise<void> => {
-  const title = localize(`${MODULE_ID}.dialog.person.title`)
+  const t = scopeLocalizer(MODULE_ID, 'dialog', 'person')
+  const title = t('title')
 
-  const nationalityOptions = ['Random Person', 'Random Pirate', 'Akan', 'Bantu', 'Dutch', 'English', 'Fon', 'French', 'Igbo', 'Irish', 'Kalinago', 'Mandinka', 'Miskito', 'Portuguese', 'Scottish', 'Spanish', 'Taino', 'Welsh', 'Yoruba'].map(nation => {
-    const value = localize(`${MODULE_ID}.dialog.person.nationalities.options.${nation}`)
+  const nationalityOptions = ['Random Person', 'Random Pirate', ...nationalities].map(nation => {
+    const value = t(['nationalities', 'options', nation])
     return `<option value="${nation}">${value}</option>`
   }).join('\n')
 
-  const genderOptions = ['Random', 'Masculine', 'Feminine'].map(t => {
-    const value = localize(`${MODULE_ID}.dialog.person.gender.options.${t}`)
-    return `<option value="${t}">${value}</option>`
+  const genderOptions = ['Random', ...genders].map(gender => {
+    const value = t(['gender', 'options', gender])
+    return `<option value="${gender}">${value}</option>`
   }).join('\n')
 
   const dialog = new foundry.applications.api.DialogV2({
@@ -33,20 +34,20 @@ const openGeneratePersonalNameDialog = async (
     position: { width: 500 },
     content: `
         <label for="generate-personal-name-dialog-nationality">
-          ${localize(`${MODULE_ID}.dialog.person.nationalities.label`)}
+          ${t(['nationalities', 'label'])}
         </label>
         <p class="hint">
-          ${localize(`${MODULE_ID}.dialog.person.nationalities.hint`)}
+          ${t(['nationalities', 'hint'])}
         </p>
         <select name="nationality" id="generate-personal-name-dialog-nationality">
           ${nationalityOptions}
         </select>
         
         <label for="generate-personal-name-dialog-gender">
-          ${localize(`${MODULE_ID}.dialog.person.gender.label`)}
+          ${t(['gender', 'label'])}
         </label>
         <p class="hint">
-          ${localize(`${MODULE_ID}.dialog.person.gender.hint`)}
+          ${t(['gender', 'hint'])}
         </p>
         <select name="gender" id="generate-personal-name-dialog-gender">
           ${genderOptions}
@@ -55,7 +56,7 @@ const openGeneratePersonalNameDialog = async (
     buttons: [
       {
         action: 'generate',
-        label: localize(`${MODULE_ID}.dialog.person.actions.generate`),
+        label: t(['actions', 'generate']),
         callback: async (_event: Event, button: HTMLButtonElement) => {
           const coll = button.form?.elements
           if (!coll) return
@@ -67,7 +68,7 @@ const openGeneratePersonalNameDialog = async (
       },
       {
         action: 'cancel',
-        label: localize(`${MODULE_ID}.dialog.person.actions.cancel`),
+        label: t(['actions', 'cancel']),
         callback: async () => {
           await dialog.close()
         }

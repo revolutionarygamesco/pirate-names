@@ -1,21 +1,23 @@
+import { isString } from '@revolutionarygamesco/common'
+import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
+import { type Gender } from '../../enums/gender.ts'
 import pickSpecialNames from './special.ts'
-import rollTableFallback from '../../randomizers/roll-table-fallback.ts'
 import { otherNames } from '../../../ids.ts'
 
 const generateBantuName = async (
   gender: Gender
 ): Promise<string> => {
-  const special = await pickSpecialNames()
+  const special = pickSpecialNames()
 
   const names = []
 
-  if (special === 'santu') names.push(await rollTableFallback(otherNames.Bantu.Santu, 'Ntoni'))
+  if (special === 'santu') names.push(await drawGuarded(otherNames.Bantu.Santu, isString, 'Ntoni'))
 
-  names.push(await rollTableFallback(otherNames.Bantu.Nkumbu, 'Zola'))
+  names.push(await drawGuarded(otherNames.Bantu.Nkumbu, isString, 'Zola'))
   names.push('a')
-  names.push(await rollTableFallback(otherNames.Bantu.Nkumbu, 'Zola'))
+  names.push(await drawGuarded(otherNames.Bantu.Nkumbu, isString, 'Zola'))
 
-  if (special === 'initiation') names.push(await rollTableFallback(otherNames.Bantu.Santu, gender === 'Masculine' ? 'Nsumbu' : 'Lubondo'))
+  if (special === 'initiation') names.push(await drawGuarded(otherNames.Bantu.Santu, isString, gender === 'Masculine' ? 'Nsumbu' : 'Lubondo'))
 
   return names.join(' ')
 }

@@ -1,8 +1,9 @@
 import { describe, it, expect } from 'vitest'
 import {
   isWeekday,
-  pickWeekday,
-  weekdayNames
+  selectRandomWeekday,
+  weekdays,
+  type Weekday
 } from './weekday.ts'
 
 describe('isWeekday', () => {
@@ -20,13 +21,13 @@ describe('isWeekday', () => {
     expect(isWeekday(candidate)).toBe(false)
   })
 
-  it.each(weekdayNames)('accepts %s', (weekday: Weekday) => {
+  it.each(weekdays)('accepts %s', (weekday: Weekday) => {
     expect(isWeekday(weekday)).toBe(true)
   })
 })
 
-describe('pickWeekday', () => {
+describe('selectRandomWeekday', () => {
   it('picks a random weekday', async () => {
-    expect(weekdayNames).toContain(await pickWeekday())
+    expect(weekdays).toContain(await selectRandomWeekday())
   })
 })

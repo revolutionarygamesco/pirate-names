@@ -1,13 +1,16 @@
+import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
-import { localize } from '../wrapper.ts'
-import { isColors, pickColors } from '../enums/colors.ts'
+import { colors, isColors, selectRandomColors, type Colors } from '../enums/colors.ts'
 import generateShipName, { generatePirateShipName } from '../ship.ts'
 
-const defaultOnComplete = async (c: Colors | 'Pirate' | 'Random', t: string) => {
+const defaultOnComplete = async (
+  c: Colors | 'Pirate' | 'Random',
+  t: string
+) => {
   const whisper = [game.user.id]
   if (c === 'Pirate') { await generatePirateShipName(whisper); return }
 
-  const colors = isColors(c) ? c : await pickColors()
+  const colors = isColors(c) ? c : await selectRandomColors()
   const martial = t === 'Martial'
   await generateShipName({ colors, martial, whisper })
 }
@@ -15,10 +18,11 @@ const defaultOnComplete = async (c: Colors | 'Pirate' | 'Random', t: string) => 
 const openGenerateShipNameDialog = async (
   onComplete: (c: Colors | 'Pirate' | 'Random', t: string) => Promise<void> = defaultOnComplete
 ): Promise<void> => {
-  const title = localize(`${MODULE_ID}.dialog.ship.title`)
+  const t = scopeLocalizer(MODULE_ID, 'dialog', 'ship')
+  const title = t(['title'])
 
-  const nationalities = ['Random', 'Spanish', 'British', 'French', 'Dutch', 'Pirate'].map(nation => {
-    const value = localize(`${MODULE_ID}.dialog.ship.nationalities.options.${nation}`)
+  const nationalities = ['Random', ...colors, 'Pirate'].map(nation => {
+    const value = t(['nationalities', 'options', nation])
     const input = nation === 'Random'
       ? `<input type="radio" name="nationality" value="${nation}" id="nationality-${nation}" checked />`
       : `<input type="radio" name="nationality" value="${nation}" id="nationality-${nation}" />`
@@ -27,11 +31,11 @@ const openGenerateShipNameDialog = async (
     return `<li>${input}\n${label}</li>`
   }).join('\n')
 
-  const types = ['Commercial', 'Martial'].map(t => {
-    const label = localize(`${MODULE_ID}.dialog.ship.type.options.${t}.label`)
-    const hint = localize(`${MODULE_ID}.dialog.ship.type.options.${t}.hint`)
-    const id = [name, t.toLowerCase()].join('-')
-    const input = t === 'Commercial'
+  const types = ['Commercial', 'Martial'].map(use => {
+    const label = t(['type', 'options', use, 'label'])
+    const hint = t(['type', 'options', use, 'hint'])
+    const id = ['use', use.toLowerCase()].join('-')
+    const input = use === 'Commercial'
       ? `<input type="radio" id="${id}" name="type" value="${t}" checked />`
       : `<input type="radio" id="${id}" name="type" value="${t}" />`
     return `<li>${input}<label for="${id}">${label}</label><p class="hint">${hint}</p></li>`
@@ -43,14 +47,14 @@ const openGenerateShipNameDialog = async (
     position: { width: 700 },
     content: `
         <fieldset class="generate-ship-name-dialog-nationality">
-          <legend>${localize(`${MODULE_ID}.dialog.ship.nationalities.label`)}</legend>
+          <legend>${t(['nationalities', 'label'])}</legend>
           <ul>
             ${nationalities}
           </ul>
         </fieldset>
         
         <fieldset class="generate-ship-dialog-type">
-          <legend>${localize(`${MODULE_ID}.dialog.ship.type.label`)}</legend>
+          <legend>${t(['type', 'label'])}</legend>
           <ul>
             ${types}
           </ul>
@@ -59,7 +63,7 @@ const openGenerateShipNameDialog = async (
     buttons: [
       {
         action: 'generate',
-        label: localize(`${MODULE_ID}.dialog.person.actions.generate`),
+        label: t(['actions', 'generate']),
         callback: async (_event: Event, button: HTMLButtonElement) => {
           const coll = button.form?.elements
           if (!coll) return
@@ -71,7 +75,7 @@ const openGenerateShipNameDialog = async (
       },
       {
         action: 'cancel',
-        label: localize(`${MODULE_ID}.dialog.person.actions.cancel`),
+        label: t(['actions', 'cancel']),
         callback: async () => {
           await dialog.close()
         }

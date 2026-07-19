@@ -1,3 +1,5 @@
+import { type Gender } from '../../enums/gender.ts'
+
 const circumstanceNames: Record<string, Record<Gender, string>> = {
   road: {
     Masculine: 'Alidjinou',

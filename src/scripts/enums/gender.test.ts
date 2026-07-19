@@ -1,9 +1,5 @@
-import { describe, it, expect, vi } from 'vitest'
-import { isGender, pickGender, genders } from './gender.ts'
-
-vi.mock('../wrapper.ts', () => ({
-  fromUuid: vi.fn().mockResolvedValue({ draw: async () => { return { results: [{ description: 'Feminine' }] } } })
-}))
+import { describe, it, expect } from 'vitest'
+import { isGender, selectRandomGender, genders, type Gender } from './gender.ts'
 
 describe('isGender', () => {
   it.each([
@@ -25,8 +21,8 @@ describe('isGender', () => {
   })
 })
 
-describe('pickGender', () => {
+describe('selectRandomGender', () => {
   it('picks a gender', () => {
-    expect(genders).toContain(pickGender())
+    expect(genders).toContain(selectRandomGender())
   })
 })

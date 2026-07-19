@@ -1,29 +1,23 @@
+import { retryUntil } from '@revolutionarygamesco/common'
+import { whisper as whisperMessage, drawDescription } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 import { givenNames } from '../ids.ts'
-import { pickGender } from './enums/gender.ts'
-import rollTable from './randomizers/roll-table.ts'
-import whisperMessage from './whisper.ts'
-import { pickNationality } from './enums/nationality.ts'
-import { localize } from './wrapper.ts'
+import { selectRandomGender, type Gender } from './enums/gender.ts'
+import { selectRandomNationality, type Nationality } from './enums/nationality.ts'
 
 const generateGivenName = async (
   nationality?: Nationality,
   gender?: Gender,
   whisper?: string[]
 ): Promise<string> => {
-  let n = nationality
-  while (!n) {
-    n = await pickNationality()
-    if (!(n in givenNames)) n = undefined
-  }
 
-  const g = gender ?? pickGender()
-  const drawn = await rollTable(givenNames[n][g], { displayChat: false })
-  const name = drawn?.description ?? 'John'
+  const n: Nationality = nationality ?? await retryUntil(selectRandomNationality, n => n in givenNames, { fallback: 'Spanish' })
+  const g: Gender = gender ?? selectRandomGender()
+  const name = await drawDescription(givenNames[n][g]) ?? 'John'
 
   if (whisper) {
-    const flavor = localize(`${MODULE_ID}.message.flavor.given`, { gender: g.toLocaleLowerCase(), nation: n })
-    await whisperMessage(whisper, flavor, name)
+    const flavor = game.i18n.localize(`${MODULE_ID}.message.flavor.given`, { gender: g.toLocaleLowerCase(), nation: n })
+    await whisperMessage({ recipients: whisper, flavor, content: name })
   }
 
   return name
