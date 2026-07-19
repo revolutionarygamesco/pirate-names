@@ -1,6 +1,6 @@
 import { selectRandomBand } from '@revolutionarygamesco/common'
 
-const pickCaste = async (): Promise<string> => {
+const selectRandomMandinkaCaste = async (): Promise<string> => {
   return selectRandomBand([
     { range: [1, 97], value: 'Foro' },
     { range: [98], value: 'Nyamakala' },
@@ -9,4 +9,4 @@ const pickCaste = async (): Promise<string> => {
   ]) ?? 'Foro'
 }
 
-export default pickCaste
+export default selectRandomMandinkaCaste
