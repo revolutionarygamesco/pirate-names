@@ -25,6 +25,11 @@ describe('BirthContext', () => {
       const actual = new BirthContext({ special: 'testing' })
       expect(actual.special).toBe('testing')
     })
+
+    it('can set special circumstances to null', () => {
+      const actual = new BirthContext({ special: null })
+      expect(actual.special).toBeNull()
+    })
   })
 
   describe('Instance methods', () => {

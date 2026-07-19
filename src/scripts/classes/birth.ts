@@ -1,3 +1,4 @@
+import { isString } from '@revolutionarygamesco/common'
 import { selectRandomWeekday, type Weekday } from '../enums/weekday.ts'
 import selectRandomCircumstance from '../randomizers/circumstance.ts'
 
@@ -12,7 +13,8 @@ class BirthContext {
 
   constructor(data?: Partial<BirthContextData>) {
     this.weekday = data?.weekday ?? selectRandomWeekday()
-    this.special = data?.special ?? selectRandomCircumstance()
+    this.special = data?.special === null || isString(data?.special)
+      ? data.special : selectRandomCircumstance()
   }
 
   toObject (): BirthContextData {
