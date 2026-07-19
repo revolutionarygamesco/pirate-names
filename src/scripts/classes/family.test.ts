@@ -92,6 +92,32 @@ describe('FamilyContext', () => {
         expect(actual).not.toBe(data)
       })
     })
+
+    describe('randomizeBirthOrder', () => {
+      it('selects a random birth order between 1 and family size', () => {
+        const actual = new FamilyContext({ size: 1 })
+        actual.randomizeBirthOrder()
+        expect(actual.order).toBe(1)
+      })
+
+      it('can take a minimum birth order', () => {
+        const actual = new FamilyContext({ size: 3 })
+        actual.randomizeBirthOrder(3)
+        expect(actual.order).toBe(3)
+      })
+
+      it('sets you as last if you set minimum higher than size', () => {
+        const actual = new FamilyContext({ size: 3 })
+        actual.randomizeBirthOrder(4)
+        expect(actual.order).toBe(3)
+      })
+
+      it('won’t make the second twin first-born', () => {
+        const actual = new FamilyContext({ twin: 2, size: 2 })
+        actual.randomizeBirthOrder()
+        expect(actual.order).toBe(2)
+      })
+    })
   })
 
   describe('Static methods', () => {

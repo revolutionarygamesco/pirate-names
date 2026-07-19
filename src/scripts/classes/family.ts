@@ -1,5 +1,4 @@
-import { selectRandomBand } from '@revolutionarygamesco/common'
-import selectRandomBirthOrder from '../randomizers/birth-order.ts'
+import { selectRandomBetween, selectRandomBand, isNumber } from '@revolutionarygamesco/common'
 import selectRandomTwinStatus from '../randomizers/twin.ts'
 
 export interface FamilyContextData {
@@ -15,11 +14,11 @@ class FamilyContext {
 
   constructor (data?: Partial<FamilyContextData>) {
     this.size = data?.size ?? FamilyContext.selectRandomFamilySize()
-    this.order = data?.order ?? selectRandomBirthOrder()
     this.twin = data?.twin ?? selectRandomTwinStatus()
+    this.order = Math.min(data?.order ?? 1, this.size)
 
     if (this.twin) this.size = Math.max(this.size, 2)
-    this.order = Math.min(this.order, this.size)
+    if (data?.order === undefined) this.randomizeBirthOrder(isNumber(this.twin) ? this.twin : 1)
   }
 
   get isLast (): boolean {
@@ -32,6 +31,10 @@ class FamilyContext {
       order: this.order,
       twin: this.twin
     }
+  }
+
+  randomizeBirthOrder (min: number = 1) {
+    this.order = selectRandomBetween(Math.min(min, this.size), this.size)
   }
 
   static load (data?: Partial<FamilyContextData>) {
