@@ -17,7 +17,7 @@ const generateBantuName = async (
   names.push('a')
   names.push(await drawGuarded(otherNames.Bantu.Nkumbu, isString, 'Zola'))
 
-  if (special === 'initiation') names.push(await drawGuarded(otherNames.Bantu.Santu, isString, gender === 'Masculine' ? 'Nsumbu' : 'Lubondo'))
+  if (special === 'initiation') names.push(await drawGuarded(otherNames.Bantu.Initiation[gender], isString, gender === 'Masculine' ? 'Nsumbu' : 'Lubondo'))
 
   return names.join(' ')
 }
