@@ -1,7 +1,6 @@
 import {describe, expect, it, vi} from 'vitest'
 import { isWithinRange, selectRandomBand } from '@revolutionarygamesco/common'
 import FamilyContext, {type FamilyContextData} from './family.ts'
-import { castes } from '../cultures/mandinka/caste.ts'
 
 vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
   ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
@@ -11,7 +10,7 @@ vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
 const mockRandom = vi.mocked(selectRandomBand)
 
 describe('FamilyContext', () => {
-  const data: FamilyContextData = { size: 3, order: 2, twin: false, caste: 'Foro' }
+  const data: FamilyContextData = { size: 3, order: 2, twin: false }
 
   describe('constructor', () => {
     it('creates a family context instance', () => {
@@ -67,16 +66,6 @@ describe('FamilyContext', () => {
     it('randomizes twin status by default', () => {
       const actual = new FamilyContext()
       expect([1, 2, false]).toContain(actual.twin)
-    })
-
-    it('can set the Mandinka caste', () => {
-      const actual = new FamilyContext({ caste: 'Jali' })
-      expect(actual.caste).toBe('Jali')
-    })
-
-    it('randomizes the caste by default', () => {
-      const actual = new FamilyContext()
-      expect(castes).toContain(actual.caste)
     })
   })
 

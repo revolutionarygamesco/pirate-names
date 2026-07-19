@@ -1,26 +1,22 @@
 import { selectRandomBand } from '@revolutionarygamesco/common'
 import selectRandomBirthOrder from '../randomizers/birth-order.ts'
 import selectRandomTwinStatus from '../randomizers/twin.ts'
-import { selectRandomMandinkaCaste, type MandinkaCaste } from '../cultures/mandinka/caste.ts'
 
 export interface FamilyContextData {
   size: number
   order: number
   twin: 1 | 2 | false
-  caste: MandinkaCaste
 }
 
 class FamilyContext {
   size: number
   order: number
   twin: 1 | 2 | false
-  caste: MandinkaCaste
 
   constructor (data?: Partial<FamilyContextData>) {
     this.size = data?.size ?? FamilyContext.selectRandomFamilySize()
     this.order = data?.order ?? selectRandomBirthOrder()
     this.twin = data?.twin ?? selectRandomTwinStatus()
-    this.caste = data?.caste ?? selectRandomMandinkaCaste()
 
     if (this.twin) this.size = Math.max(this.size, 2)
     this.order = Math.min(this.order, this.size)
@@ -34,8 +30,7 @@ class FamilyContext {
     return {
       size: this.size,
       order: this.order,
-      twin: this.twin,
-      caste: this.caste
+      twin: this.twin
     }
   }
 
