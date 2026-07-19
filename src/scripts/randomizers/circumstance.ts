@@ -4,7 +4,7 @@ const pickCircumstance = (): string | null => {
   const circumstance = selectRandomBand([
     { range: [1, 3], value: 'sickly' },
     { range: [4, 6], value: 'field' },
-    { range: [7, 9], value: 'war ' },
+    { range: [7, 9], value: 'war' },
     { range: [10, 12], value: 'road' },
     { range: [13, 15], value: 'fatherless' },
     { range: [16, 18], value: 'happy' },
