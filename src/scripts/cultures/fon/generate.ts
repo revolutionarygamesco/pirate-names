@@ -1,7 +1,7 @@
 import { selectRandomElement } from '@revolutionarygamesco/common'
 import { type Gender } from '../../enums/gender.ts'
 import generateGivenName from '../../given.ts'
-import pickTwin from '../../randomizers/twin.ts'
+import selectRandomTwinStatus from '../../randomizers/twin.ts'
 import selectRandomCircumstance from '../../randomizers/circumstance.ts'
 import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
 import circumstanceNames from '../akan/circumstance.ts'
@@ -12,7 +12,7 @@ const generateFonName = async (
   circumstances?: Partial<BirthCircumstances>
 ): Promise<string> => {
   const weekday: Weekday = circumstances?.weekday ?? selectRandomWeekday()
-  const twin = circumstances?.twin ?? pickTwin()
+  const twin = circumstances?.twin ?? selectRandomTwinStatus()
   const circumstance = circumstances?.special ?? selectRandomCircumstance()
   const names = [selectRandomElement(weekdayNames[weekday][gender])]
 

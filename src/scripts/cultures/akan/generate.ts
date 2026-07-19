@@ -3,7 +3,7 @@ import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
 import { type Gender } from '../../enums/gender.ts'
 import selectRandomBirthOrder from '../../randomizers/birth-order.ts'
-import pickTwin from '../../randomizers/twin.ts'
+import selectRandomTwinStatus from '../../randomizers/twin.ts'
 import selectRandomCircumstance from '../../randomizers/circumstance.ts'
 import birthOrderNames from './birth-order.ts'
 import circumstanceNames from './circumstance.ts'
@@ -15,7 +15,7 @@ const generateAkanName = async (
 ): Promise<string> => {
   const weekday: Weekday = circumstances?.weekday ?? selectRandomWeekday()
   const order = circumstances?.order ?? selectRandomBirthOrder()
-  const twin = circumstances?.twin ?? pickTwin()
+  const twin = circumstances?.twin ?? selectRandomTwinStatus()
   const circumstance = circumstances?.special ?? selectRandomCircumstance()
 
   const names: string[] = [

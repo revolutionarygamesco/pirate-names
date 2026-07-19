@@ -1,6 +1,6 @@
 import { type Gender } from '../../enums/gender.ts'
 import generateAbiso from './abiso.ts'
-import pickTwin from '../../randomizers/twin.ts'
+import selectRandomTwinStatus from '../../randomizers/twin.ts'
 import selectRandomCircumstance from '../../randomizers/circumstance.ts'
 import circumstanceNames from './circumstance.ts'
 
@@ -8,7 +8,7 @@ const generateYorubaName = async (
   gender: Gender,
   circumstances?: Partial<BirthCircumstances>
 ): Promise<string> => {
-  const twin = circumstances?.twin ?? pickTwin(2)
+  const twin = circumstances?.twin ?? selectRandomTwinStatus(2)
   const circumstance = circumstances?.special ?? selectRandomCircumstance()
   const names = [await generateAbiso(gender)]
 
