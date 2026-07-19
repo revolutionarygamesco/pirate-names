@@ -1,6 +1,6 @@
 import FamilyContext, { type FamilyContextData } from './family.ts'
 import BirthContext, { type BirthContextData } from './birth.ts'
-import BaseName, { type BaseNameData } from './name.ts'
+import BaseName, { type BaseNameData } from './names/name.ts'
 
 export interface PersonData {
   family: FamilyContextData

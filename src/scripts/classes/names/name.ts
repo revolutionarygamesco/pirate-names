@@ -1,4 +1,4 @@
-import { selectRandomGender, type Gender } from '../enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../enums/gender.ts'
 
 export interface BaseNameData {
   gender: Gender
