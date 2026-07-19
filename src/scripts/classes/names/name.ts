@@ -25,6 +25,12 @@ abstract class BaseName {
     }
   }
 
+  static async generate<T extends BaseName>(
+    this: new (data?: Partial<BaseNameData>) => T
+  ): Promise<T> {
+    return new this()
+  }
+
   static load<T extends BaseName>(
     this: new (data?: Partial<BaseNameData>) => T,
     data?: Partial<BaseNameData>
