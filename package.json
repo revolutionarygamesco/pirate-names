@@ -24,6 +24,7 @@
     "yaml": "^2.8.2"
   },
   "dependencies": {
-    "@revolutionarygamesco/common": "^1.2.0"
+    "@revolutionarygamesco/common": "^1.2.0",
+    "@revolutionarygamesco/common-foundryvtt": "^0.3.0"
   }
 }
