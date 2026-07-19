@@ -1,6 +1,6 @@
 import { selectRandomBand } from '@revolutionarygamesco/common'
 
-const pickFamilySize = (): number => {
+const selectRandomFamilySize = (): number => {
   return selectRandomBand<number>([
     { range: [1, 1], value: 1 },
     { range: [2, 3], value: 2 },
@@ -18,4 +18,4 @@ const pickFamilySize = (): number => {
   ]) ?? 1
 }
 
-export default pickFamilySize
+export default selectRandomFamilySize
