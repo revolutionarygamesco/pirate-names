@@ -3,7 +3,7 @@ import Person, { type PersonData } from './person.ts'
 
 describe('Person', () => {
   const data: PersonData = {
-    family: { size: 3, order: 2, twin: false },
+    family: { size: 3, order: 2, twin: false, nationality: 'Welsh' },
     birth: { weekday: 'Sunday', special: 'road' },
     names: [],
     relationships: []

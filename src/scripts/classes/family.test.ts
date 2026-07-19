@@ -10,7 +10,7 @@ vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
 const mockRandom = vi.mocked(selectRandomBand)
 
 describe('FamilyContext', () => {
-  const data: FamilyContextData = { size: 3, order: 2, twin: false }
+  const data: FamilyContextData = { size: 3, order: 2, twin: false, nationality: 'English' }
 
   describe('constructor', () => {
     it('creates a family context instance', () => {
