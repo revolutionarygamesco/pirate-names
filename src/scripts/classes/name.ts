@@ -1,39 +1,36 @@
 import { selectRandomGender, type Gender } from '../enums/gender.ts'
 
-export interface NameData {
+export interface BaseNameData {
   gender: Gender
   full: string
   personal: string
-  family?: string
 }
 
-class Name {
+abstract class BaseName {
   gender: Gender
   full: string
   personal: string
-  family: string
 
-  constructor (data?: Partial<NameData>) {
+  protected constructor (data?: Partial<BaseNameData>) {
     this.gender = data?.gender ?? selectRandomGender()
-    const defaultPersonal = this.gender === 'Feminine' ? 'Jane' : 'John'
-
-    this.personal = data?.personal ?? defaultPersonal
-    this.family = data?.family ?? 'Doe'
-    this.full = data?.full ?? `${this.personal} ${this.family}`
+    this.personal = data?.personal ?? 'Personal'
+    this.full = data?.full ?? 'Full'
   }
 
-  toObject (): NameData {
+  toObject (): BaseNameData {
     return {
       gender: this.gender,
       full: this.full,
-      personal: this.personal,
-      family: this.family
+      personal: this.personal
     }
   }
 
-  static load (data?: Partial<NameData>) {
-    return new Name(data)
+  static load<T extends BaseName>(
+    this: new (data?: Partial<BaseNameData>) => T,
+    data?: Partial<BaseNameData>
+  ): T {
+    return new this(data)
   }
 }
 
-export default Name
+export default BaseName

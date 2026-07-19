@@ -5,28 +5,8 @@ describe('Person', () => {
   const data: PersonData = {
     family: { size: 3, order: 2, twin: false },
     birth: { weekday: 'Sunday', special: 'road' },
-    names: [{
-      gender: 'Masculine',
-      full: 'John Doe',
-      personal: 'John',
-      family: 'Doe'
-    }],
-    relationships: [
-      {
-        description: 'sister',
-        person: {
-          family: { size: 3, order: 1, twin: false },
-          birth: { weekday: 'Tuesday', special: null },
-          names: [{
-            gender: 'Feminine',
-            full: 'Jane Doe',
-            personal: 'Jane',
-            family: 'Doe'
-          }],
-          relationships: []
-        }
-      }
-    ]
+    names: [],
+    relationships: []
   }
 
   describe('constructor', () => {

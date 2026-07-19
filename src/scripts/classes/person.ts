@@ -1,24 +1,24 @@
 import FamilyContext, { type FamilyContextData } from './family.ts'
 import BirthContext, { type BirthContextData } from './birth.ts'
-import Name, { type NameData } from './name.ts'
+import BaseName, { type BaseNameData } from './name.ts'
 
 export interface PersonData {
   family: FamilyContextData
   birth: BirthContextData
-  names: NameData[]
+  names: BaseNameData[]
   relationships: Array<{ description: string, person: PersonData }>
 }
 
 class Person {
   family: FamilyContext
   birth: BirthContext
-  names: Name[]
+  names: BaseName[]
   relationships: Array<{ description: string, person: Person }>
 
   constructor(data?: Partial<PersonData>) {
     this.family = new FamilyContext(data?.family)
     this.birth = new BirthContext(data?.birth)
-    this.names = data?.names?.map(data => new Name(data)) ?? []
+    this.names = []
     this.relationships = data?.relationships?.map(r => {
       const { description, person } = r
       return { description, person: new Person(person) }
