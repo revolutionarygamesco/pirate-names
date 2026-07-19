@@ -50,6 +50,7 @@ export default defineConfig({
     include: ['src/**/*.test.ts'],
     setupFiles: ['@revolutionarygamesco/common-foundryvtt/mocks/setup'],
     unstubGlobals: true,
+    clearMocks: true,
     coverage: {
       provider: 'v8',
       include: ['src/**/*.ts'],
