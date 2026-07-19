@@ -18,7 +18,7 @@ class FamilyContext {
 
   constructor (data?: Partial<FamilyContextData>) {
     this.size = data?.size ?? FamilyContext.selectRandomFamilySize()
-    this.twin = data?.twin ?? FamilyContext.selectRandomTwinStatus()
+    this.twin = data?.twin ?? false
     this.order = Math.min(data?.order ?? 1, this.size)
 
     if (this.twin) this.size = Math.max(this.size, 2)
@@ -39,7 +39,16 @@ class FamilyContext {
 
   randomizeBirthOrder (min: number = 1) {
     const twinMin = isNumber(this.twin) ? Math.max(min, this.twin) : min
+    console.log({ min, twinMin, trueMin: Math.min(twinMin, this.size), size: this.size })
     this.order = selectRandomBetween(Math.min(twinMin, this.size), this.size)
+  }
+
+  randomizeTwinStatus (twinsPerK: number = 60) {
+    if (this.size < 2 || !chance(twinsPerK, 1000)) {
+      this.twin = false
+    } else {
+      this.twin = selectRandomBetween(1, 2) as 1 | 2
+    }
   }
 
   static load (data?: Partial<FamilyContextData>) {
@@ -63,11 +72,6 @@ class FamilyContext {
       { range: [99, 100], value: 13 }
     ]) ?? 1
   }
-
-  static selectRandomTwinStatus (twinBirthsPer100: number = 1): 1 | 2 | false {
-  if (!chance(twinBirthsPer100, 100)) return false
-  return chance(1, 2) ? 1 : 2
-}
 }
 
 export default FamilyContext

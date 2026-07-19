@@ -118,6 +118,27 @@ describe('FamilyContext', () => {
         expect(actual.order).toBe(2)
       })
     })
+
+    describe('randomizeTwinStatus', () => {
+      it('might make you not a twin', () => {
+        const actual = new FamilyContext()
+        actual.randomizeTwinStatus(0)
+        expect(actual.twin).toBe(false)
+      })
+
+      it('might make you a twin', () => {
+        const expected = [1, 2]
+        const actual = new FamilyContext({ size: 2 })
+        actual.randomizeTwinStatus(1000)
+        expect(expected).toContain(actual.twin)
+      })
+
+      it('won’t make you a twin in a family of 1', () => {
+        const actual = new FamilyContext({ size: 1 })
+        actual.randomizeTwinStatus(1000)
+        expect(actual.twin).toBe(false)
+      })
+    })
   })
 
   describe('Static methods', () => {
@@ -136,19 +157,6 @@ describe('FamilyContext', () => {
         mockRandom.mockReturnValueOnce(7)
         const actual = FamilyContext.selectRandomFamilySize()
         expect(actual).toBe(7)
-      })
-    })
-
-    describe('selectRandomTwinStats', () => {
-      it('returns false if not a twin', () => {
-        const actual = FamilyContext.selectRandomTwinStatus(0)
-        expect(actual).toBe(false)
-      })
-
-      it('returns birth order if a twin', () => {
-        const expected = [1, 2]
-        const actual = FamilyContext.selectRandomTwinStatus(100)
-        expect(expected).toContain(actual)
       })
     })
   })
