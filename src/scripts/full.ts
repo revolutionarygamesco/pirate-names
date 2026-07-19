@@ -34,7 +34,7 @@ const generateName = async (
   const n = nationality ?? await selectRandomNationality()
   const g = gender ?? selectRandomGender()
 
-  const generator: Record<string, Generator> = {
+  const generator: Record<Nationality, Generator> = {
     Akan: generateAkanName,
     Bantu: generateBantuName,
     Dutch: generateDutchName,
