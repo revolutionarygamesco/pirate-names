@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@revolutionarygamesco/common": "^1.2.0",
-    "@revolutionarygamesco/common-foundryvtt": "^0.3.0"
+    "@revolutionarygamesco/common-foundryvtt": "^0.3.1"
   }
 }
