@@ -1,7 +1,14 @@
-import { describe, expect, it } from 'vitest'
-import { isWithinRange } from '@revolutionarygamesco/common'
-import { castes } from '../cultures/mandinka/caste.ts'
+import {describe, expect, it, vi} from 'vitest'
+import { isWithinRange, selectRandomBand } from '@revolutionarygamesco/common'
 import FamilyContext, {type FamilyContextData} from './family.ts'
+import { castes } from '../cultures/mandinka/caste.ts'
+
+vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
+  ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
+  selectRandomBand: vi.fn()
+}))
+
+const mockRandom = vi.mocked(selectRandomBand)
 
 describe('FamilyContext', () => {
   const data: FamilyContextData = { size: 3, order: 2, twin: false, caste: 'Foro' }
@@ -106,6 +113,14 @@ describe('FamilyContext', () => {
         for (const key in Object.keys(data)) {
           expect(actual[key as keyof FamilyContextData]).toBe(data[key as keyof FamilyContextData])
         }
+      })
+    })
+
+    describe('selectRandomFamilySize', () => {
+      it('returns a number between 1 and 13', () => {
+        mockRandom.mockReturnValueOnce(7)
+        const actual = FamilyContext.selectRandomFamilySize()
+        expect(actual).toBe(7)
       })
     })
   })
