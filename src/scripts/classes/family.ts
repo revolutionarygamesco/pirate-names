@@ -48,7 +48,8 @@ class FamilyContext {
     this.order = selectRandomBetween(Math.min(twinMin, this.size), this.size)
   }
 
-  randomizeTwinStatus (twinsPerK: number = 60) {
+  randomizeTwinStatus (twinsPerK?: number) {
+    if (twinsPerK === undefined) twinsPerK =  this.nationality === 'Yoruba' ? 100 : 60
     if (this.size < 2 || !chance(twinsPerK, 1000)) {
       this.twin = false
     } else {
