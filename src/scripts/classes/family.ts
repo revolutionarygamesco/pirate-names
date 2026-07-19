@@ -38,7 +38,8 @@ class FamilyContext {
   }
 
   randomizeBirthOrder (min: number = 1) {
-    this.order = selectRandomBetween(Math.min(min, this.size), this.size)
+    const twinMin = isNumber(this.twin) ? Math.max(min, this.twin) : min
+    this.order = selectRandomBetween(Math.min(twinMin, this.size), this.size)
   }
 
   static load (data?: Partial<FamilyContextData>) {
