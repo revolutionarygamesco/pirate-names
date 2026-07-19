@@ -1,5 +1,9 @@
-import { selectRandomBetween, selectRandomBand, isNumber } from '@revolutionarygamesco/common'
-import selectRandomTwinStatus from '../randomizers/twin.ts'
+import {
+  selectRandomBetween,
+  selectRandomBand,
+  isNumber,
+  chance
+} from '@revolutionarygamesco/common'
 
 export interface FamilyContextData {
   size: number
@@ -14,7 +18,7 @@ class FamilyContext {
 
   constructor (data?: Partial<FamilyContextData>) {
     this.size = data?.size ?? FamilyContext.selectRandomFamilySize()
-    this.twin = data?.twin ?? selectRandomTwinStatus()
+    this.twin = data?.twin ?? FamilyContext.selectRandomTwinStatus()
     this.order = Math.min(data?.order ?? 1, this.size)
 
     if (this.twin) this.size = Math.max(this.size, 2)
@@ -58,6 +62,11 @@ class FamilyContext {
       { range: [99, 100], value: 13 }
     ]) ?? 1
   }
+
+  static selectRandomTwinStatus (twinBirthsPer100: number = 1): 1 | 2 | false {
+  if (!chance(twinBirthsPer100, 100)) return false
+  return chance(1, 2) ? 1 : 2
+}
 }
 
 export default FamilyContext

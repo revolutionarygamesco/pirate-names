@@ -1,4 +1,4 @@
-import {describe, expect, it, vi} from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { isWithinRange, selectRandomBand } from '@revolutionarygamesco/common'
 import FamilyContext, {type FamilyContextData} from './family.ts'
 
@@ -136,6 +136,19 @@ describe('FamilyContext', () => {
         mockRandom.mockReturnValueOnce(7)
         const actual = FamilyContext.selectRandomFamilySize()
         expect(actual).toBe(7)
+      })
+    })
+
+    describe('selectRandomTwinStats', () => {
+      it('returns false if not a twin', () => {
+        const actual = FamilyContext.selectRandomTwinStatus(0)
+        expect(actual).toBe(false)
+      })
+
+      it('returns birth order if a twin', () => {
+        const expected = [1, 2]
+        const actual = FamilyContext.selectRandomTwinStatus(100)
+        expect(expected).toContain(actual)
       })
     })
   })
