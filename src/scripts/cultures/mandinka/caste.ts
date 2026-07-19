@@ -1,6 +1,10 @@
-import { selectRandomBand } from '@revolutionarygamesco/common'
+import { selectRandomBand, makeEnum } from '@revolutionarygamesco/common'
 
-const selectRandomMandinkaCaste = async (): Promise<string> => {
+export const castes = ['Foro', 'Nyamakala', 'Jali', 'Jakhanke'] as const
+export type MandinkaCaste = typeof castes[number]
+export const { guard: isMandinkaCaste } = makeEnum(castes)
+
+export const selectRandomMandinkaCaste = (): MandinkaCaste => {
   return selectRandomBand([
     { range: [1, 97], value: 'Foro' },
     { range: [98], value: 'Nyamakala' },
@@ -8,5 +12,3 @@ const selectRandomMandinkaCaste = async (): Promise<string> => {
     { range: [100], value: 'Jakhanke' }
   ]) ?? 'Foro'
 }
-
-export default selectRandomMandinkaCaste
