@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest'
-import pickBirthOrder from './birth-order.ts'
+import selectRandomBirthOrder from './birth-order.ts'
 
-describe('pickBirthOrder', () => {
+describe('selectRandomBirthOrder', () => {
   it('returns a number between 1 and 13 or "last"', () => {
-    const actual = pickBirthOrder()
+    const actual = selectRandomBirthOrder()
     if (typeof actual === 'string') {
       expect(actual).toBe('last')
     } else {
