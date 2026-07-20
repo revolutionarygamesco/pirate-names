@@ -8,8 +8,7 @@ describe('IrishPersonalName', () => {
     nationality: 'Irish',
     gender: 'Masculine',
     full: 'Gráinne Ní Mháille',
-    personal: 'Gráinne',
-    family: 'Ní Mháille'
+    personal: 'Gráinne'
   }
 
   beforeEach(() => {
@@ -46,16 +45,6 @@ describe('IrishPersonalName', () => {
       expect(actual.full).toBe('Gráinne Ní Mháille')
     })
 
-    it('defaults to Pádraig Ó Murchadha for a masculine name', () => {
-      const actual = new IrishPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Pádraig Ó Murchadha')
-    })
-
-    it('defaults to Brid Ó Murchadha for a feminine name', () => {
-      const actual = new IrishPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Brid Ó Murchadha')
-    })
-
     it('can take a personal name', () => {
       const actual = new IrishPersonalName({ personal: 'Gráinne' })
       expect(actual.personal).toBe('Gráinne')
@@ -64,21 +53,13 @@ describe('IrishPersonalName', () => {
     it('defaults to Pádraig for a masculine name', () => {
       const actual = new IrishPersonalName({ gender: 'Masculine' })
       expect(actual.personal).toBe('Pádraig')
+      expect(actual.full).toBe('Pádraig')
     })
 
     it('defaults to Brid for a feminine name', () => {
       const actual = new IrishPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Brid')
-    })
-
-    it('can take a family name', () => {
-      const actual = new IrishPersonalName({ family: 'Ní Mháille' })
-      expect(actual.family).toBe('Ní Mháille')
-    })
-
-    it('defaults to Ó Murchadha', () => {
-      const actual = new IrishPersonalName()
-      expect(actual.family).toBe('Ó Murchadha')
+      expect(actual.full).toBe('Brid')
     })
   })
 
@@ -94,20 +75,11 @@ describe('IrishPersonalName', () => {
   })
 
   describe('Static methods', () => {
-    describe('separateAnglicization', () => {
-      it('separates the Gaelic form from the Anglicization when properly formatted', () => {
-        const { gaelic, anglicization } = IrishPersonalName.separateAnglicization('Ó Murchadha (Murphy)')
-        expect(gaelic).toBe('Ó Murchadha')
-        expect(anglicization).toBe('Murphy')
-      })
-    })
-
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [irish, english] = await IrishPersonalName.generate({ gender: 'Masculine' })
         expect(irish.full).toBe('Pádraig Ó Murchadha')
         expect(irish.personal).toBe('Pádraig')
-        expect(irish.family).toBe('Ó Murchadha')
         expect(english.personal).toBe('Patrick')
       })
 
@@ -115,7 +87,6 @@ describe('IrishPersonalName', () => {
         const [irish, english] = await IrishPersonalName.generate({ gender: 'Feminine' })
         expect(irish.full).toBe('Brid Ó Murchadha')
         expect(irish.personal).toBe('Brid')
-        expect(irish.family).toBe('Ó Murchadha')
         expect(english.personal).toBe('Bridget')
       })
     })
