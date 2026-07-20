@@ -357,7 +357,7 @@ results:
       - 48
     weight: 1
     type: text
-    description: 9Bibi
+    description: Bibi
   - _id: y6SYBIRXOT5sXDC3
     _key: "!tables.results!suEpqqiTqsZc1v0v.y6SYBIRXOT5sXDC3"
     range:
@@ -365,7 +365,7 @@ results:
       - 49
     weight: 1
     type: text
-    description: 6Ouquédi
+    description: Ouquédi
   - _id: gaH72Snh96B6Oh5m
     _key: "!tables.results!suEpqqiTqsZc1v0v.gaH72Snh96B6Oh5m"
     range:
@@ -373,7 +373,7 @@ results:
       - 50
     weight: 1
     type: text
-    description: 5Oucaordon
+    description: Oucaordon
   - _id: FzFpmO9zvJ3c1wB4
     _key: "!tables.results!suEpqqiTqsZc1v0v.FzFpmO9zvJ3c1wB4"
     range:
@@ -381,7 +381,7 @@ results:
       - 51
     weight: 1
     type: text
-    description: 3Inouebon
+    description: Inouebon
   - _id: s9j3P7gHrsdB6rFG
     _key: "!tables.results!suEpqqiTqsZc1v0v.s9j3P7gHrsdB6rFG"
     range:
@@ -397,7 +397,7 @@ results:
       - 53
     weight: 1
     type: text
-    description: 2Vaniclei
+    description: Vaniclei
   - _id: IRC8SBGnocuVBCZY
     _key: "!tables.results!suEpqqiTqsZc1v0v.IRC8SBGnocuVBCZY"
     range:
@@ -405,7 +405,7 @@ results:
       - 54
     weight: 1
     type: text
-    description: 4Oupagne
+    description: Oupagne
   - _id: eye9U9tL3WVqnOcD
     _key: "!tables.results!suEpqqiTqsZc1v0v.eye9U9tL3WVqnOcD"
     range:
@@ -413,7 +413,7 @@ results:
       - 55
     weight: 1
     type: text
-    description: 6Ouquédi
+    description: Ouquédi
   - _id: DP7iZSc5l3y9Uvrx
     _key: "!tables.results!suEpqqiTqsZc1v0v.DP7iZSc5l3y9Uvrx"
     range:
@@ -421,7 +421,7 @@ results:
       - 56
     weight: 1
     type: text
-    description: 8Yaleramen
+    description: Yaleramen
   - _id: NXyWst01Qf2c1H2L
     _key: "!tables.results!suEpqqiTqsZc1v0v.NXyWst01Qf2c1H2L"
     range:
