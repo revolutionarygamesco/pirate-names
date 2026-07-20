@@ -9,7 +9,6 @@ describe('BantuPersonalName', () => {
     gender: 'Masculine',
     full: 'Nzinga a Nkuwu',
     personal: 'Nzinga',
-    father: 'Nkuwu',
     special: null
   }
 
@@ -48,24 +47,14 @@ describe('BantuPersonalName', () => {
       expect(actual.full).toBe('Nzinga a Nkuwu')
     })
 
-    it('defaults to Zola a Zola', () => {
+    it('defaults to Zola', () => {
       const actual = new BantuPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Zola a Zola')
+      expect(actual.full).toBe('Zola')
     })
 
     it('can take a personal name', () => {
       const actual = new BantuPersonalName({ personal: 'Nzinga' })
       expect(actual.personal).toBe('Nzinga')
-    })
-
-    it('defaults to Zola for a personal name', () => {
-      const actual = new BantuPersonalName()
-      expect(actual.personal).toBe('Zola')
-    })
-
-    it('can take a father’s name', () => {
-      const actual = new BantuPersonalName({ father: 'Nkuwu' })
-      expect(actual.father).toBe('Nkuwu')
     })
   })
 
@@ -86,28 +75,24 @@ describe('BantuPersonalName', () => {
         const [actual] = await BantuPersonalName.generate({ special: null })
         expect(actual.full).toBe('Kiala a Kiala')
         expect(actual.personal).toBe('Kiala')
-        expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a Christian name with a santu element', async () => {
         const [actual] = await BantuPersonalName.generate({ special: 'Christian' })
         expect(actual.full).toBe('Molazi Kiala a Kiala')
         expect(actual.personal).toBe('Kiala')
-        expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a name for an initiated man', async () => {
         const [actual] = await BantuPersonalName.generate({ gender: 'Masculine', special: 'Initiated' })
         expect(actual.full).toBe('Kiala a Kiala Lema')
         expect(actual.personal).toBe('Kiala')
-        expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a name for an initiated woman', async () => {
         const [actual] = await BantuPersonalName.generate({ gender: 'Feminine', special: 'Initiated' })
         expect(actual.full).toBe('Kiala a Kiala Mabinda')
         expect(actual.personal).toBe('Kiala')
-        expect(actual.father).toBe('Kiala')
       })
     })
   })
