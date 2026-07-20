@@ -118,28 +118,28 @@ describe('DutchPersonalName', () => {
 
     describe('generator', () => {
       it('can generate a masculine name with a surname', async () => {
-        const actual = await DutchPersonalName.generate({ gender: 'Masculine', family: 'Bakker' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine', family: 'Bakker' })
         expect(actual.full).toBe('Johannes Bakker')
         expect(actual.personal).toBe('Johannes')
         expect(actual.family).toBe('Bakker')
       })
 
       it('can generate a masculine name with a patronymic', async () => {
-        const actual = await DutchPersonalName.generate({ gender: 'Masculine', father: 'Piet' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine', father: 'Piet' })
         expect(actual.full).toBe('Johannes Pietszoon')
         expect(actual.personal).toBe('Johannes')
         expect(actual.father).toBe('Piet')
       })
 
       it('can generate a feminine name with a surname', async () => {
-        const actual = await DutchPersonalName.generate({ gender: 'Feminine', family: 'Bakker' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine', family: 'Bakker' })
         expect(actual.full).toBe('Anna Bakker')
         expect(actual.personal).toBe('Anna')
         expect(actual.family).toBe('Bakker')
       })
 
       it('can generate a feminine name with a patronymic', async () => {
-        const actual = await DutchPersonalName.generate({ gender: 'Feminine', father: 'Piet' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine', father: 'Piet' })
         expect(actual.full).toBe('Anna Pietsdochter')
         expect(actual.personal).toBe('Anna')
         expect(actual.father).toBe('Piet')

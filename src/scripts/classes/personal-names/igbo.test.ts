@@ -98,14 +98,14 @@ describe('IgboPersonalName', () => {
   describe('Static methods', () => {
     describe('generator', () => {
       it('can generate a masculine name', async () => {
-        const actual = await IgboPersonalName.generate({ gender: 'Masculine', weekday: 'Afor' })
+        const [actual] = await IgboPersonalName.generate({ gender: 'Masculine', weekday: 'Afor' })
         expect(actual.full).toBe('Okoafọ Ougeromba Ougeromba')
         expect(actual.personal).toBe('Ougeromba')
         expect(actual.father).toBe('Ougeromba')
       })
 
       it('can generate a feminine name', async () => {
-        const actual = await IgboPersonalName.generate({ gender: 'Feminine', weekday: 'Afor' })
+        const [actual] = await IgboPersonalName.generate({ gender: 'Feminine', weekday: 'Afor' })
         expect(actual.full).toBe('Mgbafor Houanizei Ougeromba')
         expect(actual.personal).toBe('Houanizei')
         expect(actual.father).toBe('Ougeromba')

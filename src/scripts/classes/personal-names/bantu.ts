@@ -55,7 +55,7 @@ class BantuPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<BantuPersonalNameData>
-  ): Promise<BantuPersonalName> {
+  ): Promise<BantuPersonalName[]> {
     const generated: BantuPersonalNameData = {
       nationality: 'Bantu',
       gender: data?.gender ?? selectRandomGender(),
@@ -76,7 +76,7 @@ class BantuPersonalName extends PersonalName {
       generated.full = `${generated.personal} a ${generated.father}`
     }
 
-    return new BantuPersonalName(generated)
+    return [new BantuPersonalName(generated)]
   }
 }
 

@@ -76,11 +76,10 @@ class FonPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<FonPersonalNameData>,
-    family?: FamilyContext,
-    birth?: BirthContext
-  ): Promise<FonPersonalName> {
-    const f = family ?? new FamilyContext()
-    const b = birth ?? new BirthContext()
+    context?: Partial<{ family: FamilyContext, birth: BirthContext }>
+  ): Promise<FonPersonalName[]> {
+    const f = context?.family ?? new FamilyContext()
+    const b = context?.birth ?? new BirthContext()
     const gender = data?.gender ?? selectRandomGender()
 
     const personal = await drawStr(FonPersonalNameTables[gender], gender === 'Feminine' ? 'Hounsou' : 'Hounsi')
@@ -97,11 +96,7 @@ class FonPersonalName extends PersonalName {
 
     names.push(personal)
 
-    return new FonPersonalName({
-      gender,
-      personal,
-      full: names.join(' ')
-    })
+    return [new FonPersonalName({ gender, personal, full: names.join(' ') })]
   }
 }
 

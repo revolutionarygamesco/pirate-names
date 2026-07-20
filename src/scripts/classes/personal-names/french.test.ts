@@ -114,21 +114,21 @@ describe('FrenchPersonalName', () => {
 
     describe('generator', () => {
       it('can generate a masculine name', async () => {
-        const actual = await FrenchPersonalName.generate({ gender: 'Masculine' })
+        const [actual] = await FrenchPersonalName.generate({ gender: 'Masculine' })
         expect(actual.full).toBe('Pierre Durand')
         expect(actual.personal).toBe('Pierre')
         expect(actual.family).toBe('Durand')
       })
 
       it('can generate a feminine name', async () => {
-        const actual = await FrenchPersonalName.generate({ gender: 'Feminine' })
+        const [actual] = await FrenchPersonalName.generate({ gender: 'Feminine' })
         expect(actual.full).toBe('Marguerite Durand')
         expect(actual.personal).toBe('Marguerite')
         expect(actual.family).toBe('Durand')
       })
 
       it('can generate a compound name', async () => {
-        const actual = await FrenchPersonalName.generate({ gender: 'Masculine', personal: 'Jean' })
+        const [actual] = await FrenchPersonalName.generate({ gender: 'Masculine', personal: 'Jean' })
         const expected = FrenchCompoundNames.Jean.map(compound => `Jean-${compound} Durand`)
         expect(['Jean Durand', ...expected]).toContain(actual.full)
       })

@@ -96,11 +96,10 @@ class AkanPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<AkanPersonalNameData>,
-    family?: FamilyContext,
-    birth?: BirthContext
-  ): Promise<AkanPersonalName> {
-    const f = family ?? new FamilyContext()
-    const b = birth ?? new BirthContext()
+    context?: Partial<{ family: FamilyContext, birth: BirthContext }>
+  ): Promise<AkanPersonalName[]> {
+    const f = context?.family ?? new FamilyContext()
+    const b = context?.birth ?? new BirthContext()
     const gender = data?.gender ?? selectRandomGender()
 
     const personal = await drawStr(AkanPersonalNameTables.WeekdayNames[b.weekday][gender], gender === 'Feminine' ? 'Akosua' : 'Kwasi')
@@ -120,12 +119,12 @@ class AkanPersonalName extends PersonalName {
     const surname = await drawStr(AkanPersonalNameTables.Surnames, 'Mensah')
     names.push(surname)
 
-    return new AkanPersonalName({
+    return [new AkanPersonalName({
       gender,
       personal,
       full: names.join(' '),
       family: surname
-    })
+    })]
   }
 }
 

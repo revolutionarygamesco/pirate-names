@@ -96,14 +96,14 @@ describe('EnglishPersonalName', () => {
   describe('Static methods', () => {
     describe('generator', () => {
       it('can generate a masculine name', async () => {
-        const actual = await EnglishPersonalName.generate({ gender: 'Masculine' })
+        const [actual] = await EnglishPersonalName.generate({ gender: 'Masculine' })
         expect(actual.full).toBe('Edward Teach')
         expect(actual.personal).toBe('Edward')
         expect(actual.family).toBe('Teach')
       })
 
       it('can generate a feminine name', async () => {
-        const actual = await EnglishPersonalName.generate({ gender: 'Feminine' })
+        const [actual] = await EnglishPersonalName.generate({ gender: 'Feminine' })
         expect(actual.full).toBe('Mary Teach')
         expect(actual.personal).toBe('Mary')
         expect(actual.family).toBe('Teach')

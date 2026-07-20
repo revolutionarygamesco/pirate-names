@@ -51,7 +51,7 @@ class FrenchPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<FrenchPersonalNameData>
-  ): Promise<FrenchPersonalName> {
+  ): Promise<FrenchPersonalName[]> {
     const gender = data?.gender ?? selectRandomGender()
     const given = data?.personal ?? await drawStr(FrenchPersonalNameTables[gender], gender === 'Masculine' ? 'Jean' : 'Marie')
     const family = data?.family ?? await drawStr(FrenchPersonalNameTables.Surnames, 'Doe')
@@ -62,7 +62,7 @@ class FrenchPersonalName extends PersonalName {
       : given
 
     const full = `${personal} ${family}`
-    return new FrenchPersonalName({ gender, personal, family, full })
+    return [new FrenchPersonalName({ gender, personal, family, full })]
   }
 }
 

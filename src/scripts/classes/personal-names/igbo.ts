@@ -65,7 +65,7 @@ class IgboPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<IgboPersonalNameData>
-  ): Promise<IgboPersonalName> {
+  ): Promise<IgboPersonalName[]> {
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(IgboPersonalNameTables[gender], gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
     const father = data?.father ?? await drawStr(IgboPersonalNameTables.Masculine, 'Ougeromba')
@@ -76,7 +76,7 @@ class IgboPersonalName extends PersonalName {
       ? `${weekdayName} ${personal} ${father}`
       : `${personal} ${father}`
 
-    return new IgboPersonalName({ gender, personal, father, weekday, full })
+    return [new IgboPersonalName({ gender, personal, father, weekday, full })]
   }
 }
 

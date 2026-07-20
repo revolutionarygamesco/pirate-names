@@ -71,81 +71,105 @@ describe('FonPersonalName', () => {
   describe('Static methods', () => {
     describe('generator', () => {
       it('can generate a masculine name', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
-          new FamilyContext({ order: 1, size: 2, twin: false }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Kodjo Hounwanou', 'Codjo Hounwanou', 'Kudzo Hounwanou']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwanou')
       })
 
       it('can generate a feminine name', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
-          new FamilyContext({ order: 1, size: 2, twin: false }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Adjo Hounwasi', 'Adjovi Hounwasi', 'Adjowa Hounwasi']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwasi')
       })
 
       it('can generate a masculine name for a senior twin', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
-          new FamilyContext({ order: 1, size: 2, twin: 1 }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Kodjo Sagbo Hounwanou', 'Codjo Sagbo Hounwanou', 'Kudzo Sagbo Hounwanou']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwanou')
       })
 
       it('can generate a feminine name for a senior twin', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
-          new FamilyContext({ order: 1, size: 2, twin: 1 }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Adjo Sagbo Hounwasi', 'Adjovi Sagbo Hounwasi', 'Adjowa Sagbo Hounwasi']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwasi')
       })
 
       it('can generate a masculine name for a junior twin', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
-          new FamilyContext({ order: 1, size: 2, twin: 2 }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Kodjo Zinsou Hounwanou', 'Codjo Zinsou Hounwanou', 'Kudzo Zinsou Hounwanou']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwanou')
       })
 
       it('can generate a feminine name for a junior twin', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
-          new FamilyContext({ order: 1, size: 2, twin: 2 }),
-          new BirthContext({ weekday: 'Monday', special: null })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            birth: new BirthContext({ weekday: 'Monday', special: null })
+          }
         )
+
         expect(['Adjo Zinsou Hounwasi', 'Adjovi Zinsou Hounwasi', 'Adjowa Zinsou Hounwasi']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwasi')
       })
 
       it('can generate a masculine name with special birth circumstances', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
-          new FamilyContext({ order: 1, size: 2, twin: false }),
-          new BirthContext({ weekday: 'Monday', special: 'war' })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            birth: new BirthContext({ weekday: 'Monday', special: 'war' })
+          }
         )
+
         expect(['Kodjo Ahouansou Hounwanou', 'Codjo Ahouansou Hounwanou', 'Kudzo Ahouansou Hounwanou']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwanou')
       })
 
       it('can generate a feminine name with special birth circumstances', async () => {
-        const actual = await FonPersonalName.generate(
+        const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
-          new FamilyContext({ order: 1, size: 2, twin: false }),
-          new BirthContext({ weekday: 'Monday', special: 'war' })
+          {
+            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            birth: new BirthContext({ weekday: 'Monday', special: 'war' })
+          }
         )
+
         expect(['Adjo Ahouansi Hounwasi', 'Adjovi Ahouansi Hounwasi', 'Adjowa Ahouansi Hounwasi']).toContain(actual.full)
         expect(actual.personal).toBe('Hounwasi')
       })

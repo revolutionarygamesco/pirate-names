@@ -36,12 +36,12 @@ class EnglishPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<EnglishPersonalNameData>
-  ): Promise<EnglishPersonalName> {
+  ): Promise<EnglishPersonalName[]> {
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(EnglishPersonalNameTables[gender], gender === 'Masculine' ? 'John' : 'Jane')
     const family = await drawStr(EnglishPersonalNameTables.Surnames, 'Doe')
     const full = `${personal} ${family}`
-    return new EnglishPersonalName({ gender, personal, family, full })
+    return [new EnglishPersonalName({ gender, personal, family, full })]
   }
 }
 

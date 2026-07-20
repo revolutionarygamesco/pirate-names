@@ -92,7 +92,7 @@ class DutchPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<DutchPersonalNameData>
-  ): Promise<DutchPersonalName> {
+  ): Promise<DutchPersonalName[]> {
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(DutchPersonalNameTables[gender], gender === 'Masculine' ? 'Jan' : 'Maria')
 
@@ -100,10 +100,10 @@ class DutchPersonalName extends PersonalName {
     if (usePatronymic) {
       const father = hasFather(data) ? data.father : await drawStr(DutchPersonalNameTables.Masculine, 'Jan')
       const patronymic = DutchPersonalName.renderPatronymic(father, gender)
-      return new DutchPersonalName({ gender, personal, father, full: `${personal} ${patronymic}` })
+      return [new DutchPersonalName({ gender, personal, father, full: `${personal} ${patronymic}` })]
     } else {
       const family = hasSurname(data) ? data.family : await drawStr(DutchPersonalNameTables.Surnames, 'Jansen')
-      return new DutchPersonalName({ gender, personal, family, full: `${personal} ${family}` })
+      return [new DutchPersonalName({ gender, personal, family, full: `${personal} ${family}` })]
     }
   }
 }

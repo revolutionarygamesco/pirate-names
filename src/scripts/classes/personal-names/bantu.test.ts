@@ -83,28 +83,28 @@ describe('BantuPersonalName', () => {
   describe('Static methods', () => {
     describe('generator', () => {
       it('can generate a name', async () => {
-        const actual = await BantuPersonalName.generate({ special: null })
+        const [actual] = await BantuPersonalName.generate({ special: null })
         expect(actual.full).toBe('Kiala a Kiala')
         expect(actual.personal).toBe('Kiala')
         expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a Christian name with a santu element', async () => {
-        const actual = await BantuPersonalName.generate({ special: 'Christian' })
+        const [actual] = await BantuPersonalName.generate({ special: 'Christian' })
         expect(actual.full).toBe('Molazi Kiala a Kiala')
         expect(actual.personal).toBe('Kiala')
         expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a name for an initiated man', async () => {
-        const actual = await BantuPersonalName.generate({ gender: 'Masculine', special: 'Initiated' })
+        const [actual] = await BantuPersonalName.generate({ gender: 'Masculine', special: 'Initiated' })
         expect(actual.full).toBe('Kiala a Kiala Lema')
         expect(actual.personal).toBe('Kiala')
         expect(actual.father).toBe('Kiala')
       })
 
       it('can generate a name for an initiated woman', async () => {
-        const actual = await BantuPersonalName.generate({ gender: 'Feminine', special: 'Initiated' })
+        const [actual] = await BantuPersonalName.generate({ gender: 'Feminine', special: 'Initiated' })
         expect(actual.full).toBe('Kiala a Kiala Mabinda')
         expect(actual.personal).toBe('Kiala')
         expect(actual.father).toBe('Kiala')
