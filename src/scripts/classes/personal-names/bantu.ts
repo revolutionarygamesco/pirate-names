@@ -1,8 +1,8 @@
+import { selectRandomBetween } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../enums/gender.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import { selectRandomBetween } from '@revolutionarygamesco/common'
+import PersonalName, { type PersonalNameData } from './base.ts'
 
 type BantuSpecialNameType = 'Christian' | 'Initiated' | null
 

@@ -1,10 +1,10 @@
+import { selectRandomElement}  from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import FamilyContext from '../family.ts'
 import BirthContext from '../birth.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
-import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import {selectRandomElement} from '@revolutionarygamesco/common'
 
 export interface AkanPersonalNameData extends PersonalNameData {
   family: string

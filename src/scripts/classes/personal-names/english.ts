@@ -1,7 +1,7 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../enums/gender.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import PersonalName, { type PersonalNameData } from './base.ts'
 
 export interface EnglishPersonalNameData extends PersonalNameData {
   family: string
