@@ -4,24 +4,24 @@ import {
   isNumber,
   chance
 } from '@revolutionarygamesco/common'
-import { type Nationality } from '../enums/nationality.ts'
+import { type Nationality } from '../../enums/nationality.ts'
 
-export interface FamilyContextData {
+export interface FamilyData {
   nationality: Nationality
   size: number
   order: number
   twin: 1 | 2 | false
 }
 
-class FamilyContext {
+class Family {
   nationality: Nationality
   size: number
   order: number
   twin: 1 | 2 | false
 
-  constructor (data?: Partial<FamilyContextData>) {
+  constructor (data?: Partial<FamilyData>) {
     this.nationality = data?.nationality ?? 'Spanish'
-    this.size = data?.size ?? FamilyContext.selectRandomFamilySize()
+    this.size = data?.size ?? Family.selectRandomFamilySize()
     this.twin = data?.twin ?? false
     this.order = Math.min(data?.order ?? 1, this.size)
 
@@ -33,7 +33,7 @@ class FamilyContext {
     return this.size === this.order
   }
 
-  toObject (): FamilyContextData {
+  toObject (): FamilyData {
     return {
       nationality: this.nationality,
       size: this.size,
@@ -56,10 +56,6 @@ class FamilyContext {
     }
   }
 
-  static load (data?: Partial<FamilyContextData>) {
-    return new FamilyContext(data)
-  }
-
   static selectRandomFamilySize () {
     return selectRandomBand<number>([
       { range: [1, 1], value: 1 },
@@ -79,4 +75,4 @@ class FamilyContext {
   }
 }
 
-export default FamilyContext
+export default Family

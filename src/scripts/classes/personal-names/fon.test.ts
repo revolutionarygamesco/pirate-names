@@ -2,7 +2,7 @@ import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../enums/gender.ts'
 import BirthContext from '../birth.ts'
-import FamilyContext from '../family.ts'
+import Family from '../families/base.ts'
 import FonPersonalName, { FonPersonalNameTables, type FonPersonalNameData } from './fon.ts'
 
 describe('FonPersonalName', () => {
@@ -74,7 +74,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -87,7 +87,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -100,7 +100,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            family: new Family({ order: 1, size: 2, twin: 1 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -113,7 +113,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            family: new Family({ order: 1, size: 2, twin: 1 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -126,7 +126,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            family: new Family({ order: 1, size: 2, twin: 2 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -139,7 +139,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            family: new Family({ order: 1, size: 2, twin: 2 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -152,7 +152,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: 'war' })
           }
         )
@@ -165,7 +165,7 @@ describe('FonPersonalName', () => {
         const [actual] = await FonPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: 'war' })
           }
         )

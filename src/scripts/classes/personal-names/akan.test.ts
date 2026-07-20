@@ -2,7 +2,7 @@ import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../enums/gender.ts'
 import BirthContext from '../birth.ts'
-import FamilyContext from '../family.ts'
+import Family from '../families/base.ts'
 import AkanPersonalName, { AkanPersonalNameTables, type AkanPersonalNameData } from './akan.ts'
 
 describe('AkanPersonalName', () => {
@@ -101,7 +101,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -115,7 +115,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -129,7 +129,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            family: new Family({ order: 1, size: 2, twin: 1 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -143,7 +143,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 1 }),
+            family: new Family({ order: 1, size: 2, twin: 1 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -159,7 +159,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            family: new Family({ order: 1, size: 2, twin: 2 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -175,7 +175,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: 2 }),
+            family: new Family({ order: 1, size: 2, twin: 2 }),
             birth: new BirthContext({ weekday: 'Monday', special: null })
           }
         )
@@ -191,7 +191,7 @@ describe('AkanPersonalName', () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
           {
-            family: new FamilyContext({ order: 1, size: 2, twin: false }),
+            family: new Family({ order: 1, size: 2, twin: false }),
             birth: new BirthContext({ weekday: 'Monday', special: 'war' })
           }
         )

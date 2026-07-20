@@ -2,7 +2,7 @@ import { selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
 import { selectRandomGender, type Gender } from '../../enums/gender.ts'
-import FamilyContext from '../family.ts'
+import Family from '../families/base.ts'
 import BirthContext from '../birth.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
@@ -76,9 +76,9 @@ class FonPersonalName extends PersonalName {
 
   static async generate (
     data?: Partial<FonPersonalNameData>,
-    context?: Partial<{ family: FamilyContext, birth: BirthContext }>
+    context?: Partial<{ family: Family, birth: BirthContext }>
   ): Promise<FonPersonalName[]> {
-    const f = context?.family ?? new FamilyContext()
+    const f = context?.family ?? new Family()
     const b = context?.birth ?? new BirthContext()
     const gender = data?.gender ?? selectRandomGender()
 
