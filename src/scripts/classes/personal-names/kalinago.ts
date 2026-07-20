@@ -1,26 +1,22 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import KalinagoFamily, { KalinagoMasculineNames } from '../families/kalinago.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-export interface KalinagoPersonalNameData extends PersonalNameData {
-  father: string
-}
+export interface KalinagoPersonalNameData extends PersonalNameData {}
 
 export const KalinagoPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('yczM4bZ4HPALuC36'),
-  Masculine: getRollTableUUID('3NtXeNj9VaeJzfxr')
+  Masculine: KalinagoMasculineNames
 }
 
 class KalinagoPersonalName extends PersonalName {
-  father: string
-
   constructor (data?: Partial<KalinagoPersonalNameData>) {
     super(data)
     this.nationality = 'Kalinago'
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Wukeri' : 'Eliama')
-    this.father = data?.father ?? 'Wukeri'
-    this.full = data?.full ?? `${this.personal} ${this.father}`
+    this.full = data?.full ?? this.personal
   }
 
   toObject (): KalinagoPersonalNameData {
@@ -28,19 +24,18 @@ class KalinagoPersonalName extends PersonalName {
       nationality: this.nationality,
       gender: this.gender,
       full: this.full,
-      personal: this.personal,
-      father: this.father
+      personal: this.personal
     }
   }
 
   static async generate (
-    data?: Partial<KalinagoPersonalNameData>
+    data?: Partial<KalinagoPersonalNameData>,
+    context?: Partial<{ family: KalinagoFamily }>
   ): Promise<KalinagoPersonalName[]> {
+    const family = context?.family ?? await KalinagoFamily.generate()
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(KalinagoPersonalNameTables[gender], gender === 'Masculine' ? 'Wukeri' : 'Eliama')
-    const father = await drawStr(KalinagoPersonalNameTables.Masculine, 'Wukeri')
-    const full = `${personal} ${father}`
-    return [new KalinagoPersonalName({ gender, personal, father, full })]
+    return [new KalinagoPersonalName({ gender, personal, full: `${personal} ${family.renderPatronym()}` })]
   }
 }
 
