@@ -1,6 +1,7 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../enums/gender.ts'
+import { NamedDutchFamily, PatrilinealDutchFamily } from '../families/dutch.ts'
 import DutchPersonalName, { DutchPersonalNameTables, type DutchPersonalNameData } from './dutch.ts'
 
 describe('DutchPersonalName', () => {
@@ -8,8 +9,7 @@ describe('DutchPersonalName', () => {
     nationality: 'Dutch',
     gender: 'Masculine',
     full: 'Dirk Chivers',
-    personal: 'Dirk',
-    family: 'Chivers'
+    personal: 'Dirk'
   }
 
   beforeEach(() => {
@@ -46,14 +46,14 @@ describe('DutchPersonalName', () => {
       expect(actual.full).toBe('Dirk Chivers')
     })
 
-    it('defaults to Jan van den Berg for a masculine name', () => {
+    it('defaults to Jan for a masculine name', () => {
       const actual = new DutchPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Jan van den Berg')
+      expect(actual.full).toBe('Jan')
     })
 
-    it('defaults to Maria van den Berg for a feminine name', () => {
+    it('defaults to Maria for a feminine name', () => {
       const actual = new DutchPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Maria van den Berg')
+      expect(actual.full).toBe('Maria')
     })
 
     it('can take a personal name', () => {
@@ -70,31 +70,9 @@ describe('DutchPersonalName', () => {
       const actual = new DutchPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Maria')
     })
-
-    it('can take a family name', () => {
-      const actual = new DutchPersonalName({ family: 'Chivers' })
-      expect(actual.family).toBe('Chivers')
-    })
-
-    it('defaults to van den Berg', () => {
-      const actual = new DutchPersonalName()
-      expect(actual.family).toBe('van den Berg')
-    })
   })
 
   describe('Instance methods', () => {
-    describe('compose', () => {
-      it('can compose a name with a surname', () => {
-        const instance = new DutchPersonalName({ personal: 'Dirk', family: 'Chivers', gender: 'Masculine' })
-        expect(instance.compose()).toBe('Dirk Chivers')
-      })
-
-      it('can compose a name with a patronymic', () => {
-        const instance = new DutchPersonalName({ personal: 'Jan', father: 'Jan', gender: 'Masculine' })
-        expect(instance.compose()).toBe('Jan Janszoon')
-      })
-    })
-
     describe('toObject', () => {
       it('returns a data object', () => {
         const instance = new DutchPersonalName(data)
@@ -106,43 +84,39 @@ describe('DutchPersonalName', () => {
   })
 
   describe('Static methods', () => {
-    describe('renderPatronymic', () => {
-      it('can render a son’s patronymic', () => {
-        expect(DutchPersonalName.renderPatronymic('Jan', 'Masculine')).toBe('Janszoon')
-      })
-
-      it('can render a daughter’s patronymic', () => {
-        expect(DutchPersonalName.renderPatronymic('Jan', 'Feminine')).toBe('Jansdochter')
-      })
-    })
-
     describe('generator', () => {
+      let named: { family: NamedDutchFamily }
+      let patrilineal: { family: PatrilinealDutchFamily }
+
+      beforeEach(async () => {
+        const n = await NamedDutchFamily.generate({ name: 'Bakker' })
+        const p = await PatrilinealDutchFamily.generate({ patriarch: 'Piet' })
+        named = { family: n }
+        patrilineal = { family: p }
+      })
+
       it('can generate a masculine name with a surname', async () => {
-        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine', family: 'Bakker' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine' }, named)
         expect(actual.full).toBe('Johannes Bakker')
         expect(actual.personal).toBe('Johannes')
-        expect(actual.family).toBe('Bakker')
       })
 
       it('can generate a masculine name with a patronymic', async () => {
-        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine', father: 'Piet' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Masculine' }, patrilineal)
         expect(actual.full).toBe('Johannes Pietszoon')
         expect(actual.personal).toBe('Johannes')
-        expect(actual.father).toBe('Piet')
       })
 
       it('can generate a feminine name with a surname', async () => {
-        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine', family: 'Bakker' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine' }, named)
         expect(actual.full).toBe('Anna Bakker')
         expect(actual.personal).toBe('Anna')
-        expect(actual.family).toBe('Bakker')
       })
 
       it('can generate a feminine name with a patronymic', async () => {
-        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine', father: 'Piet' })
+        const [actual] = await DutchPersonalName.generate({ gender: 'Feminine' }, patrilineal)
         expect(actual.full).toBe('Anna Pietsdochter')
         expect(actual.personal).toBe('Anna')
-        expect(actual.father).toBe('Piet')
       })
     })
   })
