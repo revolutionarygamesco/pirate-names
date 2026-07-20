@@ -2,16 +2,15 @@ import { chance, selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import FrenchFamily, { FrenchFamilyNames } from '../families/french.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-export interface FrenchPersonalNameData extends PersonalNameData {
-  family: string
-}
+export interface FrenchPersonalNameData extends PersonalNameData {}
 
 export const FrenchPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('WPdAj2c6hKX2a4v3'),
   Masculine: getRollTableUUID('ZI93VXQaPHxeW5c7'),
-  Surnames: getRollTableUUID('bT9wBtgWV3ZA0sMr')
+  Surnames: FrenchFamilyNames
 }
 
 export const FrenchCompoundNames: Record<string, string[]> = {
@@ -24,14 +23,11 @@ export const FrenchCompoundNames: Record<string, string[]> = {
 }
 
 class FrenchPersonalName extends PersonalName {
-  family: string
-
   constructor (data?: Partial<FrenchPersonalNameData>) {
     super(data)
     this.nationality = 'French'
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Jean' : 'Marie')
-    this.family = data?.family ?? 'Dupont'
-    this.full = data?.full ?? `${this.personal} ${this.family}`
+    this.full = data?.full ?? this.personal
   }
 
   toObject (): FrenchPersonalNameData {
@@ -39,8 +35,7 @@ class FrenchPersonalName extends PersonalName {
       nationality: this.nationality,
       gender: this.gender,
       full: this.full,
-      personal: this.personal,
-      family: this.family
+      personal: this.personal
     }
   }
 
@@ -50,19 +45,19 @@ class FrenchPersonalName extends PersonalName {
   }
 
   static async generate (
-    data?: Partial<FrenchPersonalNameData>
+    data?: Partial<FrenchPersonalNameData>,
+    context?: Partial<{ family: FrenchFamily }>
   ): Promise<FrenchPersonalName[]> {
+    const family = context?.family ?? await FrenchFamily.generate()
     const gender = data?.gender ?? selectRandomGender()
-    const given = data?.personal ?? await drawStr(FrenchPersonalNameTables[gender], gender === 'Masculine' ? 'Jean' : 'Marie')
-    const family = data?.family ?? await drawStr(FrenchPersonalNameTables.Surnames, 'Doe')
 
+    const given = data?.personal ?? await drawStr(FrenchPersonalNameTables[gender], gender === 'Masculine' ? 'Jean' : 'Marie')
     const compoundOptions = FrenchPersonalName.getCompoundOptions(given)
     const personal = compoundOptions.length > 0 && chance(1, 2)
       ? `${given}-${selectRandomElement(compoundOptions)}`
       : given
 
-    const full = `${personal} ${family}`
-    return [new FrenchPersonalName({ gender, personal, family, full })]
+    return [new FrenchPersonalName({ gender, personal, full: `${personal} ${family.name}` })]
   }
 }
 

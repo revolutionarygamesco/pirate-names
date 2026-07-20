@@ -12,8 +12,7 @@ describe('FrenchPersonalName', () => {
     nationality: 'French',
     gender: 'Masculine',
     full: 'Olivier Levasseur',
-    personal: 'Olivier',
-    family: 'Levasseur'
+    personal: 'Olivier'
   }
 
   beforeEach(() => {
@@ -50,14 +49,14 @@ describe('FrenchPersonalName', () => {
       expect(actual.full).toBe('Olivier Levasseur')
     })
 
-    it('defaults to Jean Dupont for a masculine name', () => {
+    it('defaults to Jean for a masculine name', () => {
       const actual = new FrenchPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Jean Dupont')
+      expect(actual.full).toBe('Jean')
     })
 
-    it('defaults to Marie Dupont for a feminine name', () => {
+    it('defaults to Marie for a feminine name', () => {
       const actual = new FrenchPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Marie Dupont')
+      expect(actual.full).toBe('Marie')
     })
 
     it('can take a personal name', () => {
@@ -73,16 +72,6 @@ describe('FrenchPersonalName', () => {
     it('defaults to Marie for a feminine name', () => {
       const actual = new FrenchPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Marie')
-    })
-
-    it('can take a family name', () => {
-      const actual = new FrenchPersonalName({ family: 'Levasseur' })
-      expect(actual.family).toBe('Levasseur')
-    })
-
-    it('defaults to Dupont', () => {
-      const actual = new FrenchPersonalName()
-      expect(actual.family).toBe('Dupont')
     })
   })
 
@@ -117,14 +106,12 @@ describe('FrenchPersonalName', () => {
         const [actual] = await FrenchPersonalName.generate({ gender: 'Masculine' })
         expect(actual.full).toBe('Pierre Durand')
         expect(actual.personal).toBe('Pierre')
-        expect(actual.family).toBe('Durand')
       })
 
       it('can generate a feminine name', async () => {
         const [actual] = await FrenchPersonalName.generate({ gender: 'Feminine' })
         expect(actual.full).toBe('Marguerite Durand')
         expect(actual.personal).toBe('Marguerite')
-        expect(actual.family).toBe('Durand')
       })
 
       it('can generate a compound name', async () => {
