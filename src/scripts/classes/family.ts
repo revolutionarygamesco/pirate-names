@@ -44,7 +44,6 @@ class FamilyContext {
 
   randomizeBirthOrder (min: number = 1) {
     const twinMin = isNumber(this.twin) ? Math.max(min, this.twin) : min
-    console.log({ min, twinMin, trueMin: Math.min(twinMin, this.size), size: this.size })
     this.order = selectRandomBetween(Math.min(twinMin, this.size), this.size)
   }
 
