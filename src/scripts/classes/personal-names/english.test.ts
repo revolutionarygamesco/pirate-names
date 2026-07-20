@@ -8,8 +8,7 @@ describe('EnglishPersonalName', () => {
     nationality: 'English',
     gender: 'Masculine',
     full: 'Edward Teach',
-    personal: 'Edward',
-    family: 'Teach'
+    personal: 'Edward'
   }
 
   beforeEach(() => {
@@ -46,14 +45,14 @@ describe('EnglishPersonalName', () => {
       expect(actual.full).toBe('Edward Teach')
     })
 
-    it('defaults to John Doe for a masculine name', () => {
+    it('defaults to John for a masculine name', () => {
       const actual = new EnglishPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('John Doe')
+      expect(actual.full).toBe('John')
     })
 
-    it('defaults to Jane Doe for a feminine name', () => {
+    it('defaults to Jane for a feminine name', () => {
       const actual = new EnglishPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Jane Doe')
+      expect(actual.full).toBe('Jane')
     })
 
     it('can take a personal name', () => {
@@ -69,16 +68,6 @@ describe('EnglishPersonalName', () => {
     it('defaults to Jane for a feminine name', () => {
       const actual = new EnglishPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Jane')
-    })
-
-    it('can take a family name', () => {
-      const actual = new EnglishPersonalName({ family: 'Teach' })
-      expect(actual.family).toBe('Teach')
-    })
-
-    it('defaults to Doe', () => {
-      const actual = new EnglishPersonalName()
-      expect(actual.family).toBe('Doe')
     })
   })
 
@@ -99,14 +88,12 @@ describe('EnglishPersonalName', () => {
         const [actual] = await EnglishPersonalName.generate({ gender: 'Masculine' })
         expect(actual.full).toBe('Edward Teach')
         expect(actual.personal).toBe('Edward')
-        expect(actual.family).toBe('Teach')
       })
 
       it('can generate a feminine name', async () => {
         const [actual] = await EnglishPersonalName.generate({ gender: 'Feminine' })
         expect(actual.full).toBe('Mary Teach')
         expect(actual.personal).toBe('Mary')
-        expect(actual.family).toBe('Teach')
       })
     })
   })

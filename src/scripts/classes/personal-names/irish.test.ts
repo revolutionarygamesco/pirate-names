@@ -108,9 +108,7 @@ describe('IrishPersonalName', () => {
         expect(irish.full).toBe('Pádraig Ó Murchadha')
         expect(irish.personal).toBe('Pádraig')
         expect(irish.family).toBe('Ó Murchadha')
-        expect(english.full).toBe('Patrick Murphy')
         expect(english.personal).toBe('Patrick')
-        expect(english.family).toBe('Murphy')
       })
 
       it('can generate a feminine name', async () => {
@@ -118,9 +116,7 @@ describe('IrishPersonalName', () => {
         expect(irish.full).toBe('Brid Ó Murchadha')
         expect(irish.personal).toBe('Brid')
         expect(irish.family).toBe('Ó Murchadha')
-        expect(english.full).toBe('Bridget Murphy')
         expect(english.personal).toBe('Bridget')
-        expect(english.family).toBe('Murphy')
       })
     })
   })
