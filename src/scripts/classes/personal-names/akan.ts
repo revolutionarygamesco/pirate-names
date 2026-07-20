@@ -2,13 +2,11 @@ import { selectRandomElement}  from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import Family from '../families/base.ts'
+import AkanFamily from '../families/akan.ts'
 import BirthContext from '../birth.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-export interface AkanPersonalNameData extends PersonalNameData {
-  family: string
-}
+export interface AkanPersonalNameData extends PersonalNameData {}
 
 export const AkanPersonalNameTables = {
   WeekdayNames: {
@@ -40,8 +38,7 @@ export const AkanPersonalNameTables = {
       Masculine: getRollTableUUID('6bVDNhiN1uXUhFEA'),
       Feminine: getRollTableUUID('Zyx3S4CaZcaRhZJ5')
     }
-  },
-  Surnames: getRollTableUUID('6gusbvIigQXTCmPC')
+  }
 }
 
 const birthOrderNames: Record<string, Record<Gender, string>> = {
@@ -74,14 +71,11 @@ const circumstanceNames: Record<string, Record<Gender, string>> = {
 }
 
 class AkanPersonalName extends PersonalName {
-  family: string
-
   constructor (data?: Partial<AkanPersonalNameData>) {
     super(data)
     this.nationality = 'Akan'
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Kwasi' : 'Akosua')
-    this.family = data?.family ?? 'Mensah'
-    this.full = data?.full ?? `${this.personal} Píèsíe ${this.family}`
+    this.full = data?.full ?? `${this.personal} Píèsíe`
   }
 
   toObject (): AkanPersonalNameData {
@@ -89,16 +83,15 @@ class AkanPersonalName extends PersonalName {
       nationality: this.nationality,
       gender: this.gender,
       full: this.full,
-      personal: this.personal,
-      family: this.family
+      personal: this.personal
     }
   }
 
   static async generate (
     data?: Partial<AkanPersonalNameData>,
-    context?: Partial<{ family: Family, birth: BirthContext }>
+    context?: Partial<{ family: AkanFamily, birth: BirthContext }>
   ): Promise<AkanPersonalName[]> {
-    const f = context?.family ?? new Family()
+    const f = context?.family ?? await AkanFamily.generate()
     const b = context?.birth ?? new BirthContext()
     const gender = data?.gender ?? selectRandomGender()
 
@@ -116,14 +109,12 @@ class AkanPersonalName extends PersonalName {
       names.push(circumstanceNames[b.special][gender])
     }
 
-    const surname = await drawStr(AkanPersonalNameTables.Surnames, 'Mensah')
-    names.push(surname)
+    names.push(f.name)
 
     return [new AkanPersonalName({
       gender,
       personal,
-      full: names.join(' '),
-      family: surname
+      full: names.join(' ')
     })]
   }
 }
