@@ -2,6 +2,7 @@ import { makeEnum } from '@revolutionarygamesco/common'
 import { drawStr, drawDescription } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import IgboFamily, { IgboMasculineNames } from '../families/igbo.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
 const igboWeekdays = ['Eke', 'Oye', 'Afor', 'Nkwo'] as const
@@ -12,13 +13,12 @@ export const {
 } = makeEnum(igboWeekdays)
 
 export interface IgboPersonalNameData extends PersonalNameData {
-  father: string
   weekday: IgboWeekday
 }
 
 export const IgboPersonalNameTables = {
   Feminine: getRollTableUUID('zZu80jKYxdX3WrSa'),
-  Masculine: getRollTableUUID('suEpqqiTqsZc1v0v'),
+  Masculine: IgboMasculineNames,
   WeekdayNames: {
     Eke: {
       Feminine: getRollTableUUID('xirRaiEMQxffat2i'),
@@ -40,16 +40,14 @@ export const IgboPersonalNameTables = {
 }
 
 class IgboPersonalName extends PersonalName {
-  father: string
   weekday: IgboWeekday
 
   constructor (data?: Partial<IgboPersonalNameData>) {
     super(data)
     this.nationality = 'Igbo'
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-    this.father = data?.father ?? 'Ougeromba'
     this.weekday = data?.weekday ?? selectRandomIgboWeekday()
-    this.full = data?.full ?? `${this.personal} ${this.father}`
+    this.full = data?.full ?? this.personal
   }
 
   toObject (): IgboPersonalNameData {
@@ -58,25 +56,25 @@ class IgboPersonalName extends PersonalName {
       gender: this.gender,
       full: this.full,
       personal: this.personal,
-      father: this.father,
       weekday: this.weekday
     }
   }
 
   static async generate (
-    data?: Partial<IgboPersonalNameData>
+    data?: Partial<IgboPersonalNameData>,
+    context?: Partial<{ family: IgboFamily }>
   ): Promise<IgboPersonalName[]> {
+    const family = context?.family ?? await IgboFamily.generate()
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(IgboPersonalNameTables[gender], gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-    const father = data?.father ?? await drawStr(IgboPersonalNameTables.Masculine, 'Ougeromba')
 
     const weekday = data?.weekday ?? selectRandomIgboWeekday()
     const weekdayName = await drawDescription(IgboPersonalNameTables.WeekdayNames[weekday][gender])
     const full = weekdayName
-      ? `${weekdayName} ${personal} ${father}`
-      : `${personal} ${father}`
+      ? `${weekdayName} ${personal} ${family.renderPatronym()}`
+      : `${personal} ${family.renderPatronym()}`
 
-    return [new IgboPersonalName({ gender, personal, father, weekday, full })]
+    return [new IgboPersonalName({ gender, personal, weekday, full })]
   }
 }
 

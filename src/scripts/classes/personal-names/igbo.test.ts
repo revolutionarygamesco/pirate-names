@@ -9,7 +9,6 @@ describe('IgboPersonalName', () => {
     gender: 'Masculine',
     full: 'Olaudah Equiano',
     personal: 'Olaudah',
-    father: 'Equiano',
     weekday: 'Afor'
   }
 
@@ -48,16 +47,6 @@ describe('IgboPersonalName', () => {
       expect(actual.full).toBe('Olaudah Equiano')
     })
 
-    it('defaults to Ougeromba Ougeromba for a masculine name', () => {
-      const actual = new IgboPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Ougeromba Ougeromba')
-    })
-
-    it('defaults to Houanizei Ougeromba for a feminine name', () => {
-      const actual = new IgboPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Houanizei Ougeromba')
-    })
-
     it('can take a personal name', () => {
       const actual = new IgboPersonalName({ personal: 'Olaudah' })
       expect(actual.personal).toBe('Olaudah')
@@ -66,21 +55,13 @@ describe('IgboPersonalName', () => {
     it('defaults to Ougeromba for a masculine name', () => {
       const actual = new IgboPersonalName({ gender: 'Masculine' })
       expect(actual.personal).toBe('Ougeromba')
+      expect(actual.full).toBe('Ougeromba')
     })
 
     it('defaults to Houanizei for a feminine name', () => {
       const actual = new IgboPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Houanizei')
-    })
-
-    it('can take a father’s name', () => {
-      const actual = new IgboPersonalName({ father: 'Equiano' })
-      expect(actual.father).toBe('Equiano')
-    })
-
-    it('defaults to Ougeromba', () => {
-      const actual = new IgboPersonalName()
-      expect(actual.father).toBe('Ougeromba')
+      expect(actual.full).toBe('Houanizei')
     })
   })
 
@@ -101,14 +82,12 @@ describe('IgboPersonalName', () => {
         const [actual] = await IgboPersonalName.generate({ gender: 'Masculine', weekday: 'Afor' })
         expect(actual.full).toBe('Okoafọ Ougeromba Ougeromba')
         expect(actual.personal).toBe('Ougeromba')
-        expect(actual.father).toBe('Ougeromba')
       })
 
       it('can generate a feminine name', async () => {
         const [actual] = await IgboPersonalName.generate({ gender: 'Feminine', weekday: 'Afor' })
         expect(actual.full).toBe('Mgbafor Houanizei Ougeromba')
         expect(actual.personal).toBe('Houanizei')
-        expect(actual.father).toBe('Ougeromba')
       })
     })
   })
