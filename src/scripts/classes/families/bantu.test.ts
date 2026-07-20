@@ -36,6 +36,13 @@ describe('BantuFamily', () => {
   })
 
   describe('Instance methods', () => {
+    describe('renderPatronym', () => {
+      it('returns the patronym', () => {
+        const instance = new BantuFamily()
+        expect(instance.renderPatronym()).toBe('a Zola')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
         const instance = new BantuFamily(data)

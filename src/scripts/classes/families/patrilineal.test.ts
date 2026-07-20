@@ -15,6 +15,17 @@ describe('PatrilinealFamily', () => {
   })
 
   describe('Instance methods', () => {
+    describe('renderPatronym', () => {
+      const instance = new PatrilinealFamily()
+      it('returns a son’s patronym', () => {
+        expect(instance.renderPatronym('Masculine')).toBe('son of John')
+      })
+
+      it('returns a daughter’s patronym', () => {
+        expect(instance.renderPatronym('Feminine')).toBe('daughter of John')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data structure', () => {
         const instance = new PatrilinealFamily({ patriarch: 'John' })

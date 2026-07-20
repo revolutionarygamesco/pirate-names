@@ -11,6 +11,10 @@ class BantuFamily extends PatrilinealFamily {
     this.patriarch = this.patriarch === 'John' ? 'Zola' : this.patriarch
   }
 
+  renderPatronym (): string {
+    return `a ${this.patriarch}`
+  }
+
   static async generate (
     data?: Partial<PatrilinealFamilyData>
   ): Promise<BantuFamily> {

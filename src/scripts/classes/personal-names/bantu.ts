@@ -67,13 +67,13 @@ class BantuPersonalName extends PersonalName {
 
     if (generated.special === 'Christian') {
       const santu = await drawStr(BantuPersonalNameTables.Santu, 'Ntoni')
-      generated.full = `${santu} ${generated.personal} a ${family.patriarch}`
+      generated.full = [santu, generated.personal, family.renderPatronym()].join(' ')
     } else if (generated.special === 'Initiated') {
       const fallback = generated.gender === 'Masculine' ? 'Nsumbu' : 'Lubondo'
       const initiated = await drawStr(BantuPersonalNameTables.Init[generated.gender], fallback)
-      generated.full = `${generated.personal} a ${family.patriarch} ${initiated}`
+      generated.full = [generated.personal, family.renderPatronym(), initiated].join(' ')
     } else {
-      generated.full = `${generated.personal} a ${family.patriarch}`
+      generated.full = [generated.personal, family.renderPatronym()].join(' ')
     }
 
     return [new BantuPersonalName(generated)]

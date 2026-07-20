@@ -1,3 +1,4 @@
+import { type Gender } from '../../enums/gender.ts'
 import Family, { type FamilyData } from './base.ts'
 
 export interface PatrilinealFamilyData extends FamilyData {
@@ -10,6 +11,11 @@ class PatrilinealFamily extends Family {
   constructor(data?: Partial<PatrilinealFamilyData>) {
     super(data)
     this.patriarch = data?.patriarch ?? 'John'
+  }
+
+  renderPatronym (gender: Gender) {
+    const child = gender === 'Feminine' ? 'daughter' : 'son'
+    return `${child} of ${this.patriarch}`
   }
 
   toObject (): PatrilinealFamilyData {
