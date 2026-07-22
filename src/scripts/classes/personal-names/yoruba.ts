@@ -1,10 +1,10 @@
+import { chance } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import YorubaBirthContext from '../birth/yoruba.ts'
 import YorubaFamily, { type YorubaFamilyData } from '../families/yoruba.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
-import {chance} from '@revolutionarygamesco/common'
 
 export interface YorubaPersonalNameData extends PersonalNameData {
   family: YorubaFamilyData
@@ -46,7 +46,7 @@ export const destinyNames: Record<string, string> = {
 class YorubaPersonalName extends PersonalName {
   constructor (
     data?: Partial<PersonalNameData>,
-    context?: Partial<{ family: YorubaFamily, birth: BirthContext }>
+    context?: Partial<{ family: YorubaFamily, birth: YorubaBirthContext }>
   ) {
     super(data, context)
     this.nationality = 'Yoruba'
@@ -78,7 +78,7 @@ class YorubaPersonalName extends PersonalName {
     data?: Partial<PersonalNameData>
   ): Promise<YorubaPersonalName[]> {
     const family = new YorubaFamily(data?.family)
-    const birth = new BirthContext(data?.birth, family)
+    const birth = new YorubaBirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
 
     const useCommon = chance(1, 2)
