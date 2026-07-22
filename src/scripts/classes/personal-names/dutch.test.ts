@@ -1,12 +1,17 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
 import { NamedDutchFamily, PatrilinealDutchFamily } from '../families/dutch.ts'
 import DutchPersonalName, { DutchPersonalNameTables, type DutchPersonalNameData } from './dutch.ts'
+import BirthContext from '../birth/base.ts'
 
 describe('DutchPersonalName', () => {
+  const family = new NamedDutchFamily({ name: 'Chivers' })
+  const birth = new BirthContext({}, family)
   const data: DutchPersonalNameData = {
     nationality: 'Dutch',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Masculine',
     full: 'Dirk Chivers',
     personal: 'Dirk'
@@ -41,21 +46,6 @@ describe('DutchPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new DutchPersonalName({ full: 'Dirk Chivers' })
-      expect(actual.full).toBe('Dirk Chivers')
-    })
-
-    it('defaults to Jan for a masculine name', () => {
-      const actual = new DutchPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Jan')
-    })
-
-    it('defaults to Maria for a feminine name', () => {
-      const actual = new DutchPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Maria')
-    })
-
     it('can take a personal name', () => {
       const actual = new DutchPersonalName({ personal: 'Dirk' })
       expect(actual.personal).toBe('Dirk')
@@ -72,7 +62,51 @@ describe('DutchPersonalName', () => {
     })
   })
 
+  describe('Accessor methods', () => {
+    describe('lastName', () => {
+      it('returns the family name', () => {
+        const instance = new DutchPersonalName(data, { family, birth })
+        expect(instance.lastName).toBe(family.name)
+      })
+
+      it('returns the patronym', () => {
+        const family = new PatrilinealDutchFamily({ patriarch: 'Jan' })
+        const birth = new BirthContext({}, family)
+        const instance = new DutchPersonalName({ gender: 'Masculine' }, { family, birth })
+        expect(instance.lastName).toBe('Janszoon')
+      })
+    })
+
+    describe('full', () => {
+      it('returns the full name with family name', () => {
+        const instance = new DutchPersonalName(data, { family, birth })
+        expect(instance.full).toBe('Dirk Chivers')
+      })
+
+      it('returns the full name with patronym', () => {
+        const family = new PatrilinealDutchFamily({ patriarch: 'Jan' })
+        const birth = new BirthContext({}, family)
+        const instance = new DutchPersonalName({ gender: 'Masculine' }, { family, birth })
+        expect(instance.full).toBe('Jan Janszoon')
+      })
+    })
+  })
+
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('returns title with family name', () => {
+        const instance = new DutchPersonalName(data, { family, birth })
+        expect(instance.address('Captain')).toBe('Captain Chivers')
+      })
+
+      it('returns title with patronym', () => {
+        const family = new PatrilinealDutchFamily({ patriarch: 'Jan' })
+        const birth = new BirthContext({}, family)
+        const instance = new DutchPersonalName({ gender: 'Masculine' }, { family, birth })
+        expect(instance.address('Captain')).toBe('Captain Janszoon')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
         const instance = new DutchPersonalName(data)

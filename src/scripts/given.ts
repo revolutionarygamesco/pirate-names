@@ -2,8 +2,8 @@ import { retryUntil } from '@revolutionarygamesco/common'
 import { whisper as whisperMessage, drawDescription } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 import { givenNames } from '../ids.ts'
-import { selectRandomGender, type Gender } from './enums/gender.ts'
-import { selectRandomNationality, type Nationality } from './enums/nationality.ts'
+import { selectRandomGender, type Gender } from './types/enums/gender.ts'
+import { selectRandomNationality, type Nationality } from './types/enums/nationality.ts'
 
 const generateGivenName = async (
   nationality?: Nationality,

@@ -6,8 +6,6 @@ describe('IrishFamily', () => {
   const data: IrishFamilyData = {
     nationality: 'Irish',
     size: 3,
-    order: 2,
-    twin: false,
     name: 'Ó Briain',
     anglicization: 'O’Brien'
   }

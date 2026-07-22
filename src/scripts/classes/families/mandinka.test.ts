@@ -1,36 +1,11 @@
 import { beforeEach, describe, it, expect } from 'vitest'
-import { primitives } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import MandinkaFamily, {
-  Jamu,
-  mandinkaCastes,
-  isMandinkaCaste,
-  selectRandomMandinkaCaste,
-  type MandinkaFamilyData
-} from './mandinka.ts'
-
-describe('isMandinkaCaste', () => {
-  it.each(primitives)('rejects %s', (_label, value) => {
-    expect(isMandinkaCaste(value)).toBe(false)
-  })
-
-  it.each(mandinkaCastes)('accepts %s', (value) => {
-    expect(isMandinkaCaste(`${value}`)).toBe(true)
-  })
-})
-
-describe('selectRandomMandinkaCaste', () => {
-  it('returns a randomly-selected Mandinka caste', () => {
-    expect(mandinkaCastes).toContain(selectRandomMandinkaCaste())
-  })
-})
+import MandinkaFamily, { Jamu, type MandinkaFamilyData } from './mandinka.ts'
 
 describe('MandinkaFamily', () => {
   const data: MandinkaFamilyData = {
     nationality: 'Mandinka',
     size: 3,
-    order: 2,
-    twin: false,
     name: 'Jarra',
     caste: 'Foro'
   }

@@ -4,8 +4,10 @@ import PatrilinealFamily, { type PatrilinealFamilyData } from './patrilineal.ts'
 
 export const Nkumbu = getRollTableUUID('FseoFZOSLwHCNy4W')
 
+export interface BantuFamilyData extends PatrilinealFamilyData {}
+
 class BantuFamily extends PatrilinealFamily {
-  constructor(data?: Partial<PatrilinealFamilyData>) {
+  constructor(data?: Partial<BantuFamilyData>) {
     super(data)
     this.nationality = 'Bantu'
     this.patriarch = this.patriarch === 'John' ? 'Zola' : this.patriarch
@@ -16,7 +18,7 @@ class BantuFamily extends PatrilinealFamily {
   }
 
   static async generate (
-    data?: Partial<PatrilinealFamilyData>
+    data?: Partial<BantuFamilyData>
   ): Promise<BantuFamily> {
     const patriarch = data?.patriarch ?? await drawStr(Nkumbu, 'Zola')
     return new BantuFamily({ patriarch, ...data })

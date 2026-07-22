@@ -1,4 +1,4 @@
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import generateGivenName from '../../given.ts'
 
 const generateDutchPatronym = async (

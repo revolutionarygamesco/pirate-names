@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
+import { primitives } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { nation } from '../../ids.ts'
+import { nation } from '../../../ids.ts'
 import {
   isNationality,
   selectRandomNationality,
@@ -10,17 +11,7 @@ import {
 
 
 describe('isNationality', () => {
-  it.each([
-    ['undefined', undefined],
-    ['null', null],
-    ['functions', () => {}],
-    ['true', true],
-    ['false', false],
-    ['numbers', 42],
-    ['a random string', 'German'],
-    ['an array', []],
-    ['an object', {}]
-  ] as [string, any][])('rejects %s', (_desc: string, candidate: any) => {
+  it.each(primitives)('rejects %s', (_desc: string, candidate: any) => {
     expect(isNationality(candidate)).toBe(false)
   })
 

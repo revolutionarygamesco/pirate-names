@@ -1,6 +1,6 @@
 import { selectRandomElement, isString } from '@revolutionarygamesco/common'
 import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import { otherNames } from '../../../ids.ts'
 
 export const igboWeekdayNames = ['Eke', 'Oye', 'Afor', 'Nkwo']

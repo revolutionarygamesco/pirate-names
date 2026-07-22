@@ -1,14 +1,11 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { type PatrilinealFamilyData } from './patrilineal.ts'
-import BantuFamily, { Nkumbu } from './bantu.ts'
+import BantuFamily, { Nkumbu, type BantuFamilyData } from './bantu.ts'
 
 describe('BantuFamily', () => {
-  const data: PatrilinealFamilyData = {
+  const data: BantuFamilyData = {
     nationality: 'Bantu',
     size: 3,
-    order: 2,
-    twin: false,
     patriarch: 'Nzala'
   }
 

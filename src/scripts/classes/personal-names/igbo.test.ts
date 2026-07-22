@@ -1,15 +1,21 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
 import IgboPersonalName, { IgboPersonalNameTables, type IgboPersonalNameData } from './igbo.ts'
+import IgboFamily from '../families/igbo.ts'
+import IgboBirthContext from '../birth/igbo.ts'
 
 describe('IgboPersonalName', () => {
+  const family = new IgboFamily({ patriarch: 'Equiano' })
+  const birth = new IgboBirthContext({ igboWeekday: 'Afor' }, family)
   const data: IgboPersonalNameData = {
     nationality: 'Igbo',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Olaudah Equiano',
-    personal: 'Olaudah',
-    weekday: 'Afor'
+    full: 'Okoafọ Olaudah Equiano',
+    day: 'Okoafọ',
+    personal: 'Olaudah'
   }
 
   beforeEach(() => {
@@ -42,33 +48,32 @@ describe('IgboPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new IgboPersonalName({ full: 'Olaudah Equiano' })
-      expect(actual.full).toBe('Olaudah Equiano')
-    })
-
     it('can take a personal name', () => {
       const actual = new IgboPersonalName({ personal: 'Olaudah' })
       expect(actual.personal).toBe('Olaudah')
     })
+  })
 
-    it('defaults to Ougeromba for a masculine name', () => {
-      const actual = new IgboPersonalName({ gender: 'Masculine' })
-      expect(actual.personal).toBe('Ougeromba')
-      expect(actual.full).toBe('Ougeromba')
-    })
-
-    it('defaults to Houanizei for a feminine name', () => {
-      const actual = new IgboPersonalName({ gender: 'Feminine' })
-      expect(actual.personal).toBe('Houanizei')
-      expect(actual.full).toBe('Houanizei')
+  describe('Accessor methods', () => {
+    describe('full', () => {
+      it('returns the full name', () => {
+        const instance = new IgboPersonalName(data, { family, birth })
+        expect(instance.full).toBe('Okoafọ Olaudah Equiano')
+      })
     })
   })
 
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('concatenates the title with the personal name', () => {
+        const instance = new IgboPersonalName(data, { family, birth })
+        expect(instance.address('Mister')).toBe('Mister Olaudah')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new IgboPersonalName(data)
+        const instance = new IgboPersonalName(data, { family, birth })
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)
@@ -78,14 +83,16 @@ describe('IgboPersonalName', () => {
 
   describe('Static methods', () => {
     describe('generator', () => {
+      const context = { birth: new IgboBirthContext({ igboWeekday: 'Afor' }) }
+
       it('can generate a masculine name', async () => {
-        const [actual] = await IgboPersonalName.generate({ gender: 'Masculine', weekday: 'Afor' })
+        const [actual] = await IgboPersonalName.generate({ gender: 'Masculine' }, context)
         expect(actual.full).toBe('Okoafọ Ougeromba Ougeromba')
         expect(actual.personal).toBe('Ougeromba')
       })
 
       it('can generate a feminine name', async () => {
-        const [actual] = await IgboPersonalName.generate({ gender: 'Feminine', weekday: 'Afor' })
+        const [actual] = await IgboPersonalName.generate({ gender: 'Feminine' }, context)
         expect(actual.full).toBe('Mgbafor Houanizei Ougeromba')
         expect(actual.personal).toBe('Houanizei')
       })

@@ -1,19 +1,14 @@
-import { makeEnum } from '@revolutionarygamesco/common'
-import { drawStr, drawDescription } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../enums/gender.ts'
+import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
+import { selectRandomGender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import IgboFamily, { IgboMasculineNames } from '../families/igbo.ts'
+import IgboBirthContext, { type IgboBirthContextData } from '../birth/igbo.ts'
+import IgboFamily, { IgboMasculineNames, type IgboFamilyData } from '../families/igbo.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-const igboWeekdays = ['Eke', 'Oye', 'Afor', 'Nkwo'] as const
-export type IgboWeekday = typeof igboWeekdays[number]
-export const {
-  guard: isIgboWeekday,
-  randomizer: selectRandomIgboWeekday
-} = makeEnum(igboWeekdays)
-
 export interface IgboPersonalNameData extends PersonalNameData {
-  weekday: IgboWeekday
+  family: IgboFamilyData
+  birth: IgboBirthContextData
+  day: string
 }
 
 export const IgboPersonalNameTables = {
@@ -40,41 +35,49 @@ export const IgboPersonalNameTables = {
 }
 
 class IgboPersonalName extends PersonalName {
-  weekday: IgboWeekday
+  family: IgboFamily
+  birth: IgboBirthContext
+  day: string
 
-  constructor (data?: Partial<IgboPersonalNameData>) {
-    super(data)
+  constructor (
+    data?: Partial<IgboPersonalNameData>,
+    context?: Partial<{ family: IgboFamily, birth: IgboBirthContext }>
+  ) {
+    super(data, context)
     this.nationality = 'Igbo'
+    this.family = context?.family ?? new IgboFamily(data?.family)
+    this.birth = context?.birth ?? new IgboBirthContext(data?.birth, this.family)
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-    this.weekday = data?.weekday ?? selectRandomIgboWeekday()
-    this.full = data?.full ?? this.personal
+    this.day = data?.day ?? (this.gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
+  }
+
+  get full (): string {
+    return `${this.day} ${this.personal} ${this.family.renderPatronym()}`
+  }
+
+  address (title: string): string {
+    return `${title} ${this.personal}`
   }
 
   toObject (): IgboPersonalNameData {
     return {
-      nationality: this.nationality,
-      gender: this.gender,
-      full: this.full,
-      personal: this.personal,
-      weekday: this.weekday
+      ...super.toObject(),
+      family: this.family.toObject(),
+      birth: this.birth.toObject(),
+      day: this.day
     }
   }
 
   static async generate (
     data?: Partial<IgboPersonalNameData>,
-    context?: Partial<{ family: IgboFamily }>
+    context?: Partial<{ family: IgboFamily, birth: IgboBirthContext }>
   ): Promise<IgboPersonalName[]> {
     const family = context?.family ?? await IgboFamily.generate()
+    const birth = context?.birth ?? new IgboBirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(IgboPersonalNameTables[gender], gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-
-    const weekday = data?.weekday ?? selectRandomIgboWeekday()
-    const weekdayName = await drawDescription(IgboPersonalNameTables.WeekdayNames[weekday][gender])
-    const full = weekdayName
-      ? `${weekdayName} ${personal} ${family.renderPatronym()}`
-      : `${personal} ${family.renderPatronym()}`
-
-    return [new IgboPersonalName({ gender, personal, weekday, full })]
+    const day = await drawStr(IgboPersonalNameTables.WeekdayNames[birth.igboWeekday][gender], gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
+    return [new IgboPersonalName({ gender, personal, day }, { family, birth })]
   }
 }
 

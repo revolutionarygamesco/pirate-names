@@ -17,8 +17,8 @@ import generateSpanishName from './cultures/spanish/generate.ts'
 import generateTainoName from './cultures/taino/generate.ts'
 import generateWelshName from './cultures/welsh/generate.ts'
 import generateYorubaName from './cultures/yoruba/generate.ts'
-import { selectRandomGender, type Gender } from './enums/gender.ts'
-import { selectRandomNationality, type Nationality } from './enums/nationality.ts'
+import { selectRandomGender, type Gender } from './types/enums/gender.ts'
+import { selectRandomNationality, type Nationality } from './types/enums/nationality.ts'
 
 type Generator = (
   gender: Gender,
@@ -49,7 +49,7 @@ const generateName = async (
     Portuguese: generatePortugueseName,
     Scottish: generateScottishName,
     Spanish: generateSpanishName,
-    Taino: generateTainoName,
+    Taíno: generateTainoName,
     Welsh: generateWelshName,
     Yoruba: generateYorubaName
   }

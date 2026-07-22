@@ -1,10 +1,13 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../enums/gender.ts'
+import { selectRandomGender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import EnglishFamily, { EnglishFamilyNames } from '../families/english.ts'
+import BirthContext from '../birth/base.ts'
+import EnglishFamily, { EnglishFamilyNames, type EnglishFamilyData } from '../families/english.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-export interface EnglishPersonalNameData extends PersonalNameData {}
+export interface EnglishPersonalNameData extends PersonalNameData {
+  family: EnglishFamilyData
+}
 
 export const EnglishPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('3FurO9qJF79bb11f'),
@@ -13,19 +16,31 @@ export const EnglishPersonalNameTables: Record<string, string> = {
 }
 
 class EnglishPersonalName extends PersonalName {
-  constructor (data?: Partial<EnglishPersonalNameData>) {
-    super(data)
+  family: EnglishFamily
+
+  constructor (
+    data?: Partial<EnglishPersonalNameData>,
+    context?: Partial<{ family: EnglishFamily, birth: BirthContext }>
+  ) {
+    super(data, context)
     this.nationality = 'English'
+    this.family = context?.family ?? new EnglishFamily(data?.family)
+    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'John' : 'Jane')
-    this.full = data?.full ?? this.personal
+  }
+
+  get full (): string {
+    return `${this.personal} ${this.family.name}`
+  }
+
+  address (title: string): string {
+    return `${title} ${this.family.name}`
   }
 
   toObject (): EnglishPersonalNameData {
     return {
-      nationality: this.nationality,
-      gender: this.gender,
-      full: this.full,
-      personal: this.personal
+      ...super.toObject(),
+      family: this.family.toObject()
     }
   }
 
@@ -36,7 +51,7 @@ class EnglishPersonalName extends PersonalName {
     const family = context?.family ?? await EnglishFamily.generate()
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(EnglishPersonalNameTables[gender], gender === 'Masculine' ? 'John' : 'Jane')
-    return [new EnglishPersonalName({ gender, personal, full: `${personal} ${family.name}` })]
+    return [new EnglishPersonalName({ gender, personal }, { family })]
   }
 }
 

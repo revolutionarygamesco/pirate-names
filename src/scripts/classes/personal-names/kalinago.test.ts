@@ -1,13 +1,19 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
+import BirthContext from '../birth/base.ts'
+import KalinagoFamily from '../families/kalinago.ts'
 import KalinagoPersonalName, { KalinagoPersonalNameTables, type KalinagoPersonalNameData } from './kalinago.ts'
 
 describe('KalinagoPersonalName', () => {
+  const family = new KalinagoFamily({ patriarch: 'Amulenei' })
+  const birth = new BirthContext({}, family)
   const data: KalinagoPersonalNameData = {
     nationality: 'Kalinago',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Balifeti Amulenei ',
+    full: 'Balifeti Amulenei',
     personal: 'Balifeti'
   }
 
@@ -39,11 +45,6 @@ describe('KalinagoPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new KalinagoPersonalName({ full: 'Balifeti Amulenei' })
-      expect(actual.full).toBe('Balifeti Amulenei')
-    })
-
     it('can take a personal name', () => {
       const actual = new KalinagoPersonalName({ personal: 'Balifeti' })
       expect(actual.personal).toBe('Balifeti')
@@ -52,20 +53,36 @@ describe('KalinagoPersonalName', () => {
     it('defaults to Wukeri for a masculine name', () => {
       const actual = new KalinagoPersonalName({ gender: 'Masculine' })
       expect(actual.personal).toBe('Wukeri')
-      expect(actual.full).toBe('Wukeri')
+      expect(actual.full).toBe('Wukeri Wukeri')
     })
 
     it('defaults to Eliama for a feminine name', () => {
       const actual = new KalinagoPersonalName({ gender: 'Feminine' })
       expect(actual.personal).toBe('Eliama')
-      expect(actual.full).toBe('Eliama')
+      expect(actual.full).toBe('Eliama Wukeri')
+    })
+  })
+
+  describe('Accessor methods', () => {
+    describe('full', () => {
+      it('returns the full name', () => {
+        const instance = new KalinagoPersonalName(data, { family, birth })
+        expect(instance.full).toBe('Balifeti Amulenei')
+      })
     })
   })
 
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('concatenates the title and the personal name', () => {
+        const instance = new KalinagoPersonalName(data, { family, birth })
+        expect(instance.address('Mister')).toBe('Mister Balifeti')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new KalinagoPersonalName(data)
+        const instance = new KalinagoPersonalName(data, { family, birth })
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)

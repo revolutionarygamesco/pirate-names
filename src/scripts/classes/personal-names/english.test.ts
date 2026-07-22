@@ -1,11 +1,17 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
+import BirthContext from '../birth/base.ts'
+import EnglishFamily from '../families/english.ts'
 import EnglishPersonalName, { EnglishPersonalNameTables, type EnglishPersonalNameData } from './english.ts'
 
 describe('EnglishPersonalName', () => {
+  const family = new EnglishFamily({ name: 'Teach' })
+  const birth = new BirthContext({}, family)
   const data: EnglishPersonalNameData = {
     nationality: 'English',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Masculine',
     full: 'Edward Teach',
     personal: 'Edward'
@@ -40,21 +46,6 @@ describe('EnglishPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new EnglishPersonalName({ full: 'Edward Teach' })
-      expect(actual.full).toBe('Edward Teach')
-    })
-
-    it('defaults to John for a masculine name', () => {
-      const actual = new EnglishPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('John')
-    })
-
-    it('defaults to Jane for a feminine name', () => {
-      const actual = new EnglishPersonalName({ gender: 'Feminine' })
-      expect(actual.full).toBe('Jane')
-    })
-
     it('can take a personal name', () => {
       const actual = new EnglishPersonalName({ personal: 'Edward' })
       expect(actual.personal).toBe('Edward')
@@ -71,10 +62,26 @@ describe('EnglishPersonalName', () => {
     })
   })
 
+  describe('Accessor methods', () => {
+    describe('full', () => {
+      it('returns the full name', () => {
+        const instance = new EnglishPersonalName(data)
+        expect(instance.full).toBe('Edward Teach')
+      })
+    })
+  })
+
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('concatenates title and family name', () => {
+        const instance = new EnglishPersonalName(data)
+        expect(instance.address('Captain')).toBe('Captain Teach')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new EnglishPersonalName(data)
+        const instance = new EnglishPersonalName(data, { family, birth })
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)

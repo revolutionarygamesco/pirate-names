@@ -1,6 +1,6 @@
 import { isString } from '@revolutionarygamesco/common'
 import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import pickSpecialNames from './special.ts'
 import { otherNames } from '../../../ids.ts'
 

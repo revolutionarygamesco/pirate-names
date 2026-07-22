@@ -1,9 +1,9 @@
 import { selectRandomElement } from '@revolutionarygamesco/common'
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import generateGivenName from '../../given.ts'
 import selectRandomTwinStatus from '../../randomizers/twin.ts'
 import selectRandomCircumstance from '../../randomizers/circumstance.ts'
-import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
+import { selectRandomWeekday, type Weekday } from '../../types/enums/weekday.ts'
 import circumstanceNames from '../akan/circumstance.ts'
 import weekdayNames from './weekday.ts'
 

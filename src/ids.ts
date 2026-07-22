@@ -1,5 +1,5 @@
-import { type Gender } from './scripts/enums/gender.ts'
-import { type Colors } from './scripts/enums/colors.ts'
+import { type Gender } from './scripts/types/enums/gender.ts'
+import { type Colors } from './scripts/types/enums/colors.ts'
 
 export const givenNames: Record<string, Record<Gender, string>> = {
   Spanish: {

@@ -1,18 +1,9 @@
 import { describe, it, expect } from 'vitest'
+import { primitives } from '@revolutionarygamesco/common'
 import { isGender, selectRandomGender, genders, type Gender } from './gender.ts'
 
 describe('isGender', () => {
-  it.each([
-    ['undefined', undefined],
-    ['null', null],
-    ['functions', () => {}],
-    ['true', true],
-    ['false', false],
-    ['numbers', 42],
-    ['a random string', 'German'],
-    ['an array', []],
-    ['an object', {}]
-  ] as [string, any][])('rejects %s', (_desc: string, candidate: any) => {
+  it.each(primitives)('rejects %s', (_desc: string, candidate: any) => {
     expect(isGender(candidate)).toBe(false)
   })
 

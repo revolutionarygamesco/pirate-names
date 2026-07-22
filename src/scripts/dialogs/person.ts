@@ -1,7 +1,7 @@
 import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
-import { nationalities, isNationality, selectRandomNationality, type Nationality } from '../enums/nationality.ts'
-import { genders, isGender, selectRandomGender, type Gender } from '../enums/gender.ts'
+import { nationalities, isNationality, selectRandomNationality, type Nationality } from '../types/enums/nationality.ts'
+import { genders, isGender, selectRandomGender, type Gender } from '../types/enums/gender.ts'
 import generateName from '../full.ts'
 
 const defaultOnComplete = async (nation: string, gender: string) => {

@@ -1,11 +1,14 @@
 import { chance, selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../enums/gender.ts'
+import { selectRandomGender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import FrenchFamily, { FrenchFamilyNames } from '../families/french.ts'
+import BirthContext from '../birth/base.ts'
+import FrenchFamily, { FrenchFamilyNames, type FrenchFamilyData } from '../families/french.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
-export interface FrenchPersonalNameData extends PersonalNameData {}
+export interface FrenchPersonalNameData extends PersonalNameData {
+  family: FrenchFamilyData
+}
 
 export const FrenchPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('WPdAj2c6hKX2a4v3'),
@@ -23,19 +26,31 @@ export const FrenchCompoundNames: Record<string, string[]> = {
 }
 
 class FrenchPersonalName extends PersonalName {
-  constructor (data?: Partial<FrenchPersonalNameData>) {
-    super(data)
+  family: FrenchFamily
+
+  constructor (
+    data?: Partial<FrenchPersonalNameData>,
+    context?: Partial<{ family: FrenchFamily, birth: BirthContext }>
+  ) {
+    super(data, context)
     this.nationality = 'French'
+    this.family = context?.family ?? new FrenchFamily(data?.family)
+    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Jean' : 'Marie')
-    this.full = data?.full ?? this.personal
+  }
+
+  get full (): string {
+    return `${this.personal} ${this.family.name}`
+  }
+
+  address (title: string): string {
+    return `${title} ${this.family.name}`
   }
 
   toObject (): FrenchPersonalNameData {
     return {
-      nationality: this.nationality,
-      gender: this.gender,
-      full: this.full,
-      personal: this.personal
+      ...super.toObject(),
+      family: this.family.toObject()
     }
   }
 
@@ -57,7 +72,7 @@ class FrenchPersonalName extends PersonalName {
       ? `${given}-${selectRandomElement(compoundOptions)}`
       : given
 
-    return [new FrenchPersonalName({ gender, personal, full: `${personal} ${family.name}` })]
+    return [new FrenchPersonalName({ gender, personal }, { family })]
   }
 }
 

@@ -1,4 +1,4 @@
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import generateAbiso from './abiso.ts'
 import selectRandomTwinStatus from '../../randomizers/twin.ts'
 import selectRandomCircumstance from '../../randomizers/circumstance.ts'

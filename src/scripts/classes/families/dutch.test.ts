@@ -1,11 +1,11 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { type NamedFamilyData } from './named.ts'
-import { type PatrilinealFamilyData } from './patrilineal.ts'
 import {
   DutchNameTables,
   NamedDutchFamily,
-  PatrilinealDutchFamily
+  PatrilinealDutchFamily,
+  type NamedDutchFamilyData,
+  type PatrilineDutchFamilyData
 } from './dutch.ts'
 import type {FamilyData} from './base.ts'
 import generateDutchFamily from './dutch.ts'
@@ -13,14 +13,12 @@ import generateDutchFamily from './dutch.ts'
 describe('DutchFamily', () => {
   const base: FamilyData = {
     nationality: 'Dutch',
-    size: 3,
-    order: 2,
-    twin: false
+    size: 3
   }
 
 
-  const named: NamedFamilyData = { ...base, name: 'Bakker' }
-  const patrilineal: PatrilinealFamilyData = { ...base, patriarch: 'Dirk' }
+  const named: NamedDutchFamilyData = { ...base, name: 'Bakker' }
+  const patrilineal: PatrilineDutchFamilyData = { ...base, patriarch: 'Dirk' }
 
   beforeEach(() => {
     mockTables({

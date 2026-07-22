@@ -2,7 +2,7 @@ import { isString } from '@revolutionarygamesco/common'
 import { whisper as whisperMessage, drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 import { shipNames, pirateNames } from '../ids.ts'
-import { selectRandomColors, type Colors } from './enums/colors.ts'
+import { selectRandomColors, type Colors } from './types/enums/colors.ts'
 
 const getType = (
   options?: GenerateShipNameOptions

@@ -1,5 +1,5 @@
 import { chance } from '@revolutionarygamesco/common'
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 import generateGivenName from '../../given.ts'
 import generateSurname from '../../surname.ts'
 

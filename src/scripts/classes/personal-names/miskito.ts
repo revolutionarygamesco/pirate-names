@@ -1,6 +1,8 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender, type Gender } from '../../enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import BirthContext from '../birth/base.ts'
+import Family from '../families/base.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 
 export interface MiskitoPersonalNameData extends PersonalNameData {}
@@ -17,11 +19,17 @@ export const MiskitoPersonalNameTables: Record<Gender, Record<'Subjects' | 'Modi
 }
 
 class MiskitoPersonalName extends PersonalName {
-  constructor (data?: Partial<PersonalNameData>) {
-    super(data)
+  constructor (
+    data?: Partial<PersonalNameData>,
+    context?: Partial<{ family: Family, birth: BirthContext }>
+  ) {
+    super(data, context)
     this.nationality = 'Miskito'
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Lapta Tara' : 'Kati Pihni')
-    this.full = data?.full ?? this.personal
+  }
+
+  get full (): string {
+    return this.personal
   }
 
   static async generate (

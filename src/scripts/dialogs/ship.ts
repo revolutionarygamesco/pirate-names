@@ -1,6 +1,6 @@
 import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
-import { colors, isColors, selectRandomColors, type Colors } from '../enums/colors.ts'
+import { colors, isColors, selectRandomColors, type Colors } from '../types/enums/colors.ts'
 import generateShipName, { generatePirateShipName } from '../ship.ts'
 
 const defaultOnComplete = async (

@@ -1,5 +1,5 @@
-import { type Weekday } from '../../enums/weekday.ts'
-import { type Gender } from '../../enums/gender.ts'
+import { type Weekday } from '../../types/enums/weekday.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 
 const weekdayNames: Record<Weekday, Record<Gender, string[]>> = {
   Sunday: {

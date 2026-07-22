@@ -1,4 +1,4 @@
-import { type Gender } from '../../enums/gender.ts'
+import { type Gender } from '../../types/enums/gender.ts'
 
 const circumstanceNames: Record<string, Record<Gender, string>> = {
   road: {

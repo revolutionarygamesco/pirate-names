@@ -1,19 +1,7 @@
-import { makeEnum, stockArray, selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
+import { selectRandomMandinkaCaste, type MandinkaCaste } from '../../types/enums/mandinka-caste.ts'
 import NamedFamily, { type NamedFamilyData } from './named.ts'
-
-export const mandinkaCastes = ['Foro', 'Nyamakala', 'Jali', 'Jakhanke'] as const
-export type MandinkaCaste = typeof mandinkaCastes[number]
-export const { guard: isMandinkaCaste } = makeEnum(mandinkaCastes)
-export const selectRandomMandinkaCaste = (): MandinkaCaste => {
-  return selectRandomElement(stockArray<MandinkaCaste>([
-    { n: 1, item: 'Jali' },
-    { n: 1, item: 'Jakhanke' },
-    { n: 1, item: 'Nyamakala' },
-    { n: 97, item: 'Foro' }
-  ]))
-}
 
 export const Jamu: Record<MandinkaCaste, string> = {
   Jali: getRollTableUUID('93b5JWBYXzygjAtO'),

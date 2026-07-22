@@ -2,7 +2,7 @@ import { isString, retryUntil } from '@revolutionarygamesco/common'
 import { whisper as whisperMessage, drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 import { surnames } from '../ids.ts'
-import { selectRandomNationality, type Nationality } from './enums/nationality.ts'
+import { selectRandomNationality, type Nationality } from './types/enums/nationality.ts'
 
 const generateSurname = async (
   nationality?: Nationality,

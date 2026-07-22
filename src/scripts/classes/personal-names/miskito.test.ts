@@ -1,11 +1,17 @@
 import { beforeEach, describe, it, expect } from 'vitest'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
+import BirthContext from '../birth/base.ts'
+import PatrilinealFamily from '../families/patrilineal.ts'
 import MiskitoPersonalName, { MiskitoPersonalNameTables, type MiskitoPersonalNameData } from './miskito.ts'
 
 describe('MiskitoPersonalName', () => {
+  const family = new PatrilinealFamily()
+  const birth = new BirthContext({}, family)
   const data: MiskitoPersonalNameData = {
     nationality: 'Miskito',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Feminine',
     full: 'Slilma Sangni',
     personal: 'Slilma Sangni'
@@ -41,11 +47,6 @@ describe('MiskitoPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new MiskitoPersonalName({ full: 'Slilma Sangni' })
-      expect(actual.full).toBe('Slilma Sangni')
-    })
-
     it('defaults to Lapta Tara for a masculine name', () => {
       const actual = new MiskitoPersonalName({ gender: 'Masculine' })
       expect(actual.personal).toBe('Lapta Tara')
@@ -59,10 +60,26 @@ describe('MiskitoPersonalName', () => {
     })
   })
 
+  describe('Accessor methods', () => {
+    describe('full', () => {
+      it('returns the full name', () => {
+        const instance = new MiskitoPersonalName(data, { family, birth })
+        expect(instance.full).toBe('Slilma Sangni')
+      })
+    })
+  })
+
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('returns the concatenation of the title and personal name', () => {
+        const instance = new MiskitoPersonalName(data, { family, birth })
+        expect(instance.address('Mister')).toBe('Mister Slilma Sangni')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new MiskitoPersonalName(data)
+        const instance = new MiskitoPersonalName(data, { family, birth })
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)

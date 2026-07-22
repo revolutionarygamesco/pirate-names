@@ -1,15 +1,28 @@
-import { beforeEach, describe, it, expect } from 'vitest'
+import { beforeEach, describe, it, expect, vi } from 'vitest'
+import { selectRandomBetween } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { genders, type Gender } from '../../enums/gender.ts'
+import { genders, type Gender } from '../../types/enums/gender.ts'
+import BirthContext from '../birth/base.ts'
+import BantuFamily from '../families/bantu.ts'
 import BantuPersonalName, { BantuPersonalNameTables, type BantuPersonalNameData } from './bantu.ts'
 
+vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
+  ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
+  selectRandomBetween: vi.fn()
+}))
+
+const mockRandom = vi.mocked(selectRandomBetween)
+
 describe('BantuPersonalName', () => {
+  const family = new BantuFamily({ patriarch: 'Nkuwu' })
+  const birth = new BirthContext({}, family)
   const data: BantuPersonalNameData = {
     nationality: 'Bantu',
+    family: family.toObject(),
+    birth: birth.toObject(),
     gender: 'Masculine',
     full: 'Nzinga a Nkuwu',
-    personal: 'Nzinga',
-    special: null
+    personal: 'Nzinga'
   }
 
   beforeEach(() => {
@@ -42,14 +55,9 @@ describe('BantuPersonalName', () => {
       expect(genders).toContain(actual.gender)
     })
 
-    it('can take a full name', () => {
-      const actual = new BantuPersonalName({ full: 'Nzinga a Nkuwu' })
-      expect(actual.full).toBe('Nzinga a Nkuwu')
-    })
-
     it('defaults to Zola', () => {
       const actual = new BantuPersonalName({ gender: 'Masculine' })
-      expect(actual.full).toBe('Zola')
+      expect(actual.personal).toBe('Zola')
     })
 
     it('can take a personal name', () => {
@@ -58,40 +66,81 @@ describe('BantuPersonalName', () => {
     })
   })
 
+  describe('Accessor methods', () => {
+    describe('full', () => {
+      it('renders a full name', () => {
+        const instance = new BantuPersonalName(data, { family, birth })
+        expect(instance.full).toBe(data.full)
+      })
+
+      it('can render a full name with a santu name', () => {
+        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, { family, birth })
+        expect(instance.full).toBe(`Ntoni ${data.full}`)
+      })
+
+      it('can render a full name with an initiation name', () => {
+        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, { family, birth })
+        expect(instance.full).toBe(`${data.full} Lema`)
+      })
+    })
+  })
+
   describe('Instance methods', () => {
+    describe('address', () => {
+      it('returns title with person name', () => {
+        const instance = new BantuPersonalName(data, { family, birth })
+        expect(instance.address('Mister')).toBe('Mister Nzinga')
+      })
+    })
+
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new BantuPersonalName(data)
+        const instance = new BantuPersonalName(data, { family, birth })
         const actual = instance.toObject()
         expect(actual).toEqual(data)
         expect(actual).not.toBe(data)
+        expect(actual.santu).not.toBeDefined()
+        expect(actual.initiation).not.toBeDefined()
+      })
+
+      it('includes santu name if present', () => {
+        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, { family, birth })
+        const actual = instance.toObject()
+        expect(actual.santu).toBe('Ntoni')
+        expect(actual.initiation).not.toBeDefined()
+      })
+
+      it('includes initiation name if present', () => {
+        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, { family, birth })
+        const actual = instance.toObject()
+        expect(actual.santu).not.toBeDefined()
+        expect(actual.initiation).toBe('Lema')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('selectRandomBackground', () => {
+      it('often returns Christian', () => {
+        mockRandom.mockReturnValueOnce(1)
+        expect(BantuPersonalName.selectRandomBackground()).toBe('Christian')
+      })
+
+      it('sometimes returns Initiated', () => {
+        mockRandom.mockReturnValueOnce(20)
+        expect(BantuPersonalName.selectRandomBackground()).toBe('Initiated')
+      })
+
+      it('sometimes returns null', () => {
+        mockRandom.mockReturnValueOnce(13)
+        expect(BantuPersonalName.selectRandomBackground()).toBeNull()
+      })
+    })
+
     describe('generator', () => {
       it('can generate a name', async () => {
-        const [actual] = await BantuPersonalName.generate({ special: null })
+        const [actual] = await BantuPersonalName.generate()
         expect(actual.full).toBe('Kiala a Kiala')
-        expect(actual.personal).toBe('Kiala')
-      })
-
-      it('can generate a Christian name with a santu element', async () => {
-        const [actual] = await BantuPersonalName.generate({ special: 'Christian' })
-        expect(actual.full).toBe('Molazi Kiala a Kiala')
-        expect(actual.personal).toBe('Kiala')
-      })
-
-      it('can generate a name for an initiated man', async () => {
-        const [actual] = await BantuPersonalName.generate({ gender: 'Masculine', special: 'Initiated' })
-        expect(actual.full).toBe('Kiala a Kiala Lema')
-        expect(actual.personal).toBe('Kiala')
-      })
-
-      it('can generate a name for an initiated woman', async () => {
-        const [actual] = await BantuPersonalName.generate({ gender: 'Feminine', special: 'Initiated' })
-        expect(actual.full).toBe('Kiala a Kiala Mabinda')
         expect(actual.personal).toBe('Kiala')
       })
     })

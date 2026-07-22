@@ -1,13 +1,15 @@
 import { selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomWeekday, type Weekday } from '../../enums/weekday.ts'
-import { selectRandomGender, type Gender } from '../../enums/gender.ts'
+import { type Weekday } from '../../types/enums/weekday.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import Family from '../families/base.ts'
-import BirthContext from '../birth.ts'
+import BirthContext from '../birth/base.ts'
 import PersonalName, { type PersonalNameData } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 
-export interface FonPersonalNameData extends PersonalNameData {}
+export interface FonPersonalNameData extends PersonalNameData {
+  day: string
+}
 
 export const FonPersonalNameTables = {
   Feminine: getRollTableUUID('sTahknOtK9nAiwNb'),
@@ -58,45 +60,62 @@ const circumstanceNames: Record<string, Record<Gender, string>> = {
 }
 
 class FonPersonalName extends PersonalName {
-  constructor (data?: Partial<FonPersonalNameData>) {
-    super(data)
+  day: string
+
+  constructor (
+    data?: Partial<FonPersonalNameData>,
+    context?: Partial<{ family: Family, birth: BirthContext }>
+  ) {
+    super(data, context)
     this.nationality = 'Fon'
+    this.day = data?.day ?? FonPersonalName.selectRandomDayName(this.birth.weekday, this.gender)
     this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Hounsou' : 'Hounsi')
-    this.full = data?.full ?? this.personal
+  }
+
+  get circumstanceName (): string | null {
+    if (this.birth.twin === 1) return 'Sagbo'
+    if (this.birth.twin === 2) return 'Zinsou'
+    if (this.birth.special && this.birth.special in circumstanceNames) {
+      return circumstanceNames[this.birth.special][this.gender]
+    }
+    return null
+  }
+
+  get full (): string {
+    const c = this.circumstanceName
+    const names = [this.day]
+    if (c) names.push(c)
+    names.push(this.personal)
+    return names.join(' ')
   }
 
   toObject (): FonPersonalNameData {
     return {
       nationality: this.nationality,
+      family: this.family.toObject(),
+      birth: this.birth.toObject(),
       gender: this.gender,
       full: this.full,
-      personal: this.personal
+      personal: this.personal,
+      day: this.day
     }
+  }
+
+  static selectRandomDayName (day: Weekday, gender: Gender): string {
+    return selectRandomElement(weekdayNames[day][gender])
   }
 
   static async generate (
     data?: Partial<FonPersonalNameData>,
     context?: Partial<{ family: Family, birth: BirthContext }>
   ): Promise<FonPersonalName[]> {
-    const f = context?.family ?? new Family()
-    const b = context?.birth ?? new BirthContext()
+    const family = context?.family ?? new Family()
+    const birth = context?.birth ?? new BirthContext()
     const gender = data?.gender ?? selectRandomGender()
 
     const personal = await drawStr(FonPersonalNameTables[gender], gender === 'Feminine' ? 'Hounsou' : 'Hounsi')
-    const weekday = b.weekday ?? selectRandomWeekday()
-    const names = [selectRandomElement(weekdayNames[weekday][gender])]
-
-    if (f.twin === 1) {
-      names.push('Sagbo')
-    } else if (f.twin === 2) {
-      names.push('Zinsou')
-    } else if (b.special && b.special in circumstanceNames) {
-      names.push(circumstanceNames[b.special][gender])
-    }
-
-    names.push(personal)
-
-    return [new FonPersonalName({ gender, personal, full: names.join(' ') })]
+    const day = FonPersonalName.selectRandomDayName(birth.weekday, gender)
+    return [new FonPersonalName({ gender, personal, day }, { family, birth })]
   }
 }
 
