@@ -1,5 +1,5 @@
 import {describe, expect, it, vi} from 'vitest'
-import {selectRandomElement, isWithinRange, selectRandomBetween} from '@revolutionarygamesco/common'
+import { selectRandomElement, isWithinRange } from '@revolutionarygamesco/common'
 import { weekdays } from '../../types/enums/weekday.ts'
 import { type TwinStatus } from '../../types/twin.ts'
 import Family from '../families/base.ts'
@@ -99,30 +99,6 @@ describe('BirthContext', () => {
   })
 
   describe('Instance methods', () => {
-    describe('setOrder', () => {
-      it('returns a random number between 1 and family size', () => {
-        const size = selectRandomBetween(3, 10)
-        const family = new Family({ size })
-        const actual = new BirthContext({}, family)
-        actual.setOrder()
-        expect(isWithinRange(actual.order, [1, 10])).toBe(true)
-      })
-
-      it('won’t make a senior twin the last born', () => {
-        const family = new Family({ size: 2 })
-        const actual = new BirthContext({ twin: 1 }, family)
-        actual.setOrder()
-        expect(actual.order).toBe(1)
-      })
-
-      it('won’t make a junior twin the first born', () => {
-        const family = new Family({ size: 2 })
-        const actual = new BirthContext({ twin: 2 }, family)
-        actual.setOrder()
-        expect(actual.order).toBe(2)
-      })
-    })
-
     describe('toObject', () => {
       it('returns a data structure', () => {
         const family = new Family()

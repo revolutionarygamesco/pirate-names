@@ -1,5 +1,4 @@
 import {
-  clamp,
   stockArray,
   selectRandomElement,
   isString,
@@ -35,8 +34,9 @@ class BirthContext {
       this.twin = data?.twin ?? selectRandomTwinStatus(this.family.nationality === 'Yoruba' ? 100 : 60)
     }
 
-    this.order = data?.order ?? 1
-    this.setOrder()
+    this.order = data?.order ?? selectRandomBetween(1, this.family.size)
+    if (this.twin === 1) this.order = Math.min(this.order, this.family.size - 1)
+    if (this.twin === 2) this.order = Math.max(this.order, 2)
 
     this.weekday = data?.weekday ?? selectRandomWeekday()
     this.special = isString(data?.special) || data?.special === null
@@ -46,14 +46,6 @@ class BirthContext {
 
   get last (): boolean {
     return this.order === this.family.size
-  }
-
-  setOrder (): void {
-    this.order = clamp(
-      this.order ?? selectRandomBetween(1, this.family.size),
-      this.twin === 2 ? 2 : 1, // Second twin can't be first-born
-      this.twin === 1 ? this.family.size - 1 : this.family.size // First twin can't be last-born
-    )
   }
 
   toObject (): BirthContextData {
