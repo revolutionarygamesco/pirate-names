@@ -1,7 +1,8 @@
 import { beforeEach, describe, it, expect, vi } from 'vitest'
-import { chance } from '@revolutionarygamesco/common'
+import { chance, loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import YorubaFamily from '../families/yoruba.ts'
 import YorubaPersonalName, { YorubaPersonalNameTables, type YorubaPersonalNameData } from './yoruba.ts'
@@ -12,6 +13,43 @@ vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
 }))
 
 const mockChance = vi.mocked(chance)
+
+describe('YorubaPersonalNameTables', () => {
+  it('imports the Yoruba feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.common.fem.yaml')
+    expect(YorubaPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.common.masc.yaml')
+    expect(YorubaPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba feminine subjects name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.subj.fem.yaml')
+    expect(YorubaPersonalNameTables.Subjects.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba masculine subjects name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.subj.masc.yaml')
+    expect(YorubaPersonalNameTables.Subjects.Masculine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba inanimate subjects name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.subj.in.yaml')
+    expect(YorubaPersonalNameTables.Subjects.Inanimate).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba common predicts name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.pred.core.yaml')
+    expect(YorubaPersonalNameTables.Predicates.Core).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Yoruba animate predicts name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.yoruba.pred.an.yaml')
+    expect(YorubaPersonalNameTables.Predicates.Animate).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('YorubaPersonalName', () => {
   const family = new YorubaFamily()

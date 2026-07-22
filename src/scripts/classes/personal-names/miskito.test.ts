@@ -1,9 +1,33 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import PatrilinealFamily from '../families/patrilineal.ts'
 import MiskitoPersonalName, { MiskitoPersonalNameTables, type MiskitoPersonalNameData } from './miskito.ts'
+
+describe('MiskitoPersonalNameTables', () => {
+  it('imports the Mandinka feminine subjects table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.miskito.subj.fem.yaml')
+    expect(MiskitoPersonalNameTables.Feminine.Subjects).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Mandinka feminine modifiers table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.miskito.mod.fem.yaml')
+    expect(MiskitoPersonalNameTables.Feminine.Modifiers).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Mandinka masculine subjects table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.miskito.subj.masc.yaml')
+    expect(MiskitoPersonalNameTables.Masculine.Subjects).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Mandinka masculine modifiers table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.miskito.mod.masc.yaml')
+    expect(MiskitoPersonalNameTables.Masculine.Modifiers).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('MiskitoPersonalName', () => {
   const family = new PatrilinealFamily()

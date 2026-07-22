@@ -1,6 +1,8 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import FrenchFamily from '../families/french.ts'
 import FrenchPersonalName, {
@@ -8,6 +10,23 @@ import FrenchPersonalName, {
   FrenchCompoundNames,
   type FrenchPersonalNameData
 } from './french.ts'
+
+describe('FrenchPersonalNameTables', () => {
+  it('imports the French surname table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.french.sur.yaml')
+    expect(FrenchPersonalNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the French feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.french.fem.yaml')
+    expect(FrenchPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the French masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.french.masc.yaml')
+    expect(FrenchPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('FrenchPersonalName', () => {
   const family = new FrenchFamily({ name: 'Levasseur' })

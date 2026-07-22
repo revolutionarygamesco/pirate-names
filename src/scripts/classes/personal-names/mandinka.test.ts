@@ -1,9 +1,23 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import MandinkaFamily from '../families/mandinka.ts'
 import MandinkaPersonalName, { MandinkaPersonalNameTables, type MandinkaPersonalNameData } from './mandinka.ts'
+
+describe('MandinkaPersonalNameTables', () => {
+  it('imports the Mandinka feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.fem.yaml')
+    expect(MandinkaPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Mandinka masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.masc.yaml')
+    expect(MandinkaPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('MandinkaPersonalName', () => {
   const family = new MandinkaFamily({ caste: 'Foro', name: 'Keita' })

@@ -1,9 +1,33 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import PatrilinealFamily from '../families/patrilineal.ts'
 import TainoPersonalName, { TainoPersonalNameTables, type TainoPersonalNameData } from './taino.ts'
+
+describe('TainoPersonalNameTables', () => {
+  it('imports the Taíno feminine subjects table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.taino.subj.fem.yaml')
+    expect(TainoPersonalNameTables.Feminine.Subjects).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Taíno feminine modifiers table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.taino.mod.fem.yaml')
+    expect(TainoPersonalNameTables.Feminine.Modifiers).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Taíno masculine subjects table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.taino.subj.masc.yaml')
+    expect(TainoPersonalNameTables.Masculine.Subjects).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Taíno masculine modifiers table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.taino.mod.masc.yaml')
+    expect(TainoPersonalNameTables.Masculine.Modifiers).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('TainoPersonalName', () => {
   const family = new PatrilinealFamily()

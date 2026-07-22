@@ -1,7 +1,10 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import { weekdays, type Weekday } from '../../types/enums/weekday.ts'
 import { type TwinStatus } from '../../types/twin.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import AkanFamily, { AkanFamilyNames } from '../families/akan.ts'
 import AkanPersonalName, {
@@ -10,6 +13,22 @@ import AkanPersonalName, {
   AkanPersonalNameTables,
   type AkanPersonalNameData
 } from './akan.ts'
+
+describe('AkanPersonalNameTables', () => {
+  const abbr: Record<Weekday, string> = { Sunday: 'su', Monday: 'mo',
+    Tuesday: 'tu', Wednesday: 'we', Thursday: 'th', Friday: 'fr',
+    Saturday: 'sa' }
+  const tests: Array<[string, Weekday, Gender, string]> = []
+  for (const weekday of weekdays) {
+    tests.push(['boys', weekday, 'Masculine', [abbr[weekday], 'masc'].join('.')])
+    tests.push(['girls', weekday, 'Feminine', [abbr[weekday], 'fem'].join('.')])
+  }
+
+  it.each(tests)('imports the right table for %s born on %s', (_label, day, gender, code) => {
+    const { _id } = loadYaml<{ _id: string }>(`src/packs/rolltables/personal.akan.week.${code}.yaml`)
+    expect(AkanPersonalNameTables[day][gender]).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('AkanPersonalName', () => {
   const family = new AkanFamily({ size: 14, name: 'Asamoah' })
@@ -29,8 +48,8 @@ describe('AkanPersonalName', () => {
 
   beforeEach(() => {
     mockTables({
-      [AkanPersonalNameTables.WeekdayNames.Monday.Masculine]: { results: [{ description: 'Kwadwo' } as foundry.documents.TableResult] },
-      [AkanPersonalNameTables.WeekdayNames.Monday.Feminine]: { results: [{ description: 'Adwoa' } as foundry.documents.TableResult] },
+      [AkanPersonalNameTables.Monday.Masculine]: { results: [{ description: 'Kwadwo' } as foundry.documents.TableResult] },
+      [AkanPersonalNameTables.Monday.Feminine]: { results: [{ description: 'Adwoa' } as foundry.documents.TableResult] },
       [AkanFamilyNames]: { results: [{ description: 'Abrafi' } as foundry.documents.TableResult] }
     })
   })

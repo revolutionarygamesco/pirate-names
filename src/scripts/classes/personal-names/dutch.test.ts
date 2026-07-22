@@ -1,9 +1,28 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import { NamedDutchFamily, PatrilinealDutchFamily } from '../families/dutch.ts'
 import DutchPersonalName, { DutchPersonalNameTables, type DutchPersonalNameData } from './dutch.ts'
 import BirthContext from '../birth/base.ts'
+
+describe('DutchPersonalNameTables', () => {
+  it('imports the Dutch surname table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.dutch.sur.yaml')
+    expect(DutchPersonalNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Dutch feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.dutch.fem.yaml')
+    expect(DutchPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Dutch masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.dutch.masc.yaml')
+    expect(DutchPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('DutchPersonalName', () => {
   const family = new NamedDutchFamily({ name: 'Chivers' })

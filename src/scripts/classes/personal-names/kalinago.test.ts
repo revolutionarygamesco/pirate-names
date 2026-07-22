@@ -1,9 +1,23 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import KalinagoFamily from '../families/kalinago.ts'
 import KalinagoPersonalName, { KalinagoPersonalNameTables, type KalinagoPersonalNameData } from './kalinago.ts'
+
+describe('KalinagoPersonalNameTables', () => {
+  it('imports the Kalinago feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.kalinago.fem.yaml')
+    expect(KalinagoPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Kalinago masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.kalinago.masc.yaml')
+    expect(KalinagoPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('KalinagoPersonalName', () => {
   const family = new KalinagoFamily({ patriarch: 'Amulenei' })

@@ -4,7 +4,7 @@ import NamedFamily, { type NamedFamilyData } from './named.ts'
 
 export interface ScottishFamilyData extends NamedFamilyData {}
 
-export const ScottishFamilyNames = getRollTableUUID('EVtxLwQ1W8ML3vKL')
+export const ScottishFamilyNames = getRollTableUUID('SLsldh8SgYaY2Ryn')
 
 class ScottishFamily extends NamedFamily {
   constructor(data?: Partial<ScottishFamilyData>) {

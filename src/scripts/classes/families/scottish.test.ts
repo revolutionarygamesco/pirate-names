@@ -1,6 +1,15 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import ScottishFamily, { ScottishFamilyNames, type ScottishFamilyData } from './scottish.ts'
+
+describe('ScottishFamilyNames', () => {
+  it('imports the right tables', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.scottish.sur.yaml')
+    expect(ScottishFamilyNames).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('ScottishFamily', () => {
   const data: ScottishFamilyData = {

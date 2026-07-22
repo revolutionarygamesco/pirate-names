@@ -1,5 +1,7 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import {
   DutchNameTables,
   NamedDutchFamily,
@@ -9,6 +11,18 @@ import {
 } from './dutch.ts'
 import type {FamilyData} from './base.ts'
 import generateDutchFamily from './dutch.ts'
+
+describe('DutchNameTables', () => {
+  it('imports the right table for Dutch masculine names', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.dutch.masc.yaml')
+    expect(DutchNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the right table for Dutch surnames', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.dutch.sur.yaml')
+    expect(DutchNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('DutchFamily', () => {
   const base: FamilyData = {

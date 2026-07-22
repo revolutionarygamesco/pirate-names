@@ -12,8 +12,8 @@ export interface FonPersonalNameData extends PersonalNameData {
 }
 
 export const FonPersonalNameTables = {
-  Feminine: getRollTableUUID('sTahknOtK9nAiwNb'),
-  Masculine: getRollTableUUID('iwH36PdS8m7nQKN6')
+  Feminine: getRollTableUUID('dMeVOYZnSWMjyaZy'),
+  Masculine: getRollTableUUID('Refe5IIGXrv0VzmH')
 }
 
 const weekdayNames: Record<Weekday, Record<Gender, string[]>> = {

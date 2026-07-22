@@ -1,9 +1,28 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import IrishFamily from '../families/irish.ts'
 import IrishPersonalName, { IrishPersonalNameTables, type IrishPersonalNameData } from './irish.ts'
+
+describe('IrishPersonalNameTables', () => {
+  it('imports the Irish surname table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.irish.sur.yaml')
+    expect(IrishPersonalNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Irish feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.irish.fem.yaml')
+    expect(IrishPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Irish masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.irish.masc.yaml')
+    expect(IrishPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('IrishPersonalName', () => {
   const family = new IrishFamily({ name: 'Ní Mháille' })

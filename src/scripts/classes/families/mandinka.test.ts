@@ -1,6 +1,30 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import MandinkaFamily, { Jamu, type MandinkaFamilyData } from './mandinka.ts'
+
+describe('KalinagoMasculineNames', () => {
+  it('imports the right tables for Foro jamu', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.jamu.foro.yaml')
+    expect(Jamu.Foro).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the right tables for Jali jamu', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.jamu.griot.yaml')
+    expect(Jamu.Jali).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the right tables for Jakhanke jamu', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.jamu.marabout.yaml')
+    expect(Jamu.Jakhanke).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the right tables for Nyamakala jamu', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.mandinka.jamu.blacksmith.yaml')
+    expect(Jamu.Nyamakala).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('MandinkaFamily', () => {
   const data: MandinkaFamilyData = {

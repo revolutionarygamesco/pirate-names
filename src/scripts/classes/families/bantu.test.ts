@@ -1,6 +1,15 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BantuFamily, { Nkumbu, type BantuFamilyData } from './bantu.ts'
+
+describe('Nkumbu', () => {
+  it('imports the right table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.bantu.nkumbu.yaml')
+    expect(Nkumbu).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('BantuFamily', () => {
   const data: BantuFamilyData = {

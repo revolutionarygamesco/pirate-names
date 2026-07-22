@@ -10,8 +10,8 @@ export interface ScottishPersonalNameData extends PersonalNameData {
 }
 
 export const ScottishPersonalNameTables: Record<string, string> = {
-  Feminine: getRollTableUUID('3FurO9qJF79bb11f'),
-  Masculine: getRollTableUUID('2rhDoCqCuwAmKABv'),
+  Feminine: getRollTableUUID('GDuEJy7cl7KpUddS'),
+  Masculine: getRollTableUUID('tBFnJ3lSQqtwAwTa'),
   Surnames: ScottishFamilyNames
 }
 

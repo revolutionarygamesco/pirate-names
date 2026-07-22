@@ -1,9 +1,36 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import { igboWeekdays, type IgboWeekday } from '../../types/enums/igbo-weekday.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import IgboPersonalName, { IgboPersonalNameTables, type IgboPersonalNameData } from './igbo.ts'
 import IgboFamily from '../families/igbo.ts'
 import IgboBirthContext from '../birth/igbo.ts'
+
+describe('IgboPersonalNameTables', () => {
+  const abbr: Record<IgboWeekday, string> = { Eke: 'ek', Oye: 'oy', Afor: 'af', Nkwo: 'nk' }
+  const tests: Array<[string, IgboWeekday, Gender, string]> = []
+  for (const weekday of igboWeekdays) {
+    tests.push(['boys', weekday, 'Masculine', [abbr[weekday], 'masc'].join('.')])
+    tests.push(['girls', weekday, 'Feminine', [abbr[weekday], 'fem'].join('.')])
+  }
+
+  it.each(tests)('imports the right table for %s born on %s', (_label, day, gender, code) => {
+    const { _id } = loadYaml<{ _id: string }>(`src/packs/rolltables/personal.igbo.week.${code}.yaml`)
+    expect(IgboPersonalNameTables.WeekdayNames[day][gender]).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Igbo feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.igbo.fem.yaml')
+    expect(IgboPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Igbo masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.igbo.masc.yaml')
+    expect(IgboPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('IgboPersonalName', () => {
   const family = new IgboFamily({ patriarch: 'Equiano' })

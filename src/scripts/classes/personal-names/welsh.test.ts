@@ -1,9 +1,28 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import WelshFamily from '../families/welsh.ts'
 import WelshPersonalName, { WelshPersonalNameTables, type WelshPersonalNameData } from './welsh.ts'
+
+describe('WelshPersonalNameTables', () => {
+  it('imports the Welsh surname table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.welsh.sur.yaml')
+    expect(WelshPersonalNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Welsh feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.welsh.fem.yaml')
+    expect(WelshPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Welsh masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.welsh.masc.yaml')
+    expect(WelshPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('WelshPersonalName', () => {
   const family = new WelshFamily({ name: 'Roberts' })

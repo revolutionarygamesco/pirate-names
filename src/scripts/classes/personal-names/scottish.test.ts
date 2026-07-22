@@ -1,9 +1,28 @@
 import { beforeEach, describe, it, expect } from 'vitest'
+import { loadYaml } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import ScottishFamily from '../families/scottish.ts'
 import ScottishPersonalName, { ScottishPersonalNameTables, type ScottishPersonalNameData } from './scottish.ts'
+
+describe('ScottishPersonalNameTables', () => {
+  it('imports the Scottish surname table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.scottish.sur.yaml')
+    expect(ScottishPersonalNameTables.Surnames).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Scottish feminine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.scottish.fem.yaml')
+    expect(ScottishPersonalNameTables.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the Scottish masculine name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.scottish.masc.yaml')
+    expect(ScottishPersonalNameTables.Masculine).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('ScottishPersonalName', () => {
   const family = new ScottishFamily({ name: 'Kidd' })

@@ -1,6 +1,7 @@
 import { beforeEach, describe, it, expect, vi } from 'vitest'
-import { selectRandomBetween } from '@revolutionarygamesco/common'
+import { loadYaml, selectRandomBetween } from '@revolutionarygamesco/common'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import { genders, type Gender } from '../../types/enums/gender.ts'
 import BirthContext from '../birth/base.ts'
 import BantuFamily from '../families/bantu.ts'
@@ -12,6 +13,28 @@ vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
 }))
 
 const mockRandom = vi.mocked(selectRandomBetween)
+
+describe('BantuPersonalNameTables', () => {
+  it('imports the male initiation name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.bantu.init.masc.yaml')
+    expect(BantuPersonalNameTables.Init.Masculine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the female initiation name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.bantu.init.fem.yaml')
+    expect(BantuPersonalNameTables.Init.Feminine).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the santu name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.bantu.santu.yaml')
+    expect(BantuPersonalNameTables.Santu).toBe(getRollTableUUID(_id))
+  })
+
+  it('imports the nkumbu name table', () => {
+    const { _id } = loadYaml<{ _id: string }>('src/packs/rolltables/personal.bantu.nkumbu.yaml')
+    expect(BantuPersonalNameTables.Nkumbu).toBe(getRollTableUUID(_id))
+  })
+})
 
 describe('BantuPersonalName', () => {
   const family = new BantuFamily({ patriarch: 'Nkuwu' })

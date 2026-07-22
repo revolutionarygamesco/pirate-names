@@ -14,35 +14,33 @@ export interface AkanPersonalNameData extends PersonalNameData {
 }
 
 export const AkanPersonalNameTables = {
-  WeekdayNames: {
-    Sunday: {
-      Masculine: getRollTableUUID('F4PzbpArSznQTDZz'),
-      Feminine: getRollTableUUID('d6TMjqiTUF3jZzRz')
-    },
-    Monday: {
-      Masculine: getRollTableUUID('o9m52eiGNLe2Tv6X'),
-      Feminine: getRollTableUUID('5ikjS0zIRZkJqgbR')
-    },
-    Tuesday: {
-      Masculine: getRollTableUUID('kz359Z2CPweeAYAM'),
-      Feminine: getRollTableUUID('ZoTYUnGdgqkAHoAL')
-    },
-    Wednesday: {
-      Masculine: getRollTableUUID('z9IfTjKaGmJ25ey1'),
-      Feminine: getRollTableUUID('BviGWCXkoM6NFsmg')
-    },
-    Thursday: {
-      Masculine: getRollTableUUID('uL1wjWWBDnVTHxB0'),
-      Feminine: getRollTableUUID('LHTQniTTWtxvfJDF')
-    },
-    Friday: {
-      Masculine: getRollTableUUID('sN51ZjYJmeJ9zbku'),
-      Feminine: getRollTableUUID('NxvZ04Dn2cjkamMl')
-    },
-    Saturday: {
-      Masculine: getRollTableUUID('6bVDNhiN1uXUhFEA'),
-      Feminine: getRollTableUUID('Zyx3S4CaZcaRhZJ5')
-    }
+  Sunday: {
+    Masculine: getRollTableUUID('F4PzbpArSznQTDZz'),
+    Feminine: getRollTableUUID('d6TMjqiTUF3jZzRz')
+  },
+  Monday: {
+    Masculine: getRollTableUUID('o9m52eiGNLe2Tv6X'),
+    Feminine: getRollTableUUID('5ikjS0zIRZkJqgbR')
+  },
+  Tuesday: {
+    Masculine: getRollTableUUID('kz359Z2CPweeAYAM'),
+    Feminine: getRollTableUUID('ZoTYUnGdgqkAHoAL')
+  },
+  Wednesday: {
+    Masculine: getRollTableUUID('z9IfTjKaGmJ25ey1'),
+    Feminine: getRollTableUUID('BviGWCXkoM6NFsmg')
+  },
+  Thursday: {
+    Masculine: getRollTableUUID('uL1wjWWBDnVTHxB0'),
+    Feminine: getRollTableUUID('LHTQniTTWtxvfJDF')
+  },
+  Friday: {
+    Masculine: getRollTableUUID('sN51ZjYJmeJ9zbku'),
+    Feminine: getRollTableUUID('NxvZ04Dn2cjkamMl')
+  },
+  Saturday: {
+    Masculine: getRollTableUUID('6bVDNhiN1uXUhFEA'),
+    Feminine: getRollTableUUID('Zyx3S4CaZcaRhZJ5')
   }
 }
 
@@ -149,7 +147,7 @@ class AkanPersonalName extends PersonalName {
     const family = context?.family ?? await AkanFamily.generate()
     const birth = context?.birth ?? new BirthContext({}, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = await drawStr(AkanPersonalNameTables.WeekdayNames[birth.weekday][gender], gender === 'Feminine' ? 'Akosua' : 'Kwasi')
+    const personal = await drawStr(AkanPersonalNameTables[birth.weekday][gender], gender === 'Feminine' ? 'Akosua' : 'Kwasi')
     return [new AkanPersonalName({
       gender,
       personal
