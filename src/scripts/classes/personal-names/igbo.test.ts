@@ -1,5 +1,5 @@
 import { beforeEach, describe, it, expect } from 'vitest'
-import { loadYaml } from '@revolutionarygamesco/common'
+import { loadYaml } from '@revolutionarygamesco/common/testing'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
 import { igboWeekdays, type IgboWeekday } from '../../types/enums/igbo-weekday.ts'

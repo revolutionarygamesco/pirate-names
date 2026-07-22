@@ -1,5 +1,5 @@
 import { beforeEach, describe, it, expect } from 'vitest'
-import { loadYaml } from '@revolutionarygamesco/common'
+import { loadYaml } from '@revolutionarygamesco/common/testing'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import IrishFamily, { IrishFamilyNames, type IrishFamilyData } from './irish.ts'

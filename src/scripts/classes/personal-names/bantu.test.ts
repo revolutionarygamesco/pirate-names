@@ -1,5 +1,6 @@
 import { beforeEach, describe, it, expect, vi } from 'vitest'
-import { loadYaml, selectRandomBetween } from '@revolutionarygamesco/common'
+import { selectRandomBetween } from '@revolutionarygamesco/common'
+import { loadYaml } from '@revolutionarygamesco/common/testing'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import { genders, type Gender } from '../../types/enums/gender.ts'

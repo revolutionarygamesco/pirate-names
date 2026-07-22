@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { getPrimitivesExcept } from '@revolutionarygamesco/common'
+import { getPrimitivesExcept } from '@revolutionarygamesco/common/testing'
 import { isTwinStatus, selectRandomTwinStatus, type TwinStatus } from './twin.ts'
 
 describe('isTwinStatus', () => {

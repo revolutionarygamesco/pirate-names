@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { primitives } from '@revolutionarygamesco/common'
+import { primitives } from '@revolutionarygamesco/common/testing'
 import {
   isIgboWeekday,
   selectRandomIgboWeekday,
