@@ -22,7 +22,7 @@ describe('BirthContext', () => {
     })
 
     it('can set birth order', () => {
-      const actual = new BirthContext({ order: 1 })
+      const actual = new BirthContext({ order: 1, twin: false })
       expect(actual.order).toBe(1)
     })
 

@@ -8,30 +8,30 @@ import { selectRandomWeekday, type Weekday } from '../../types/enums/weekday.ts'
 import { selectRandomTwinStatus, type TwinStatus } from '../../types/twin.ts'
 import Family, { type FamilyData } from '../families/base.ts'
 
-export interface BirthContextData {
-  family: FamilyData
+export interface BirthContextData<F extends FamilyData = FamilyData> {
+  family: F
   order: number
   twin: TwinStatus
   weekday: Weekday
   special: string | null
 }
 
-class BirthContext {
-  family: Family
+class BirthContext<F extends Family = Family> {
+  family: F
   order: number
   twin: TwinStatus
   weekday: Weekday
   special: string | null
 
   constructor(
-    data?: Partial<BirthContextData>,
-    family?: Family
+    data?: Partial<BirthContextData<FamilyData>>,
+    family?: F
   ) {
-    this.family = family ?? new Family(data?.family)
-    if (this.family.size < 2) {
+    this.family = family ?? (new Family(data?.family) as F)
+    if (this.family.size < 2 || data?.twin === false) {
       this.twin = false
     } else {
-      this.twin = data?.twin ?? selectRandomTwinStatus(this.family.nationality === 'Yoruba' ? 100 : 60)
+      this.twin = data?.twin ?? selectRandomTwinStatus(60)
     }
 
     this.order = data?.order ?? selectRandomBetween(1, this.family.size)
@@ -48,9 +48,9 @@ class BirthContext {
     return this.order === this.family.size
   }
 
-  toObject (): BirthContextData {
+  toObject (): BirthContextData<ReturnType<F['toObject']>> {
     return {
-      family: this.family.toObject(),
+      family: this.family.toObject() as ReturnType<F['toObject']>,
       order: this.order,
       twin: this.twin,
       weekday: this.weekday,

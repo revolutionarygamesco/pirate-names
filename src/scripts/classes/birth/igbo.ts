@@ -1,12 +1,12 @@
 import { selectRandomIgboWeekday, type IgboWeekday } from '../../types/enums/igbo-weekday.ts'
-import IgboFamily from '../families/igbo.ts'
+import IgboFamily, { type IgboFamilyData } from '../families/igbo.ts'
 import BirthContext, { type BirthContextData } from './base.ts'
 
-export interface IgboBirthContextData extends BirthContextData {
+export interface IgboBirthContextData extends BirthContextData<IgboFamilyData> {
   igboWeekday: IgboWeekday
 }
 
-class IgboBirthContext extends BirthContext {
+class IgboBirthContext extends BirthContext<IgboFamily> {
   igboWeekday: IgboWeekday
 
   constructor(
