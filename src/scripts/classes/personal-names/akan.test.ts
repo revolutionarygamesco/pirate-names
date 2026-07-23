@@ -11,7 +11,7 @@ import AkanPersonalName, {
   circumstanceNames,
   birthOrderNames,
   AkanPersonalNameTables,
-  type AkanPersonalNameData
+  type AkanPersonalNameParams,
 } from './akan.ts'
 
 describe('AkanPersonalNameTables', () => {
@@ -34,16 +34,14 @@ describe('AkanPersonalName', () => {
   const family = new AkanFamily({ size: 14, name: 'Asamoah' })
   const birth = new BirthContext({ order: 10, special: null, twin: false }, family)
 
-  const data: AkanPersonalNameData = {
+  const data: AkanPersonalNameParams = {
     nationality: 'Akan',
     gender: 'Masculine',
     personal: 'Kofi',
-    family: family.toObject(),
     birth: birth.toObject(),
     order: 'Badú',
     circumstance: null,
-    twin: null,
-    full: 'Kofi Badú Asamoah'
+    twin: null
   }
 
   beforeEach(() => {
@@ -90,13 +88,8 @@ describe('AkanPersonalName', () => {
       expect(actual.personal).toBe('Akosua')
     })
 
-    it('can take a family', () => {
-      const actual = new AkanPersonalName(data, { family })
-      expect(actual.family).toBe(family)
-    })
-
     it('can take a birth context', () => {
-      const actual = new AkanPersonalName(data, { birth })
+      const actual = new AkanPersonalName(data, birth)
       expect(actual.birth).toBe(birth)
     })
   })
@@ -110,27 +103,27 @@ describe('AkanPersonalName', () => {
       }
 
       it('returns null if there is no special circumstance', () => {
-        const birth = new BirthContext({special: null})
-        const instance = new AkanPersonalName({}, {birth})
+        const birth = new BirthContext<AkanFamily>({special: null})
+        const instance = new AkanPersonalName({}, birth)
         expect(instance.circumstance).toBeNull()
       })
 
       it('returns null if there is no Akan name for that circumstance', () => {
-        const birth = new BirthContext({special: 'unit-testing'})
-        const instance = new AkanPersonalName({}, {birth})
+        const birth = new BirthContext<AkanFamily>({special: 'unit-testing'})
+        const instance = new AkanPersonalName({}, birth)
         expect(instance.circumstance).toBeNull()
       })
 
       it.each(tests)('returns %s for a %s name for %s', (expected, _g, special, gender) => {
-        const birth = new BirthContext({special})
-        const instance = new AkanPersonalName({gender}, {birth})
+        const birth = new BirthContext<AkanFamily>({special})
+        const instance = new AkanPersonalName({gender}, birth)
         expect(instance.circumstance).toBe(expected)
       })
     })
 
     describe('full', () => {
       it('returns a full name', () => {
-        const instance = new AkanPersonalName(data, { family, birth })
+        const instance = new AkanPersonalName(data, birth)
         expect(instance.full).toBe('Kofi Badú Asamoah')
       })
 
@@ -150,20 +143,20 @@ describe('AkanPersonalName', () => {
       ] as Array<[string, TwinStatus, Gender]>)('can include %s', (expected, twin, gender) => {
         const family = new AkanFamily({ size: 2 })
         const birth = new BirthContext({ twin }, family)
-        const instance = new AkanPersonalName({ gender, twin: expected }, { birth, family })
+        const instance = new AkanPersonalName({ gender, twin: expected }, birth)
         expect(instance.full).toContain(expected)
       })
 
       it('includes circumstance name ', () => {
-        const birth = new BirthContext({ twin: false, special: 'sickly' })
-        const instance = new AkanPersonalName({ gender: 'Masculine' }, { birth })
+        const birth = new BirthContext<AkanFamily>({ twin: false, special: 'sickly' })
+        const instance = new AkanPersonalName({ gender: 'Masculine' }, birth)
         expect(instance.full).toContain('Nyaméama')
       })
 
       it('does not include circumstance name for twin', () => {
         const family = new AkanFamily({ size: 2 })
         const birth = new BirthContext({ twin: 1, special: 'sickly' }, family)
-        const instance = new AkanPersonalName({ gender: 'Feminine' }, { birth, family })
+        const instance = new AkanPersonalName({ gender: 'Feminine' }, birth)
         expect(instance.full).toContain('Ataa Panyin')
         expect(instance.full).not.toContain('Nyaméama')
       })
@@ -173,22 +166,22 @@ describe('AkanPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('returns title with family name', () => {
-        const instance = new AkanPersonalName(data, { family, birth })
+        const instance = new AkanPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Asamoah')
       })
     })
 
     describe('generateTwinName', () => {
       it('returns null if not a twin', () => {
-        const birth = new BirthContext({ twin: false })
-        const instance = new AkanPersonalName({}, { birth })
+        const birth = new BirthContext<AkanFamily>({ twin: false })
+        const instance = new AkanPersonalName({}, birth)
         expect(instance.generateTwinName()).toBeNull()
       })
 
       it('returns Ataa Panyin for a senior female twin', () => {
         const family = new AkanFamily({ size: 3 })
         const birth = new BirthContext({ twin: 1 }, family)
-        const instance = new AkanPersonalName({ gender: 'Feminine' }, { birth, family })
+        const instance = new AkanPersonalName({ gender: 'Feminine' }, birth)
         expect(instance.generateTwinName()).toBe('Ataa Panyin')
       })
 
@@ -196,7 +189,7 @@ describe('AkanPersonalName', () => {
         const valid = ['Ata Panyin', 'Atta Panyin']
         const family = new AkanFamily({ size: 3 })
         const birth = new BirthContext({ twin: 1 }, family)
-        const instance = new AkanPersonalName({ gender: 'Masculine' }, { birth, family })
+        const instance = new AkanPersonalName({ gender: 'Masculine' }, birth)
         expect(valid).toContain(instance.generateTwinName())
       })
 
@@ -204,7 +197,7 @@ describe('AkanPersonalName', () => {
         const valid = ['Ataa Kakraba', 'Ataa Kakra', 'Ataa Obuom']
         const family = new AkanFamily({ size: 3 })
         const birth = new BirthContext({ twin: 2 }, family)
-        const instance = new AkanPersonalName({ gender: 'Feminine' }, { birth, family })
+        const instance = new AkanPersonalName({ gender: 'Feminine' }, birth)
         expect(valid).toContain(instance.generateTwinName())
       })
 
@@ -213,17 +206,20 @@ describe('AkanPersonalName', () => {
           'Atta Kakra', 'Atta Obuom']
         const family = new AkanFamily({ size: 3 })
         const birth = new BirthContext({ twin: 2 }, family)
-        const instance = new AkanPersonalName({ gender: 'Masculine' }, { birth, family })
+        const instance = new AkanPersonalName({ gender: 'Masculine' }, birth)
         expect(valid).toContain(instance.generateTwinName())
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new AkanPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new AkanPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Mister', Feminine: 'Misses' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Kofi')
+        expect(actual.forms.full).toBe('Kofi Badú Asamoah')
+        expect(actual.forms.mister).toBe('Mister Asamoah')
       })
     })
   })
@@ -262,14 +258,27 @@ describe('AkanPersonalName', () => {
       })
     })
 
+    describe('getDefaultPersonalName', () => {
+      it('returns Akosua for women', () => {
+        expect(AkanPersonalName.getDefaultPersonalName('Feminine')).toBe('Akosua')
+      })
+
+      it('returns Kwasi for men', () => {
+        expect(AkanPersonalName.getDefaultPersonalName('Masculine')).toBe('Kwasi')
+      })
+    })
+
     describe('generator', () => {
+      let family: AkanFamily
+
+      beforeEach(async () => {
+        family = await AkanFamily.generate({ size: 2 })
+      })
+
       it('can generate a masculine name', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: false }, family)
-          }
+          new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: false }, family)
         )
 
         expect(actual.full).toBe('Kwadwo Píèsíe Abrafi')
@@ -279,10 +288,7 @@ describe('AkanPersonalName', () => {
       it('can generate a feminine name', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: false }, family)
-          }
+          new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: false }, family)
         )
 
         expect(actual.full).toBe('Adwoa Píèsíe Abrafi')
@@ -292,10 +298,7 @@ describe('AkanPersonalName', () => {
       it('generates a name for a senior female twin', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 1 }, family)
-          }
+          new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 1 }, family)
         )
 
         expect(actual.full).toBe('Adwoa Píèsíe Ataa Panyin Abrafi')
@@ -305,10 +308,7 @@ describe('AkanPersonalName', () => {
       it('generates a name for a senior male twin', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 1 }, family)
-          }
+          new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 1 }, family)
         )
 
         const checks = ['Ata Panyin', 'Atta Panyin']
@@ -320,10 +320,7 @@ describe('AkanPersonalName', () => {
       it('generates a name for a junior female twin', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Feminine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 2 }, family)
-          }
+           new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 2 }, family)
         )
 
         const checks = ['Ataa Kakraba', 'Ataa Kakra', 'Ataa Obuom']
@@ -335,10 +332,7 @@ describe('AkanPersonalName', () => {
       it('generates a name for a junior male twin', async () => {
         const [actual] = await AkanPersonalName.generate(
           { gender: 'Masculine' },
-          {
-            family: await AkanFamily.generate({ size: 2 }),
-            birth: new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 2 }, family)
-          }
+          new BirthContext({ weekday: 'Monday', special: null, order: 1, twin: 2 }, family)
         )
 
         const checks = ['Ata Kakraba', 'Ata Kakra', 'Ata Obuom', 'Atta Kakraba', 'Atta Kakra', 'Atta Obuom']
@@ -350,7 +344,7 @@ describe('AkanPersonalName', () => {
       it('can generate special birth circumstance names', async () => {
         const family = await AkanFamily.generate({ size: 2 })
         const birth = new BirthContext({ weekday: 'Monday', special: 'war', order: 1, twin: false }, family)
-        const [actual] = await AkanPersonalName.generate({ gender: 'Feminine' }, { family, birth })
+        const [actual] = await AkanPersonalName.generate({ gender: 'Feminine' }, birth)
         expect(actual.full).toBe('Adwoa Píèsíe Bedíàkṍ Abrafi')
         expect(actual.personal).toBe('Adwoa')
       })

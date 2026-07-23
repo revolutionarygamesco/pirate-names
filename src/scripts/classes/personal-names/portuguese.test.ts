@@ -7,7 +7,7 @@ import BirthContext from '../birth/base.ts'
 import PortugueseFamily from '../families/portuguese.ts'
 import PortuguesePersonalName, {
   PortuguesePersonalNameTables,
-  type PortuguesePersonalNameData
+  type PortuguesePersonalNameParams
 } from './portuguese.ts'
 
 describe('PortuguesePersonalNameTables', () => {
@@ -30,30 +30,26 @@ describe('PortuguesePersonalNameTables', () => {
 describe('PortuguesePersonalName', () => {
   const family = new PortugueseFamily({ name: 'Português' })
   const birth = new BirthContext({}, family)
-  const data: PortuguesePersonalNameData = {
+  const data: PortuguesePersonalNameParams = {
     nationality: 'Portuguese',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Bartolomeu Português',
-    short: 'Bartolomeu Português',
     personal: 'Bartolomeu',
     surnames: 'Português'
   }
 
+  const longFamily = new PortugueseFamily({
+    name: 'Lopes',
+    other: {
+      father: 'Almeida',
+      mother: ['Cardoso', 'Sousa']
+    }
+  })
+
   const long = new PortuguesePersonalName({
     personal: 'Manuel',
     surnames: 'Sousa Almeida Lopes'
-  }, {
-    family: new PortugueseFamily({
-      name: 'Lopes',
-      other: {
-        father: 'Almeida',
-        mother: ['Cardoso', 'Sousa']
-      }
-    }),
-    birth
-  })
+  }, new BirthContext({}, longFamily))
 
   beforeEach(() => {
     mockTables({
@@ -108,7 +104,7 @@ describe('PortuguesePersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new PortuguesePersonalName(data, { family, birth })
+        const instance = new PortuguesePersonalName(data, birth)
         expect(instance.full).toBe('Bartolomeu Português')
       })
     })
@@ -129,15 +125,28 @@ describe('PortuguesePersonalName', () => {
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new PortuguesePersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new PortuguesePersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Senhor', Feminine: 'Senhora' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Bartolomeu')
+        expect(actual.forms.full).toBe('Bartolomeu Português')
+        expect(actual.forms.mister).toBe('Senhor Português')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Maria for women', () => {
+        expect(PortuguesePersonalName.getDefaultPersonalName('Feminine')).toBe('Maria')
+      })
+
+      it('returns João for women', () => {
+        expect(PortuguesePersonalName.getDefaultPersonalName('Masculine')).toBe('João')
+      })
+    })
+
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [actual] = await PortuguesePersonalName.generate({ gender: 'Masculine' })

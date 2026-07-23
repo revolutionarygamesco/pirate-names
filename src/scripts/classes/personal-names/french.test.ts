@@ -8,7 +8,7 @@ import FrenchFamily from '../families/french.ts'
 import FrenchPersonalName, {
   FrenchPersonalNameTables,
   FrenchCompoundNames,
-  type FrenchPersonalNameData
+  type FrenchPersonalNameParams
 } from './french.ts'
 
 describe('FrenchPersonalNameTables', () => {
@@ -31,12 +31,10 @@ describe('FrenchPersonalNameTables', () => {
 describe('FrenchPersonalName', () => {
   const family = new FrenchFamily({ name: 'Levasseur' })
   const birth = new BirthContext({}, family)
-  const data: FrenchPersonalNameData = {
+  const data: FrenchPersonalNameParams = {
     nationality: 'French',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Olivier Levasseur',
     personal: 'Olivier'
   }
 
@@ -88,7 +86,7 @@ describe('FrenchPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new FrenchPersonalName(data, { family, birth })
+        const instance = new FrenchPersonalName(data, birth)
         expect(instance.full).toBe('Olivier Levasseur')
       })
     })
@@ -97,17 +95,20 @@ describe('FrenchPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title with the family name', () => {
-        const instance = new FrenchPersonalName(data, { family, birth })
+        const instance = new FrenchPersonalName(data, birth)
         expect(instance.address('Monsieur')).toBe('Monsieur Levasseur')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new FrenchPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new FrenchPersonalName(data, birth)
+        const actual = instance.toObject({ capt: { Masculine: 'Captain', Feminine: 'Captain' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Olivier')
+        expect(actual.forms.full).toBe('Olivier Levasseur')
+        expect(actual.forms.capt).toBe('Captain Levasseur')
       })
     })
   })
@@ -124,6 +125,16 @@ describe('FrenchPersonalName', () => {
       }) as Array<[number, string]>)('returns %d options for %s', (expected, name) => {
         const actual = FrenchPersonalName.getCompoundOptions(name)
         expect(actual).toHaveLength(expected)
+      })
+    })
+
+    describe('getDefaultPersonalName', () => {
+      it('return Marie for women', () => {
+        expect(FrenchPersonalName.getDefaultPersonalName('Feminine')).toBe('Marie')
+      })
+
+      it('return Jean for men', () => {
+        expect(FrenchPersonalName.getDefaultPersonalName('Masculine')).toBe('Jean')
       })
     })
 

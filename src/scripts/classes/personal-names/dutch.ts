@@ -1,7 +1,7 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import { type NamedFamilyData } from '../families/named.ts'
 import generateDutchFamily, {
   DutchNameTables,
@@ -10,29 +10,26 @@ import generateDutchFamily, {
   type DutchFamily,
   type DutchFamilyData
 } from '../families/dutch.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
-export interface DutchPersonalNameData extends PersonalNameData {
-  family: DutchFamilyData
-}
+export interface DutchPersonalNameParams extends PersonalNameParams<BirthContextData<DutchFamilyData>> {}
+export interface DutchPersonalNameData extends PersonalNameData<BirthContextData<DutchFamilyData>> {}
 
 export const DutchPersonalNameTables: Record<string, string> = {
   ...DutchNameTables,
   Feminine: getRollTableUUID('71DRh4LK1omoYTNV')
 }
 
-class DutchPersonalName extends PersonalName {
-  family: DutchFamily
-
+class DutchPersonalName extends PersonalName<DutchFamily, BirthContext<DutchFamily>> {
   constructor (
-    data?: Partial<DutchPersonalNameData>,
-    context?: Partial<{ family: DutchFamily, birth: BirthContext }>
+    data?: Partial<DutchPersonalNameParams>,
+    context?: BirthContext<DutchFamily>
   ) {
     super(data, context)
     this.nationality = 'Dutch'
-    this.family = context?.family ?? this.initFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Jan' : 'Maria')
+    const family = context?.family ?? this.initFamily(data?.birth?.family)
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? DutchPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get lastName (): string {
@@ -55,21 +52,25 @@ class DutchPersonalName extends PersonalName {
     return `${title} ${this.lastName}`
   }
 
-  toObject (): DutchPersonalNameData {
-    return {
-      ...super.toObject(),
-      family: this.family.toObject()
-    }
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Maria',
+      Masculine: 'Jan'
+    })
   }
 
   static async generate (
-    data?: Partial<DutchPersonalNameData>,
-    context?: Partial<{ family: DutchFamily, birth: BirthContext }>
+    data?: Partial<DutchPersonalNameParams>,
+    context?: BirthContext<DutchFamily>
   ): Promise<DutchPersonalName[]> {
-    const family = context?.family ?? await generateDutchFamily()
+    const family = context?.family ?? await generateDutchFamily({ ...data?.birth?.family, nationality: 'Dutch' })
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = await drawStr(DutchPersonalNameTables[gender], gender === 'Masculine' ? 'Jan' : 'Maria')
-    return [new DutchPersonalName({ gender, personal }, { family })]
+    const personal = await drawStr(
+      DutchPersonalNameTables[gender],
+      DutchPersonalName.getDefaultPersonalName(gender)
+    )
+    return [new DutchPersonalName({ gender, personal }, birth)]
   }
 }
 

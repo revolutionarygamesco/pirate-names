@@ -4,9 +4,9 @@ import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import { genders, type Gender } from '../../types/enums/gender.ts'
 import { igboWeekdays, type IgboWeekday } from '../../types/enums/igbo-weekday.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import IgboPersonalName, { IgboPersonalNameTables, type IgboPersonalNameData } from './igbo.ts'
 import IgboFamily from '../families/igbo.ts'
 import IgboBirthContext from '../birth/igbo.ts'
+import IgboPersonalName, { IgboPersonalNameTables, type IgboPersonalNameParams } from './igbo.ts'
 
 describe('IgboPersonalNameTables', () => {
   const abbr: Record<IgboWeekday, string> = { Eke: 'ek', Oye: 'oy', Afor: 'af', Nkwo: 'nk' }
@@ -35,12 +35,10 @@ describe('IgboPersonalNameTables', () => {
 describe('IgboPersonalName', () => {
   const family = new IgboFamily({ patriarch: 'Equiano' })
   const birth = new IgboBirthContext({ igboWeekday: 'Afor' }, family)
-  const data: IgboPersonalNameData = {
+  const data: IgboPersonalNameParams = {
     nationality: 'Igbo',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Okoafọ Olaudah Equiano',
     day: 'Okoafọ',
     personal: 'Olaudah'
   }
@@ -84,7 +82,7 @@ describe('IgboPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new IgboPersonalName(data, { family, birth })
+        const instance = new IgboPersonalName(data, birth)
         expect(instance.full).toBe('Okoafọ Olaudah Equiano')
       })
     })
@@ -93,24 +91,48 @@ describe('IgboPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title with the personal name', () => {
-        const instance = new IgboPersonalName(data, { family, birth })
+        const instance = new IgboPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Olaudah')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new IgboPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new IgboPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Mister', Feminine: 'Misses' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Olaudah')
+        expect(actual.forms.full).toBe('Okoafọ Olaudah Equiano')
+        expect(actual.forms.mister).toBe('Mister Olaudah')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Béké for women', () => {
+        expect(IgboPersonalName.getDefaultPersonalName('Feminine')).toBe('Béké')
+      })
+
+      it('returns Vaniclei for men', () => {
+        expect(IgboPersonalName.getDefaultPersonalName('Masculine')).toBe('Vaniclei')
+      })
+    })
+
+    describe('getDefaultDayName', () => {
+      it('returns Ekemma for women', () => {
+        expect(IgboPersonalName.getDefaultDayName('Feminine')).toBe('Ekemma')
+      })
+
+      it('returns Okoeke for men', () => {
+        expect(IgboPersonalName.getDefaultDayName('Masculine')).toBe('Okoeke')
+      })
+    })
+
     describe('generator', () => {
-      const context = { birth: new IgboBirthContext({ igboWeekday: 'Afor' }) }
+      const family = new IgboFamily()
+      const context = new IgboBirthContext({ igboWeekday: 'Afor' }, family)
 
       it('can generate a masculine name', async () => {
         const [actual] = await IgboPersonalName.generate({ gender: 'Masculine' }, context)

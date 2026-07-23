@@ -1,15 +1,13 @@
 import { chance, selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import SpanishFamily, { SpanishFamilyNames, type SpanishFamilyData } from '../families/spanish.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 
-export interface SpanishPersonalNameData extends PersonalNameData {
-  family: SpanishFamilyData
-  short: string
-}
+export interface SpanishPersonalNameParams extends PersonalNameParams<BirthContextData<SpanishFamilyData>> {}
+export interface SpanishPersonalNameData extends PersonalNameData<BirthContextData<SpanishFamilyData>> {}
 
 export const SpanishPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('7RbOJKmELYZF6aX7'),
@@ -31,18 +29,16 @@ export const SpanishCompoundNames: Record<string, string[]> = {
     'Isabel', 'José', 'Luisa', 'Luna', 'Mercedes', 'Paula', 'Valentina']
 }
 
-class SpanishPersonalName extends PersonalName {
-  family: SpanishFamily
-
+class SpanishPersonalName extends PersonalName<SpanishFamily, BirthContext<SpanishFamily>> {
   constructor (
-    data?: Partial<SpanishPersonalNameData>,
-    context?: Partial<{ family: SpanishFamily, birth: BirthContext }>
+    data?: Partial<SpanishPersonalNameParams>,
+    context?: BirthContext<SpanishFamily>
   ) {
     super(data, context)
     this.nationality = 'Spanish'
-    this.family = context?.family ?? new SpanishFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Juan' : 'María')
+    const family = context?.family ?? new SpanishFamily({ ...data?.birth?.family, nationality: 'Spanish' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? SpanishPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -57,11 +53,12 @@ class SpanishPersonalName extends PersonalName {
     return `${title} ${this.family.name}`
   }
 
-  toObject (): SpanishPersonalNameData {
+  toObject (forms: TitleDict = {}): SpanishPersonalNameData {
+    const obj = super.toObject(forms)
+    obj.forms.short = this.short
     return {
-      ...super.toObject(),
-      family: this.family.toObject(),
-      short: this.short
+      ...obj,
+      birth: this.birth.toObject()
     }
   }
 
@@ -70,20 +67,32 @@ class SpanishPersonalName extends PersonalName {
     return []
   }
 
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'María',
+      Masculine: 'Juan'
+    })
+  }
+
   static async generate (
-    data?: Partial<SpanishPersonalNameData>,
-    context?: Partial<{ family: SpanishFamily }>
+    data?: Partial<SpanishPersonalNameParams>,
+    context?: BirthContext<SpanishFamily>
   ): Promise<SpanishPersonalName[]> {
-    const family = context?.family ?? await SpanishFamily.generate()
+    const family = context?.family ?? await SpanishFamily.generate(data?.birth?.family)
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
 
-    const given = data?.personal ?? await drawStr(SpanishPersonalNameTables[gender], gender === 'Masculine' ? 'Jean' : 'Marie')
+    const given = data?.personal ?? await drawStr(
+      SpanishPersonalNameTables[gender],
+      SpanishPersonalName.getDefaultPersonalName(gender)
+    )
+
     const compoundOptions = SpanishPersonalName.getCompoundOptions(given)
     const personal = compoundOptions.length > 0 && chance(1, 2)
       ? `${given} ${selectRandomElement(compoundOptions)}`
       : given
 
-    return [new SpanishPersonalName({ gender, personal }, { family })]
+    return [new SpanishPersonalName({ gender, personal }, birth)]
   }
 }
 

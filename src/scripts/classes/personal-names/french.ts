@@ -1,14 +1,13 @@
 import { chance, selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import FrenchFamily, { FrenchFamilyNames, type FrenchFamilyData } from '../families/french.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
-export interface FrenchPersonalNameData extends PersonalNameData {
-  family: FrenchFamilyData
-}
+export interface FrenchPersonalNameParams extends PersonalNameParams<BirthContextData<FrenchFamilyData>> {}
+export interface FrenchPersonalNameData extends PersonalNameData<BirthContextData<FrenchFamilyData>> {}
 
 export const FrenchPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('WPdAj2c6hKX2a4v3'),
@@ -25,18 +24,16 @@ export const FrenchCompoundNames: Record<string, string[]> = {
   Anne: ['Sophie', 'Élisabeth', 'Marie', 'Laure', 'Louise', 'Marguerite']
 }
 
-class FrenchPersonalName extends PersonalName {
-  family: FrenchFamily
-
+class FrenchPersonalName extends PersonalName<FrenchFamily, BirthContext<FrenchFamily>> {
   constructor (
-    data?: Partial<FrenchPersonalNameData>,
-    context?: Partial<{ family: FrenchFamily, birth: BirthContext }>
+    data?: Partial<FrenchPersonalNameParams>,
+    context?: BirthContext<FrenchFamily>
   ) {
     super(data, context)
     this.nationality = 'French'
-    this.family = context?.family ?? new FrenchFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Jean' : 'Marie')
+    const family = context?.family ?? new FrenchFamily({ ...data?.birth?.family, nationality: 'French' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? FrenchPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -47,11 +44,11 @@ class FrenchPersonalName extends PersonalName {
     return `${title} ${this.family.name}`
   }
 
-  toObject (): FrenchPersonalNameData {
-    return {
-      ...super.toObject(),
-      family: this.family.toObject()
-    }
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Marie',
+      Masculine: 'Jean'
+    })
   }
 
   static getCompoundOptions (base: string): string[] {
@@ -60,19 +57,23 @@ class FrenchPersonalName extends PersonalName {
   }
 
   static async generate (
-    data?: Partial<FrenchPersonalNameData>,
-    context?: Partial<{ family: FrenchFamily }>
+    data?: Partial<FrenchPersonalNameParams>,
+    context?: BirthContext<FrenchFamily>
   ): Promise<FrenchPersonalName[]> {
-    const family = context?.family ?? await FrenchFamily.generate()
+    const family = context?.family ?? await FrenchFamily.generate(data?.birth?.family)
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
 
-    const given = data?.personal ?? await drawStr(FrenchPersonalNameTables[gender], gender === 'Masculine' ? 'Jean' : 'Marie')
+    const given = data?.personal ?? await drawStr(
+      FrenchPersonalNameTables[gender],
+      FrenchPersonalName.getDefaultPersonalName(gender)
+    )
     const compoundOptions = FrenchPersonalName.getCompoundOptions(given)
     const personal = compoundOptions.length > 0 && chance(1, 2)
       ? `${given}-${selectRandomElement(compoundOptions)}`
       : given
 
-    return [new FrenchPersonalName({ gender, personal }, { family })]
+    return [new FrenchPersonalName({ gender, personal }, birth)]
   }
 }
 

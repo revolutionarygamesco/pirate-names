@@ -8,7 +8,7 @@ import SpanishFamily from '../families/spanish.ts'
 import SpanishPersonalName, {
   SpanishPersonalNameTables,
   SpanishCompoundNames,
-  type SpanishPersonalNameData
+  type SpanishPersonalNameParams
 } from './spanish.ts'
 
 describe('SpanishPersonalNameTables', () => {
@@ -31,13 +31,10 @@ describe('SpanishPersonalNameTables', () => {
 describe('SpanishPersonalName', () => {
   const family = new SpanishFamily({ name: 'Pargo', full: 'Rodríguez-Felipe y Tejera Machado' })
   const birth = new BirthContext({}, family)
-  const data: SpanishPersonalNameData = {
+  const data: SpanishPersonalNameParams = {
     nationality: 'Spanish',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Amaro Rodríguez-Felipe y Tejera Machado',
-    short: 'Amaro Pargo',
     personal: 'Amaro'
   }
 
@@ -89,14 +86,14 @@ describe('SpanishPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new SpanishPersonalName(data, { family, birth })
+        const instance = new SpanishPersonalName(data, birth)
         expect(instance.full).toBe('Amaro Rodríguez-Felipe y Tejera Machado')
       })
     })
 
     describe('short', () => {
       it('returns a shortened version', () => {
-        const instance = new SpanishPersonalName(data, { family, birth })
+        const instance = new SpanishPersonalName(data, birth)
         expect(instance.short).toBe('Amaro Pargo')
       })
     })
@@ -105,17 +102,21 @@ describe('SpanishPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title with the family name', () => {
-        const instance = new SpanishPersonalName(data, { family, birth })
+        const instance = new SpanishPersonalName(data, birth)
         expect(instance.address('Señor')).toBe('Señor Pargo')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new SpanishPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new SpanishPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Señor', Feminine: 'Señora' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Amaro')
+        expect(actual.forms.full).toBe('Amaro Rodríguez-Felipe y Tejera Machado')
+        expect(actual.forms.short).toBe('Amaro Pargo')
+        expect(actual.forms.mister).toBe('Señor Pargo')
       })
     })
   })
@@ -132,6 +133,16 @@ describe('SpanishPersonalName', () => {
       }) as Array<[number, string]>)('returns %d options for %s', (expected, name) => {
         const actual = SpanishPersonalName.getCompoundOptions(name)
         expect(actual).toHaveLength(expected)
+      })
+    })
+
+    describe('getDefaultPersonalName', () => {
+      it('returns María for women', () => {
+        expect(SpanishPersonalName.getDefaultPersonalName('Feminine')).toBe('María')
+      })
+
+      it('returns Juan for men', () => {
+        expect(SpanishPersonalName.getDefaultPersonalName('Masculine')).toBe('Juan')
       })
     })
 

@@ -1,15 +1,16 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import IgboBirthContext, { type IgboBirthContextData } from '../birth/igbo.ts'
-import IgboFamily, { IgboMasculineNames, type IgboFamilyData } from '../families/igbo.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import IgboFamily, { IgboMasculineNames } from '../families/igbo.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 
-export interface IgboPersonalNameData extends PersonalNameData {
-  family: IgboFamilyData
-  birth: IgboBirthContextData
+interface IgboPersonalNameCore {
   day: string
 }
+
+export interface IgboPersonalNameParams extends PersonalNameParams<IgboBirthContextData>, IgboPersonalNameCore {}
+export interface IgboPersonalNameData extends PersonalNameData<IgboBirthContextData>, IgboPersonalNameCore {}
 
 export const IgboPersonalNameTables = {
   Feminine: getRollTableUUID('zZu80jKYxdX3WrSa'),
@@ -34,21 +35,19 @@ export const IgboPersonalNameTables = {
   }
 }
 
-class IgboPersonalName extends PersonalName {
-  family: IgboFamily
-  birth: IgboBirthContext
+class IgboPersonalName extends PersonalName<IgboFamily, IgboBirthContext> {
   day: string
 
   constructor (
-    data?: Partial<IgboPersonalNameData>,
-    context?: Partial<{ family: IgboFamily, birth: IgboBirthContext }>
+    data?: Partial<IgboPersonalNameParams>,
+    context?: IgboBirthContext
   ) {
     super(data, context)
     this.nationality = 'Igbo'
-    this.family = context?.family ?? new IgboFamily(data?.family)
-    this.birth = context?.birth ?? new IgboBirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-    this.day = data?.day ?? (this.gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
+    const family = context?.family ?? new IgboFamily({ ...data?.birth?.family, nationality: 'Igbo' })
+    this.birth = context ?? new IgboBirthContext(data?.birth, family)
+    this.personal = data?.personal ?? IgboPersonalName.getDefaultPersonalName(this.gender)
+    this.day = data?.day ?? IgboPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -59,25 +58,46 @@ class IgboPersonalName extends PersonalName {
     return `${title} ${this.personal}`
   }
 
-  toObject (): IgboPersonalNameData {
+  toObject (forms: TitleDict = {}): IgboPersonalNameData {
     return {
-      ...super.toObject(),
-      family: this.family.toObject(),
-      birth: this.birth.toObject(),
+      ...super.toObject(forms),
+      birth: this.birth.toObject (),
       day: this.day
     }
   }
 
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Béké',
+      Masculine: 'Vaniclei'
+    })
+  }
+
+  static getDefaultDayName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Ekemma',
+      Masculine: 'Okoeke'
+    })
+  }
+
   static async generate (
-    data?: Partial<IgboPersonalNameData>,
-    context?: Partial<{ family: IgboFamily, birth: IgboBirthContext }>
+    data?: Partial<IgboPersonalNameParams>,
+    context?: IgboBirthContext
   ): Promise<IgboPersonalName[]> {
-    const family = context?.family ?? await IgboFamily.generate()
-    const birth = context?.birth ?? new IgboBirthContext(data?.birth, family)
+    const family = context?.family ?? await IgboFamily.generate(data?.birth?.family)
+    const birth = context ?? new IgboBirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = data?.personal ?? await drawStr(IgboPersonalNameTables[gender], gender === 'Masculine' ? 'Ougeromba' : 'Houanizei')
-    const day = await drawStr(IgboPersonalNameTables.WeekdayNames[birth.igboWeekday][gender], gender === 'Masculine' ? 'Okoeke' : 'Ekemma')
-    return [new IgboPersonalName({ gender, personal, day }, { family, birth })]
+    const personal = data?.personal ?? await drawStr(
+      IgboPersonalNameTables[gender],
+      IgboPersonalName.getDefaultPersonalName(gender),
+    )
+
+    const day = await drawStr(
+      IgboPersonalNameTables.WeekdayNames[birth.igboWeekday][gender],
+      IgboPersonalName.getDefaultDayName(gender)
+    )
+
+    return [new IgboPersonalName({ gender, personal, day }, birth)]
   }
 }
 

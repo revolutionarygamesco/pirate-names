@@ -4,12 +4,15 @@ import { type Weekday } from '../../types/enums/weekday.ts'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import Family from '../families/base.ts'
 import BirthContext from '../birth/base.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 
-export interface FonPersonalNameData extends PersonalNameData {
+interface FonPersonalNameCore {
   day: string
 }
+
+export interface FonPersonalNameParams extends PersonalNameParams, FonPersonalNameCore {}
+export interface FonPersonalNameData extends PersonalNameData, FonPersonalNameCore {}
 
 export const FonPersonalNameTables = {
   Feminine: getRollTableUUID('dMeVOYZnSWMjyaZy'),
@@ -63,13 +66,15 @@ class FonPersonalName extends PersonalName {
   day: string
 
   constructor (
-    data?: Partial<FonPersonalNameData>,
-    context?: Partial<{ family: Family, birth: BirthContext }>
+    data?: Partial<FonPersonalNameParams>,
+    context?: BirthContext
   ) {
     super(data, context)
+    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Fon' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
     this.nationality = 'Fon'
     this.day = data?.day ?? FonPersonalName.selectRandomDayName(this.birth.weekday, this.gender)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Hounsou' : 'Hounsi')
+    this.personal = data?.personal ?? FonPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get circumstanceName (): string | null {
@@ -89,16 +94,18 @@ class FonPersonalName extends PersonalName {
     return names.join(' ')
   }
 
-  toObject (): FonPersonalNameData {
+  toObject (forms: TitleDict ={}): FonPersonalNameData {
     return {
-      nationality: this.nationality,
-      family: this.family.toObject(),
-      birth: this.birth.toObject(),
-      gender: this.gender,
-      full: this.full,
-      personal: this.personal,
+      ...super.toObject(forms),
       day: this.day
     }
+  }
+
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Hounsi',
+      Masculine: 'Hounsou'
+    })
   }
 
   static selectRandomDayName (day: Weekday, gender: Gender): string {
@@ -106,16 +113,19 @@ class FonPersonalName extends PersonalName {
   }
 
   static async generate (
-    data?: Partial<FonPersonalNameData>,
-    context?: Partial<{ family: Family, birth: BirthContext }>
+    data?: Partial<FonPersonalNameParams>,
+    context?: BirthContext
   ): Promise<FonPersonalName[]> {
-    const family = context?.family ?? new Family()
-    const birth = context?.birth ?? new BirthContext()
+    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Fon' })
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
 
-    const personal = await drawStr(FonPersonalNameTables[gender], gender === 'Feminine' ? 'Hounsou' : 'Hounsi')
+    const personal = await drawStr(
+      FonPersonalNameTables[gender],
+      FonPersonalName.getDefaultPersonalName(gender)
+    )
     const day = FonPersonalName.selectRandomDayName(birth.weekday, gender)
-    return [new FonPersonalName({ gender, personal, day }, { family, birth })]
+    return [new FonPersonalName({ gender, personal, day }, birth)]
   }
 }
 

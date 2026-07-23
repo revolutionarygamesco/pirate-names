@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import MandinkaFamily from '../families/mandinka.ts'
-import MandinkaPersonalName, { MandinkaPersonalNameTables, type MandinkaPersonalNameData } from './mandinka.ts'
+import MandinkaPersonalName, { MandinkaPersonalNameTables, type MandinkaPersonalNameParams } from './mandinka.ts'
 
 describe('MandinkaPersonalNameTables', () => {
   it('imports the Mandinka feminine name table', () => {
@@ -22,12 +22,10 @@ describe('MandinkaPersonalNameTables', () => {
 describe('MandinkaPersonalName', () => {
   const family = new MandinkaFamily({ caste: 'Foro', name: 'Keita' })
   const birth = new BirthContext({}, family)
-  const data: MandinkaPersonalNameData = {
+  const data: MandinkaPersonalNameParams = {
     nationality: 'Mandinka',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Sundiata Keita',
     personal: 'Sundiata'
   }
 
@@ -81,7 +79,7 @@ describe('MandinkaPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new MandinkaPersonalName(data, { family, birth })
+        const instance = new MandinkaPersonalName(data, birth)
         expect(instance.full).toBe('Sundiata Keita')
       })
     })
@@ -90,23 +88,26 @@ describe('MandinkaPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title and family name', () => {
-        const instance = new MandinkaPersonalName(data, { family, birth })
-        expect(instance.address('Manding')).toBe('Manding Keita')
+        const instance = new MandinkaPersonalName(data, birth)
+        expect(instance.address('Manding')).toBe('Manding Sundiata')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new MandinkaPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new MandinkaPersonalName(data, birth)
+        const actual = instance.toObject({ king: { Masculine: 'Mansa', Feminine: 'Mansa' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Sundiata')
+        expect(actual.forms.full).toBe('Sundiata Keita')
+        expect(actual.forms.king).toBe('Mansa Sundiata')
       })
     })
   })
 
   describe('Static methods', () => {
-    const context = { family: new MandinkaFamily() }
+    const context = new BirthContext({}, new MandinkaFamily())
 
     describe('generator', () => {
       it('can generate a masculine name', async () => {

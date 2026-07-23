@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import PatrilinealFamily from '../families/patrilineal.ts'
-import MiskitoPersonalName, { MiskitoPersonalNameTables, type MiskitoPersonalNameData } from './miskito.ts'
+import MiskitoPersonalName, { MiskitoPersonalNameTables, type MiskitoPersonalNameParams } from './miskito.ts'
 
 describe('MiskitoPersonalNameTables', () => {
   it('imports the Mandinka feminine subjects table', () => {
@@ -32,12 +32,10 @@ describe('MiskitoPersonalNameTables', () => {
 describe('MiskitoPersonalName', () => {
   const family = new PatrilinealFamily()
   const birth = new BirthContext({}, family)
-  const data: MiskitoPersonalNameData = {
+  const data: MiskitoPersonalNameParams = {
     nationality: 'Miskito',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Feminine',
-    full: 'Slilma Sangni',
     personal: 'Slilma Sangni'
   }
 
@@ -87,7 +85,7 @@ describe('MiskitoPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new MiskitoPersonalName(data, { family, birth })
+        const instance = new MiskitoPersonalName(data, birth)
         expect(instance.full).toBe('Slilma Sangni')
       })
     })
@@ -96,22 +94,35 @@ describe('MiskitoPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('returns the concatenation of the title and personal name', () => {
-        const instance = new MiskitoPersonalName(data, { family, birth })
+        const instance = new MiskitoPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Slilma Sangni')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new MiskitoPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new MiskitoPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Mister', Feminine: 'Misses' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Slilma Sangni')
+        expect(actual.forms.full).toBe('Slilma Sangni')
+        expect(actual.forms.mister).toBe('Misses Slilma Sangni')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Kati Pihni for women', () => {
+        expect(MiskitoPersonalName.getDefaultPersonalName('Feminine')).toBe('Kati Pihni')
+      })
+
+      it('returns Lapta Tara for men', () => {
+        expect(MiskitoPersonalName.getDefaultPersonalName('Masculine')).toBe('Lapta Tara')
+      })
+    })
+
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [actual] = await MiskitoPersonalName.generate({ gender: 'Masculine' })

@@ -1,24 +1,44 @@
 import { selectRandomElement } from '@revolutionarygamesco/common'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import { nationalities, type Nationality } from '../../types/enums/nationality.ts'
-import Family, { type FamilyData } from '../families/base.ts'
+import Family from '../families/base.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 
-export interface PersonalNameData {
-  gender: Gender
-  nationality: Nationality,
-  family: FamilyData,
-  birth: BirthContextData,
-  personal: string
-  full: string
-}
+export type TitleDict = Record<string, Record<Gender, string>>
 
-abstract class PersonalName {
+interface PersonalNameCore<B extends BirthContextData = BirthContextData> {
   gender: Gender
   nationality: Nationality
-  family: Family
-  birth: BirthContext
+  birth: B
+}
+
+export interface PersonalNameParams<B extends BirthContextData = BirthContextData> extends PersonalNameCore<B> {
   personal: string
+}
+
+export interface PersonalNameData<B extends BirthContextData = BirthContextData> extends PersonalNameCore<B> {
+  forms: Record<string, string>
+}
+
+abstract class PersonalName<F extends Family = Family, B extends BirthContext<F> = BirthContext<F>> {
+  gender: Gender
+  nationality: Nationality
+  birth: B
+  personal: string
+
+  protected constructor (
+    data?: Partial<PersonalNameParams>,
+    context?: B
+  ) {
+    this.gender = data?.gender ?? selectRandomGender()
+    this.nationality = data?.nationality ?? selectRandomElement([...nationalities])
+    this.birth = context ?? (new BirthContext(data?.birth) as B)
+    this.personal = data?.personal ?? ''
+  }
+
+  get family (): F {
+    return this.birth.family
+  }
 
   get full (): string {
     return this.personal
@@ -28,26 +48,27 @@ abstract class PersonalName {
     return `${title} ${this.personal}`
   }
 
-  protected constructor (
-    data?: Partial<PersonalNameData>,
-    context?: Partial<{ family: Family, birth: BirthContext }>
-  ) {
-    this.gender = data?.gender ?? selectRandomGender()
-    this.nationality = data?.nationality ?? selectRandomElement([...nationalities])
-    this.family = context?.family ?? new Family(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth)
-    this.personal = data?.personal ?? 'Personal'
-  }
+  toObject (titles: TitleDict = {}): PersonalNameData {
+    const forms: Record<string, string> = {}
+    for (const key in titles) {
+      const title = titles[key][this.gender]
+      forms[key] = this.address(title)
+    }
 
-  toObject (): PersonalNameData {
     return {
       nationality: this.nationality,
       gender: this.gender,
-      family: this.family.toObject(),
       birth: this.birth.toObject(),
-      personal: this.personal,
-      full: this.full
+      forms: {
+        ...forms,
+        personal: this.personal,
+        full: this.full
+      }
     }
+  }
+
+  static getDefaultPersonalName (gender: Gender, defaultNames: Record<Gender, string>) {
+    return defaultNames[gender]
   }
 }
 

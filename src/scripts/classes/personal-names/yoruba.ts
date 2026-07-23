@@ -2,14 +2,16 @@ import { chance } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import YorubaBirthContext from '../birth/yoruba.ts'
-import YorubaFamily, { type YorubaFamilyData } from '../families/yoruba.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import YorubaBirthContext, { type YorubaBirthContextData } from '../birth/yoruba.ts'
+import YorubaFamily from '../families/yoruba.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 
-export interface YorubaPersonalNameData extends PersonalNameData {
-  family: YorubaFamilyData
+interface YorubaPersonalNameCore {
   destiny: string | null
 }
+
+export interface YorubaPersonalNameParams extends PersonalNameParams<YorubaBirthContextData>, YorubaPersonalNameCore {}
+export interface YorubaPersonalNameData extends PersonalNameData<YorubaBirthContextData>, YorubaPersonalNameCore {}
 
 export const YorubaPersonalNameTables = {
   Feminine: getRollTableUUID('iKoVbfys8guccYIP'),
@@ -43,14 +45,16 @@ export const destinyNames: Record<string, string> = {
   overseas: 'Tókúmbò'
 }
 
-class YorubaPersonalName extends PersonalName {
+class YorubaPersonalName extends PersonalName<YorubaFamily, YorubaBirthContext> {
   constructor (
-    data?: Partial<PersonalNameData>,
-    context?: Partial<{ family: YorubaFamily, birth: YorubaBirthContext }>
+    data?: Partial<YorubaPersonalNameParams>,
+    context?:YorubaBirthContext
   ) {
     super(data, context)
     this.nationality = 'Yoruba'
-    this.personal = data?.personal ?? 'Abáyọmí'
+    const family = context?.family ?? new YorubaFamily(data?.birth?.family)
+    this.birth = context ?? new YorubaBirthContext(data?.birth, family)
+    this.personal = data?.personal ?? YorubaPersonalName.getDefaultPersonalName()
   }
 
   get full (): string {
@@ -66,19 +70,23 @@ class YorubaPersonalName extends PersonalName {
     return null
   }
 
-  toObject (): YorubaPersonalNameData {
+  toObject (forms: TitleDict = {}): YorubaPersonalNameData {
     return {
-      ...super.toObject(),
-      family: this.family.toObject(),
+      ...super.toObject(forms),
       destiny: this.destiny
     }
   }
 
+  static getDefaultPersonalName () {
+    return 'Abáyọmí'
+  }
+
   static async generate (
-    data?: Partial<PersonalNameData>
+    data?: Partial<YorubaPersonalNameParams>,
+    context?: YorubaBirthContext
   ): Promise<YorubaPersonalName[]> {
-    const family = new YorubaFamily(data?.family)
-    const birth = new YorubaBirthContext(data?.birth, family)
+    const family = context?.family ?? new YorubaFamily(data?.birth?.family)
+    const birth = context ?? new YorubaBirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
 
     const useCommon = chance(1, 2)
@@ -87,18 +95,18 @@ class YorubaPersonalName extends PersonalName {
 
     if (useCommon) {
       const personal = await drawStr(YorubaPersonalNameTables[gender], 'Abáyọmí')
-      return [new YorubaPersonalName({ gender, personal }, { family, birth })]
+      return [new YorubaPersonalName({ gender, personal }, birth)]
     } else if (useAnimateSubj) {
       const predTable = useAnimatePred
         ? YorubaPersonalNameTables.Predicates.Animate
         : YorubaPersonalNameTables.Predicates.Core
       const subj = await drawStr(YorubaPersonalNameTables.Subjects[gender], gender === 'Feminine' ? 'Ọ̀ṣun' : 'Ṣàngó')
       const pred = await drawStr(predTable, 'yẹmí')
-      return [new YorubaPersonalName({ gender, personal: subj + pred }, { family, birth })]
+      return [new YorubaPersonalName({ gender, personal: subj + pred }, birth)]
     } else {
       const subj = await drawStr(YorubaPersonalNameTables.Subjects.Inanimate, 'Adé')
       const pred = await drawStr(YorubaPersonalNameTables.Predicates.Core, 'yẹmí')
-      return [new YorubaPersonalName({ gender, personal: subj + pred }, { family, birth })]
+      return [new YorubaPersonalName({ gender, personal: subj + pred }, birth)]
     }
   }
 }

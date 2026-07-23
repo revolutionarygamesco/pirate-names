@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import PatrilinealFamily from '../families/patrilineal.ts'
-import TainoPersonalName, { TainoPersonalNameTables, type TainoPersonalNameData } from './taino.ts'
+import TainoPersonalName, { TainoPersonalNameTables, type TainoPersonalNameParams } from './taino.ts'
 
 describe('TainoPersonalNameTables', () => {
   it('imports the Taíno feminine subjects table', () => {
@@ -32,12 +32,10 @@ describe('TainoPersonalNameTables', () => {
 describe('TainoPersonalName', () => {
   const family = new PatrilinealFamily()
   const birth = new BirthContext({}, family)
-  const data: TainoPersonalNameData = {
+  const data: TainoPersonalNameParams = {
     nationality: 'Taíno',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Agüeybaná',
     personal: 'Agüeybaná'
   }
 
@@ -87,7 +85,7 @@ describe('TainoPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new TainoPersonalName(data, { family, birth })
+        const instance = new TainoPersonalName(data, birth)
         expect(instance.full).toBe('Agüeybaná')
       })
     })
@@ -96,17 +94,20 @@ describe('TainoPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('returns the concatenation of the title and personal name', () => {
-        const instance = new TainoPersonalName(data, { family, birth })
+        const instance = new TainoPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Agüeybaná')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new TainoPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new TainoPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Mister', Feminine: 'Misses' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Agüeybaná')
+        expect(actual.forms.full).toBe('Agüeybaná')
+        expect(actual.forms.mister).toBe('Mister Agüeybaná')
       })
     })
   })
@@ -126,6 +127,16 @@ describe('TainoPersonalName', () => {
       it('doesn’t break if you just give it one thing', () => {
         const actual = TainoPersonalName.concatWithElision('1')
         expect(actual).toEqual('1')
+      })
+    })
+
+    describe('getDefaultPersonalName', () => {
+      it('returns Anacaona for women', () => {
+        expect(TainoPersonalName.getDefaultPersonalName('Feminine')).toBe('Anacaona')
+      })
+
+      it('returns Güeybaná for men', () => {
+        expect(TainoPersonalName.getDefaultPersonalName('Masculine')).toBe('Güeybaná')
       })
     })
 

@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import WelshFamily from '../families/welsh.ts'
-import WelshPersonalName, { WelshPersonalNameTables, type WelshPersonalNameData } from './welsh.ts'
+import WelshPersonalName, { WelshPersonalNameTables, type WelshPersonalNameParams } from './welsh.ts'
 
 describe('WelshPersonalNameTables', () => {
   it('imports the Welsh surname table', () => {
@@ -27,12 +27,10 @@ describe('WelshPersonalNameTables', () => {
 describe('WelshPersonalName', () => {
   const family = new WelshFamily({ name: 'Roberts' })
   const birth = new BirthContext({}, family)
-  const data: WelshPersonalNameData = {
+  const data: WelshPersonalNameParams = {
     nationality: 'Welsh',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Bartholomew Roberts',
     personal: 'Bartholomew'
   }
 
@@ -100,15 +98,28 @@ describe('WelshPersonalName', () => {
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new WelshPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new WelshPersonalName(data, birth)
+        const actual = instance.toObject({ capt: { Masculine: 'Captain', Feminine: 'Captain' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Bartholomew')
+        expect(actual.forms.full).toBe('Bartholomew Roberts')
+        expect(actual.forms.capt).toBe('Captain Roberts')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Mary for women', () => {
+        expect(WelshPersonalName.getDefaultPersonalName('Feminine')).toBe('Mary')
+      })
+
+      it('returns William for men', () => {
+        expect(WelshPersonalName.getDefaultPersonalName('Masculine')).toBe('William')
+      })
+    })
+
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [actual] = await WelshPersonalName.generate({ gender: 'Masculine' })

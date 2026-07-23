@@ -6,7 +6,7 @@ import { genders, selectRandomGender, type Gender } from '../../types/enums/gend
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import YorubaFamily from '../families/yoruba.ts'
-import YorubaPersonalName, { YorubaPersonalNameTables, type YorubaPersonalNameData } from './yoruba.ts'
+import YorubaPersonalName, { YorubaPersonalNameTables, type YorubaPersonalNameParams } from './yoruba.ts'
 
 vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
   ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
@@ -55,12 +55,10 @@ describe('YorubaPersonalNameTables', () => {
 describe('YorubaPersonalName', () => {
   const family = new YorubaFamily()
   const birth = new BirthContext({ twin: false, special: null }, family)
-  const data: YorubaPersonalNameData = {
+  const data: YorubaPersonalNameParams = {
     nationality: 'Yoruba',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Lájẹ̀misìn',
     personal: 'Lájẹ̀misìn',
     destiny: null
   }
@@ -101,7 +99,7 @@ describe('YorubaPersonalName', () => {
     it('defaults to Abáyọmí for a masculine name', () => {
       const family = new YorubaFamily()
       const birth = new BirthContext({ twin: false, special: null }, family)
-      const actual = new YorubaPersonalName({ gender: 'Masculine' }, { family, birth })
+      const actual = new YorubaPersonalName({ gender: 'Masculine' }, birth)
       expect(actual.personal).toBe('Abáyọmí')
       expect(actual.full).toBe('Abáyọmí')
     })
@@ -109,7 +107,7 @@ describe('YorubaPersonalName', () => {
     it('defaults to Abáyọmí for a feminine name', () => {
       const family = new YorubaFamily()
       const birth = new BirthContext({ twin: false, special: null }, family)
-      const actual = new YorubaPersonalName({ gender: 'Feminine' }, { family, birth })
+      const actual = new YorubaPersonalName({ gender: 'Feminine' }, birth)
       expect(actual.personal).toBe('Abáyọmí')
       expect(actual.full).toBe('Abáyọmí')
     })
@@ -120,42 +118,42 @@ describe('YorubaPersonalName', () => {
       it('returns Táíwò for a senior twin', () => {
         const family = new YorubaFamily({ size: 3 })
         const birth = new BirthContext({ twin: 1, special: 'facedown' }, family)
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.destiny).toBe('Táíwò')
       })
 
       it('returns Kẹ́hìndé for a junior twin', () => {
         const family = new YorubaFamily({ size: 3 })
         const birth = new BirthContext({ twin: 2, special: 'facedown' }, family)
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.destiny).toBe('Kẹ́hìndé')
       })
 
       it('returns other birth circumstance names', () => {
         const family = new YorubaFamily({ size: 3 })
         const birth = new BirthContext({ twin: false, special: 'facedown' }, family)
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.destiny).toBe('Àjàyí')
       })
 
       it('returns null if there isn’t one', () => {
         const family = new YorubaFamily({ size: 3 })
         const birth = new BirthContext({ twin: false, special: null }, family)
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.destiny).toBeNull()
       })
     })
 
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.full).toBe('Lájẹ̀misìn')
       })
 
       it('includes the destiny name', () => {
         const family = new YorubaFamily({ size: 3 })
         const birth = new BirthContext({ twin: 1, special: 'facedown' }, family)
-        const instance = new YorubaPersonalName({}, { family, birth })
+        const instance = new YorubaPersonalName({}, birth)
         expect(instance.full).toBe('Táíwò Abáyọmí')
       })
     })
@@ -164,17 +162,20 @@ describe('YorubaPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('returns the concatenation of the title and personal name', () => {
-        const instance = new YorubaPersonalName(data, { family, birth })
+        const instance = new YorubaPersonalName(data, birth)
         expect(instance.address('Ọọ̀ni')).toBe('Ọọ̀ni Lájẹ̀misìn')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new YorubaPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new YorubaPersonalName(data, birth)
+        const actual = instance.toObject({ king: { Masculine: 'Ọọ̀ni', Feminine: 'Ọọ̀ni' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Lájẹ̀misìn')
+        expect(actual.forms.full).toBe('Lájẹ̀misìn')
+        expect(actual.forms.king).toBe('Ọọ̀ni Lájẹ̀misìn')
       })
     })
   })

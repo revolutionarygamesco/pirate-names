@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import KalinagoFamily from '../families/kalinago.ts'
-import KalinagoPersonalName, { KalinagoPersonalNameTables, type KalinagoPersonalNameData } from './kalinago.ts'
+import KalinagoPersonalName, { KalinagoPersonalNameTables, type KalinagoPersonalNameParams } from './kalinago.ts'
 
 describe('KalinagoPersonalNameTables', () => {
   it('imports the Kalinago feminine name table', () => {
@@ -22,12 +22,10 @@ describe('KalinagoPersonalNameTables', () => {
 describe('KalinagoPersonalName', () => {
   const family = new KalinagoFamily({ patriarch: 'Amulenei' })
   const birth = new BirthContext({}, family)
-  const data: KalinagoPersonalNameData = {
+  const data: KalinagoPersonalNameParams = {
     nationality: 'Kalinago',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Balifeti Amulenei',
     personal: 'Balifeti'
   }
 
@@ -80,7 +78,7 @@ describe('KalinagoPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new KalinagoPersonalName(data, { family, birth })
+        const instance = new KalinagoPersonalName(data, birth)
         expect(instance.full).toBe('Balifeti Amulenei')
       })
     })
@@ -89,22 +87,35 @@ describe('KalinagoPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title and the personal name', () => {
-        const instance = new KalinagoPersonalName(data, { family, birth })
+        const instance = new KalinagoPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Balifeti')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new KalinagoPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new KalinagoPersonalName(data, birth)
+        const actual = instance.toObject({ mister: { Masculine: 'Mister', Feminine: 'Misses' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Balifeti')
+        expect(actual.forms.full).toBe('Balifeti Amulenei')
+        expect(actual.forms.mister).toBe('Mister Balifeti')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Eliama for women', () => {
+        expect(KalinagoPersonalName.getDefaultPersonalName('Feminine')).toBe('Eliama')
+      })
+
+      it('returns Wukeri for men', () => {
+        expect(KalinagoPersonalName.getDefaultPersonalName('Masculine')).toBe('Wukeri')
+      })
+    })
+
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [actual] = await KalinagoPersonalName.generate({ gender: 'Masculine' })

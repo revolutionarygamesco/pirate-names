@@ -3,8 +3,9 @@ import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import Family from '../families/base.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
+export interface TainoPersonalNameParams extends PersonalNameParams {}
 export interface TainoPersonalNameData extends PersonalNameData {}
 
 export const TainoPersonalNameTables: Record<Gender, Record<'Subjects' | 'Modifiers', string>> = {
@@ -20,12 +21,14 @@ export const TainoPersonalNameTables: Record<Gender, Record<'Subjects' | 'Modifi
 
 class TainoPersonalName extends PersonalName {
   constructor (
-    data?: Partial<PersonalNameData>,
-    context?: Partial<{ family: Family, birth: BirthContext }>
+    data?: Partial<PersonalNameParams>,
+    context?: BirthContext
   ) {
     super(data, context)
     this.nationality = 'Taíno'
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Güeybaná' : 'Anacaona')
+    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Taíno' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? TainoPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -45,16 +48,26 @@ class TainoPersonalName extends PersonalName {
     return c
   }
 
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Anacaona',
+      Masculine: 'Güeybaná'
+    })
+  }
+
   static async generate (
-    data?: Partial<PersonalNameData>
+    data?: Partial<PersonalNameParams>,
+    context?: BirthContext
   ): Promise<TainoPersonalName[]> {
+    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Taíno' })
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    if (data?.personal) return [new TainoPersonalName({ gender, personal: data.personal, full: data?.full ?? data.personal })]
+    if (data?.personal) return [new TainoPersonalName({ gender, personal: data.personal }, birth)]
 
     const subj = await drawStr(TainoPersonalNameTables[gender].Subjects, gender === 'Masculine' ? 'Güey' : 'Ana')
     const mod = await drawStr(TainoPersonalNameTables[gender].Modifiers, gender === 'Masculine' ? 'baná' : 'caona')
     const personal = TainoPersonalName.concatWithElision(subj, mod)
-    return [new TainoPersonalName({ gender, personal, full: personal })]
+    return [new TainoPersonalName({ gender, personal }, birth)]
   }
 }
 

@@ -1,16 +1,15 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import separateParenthetical from '../../parenthetical.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import EnglishFamily from '../families/english.ts'
 import EnglishPersonalName from './english.ts'
 import IrishFamily, { IrishFamilyNames, type IrishFamilyData } from '../families/irish.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
-export interface IrishPersonalNameData extends PersonalNameData {
-  family: IrishFamilyData
-}
+export interface IrishPersonalNameParams extends PersonalNameParams<BirthContextData<IrishFamilyData>> {}
+export interface IrishPersonalNameData extends PersonalNameData<BirthContextData<IrishFamilyData>> {}
 
 export const IrishPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('FfWfEmYaVbJCx5i0'),
@@ -18,18 +17,16 @@ export const IrishPersonalNameTables: Record<string, string> = {
   Surnames: IrishFamilyNames
 }
 
-class IrishPersonalName extends PersonalName {
-  family: IrishFamily
-
+class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFamily>> {
   constructor (
-    data?: Partial<IrishPersonalNameData>,
-    context?: Partial<{ family: IrishFamily, birth: BirthContext }>
+    data?: Partial<IrishPersonalNameParams>,
+    context?: BirthContext<IrishFamily>
   ) {
     super(data)
     this.nationality = 'Irish'
-    this.family = context?.family ?? new IrishFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Pádraig' : 'Brid')
+    const family = context?.family ?? new IrishFamily({ ...data?.birth?.family, nationality: 'Irish' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? IrishPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -40,28 +37,39 @@ class IrishPersonalName extends PersonalName {
     return `${title} ${this.family.name}`
   }
 
-  toObject (): IrishPersonalNameData {
-    return {
-      ...super.toObject(),
-      family: this.family.toObject()
-    }
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Brid',
+      Masculine: 'Pádraig'
+    })
+  }
+
+  static getDefaultPersonalNameEnty (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Brid (Bridget)',
+      Masculine: 'Pádraig (Patrick)'
+    })
   }
 
   static async generate (
     data?: Partial<IrishPersonalNameData>,
     context?: Partial<{ family: IrishFamily }>
   ): Promise<[IrishPersonalName, EnglishPersonalName]> {
-    const family = context?.family ?? await IrishFamily.generate()
+    const family = context?.family ?? await IrishFamily.generate(data?.birth?.family)
+    const birth = new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const drawn = await drawStr(IrishPersonalNameTables[gender], gender === 'Masculine' ? 'Pádraig (Patrick)' : 'Brid (Bridget)')
+    const drawn = await drawStr(
+      IrishPersonalNameTables[gender],
+      IrishPersonalName.getDefaultPersonalNameEnty(gender)
+    )
     const { regular, parenthetical } = separateParenthetical(drawn)
 
     const { anglicization, ...base } = family
-    const english = new EnglishFamily({ ...base, name: anglicization })
+    const english = new BirthContext(data?.birth, new EnglishFamily({ ...base, name: anglicization }))
 
     return [
-      new IrishPersonalName({ gender, personal: regular }, { family }),
-      new EnglishPersonalName({ gender, personal: parenthetical }, { family: english })
+      new IrishPersonalName({ gender, personal: regular }, birth),
+      new EnglishPersonalName({ gender, personal: parenthetical }, english)
     ]
   }
 }

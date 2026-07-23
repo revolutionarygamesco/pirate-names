@@ -1,13 +1,12 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import ScottishFamily, { ScottishFamilyNames, type ScottishFamilyData } from '../families/scottish.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
-export interface ScottishPersonalNameData extends PersonalNameData {
-  family: ScottishFamilyData
-}
+export interface ScottishPersonalNameParams extends PersonalNameParams<BirthContextData<ScottishFamilyData>> {}
+export interface ScottishPersonalNameData extends PersonalNameData<BirthContextData<ScottishFamilyData>> {}
 
 export const ScottishPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('GDuEJy7cl7KpUddS'),
@@ -15,18 +14,16 @@ export const ScottishPersonalNameTables: Record<string, string> = {
   Surnames: ScottishFamilyNames
 }
 
-class ScottishPersonalName extends PersonalName {
-  family: ScottishFamily
-
+class ScottishPersonalName extends PersonalName<ScottishFamily, BirthContext<ScottishFamily>> {
   constructor (
-    data?: Partial<ScottishPersonalNameData>,
-    context?: Partial<{ family: ScottishFamily, birth: BirthContext }>
+    data?: Partial<ScottishPersonalNameParams>,
+    context?: BirthContext<ScottishFamily>
   ) {
     super(data, context)
     this.nationality = 'Scottish'
-    this.family = context?.family ?? new ScottishFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'John' : 'Mary')
+    const family = context?.family ?? new ScottishFamily({ ...data?.birth?.family, nationality: 'Scottish' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? ScottishPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
@@ -37,21 +34,25 @@ class ScottishPersonalName extends PersonalName {
     return `${title} ${this.family.name}`
   }
 
-  toObject (): ScottishPersonalNameData {
-    return {
-      ...super.toObject(),
-      family: this.family.toObject()
-    }
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Mary',
+      Masculine: 'John'
+    })
   }
 
   static async generate (
-    data?: Partial<ScottishPersonalNameData>,
-    context?: Partial<{ family: ScottishFamily }>
+    data?: Partial<ScottishPersonalNameParams>,
+    context?: BirthContext<ScottishFamily>
   ): Promise<ScottishPersonalName[]> {
-    const family = context?.family ?? await ScottishFamily.generate()
+    const family = context?.family ?? await ScottishFamily.generate(data?.birth?.family)
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = await drawStr(ScottishPersonalNameTables[gender], gender === 'Masculine' ? 'John' : 'Jane')
-    return [new ScottishPersonalName({ gender, personal }, { family })]
+    const personal = await drawStr(
+      ScottishPersonalNameTables[gender],
+      ScottishPersonalName.getDefaultPersonalName(gender)
+    )
+    return [new ScottishPersonalName({ gender, personal }, birth)]
   }
 }
 

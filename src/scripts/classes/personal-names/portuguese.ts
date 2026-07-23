@@ -1,15 +1,16 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import PortugueseFamily, { PortugueseFamilyNames, type PortugueseFamilyData } from '../families/portuguese.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 
-export interface PortuguesePersonalNameData extends PersonalNameData {
-  family: PortugueseFamilyData
-  short: string
+interface PortuguesePersonalNameCore {
   surnames: string
 }
+
+export interface PortuguesePersonalNameData extends PersonalNameData<BirthContextData<PortugueseFamilyData>>, PortuguesePersonalNameCore {}
+export interface PortuguesePersonalNameParams extends PersonalNameParams<BirthContextData<PortugueseFamilyData>>, PortuguesePersonalNameCore {}
 
 export const PortuguesePersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('sTahknOtK9nAiwNb'),
@@ -17,19 +18,18 @@ export const PortuguesePersonalNameTables: Record<string, string> = {
   Surnames: PortugueseFamilyNames
 }
 
-class PortuguesePersonalName extends PersonalName {
-  family: PortugueseFamily
+class PortuguesePersonalName extends PersonalName<PortugueseFamily, BirthContext<PortugueseFamily>> {
   surnames: string
 
   constructor (
-    data?: Partial<PortuguesePersonalNameData>,
-    context?: Partial<{ family: PortugueseFamily, birth: BirthContext }>
+    data?: Partial<PortuguesePersonalNameParams>,
+    context?: BirthContext<PortugueseFamily>
   ) {
     super(data, context)
     this.nationality = 'Portuguese'
-    this.family = context?.family ?? new PortugueseFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'João' : 'Maria')
+    const family = context?.family ?? new PortugueseFamily({ ...data?.birth?.family, nationality: 'Portuguese' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? PortuguesePersonalName.getDefaultPersonalName(this.gender)
     this.surnames = data?.surnames ?? this.family.createName()
   }
 
@@ -45,26 +45,37 @@ class PortuguesePersonalName extends PersonalName {
     return `${title} ${this.family.name}`
   }
 
-  toObject (): PortuguesePersonalNameData {
+  toObject (forms: TitleDict = {}): PortuguesePersonalNameData {
+    const obj = super.toObject(forms)
+    obj.forms.short = this.short
     return {
-      ...super.toObject(),
-      family: this.family.toObject(),
-      surnames: this.surnames,
-      short: this.short
+      ...obj,
+      birth: this.birth.toObject(),
+      surnames: this.surnames
     }
   }
 
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Maria',
+      Masculine: 'João'
+    })
+  }
+
   static async generate (
-    data?: Partial<PortuguesePersonalNameData>,
-    context?: Partial<{ family: PortugueseFamily, birth: BirthContext }>
+    data?: Partial<PortuguesePersonalNameParams>,
+    context?: BirthContext<PortugueseFamily>
   ): Promise<PortuguesePersonalName[]> {
-    const family = context?.family ?? await PortugueseFamily.generate()
-    const birth = context?.birth ?? new BirthContext(data?.birth, family)
+    const family = context?.family ?? await PortugueseFamily.generate({ ...data?.birth?.family, nationality: 'Portuguese' })
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = data?.personal ?? await drawStr(PortuguesePersonalNameTables[gender], gender === 'Masculine' ? 'João' : 'Maria')
+    const personal = data?.personal ?? await drawStr(
+      PortuguesePersonalNameTables[gender],
+      PortuguesePersonalName.getDefaultPersonalName(gender)
+    )
     const surnames = data?.surnames ?? family.createName()
 
-    return [new PortuguesePersonalName({ gender, personal, surnames }, { family, birth })]
+    return [new PortuguesePersonalName({ gender, personal, surnames }, birth)]
   }
 }
 

@@ -5,7 +5,7 @@ import { genders, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
 import IrishFamily from '../families/irish.ts'
-import IrishPersonalName, { IrishPersonalNameTables, type IrishPersonalNameData } from './irish.ts'
+import IrishPersonalName, { IrishPersonalNameTables, type IrishPersonalNameParams } from './irish.ts'
 
 describe('IrishPersonalNameTables', () => {
   it('imports the Irish surname table', () => {
@@ -27,12 +27,10 @@ describe('IrishPersonalNameTables', () => {
 describe('IrishPersonalName', () => {
   const family = new IrishFamily({ name: 'Ní Mháille' })
   const birth = new BirthContext({}, family)
-  const data: IrishPersonalNameData = {
+  const data: IrishPersonalNameParams = {
     nationality: 'Irish',
-    family: family.toObject(),
     birth: birth.toObject(),
-    gender: 'Masculine',
-    full: 'Gráinne Ní Mháille',
+    gender: 'Feminine',
     personal: 'Gráinne'
   }
 
@@ -86,7 +84,7 @@ describe('IrishPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new IrishPersonalName(data, { family, birth })
+        const instance = new IrishPersonalName(data, birth)
         expect(instance.full).toBe('Gráinne Ní Mháille')
       })
     })
@@ -95,22 +93,45 @@ describe('IrishPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('concatenates the title and the family name', () => {
-        const instance = new IrishPersonalName(data, { family, birth })
+        const instance = new IrishPersonalName(data, birth)
         expect(instance.address('Banríon')).toBe('Banríon Ní Mháille')
       })
     })
 
     describe('toObject', () => {
       it('returns a data object', () => {
-        const instance = new IrishPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
+        const instance = new IrishPersonalName(data, birth)
+        const actual = instance.toObject({ king: { Masculine: 'Rí', Feminine: 'Banríon' } })
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Gráinne')
+        expect(actual.forms.full).toBe('Gráinne Ní Mháille')
+        expect(actual.forms.king).toBe('Banríon Ní Mháille')
       })
     })
   })
 
   describe('Static methods', () => {
+    describe('getDefaultPersonalName', () => {
+      it('returns Brid for women', () => {
+        expect(IrishPersonalName.getDefaultPersonalName('Feminine')).toBe('Brid')
+      })
+
+      it('returns Pádraig for men', () => {
+        expect(IrishPersonalName.getDefaultPersonalName('Masculine')).toBe('Pádraig')
+      })
+    })
+
+    describe('getDefaultPersonalNameEnty', () => {
+      it('returns Brid (Bridget) for women', () => {
+        expect(IrishPersonalName.getDefaultPersonalNameEnty('Feminine')).toBe('Brid (Bridget)')
+      })
+
+      it('returns Pádraig (Patrick) for men', () => {
+        expect(IrishPersonalName.getDefaultPersonalNameEnty('Masculine')).toBe('Pádraig (Patrick)')
+      })
+    })
+
     describe('generator', () => {
       it('can generate a masculine name', async () => {
         const [irish, english] = await IrishPersonalName.generate({ gender: 'Masculine' })

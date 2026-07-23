@@ -1,54 +1,53 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import { selectRandomGender } from '../../types/enums/gender.ts'
+import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
-import BirthContext from '../birth/base.ts'
+import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import KalinagoFamily, { KalinagoMasculineNames, type KalinagoFamilyData } from '../families/kalinago.ts'
-import PersonalName, { type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
-
-export interface KalinagoPersonalNameData extends PersonalNameData {
-  family: KalinagoFamilyData
-}
+export interface KalinagoPersonalNameParams extends PersonalNameParams<BirthContextData<KalinagoFamilyData>> {}
+export interface KalinagoPersonalNameData extends PersonalNameData<BirthContextData<KalinagoFamilyData>> {}
 
 export const KalinagoPersonalNameTables: Record<string, string> = {
   Feminine: getRollTableUUID('yczM4bZ4HPALuC36'),
   Masculine: KalinagoMasculineNames
 }
 
-class KalinagoPersonalName extends PersonalName {
-  family: KalinagoFamily
-
+class KalinagoPersonalName extends PersonalName<KalinagoFamily, BirthContext<KalinagoFamily>> {
   constructor (
-    data?: Partial<KalinagoPersonalNameData>,
-    context?: Partial<{ family: KalinagoFamily, birth: BirthContext }>
+    data?: Partial<KalinagoPersonalNameParams>,
+    context?: BirthContext<KalinagoFamily>
   ) {
     super(data, context)
     this.nationality = 'Kalinago'
-    this.family = context?.family ?? new KalinagoFamily(data?.family)
-    this.birth = context?.birth ?? new BirthContext(data?.birth, this.family)
-    this.personal = data?.personal ?? (this.gender === 'Masculine' ? 'Wukeri' : 'Eliama')
+    const family = context?.family ?? new KalinagoFamily({ ...data?.birth?.family, nationality: 'Kalinago' })
+    this.birth = context ?? new BirthContext(data?.birth, family)
+    this.personal = data?.personal ?? KalinagoPersonalName.getDefaultPersonalName(this.gender)
   }
 
   get full (): string {
     return `${this.personal} ${this.family.renderPatronym()}`
   }
 
-  toObject (): KalinagoPersonalNameData {
-    return {
-      ...super.toObject(),
-      family: this.family.toObject()
-    }
+  static getDefaultPersonalName (gender: Gender): string {
+    return super.getDefaultPersonalName(gender, {
+      Feminine: 'Eliama',
+      Masculine: 'Wukeri'
+    })
   }
 
   static async generate (
-    data?: Partial<KalinagoPersonalNameData>,
-    context?: Partial<{ family: KalinagoFamily, birth: BirthContext }>
+    data?: Partial<KalinagoPersonalNameParams>,
+    context?: BirthContext<KalinagoFamily>
   ): Promise<KalinagoPersonalName[]> {
-    const family = context?.family ?? await KalinagoFamily.generate()
-    const birth = context?.birth ?? new BirthContext(data?.birth, family)
+    const family = context?.family ?? await KalinagoFamily.generate(data?.birth?.family)
+    const birth = context ?? new BirthContext(data?.birth, family)
     const gender = data?.gender ?? selectRandomGender()
-    const personal = await drawStr(KalinagoPersonalNameTables[gender], gender === 'Masculine' ? 'Wukeri' : 'Eliama')
-    return [new KalinagoPersonalName({ gender, personal }, { family, birth })]
+    const personal = await drawStr(
+      KalinagoPersonalNameTables[gender],
+      KalinagoPersonalName.getDefaultPersonalName(gender)
+    )
+    return [new KalinagoPersonalName({ gender, personal }, birth)]
   }
 }
 

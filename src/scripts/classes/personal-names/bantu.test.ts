@@ -4,9 +4,13 @@ import { loadYaml } from '@revolutionarygamesco/common/testing'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import { genders, type Gender } from '../../types/enums/gender.ts'
+import { type TitleDict } from './base.ts'
 import BirthContext from '../birth/base.ts'
 import BantuFamily from '../families/bantu.ts'
-import BantuPersonalName, { BantuPersonalNameTables, type BantuPersonalNameData } from './bantu.ts'
+import BantuPersonalName, {
+  BantuPersonalNameTables,
+  type BantuPersonalNameParams
+} from './bantu.ts'
 
 vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
   ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
@@ -40,12 +44,10 @@ describe('BantuPersonalNameTables', () => {
 describe('BantuPersonalName', () => {
   const family = new BantuFamily({ patriarch: 'Nkuwu' })
   const birth = new BirthContext({}, family)
-  const data: BantuPersonalNameData = {
+  const data: BantuPersonalNameParams = {
     nationality: 'Bantu',
-    family: family.toObject(),
     birth: birth.toObject(),
     gender: 'Masculine',
-    full: 'Nzinga a Nkuwu',
     personal: 'Nzinga'
   }
 
@@ -93,18 +95,18 @@ describe('BantuPersonalName', () => {
   describe('Accessor methods', () => {
     describe('full', () => {
       it('renders a full name', () => {
-        const instance = new BantuPersonalName(data, { family, birth })
-        expect(instance.full).toBe(data.full)
+        const instance = new BantuPersonalName(data, birth)
+        expect(instance.full).toBe('Nzinga a Nkuwu')
       })
 
       it('can render a full name with a santu name', () => {
-        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, { family, birth })
-        expect(instance.full).toBe(`Ntoni ${data.full}`)
+        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, birth)
+        expect(instance.full).toBe('Ntoni Nzinga a Nkuwu')
       })
 
       it('can render a full name with an initiation name', () => {
-        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, { family, birth })
-        expect(instance.full).toBe(`${data.full} Lema`)
+        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, birth)
+        expect(instance.full).toBe('Nzinga a Nkuwu Lema')
       })
     })
   })
@@ -112,33 +114,43 @@ describe('BantuPersonalName', () => {
   describe('Instance methods', () => {
     describe('address', () => {
       it('returns title with person name', () => {
-        const instance = new BantuPersonalName(data, { family, birth })
+        const instance = new BantuPersonalName(data, birth)
         expect(instance.address('Mister')).toBe('Mister Nzinga')
       })
     })
 
     describe('toObject', () => {
+      const forms: TitleDict = {
+        mister: {
+          Masculine: 'Mister',
+          Feminine: 'Misses'
+        }
+      }
+
       it('returns a data object', () => {
-        const instance = new BantuPersonalName(data, { family, birth })
-        const actual = instance.toObject()
-        expect(actual).toEqual(data)
-        expect(actual).not.toBe(data)
-        expect(actual.santu).not.toBeDefined()
-        expect(actual.initiation).not.toBeDefined()
+        const instance = new BantuPersonalName(data, birth)
+        const actual = instance.toObject(forms)
+        expect(actual.birth).toEqual(birth.toObject())
+        expect(actual.gender).toEqual(instance.gender)
+        expect(actual.forms.personal).toBe('Nzinga')
+        expect(actual.forms.full).toBe('Nzinga a Nkuwu')
+        expect(actual.forms.mister).toBe('Mister Nzinga')
       })
 
       it('includes santu name if present', () => {
-        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, { family, birth })
-        const actual = instance.toObject()
+        const instance = new BantuPersonalName({ ...data, santu: 'Ntoni' }, birth)
+        const actual = instance.toObject(forms)
         expect(actual.santu).toBe('Ntoni')
         expect(actual.initiation).not.toBeDefined()
+        expect(actual.forms.mister).toBe('Mister Nzinga')
       })
 
       it('includes initiation name if present', () => {
-        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, { family, birth })
-        const actual = instance.toObject()
+        const instance = new BantuPersonalName({ ...data, initiation: 'Lema' }, birth)
+        const actual = instance.toObject(forms)
         expect(actual.santu).not.toBeDefined()
         expect(actual.initiation).toBe('Lema')
+        expect(actual.forms.mister).toBe('Mister Nzinga')
       })
     })
   })
@@ -158,6 +170,16 @@ describe('BantuPersonalName', () => {
       it('sometimes returns null', () => {
         mockRandom.mockReturnValueOnce(13)
         expect(BantuPersonalName.selectRandomBackground()).toBeNull()
+      })
+    })
+
+    describe('getDefaultInitiationlName', () => {
+      it('returns Lubondo for women', () => {
+        expect(BantuPersonalName.getDefaultInitiationlName('Feminine')).toBe('Lubondo')
+      })
+
+      it('returns Nsumbu for men', () => {
+        expect(BantuPersonalName.getDefaultInitiationlName('Masculine')).toBe('Nsumbu')
       })
     })
 
