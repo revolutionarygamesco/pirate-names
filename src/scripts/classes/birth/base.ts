@@ -31,7 +31,7 @@ class BirthContext<F extends Family = Family> {
     if (this.family.size < 2 || data?.twin === false) {
       this.twin = false
     } else {
-      this.twin = data?.twin ?? selectRandomTwinStatus(60)
+      this.twin = data?.twin ?? selectRandomTwinStatus(this.twinsPerK)
     }
 
     this.order = data?.order ?? selectRandomBetween(1, this.family.size)
@@ -46,6 +46,10 @@ class BirthContext<F extends Family = Family> {
 
   get last (): boolean {
     return this.order === this.family.size
+  }
+
+  protected get twinsPerK (): number {
+    return 60
   }
 
   toObject (): BirthContextData<ReturnType<F['toObject']>> {
