@@ -70,9 +70,9 @@ class YorubaPersonalName extends PersonalName<YorubaFamily, YorubaBirthContext> 
     return null
   }
 
-  toObject (forms: TitleDict = {}): YorubaPersonalNameData {
+  toObject (titles: TitleDict = {}): YorubaPersonalNameData {
     return {
-      ...super.toObject(forms),
+      ...super.toObject(titles),
       destiny: this.destiny
     }
   }

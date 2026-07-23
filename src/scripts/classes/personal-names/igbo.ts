@@ -58,10 +58,9 @@ class IgboPersonalName extends PersonalName<IgboFamily, IgboBirthContext> {
     return `${title} ${this.personal}`
   }
 
-  toObject (forms: TitleDict = {}): IgboPersonalNameData {
+  toObject (titles: TitleDict = {}): IgboPersonalNameData {
     return {
-      ...super.toObject(forms),
-      birth: this.birth.toObject (),
+      ...super.toObject(titles),
       day: this.day
     }
   }

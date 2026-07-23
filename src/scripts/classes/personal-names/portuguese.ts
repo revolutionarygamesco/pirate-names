@@ -45,12 +45,11 @@ class PortuguesePersonalName extends PersonalName<PortugueseFamily, BirthContext
     return `${title} ${this.family.name}`
   }
 
-  toObject (forms: TitleDict = {}): PortuguesePersonalNameData {
-    const obj = super.toObject(forms)
+  toObject (titles: TitleDict = {}): PortuguesePersonalNameData {
+    const obj = super.toObject(titles)
     obj.forms.short = this.short
     return {
       ...obj,
-      birth: this.birth.toObject(),
       surnames: this.surnames
     }
   }

@@ -87,22 +87,22 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
     }
   }
 
-  toObject (forms: TitleDict = {}): BantuPersonalNameData {
-    if (this.santu) return this.toChristianObject(forms)
-    if (this.initiation) return this.toTraditionalObject(forms)
-    return this.toBaseObject(forms)
+  toObject (titles: TitleDict = {}): BantuPersonalNameData {
+    if (this.santu) return this.toChristianObject(titles)
+    if (this.initiation) return this.toTraditionalObject(titles)
+    return this.toBaseObject(titles)
   }
 
-  toChristianObject (forms: TitleDict = {}): BantuChristianData {
+  toChristianObject (titles: TitleDict = {}): BantuChristianData {
     return {
-      ...this.toBaseObject(forms),
+      ...this.toBaseObject(titles),
       santu: this.santu ?? 'Ntoni'
     }
   }
 
-  toTraditionalObject (forms: TitleDict = {}): BantuTraditionalData {
+  toTraditionalObject (titles: TitleDict = {}): BantuTraditionalData {
     return {
-      ...this.toBaseObject(forms),
+      ...this.toBaseObject(titles),
       initiation: this.initiation ?? BantuPersonalName.getDefaultInitiationName(this.gender)
     }
   }

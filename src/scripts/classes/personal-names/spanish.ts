@@ -53,13 +53,10 @@ class SpanishPersonalName extends PersonalName<SpanishFamily, BirthContext<Spani
     return `${title} ${this.family.name}`
   }
 
-  toObject (forms: TitleDict = {}): SpanishPersonalNameData {
-    const obj = super.toObject(forms)
+  toObject (titles: TitleDict = {}): SpanishPersonalNameData {
+    const obj = super.toObject(titles)
     obj.forms.short = this.short
-    return {
-      ...obj,
-      birth: this.birth.toObject()
-    }
+    return obj
   }
 
   static getCompoundOptions (base: string): string[] {

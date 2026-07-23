@@ -48,7 +48,7 @@ abstract class PersonalName<F extends Family = Family, B extends BirthContext<F>
     return `${title} ${this.personal}`
   }
 
-  toObject (titles: TitleDict = {}): PersonalNameData {
+  toObject (titles: TitleDict = {}): PersonalNameData<ReturnType<B['toObject']>> {
     const forms: Record<string, string> = {}
     for (const key in titles) {
       const title = titles[key][this.gender]
@@ -58,7 +58,7 @@ abstract class PersonalName<F extends Family = Family, B extends BirthContext<F>
     return {
       nationality: this.nationality,
       gender: this.gender,
-      birth: this.birth.toObject(),
+      birth: this.birth.toObject() as ReturnType<B['toObject']>,
       forms: {
         ...forms,
         personal: this.personal,

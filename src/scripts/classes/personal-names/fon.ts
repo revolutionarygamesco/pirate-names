@@ -94,9 +94,9 @@ class FonPersonalName extends PersonalName {
     return names.join(' ')
   }
 
-  toObject (forms: TitleDict ={}): FonPersonalNameData {
+  toObject (titles: TitleDict ={}): FonPersonalNameData {
     return {
-      ...super.toObject(forms),
+      ...super.toObject(titles),
       day: this.day
     }
   }
