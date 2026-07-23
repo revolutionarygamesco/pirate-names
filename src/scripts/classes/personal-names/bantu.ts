@@ -1,5 +1,5 @@
 import { selectRandomBetween, isString } from '@revolutionarygamesco/common'
-import { getObjectRecord } from '@revolutionarygamesco/common/testing'
+import { getObjectRecord } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
