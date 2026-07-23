@@ -6,14 +6,14 @@ import AkanFamily, { type AkanFamilyData } from '../families/akan.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import PersonalName, { type PersonalNameParams, type PersonalNameData } from './base.ts'
 
-interface AkanPersonalNamCore {
+interface AkanPersonalNameCore {
   order: string
   circumstance: string | null
   twin: string | null
 }
 
-export interface AkanPersonalNameParams extends PersonalNameParams, AkanPersonalNamCore {}
-export interface AkanPersonalNameData extends PersonalNameData<BirthContextData<AkanFamilyData>>, AkanPersonalNamCore {}
+export interface AkanPersonalNameParams extends PersonalNameParams, AkanPersonalNameCore {}
+export interface AkanPersonalNameData extends PersonalNameData<BirthContextData<AkanFamilyData>>, AkanPersonalNameCore {}
 
 export const AkanPersonalNameTables = {
   Sunday: {

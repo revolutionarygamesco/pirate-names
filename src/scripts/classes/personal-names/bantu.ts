@@ -103,7 +103,7 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
   toTraditionalObject (forms: TitleDict = {}): BantuTraditionalData {
     return {
       ...this.toBaseObject(forms),
-      initiation: this.initiation ?? BantuPersonalName.getDefaultInitiationlName(this.gender)
+      initiation: this.initiation ?? BantuPersonalName.getDefaultInitiationName(this.gender)
     }
   }
 
@@ -114,7 +114,7 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
     return null
   }
 
-  static getDefaultInitiationlName (gender: Gender): string {
+  static getDefaultInitiationName (gender: Gender): string {
     return super.getDefaultPersonalName(gender, {
       Feminine: 'Lubondo',
       Masculine: 'Nsumbu'
@@ -139,7 +139,7 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
       extra = {
         initiation: await drawStr(
           BantuPersonalNameTables.Init[gender],
-          BantuPersonalName.getDefaultInitiationlName(gender)
+          BantuPersonalName.getDefaultInitiationName(gender)
         )
       }
     }
