@@ -9,7 +9,7 @@ const defaultOnComplete = async (nation: string, gender: string) => {
   const n: Nationality = isNationality(nation) ? nation : await selectRandomNationality(scope)
   const g: Gender = isGender(gender) ? gender : selectRandomGender()
   const whisper = [game.user.id]
-  await generateName(n, g, whisper)
+  await generateName({ nationality: n, gender: g }, whisper)
 }
 
 const openGeneratePersonalNameDialog = async (
