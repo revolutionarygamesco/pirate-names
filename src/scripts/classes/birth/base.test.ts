@@ -1,13 +1,18 @@
 import {describe, expect, it, vi} from 'vitest'
 import { selectRandomElement, isWithinRange } from '@revolutionarygamesco/common'
 import { weekdays } from '../../types/enums/weekday.ts'
-import { type TwinStatus } from '../../types/twin.ts'
+import { selectRandomTwinStatus, type TwinStatus } from '../../types/twin.ts'
 import Family from '../families/base.ts'
 import BirthContext, { type BirthContextData } from './base.ts'
 
 vi.mock('@revolutionarygamesco/common', async (importOriginal) => ({
   ...await importOriginal<typeof import('@revolutionarygamesco/common')>(),
   selectRandomElement: vi.fn()
+}))
+
+vi.mock('../../types/twin.ts', async importOriginal => ({
+  ...await importOriginal<typeof import('../../types/twin.ts')>(),
+  selectRandomTwinStatus: vi.fn()
 }))
 
 const mockRandom = vi.mocked(selectRandomElement)
@@ -36,9 +41,14 @@ describe('BirthContext', () => {
       expect(actual.twin).toBe(twin)
     })
 
-    it('randomizes twin status by default', () => {
-      const actual = new BirthContext()
-      expect([1, 2, false]).toContain(actual.twin)
+    it('never makes senior twin the last born', () => {
+      const actual = new BirthContext({ twin: 1 }, family)
+      expect(actual.last).toBe(false)
+    })
+
+    it('never makes junior twin the first born', () => {
+      const actual = new BirthContext({ twin: 2 }, family)
+      expect(actual.order).toBeGreaterThan(1)
     })
 
     it('won’t make you a twin in a family of 1', () => {
@@ -79,6 +89,11 @@ describe('BirthContext', () => {
     it('can set special circumstances to null', () => {
       const actual = new BirthContext({ special: null })
       expect(actual.special).toBeNull()
+    })
+
+    it('sets the chance of twins at 60 per 1,000', () => {
+      new BirthContext({}, new Family({ size: 4 }))
+      expect(selectRandomTwinStatus).toHaveBeenCalledWith(60)
     })
   })
 
