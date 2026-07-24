@@ -4,7 +4,7 @@
   "version": "1.5.0",
   "type": "module",
   "scripts": {
-    "build": "npm run typecheck:build && vite build",
+    "build": "npm run typecheck:build && vite build && npm run pack",
     "pack": "node ./scripts/pack.js",
     "yamlify-personal": "node ./scripts/yamlify-personal.js",
     "complete-table": "node ./scripts/complete-table.js",
