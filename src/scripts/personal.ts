@@ -46,7 +46,7 @@ const generators: Record<Nationality, PersonalNameGenerator> = {
   Yoruba: YorubaPersonalName
 }
 
-const generateName = async (
+const generatePersonalName = async (
   params?: Partial<PersonalNameParams>,
   whisper?: string[]
 ): Promise<PersonalName[]> => {
@@ -57,4 +57,4 @@ const generateName = async (
   return names
 }
 
-export default generateName
+export default generatePersonalName

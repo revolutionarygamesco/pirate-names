@@ -1,16 +1,10 @@
 import { registerAPI } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from './settings.ts'
 
-import generateName from './full.ts'
-// import generateShipName, { generatePirateShipName } from './ship.ts'
+import generatePersonalName from './personal.ts'
 import openGeneratePersonalNameDialog from './dialogs/person.ts'
-// import openGenerateShipNameDialog from './dialogs/ship.ts'
 
 registerAPI(MODULE_ID, {
-  generateName,
-  //generateShipName,
-  //generatePirateShipName,
-  openGenerateNameDialog: openGeneratePersonalNameDialog,
+  generatePersonalName,
   openGeneratePersonalNameDialog,
-  //openGenerateShipNameDialog
 })

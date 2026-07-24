@@ -46,7 +46,7 @@
           "label": "Gender",
           "hint": "What gender should the name reflect?",
           "options": {
-            "Random": "Random",
+            "Random Gender": "Random Gender",
             "Masculine": "Masculine",
             "Feminine": "Feminine"
           }
