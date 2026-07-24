@@ -1,13 +1,18 @@
 {
   "revolutionary-piratenames": {
     "message": {
+      "speaker": "Pirate Name Generator",
       "flavor": {
-        "given": "Draws a {gender} {nation} given name.",
-        "surname": "Draws a {nation} surname.",
-        "full": "Draws a {gender} {nation} name.",
+        "personal": "Draws a personal name.",
         "ship": "Draws a {nation} ship name."
       },
-      "speaker": "Pirate Name Generator"
+      "versions": {
+        "lede": "<p><em>A {gender} {nationality} name&hellip;</em></p>",
+        "full": "<p><em>Full Name:</em> {full}</p>",
+        "short": "<p><em>Short Form:</em> {short}</p>",
+        "personal": "<p><em>Personal:</em> {personal}</p>",
+        "formal": "<p><em>Formal:</em> {formal}</p>"
+      }
     },
     "dialog": {
       "person": {
@@ -32,7 +37,7 @@
             "Portuguese": "Portuguese",
             "Scottish": "Scottish",
             "Spanish": "Spanish",
-            "Taino": "Taíno",
+            "Taíno": "Taíno",
             "Welsh": "Welsh",
             "Yoruba": "Yoruba"
           }
