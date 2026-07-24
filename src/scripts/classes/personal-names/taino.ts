@@ -1,8 +1,8 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
-import Family from '../families/base.ts'
 import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
 export interface TainoPersonalNameParams extends PersonalNameParams {}
@@ -20,14 +20,13 @@ export const TainoPersonalNameTables: Record<Gender, Record<'Subjects' | 'Modifi
 }
 
 class TainoPersonalName extends PersonalName {
+  protected static override nationality: Nationality = 'Taíno'
+
   constructor (
     data?: Partial<PersonalNameParams>,
     context?: BirthContext
   ) {
     super(data, context)
-    this.nationality = 'Taíno'
-    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Taíno' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? TainoPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -59,8 +58,7 @@ class TainoPersonalName extends PersonalName {
     data?: Partial<PersonalNameParams>,
     context?: BirthContext
   ): Promise<TainoPersonalName[]> {
-    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Taíno' })
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await TainoPersonalName.generateBirth(data?.birth)
     const gender = data?.gender ?? selectRandomGender()
     if (data?.personal) return [new TainoPersonalName({ gender, personal: data.personal }, birth)]
 

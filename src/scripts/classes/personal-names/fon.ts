@@ -2,7 +2,7 @@ import { selectRandomElement } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { type Weekday } from '../../types/enums/weekday.ts'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
-import Family from '../families/base.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import BirthContext from '../birth/base.ts'
 import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
@@ -65,14 +65,13 @@ const circumstanceNames: Record<string, Record<Gender, string>> = {
 class FonPersonalName extends PersonalName {
   day: string
 
+  protected static override nationality: Nationality = 'Fon'
+
   constructor (
     data?: Partial<FonPersonalNameParams>,
     context?: BirthContext
   ) {
     super(data, context)
-    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Fon' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
-    this.nationality = 'Fon'
     this.day = data?.day ?? FonPersonalName.selectRandomDayName(this.birth.weekday, this.gender)
     this.personal = data?.personal ?? FonPersonalName.getDefaultPersonalName(this.gender)
   }
@@ -116,8 +115,7 @@ class FonPersonalName extends PersonalName {
     data?: Partial<FonPersonalNameParams>,
     context?: BirthContext
   ): Promise<FonPersonalName[]> {
-    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Fon' })
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await FonPersonalName.generateBirth(data?.birth)
     const gender = data?.gender ?? selectRandomGender()
 
     const personal = await drawStr(

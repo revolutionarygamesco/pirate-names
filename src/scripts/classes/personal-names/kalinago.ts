@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import KalinagoFamily, { KalinagoMasculineNames, type KalinagoFamilyData } from '../families/kalinago.ts'
@@ -14,14 +15,14 @@ export const KalinagoPersonalNameTables: Record<string, string> = {
 }
 
 class KalinagoPersonalName extends PersonalName<KalinagoFamily, BirthContext<KalinagoFamily>> {
+  protected static override nationality: Nationality = 'Kalinago'
+  protected static override familyClass = KalinagoFamily
+
   constructor (
     data?: Partial<KalinagoPersonalNameParams>,
     context?: BirthContext<KalinagoFamily>
   ) {
     super(data, context)
-    this.nationality = 'Kalinago'
-    const family = context?.family ?? new KalinagoFamily({ ...data?.birth?.family, nationality: 'Kalinago' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? KalinagoPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -40,8 +41,7 @@ class KalinagoPersonalName extends PersonalName<KalinagoFamily, BirthContext<Kal
     data?: Partial<KalinagoPersonalNameParams>,
     context?: BirthContext<KalinagoFamily>
   ): Promise<KalinagoPersonalName[]> {
-    const family = context?.family ?? await KalinagoFamily.generate(data?.birth?.family)
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await KalinagoPersonalName.generateBirth(data?.birth) as BirthContext<KalinagoFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(
       KalinagoPersonalNameTables[gender],

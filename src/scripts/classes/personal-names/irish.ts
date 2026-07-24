@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
+import { type Gender, selectRandomGender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import separateParenthetical from '../../parenthetical.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
@@ -18,14 +19,14 @@ export const IrishPersonalNameTables: Record<string, string> = {
 }
 
 class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFamily>> {
+  protected static override nationality: Nationality = 'Irish'
+  protected static override familyClass = IrishFamily
+
   constructor (
     data?: Partial<IrishPersonalNameParams>,
     context?: BirthContext<IrishFamily>
   ) {
-    super(data)
-    this.nationality = 'Irish'
-    const family = context?.family ?? new IrishFamily({ ...data?.birth?.family, nationality: 'Irish' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
+    super(data, context)
     this.personal = data?.personal ?? IrishPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -53,10 +54,9 @@ class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFami
 
   static async generate (
     data?: Partial<IrishPersonalNameData>,
-    context?: Partial<{ family: IrishFamily }>
+    context?: BirthContext<IrishFamily>
   ): Promise<[IrishPersonalName, EnglishPersonalName]> {
-    const family = context?.family ?? await IrishFamily.generate(data?.birth?.family)
-    const birth = new BirthContext(data?.birth, family)
+    const birth = context ?? await IrishPersonalName.generateBirth(data?.birth) as BirthContext<IrishFamily>
     const gender = data?.gender ?? selectRandomGender()
     const drawn = await drawStr(
       IrishPersonalNameTables[gender],
@@ -64,7 +64,7 @@ class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFami
     )
     const { regular, parenthetical } = separateParenthetical(drawn)
 
-    const { anglicization, ...base } = family
+    const { anglicization, ...base } = birth.family
     const english = new BirthContext(data?.birth, new EnglishFamily({ ...base, name: anglicization }))
 
     return [

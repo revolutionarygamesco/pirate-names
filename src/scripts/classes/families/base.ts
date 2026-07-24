@@ -39,6 +39,12 @@ class Family {
       { range: [99, 100], value: 13 }
     ]) ?? 1
   }
+
+  static async generate (
+    data?: Partial<FamilyData>
+  ): Promise<Family> {
+    return new this(data)
+  }
 }
 
 export default Family

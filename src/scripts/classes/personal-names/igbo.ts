@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
+import { type Gender, selectRandomGender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import IgboBirthContext, { type IgboBirthContextData } from '../birth/igbo.ts'
 import IgboFamily, { IgboMasculineNames } from '../families/igbo.ts'
@@ -38,16 +39,20 @@ export const IgboPersonalNameTables = {
 class IgboPersonalName extends PersonalName<IgboFamily, IgboBirthContext> {
   day: string
 
+  protected static override nationality: Nationality = 'Igbo'
+  protected static override familyClass = IgboFamily
+
   constructor (
     data?: Partial<IgboPersonalNameParams>,
     context?: IgboBirthContext
   ) {
     super(data, context)
-    this.nationality = 'Igbo'
-    const family = context?.family ?? new IgboFamily({ ...data?.birth?.family, nationality: 'Igbo' })
-    this.birth = context ?? new IgboBirthContext(data?.birth, family)
     this.personal = data?.personal ?? IgboPersonalName.getDefaultPersonalName(this.gender)
     this.day = data?.day ?? IgboPersonalName.getDefaultPersonalName(this.gender)
+  }
+
+  protected override createBirth (data?: Partial<IgboBirthContextData>): IgboBirthContext {
+    return new IgboBirthContext(data)
   }
 
   get full (): string {
@@ -79,12 +84,18 @@ class IgboPersonalName extends PersonalName<IgboFamily, IgboBirthContext> {
     })
   }
 
+  protected static async generateBirth (
+    data?: Partial<IgboBirthContextData>,
+    family?: IgboFamily
+  ): Promise<IgboBirthContext> {
+    return new IgboBirthContext(data, family ?? await this.generateFamily(data?.family) as IgboFamily)
+  }
+
   static async generate (
     data?: Partial<IgboPersonalNameParams>,
     context?: IgboBirthContext
   ): Promise<IgboPersonalName[]> {
-    const family = context?.family ?? await IgboFamily.generate(data?.birth?.family)
-    const birth = context ?? new IgboBirthContext(data?.birth, family)
+    const birth = context ?? await IgboPersonalName.generateBirth(data?.birth)
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(
       IgboPersonalNameTables[gender],

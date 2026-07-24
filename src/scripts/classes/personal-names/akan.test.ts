@@ -39,8 +39,6 @@ describe('AkanPersonalName', () => {
     gender: 'Masculine',
     personal: 'Kofi',
     birth: birth.toObject(),
-    order: 'Badú',
-    circumstance: null,
     twin: null
   }
 

@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
-import {type Gender, selectRandomGender} from '../../types/enums/gender.ts'
+import { type Gender, selectRandomGender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import ScottishFamily, { ScottishFamilyNames, type ScottishFamilyData } from '../families/scottish.ts'
@@ -15,14 +16,14 @@ export const ScottishPersonalNameTables: Record<string, string> = {
 }
 
 class ScottishPersonalName extends PersonalName<ScottishFamily, BirthContext<ScottishFamily>> {
+  protected static override nationality: Nationality = 'Scottish'
+  protected static override familyClass = ScottishFamily
+
   constructor (
     data?: Partial<ScottishPersonalNameParams>,
     context?: BirthContext<ScottishFamily>
   ) {
     super(data, context)
-    this.nationality = 'Scottish'
-    const family = context?.family ?? new ScottishFamily({ ...data?.birth?.family, nationality: 'Scottish' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? ScottishPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -45,8 +46,7 @@ class ScottishPersonalName extends PersonalName<ScottishFamily, BirthContext<Sco
     data?: Partial<ScottishPersonalNameParams>,
     context?: BirthContext<ScottishFamily>
   ): Promise<ScottishPersonalName[]> {
-    const family = context?.family ?? await ScottishFamily.generate(data?.birth?.family)
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await ScottishPersonalName.generateBirth(data?.birth) as BirthContext<ScottishFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(
       ScottishPersonalNameTables[gender],

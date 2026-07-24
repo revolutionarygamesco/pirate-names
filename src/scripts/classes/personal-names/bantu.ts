@@ -2,6 +2,7 @@ import { selectRandomBetween, isString } from '@revolutionarygamesco/common'
 import { getObjectRecord } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, {type BirthContextData} from '../birth/base.ts'
 import BantuFamily, { Nkumbu, type BantuFamilyData } from '../families/bantu.ts'
@@ -56,14 +57,14 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
   santu: string | null
   initiation: string | null
 
+  protected static override nationality: Nationality = 'Bantu'
+  protected static override familyClass = BantuFamily
+
   constructor (
     data?: BantuPersonalNameParams,
     context?: BirthContext<BantuFamily>
   ) {
     super(data, context)
-    this.nationality = 'Bantu'
-    const family = context?.family ?? new BantuFamily({ ...data?.birth?.family, nationality: 'Bantu' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? 'Zola'
     this.santu = isChristianParams(data) ? data.santu : null
     this.initiation = isTraditionalParams(data) ? data.initiation : null
@@ -125,8 +126,7 @@ class BantuPersonalName extends PersonalName<BantuFamily, BirthContext<BantuFami
     data?: BantuPersonalNameParams,
     context?: BirthContext<BantuFamily>
   ): Promise<BantuPersonalName[]> {
-    const family = context?.family ?? await BantuFamily.generate(data?.birth?.family)
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await BantuPersonalName.generateBirth(data?.birth) as BirthContext<BantuFamily>
     const background = BantuPersonalName.selectRandomBackground()
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(BantuPersonalNameTables.Nkumbu, 'Zola')

@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { type Gender, selectRandomGender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import EnglishFamily, { EnglishFamilyNames, type EnglishFamilyData } from '../families/english.ts'
@@ -15,14 +16,14 @@ export const EnglishPersonalNameTables: Record<string, string> = {
 }
 
 class EnglishPersonalName extends PersonalName<EnglishFamily, BirthContext<EnglishFamily>> {
+  protected static override nationality: Nationality = 'English'
+  protected static override familyClass = EnglishFamily
+
   constructor (
     data?: Partial<EnglishPersonalNameParams>,
     context?: BirthContext<EnglishFamily>
   ) {
     super(data, context)
-    this.nationality = 'English'
-    const family = context?.family ?? new EnglishFamily({ ...data?.birth?.family, nationality: 'English' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? EnglishPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -45,8 +46,7 @@ class EnglishPersonalName extends PersonalName<EnglishFamily, BirthContext<Engli
     data?: Partial<EnglishPersonalNameParams>,
     context?: BirthContext<EnglishFamily>
   ): Promise<EnglishPersonalName[]> {
-    const family = context?.family ?? await EnglishFamily.generate(data?.birth?.family)
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await EnglishPersonalName.generateBirth(data?.birth) as BirthContext<EnglishFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(
       EnglishPersonalNameTables[gender],

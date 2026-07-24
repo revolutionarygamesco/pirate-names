@@ -1,5 +1,6 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
 import PortugueseFamily, { PortugueseFamilyNames, type PortugueseFamilyData } from '../families/portuguese.ts'
@@ -21,14 +22,14 @@ export const PortuguesePersonalNameTables: Record<string, string> = {
 class PortuguesePersonalName extends PersonalName<PortugueseFamily, BirthContext<PortugueseFamily>> {
   surnames: string
 
+  protected static override nationality: Nationality = 'Portuguese'
+  protected static override familyClass = PortugueseFamily
+
   constructor (
     data?: Partial<PortuguesePersonalNameParams>,
     context?: BirthContext<PortugueseFamily>
   ) {
     super(data, context)
-    this.nationality = 'Portuguese'
-    const family = context?.family ?? new PortugueseFamily({ ...data?.birth?.family, nationality: 'Portuguese' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? PortuguesePersonalName.getDefaultPersonalName(this.gender)
     this.surnames = data?.surnames ?? this.family.createName()
   }
@@ -65,14 +66,13 @@ class PortuguesePersonalName extends PersonalName<PortugueseFamily, BirthContext
     data?: Partial<PortuguesePersonalNameParams>,
     context?: BirthContext<PortugueseFamily>
   ): Promise<PortuguesePersonalName[]> {
-    const family = context?.family ?? await PortugueseFamily.generate({ ...data?.birth?.family, nationality: 'Portuguese' })
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await PortuguesePersonalName.generateBirth(data?.birth) as BirthContext<PortugueseFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(
       PortuguesePersonalNameTables[gender],
       PortuguesePersonalName.getDefaultPersonalName(gender)
     )
-    const surnames = data?.surnames ?? family.createName()
+    const surnames = data?.surnames ?? birth.family.createName()
 
     return [new PortuguesePersonalName({ gender, personal, surnames }, birth)]
   }

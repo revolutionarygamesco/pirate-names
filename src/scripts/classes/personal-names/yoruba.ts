@@ -1,6 +1,7 @@
 import { chance } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import YorubaBirthContext, { type YorubaBirthContextData } from '../birth/yoruba.ts'
 import YorubaFamily from '../families/yoruba.ts'
@@ -46,15 +47,19 @@ export const destinyNames: Record<string, string> = {
 }
 
 class YorubaPersonalName extends PersonalName<YorubaFamily, YorubaBirthContext> {
+  protected static override nationality: Nationality = 'Yoruba'
+  protected static override familyClass = YorubaFamily
+
   constructor (
     data?: Partial<YorubaPersonalNameParams>,
     context?:YorubaBirthContext
   ) {
     super(data, context)
-    this.nationality = 'Yoruba'
-    const family = context?.family ?? new YorubaFamily(data?.birth?.family)
-    this.birth = context ?? new YorubaBirthContext(data?.birth, family)
     this.personal = data?.personal ?? YorubaPersonalName.getDefaultPersonalName()
+  }
+
+  protected override createBirth(data?: Partial<YorubaBirthContextData>): YorubaBirthContext {
+    return new YorubaBirthContext(data)
   }
 
   get full (): string {
@@ -81,12 +86,18 @@ class YorubaPersonalName extends PersonalName<YorubaFamily, YorubaBirthContext> 
     return 'Abáyọmí'
   }
 
+  protected static async generateBirth (
+    data?: Partial<YorubaBirthContextData>,
+    family?: YorubaFamily
+  ): Promise<YorubaBirthContext> {
+    return new YorubaBirthContext(data, family ?? await this.generateFamily(data?.family) as YorubaFamily)
+  }
+
   static async generate (
     data?: Partial<YorubaPersonalNameParams>,
     context?: YorubaBirthContext
   ): Promise<YorubaPersonalName[]> {
-    const family = context?.family ?? new YorubaFamily(data?.birth?.family)
-    const birth = context ?? new YorubaBirthContext(data?.birth, family)
+    const birth = context ?? await YorubaPersonalName.generateBirth(data?.birth)
     const gender = data?.gender ?? selectRandomGender()
 
     const useCommon = chance(1, 2)

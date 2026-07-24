@@ -1,19 +1,21 @@
 import { selectRandomElement}  from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import AkanFamily, { type AkanFamilyData } from '../families/akan.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
-import PersonalName, { type PersonalNameParams, type PersonalNameData } from './base.ts'
+import PersonalName, { type PersonalNameParams, type PersonalNameData, type TitleDict } from './base.ts'
 
 interface AkanPersonalNameCore {
-  order: string
-  circumstance: string | null
   twin: string | null
 }
 
 export interface AkanPersonalNameParams extends PersonalNameParams, AkanPersonalNameCore {}
-export interface AkanPersonalNameData extends PersonalNameData<BirthContextData<AkanFamilyData>>, AkanPersonalNameCore {}
+export interface AkanPersonalNameData extends PersonalNameData<BirthContextData<AkanFamilyData>>, AkanPersonalNameCore {
+  order: string,
+  circumstance?: string
+}
 
 export const AkanPersonalNameTables = {
   Sunday: {
@@ -78,14 +80,14 @@ export const circumstanceNames: Record<string, Record<Gender, string>> = {
 class AkanPersonalName extends PersonalName<AkanFamily, BirthContext<AkanFamily>> {
   twin: string | null
 
+  protected static override nationality: Nationality = 'Akan'
+  protected static override familyClass = AkanFamily
+
   constructor (
     data?: Partial<AkanPersonalNameParams>,
     context?: BirthContext<AkanFamily>
   ) {
     super(data, context)
-    this.nationality = 'Akan'
-    const family = context?.family ?? new AkanFamily({ ...data?.birth?.family, nationality: 'Akan' })
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? AkanPersonalName.getDefaultPersonalName(this.gender)
     this.twin = data?.twin ?? this.generateTwinName()
   }
@@ -121,6 +123,16 @@ class AkanPersonalName extends PersonalName<AkanFamily, BirthContext<AkanFamily>
       : `${ata} ${selectRandomElement(['Kakraba', 'Kakra', 'Obuom'])}`
   }
 
+  toObject (titles: TitleDict = {}): AkanPersonalNameData {
+    const obj: AkanPersonalNameData = {
+      ...super.toObject(titles),
+      order: this.order,
+      twin: this.twin
+    }
+    if (this.circumstance) obj.circumstance = this.circumstance
+    return obj
+  }
+
   static getBirthOrderName (
     order: number,
     size: number,
@@ -142,8 +154,7 @@ class AkanPersonalName extends PersonalName<AkanFamily, BirthContext<AkanFamily>
     data?: Partial<AkanPersonalNameParams>,
     context?: BirthContext<AkanFamily>
   ): Promise<AkanPersonalName[]> {
-    const family = context?.family ?? await AkanFamily.generate(data?.birth?.family)
-    const birth = context ?? new BirthContext<AkanFamily>(data?.birth, family)
+    const birth = context ?? await AkanPersonalName.generateBirth(data?.birth) as BirthContext<AkanFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = data?.personal ?? await drawStr(
       AkanPersonalNameTables[birth.weekday][gender],

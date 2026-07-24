@@ -1,4 +1,4 @@
-import { chance } from '@revolutionarygamesco/common'
+import { chance, getObjectRecord, isString } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { type Gender } from '../../types/enums/gender.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
@@ -8,6 +8,22 @@ import PatrilinealFamily, { type PatrilinealFamilyData } from './patrilineal.ts'
 export interface NamedDutchFamilyData extends NamedFamilyData {}
 export interface PatrilineDutchFamilyData extends PatrilinealFamilyData {}
 export type DutchFamilyData = NamedDutchFamilyData | PatrilineDutchFamilyData
+
+export const isNamedDutchFamilyData = (
+  candidate: unknown
+): candidate is NamedDutchFamilyData => {
+  const obj = getObjectRecord(candidate)
+  if (!obj) return false
+  return isString(obj.name)
+}
+
+export const isPatrilinealDutchFamilyData = (
+  candidate: unknown
+): candidate is PatrilineDutchFamilyData => {
+  const obj = getObjectRecord(candidate)
+  if (!obj) return false
+  return isString(obj.patriarch)
+}
 
 export const DutchNameTables = {
   Masculine: getRollTableUUID('2uRlTQ7a2dthSDJ1'),

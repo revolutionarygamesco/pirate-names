@@ -1,12 +1,15 @@
+import { chance } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext, { type BirthContextData } from '../birth/base.ts'
-import { type NamedFamilyData } from '../families/named.ts'
 import generateDutchFamily, {
   DutchNameTables,
   NamedDutchFamily,
   PatrilinealDutchFamily,
+  isNamedDutchFamilyData,
+  isPatrilinealDutchFamilyData,
   type DutchFamily,
   type DutchFamilyData
 } from '../families/dutch.ts'
@@ -21,15 +24,21 @@ export const DutchPersonalNameTables: Record<string, string> = {
 }
 
 class DutchPersonalName extends PersonalName<DutchFamily, BirthContext<DutchFamily>> {
+  protected static override nationality: Nationality = 'Dutch'
+
   constructor (
     data?: Partial<DutchPersonalNameParams>,
     context?: BirthContext<DutchFamily>
   ) {
     super(data, context)
-    this.nationality = 'Dutch'
-    const family = context?.family ?? this.initFamily(data?.birth?.family)
-    this.birth = context ?? new BirthContext(data?.birth, family)
     this.personal = data?.personal ?? DutchPersonalName.getDefaultPersonalName(this.gender)
+  }
+
+  protected override createFamily (data?: Partial<DutchFamilyData>): DutchFamily {
+    if (isNamedDutchFamilyData(data)) return new NamedDutchFamily(data)
+    if (isPatrilinealDutchFamilyData(data)) return new PatrilinealDutchFamily(data)
+    if (chance(1, 2)) return new PatrilinealDutchFamily()
+    return new NamedDutchFamily()
   }
 
   get lastName (): string {
@@ -40,12 +49,6 @@ class DutchPersonalName extends PersonalName<DutchFamily, BirthContext<DutchFami
 
   get full (): string {
     return `${this.personal} ${this.lastName}`
-  }
-
-  initFamily (family: DutchFamilyData | undefined): DutchFamily {
-    if (family === undefined) return new NamedDutchFamily()
-    if ((family as NamedFamilyData).name) return new NamedDutchFamily(family)
-    return new PatrilinealDutchFamily(family)
   }
 
   address (title: string): string {
@@ -59,12 +62,18 @@ class DutchPersonalName extends PersonalName<DutchFamily, BirthContext<DutchFami
     })
   }
 
+  protected static override async generateFamily (
+    data?: Partial<DutchFamilyData>
+  ): Promise<DutchFamily> {
+    return await generateDutchFamily({ ...data, nationality: this.nationality })
+  }
+
   static async generate (
     data?: Partial<DutchPersonalNameParams>,
     context?: BirthContext<DutchFamily>
   ): Promise<DutchPersonalName[]> {
-    const family = context?.family ?? await generateDutchFamily({ ...data?.birth?.family, nationality: 'Dutch' })
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const family = context?.family ?? await DutchPersonalName.generateFamily(data?.birth?.family)
+    const birth = context ?? await DutchPersonalName.generateBirth(data?.birth, family) as BirthContext<DutchFamily>
     const gender = data?.gender ?? selectRandomGender()
     const personal = await drawStr(
       DutchPersonalNameTables[gender],

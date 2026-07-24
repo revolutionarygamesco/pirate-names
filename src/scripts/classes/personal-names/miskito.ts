@@ -1,8 +1,8 @@
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import { selectRandomGender, type Gender } from '../../types/enums/gender.ts'
+import { type Nationality } from '../../types/enums/nationality.ts'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import BirthContext from '../birth/base.ts'
-import Family from '../families/base.ts'
 import PersonalName, { type PersonalNameData, type PersonalNameParams } from './base.ts'
 
 export interface MiskitoPersonalNameParams extends PersonalNameParams {}
@@ -20,12 +20,13 @@ export const MiskitoPersonalNameTables: Record<Gender, Record<'Subjects' | 'Modi
 }
 
 class MiskitoPersonalName extends PersonalName {
+  protected static override nationality: Nationality = 'Miskito'
+
   constructor (
     data?: Partial<MiskitoPersonalNameParams>,
     context?: BirthContext
   ) {
     super(data, context)
-    this.nationality = 'Miskito'
     this.personal = data?.personal ?? MiskitoPersonalName.getDefaultPersonalName(this.gender)
   }
 
@@ -44,8 +45,7 @@ class MiskitoPersonalName extends PersonalName {
     data?: Partial<MiskitoPersonalNameParams>,
     context?: BirthContext
   ): Promise<MiskitoPersonalName[]> {
-    const family = context?.family ?? new Family({ ...data?.birth?.family, nationality: 'Miskito' })
-    const birth = context ?? new BirthContext(data?.birth, family)
+    const birth = context ?? await MiskitoPersonalName.generateBirth(data?.birth)
     const gender = data?.gender ?? selectRandomGender()
     if (data?.personal) return [new MiskitoPersonalName({ gender, personal: data.personal }, birth)]
 
