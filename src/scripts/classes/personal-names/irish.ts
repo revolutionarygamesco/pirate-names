@@ -55,7 +55,7 @@ class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFami
   static async generate (
     data?: Partial<IrishPersonalNameData>,
     context?: BirthContext<IrishFamily>
-  ): Promise<[IrishPersonalName, EnglishPersonalName]> {
+  ): Promise<Array<IrishPersonalName | EnglishPersonalName>> {
     const birth = context ?? await IrishPersonalName.generateBirth(data?.birth) as BirthContext<IrishFamily>
     const gender = data?.gender ?? selectRandomGender()
     const drawn = await drawStr(
