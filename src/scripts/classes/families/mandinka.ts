@@ -1,3 +1,4 @@
+import { selectRandomVariation } from '@revolutionarygamesco/common'
 import { drawStr } from '@revolutionarygamesco/common-foundryvtt'
 import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import { selectRandomMandinkaCaste, type MandinkaCaste } from '../../types/enums/mandinka-caste.ts'
@@ -35,7 +36,7 @@ class MandinkaFamily extends NamedFamily {
     data?: Partial<MandinkaFamilyData>
   ): Promise<MandinkaFamily> {
     const caste = data?.caste ?? selectRandomMandinkaCaste()
-    const name = data?.name ?? await drawStr(Jamu[caste], 'Trawally')
+    const name = selectRandomVariation(data?.name ?? await drawStr(Jamu[caste], 'Trawally'))
     return new MandinkaFamily({ ...data, name, caste })
   }
 }

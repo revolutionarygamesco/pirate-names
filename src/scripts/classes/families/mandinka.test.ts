@@ -36,7 +36,7 @@ describe('MandinkaFamily', () => {
 
   beforeEach(() => {
     mockTables({
-      [Jamu.Foro]: { results: [{ description: 'Jara' } as foundry.documents.TableResult] }
+      [Jamu.Foro]: { results: [{ description: 'Jara / Jara' } as foundry.documents.TableResult] }
     })
   })
 
