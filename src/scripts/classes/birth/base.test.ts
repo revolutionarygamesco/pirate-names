@@ -27,8 +27,18 @@ describe('BirthContext', () => {
     })
 
     it('can set birth order', () => {
-      const actual = new BirthContext({ order: 1, twin: false })
+      const actual = new BirthContext({ order: 1, twin: false }, family)
       expect(actual.order).toBe(1)
+    })
+
+    it('clamps birth order below 1 to 1', () => {
+      const actual = new BirthContext({ order: 0, twin: false }, family)
+      expect(actual.order).toBe(1)
+    })
+
+    it('clamps birth order above family size to family size', () => {
+      const actual = new BirthContext({ order: 101, twin: false }, family)
+      expect(actual.order).toBe(3)
     })
 
     it('randomizes birth order by default', () => {
