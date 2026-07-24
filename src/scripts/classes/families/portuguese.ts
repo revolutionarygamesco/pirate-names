@@ -45,7 +45,7 @@ class PortugueseFamily extends NamedFamily {
       await drawStr(PortugueseFamilyNames, 'Pereira'),
       await drawStr(PortugueseFamilyNames, 'Oliveira')
     ]
-    return new PortugueseFamily({ name, other: { father, mother }, ...data })
+    return new PortugueseFamily({ ...data, name, other: { father, mother } })
   }
 }
 

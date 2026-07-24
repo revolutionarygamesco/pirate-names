@@ -16,7 +16,7 @@ class EnglishFamily extends NamedFamily {
     data?: Partial<EnglishFamilyData>
   ): Promise<EnglishFamily> {
     const name = data?.name ?? await drawStr(EnglishFamilyNames, 'Smith')
-    return new EnglishFamily({ name, ...data })
+    return new EnglishFamily({ ...data, name })
   }
 }
 

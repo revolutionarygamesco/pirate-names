@@ -41,7 +41,7 @@ export class NamedDutchFamily extends NamedFamily {
     data?: Partial<NamedDutchFamilyData>
   ): Promise<NamedDutchFamily> {
     const name = data?.name ?? await drawStr(DutchNameTables.Surnames, 'Smit')
-    return new NamedDutchFamily({ name, ...data })
+    return new NamedDutchFamily({ ...data, name })
   }
 }
 
@@ -61,7 +61,7 @@ export class PatrilinealDutchFamily extends PatrilinealFamily {
     data?: Partial<PatrilineDutchFamilyData>
   ): Promise<PatrilinealDutchFamily> {
     const patriarch = data?.patriarch ?? await drawStr(DutchNameTables.Masculine, 'Jan')
-    return new PatrilinealDutchFamily({ patriarch, ...data })
+    return new PatrilinealDutchFamily({ ...data, patriarch })
   }
 }
 

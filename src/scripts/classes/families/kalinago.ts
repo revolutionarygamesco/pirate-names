@@ -21,7 +21,7 @@ class KalinagoFamily extends PatrilinealFamily {
     data?: Partial<KalinagoFamilyData>
   ): Promise<KalinagoFamily> {
     const patriarch = data?.patriarch ?? await drawStr(KalinagoMasculineNames, 'Wukeri')
-    return new KalinagoFamily({ patriarch, ...data })
+    return new KalinagoFamily({ ...data, patriarch })
   }
 }
 

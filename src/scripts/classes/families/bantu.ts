@@ -21,7 +21,7 @@ class BantuFamily extends PatrilinealFamily {
     data?: Partial<BantuFamilyData>
   ): Promise<BantuFamily> {
     const patriarch = data?.patriarch ?? await drawStr(Nkumbu, 'Zola')
-    return new BantuFamily({ patriarch, ...data })
+    return new BantuFamily({ ...data, patriarch })
   }
 }
 

@@ -21,7 +21,7 @@ class IgboFamily extends PatrilinealFamily {
     data?: Partial<IgboFamilyData>
   ): Promise<IgboFamily> {
     const patriarch = data?.patriarch ?? await drawStr(IgboMasculineNames, 'Ougeromba')
-    return new IgboFamily({ patriarch, ...data })
+    return new IgboFamily({ ...data, patriarch })
   }
 }
 

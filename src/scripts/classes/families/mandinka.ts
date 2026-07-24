@@ -36,7 +36,7 @@ class MandinkaFamily extends NamedFamily {
   ): Promise<MandinkaFamily> {
     const caste = data?.caste ?? selectRandomMandinkaCaste()
     const name = data?.name ?? await drawStr(Jamu[caste], 'Trawally')
-    return new MandinkaFamily({ name, caste, ...data })
+    return new MandinkaFamily({ ...data, name, caste })
   }
 }
 

@@ -31,7 +31,7 @@ class IrishFamily extends NamedFamily {
   ): Promise<IrishFamily> {
     const drawn = data?.name ?? await drawStr(IrishFamilyNames, 'Ó Murchadha (Murphy)')
     const { regular: name, parenthetical: anglicization } = separateParenthetical(drawn)
-    return new IrishFamily({ name, anglicization, ...data })
+    return new IrishFamily({ ...data, name, anglicization })
   }
 }
 

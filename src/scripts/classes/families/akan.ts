@@ -17,7 +17,7 @@ class AkanFamily extends NamedFamily {
     data?: Partial<AkanFamilyData>
   ): Promise<AkanFamily> {
     const name = data?.name ?? await drawStr(AkanFamilyNames, 'Mensah')
-    return new AkanFamily({ name, ...data })
+    return new AkanFamily({ ...data, name })
   }
 }
 

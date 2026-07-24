@@ -70,7 +70,7 @@ class SpanishFamily extends NamedFamily {
       `${SpanishFamily.renderSurname(father)} e ${SpanishFamily.renderSurname(mother)}`,
       `${SpanishFamily.renderSurname(father)} de ${SpanishFamily.renderSurname(mother)}`
     ])
-    return new SpanishFamily({ name, full, ...data })
+    return new SpanishFamily({ ...data, name, full })
   }
 }
 
