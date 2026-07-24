@@ -10,7 +10,7 @@ class KalinagoFamily extends PatrilinealFamily {
   constructor(data?: Partial<KalinagoFamilyData>) {
     super(data)
     this.nationality = 'Kalinago'
-    this.patriarch = this.patriarch === 'John' ? 'Wukeri' : this.patriarch
+    this.patriarch = data?.patriarch === undefined ? 'Wukeri' : this.patriarch
   }
 
   renderPatronym (): string {

@@ -10,7 +10,7 @@ class IgboFamily extends PatrilinealFamily {
   constructor(data?: Partial<IgboFamilyData>) {
     super(data)
     this.nationality = 'Igbo'
-    this.patriarch = this.patriarch === 'John' ? 'Ougeromba' : this.patriarch
+    this.patriarch = data?.patriarch === undefined ? 'Ougeromba' : this.patriarch
   }
 
   renderPatronym (): string {

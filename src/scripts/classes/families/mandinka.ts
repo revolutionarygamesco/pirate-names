@@ -21,7 +21,7 @@ class MandinkaFamily extends NamedFamily {
     super(data)
     this.nationality = 'Mandinka'
     this.caste = data?.caste ?? 'Foro'
-    this.name = this.name === 'Smith' ? 'Trawally' : this.name
+    this.name = data?.name === undefined ? 'Trawally' : this.name
   }
 
   toObject (): MandinkaFamilyData {

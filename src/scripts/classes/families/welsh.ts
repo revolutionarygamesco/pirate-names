@@ -10,7 +10,7 @@ class WelshFamily extends NamedFamily {
   constructor(data?: Partial<WelshFamilyData>) {
     super(data)
     this.nationality = 'Welsh'
-    this.name = this.name === 'Smith' ? 'Jones' : this.name
+    this.name = data?.name === undefined ? 'Jones' : this.name
   }
 
   static async generate (

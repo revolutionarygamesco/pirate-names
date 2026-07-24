@@ -24,7 +24,7 @@ class SpanishFamily extends NamedFamily {
   constructor(data?: Partial<SpanishFamilyData>) {
     super(data)
     this.nationality = 'Spanish'
-    this.name = this.name === 'Smith' ? 'Rodriguez' : this.name
+    this.name = data?.name === undefined ? 'Rodriguez' : this.name
     this.full = data?.full ?? this.name
   }
 

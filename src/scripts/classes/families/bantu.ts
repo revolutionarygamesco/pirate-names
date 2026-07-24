@@ -10,7 +10,7 @@ class BantuFamily extends PatrilinealFamily {
   constructor(data?: Partial<BantuFamilyData>) {
     super(data)
     this.nationality = 'Bantu'
-    this.patriarch = this.patriarch === 'John' ? 'Zola' : this.patriarch
+    this.patriarch = data?.patriarch === undefined ? 'Zola' : this.patriarch
   }
 
   renderPatronym (): string {

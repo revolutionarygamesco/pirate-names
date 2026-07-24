@@ -34,7 +34,7 @@ export class NamedDutchFamily extends NamedFamily {
   constructor(data?: Partial<NamedDutchFamilyData>) {
     super(data)
     this.nationality = 'Dutch'
-    this.name = this.name === 'Smith' ? 'Smit' : this.name
+    this.name = data?.name === undefined ? 'Smit' : this.name
   }
 
   static async generate (
@@ -49,7 +49,7 @@ export class PatrilinealDutchFamily extends PatrilinealFamily {
   constructor(data?: Partial<PatrilineDutchFamilyData>) {
     super(data)
     this.nationality = 'Dutch'
-    this.patriarch = this.patriarch === 'John' ? 'Jan' : this.patriarch
+    this.patriarch = data?.patriarch === undefined ? 'Jan' : this.patriarch
   }
 
   renderPatronym (gender: Gender): string {

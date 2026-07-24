@@ -15,7 +15,7 @@ class IrishFamily extends NamedFamily {
   constructor(data?: Partial<IrishFamilyData>) {
     super(data)
     this.nationality = 'Irish'
-    this.name = this.name === 'Smith' ? 'Ó Murchadha' : this.name
+    this.name = data?.name === undefined ? 'Ó Murchadha' : this.name
     this.anglicization = data?.anglicization ?? (this.name === 'Ó Murchadha' ? 'Murphy' : '')
   }
 
