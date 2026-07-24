@@ -96,12 +96,12 @@ describe('FonPersonalName', () => {
 
     describe('full', () => {
       it('returns the full name', () => {
-        const instance = new FonPersonalName(data, new BirthContext({ twin: false, special: null }))
+        const instance = new FonPersonalName(data, new BirthContext({ twin: false, special: null }, family))
         expect(instance.full).toBe('Dosu Agaja')
       })
 
       it('incorporates birth circumstance names', () => {
-        const instance = new FonPersonalName(data, new BirthContext({ twin: 1, special: null }))
+        const instance = new FonPersonalName(data, new BirthContext({ twin: 1, special: null }, family))
         expect(instance.full).toBe('Dosu Sagbo Agaja')
       })
     })
