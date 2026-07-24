@@ -122,13 +122,13 @@ describe('IrishPersonalName', () => {
       })
     })
 
-    describe('getDefaultPersonalNameEnty', () => {
+    describe('getDefaultPersonalNameEntry', () => {
       it('returns Brid (Bridget) for women', () => {
-        expect(IrishPersonalName.getDefaultPersonalNameEnty('Feminine')).toBe('Brid (Bridget)')
+        expect(IrishPersonalName.getDefaultPersonalNameEntry('Feminine')).toBe('Brid (Bridget)')
       })
 
       it('returns Pádraig (Patrick) for men', () => {
-        expect(IrishPersonalName.getDefaultPersonalNameEnty('Masculine')).toBe('Pádraig (Patrick)')
+        expect(IrishPersonalName.getDefaultPersonalNameEntry('Masculine')).toBe('Pádraig (Patrick)')
       })
     })
 

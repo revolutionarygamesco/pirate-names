@@ -44,7 +44,7 @@ class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFami
     })
   }
 
-  static getDefaultPersonalNameEnty (gender: Gender): string {
+  static getDefaultPersonalNameEntry (gender: Gender): string {
     return super.getDefaultPersonalName(gender, {
       Feminine: 'Brid (Bridget)',
       Masculine: 'Pádraig (Patrick)'
@@ -60,7 +60,7 @@ class IrishPersonalName extends PersonalName<IrishFamily, BirthContext<IrishFami
     const gender = data?.gender ?? selectRandomGender()
     const drawn = await drawStr(
       IrishPersonalNameTables[gender],
-      IrishPersonalName.getDefaultPersonalNameEnty(gender)
+      IrishPersonalName.getDefaultPersonalNameEntry(gender)
     )
     const { regular, parenthetical } = separateParenthetical(drawn)
 

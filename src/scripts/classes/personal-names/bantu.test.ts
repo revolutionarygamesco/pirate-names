@@ -173,7 +173,7 @@ describe('BantuPersonalName', () => {
       })
     })
 
-    describe('getDefaultInitiationlName', () => {
+    describe('getDefaultInitiationName', () => {
       it('returns Lubondo for women', () => {
         expect(BantuPersonalName.getDefaultInitiationName('Feminine')).toBe('Lubondo')
       })
