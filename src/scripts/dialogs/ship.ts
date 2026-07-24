@@ -1,7 +1,7 @@
+/**
 import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
 import { colors, isColors, selectRandomColors, type Colors } from '../types/enums/colors.ts'
-import generateShipName, { generatePirateShipName } from '../ship.ts'
 
 const defaultOnComplete = async (
   c: Colors | 'Pirate' | 'Random',
@@ -87,3 +87,4 @@ const openGenerateShipNameDialog = async (
 }
 
 export default openGenerateShipNameDialog
+**/

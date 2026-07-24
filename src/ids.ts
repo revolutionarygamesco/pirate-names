@@ -173,7 +173,7 @@ export const otherNames: Record<string, any> = {
 }
 
 export const pirateNames = 'Compendium.revolutionary-piratenames.rolltables.RollTable.ScPMf8BdSRKDbFKF'
-export const shipNames: Record<Colors, Record<string, string>> = {
+export const shipNames: Record<Exclude<Colors, 'Pirate'>, Record<string, string>> = {
   Spanish: {
     Religious: 'Compendium.revolutionary-piratenames.rolltables.RollTable.uRfaOZUkJYPvIaG1',
     Commercial: 'Compendium.revolutionary-piratenames.rolltables.RollTable.8ZfbVJJv0HQRHcZX',
