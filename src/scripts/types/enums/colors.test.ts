@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { primitives } from '@revolutionarygamesco/common/testing'
 import { mockTables } from '@revolutionarygamesco/common-foundryvtt/mocks'
-import { nation } from '../../../ids.ts'
+import getRollTableUUID from '../../get-rolltable-uuid.ts'
 import {
   isColors,
   selectRandomColors,
@@ -21,7 +21,7 @@ describe('isColors', () => {
 
 describe('colors', () => {
   it('picks colors', async () => {
-    mockTables({ [nation.ship]: { results: [{ description: 'Spanish' } as foundry.documents.TableResult] } })
+    mockTables({ [getRollTableUUID('CrljZ2S8EdjWco9K')]: { results: [{ description: 'Spanish' } as foundry.documents.TableResult] } })
     expect(await selectRandomColors()).toBe('Spanish')
   })
 })
