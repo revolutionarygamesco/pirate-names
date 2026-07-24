@@ -70,17 +70,17 @@ describe('Ship', () => {
     })
 
     it('allows a man-of-war to be a privateer', () => {
-      const actual = new Ship({ role: 'Man-of-War', privateer: true })
+      const actual = new Ship({ colors: 'British', role: 'Man-of-War', privateer: true })
       expect(actual.privateer).toBe(true)
     })
 
     it('does not allow a merchantman to be a privateer', () => {
-      const actual = new Ship({ role: 'Merchantman', privateer: true })
+      const actual = new Ship({ colors: 'British',role: 'Merchantman', privateer: true })
       expect(actual.privateer).toBe(false)
     })
 
     it('requires a pirate to be a privateer', () => {
-      const actual = new Ship({ role: 'Man-of-War', colors: 'Pirate', privateer: false })
+      const actual = new Ship({ colors: 'Pirate', role: 'Man-of-War', privateer: false })
       expect(actual.privateer).toBe(true)
     })
 
@@ -118,6 +118,32 @@ describe('Ship', () => {
       it('gets the table UUID for religious Spanish ship names', () => {
         const instance = new Ship({ colors: 'Spanish' })
         expect(instance.getRollTableUUID('religious')).toBe(ShipNameTables.Spanish.Religious)
+      })
+    })
+
+    describe('toString', () => {
+      it('returns the name', () => {
+        const instance = new Ship({ colors: 'British' })
+        instance.names.british = 'Scarborough'
+        expect(instance.toString()).toBe('Scarborough')
+      })
+
+      it('returns the current name of a pirate ship', () => {
+        const instance = new Ship({ colors: 'Pirate' })
+        instance.names = {
+          french: 'La Concorde',
+          pirate: 'Queen Anne’s Revenge'
+        }
+        expect(instance.toString()).toBe('Queen Anne’s Revenge')
+      })
+
+      it('returns both names for a Spanish ship', () => {
+        const instance = new Ship({ colors: 'Spanish' })
+        instance.names = {
+          spanish: 'Aurora',
+          religious: 'Nuestra Señora del Coro'
+        }
+        expect(instance.toString()).toBe('Nuestra Señora del Coro (Aurora)')
       })
     })
   })

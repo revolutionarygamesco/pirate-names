@@ -56,6 +56,17 @@ class Ship {
     return ShipNameTables[this.colors][tag]
   }
 
+  toString (): string {
+    if (this.colors === 'Pirate' && this.names.pirate) return this.names.pirate
+
+    if (this.colors === 'Spanish' && this.names.spanish && this.names.religious) {
+      return `${this.names.religious} (${this.names.spanish})`
+    }
+
+    if (this.names[this.colors.toLowerCase()]) return this.names[this.colors.toLowerCase()]
+    return 'Hispaniola'
+  }
+
   static async generate (params?: Partial<ShipParams>): Promise<Ship> {
     const colors = params?.colors ?? await selectRandomColors()
     const role = params?.role ?? selectRandomShipRole()
