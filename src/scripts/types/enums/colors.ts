@@ -2,7 +2,7 @@ import { makeEnum } from '@revolutionarygamesco/common'
 import { drawGuarded } from '@revolutionarygamesco/common-foundryvtt'
 import { nation } from '../../../ids.ts'
 
-export const colors = ['Spanish', 'British', 'French', 'Dutch'] as const
+export const colors = ['Spanish', 'British', 'French', 'Dutch', 'Pirate'] as const
 export type Colors = typeof colors[number]
 export const { guard: isColors } = makeEnum(colors)
 
