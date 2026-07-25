@@ -1,90 +1,71 @@
-/**
 import { scopeLocalizer } from '@revolutionarygamesco/common-foundryvtt'
 import { MODULE_ID } from '../settings.ts'
-import { colors, isColors, selectRandomColors, type Colors } from '../types/enums/colors.ts'
+import {
+  colors,
+  isColors,
+  selectRandomColors,
+  type Colors
+} from '../types/enums/colors.ts'
+import {
+  shipRoles,
+  isShipRole,
+  selectRandomShipRole,
+  type ShipRole
+} from '../types/enums/roles.ts'
+import generateShipName from '../ship.ts'
 
 const defaultOnComplete = async (
-  c: Colors | 'Pirate' | 'Random',
-  t: string
-) => {
-  const whisper = [game.user.id]
-  if (c === 'Pirate') { await generatePirateShipName(whisper); return }
-
-  const colors = isColors(c) ? c : await selectRandomColors()
-  const martial = t === 'Martial'
-  await generateShipName({ colors, martial, whisper })
+  c: string,
+  r: string
+): Promise<void> => {
+  const colors: Colors = isColors(c) ? c : await selectRandomColors()
+  const role: ShipRole = isShipRole(r) ? r : selectRandomShipRole()
+  await generateShipName({ colors, role }, [game.user.id])
 }
 
 const openGenerateShipNameDialog = async (
-  onComplete: (c: Colors | 'Pirate' | 'Random', t: string) => Promise<void> = defaultOnComplete
+  onComplete: (colors: string, role: string) => Promise<void> = defaultOnComplete
 ): Promise<void> => {
-  const t = scopeLocalizer(MODULE_ID, 'dialog', 'ship')
-  const title = t(['title'])
+  const t = scopeLocalizer([MODULE_ID, 'dialog', 'ship'].join('.'))
 
-  const nationalities = ['Random', ...colors, 'Pirate'].map(nation => {
-    const value = t(['nationalities', 'options', nation])
-    const input = nation === 'Random'
-      ? `<input type="radio" name="nationality" value="${nation}" id="nationality-${nation}" checked />`
-      : `<input type="radio" name="nationality" value="${nation}" id="nationality-${nation}" />`
-    const flag = `<img src="/modules/${MODULE_ID}/images/${nation.toLowerCase()}.png" alt="${value}" class="flag" />`
-    const label = `<label for="nationality-${nation}">${flag} ${value}</label>`
-    return `<li>${input}\n${label}</li>`
-  }).join('\n')
+  const options = ['Random', ...colors].map(option => ({
+    value: option,
+    label: t(['colors', 'options', option]),
+    flag: `modules/${MODULE_ID}/images/${option.toLowerCase()}.png`,
+    checked: option === 'Random'
+  }))
 
-  const types = ['Commercial', 'Martial'].map(use => {
-    const label = t(['type', 'options', use, 'label'])
-    const hint = t(['type', 'options', use, 'hint'])
-    const id = ['use', use.toLowerCase()].join('-')
-    const input = use === 'Commercial'
-      ? `<input type="radio" id="${id}" name="type" value="${t}" checked />`
-      : `<input type="radio" id="${id}" name="type" value="${t}" />`
-    return `<li>${input}<label for="${id}">${label}</label><p class="hint">${hint}</p></li>`
-  }).join('\n')
+  const nationality = await foundry.applications.handlebars.renderTemplate(
+    `modules/${MODULE_ID}/templates/colors.hbs`,
+    {
+      options,
+      colorsLabel: t(['colors', 'label'])
+    }
+  )
 
-  const dialog = new foundry.applications.api.DialogV2({
-    id: `${MODULE_ID}-generate-ship-name`,
-    window: { title },
-    position: { width: 700 },
-    content: `
-        <fieldset class="generate-ship-name-dialog-nationality">
-          <legend>${t(['nationalities', 'label'])}</legend>
-          <ul>
-            ${nationalities}
-          </ul>
-        </fieldset>
-        
-        <fieldset class="generate-ship-dialog-type">
-          <legend>${t(['type', 'label'])}</legend>
-          <ul>
-            ${types}
-          </ul>
-        </fieldset>
-      `,
-    buttons: [
-      {
-        action: 'generate',
-        label: t(['actions', 'generate']),
-        callback: async (_event: Event, button: HTMLButtonElement) => {
-          const coll = button.form?.elements
-          if (!coll) return
-
-          const nation: string | undefined = (coll.namedItem('nationality') as RadioNodeList).value
-          const type: string | undefined = (coll.namedItem('type') as RadioNodeList).value
-          await onComplete(nation as Colors | 'Pirate' | 'Random', type)
-        }
-      },
-      {
-        action: 'cancel',
-        label: t(['actions', 'cancel']),
-        callback: async () => {
-          await dialog.close()
-        }
-      }
-    ]
+  const roleSelector = foundry.applications.fields.createSelectInput({
+    name: 'role',
+    options: ['Random', ...shipRoles].map(option => ({
+      value: option,
+      label: t(['role', 'options', option])
+    }))
   })
 
-  await dialog.render(true)
+  const role = foundry.applications.fields.createFormGroup({
+    input: roleSelector,
+    label: t(['role', 'label']),
+    hint: t(['role', 'hint'])
+  })
+
+  const data = await foundry.applications.api.DialogV2.input({
+    window: { title: t('title') },
+    position: { width: 500 },
+    content: `${nationality}\n${role.outerHTML}`,
+    ok: { label: t(['actions', 'generate']) }
+  })
+
+  if (!data) return
+  await onComplete(data.colors as string, data.role as string)
 }
 
 export default openGenerateShipNameDialog
-**/

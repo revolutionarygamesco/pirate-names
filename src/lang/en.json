@@ -4,8 +4,9 @@
       "speaker": "Pirate Name Generator",
       "flavor": {
         "personal": "Draws a personal name.",
-        "ship": "Draws a {nation} ship name."
+        "ship": "Draws a name for a {nation} {role}."
       },
+      "ship": "<p class=\"revolutionary-piratenames-ship-whisper\"><img src=\"{src}\" alt=\"{alt}\" />{name}</p>",
       "versions": {
         "lede": "<p><em>A {gender} {nationality} name&hellip;</em></p>",
         "full": "<p><em>Full Name:</em> {full}</p>",
@@ -58,7 +59,7 @@
       },
       "ship": {
         "title": "Generate a Ship’s Name",
-        "nationalities": {
+        "colors": {
           "label": "Colors",
           "options": {
             "Random": "Random",
@@ -69,18 +70,13 @@
             "Pirate": "Pirates"
           }
         },
-        "type": {
-          "label": "Type",
+        "role": {
+          "label": "Role",
           "hint": "Is this a merchantman or a man-of-war?",
           "options": {
-            "Commercial": {
-              "label": "Merchantman",
-              "hint": "Generate a name for a civilian vessel built for commerce and trade."
-            },
-            "Martial": {
-              "label": "Man-of-War",
-              "hint": "Generate a name for a vessel built for war, either a naval vessel or a privateer."
-            }
+            "Random": "Random Role",
+            "Merchantman": "Merchantman",
+            "Man-of-War": "Man-of-War"
           }
         },
         "actions": {

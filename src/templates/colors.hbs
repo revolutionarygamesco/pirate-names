@@ -1,0 +1,15 @@
+<fieldset class="generate-ship-name-dialog-colors">
+  <legend>{{colorsLabel}}</legend>
+  <ul>
+    {{#each options}}
+      <li>
+        <input type="radio" name="colors" value="{{this.value}}"
+               id="colors-{{this.value}}" {{#if this.checked}}checked{{/if}} />
+        <label for="colors-{{this.value}}">
+          <img src="{{this.flag}}" alt="{{this.label}}" class="flag" />
+          {{this.label}}
+        </label>
+      </li>
+    {{/each}}
+  </ul>
+</fieldset>

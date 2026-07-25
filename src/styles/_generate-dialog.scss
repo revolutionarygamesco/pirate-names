@@ -1,48 +1,45 @@
-#revolutionary-piratenames-generate-ship-name .standard-form .standard-form {
-  display: flex;
-  flex-direction: row;
-  row-gap: 1em;
+.generate-ship-name-dialog-colors {
+  width: 30em;
 
-  .generate-ship-name-dialog-nationality {
-    width: 30em;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-    ul {
-      list-style-type: none;
+  li {
+    padding: 0.25em;
+
+    &:has(input[type="radio"]:checked) {
+      background: #333;
+    }
+
+    input {
       margin: 0;
-      padding: 0;
-    }
-
-    li {
-      padding: 0.25em;
-
-      &:has(input[type="radio"]:checked) {
-        background: #333;
-      }
-
-      input {
-        margin: 0;
-        visibility: hidden;
-        width: 0;
-      }
-    }
-
-    label {
-      cursor: pointer;
-    }
-
-    .flag {
-      display: inline;
-      height: 1.5em;
-      margin-right: 0.5em;
-      vertical-align: middle;
+      visibility: hidden;
+      width: 0;
     }
   }
 
-  .generate-ship-dialog-type {
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+  label {
+    cursor: pointer;
+  }
+
+  .flag {
+    display: inline;
+    height: 1.5em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+  }
+}
+
+.revolutionary-piratenames-ship-whisper {
+  font-size: 125%;
+  font-style: italic;
+  text-align: center;
+
+  img {
+    margin: 0 auto 1em;
+    width: 50%;
   }
 }
