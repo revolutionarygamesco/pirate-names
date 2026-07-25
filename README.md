@@ -1,7 +1,7 @@
 # Pirate Name Generator
 
 ![Latest Release](https://img.shields.io/github/v/release/revolutionarygamesco/piratenames?label=Latest+release&style=for-the-badge)
-![Foundry Version](https://img.shields.io/badge/Foundry-v13-informational?label=Foundry+version&style=for-the-badge)
+![Foundry Version](https://img.shields.io/badge/Foundry-v14-informational?label=Foundry+version&style=for-the-badge)
 ![Test Status](https://img.shields.io/github/actions/workflow/status/revolutionarygamesco/piratenames/test.yml?label=Test+status&style=for-the-badge)
 ![License](https://img.shields.io/github/license/revolutionarygamesco/piratenames?style=for-the-badge)
 
