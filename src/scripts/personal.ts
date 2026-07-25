@@ -1,4 +1,5 @@
 import { selectRandomNationality, type Nationality } from './types/enums/nationality.ts'
+import { isTitles, mapTitles, type Titles } from './types/titles.ts'
 import sendMessage from './message.ts'
 
 import PersonalName, { type PersonalNameParams } from './classes/personal-names/base.ts'
@@ -48,13 +49,17 @@ const generators: Record<Nationality, PersonalNameGenerator> = {
 
 const generatePersonalName = async (
   params?: Partial<PersonalNameParams>,
+  titles: Titles = { mister: { m: 'Mr.', f: 'Mrs.' } },
   whisper?: string[]
 ): Promise<Array<Record<string, string>>> => {
+  if (!isTitles(titles)) throw new Error(`${JSON.stringify(titles)} is not a valid titles dictionary.`)
+  const dict = mapTitles(titles)
+
   const n = params?.nationality ?? await selectRandomNationality()
   const names = await generators[n].generate(params)
 
   if (whisper) await sendMessage(names, whisper)
-  return names.map(n => n.toObject().forms)
+  return names.map(n => n.toObject(dict).forms)
 }
 
 export default generatePersonalName
