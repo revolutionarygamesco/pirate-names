@@ -12,7 +12,9 @@ interface FonPersonalNameCore {
 }
 
 export interface FonPersonalNameParams extends PersonalNameParams, FonPersonalNameCore {}
-export interface FonPersonalNameData extends PersonalNameData, FonPersonalNameCore {}
+export interface FonPersonalNameData extends PersonalNameData, FonPersonalNameCore {
+  circumstance: string | null
+}
 
 export const FonPersonalNameTables = {
   Feminine: getRollTableUUID('dMeVOYZnSWMjyaZy'),
@@ -96,6 +98,7 @@ class FonPersonalName extends PersonalName {
   toObject (titles: TitleDict ={}): FonPersonalNameData {
     return {
       ...super.toObject(titles),
+      circumstance: this.circumstanceName,
       day: this.day
     }
   }

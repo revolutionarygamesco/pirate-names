@@ -60,7 +60,7 @@ describe('YorubaPersonalName', () => {
     birth: birth.toObject(),
     gender: 'Masculine',
     personal: 'Lájẹ̀misìn',
-    destiny: null
+    circumstance: null
   }
 
   beforeEach(() => {

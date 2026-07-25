@@ -8,7 +8,7 @@ import YorubaFamily from '../families/yoruba.ts'
 import PersonalName, { type PersonalNameData, type PersonalNameParams, type TitleDict } from './base.ts'
 
 interface YorubaPersonalNameCore {
-  destiny: string | null
+  circumstance: string | null
 }
 
 export interface YorubaPersonalNameParams extends PersonalNameParams<YorubaBirthContextData>, YorubaPersonalNameCore {}
@@ -78,7 +78,7 @@ class YorubaPersonalName extends PersonalName<YorubaFamily, YorubaBirthContext> 
   toObject (titles: TitleDict = {}): YorubaPersonalNameData {
     return {
       ...super.toObject(titles),
-      destiny: this.destiny
+      circumstance: this.destiny
     }
   }
 
