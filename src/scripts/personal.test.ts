@@ -8,7 +8,8 @@ const payload = (create: Mock) => create.mock.calls[0]![0]
 describe('generatePersonalName', () => {
   it('returns the name', async () => {
     const create = mockChatMessage()
-    const [name] = await generatePersonalName(undefined, { captain: 'Captain' })
+    const [name] = await generatePersonalName({ nationality: 'Akan' }, { captain: 'Captain' })
+    expect(name.nationality).toBe('Akan')
     expect(isString(name.personal)).toBe(true)
     expect(name.captain.startsWith('Captain ')).toBe(true)
     expect(create).not.toHaveBeenCalled()

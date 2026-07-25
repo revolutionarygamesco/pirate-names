@@ -59,7 +59,10 @@ const generatePersonalName = async (
   const names = await generators[n].generate(params)
 
   if (whisper) await sendMessage(names, whisper)
-  return names.map(n => n.toObject(dict).forms)
+  return names.map(n => ({
+    nationality: n.nationality,
+    ...n.toObject(dict).forms
+  }))
 }
 
 export default generatePersonalName
