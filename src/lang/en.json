@@ -53,8 +53,7 @@
           }
         },
         "actions": {
-          "generate": "Generate Name",
-          "cancel": "Cancel"
+          "generate": "Generate Name"
         }
       },
       "ship": {
@@ -80,8 +79,7 @@
           }
         },
         "actions": {
-          "generate": "Generate Name",
-          "cancel": "Cancel"
+          "generate": "Generate Name"
         }
       }
     }
