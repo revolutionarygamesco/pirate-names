@@ -14,7 +14,7 @@ import {
 } from '../types/enums/roles.ts'
 import generateShipName from '../ship.ts'
 
-const defaultOnComplete = async (
+export const defaultOnComplete = async (
   c: string,
   r: string
 ): Promise<void> => {

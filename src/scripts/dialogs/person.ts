@@ -14,7 +14,7 @@ import {
 } from '../types/enums/gender.ts'
 import generatePersonalName from '../personal.ts'
 
-const defaultOnComplete = async (
+export const defaultOnComplete = async (
   n: string,
   g: string
 ): Promise<void> => {
