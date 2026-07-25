@@ -3,6 +3,6 @@ _key: "!macros!UKo8oHiN0CWOUCfv"
 name: Generate Personal Name
 type: script
 scope: global
-img: icons/svg/d20-grey.svg
+img: icons/sundries/documents/document-sealed-beige-red.webp
 command: |
   await game.modules.get('revolutionary-piratenames').api.openGeneratePersonalNameDialog()

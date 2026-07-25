@@ -3,6 +3,6 @@ _key: "!macros!Kp5GDUrUTXMyNlR4"
 name: Generate Ship Name
 type: script
 scope: global
-img: icons/svg/d20-grey.svg
+img: icons/skills/trades/profession-sailing-ship.webp
 command: |
   await game.modules.get('revolutionary-piratenames').api.openGenerateShipNameDialog()
