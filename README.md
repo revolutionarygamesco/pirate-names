@@ -18,106 +18,191 @@ random names for people and ships in the Caribbean during the Golden Age of Pira
 
 ## API
 
-### `generateName`
+### `generatePersonalName`
 
 Generates a reasonable full name for the nationality and gender specified.
 
 #### Signature
 
 ```typescript
-type Nationality = 'Akan' | 'Bantu' | 'Dutch' | 'English' | 'Fon' | 'French' | 'Igbo' | 'Irish' | 'Kalinago' | 'Mandinka' | 'Miskito' | 'Portuguese' | 'Scottish' | 'Spanish' | 'Taino' | 'Welsh' | 'Yoruba'
+type Nationality =
+  'Akan'
+  | 'Bantu'
+  | 'Dutch'
+  | 'English'
+  | 'Fon'
+  | 'French'
+  | 'Igbo'
+  | 'Irish'
+  | 'Kalinago'
+  | 'Mandinka'
+  | 'Miskito'
+  | 'Portuguese'
+  | 'Scottish'
+  | 'Spanish'
+  | 'Taino'
+  | 'Welsh'
+  | 'Yoruba'
 type Gender = 'Masculine' | 'Feminine' // It was a less enlightened age.
 type Weekday = 'Sunday' | 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday'
-interface BirthCircumstances {
-  weekday: Weekday
-  order: number | 'last'
-  twin: 1 | 2 | false
-  special: string
-  caste: string
-}
 
-interface Relation {
-  relationship: string
-  person: Person
-}
-
-interface Person {
-  born: Partial<BirthCircumstances>
-  nationality: Nationality
-  gender: Gender
-  names: {
-    full: string
-    personal: string
-    family?: string
+interface FamilyData {
+  nationality: Nationality,
+  size: number, // Number of children in immediate family
+  name: string, // Only for Akan, Dutch, English, French, Irish, Mandinka, Portuguese, Scottish, Spanish, Welsh, and Yoruba families
+  patriarch: string // Only for Bantu, Dutch, Igbo, and Kalinago families, and never with name. It's strictly either/or.
+  anglicization: string, // Only for Irish families
+  caste: 'Foro' | 'Nyamakala' | 'Jali' | 'Jakhanke' // Only for Mandinka families
+  full: string, // Only for Spanish families
+  other: { // Only for Portuguese families
+    father: string, // Your father’s second surname.
+    mother: string[] // Your mother’s surnames.
   }
-  relations: Relation[]
+}
+
+interface BirthContextData {
+  family: FamilyData,
+  order: number, // Birth order; 1 for first-born, 2 for second, etc.
+  twin: 1 | 2 | false, // 1 for senior twin, 2 for junior, false for not a twin
+  weekday: Weekday, // Or Eke, Oye, Afor, or Nkwo for an Igbo name
+  special: string // special birth circumstances; see below
+}
+
+interface PersonalNameParams {
+  gender: Gender
+  nationality: Nationality,
+  birth: BirthContextData
+}
+
+interface PersonalNameForms {
+  nationality: Nationality,
+  full: string, // The full form of the name
+  short: string, // Only for Spanish and Portuguese names; a common, shortened form
+  personal: string, // The personal name, used in familiar settings
+  [key: string]: string // Filled in using the titles map you pass in
+}
+
+interface Titles {
+  [key: string]: string | { m: string, f: string }
 }
 
 async (
-  nationality?: Nationality,
-  gender?: Gender,
-  whisper?: string[],
-  circumstances?: Partial<BirthCircumstances>
-) => Promise<Person>
+  params?: Partial<PersonalNameParams>,
+  titles: Titles = { mister: { m: 'Mr.', f: 'Mrs.' } },
+  whisper?: string[]
+) => Promise<Array<Record<string, string>>>
 ```
 
 #### Parameters
 
-##### `options.nation`
+##### `params.gender`
 
-Sets the nationality that the name should be taken from.
+Not all of these groups have gendered naming practices, but most of them do.
+Note that it’s the _name_ that’s gendered. What relationship that has to the
+person who bears it is something you’ll have to play to find out.
 
-_Default:_ Roll on the _Nationalities_ roll table included in the module. This
-reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy.
+_Default:_ Randomizes, 50% masculine, 50% feminine.
 
-#### `options.gender`
+#### `params.nationality`
 
-Sets the gender of the name to be generated.
+The nationality that this name reflects. Not that it’s the _name_ that has a
+nationality. What relationship that has to the person who bears it is something
+you’ll have to play to find out.
 
-_Default_: Roll on the _Gender_ roll table included in the module, with equal
-chances of getting `Masculine` or `Feminine`.
+_Default_: Randomizes by rolling on the **Nationality** table, reflecting the
+demographics of the Caribbean at the beginning of the 18th century (c. 1700 CE).
 
-#### `options.whisper`
+#### `params.birth`
 
-A string of user IDs. If provided, a message will be whispered to these users
-with the generated name.
+An object detailing circumstances of this person’s birth.
 
-_Default_: `undefined`
+##### `params.birth.family`
 
-#### `options.circumstances`
+The family context in which this person was named.
 
-Several West African naming traditions include special names reserved for those
-born under specific circumstances. This object gives you the opportunity to
-specify those as needed; otherwise, they are randomized.
+###### `params.birth.family.nationality`
 
-##### `options.circumstances.weekday`
+The nationality that this family is enmeshed in.
 
-The day of the week on which this person was born. This is an important part of
-Akan, Fon, and Igbo names.
+_Default:_ Randomized.
 
-_Default_: `undefined`
+###### `params.birth.family.size`
 
-##### `options.circumstances.order`
+The number of children in the immediate family.
 
-Birth order (`1` for the first-born, `2` for the second-born, and so on, up to
-`13`). This is used in Akan names, while `last` can also be a part of a Bantu
-name.
+_Default:_ Randomized.
 
-_Default_: `undefined`
+###### `params.birth.family.name`
 
-##### `options.circumstances.twin`
+The family name. This is only a valid option for Akan, Dutch, English, French,
+Irish, Mandinka, Portuguese, Scottish, Spanish, Welsh, and Yoruba families.
 
-Akan, Bantu, Fon, and Yoruba all have special names reserved for the first and
-second twin. `1` indicates the older twin, `2` the younger twin, and `false`
-that this person is _not_ a twin. Leave undefined to leave it up to chance.
+Note that `name` and `patriarch` are mutually exclusive. No family can have
+both. A family that has a `name` cannot have a `patriarch`.
 
-_Default_: `undefined`
+_Default:_ Randomized.
 
-##### `options.circumstances.special`
+###### `params.birth.family.patriarch`
 
-Either `null` or a string code specifying a special circumstance that would be
-commemorated in the naming traditions of certain cultures.
+The father’s name, used in patronymic naming traditions. This is only a valid
+option for Bantu, Dutch, Igbo, and Kalinago families.
+
+Note that `patriarch` and `name` are mutually exclusive. No family can have
+both. A family that has a `patriarch` cannot have a `name`.
+
+_Default:_ Randomized.
+
+###### `params.birth.family.anglicization`
+
+The Anglicization of the family name. This is only a valid option for
+Irish families.
+
+_Default:_ Randomized.
+
+###### `params.birth.family.caste`
+
+The caste that the family comes from. This is only a valid option for
+Mandinka families.
+
+_Default:_ Randomized, but it’s `Foro` 97% of the time.
+
+###### `params.birth.family.full`
+
+The full form of the family name. THis is only a valid option for
+Spanish families.
+
+_Default:_ Randomized.
+
+##### `params.birth.order`
+
+The birth order for the person being named. The first-born is `1`, the
+second-born is `2`, and so on.
+
+_Default:_ Randomized.
+
+##### `params.birth.twin`
+
+If this person is the elder of a pair of twins, set this to `1`. If they are
+the younger of a pair of twins, set this to `2`. If they aren’t a twin at all
+(by far the most common case), set this to `false`. And if you want to leave
+it up to chance, set this to `undefined`.
+
+_Default:_ Randomized.
+
+##### `params.birth.weekday`
+
+The day of the week on which this person was born. This is an important factor
+in many West African naming traditions. Modern, English-language weekdays
+(`Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, and
+`Saturday`) work in most cases, but not for the Igbo. The Igbo have a four-day
+week, so you’ll have to supply one of their weekday names: `Eke`, `Oye`,
+`Afor`, or `Nkwo`.
+
+_Default:_ Randomized.
+
+##### `params.birth.special`
+
+A code indicating a special circumstance that accompanied this person’s birth.
 
 | Culture(s)        | Code         | Meaning                                        |
 |-------------------|--------------|------------------------------------------------|
@@ -130,19 +215,19 @@ commemorated in the naming traditions of certain cultures.
 | Akan              | `loves`      | One who loves.                                 |
 | Akan              | `great`      | Great one.                                     |
 | Akan              | `forceful`   | Forceful.                                      |
- | Fon               | `dry`        | Born during the dry season.                    |
- | Fon               | `water`      | Born on the water.                             |
+| Fon               | `dry`        | Born during the dry season.                    |
+| Fon               | `water`      | Born on the water.                             |
 | Fon               | `conflict`   | Born in a time of family conflict.             |
 | Fon               | `market`     | Born at the market.                            |
 | Fon, Yoruba       | `facedown`   | Born facedown.                                 |
- | Fon               | `day`        | Born during the day.                           |
+| Fon               | `day`        | Born during the day.                           |
 | Fon               | `night`      | Born at night.                                 |
 | Yoruba            | `postterm`   | Post-term birth.                               |
 | Yoruba            | `caul`       | Born covered with caul.                        |
 | Yoruba            | `motherless` | Mother died shortly after birth.               |
 | Yoruba            | `crier`      | A small baby that cried a lot.                 |
 | Yoruba            | `breech`     | Breech birth.                                  |
- | Yoruba            | `knotted`    | Born with knotted hair or dreads.              |
+| Yoruba            | `knotted`    | Born with knotted hair or dreads.              |
 | Yoruba            | `unbroken`   | Born with an unbroken membrane.                |
 | Yoruba            | `festival`   | Born during an important festival.             |
 | Yoruba            | `egungun`    | Born during the Egúngún festival.              |
@@ -150,140 +235,190 @@ commemorated in the naming traditions of certain cultures.
 | Yoruba            | `traveling`  | Born while parents were out of town.           |
 | Yoruba            | `overseas`   | Born overseas.                                 |
 
-_Default_: `undefined`
 
-##### `options.circumstances.caste`
+_Default:_ Randomized.
 
-Only relevant to Mandinka names. Can be `undefined` or any of the following:
+#### `titles`
 
-| Caste     | Chance | Notes                                                                                                                         |
-|-----------|--------|-------------------------------------------------------------------------------------------------------------------------------|
-| Foro      | 97%    | Freeborn, encompassing farmers, warriors, and nobility alike.                                                                 |
-| Jakhanke  | 1%     | The Islamic priestly class.                                                                                                   |
-| Jali      | 1%     | The griots — storytellers, praise singers, historians, and musicians.                                                         |
-| Nyamakala | 1%     | Artisans and other talented people, though the only special names designated in this module are for blacksmiths specifically. |
+Different naming traditions have different ways of breaking up names for formal
+address. This dictionary supplies titles you’s like to see used with the
+generated name. Each entry can be either a string (e.g., `{ captain: 'Captain' )`)
+or a gendered pair (e.g., `{ mister: { m: 'Mr.', f: 'Mrs.' }`).
 
-If `undefined`, a caste is chosen at rndom, using the odds listed above.
-
-_Default_: `undefined`
-
-#### Returns
-
-##### `person.born`
-
-If you provided a `circumstances` parameter, everything you provided is
-included in the return object as `born`, plus any circumstances that were
-randomized to generate the name. Circumstances that were not needed to generate
-the name are not included (e.g., only Mandinka characters will have a
-`person.born.caste`).
-
-##### `person.nationality`
-
-The nationality used to generate this person’s name.
-
-##### `person.gender`
-
-The gender used to generate this person’s name.
-
-##### `person.name`
-
-An object providing the generated name.
-
-##### `person.name.full`
-
-The character’s full generated name.
-
-##### `person.name.personal`
-
-The character’s personal name, usually a shorter form that would be used more
-often in casual conversation or between friends.
-
-##### `person.name.family`
-
-The person’s surname, family name, or clan name. There is no such name for
-Bantu, Fon, Igbo, Kalinago, Miskito, Taíno, or Yoruba names. For Spanish and
-Portuguese names, it’s the father’s surname, which is the one used in the
-shortened form of the name.
-
-##### `person.name.relations`
-
-An array of relatives that the person’s name implies. For example, a Dutch
-character named _Janszoon_ must have a father name _Jan_. A Yoruba named
-_Táíwò_ must have a twin named _Kẹ́hìndé_. This is not an exhaustive list of
-every character in this person’s life, only those implied by the name. Each
-one has a `relationship` string (`father` for `Jan` or `twin` for _Kẹ́hìndé_),
-with a full `Person` object detailing that other person.
-
-### `generateShipName`
-
-Generates a reasonable ship name for the nationality specified.
-
-* For Spanish ships, we return an instance of the `SpanishShipName`
-  interface. All other nationalities return a string.
-
-#### Signature
+As an example, let’s suppose that you call the following:
 
 ```typescript
-type Colors = 'Spanish' | 'British' | 'French' | 'Dutch'
-
-interface SpanishShipName {
-  religious: string
-  secular: string
-}
-
-interface GenerateShipNameOptions {
-  colors?: Colors
-  martial?: boolean
-  whisper?: string[]
-}
-
-async (options: GenerateShipNameOptions) => Promise<SpanishShipName | string>
+const names = await generatePersonalName(
+  { nationality: 'Welsh', gender: 'Masculine' },
+  {
+    captain: 'Captain',
+    mister: { m: 'Mr.', f: 'Mrs.' },
+    lord: { m: 'Lord', f: 'Lady' }
+  }
+)
 ```
 
-#### Parameters
-
-##### `options.colors`
-
-Sets the nationality that the name should be taken from.
-
-_Default:_ Roll on the _Colors_ roll table included in the module. This
-reflects the relative dominance of each nation in the Caribbean during the
-Golden Age of Piracy.
-
-#### `options.martial`
-
-If `true`, we use the man-of-war roll tables, which are more likely to return
-names related to warfare or other martial pursuits. Otherwise, the ship is
-named as a civilian ship, with names that are more likely to be related to
-trade and commerce.
-
-_Default_: `false`
-
-#### `options.whisper`
-
-A string of user IDs. If provided, a message will be whispered to these users
-with the generated name.
-
-_Default_: `undefined`
-
-### `generatePirateShipName`
-
-Generates a pirate ship name.
-
-#### Signature
+And you just so happen to roll up _William Kidd_. Then the `forms` element
+of that name would be:
 
 ```typescript
-async (whisper: string[] = []) => Promise<string>
+const forms = {
+  full: 'William Kidd',
+  personal: 'William',
+  captain: 'Captain Kidd',
+  mister: 'Mr. Kidd',
+  lord: 'Lord Kidd'
+}
 ```
 
-#### Parameters
+_Default:_ `{ mister: { m: 'Mr.', f: 'Mrs.' }`
 
 #### `whisper`
 
 A string of user IDs. If provided, a message will be whispered to these users
 with the generated name.
 
+_Default_: `undefined`
+
+#### Returns
+
+The return value is an array of objects. Usually there’s only one object, but
+Irish names return two: one for the Gaelic name they use in their own community,
+and one for the English name they use for official business. The return object
+is very similar to the `params` passed in, so rather than repeat everything,
+here’s what’s different.
+
+##### `name.forms`
+
+This is a dictionary of variations of the name.
+
+###### `name.forms.full`
+
+The full name.
+
+###### `name.forms.short`
+
+A shorter form of the name. Included only for Spanish and Portuguese names.
+
+###### `name.forms[key]`
+
+The name rendered with each of the titles you requested in `titles`.
+
+##### `name.day`
+
+A name element based on the day of the week on which this person was born.
+Included only in Fon and Igbo names.
+
+##### `name.circumstance`
+
+A name element based on some special circumstance of birth. Included only
+for Akan, Fon, and Yoruba names.
+
+##### `name.order`
+
+A name element based on birth order. Included only for Akan names.
+
+##### `name.twin`
+
+A name element based on twin status. Included only for Akan names.
+
+##### `name.santu`
+
+A _santu_ name, using the Bantu phoneticization of a Portuguese saint,
+indicating that this person is a Catholic or comes from a community of
+Bantu Catholics. Included only for Bantu names.
+
+##### `name.initiation`
+
+A name given to Bantu who have been initiated, indicating a devotion to
+traditional Bantu culture. Included only for Bantu names.
+
+##### `name.surnames`
+
+The full string of surnames that this person uses. Included only for
+Portuguese names.
+
+### `generateShipName`
+
+Generates a reasonable ship name for the nationality specified.
+
+#### Signature
+
+```typescript
+type Colors = 'Spanish' | 'British' | 'French' | 'Dutch' | 'Pirate'
+type ShipRole = 'Merchantman' | 'Man-of-War'
+
+interface ShipParams {
+  colors: Colors
+  role: ShipRole
+  privateer: boolean
+  names: Record<string, string>
+}
+
+async (
+  params?: Partial<ShipParams>,
+  whisper?: string[]
+) => Promise<Record<string, string>>
+```
+
+#### Parameters
+
+##### `params`
+
+An object defining certain elements about the ship to name.
+
+###### `params.colors`
+
+Sets the colors that the ship is sailing under.
+
+_Default:_ Roll on the _Colors_ roll table included in the module. This
+reflects the relative dominance of each faction in the Caribbean during the
+Golden Age of Piracy.
+
+##### `params.role`
+
+If the ship is a merchant vessel (`Merchantman`) or built for naval combat
+(`Man-of-War`).
+
+_Default_: Randomized, but overwhelmingly `Merchantman`.
+
+##### `params.privateer`
+
+If the ship is a privateer vessel. A `Merchantman` can never be a privateer, so
+if you set `{ role: 'Merchantman', privateer: true }`, then `privateer` will be
+set to `false`. Similarly, _all_ pirate vessels are privateers, so
+`{ colors: 'Pirate', privateer: false }` will set `privateer` to `true`. It’s
+for `Man-of-War` ships flying under other colors where this distinction is
+meaningful.
+
+_Default_: Randomized.
+
+##### `params.names`
+
+A dictionary of names that this ship uses (or has used). Usually there’s only
+one, keyed to a lower-case version of the colors. For example,
+`{ colors: 'British' }` will return a key for `british`. There are two major
+exceptions, though:
+
+* Spanish ships of this period had two names: an official, religious name
+  (which you will find keyed under `religious`), and a secular name that was
+  more often used in day-to-day business (keyed under `spanish`).
+* Pirate ships almost never start off as pirate ships, so they have other
+  names from their former life as a legitimate merchantman.
+
+_Default_: `undefined`
+
+##### `whisper`
+
+A string of user IDs. If provided, a message will be whispered to these users
+with the generated name.
+
 _Default_: `[]`
+
+#### Returns
+
+A dictionary of names structured just like `params.names`, but with the
+generated names now filled in.
 
 ### `openGeneratePersonalNameDialog`
 
@@ -292,7 +427,10 @@ This method opens a dialog that allows a user to select the parameters for gener
 #### Signature
 
 ```typescript
-async (onComplete?: (nation: string, type: string) => Promise<void>) => Promise<void>
+async (onComplete?: (
+  n: Nationality | 'Random Person' | 'Random Pirate',
+  g: Gender | 'Random'
+) => Promise<void>) => Promise<void>
 ```
 
 #### Parameters
@@ -303,7 +441,7 @@ This is the method that will be called when the user clicks on the
 **Generate Name** button.
 
 _Default:_ By default, we provide a method that gathers the user’s input from
-the form, passes it to `generateName`, and whispers it to the user. In most
+the form, passes it to `generatePersonalName` and whispers it to the user. In most
 cases, this is the expected behavior, but you can override this if necessary.
 
 ### `openGenerateShipNameDialog`
@@ -313,7 +451,7 @@ This method opens a dialog that allows a user to select the parameters for gener
 #### Signature
 
 ```typescript
-async (onComplete?: (c: Colors | 'Pirate' | 'Random', t: string) => Promise<void>) => Promise<void>
+async (onComplete?: (c: Colors | 'Random', r: ShipRole | 'Random') => Promise<void>) => Promise<void>
 ```
 
 #### Parameters
@@ -324,6 +462,5 @@ This is the method that will be called when the user clicks on the
 **Generate Name** button.
 
 _Default:_ By default, we provide a method that gathers the user’s input from
-the form, passes it to either `generateShipName` or `generatePirateShipName`
-(depending on the value of `c`), and whispers it to the user. In most cases,
-this is the expected behavior, but you can override this if necessary.
+the form, passes it to `generateShipName` and whispers it to the user. In most
+cases, this is the expected behavior, but you can override this if necessary.

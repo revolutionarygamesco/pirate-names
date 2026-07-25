@@ -1,3 +1,16 @@
+### v2.0.0
+* Complete rewrite to an object-oriented architecture.
+* `generatePersonalName` now returns the personal history generated in order to
+  generate the name, so it can be used for other purposes, such as generating
+  names for kin.
+* `generatePersonalName` also takes a dictionary of titles, reporting different
+  forms of the name, including how it would be formulated with each title
+  provided.
+* `generateShipName` now returns a dictionary of names. For many ships there’s
+  only one, but this now standardizes between Spanish ships and others, and
+  allows for pirate ships to also report the names they _used_ to sail under.
+* `generatePirateShipName` eliminated completely.
+
 ### v1.5.0
 * Add Kalinago, Taíno, and Miskito names.
 
