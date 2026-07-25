@@ -49,12 +49,12 @@ const generators: Record<Nationality, PersonalNameGenerator> = {
 const generatePersonalName = async (
   params?: Partial<PersonalNameParams>,
   whisper?: string[]
-): Promise<PersonalName[]> => {
+): Promise<Array<Record<string, string>>> => {
   const n = params?.nationality ?? await selectRandomNationality()
   const names = await generators[n].generate(params)
 
   if (whisper) await sendMessage(names, whisper)
-  return names
+  return names.map(n => n.toObject().forms)
 }
 
 export default generatePersonalName
