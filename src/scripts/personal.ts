@@ -51,7 +51,7 @@ const generatePersonalName = async (
   params?: Partial<PersonalNameParams>,
   titles: Titles = { mister: { m: 'Mr.', f: 'Mrs.' } },
   whisper?: string[]
-): Promise<Array<Record<string, string>>> => {
+): Promise<Array<any>> => {
   if (!isTitles(titles)) throw new Error(`${JSON.stringify(titles)} is not a valid titles dictionary.`)
   const dict = mapTitles(titles)
 
@@ -59,10 +59,7 @@ const generatePersonalName = async (
   const names = await generators[n].generate(params)
 
   if (whisper) await sendMessage(names, whisper)
-  return names.map(n => ({
-    nationality: n.nationality,
-    ...n.toObject(dict).forms
-  }))
+  return names.map(n => n.toObject(dict))
 }
 
 export default generatePersonalName

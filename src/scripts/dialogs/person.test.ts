@@ -22,7 +22,7 @@ describe('Person Dialog defaultOnComplete', () => {
 
   it('passes valid nationality, gender through', async () => {
     await defaultOnComplete('Akan', 'Feminine')
-    expect(spy).toHaveBeenCalledWith(expect.objectContaining({ nationality: 'Akan', gender: 'Feminine' }), ['user-1'])
+    expect(spy).toHaveBeenCalledWith(expect.objectContaining({ nationality: 'Akan', gender: 'Feminine' }), undefined, ['user-1'])
   })
 
   it('selects random nationality when the string is not valid', async () => {

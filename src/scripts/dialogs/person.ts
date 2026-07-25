@@ -21,7 +21,7 @@ export const defaultOnComplete = async (
   const scope = n === 'Random Pirate' ? 'pirate' : 'person'
   const nationality: Nationality = isNationality(n) ? n : await selectRandomNationality(scope)
   const gender: Gender = isGender(g) ? g : selectRandomGender()
-  await generatePersonalName({ nationality, gender }, [game.user.id])
+  await generatePersonalName({ nationality, gender }, undefined, [game.user.id])
 }
 
 const openGeneratePersonalNameDialog = async (
