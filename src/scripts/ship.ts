@@ -5,9 +5,9 @@ import Ship, { type ShipParams } from './classes/ship.ts'
 const generateShipName = async (
   params?: Partial<ShipParams>,
   whisper?: string[]
-): Promise<Ship> => {
+): Promise<Record<string, string>> => {
   const ship = await Ship.generate(params)
-  if (!whisper) return ship
+  if (!whisper) return ship.names
 
   const t = scopeLocalizer([MODULE_ID, 'message'].join('.'))
   const speaker = t(['speaker'])
@@ -19,7 +19,7 @@ const generateShipName = async (
   })
 
   await whisperMessage({ speaker, flavor, content, recipients: whisper })
-  return ship
+  return ship.names
 }
 
 export default generateShipName

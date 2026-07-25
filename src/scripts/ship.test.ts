@@ -6,10 +6,10 @@ import generateShipName from './ship.ts'
 const payload = (create: Mock) => create.mock.calls[0]![0]
 
 describe('generateShipName', () => {
-  it('returns the ship', async () => {
+  it('returns the ship’s names', async () => {
     const create = mockChatMessage()
     const ship = await generateShipName({ colors: 'British', role: 'Merchantman' })
-    expect(ship).toBeInstanceOf(Ship)
+    expect(ship.british).toBeDefined()
     expect(create).not.toHaveBeenCalled()
   })
 
