@@ -72,6 +72,7 @@ interface PersonalNameParams {
   gender: Gender
   nationality: Nationality,
   birth: BirthContextData
+  personal: string // You can set the personal name if you like.
 }
 
 interface PersonalNameForms {
@@ -82,6 +83,13 @@ interface PersonalNameForms {
   [key: string]: string // Filled in using the titles map you pass in
 }
 
+interface PersonalNameData {
+  gender: Gender
+  nationality: Nationality,
+  birth: BirthContextData,
+  forms: PersonalNameForms
+}
+
 interface Titles {
   [key: string]: string | { m: string, f: string }
 }
@@ -90,7 +98,7 @@ async (
   params?: Partial<PersonalNameParams>,
   titles: Titles = { mister: { m: 'Mr.', f: 'Mrs.' } },
   whisper?: string[]
-) => Promise<Array<Record<string, string>>>
+) => Promise<PersonalNameData[]>
 ```
 
 #### Parameters

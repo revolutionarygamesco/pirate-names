@@ -2,7 +2,7 @@ import { selectRandomNationality, type Nationality } from './types/enums/nationa
 import { isTitles, mapTitles, type Titles } from './types/titles.ts'
 import sendMessage from './message.ts'
 
-import PersonalName, { type PersonalNameParams } from './classes/personal-names/base.ts'
+import PersonalName, { type PersonalNameParams, type PersonalNameData } from './classes/personal-names/base.ts'
 import BirthContext from './classes/birth/base.ts'
 
 import AkanPersonalName from './classes/personal-names/akan.ts'
@@ -51,7 +51,7 @@ const generatePersonalName = async (
   params?: Partial<PersonalNameParams>,
   titles: Titles = { mister: { m: 'Mr.', f: 'Mrs.' } },
   whisper?: string[]
-): Promise<Array<any>> => {
+): Promise<PersonalNameData[]> => {
   if (!isTitles(titles)) throw new Error(`${JSON.stringify(titles)} is not a valid titles dictionary.`)
   const dict = mapTitles(titles)
 
