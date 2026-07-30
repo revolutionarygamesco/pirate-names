@@ -1,3 +1,6 @@
+### v2.0.1
+* Use WebP for flags instead of PNG.
+
 ### v2.0.0
 * Complete rewrite to an object-oriented architecture.
 * `generatePersonalName` now returns the personal history generated in order to
