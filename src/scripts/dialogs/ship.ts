@@ -31,7 +31,7 @@ const openGenerateShipNameDialog = async (
   const options = ['Random', ...colors].map(option => ({
     value: option,
     label: t(['colors', 'options', option]),
-    flag: `modules/${MODULE_ID}/images/${option.toLowerCase()}.png`,
+    flag: `modules/${MODULE_ID}/images/${option.toLowerCase()}.webp`,
     checked: option === 'Random'
   }))
 

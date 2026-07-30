@@ -14,7 +14,7 @@ const generateShipName = async (
   const flavor = t(['flavor', 'ship'], { nation: ship.colors, role: ship.role.toLowerCase() })
   const content = t(['ship'], {
     name: ship.toString(),
-    src: `modules/${MODULE_ID}/images/${ship.colors.toLowerCase()}.png`,
+    src: `modules/${MODULE_ID}/images/${ship.colors.toLowerCase()}.webp`,
     alt: ship.colors
   })
 
